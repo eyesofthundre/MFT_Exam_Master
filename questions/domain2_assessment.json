@@ -1,0 +1,168 @@
+[
+  {
+    "id": 201,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": ["DSM-5", "Major Depression", "diagnosis"],
+    "vignette": "A 35-year-old woman presents reporting sadness, loss of interest in activities she previously enjoyed, fatigue, difficulty concentrating, feelings of worthlessness, and thoughts that her family would be better off without her. These symptoms have been present nearly every day for the past three weeks. She has no history of manic or hypomanic episodes.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Adjustment Disorder with Depressed Mood",
+      "Persistent Depressive Disorder (Dysthymia)",
+      "Major Depressive Disorder, Single Episode",
+      "Bipolar I Disorder, Current Episode Depressed"
+    ],
+    "correct": 2,
+    "explanation": "This client meets DSM-5-TR criteria for Major Depressive Disorder (MDD). She exhibits five symptoms (depressed mood, anhedonia, fatigue, concentration problems, worthlessness) present for three weeks. MDD requires at least five symptoms during a two-week period, with at least one being either depressed mood OR loss of interest/pleasure. The suicidal ideation increases severity. No manic episodes rules out Bipolar; duration of three weeks (not two years) rules out Persistent Depressive Disorder.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Morrison, J. (2014). DSM-5 Made Easy: The Clinician's Guide to Diagnosis. Guilford Press."
+  },
+  {
+    "id": 202,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": ["genogram", "assessment", "McGoldrick"],
+    "question": "A genogram is BEST described as:",
+    "options": [
+      "A diagram of the family's connections to community resources and social systems",
+      "A graphic representation of family structure and relationships across multiple generations",
+      "A timeline showing the family's developmental transitions and life events",
+      "A chart displaying communication patterns and alliances within the nuclear family"
+    ],
+    "correct": 1,
+    "explanation": "A genogram is a graphic representation of a family tree that displays detailed family structure and relationships across multiple generations (typically three). Developed and popularized by McGoldrick, Gerson, and Bowen, genograms use standardized symbols to show family composition, relationships, patterns, and significant information. They differ from ecomaps (community connections) and timelines (chronological events).",
+    "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). Norton; Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson."
+  },
+  {
+    "id": 203,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": ["Gottman", "Four Horsemen", "assessment"],
+    "vignette": "During a couples assessment, the wife expresses concern about an issue. The husband rolls his eyes, makes a sarcastic comment ('Oh, here we go again with your complaints'), and speaks in a mocking tone. This pattern occurs repeatedly throughout the session.",
+    "question": "According to Gottman's research, this behavior is BEST described as:",
+    "options": [
+      "Criticism - attacking the partner's character",
+      "Contempt - treating the partner with disrespect and mockery",
+      "Defensiveness - making excuses and counter-attacking",
+      "Stonewalling - withdrawing and refusing to engage"
+    ],
+    "correct": 1,
+    "explanation": "This exemplifies contempt, one of Gottman's 'Four Horsemen of the Apocalypse' that predict relationship failure. Contempt involves treating one's partner with disrespect, mockery, ridicule, sarcasm, eye-rolling, or hostile humor. Gottman's research found contempt is the single best predictor of divorce because it communicates disgust and superiority, which are particularly corrosive to relationships.",
+    "citation": "Gottman, J. M. (1994). What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes. Lawrence Erlbaum; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers."
+  },
+  {
+    "id": 204,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": ["GAD", "DSM-5", "anxiety"],
+    "question": "According to DSM-5-TR, the minimum duration of symptoms required for a diagnosis of Generalized Anxiety Disorder is:",
+    "options": [
+      "Two weeks",
+      "One month",
+      "Six months",
+      "One year"
+    ],
+    "correct": 2,
+    "explanation": "Generalized Anxiety Disorder (GAD) requires excessive anxiety and worry about multiple areas occurring more days than not for at least six months. This duration criterion distinguishes GAD from shorter-term anxiety reactions and ensures the anxiety is persistent and chronic rather than transient.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 205,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": ["suicide assessment", "risk factors", "crisis"],
+    "question": "Which of the following is considered the STRONGEST predictor of future suicide attempts?",
+    "options": [
+      "Current suicidal ideation with a specific plan",
+      "Family history of mental illness",
+      "History of prior suicide attempts",
+      "Recent significant life stressor"
+    ],
+    "correct": 2,
+    "explanation": "Research consistently shows that prior suicide attempts are the strongest single predictor of future attempts and completed suicide. While current ideation with a plan, family history, and recent stressors are all important risk factors, past suicidal behavior is the most powerful predictor. This is why thorough assessment always includes questions about previous attempts.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Rudd, M. D., Berman, A. L., Joiner, T. E., et al. (2006). Warning Signs for Suicide: Theory, Research, and Clinical Applications. Suicide and Life-Threatening Behavior, 36(3), 255-262."
+  },
+  {
+    "id": 206,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": ["PTSD", "DSM-5", "trauma"],
+    "vignette": "A client reports intrusive memories of a car accident that occurred six weeks ago. She avoids driving, experiences hypervigilance when near traffic, has difficulty sleeping, and reports feeling emotionally numb. The symptoms began three days after the accident.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Acute Stress Disorder",
+      "Posttraumatic Stress Disorder",
+      "Adjustment Disorder with Anxiety",
+      "Specific Phobia, Situational Type"
+    ],
+    "correct": 0,
+    "explanation": "Acute Stress Disorder (ASD) is diagnosed when trauma symptoms occur 3 days to 1 month after a traumatic event. This client's symptoms (intrusive thoughts, avoidance, hypervigilance, emotional numbing) started three days post-trauma and have persisted for six weeks. PTSD requires symptoms lasting more than one month. If her symptoms persist beyond one month post-trauma, the diagnosis would change to PTSD.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Bryant, R. A. (2011). Acute Stress Disorder as a Predictor of Posttraumatic Stress Disorder: A Systematic Review. Journal of Clinical Psychiatry, 72(2), 233-239."
+  },
+  {
+    "id": 207,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": ["Substance Use", "DSM-5", "severity"],
+    "vignette": "A 42-year-old man reports drinking 6-8 beers nightly (though his wife says it's more like 8-10). He has missed work several times due to hangovers, his wife has threatened to leave due to his drinking, and he has tried unsuccessfully to cut back multiple times. He denies withdrawal symptoms and has never sought treatment.",
+    "question": "Based on this information, the MOST appropriate diagnosis is:",
+    "options": [
+      "Alcohol Use, Social Drinking Pattern",
+      "Alcohol-Induced Mood Disorder",
+      "Alcohol Use Disorder, Moderate Severity",
+      "Adjustment Disorder with Anxiety"
+    ],
+    "correct": 2,
+    "explanation": "This client meets DSM-5-TR criteria for Alcohol Use Disorder at moderate severity. He demonstrates: (1) tolerance/increased use, (2) repeated unsuccessful efforts to cut down, (3) continued use despite interpersonal problems (marital conflict), and (4) impairment in major role obligations (missing work). That's 4 criteria, which indicates moderate severity (2-3 criteria = mild, 4-5 = moderate, 6+ = severe). The discrepancy between his report and his wife's observation suggests minimization.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Morrison, J. (2014). DSM-5 Made Easy: The Clinician's Guide to Diagnosis. Guilford Press."
+  },
+  {
+    "id": 208,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": ["ecomap", "assessment", "systems"],
+    "question": "An ecomap is used to:",
+    "options": [
+      "Display family structure across three generations",
+      "Map the family's connections to external systems and resources",
+      "Track the sequence of family developmental transitions",
+      "Illustrate communication patterns within the nuclear family"
+    ],
+    "correct": 1,
+    "explanation": "An ecomap is an assessment tool that maps the family's connections to outside systems such as work, school, extended family, friends, healthcare, religious communities, and social services. It shows the nature and quality of these connections (supportive, stressful, or conflicted) and helps identify resources and sources of stress in the family's social ecology. This differs from a genogram, which focuses on internal family structure.",
+    "citation": "Hartman, A. (1995). Diagrammatic Assessment of Family Relationships. Families in Society, 76(2), 111-122; McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). Norton."
+  },
+  {
+    "id": 209,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": ["Anorexia", "DSM-5", "eating disorders"],
+    "vignette": "A 16-year-old girl weighs 85 pounds (BMI 14.5, below 5th percentile for age). She reports intense fear of gaining weight, exercises 3-4 hours daily, and sees herself as 'fat' despite being significantly underweight. She achieved this weight through severe calorie restriction and has never engaged in binge eating or purging.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Bulimia Nervosa",
+      "Anorexia Nervosa, Restricting Type",
+      "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+      "Body Dysmorphic Disorder"
+    ],
+    "correct": 1,
+    "explanation": "This adolescent meets DSM-5-TR criteria for Anorexia Nervosa, Restricting Type. She demonstrates: (1) restriction of energy intake leading to significantly low body weight, (2) intense fear of gaining weight, and (3) disturbance in body image (sees herself as 'fat' despite low weight). The 'Restricting Type' specifier applies because weight loss is achieved through dieting, fasting, and excessive exercise without regular binge-eating or purging behaviors.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Fisher, M. (2017). The Course and Outcome of Eating Disorders in Adults and Adolescents: A Review. Adolescent Medicine: State of the Art Reviews, 28(3), 679-697."
+  },
+  {
+    "id": 210,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": ["differential diagnosis", "assessment", "clinical judgment"],
+    "vignette": "An 8-year-old child presents with poor attention in school, difficulty following multi-step instructions, frequent daydreaming, and losing belongings. Teachers report he seems 'in his own world.' Parents recently divorced after years of high conflict. Symptoms began approximately 2 months after parents separated.",
+    "question": "To make an accurate diagnosis, the therapist should FIRST:",
+    "options": [
+      "Diagnose ADHD, Predominantly Inattentive Presentation, and begin treatment",
+      "Assess whether symptoms are better explained by the recent family stressor and trauma",
+      "Refer for neuropsychological testing to rule out learning disabilities",
+      "Recommend stimulant medication evaluation by a psychiatrist"
+    ],
+    "correct": 1,
+    "explanation": "The temporal relationship between symptom onset and parental divorce is crucial for differential diagnosis. ADHD symptoms must be present before age 12 and in multiple settings, but more importantly, symptoms that emerge acutely in response to a significant stressor may indicate Adjustment Disorder or trauma-related symptoms rather than ADHD. The therapist must assess the impact of parental conflict and divorce before attributing symptoms to a neurodevelopmental disorder. Premature diagnosis and treatment could miss the actual etiology.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Emery, R. E. (2012). Renegotiating Family Relationships: Divorce, Child Custody, and Mediation (2nd ed.). Guilford Press."
+  }
+]

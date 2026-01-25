@@ -1,0 +1,168 @@
+[
+  {
+    "id": 401,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination", "process", "ending therapy"],
+    "question": "When a family reports that their treatment goals have been substantially met, the therapist should:",
+    "options": [
+      "Continue therapy indefinitely to prevent relapse",
+      "Discuss termination, review progress, and develop a relapse prevention plan",
+      "Immediately terminate therapy to avoid creating dependency",
+      "Suggest ongoing maintenance sessions every month for the next year"
+    ],
+    "correct": 1,
+    "explanation": "When treatment goals have been substantially met, appropriate termination involves: (1) acknowledging and reviewing progress, (2) discussing relapse prevention strategies, (3) processing feelings about ending, (4) affirming the family's capability, and (5) establishing that the door remains open for future contact if needed. This therapeutic termination consolidates gains and prepares the family to maintain progress independently.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy: Bringing Meaningful Closure to Therapeutic Relationships. Jossey-Bass; Quintana, S. M. (1993). Toward an Expanded and Updated Conceptualization of Termination. Professional Psychology: Research and Practice, 24(4), 426-432."
+  },
+  {
+    "id": 402,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["outcome measurement", "progress", "assessment"],
+    "question": "The MOST reliable method for evaluating therapeutic progress is:",
+    "options": [
+      "The therapist's subjective impression of improvement",
+      "Use of standardized assessment measures at intake and termination",
+      "Family members' verbal reports of feeling better",
+      "Number of sessions attended by all family members"
+    ],
+    "correct": 1,
+    "explanation": "Standardized assessment instruments provide the most reliable, objective measure of change because they have established reliability and validity, provide quantifiable data, allow pre-post comparison, reduce subjective bias, and can assess multiple domains of functioning. Using the same measures at intake and termination allows for objective assessment of progress beyond subjective impressions.",
+    "citation": "Pinsof, W. M., & Wynne, L. C. (1995). The Effectiveness and Efficacy of Marital and Family Therapy: An Empirical Overview, Conclusions, and Recommendations. Journal of Marital and Family Therapy, 21(4), 585-613; American Association for Marriage and Family Therapy (2015). MFT Core Competencies."
+  },
+  {
+    "id": 403,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["termination", "client return", "follow-up"],
+    "vignette": "A family successfully completed therapy six months ago. They now call requesting to return for several sessions to address a new stressor (job loss). The therapist feels disappointed, viewing their return as evidence of treatment failure.",
+    "question": "The therapist's reaction:",
+    "options": [
+      "Is appropriate; returning to therapy indicates the original treatment was ineffective",
+      "Reflects a misunderstanding of the nature of family development and ongoing life challenges",
+      "Suggests the family was prematurely terminated from therapy",
+      "Indicates the therapist should refer them to another clinician"
+    ],
+    "correct": 1,
+    "explanation": "Returning to therapy after successful completion is not uncommon and should not be viewed as failure. Families face ongoing developmental challenges and life stressors. Brief returns to therapy ('booster sessions') can help families maintain long-term progress and navigate new challenges using skills learned in previous treatment. This demonstrates appropriate use of therapy as a resource. Change is nonlinear, and the therapist's perception of return as failure reflects unrealistic expectations.",
+    "citation": "Lambert, M. J. (2007). Presidential Address: What We Have Learned from a Decade of Research Aimed at Improving Psychotherapy Outcome in Routine Care. Psychotherapy Research, 17(1), 1-14; Pinsof, W. M., & Wynne, L. C. (1995). The Effectiveness and Efficacy of Marital and Family Therapy. Journal of Marital and Family Therapy, 21(4), 585-613."
+  },
+  {
+    "id": 404,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["stuck therapy", "impasse", "clinical judgment"],
+    "vignette": "After 12 sessions, a family shows no measurable progress toward their goals despite the therapist's consistent efforts. The family attends regularly and seems engaged, but patterns remain unchanged.",
+    "question": "The therapist's MOST appropriate response is to:",
+    "options": [
+      "Continue the same approach, as change takes time",
+      "Assess treatment effectiveness, consider different approaches or consultation",
+      "Interpret the family's resistance to change",
+      "Terminate therapy without discussion since it's clearly not working"
+    ],
+    "correct": 1,
+    "explanation": "When therapy isn't progressing despite sustained effort, the ethical response is to: (1) honestly assess treatment effectiveness, (2) discuss progress with the family, (3) consider alternative therapeutic approaches, (4) seek consultation or supervision, and (5) consider referral if appropriate. Continuing ineffective treatment is not in clients' best interest. The lack of progress may indicate poor fit between therapist approach and family needs, requiring a different intervention strategy.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III [Professional Competence and Integrity]; Pinsof, W. M., & Wynne, L. C. (1995). The Effectiveness and Efficacy of Marital and Family Therapy. Journal of Marital and Family Therapy, 21(4), 585-613."
+  },
+  {
+    "id": 405,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination", "feelings", "processing"],
+    "vignette": "As termination approaches, a family expresses sadness and worry about 'not making it' without the therapist's support.",
+    "question": "The therapist should:",
+    "options": [
+      "Minimize these concerns to avoid prolonging termination",
+      "Normalize their feelings, review progress, and reinforce their capability",
+      "Continue therapy until they feel completely confident",
+      "Offer indefinite check-in sessions to provide ongoing support"
+    ],
+    "correct": 1,
+    "explanation": "Sadness and worry about ending therapy are normal reactions that should be acknowledged and validated. The therapeutic response is to: (1) normalize these feelings, (2) review the progress and changes they've made, (3) remind them of skills and insights developed, (4) reinforce their capability to maintain progress, and (5) discuss that the door remains open if needed. This builds confidence while processing the ending appropriately.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Quintana, S. M. (1993). Toward an Expanded and Updated Conceptualization of Termination. Professional Psychology: Research and Practice, 24(4), 426-432."
+  },
+  {
+    "id": 406,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["progress evaluation", "measurement", "outcomes"],
+    "question": "Which of the following is the BEST indicator of successful couples therapy outcome?",
+    "options": [
+      "The couple no longer argues or disagrees",
+      "Both partners report increased relationship satisfaction and improved communication",
+      "The couple decides to stay married rather than divorce",
+      "The therapist observes improved interaction patterns in session"
+    ],
+    "correct": 1,
+    "explanation": "Successful outcome in couples therapy is best measured by partners' reports of increased satisfaction and improved functioning (communication, conflict resolution, emotional connection), not by absence of conflict or relationship decisions. Healthy couples disagree; the goal is constructive conflict management. Whether couples stay together or separate, they may both represent successful outcomes if the decision is informed and both partners are healthier. Self-reported satisfaction is the gold standard outcome measure.",
+    "citation": "Gottman, J. M., & Gottman, J. S. (2017). The Natural Principles of Love. Journal of Family Theory & Review, 9(1), 7-26; Whisman, M. A., Dixon, A. E., & Johnson, B. (1997). Therapists' Perspectives of Couple Problems and Treatment Issues in Couple Therapy. Journal of Family Psychology, 11(3), 361-366."
+  },
+  {
+    "id": 407,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["unplanned termination", "dropout", "clinical response"],
+    "vignette": "After four sessions, a family stops attending and doesn't respond to the therapist's phone messages. Three months later, they call requesting to resume therapy.",
+    "question": "The therapist should:",
+    "options": [
+      "Refuse to see them because they terminated improperly",
+      "Welcome them back and explore what happened without judgment",
+      "Require them to explain and apologize for stopping without notice",
+      "Refer them to another therapist to start fresh"
+    ],
+    "correct": 1,
+    "explanation": "Unplanned termination or dropout is common in family therapy. When clients return, the therapeutic response is to welcome them non-judgmentally and explore what happened. There may have been valid reasons for stopping (financial, scheduling, dissatisfaction with therapy, improvement, external barriers). Refusing service or demanding explanation creates barriers. This is an opportunity to understand obstacles, address concerns, and potentially re-engage them more effectively.",
+    "citation": "Barrett, M. S., Chua, W. J., Crits-Christoph, P., Gibbons, M. B., & Thompson, D. (2008). Early Withdrawal from Mental Health Treatment: Implications for Psychotherapy Practice. Psychotherapy, 45(2), 247-267; Owen, J., Duncan, B., Anker, M., & Sparks, J. (2012). Using Client Feedback to Inform and Improve Training Outcomes. Clinical Supervisor, 31(2), 180-194."
+  },
+  {
+    "id": 408,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["relapse prevention", "maintenance", "consolidation"],
+    "question": "A key component of effective relapse prevention planning in termination is:",
+    "options": [
+      "Scheduling monthly maintenance sessions indefinitely",
+      "Helping clients identify early warning signs and coping strategies",
+      "Ensuring clients feel completely confident they'll never struggle again",
+      "Providing the therapist's personal phone number for emergencies"
+    ],
+    "correct": 1,
+    "explanation": "Effective relapse prevention involves helping clients: (1) identify early warning signs of problem recurrence, (2) develop specific coping strategies, (3) recognize their own competence and resources, (4) know when and how to seek help if needed, and (5) normalize that setbacks may occur. The goal is to prepare clients to manage challenges independently, not to create ongoing dependence or unrealistic expectations of never struggling.",
+    "citation": "Marlatt, G. A., & Donovan, D. M. (Eds.) (2005). Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors (2nd ed.). Guilford Press; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 409,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination review", "consolidation", "learning"],
+    "vignette": "During the final session, the therapist asks the family: 'Looking back over our work together, what have you learned that will be most helpful going forward?'",
+    "question": "The primary purpose of this question is:",
+    "options": [
+      "To gather data for the therapist's outcome research",
+      "To help the family consolidate learning and prepare for maintaining changes",
+      "To evaluate the therapist's effectiveness",
+      "To determine if additional sessions are needed"
+    ],
+    "correct": 1,
+    "explanation": "The termination review process serves important therapeutic functions: (1) consolidates learning by having clients articulate what they've learned, (2) identifies strategies that were helpful, (3) creates a mental 'toolkit' for future challenges, (4) builds confidence in their capability, and (5) serves as relapse prevention by helping clients plan how to handle future difficulties. This final consolidation strengthens long-term maintenance of therapeutic gains.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Quintana, S. M., & Holahan, W. (1992). Termination in Short-Term Counseling: Comparison of Successful and Unsuccessful Cases. Journal of Counseling Psychology, 39(3), 299-305."
+  },
+  {
+    "id": 410,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["premature termination", "clinical judgment", "ethics"],
+    "vignette": "A therapist has been seeing a family for significant trauma issues for 8 sessions. The family's insurance coverage ends, and they cannot afford to continue. Significant therapeutic work remains incomplete.",
+    "question": "The therapist's ethical responsibility is to:",
+    "options": [
+      "Terminate immediately since they cannot pay",
+      "Continue seeing them pro bono indefinitely",
+      "Discuss options including sliding scale, referrals, and community resources",
+      "Report the insurance company for inadequate coverage"
+    ],
+    "correct": 2,
+    "explanation": "When financial barriers threaten to prematurely end treatment, the therapist's ethical responsibility is to help the family explore options, which may include: (1) sliding scale or reduced fees if feasible, (2) less frequent sessions, (3) referral to community mental health centers or low-cost clinics, (4) connecting them with resources, and (5) providing brief termination/stabilization if needed. The AAMFT Code of Ethics encourages pro bono work but doesn't require indefinite free service. The key is not abandoning clients and helping them access continued care.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I [Responsibility to Clients]; Knapp, S., & VandeCreek, L. (2012). Practical Ethics for Psychologists: A Positive Approach (2nd ed.). American Psychological Association."
+  }
+]

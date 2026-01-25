@@ -1,0 +1,164 @@
+[
+  {
+    "id": 101,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "easy",
+    "tags": ["Bowen", "differentiation", "theory"],
+    "question": "According to Bowen's Family Systems Theory, differentiation of self refers to:",
+    "options": [
+      "The ability to separate thinking from feeling and maintain autonomy within relationships",
+      "The process by which children become independent from their parents",
+      "The therapist's ability to remain neutral with all family members",
+      "The distinction between functional and dysfunctional family patterns"
+    ],
+    "correct": 0,
+    "explanation": "Differentiation of self is a core concept in Bowen Family Systems Theory. It refers to the degree to which a person can distinguish between their intellectual and emotional functioning and maintain a sense of self while remaining emotionally connected to others. Well-differentiated individuals can think clearly even under stress, make decisions based on principles rather than emotional reactivity, and maintain closeness without fusion or emotional cutoff.",
+    "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. Norton."
+  },
+  {
+    "id": 102,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "medium",
+    "tags": ["Structural", "Minuchin", "techniques"],
+    "question": "In Structural Family Therapy, when a therapist deliberately supports one family member or subsystem against another to challenge the existing family structure, this technique is called:",
+    "options": [
+      "Joining",
+      "Enactment",
+      "Unbalancing",
+      "Reframing"
+    ],
+    "correct": 2,
+    "explanation": "Unbalancing is a Structural Family Therapy technique where the therapist deliberately supports one family member or subsystem over another to disrupt the existing family structure and create therapeutic change. This is done strategically to challenge rigid patterns and hierarchies.",
+    "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press."
+  },
+  {
+    "id": 103,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "easy",
+    "tags": ["cybernetics", "theory", "systems"],
+    "question": "Which of the following BEST describes a first-order cybernetic perspective?",
+    "options": [
+      "The observer is separate from the observed system and can objectively study it",
+      "The therapist is part of the therapeutic system and influences what is observed",
+      "Reality is socially constructed through language and interaction",
+      "Multiple perspectives are equally valid and co-create meaning"
+    ],
+    "correct": 0,
+    "explanation": "First-order cybernetics operates from the assumption that the observer (therapist) is outside the system being observed and can objectively study it. This represents an earlier, more mechanistic view of systems theory. In contrast, second-order cybernetics recognizes that the observer is part of the system and influences what is observed.",
+    "citation": "Becvar, D. S., & Becvar, R. J. (2013). Family Therapy: A Systemic Integration (8th ed.). Pearson; Hoffman, L. (1981). Foundations of Family Therapy. Basic Books."
+  },
+  {
+    "id": 104,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "medium",
+    "tags": ["Strategic", "MRI", "problem-maintaining"],
+    "question": "According to the Mental Research Institute (MRI) model of Strategic therapy, the primary focus of treatment is:",
+    "options": [
+      "Resolving underlying emotional conflicts from childhood",
+      "Restructuring rigid family boundaries and hierarchies",
+      "Interrupting problem-maintaining behavioral sequences",
+      "Increasing differentiation of self among family members"
+    ],
+    "correct": 2,
+    "explanation": "The MRI model of Strategic therapy focuses on how attempted solutions to problems often maintain or worsen the problem. The primary therapeutic goal is to interrupt these problem-maintaining sequences by changing the behavioral patterns around the problem, rather than exploring underlying causes or restructuring family organization.",
+    "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. Norton; Fisch, R., Weakland, J. H., & Segal, L. (1982). The Tactics of Change. Jossey-Bass."
+  },
+  {
+    "id": 105,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "easy",
+    "tags": ["Solution-Focused", "SFBT", "miracle question"],
+    "question": "In Solution-Focused Brief Therapy (SFBT), the 'miracle question' is used to:",
+    "options": [
+      "Assess the severity and duration of the presenting problem",
+      "Help clients envision their preferred future without the problem",
+      "Identify specific exceptions to when the problem occurs",
+      "Challenge clients' resistance to therapeutic change"
+    ],
+    "correct": 1,
+    "explanation": "The miracle question is a signature technique in Solution-Focused Brief Therapy. It asks clients to imagine that a miracle occurred overnight and the problem is solved: 'What would be different? How would you know?' This helps clients identify concrete, observable changes they desire and creates hope by focusing on solutions rather than problems.",
+    "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. Norton; Berg, I. K., & Miller, S. D. (1992). Working with the Problem Drinker: A Solution-Focused Approach. Norton."
+  },
+  {
+    "id": 106,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "hard",
+    "tags": ["Milan", "circular questioning", "neutrality"],
+    "vignette": "A family enters therapy for their teenage son's defiant behavior. During the first session, the therapist asks the mother: 'When your husband criticizes your son, what does your daughter do?' Then asks the father: 'When your wife defends your son, how does that affect your relationship with her?'",
+    "question": "This questioning technique is BEST described as:",
+    "options": [
+      "Linear questioning to establish cause-and-effect relationships",
+      "Circular questioning to reveal relational patterns and feedback loops",
+      "Strategic questioning to create therapeutic paradoxes",
+      "Exception-finding questions to identify times without the problem"
+    ],
+    "correct": 1,
+    "explanation": "This exemplifies circular questioning, developed by the Milan systemic therapy team. Circular questions ask family members to describe relationships between other family members or comment on how one person's behavior affects another. These questions reveal circular causality and recursive patterns in family interaction, moving beyond linear cause-and-effect thinking.",
+    "citation": "Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1980). Hypothesizing-Circularity-Neutrality: Three Guidelines for the Conductor of the Session. Family Process, 19(1), 3-12; Tomm, K. (1988). Interventive Interviewing: Part III. Intending to Ask Lineal, Circular, Strategic, or Reflexive Questions? Family Process, 27(1), 1-15."
+  },
+  {
+    "id": 107,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "medium",
+    "tags": ["Narrative", "externalization", "White"],
+    "question": "In Narrative therapy, when a therapist helps a client view 'the depression' as separate from the person's identity, this technique is called:",
+    "options": [
+      "Reframing the problem in systemic terms",
+      "Externalizing the problem",
+      "Deconstructing the dominant narrative",
+      "Identifying unique outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Externalization is a core Narrative therapy technique where the problem is linguistically separated from the person's identity. Instead of 'I am depressed' (problem as identity), it becomes 'the depression' (problem as external entity). This reduces shame and blame while empowering the person to take action against the problem.",
+    "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; White, M. (2007). Maps of Narrative Practice. Norton."
+  },
+  {
+    "id": 108,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "easy",
+    "tags": ["EFT", "attachment", "Johnson"],
+    "question": "Emotionally Focused Therapy (EFT) for couples is primarily based on which theoretical foundation?",
+    "options": [
+      "Behavioral learning theory and operant conditioning",
+      "Attachment theory and emotion science",
+      "Cognitive-behavioral models of relationship distress",
+      "Psychodynamic concepts of transference and projection"
+    ],
+    "correct": 1,
+    "explanation": "Emotionally Focused Therapy (EFT), developed by Sue Johnson, is grounded in attachment theory and the science of emotion. EFT views adult romantic relationships as attachment bonds and helps couples restructure their emotional responses and interaction patterns to create secure attachment.",
+    "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy: Creating Connection (2nd ed.). Brunner-Routledge; Johnson, S. M. (2008). Hold Me Tight: Seven Conversations for a Lifetime of Love. Little, Brown."
+  },
+  {
+    "id": 109,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "hard",
+    "tags": ["Bowen", "triangulation", "multigenerational"],
+    "vignette": "A married couple seeks therapy for chronic conflict. The therapist learns that when the couple argues, the husband typically calls his mother to complain about his wife. The mother then criticizes the wife to other family members. When the wife discovers this, the marital conflict intensifies.",
+    "question": "From a Bowen Family Systems perspective, this pattern BEST illustrates:",
+    "options": [
+      "Emotional cutoff between the husband and his family of origin",
+      "Triangulation involving the husband, wife, and mother-in-law",
+      "Appropriate differentiation and boundary maintenance",
+      "Multigenerational transmission of anxiety"
+    ],
+    "correct": 1,
+    "explanation": "This illustrates triangulation, a core Bowen concept where a two-person system under stress pulls in a third person to stabilize the anxiety. The husband triangulates his mother into the marital dyad to reduce tension. However, this pattern ultimately increases overall system anxiety and prevents the couple from resolving their issues directly. Triangulation is a common way families manage anxiety but typically maintains problems rather than resolving them.",
+    "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation: An Approach Based on Bowen Theory. Norton."
+  },
+  {
+    "id": 110,
+    "domain": "Practice of Systemic Therapy",
+    "difficulty": "medium",
+    "tags": ["Structural", "joining", "accommodation"],
+    "question": "In Structural Family Therapy, 'joining' refers to:",
+    "options": [
+      "Combining individual therapy with family therapy sessions",
+      "The therapist adapting to the family's style to establish a therapeutic alliance",
+      "Merging enmeshed subsystems to create clearer boundaries",
+      "Uniting parents in a cohesive parental subsystem"
+    ],
+    "correct": 1,
+    "explanation": "Joining is the process by which the structural therapist accommodates to the family's style, language, and affective range to establish rapport and become part of the therapeutic system. Minuchin emphasized that without successful joining, the therapist cannot have the leverage to restructure the family. Joining involves respecting the family's organization while planning for structural change.",
+    "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press."
+  }
+]

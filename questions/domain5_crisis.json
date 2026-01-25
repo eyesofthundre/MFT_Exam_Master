@@ -1,0 +1,168 @@
+[
+  {
+    "id": 501,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["mandated reporting", "child abuse", "legal"],
+    "vignette": "During a therapy session, a mother casually mentions that she sometimes 'pops' her 4-year-old son 'upside the head' when he misbehaves. She says it leaves bruises but 'kids get bruises all the time.'",
+    "question": "The therapist should:",
+    "options": [
+      "Educate the mother about appropriate discipline before taking any action",
+      "Immediately report to Child Protective Services as a mandated reporter",
+      "Gather more information over several sessions to confirm abuse",
+      "Discuss it privately with the mother to see if she'll stop"
+    ],
+    "correct": 1,
+    "explanation": "Mental health professionals are mandated reporters in all states. When there is reasonable suspicion of child abuse, therapists must report immediately to Child Protective Services or law enforcement. Physical discipline resulting in bruises meets criteria for physical abuse. The therapist doesn't need certainty—reasonable suspicion is sufficient. Mandated reporting takes precedence over confidentiality, therapeutic relationship, and gathering more evidence (which is CPS's job). Failure to report is a legal violation.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.4; State mandated reporting statutes; Kalichman, S. C. (1999). Mandated Reporting of Suspected Child Abuse: Ethics, Law, and Policy (2nd ed.). American Psychological Association."
+  },
+  {
+    "id": 502,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide assessment", "safety planning", "crisis"],
+    "vignette": "A client reports passive suicidal ideation ('Sometimes I wish I wouldn't wake up') but denies active plan, intent, or prior attempts. She has strong family support and her upcoming wedding is in two months.",
+    "question": "This client's suicide risk level is BEST described as:",
+    "options": [
+      "High risk requiring immediate hospitalization",
+      "Moderate risk requiring intensive outpatient treatment",
+      "Low risk with protective factors present, but warrants ongoing monitoring",
+      "No risk since she has no plan or intent"
+    ],
+    "correct": 2,
+    "explanation": "Suicide risk assessment weighs risk factors against protective factors. This client has passive ideation (a risk factor) but no specific plan, no intent, no prior attempts, and strong protective factors (upcoming marriage, family support). Research shows prior attempts are the strongest predictor of future attempts. The presence of strong protective factors and absence of plan/intent/prior attempts suggest lower current risk. However, ongoing monitoring is warranted since ideation is present.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Rudd, M. D., et al. (2006). Warning Signs for Suicide: Theory, Research, and Clinical Applications. Suicide and Life-Threatening Behavior, 36(3), 255-262."
+  },
+  {
+    "id": 503,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["duty to warn", "Tarasoff", "legal"],
+    "vignette": "A client makes a credible threat to kill his ex-girlfriend's new boyfriend, identifying him by name. The client knows where the person works and has access to firearms. When confronted, he says 'I'm just venting' but doesn't retract the threat.",
+    "question": "The therapist's legal and ethical duty is to:",
+    "options": [
+      "Maintain confidentiality since the threat may not be serious",
+      "Warn the intended victim and notify law enforcement",
+      "Increase session frequency to monitor the client more closely",
+      "Discuss the consequences of violence but take no other action"
+    ],
+    "correct": 1,
+    "explanation": "Under Tarasoff v. Regents of the University of California and subsequent case law, therapists have a duty to protect when a client makes a credible, specific threat against an identifiable victim. This duty typically includes: (1) warning the intended victim, (2) notifying law enforcement, and (3) possibly seeking emergency psychiatric evaluation. The specificity of the threat, identification of victim, access to means (firearms), and lack of retraction create a clear duty to warn that overrides confidentiality.",
+    "citation": "Tarasoff v. Regents of the University of California, 17 Cal. 3d 425 (1976); AAMFT Code of Ethics (2015), Principle II; Borum, R., & Reddy, M. (2001). Assessing Violence Risk in Tarasoff Situations: A Fact-Based Model of Inquiry. Behavioral Sciences and the Law, 19(3), 375-385."
+  },
+  {
+    "id": 504,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide safety planning", "crisis intervention", "techniques"],
+    "question": "The MOST important component of a suicide safety plan is:",
+    "options": [
+      "Having the client sign a no-suicide contract",
+      "Identifying warning signs, coping strategies, and sources of support",
+      "Scheduling daily therapy sessions",
+      "Prescribing anti-anxiety medication"
+    ],
+    "correct": 1,
+    "explanation": "Effective suicide safety plans include: (1) recognizing warning signs of crisis, (2) internal coping strategies (things clients can do themselves), (3) social contacts and settings that provide distraction, (4) people who can help, (5) professional resources and crisis lines, and (6) making the environment safer (removing means). No-suicide contracts have been shown to be ineffective and provide false security. Safety plans should be collaborative, specific, and written down.",
+    "citation": "Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention: A Brief Intervention to Mitigate Suicide Risk. Cognitive and Behavioral Practice, 19(2), 256-264; Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press."
+  },
+  {
+    "id": 505,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["elder abuse", "mandated reporting", "legal"],
+    "question": "Therapists are mandated reporters for suspected abuse of:",
+    "options": [
+      "Children only",
+      "Children and dependent adults only",
+      "Children, dependent adults, and elders (65+)",
+      "Any vulnerable person regardless of age"
+    ],
+    "correct": 2,
+    "explanation": "In most states, mental health professionals are mandated reporters for suspected abuse or neglect of children (under 18), dependent adults (adults with physical or mental limitations), and elders (typically 65 and older). The specific age thresholds and definitions vary by state, but the principle of protecting vulnerable populations is consistent. Therapists should know their state's specific mandated reporting requirements.",
+    "citation": "State-specific mandated reporting statutes; AAMFT Code of Ethics (2015), Principle I; National Adult Protective Services Association (NAPSA) guidelines."
+  },
+  {
+    "id": 506,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["child abuse disclosure", "forensic interview", "procedure"],
+    "vignette": "During a family session, a 7-year-old girl suddenly discloses that 'Uncle Tom touched my private parts.' The therapist immediately begins asking detailed questions about what happened, when, where, and how many times.",
+    "question": "The therapist's response is:",
+    "options": [
+      "Appropriate to gather evidence for the mandated report",
+      "Problematic because detailed questioning should be left to forensic interviewers",
+      "Correct because the therapist needs to confirm abuse before reporting",
+      "Required to determine if the disclosure is credible"
+    ],
+    "correct": 1,
+    "explanation": "When a child makes an abuse disclosure, the therapist should: (1) remain calm and supportive, (2) believe and validate the child, (3) explain that they must report to help keep the child safe, and (4) avoid detailed questioning. Forensic interviewers are specially trained to elicit detailed information without leading or contaminating testimony. Well-intentioned but untrained questioning can inadvertently suggest answers, create confusion, or compromise the investigation. The therapist's role is to report the disclosure, not to investigate or gather evidence.",
+    "citation": "Myers, J. E. B. (2011). The APSAC Handbook on Child Maltreatment (3rd ed.). Sage; Faller, K. C. (2007). Interviewing Children About Sexual Abuse: Controversies and Best Practice. Oxford University Press; State mandated reporting guidelines."
+  },
+  {
+    "id": 507,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["hospitalization", "psychiatric emergency", "involuntary"],
+    "vignette": "A client with active suicidal ideation, specific plan, and means refuses voluntary hospitalization. She says 'You can't make me go.' She appears to have capacity to make decisions.",
+    "question": "The therapist should:",
+    "options": [
+      "Respect her autonomy and release her with a safety plan",
+      "Pursue involuntary psychiatric hospitalization as she poses imminent danger to herself",
+      "Call her family to convince her to go voluntarily",
+      "Continue outpatient therapy with daily sessions"
+    ],
+    "correct": 1,
+    "explanation": "When a client poses imminent danger to self (active suicidal ideation + plan + means) and refuses voluntary hospitalization, the therapist has a duty to protect the client's life, which may require pursuing involuntary hospitalization. Most states allow emergency psychiatric holds when a person is a danger to self or others, even against their will. While respecting autonomy is important, the duty to protect life in situations of imminent danger takes precedence. Decision-making capacity is not the primary issue when someone is acutely suicidal.",
+    "citation": "Brendel, D. H., & Bryan, R. (2004). HIPAA for Psychiatrists. American Psychiatric Publishing; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling: A Practical Guide (5th ed.). Wiley."
+  },
+  {
+    "id": 508,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["domestic violence", "safety", "resources"],
+    "question": "When working with a victim of domestic violence, the therapist's FIRST priority is:",
+    "options": [
+      "Helping the client understand why they stay in the relationship",
+      "Assessing current safety and developing a safety plan",
+      "Encouraging the client to leave the relationship immediately",
+      "Processing childhood trauma that led to victimization"
+    ],
+    "correct": 1,
+    "explanation": "Safety is always the first priority when working with domestic violence victims. The therapist should: (1) assess current danger and lethality risk, (2) develop a safety plan including escape plan and resources, (3) provide information about domestic violence shelters and hotlines, (4) document abuse, and (5) support the victim's decision-making without pressure. Understanding relationship dynamics and trauma work come later, after safety is addressed. Pressuring someone to leave can increase danger.",
+    "citation": "Walker, L. E. (2009). The Battered Woman Syndrome (3rd ed.). Springer; National Coalition Against Domestic Violence (NCADV) guidelines; Domestic Abuse Intervention Programs."
+  },
+  {
+    "id": 509,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["homicidal ideation", "threat assessment", "violence risk"],
+    "question": "Which of the following is the STRONGEST predictor of future violence?",
+    "options": [
+      "History of previous violent behavior",
+      "Verbal threats of violence",
+      "Mental illness diagnosis",
+      "Substance abuse"
+    ],
+    "correct": 0,
+    "explanation": "Research consistently shows that past violent behavior is the strongest predictor of future violence. While verbal threats, substance abuse, and some mental illnesses are risk factors, prior history of violence is the most powerful single predictor. This is why violence risk assessment always includes detailed history of past aggressive or violent acts. Mental illness alone is not a strong predictor; most people with mental illness are not violent.",
+    "citation": "Monahan, J., et al. (2001). Rethinking Risk Assessment: The MacArthur Study of Mental Disorder and Violence. Oxford University Press; Otto, R. K., & Douglas, K. S. (Eds.) (2010). Handbook of Violence Risk Assessment. Routledge."
+  },
+  {
+    "id": 510,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["confidentiality", "minor", "abuse disclosure"],
+    "vignette": "A 16-year-old client discloses that her 18-year-old boyfriend is sexually active with her. She says it's consensual and begs the therapist not to tell her parents or report it because 'we're in love and you'll ruin everything.'",
+    "question": "The therapist should:",
+    "options": [
+      "Maintain confidentiality since the client is nearly an adult and it's consensual",
+      "Determine if this meets statutory rape criteria in their state and report if required",
+      "Tell the parents but not make an official report",
+      "Continue therapy and address the relationship dynamics without reporting"
+    ],
+    "correct": 1,
+    "explanation": "The therapist must determine if this relationship meets statutory rape criteria, which varies by state. Many states have laws against sexual activity between adults (18+) and minors under a certain age, even if 'consensual.' Some states have close-in-age exemptions ('Romeo and Juliet laws'). If it meets criteria for statutory rape, the therapist is a mandated reporter and must report to law enforcement/CPS regardless of the teen's wishes. The therapist should know their state's specific laws regarding age of consent, statutory rape, and mandated reporting requirements.",
+    "citation": "State-specific statutory rape laws; AAMFT Code of Ethics (2015), Principle I.4; Boonstra, H. D. (2011). Teen Pregnancy: Trends and Lessons Learned. Guttmacher Policy Review, 5(1), 7-10."
+  }
+]

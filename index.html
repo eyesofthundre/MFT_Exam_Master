@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFT Exam Master - Your Personal Study Companion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+        
+        :root {
+            --primary: #3B82F6;
+            --primary-dark: #2563EB;
+            --primary-light: #DBEAFE;
+            --success: #10B981;
+            --success-light: #D1FAE5;
+            --warning: #F59E0B;
+            --warning-light: #FEF3C7;
+            --danger: #EF4444;
+            --danger-light: #FEE2E2;
+            --purple: #8B5CF6;
+            --purple-light: #EDE9FE;
+            --bg: #F9FAFB;
+            --surface: #FFFFFF;
+            --text: #111827;
+            --text-light: #6B7280;
+            --border: #E5E7EB;
+            --shadow: rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-attachment: fixed;
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .app-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px var(--shadow);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--purple) 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        
+        .logo h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: var(--bg);
+            padding: 12px 20px;
+            border-radius: 50px;
+        }
+        
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--success) 0%, var(--primary) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px var(--shadow);
+        }
+        
+        .card h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+        
+        .welcome-screen {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .welcome-screen h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .welcome-screen p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            margin-bottom: 30px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px var(--primary-light);
+        }
+        
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-family: 'Inter', sans-serif;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #059669;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--primary-light);
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background: #DC2626;
+        }
+        
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .options-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .option-card {
+            background: var(--bg);
+            border: 3px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+        
+        .option-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px var(--shadow);
+        }
+        
+        .option-card.selected {
+            border-color: var(--primary);
+            background: var(--primary-light);
+        }
+        
+        .option-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .option-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .option-card p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        
+        .checkbox-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: var(--bg);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .checkbox-item:hover {
+            background: var(--primary-light);
+        }
+        
+        .checkbox-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .question-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-left: 6px solid var(--primary);
+        }
+        
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .question-number {
+            background: var(--primary);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+        
+        .difficulty-badge {
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        
+        .difficulty-easy {
+            background: var(--success-light);
+            color: var(--success);
+        }
+        
+        .difficulty-medium {
+            background: var(--warning-light);
+            color: var(--warning);
+        }
+        
+        .difficulty-hard {
+            background: var(--danger-light);
+            color: var(--danger);
+        }
+        
+        .question-text {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        
+        .vignette {
+            background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
+            border-left: 4px solid var(--warning);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-style: italic;
+            color: #78350F;
+        }
+        
+        .answers {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .answer-option {
+            display: flex;
+            align-items: start;
+            padding: 18px;
+            background: var(--bg);
+            border: 2px solid var(--border);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .answer-option:hover {
+            border-color: var(--primary);
+            background: var(--primary-light);
+            transform: translateX(5px);
+        }
+        
+        .answer-option input[type="radio"] {
+            margin-top: 3px;
+            margin-right: 12px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .answer-option label {
+            cursor: pointer;
+            flex: 1;
+            font-size: 1.05rem;
+        }
+        
+        .answer-option.selected {
+            border-color: var(--primary);
+            background: var(--primary-light);
+        }
+        
+        .answer-option.correct {
+            border-color: var(--success);
+            background: var(--success-light);
+        }
+        
+        .answer-option.incorrect {
+            border-color: var(--danger);
+            background: var(--danger-light);
+        }
+        
+        .feedback {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .feedback.correct {
+            background: var(--success-light);
+            border-left: 4px solid var(--success);
+        }
+        
+        .feedback.incorrect {
+            background: var(--danger-light);
+            border-left: 4px solid var(--danger);
+        }
+        
+        .feedback h4 {
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+        
+        .feedback p {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .citation {
+            background: white;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-top: 10px;
+        }
+        
+        .progress-bar-container {
+            background: var(--bg);
+            height: 10px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        
+        .progress-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success) 0%, var(--primary) 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .stat-card .icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card .value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .report-card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .score-circle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: 700;
+            color: white;
+            position: relative;
+        }
+        
+        .score-circle.passing {
+            background: linear-gradient(135deg, var(--success) 0%, #059669 100%);
+        }
+        
+        .score-circle.failing {
+            background: linear-gradient(135deg, var(--warning) 0%, #D97706 100%);
+        }
+        
+        .score-label {
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+        
+        .domain-performance {
+            margin-top: 30px;
+        }
+        
+        .domain-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: var(--bg);
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .domain-name {
+            font-weight: 600;
+        }
+        
+        .domain-score {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .domain-bar {
+            width: 200px;
+            height: 8px;
+            background: var(--border);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .domain-bar-fill {
+            height: 100%;
+            background: var(--primary);
+            border-radius: 10px;
+        }
+        
+        .history-item {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .history-date {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .history-score {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .resources-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .resource-card {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px var(--shadow);
+        }
+        
+        .resource-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
+        .resource-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        
+        .resource-link:hover {
+            text-decoration: underline;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        @media (max-width: 768px) {
+            .app-container {
+                padding: 10px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .logo h1 {
+                font-size: 1.4rem;
+            }
+            
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .action-buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .domain-bar {
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <div class="logo-icon">📚</div>
+                <div>
+                    <h1>MFT Exam Master</h1>
+                    <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Your Personal Study Companion</p>
+                </div>
+            </div>
+            <div class="user-info hidden" id="userInfo">
+                <div class="user-avatar" id="userAvatar"></div>
+                <div>
+                    <div style="font-weight: 600;" id="userName"></div>
+                    <div style="font-size: 0.85rem; color: var(--text-light);">Student</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Welcome Screen -->
+        <div class="card welcome-screen" id="welcomeScreen">
+            <div class="logo-icon" style="width: 80px; height: 80px; margin: 0 auto 20px; font-size: 40px;">👋</div>
+            <h2>Welcome to MFT Exam Master!</h2>
+            <p>Your complete study companion for the Marriage and Family Therapy National Examination</p>
+            
+            <div style="max-width: 400px; margin: 0 auto;">
+                <div class="input-group">
+                    <label for="studentName">What's your name?</label>
+                    <input type="text" id="studentName" placeholder="Enter your name" autofocus>
+                </div>
+                <button class="btn btn-primary" onclick="startStudying()" style="width: 100%;">
+                    Let's Start Studying! 🚀
+                </button>
+            </div>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="card hidden" id="dashboard">
+            <h2>Choose Your Study Mode</h2>
+            
+            <div class="options-grid">
+                <div class="option-card" onclick="selectMode('practice')">
+                    <div class="icon">🎯</div>
+                    <h3>Practice Mode</h3>
+                    <p>Build confidence with instant feedback</p>
+                </div>
+                
+                <div class="option-card" onclick="selectMode('exam')">
+                    <div class="icon">📝</div>
+                    <h3>Exam Simulation</h3>
+                    <p>Test yourself like the real exam</p>
+                </div>
+                
+                <div class="option-card" onclick="showReportCard()">
+                    <div class="icon">📊</div>
+                    <h3>Progress Report</h3>
+                    <p>View your improvement over time</p>
+                </div>
+                
+                <div class="option-card" onclick="showResources()">
+                    <div class="icon">📚</div>
+                    <h3>Study Resources</h3>
+                    <p>Helpful links and materials</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Study Settings -->
+        <div class="card hidden" id="studySettings">
+            <h2>Customize Your Study Session</h2>
+            
+            <div class="input-group">
+                <label>Select Domains (Choose one or more)</label>
+                <div class="checkbox-group" id="domainSelection"></div>
+            </div>
+            
+            <div class="input-group">
+                <label>Select Difficulty Level</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="diff_easy" value="easy" checked>
+                        <label for="diff_easy">
+                            <strong>Easy</strong> - Build confidence with foundational questions
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="diff_medium" value="medium" checked>
+                        <label for="diff_medium">
+                            <strong>Medium</strong> - Apply knowledge to scenarios
+                        </label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="diff_hard" value="hard">
+                        <label for="diff_hard">
+                            <strong>Hard</strong> - Challenge yourself with complex cases
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="input-group">
+                <label for="questionCount">Number of Questions</label>
+                <input type="number" id="questionCount" value="10" min="5" max="50">
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="startStudySession()">Start Session 🎯</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Back</button>
+            </div>
+        </div>
+
+        <!-- Study Session -->
+        <div class="hidden" id="studySession">
+            <!-- Progress Bar -->
+            <div class="card" style="padding: 20px;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.9rem; color: var(--text-light);">
+                    <span>Progress: <span id="sessionProgress">0/0</span></span>
+                    <span id="sessionTimer"></span>
+                </div>
+                <div class="progress-bar-container">
+                    <div class="progress-bar-fill" id="sessionProgressBar" style="width: 0%"></div>
+                </div>
+            </div>
+            
+            <!-- Question Display -->
+            <div id="questionDisplay"></div>
+            
+            <!-- Navigation -->
+            <div class="card">
+                <h3 style="margin-bottom: 20px; color: var(--text-light); font-size: 1rem;">Ready to continue?</h3>
+                <div class="action-buttons">
+                    <button class="btn btn-secondary" onclick="previousQuestion()" id="prevBtn" style="flex: 1;">
+                        ← Previous Question
+                    </button>
+                    <button class="btn btn-primary" onclick="nextQuestion()" id="nextBtn" style="flex: 2; font-size: 1.1rem;">
+                        Next Question →
+                    </button>
+                    <button class="btn btn-success" onclick="finishSession()" id="finishBtn" style="flex: 2; font-size: 1.1rem;">
+                        🏁 Finish & See Results
+                    </button>
+                </div>
+                <div style="margin-top: 20px; padding-top: 20px; border-top: 2px solid var(--border);">
+                    <p style="text-align: center; color: var(--text-light); margin-bottom: 15px; font-size: 0.95rem;">
+                        Or take a break:
+                    </p>
+                    <div class="action-buttons">
+                        <button class="btn btn-secondary" onclick="saveAndExit()" style="flex: 1;">
+                            💾 Save & Exit
+                        </button>
+                        <button class="btn btn-danger" onclick="endSessionNow()" style="flex: 1;">
+                            🛑 End & Grade Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div class="card hidden" id="resultsScreen">
+            <h2 style="text-align: center;">Session Complete! 🎉</h2>
+            
+            <div class="score-circle passing" id="resultScore">
+                <div>0%</div>
+                <div class="score-label">SCORE</div>
+            </div>
+            
+            <div style="text-align: center; margin-bottom: 30px;">
+                <h3 id="resultMessage"></h3>
+                <p id="resultDetail"></p>
+            </div>
+            
+            <div class="stats-grid" id="resultStats"></div>
+            
+            <div class="domain-performance">
+                <h3>Performance by Domain</h3>
+                <div id="domainResults"></div>
+            </div>
+            
+            <div class="action-buttons" style="justify-content: center;">
+                <button class="btn btn-primary" onclick="showMissedQuestions()">Review Missed Questions 📖</button>
+                <button class="btn btn-success" onclick="backToDashboard()">Back to Dashboard</button>
+                <button class="btn btn-secondary" onclick="exportResults()">Download Report 📄</button>
+            </div>
+        </div>
+
+        <!-- Missed Questions Review -->
+        <div class="card hidden" id="missedQuestionsReview">
+            <h2>Review: Questions You Missed</h2>
+            <p style="color: var(--text-light); margin-bottom: 20px;">Study these explanations to improve your understanding</p>
+            
+            <div id="missedQuestionsList"></div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="backToResults()">Back to Results</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Dashboard</button>
+            </div>
+        </div>
+
+        <!-- Report Card -->
+        <div class="card hidden" id="reportCard">
+            <h2>📊 Your Progress Report Card</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="icon">🎯</div>
+                    <div class="value" id="totalSessions">0</div>
+                    <div class="label">Total Sessions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">✅</div>
+                    <div class="value" id="totalQuestions">0</div>
+                    <div class="label">Questions Answered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">📈</div>
+                    <div class="value" id="averageScore">0%</div>
+                    <div class="label">Average Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">🔥</div>
+                    <div class="value" id="studyStreak">0</div>
+                    <div class="label">Day Streak</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 30px; margin-bottom: 15px;">Recent Sessions</h3>
+            <div id="sessionHistory"></div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="backToDashboard()">Back to Dashboard</button>
+                <button class="btn btn-danger" onclick="resetProgress()">Reset All Progress</button>
+            </div>
+        </div>
+
+        <!-- Resources -->
+        <div class="card hidden" id="resourcesScreen">
+            <h2>📚 Study Resources & Links</h2>
+            <p style="color: var(--text-light); margin-bottom: 30px;">Curated resources to supplement your study</p>
+            
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>AMFTRB Official</h3>
+                    <p>Official exam information and candidate handbook</p>
+                    <a href="https://amftrb.org" target="_blank" class="resource-link">Visit AMFTRB →</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>AAMFT Code of Ethics</h3>
+                    <p>Essential reading for ethical and professional standards</p>
+                    <a href="https://aamft.org/Legal_Ethics/Code_of_Ethics.aspx" target="_blank" class="resource-link">Read Code of Ethics →</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>DSM-5-TR Information</h3>
+                    <p>Diagnostic criteria and mental health resources</p>
+                    <a href="https://www.psychiatry.org/psychiatrists/practice/dsm" target="_blank" class="resource-link">Learn More →</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Family Therapy Basics</h3>
+                    <p>Overview of major family therapy theories</p>
+                    <a href="https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx" target="_blank" class="resource-link">Explore Theories →</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Practice Exam (Official)</h3>
+                    <p>AMFTRB's official practice examination</p>
+                    <a href="https://amftrb.org/practice-exam/" target="_blank" class="resource-link">Take Practice Exam →</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>State Licensing Boards</h3>
+                    <p>Find your state's licensing requirements</p>
+                    <a href="https://amftrb.org/resources/state-boards/" target="_blank" class="resource-link">Find Your State →</a>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="backToDashboard()">Back to Dashboard</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Question Bank - loaded dynamically from JSON files
+        let questionBank = [];
+        
+        // Load all question files
+        async function loadAllQuestions() {
+            const domainFiles = [
+                'questions/domain1_systemic_therapy.json',
+                'questions/domain2_assessment.json',
+                'questions/domain3_treatment.json',
+                'questions/domain4_evaluation.json',
+                'questions/domain5_crisis.json',
+                'questions/domain6_ethics.json'
+            ];
+            
+            try {
+                console.log('📚 Loading questions...');
+                const promises = domainFiles.map(file => 
+                    fetch(file)
+                        .then(response => {
+                            if (!response.ok) throw new Error(`Failed to load ${file}`);
+                            return response.json();
+                        })
+                        .catch(err => {
+                            console.warn(`⚠️ Could not load ${file}:`, err.message);
+                            return [];
+                        })
+                );
+                
+                const allDomains = await Promise.all(promises);
+                questionBank = allDomains.flat();
+                
+                if (questionBank.length > 0) {
+                    console.log(`✅ Loaded ${questionBank.length} questions from domain files`);
+                } else {
+                    throw new Error('No questions loaded from domain files');
+                }
+            } catch (error) {
+                console.error('❌ Error loading domain files:', error);
+                console.log('⚠️ Trying fallback: questions.json...');
+                
+                try {
+                    const response = await fetch('questions.json');
+                    if (!response.ok) throw new Error('questions.json not found');
+                    questionBank = await response.json();
+                    console.log(`✅ Loaded ${questionBank.length} questions from questions.json`);
+                } catch (fallbackError) {
+                    console.error('❌ Fallback also failed:', fallbackError);
+                    questionBank = [];
+                }
+            }
+            
+            return questionBank;
+        }
+
+        // Domains configuration
+        const domains = [
+            { id: "domain1", name: "Practice of Systemic Therapy", description: "Systemic theories and therapeutic models" },
+            { id: "domain2", name: "Assessing, Hypothesizing, Diagnosing", description: "Clinical assessment and diagnosis" },
+            { id: "domain3", name: "Designing and Conducting Treatment", description: "Treatment planning and interventions" },
+            { id: "domain4", name: "Evaluating Process and Terminating", description: "Progress monitoring and termination" },
+            { id: "domain5", name: "Managing Crisis Situations", description: "Crisis intervention and safety" },
+            { id: "domain6", name: "Ethical, Legal, Professional Standards", description: "Ethics, law, and professional practice" }
+        ];
+
+        // Application State
+        let state = {
+            userName: '',
+            studyMode: 'practice', // 'practice' or 'exam'
+            currentSession: {
+                questions: [],
+                currentIndex: 0,
+                answers: {},
+                startTime: null,
+                selectedDomains: [],
+                selectedDifficulty: []
+            },
+            history: [],
+            stats: {
+                totalSessions: 0,
+                totalQuestions: 0,
+                totalCorrect: 0,
+                lastStudyDate: null
+            }
+        };
+
+        // Initialize app
+        async function init() {
+            console.log('🚀 Initializing MFT Exam Master...');
+            
+            // Load questions first
+            await loadAllQuestions();
+            
+            if (questionBank.length === 0) {
+                alert('⚠️ No questions loaded! Please check that question files exist.');
+                console.error('No questions available');
+            }
+            
+            loadUserData();
+            if (state.userName) {
+                document.getElementById('welcomeScreen').classList.add('hidden');
+                document.getElementById('dashboard').classList.remove('hidden');
+                updateUserInfo();
+            }
+            
+            console.log('✅ Initialization complete');
+        }
+
+        // Local Storage functions
+        function loadUserData() {
+            const saved = localStorage.getItem('mftExamMaster');
+            if (saved) {
+                state = JSON.parse(saved);
+            }
+        }
+
+        function saveUserData() {
+            localStorage.setItem('mftExamMaster', JSON.stringify(state));
+        }
+
+        // Start studying
+        function startStudying() {
+            const name = document.getElementById('studentName').value.trim();
+            if (!name) {
+                alert('Please enter your name!');
+                return;
+            }
+            
+            state.userName = name;
+            saveUserData();
+            
+            document.getElementById('welcomeScreen').classList.add('hidden');
+            document.getElementById('dashboard').classList.remove('hidden');
+            updateUserInfo();
+        }
+
+        function updateUserInfo() {
+            document.getElementById('userInfo').classList.remove('hidden');
+            document.getElementById('userName').textContent = state.userName;
+            document.getElementById('userAvatar').textContent = state.userName.charAt(0).toUpperCase();
+        }
+
+        // Select study mode
+        function selectMode(mode) {
+            state.studyMode = mode;
+            
+            // Show study settings
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('studySettings').classList.remove('hidden');
+            
+            // Populate domain selection
+            const domainSelection = document.getElementById('domainSelection');
+            domainSelection.innerHTML = domains.map(domain => `
+                <div class="checkbox-item">
+                    <input type="checkbox" id="${domain.id}" value="${domain.name}" checked>
+                    <label for="${domain.id}">
+                        <strong>${domain.name}</strong><br>
+                        <small>${domain.description}</small>
+                    </label>
+                </div>
+            `).join('');
+        }
+
+        // Start study session
+        function startStudySession() {
+            // Get selected domains
+            const selectedDomains = Array.from(document.querySelectorAll('#domainSelection input:checked'))
+                .map(cb => cb.value);
+            
+            if (selectedDomains.length === 0) {
+                alert('Please select at least one domain!');
+                return;
+            }
+            
+            // Get selected difficulty
+            const selectedDifficulty = [];
+            if (document.getElementById('diff_easy').checked) selectedDifficulty.push('easy');
+            if (document.getElementById('diff_medium').checked) selectedDifficulty.push('medium');
+            if (document.getElementById('diff_hard').checked) selectedDifficulty.push('hard');
+            
+            if (selectedDifficulty.length === 0) {
+                alert('Please select at least one difficulty level!');
+                return;
+            }
+            
+            const questionCount = parseInt(document.getElementById('questionCount').value);
+            
+            // Filter questions
+            let filteredQuestions = questionBank.filter(q => 
+                selectedDomains.includes(q.domain) && 
+                selectedDifficulty.includes(q.difficulty)
+            );
+            
+            // Sort by difficulty (progressive)
+            filteredQuestions.sort((a, b) => {
+                const diffOrder = { easy: 1, medium: 2, hard: 3 };
+                return diffOrder[a.difficulty] - diffOrder[b.difficulty];
+            });
+            
+            // Limit to requested count
+            filteredQuestions = filteredQuestions.slice(0, questionCount);
+            
+            if (filteredQuestions.length === 0) {
+                alert('No questions match your criteria. Try different settings.');
+                return;
+            }
+            
+            // Initialize session
+            state.currentSession = {
+                questions: filteredQuestions,
+                currentIndex: 0,
+                answers: {},
+                startTime: Date.now(),
+                selectedDomains: selectedDomains,
+                selectedDifficulty: selectedDifficulty,
+                mode: state.studyMode
+            };
+            
+            // Show study session
+            document.getElementById('studySettings').classList.add('hidden');
+            document.getElementById('studySession').classList.remove('hidden');
+            
+            showQuestion();
+        }
+
+        // Show current question
+        function showQuestion() {
+            const session = state.currentSession;
+            const question = session.questions[session.currentIndex];
+            const isAnswered = session.answers[question.id] !== undefined;
+            
+            const display = document.getElementById('questionDisplay');
+            display.innerHTML = `
+                <div class="question-card">
+                    <div class="question-header">
+                        <div class="question-number">Question ${session.currentIndex + 1} of ${session.questions.length}</div>
+                        <div class="difficulty-badge difficulty-${question.difficulty}">
+                            ${question.difficulty.toUpperCase()}
+                        </div>
+                    </div>
+                    
+                    ${question.vignette ? `<div class="vignette">${question.vignette}</div>` : ''}
+                    
+                    <div class="question-text">${question.question}</div>
+                    
+                    <div class="answers">
+                        ${question.options.map((opt, idx) => {
+                            const isSelected = session.answers[question.id] === idx;
+                            const showFeedback = state.studyMode === 'practice' && isAnswered;
+                            const isCorrect = idx === question.correct;
+                            
+                            let classes = 'answer-option';
+                            if (isSelected) classes += ' selected';
+                            if (showFeedback) {
+                                if (isCorrect) classes += ' correct';
+                                else if (isSelected) classes += ' incorrect';
+                            }
+                            
+                            return `
+                                <div class="${classes}" onclick="selectAnswer(${idx})">
+                                    <input type="radio" 
+                                           name="q${question.id}" 
+                                           id="q${question.id}_${idx}"
+                                           ${isSelected ? 'checked' : ''}
+                                           ${showFeedback ? 'disabled' : ''}>
+                                    <label for="q${question.id}_${idx}">
+                                        ${String.fromCharCode(65 + idx)}) ${opt}
+                                    </label>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                    
+                    ${!isAnswered && state.studyMode === 'exam' ? `
+                        <div style="text-align: center; margin-top: 20px; padding: 15px; background: var(--primary-light); border-radius: 8px; color: var(--primary);">
+                            <strong>💡 Tip:</strong> Select an answer above, then click "Next Question" to continue
+                        </div>
+                    ` : ''}
+                    
+                    ${state.studyMode === 'practice' && isAnswered ? `
+                        <div class="feedback ${session.answers[question.id] === question.correct ? 'correct' : 'incorrect'}">
+                            <h4>${session.answers[question.id] === question.correct ? '✅ Correct!' : '❌ Incorrect'}</h4>
+                            ${session.answers[question.id] !== question.correct ? 
+                                `<p><strong>Correct answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}</p>` : ''}
+                            <p><strong>Explanation:</strong> ${question.explanation}</p>
+                            <div class="citation">
+                                <strong>📚 Citation:</strong> ${question.citation}
+                            </div>
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+            
+            updateSessionProgress();
+        }
+
+        function selectAnswer(optionIndex) {
+            const session = state.currentSession;
+            const question = session.questions[session.currentIndex];
+            
+            // Save the answer but DON'T auto-advance
+            session.answers[question.id] = optionIndex;
+            saveUserData();
+            
+            // Just update the display to show selection and feedback (if practice mode)
+            showQuestion();
+        }
+
+        function nextQuestion() {
+            const session = state.currentSession;
+            
+            if (session.currentIndex < session.questions.length - 1) {
+                session.currentIndex++;
+                saveUserData();
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+        
+        function previousQuestion() {
+            const session = state.currentSession;
+            
+            if (session.currentIndex > 0) {
+                session.currentIndex--;
+                saveUserData();
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        function updateSessionProgress() {
+            const session = state.currentSession;
+            const answered = Object.keys(session.answers).length;
+            const total = session.questions.length;
+            const progress = (answered / total) * 100;
+            
+            document.getElementById('sessionProgress').textContent = `${answered}/${total}`;
+            document.getElementById('sessionProgressBar').style.width = `${progress}%`;
+            
+            // Update timer
+            if (session.startTime) {
+                const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
+                const minutes = Math.floor(elapsed / 60);
+                const seconds = elapsed % 60;
+                document.getElementById('sessionTimer').textContent = 
+                    `Time: ${minutes}:${seconds.toString().padStart(2, '0')}`;
+            }
+            
+            // Update button visibility and states
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            const finishBtn = document.getElementById('finishBtn');
+            
+            // Previous button - disable on first question
+            if (session.currentIndex === 0) {
+                prevBtn.disabled = true;
+                prevBtn.style.opacity = '0.5';
+                prevBtn.style.cursor = 'not-allowed';
+            } else {
+                prevBtn.disabled = false;
+                prevBtn.style.opacity = '1';
+                prevBtn.style.cursor = 'pointer';
+            }
+            
+            // Next vs Finish button - show finish on last question
+            if (session.currentIndex === session.questions.length - 1) {
+                nextBtn.style.display = 'none';
+                finishBtn.style.display = 'inline-flex';
+            } else {
+                nextBtn.style.display = 'inline-flex';
+                finishBtn.style.display = 'none';
+            }
+        }
+
+        function saveAndExit() {
+            const session = state.currentSession;
+            const answered = Object.keys(session.answers).length;
+            
+            if (confirm(`💾 Your progress is saved!\n\nYou've answered ${answered} of ${session.questions.length} questions.\n\nReturn to dashboard?`)) {
+                document.getElementById('studySession').classList.add('hidden');
+                document.getElementById('dashboard').classList.remove('hidden');
+                window.scrollTo(0, 0);
+            }
+        }
+        
+        function endSessionNow() {
+            const session = state.currentSession;
+            const answered = Object.keys(session.answers).length;
+            
+            if (answered === 0) {
+                alert('⚠️ You haven\'t answered any questions yet!');
+                return;
+            }
+            
+            const message = answered < session.questions.length 
+                ? `🛑 You've answered ${answered} of ${session.questions.length} questions.\n\nYou'll be graded only on the questions you answered.\n\nEnd session now and see results?`
+                : `🎉 You've answered all ${answered} questions!\n\nReady to see your results?`;
+            
+            if (confirm(message)) {
+                calculateResults();
+            }
+        }
+
+        function pauseSession() {
+            if (confirm('Your progress is automatically saved. Return to dashboard?')) {
+                document.getElementById('studySession').classList.add('hidden');
+                document.getElementById('dashboard').classList.remove('hidden');
+            }
+        }
+
+        function finishSession() {
+            const session = state.currentSession;
+            const answered = Object.keys(session.answers).length;
+            
+            if (answered < session.questions.length) {
+                if (!confirm(`You've answered ${answered} of ${session.questions.length} questions. Finish anyway?`)) {
+                    return;
+                }
+            }
+            
+            calculateResults();
+        }
+
+        function calculateResults() {
+            const session = state.currentSession;
+            let correct = 0;
+            const domainScores = {};
+            
+            session.questions.forEach(question => {
+                const domain = question.domain;
+                if (!domainScores[domain]) {
+                    domainScores[domain] = { correct: 0, total: 0, answered: 0 };
+                }
+                domainScores[domain].total++;
+                
+                if (session.answers[question.id] !== undefined) {
+                    domainScores[domain].answered++;
+                    if (session.answers[question.id] === question.correct) {
+                        correct++;
+                        domainScores[domain].correct++;
+                    }
+                }
+            });
+            
+            const answered = Object.keys(session.answers).length;
+            const percentage = answered > 0 ? Math.round((correct / answered) * 100) : 0;
+            const passing = percentage >= 70;
+            
+            // Save to history
+            const sessionResult = {
+                date: new Date().toISOString(),
+                score: percentage,
+                correct: correct,
+                total: answered,
+                mode: session.mode,
+                domains: session.selectedDomains,
+                difficulty: session.selectedDifficulty,
+                domainScores: domainScores
+            };
+            
+            state.history.push(sessionResult);
+            state.stats.totalSessions++;
+            state.stats.totalQuestions += answered;
+            state.stats.totalCorrect += correct;
+            state.stats.lastStudyDate = new Date().toISOString();
+            
+            saveUserData();
+            
+            // Show results
+            showResults(sessionResult, passing);
+        }
+
+        function showResults(result, passing) {
+            document.getElementById('studySession').classList.add('hidden');
+            document.getElementById('resultsScreen').classList.remove('hidden');
+            
+            // Score circle
+            const scoreCircle = document.getElementById('resultScore');
+            scoreCircle.className = `score-circle ${passing ? 'passing' : 'failing'}`;
+            scoreCircle.querySelector('div').textContent = `${result.score}%`;
+            
+            // Message
+            const messages = {
+                90: { title: "🌟 Outstanding!", msg: "You're crushing it! Excellent mastery of the material." },
+                80: { title: "🎉 Great Job!", msg: "Strong performance! You're well-prepared." },
+                70: { title: "✅ Good Work!", msg: "Passing score. Keep studying to strengthen weak areas." },
+                0: { title: "📚 Keep Studying", msg: "More practice needed. Review the explanations carefully." }
+            };
+            
+            const msgKey = result.score >= 90 ? 90 : result.score >= 80 ? 80 : result.score >= 70 ? 70 : 0;
+            document.getElementById('resultMessage').textContent = messages[msgKey].title;
+            document.getElementById('resultDetail').textContent = messages[msgKey].msg;
+            
+            // Stats
+            document.getElementById('resultStats').innerHTML = `
+                <div class="stat-card">
+                    <div class="icon">✅</div>
+                    <div class="value">${result.correct}</div>
+                    <div class="label">Correct</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">❌</div>
+                    <div class="value">${result.total - result.correct}</div>
+                    <div class="label">Incorrect</div>
+                </div>
+                <div class="stat-card">
+                    <div class="icon">📝</div>
+                    <div class="value">${result.total}</div>
+                    <div class="label">Answered</div>
+                </div>
+            `;
+            
+            // Domain results
+            const domainHtml = Object.entries(result.domainScores).map(([domain, scores]) => {
+                const percentage = scores.answered > 0 ? Math.round((scores.correct / scores.answered) * 100) : 0;
+                return `
+                    <div class="domain-row">
+                        <div class="domain-name">${domain}</div>
+                        <div class="domain-score">
+                            <div class="domain-bar">
+                                <div class="domain-bar-fill" style="width: ${percentage}%"></div>
+                            </div>
+                            <strong>${scores.correct}/${scores.answered} (${percentage}%)</strong>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            document.getElementById('domainResults').innerHTML = domainHtml;
+            
+            window.scrollTo(0, 0);
+        }
+
+        function showMissedQuestions() {
+            const session = state.currentSession;
+            const missed = session.questions.filter(q => 
+                session.answers[q.id] !== undefined && 
+                session.answers[q.id] !== q.correct
+            );
+            
+            if (missed.length === 0) {
+                alert('🎉 Amazing! You didn\'t miss any questions!');
+                return;
+            }
+            
+            document.getElementById('resultsScreen').classList.add('hidden');
+            document.getElementById('missedQuestionsReview').classList.remove('hidden');
+            
+            const missedHtml = missed.map((question, index) => {
+                const userAnswer = session.answers[question.id];
+                return `
+                    <div class="question-card" style="border-left-color: var(--danger);">
+                        <div class="question-header">
+                            <div class="question-number">Question ${index + 1} of ${missed.length}</div>
+                            <div class="difficulty-badge difficulty-${question.difficulty}">
+                                ${question.difficulty.toUpperCase()}
+                            </div>
+                        </div>
+                        
+                        ${question.vignette ? `<div class="vignette">${question.vignette}</div>` : ''}
+                        
+                        <div class="question-text">${question.question}</div>
+                        
+                        <div style="background: var(--danger-light); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <strong>❌ Your Answer:</strong> ${String.fromCharCode(65 + userAnswer)}) ${question.options[userAnswer]}
+                        </div>
+                        
+                        <div style="background: var(--success-light); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                            <strong>✅ Correct Answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}
+                        </div>
+                        
+                        <div class="feedback correct">
+                            <h4>📖 Explanation</h4>
+                            <p>${question.explanation}</p>
+                            <div class="citation">
+                                <strong>📚 Citation:</strong> ${question.citation}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            document.getElementById('missedQuestionsList').innerHTML = missedHtml;
+            window.scrollTo(0, 0);
+        }
+
+        function backToResults() {
+            document.getElementById('missedQuestionsReview').classList.add('hidden');
+            document.getElementById('resultsScreen').classList.remove('hidden');
+        }
+
+        function showReportCard() {
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('reportCard').classList.remove('hidden');
+            
+            // Calculate stats
+            const avgScore = state.stats.totalQuestions > 0 ? 
+                Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100) : 0;
+            
+            document.getElementById('totalSessions').textContent = state.stats.totalSessions;
+            document.getElementById('totalQuestions').textContent = state.stats.totalQuestions;
+            document.getElementById('averageScore').textContent = avgScore + '%';
+            document.getElementById('studyStreak').textContent = calculateStreak();
+            
+            // Show history
+            const historyHtml = state.history.slice(-10).reverse().map(session => {
+                const date = new Date(session.date);
+                return `
+                    <div class="history-item">
+                        <div>
+                            <div style="font-weight: 600;">${session.mode === 'practice' ? '🎯 Practice' : '📝 Exam'} Session</div>
+                            <div class="history-date">${date.toLocaleDateString()} at ${date.toLocaleTimeString()}</div>
+                            <div style="font-size: 0.9rem; color: var(--text-light); margin-top: 5px;">
+                                ${session.correct}/${session.total} questions correct
+                            </div>
+                        </div>
+                        <div class="history-score">${session.score}%</div>
+                    </div>
+                `;
+            }).join('');
+            
+            document.getElementById('sessionHistory').innerHTML = historyHtml || 
+                '<p style="text-align: center; color: var(--text-light); padding: 20px;">No sessions yet. Start studying to see your progress!</p>';
+            
+            window.scrollTo(0, 0);
+        }
+
+        function calculateStreak() {
+            if (!state.stats.lastStudyDate) return 0;
+            
+            const today = new Date();
+            const lastStudy = new Date(state.stats.lastStudyDate);
+            const diffDays = Math.floor((today - lastStudy) / (1000 * 60 * 60 * 24));
+            
+            return diffDays <= 1 ? state.stats.totalSessions : 0;
+        }
+
+        function showResources() {
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('resourcesScreen').classList.remove('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function backToDashboard() {
+            // Hide all screens
+            document.querySelectorAll('.card, #studySession').forEach(el => {
+                if (el.id !== 'dashboard') el.classList.add('hidden');
+            });
+            
+            // Show dashboard
+            document.getElementById('dashboard').classList.remove('hidden');
+            
+            // Reset current session if coming from study
+            state.currentSession = {
+                questions: [],
+                currentIndex: 0,
+                answers: {},
+                startTime: null,
+                selectedDomains: [],
+                selectedDifficulty: []
+            };
+            saveUserData();
+            
+            window.scrollTo(0, 0);
+        }
+
+        function exportResults() {
+            const report = generateTextReport();
+            const blob = new Blob([report], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `MFT_Progress_Report_${new Date().toISOString().split('T')[0]}.txt`;
+            a.click();
+        }
+
+        function generateTextReport() {
+            let report = `MFT EXAM MASTER - PROGRESS REPORT
+Student: ${state.userName}
+Generated: ${new Date().toLocaleString()}
+
+========================================
+OVERALL STATISTICS
+========================================
+Total Study Sessions: ${state.stats.totalSessions}
+Total Questions Answered: ${state.stats.totalQuestions}
+Total Correct Answers: ${state.stats.totalCorrect}
+Overall Average Score: ${state.stats.totalQuestions > 0 ? Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100) : 0}%
+
+========================================
+RECENT SESSIONS
+========================================
+`;
+            
+            state.history.slice(-10).reverse().forEach((session, idx) => {
+                const date = new Date(session.date);
+                report += `\n${idx + 1}. ${session.mode.toUpperCase()} Session - ${date.toLocaleDateString()}
+   Score: ${session.score}% (${session.correct}/${session.total} correct)
+   Domains: ${session.domains.join(', ')}
+   Difficulty: ${session.difficulty.join(', ')}\n`;
+            });
+            
+            report += `\n========================================
+Keep up the great work studying!
+Visit https://amftrb.org for official exam info.
+========================================`;
+            
+            return report;
+        }
+
+        function resetProgress() {
+            if (confirm('⚠️ This will delete ALL your progress and cannot be undone. Are you sure?')) {
+                if (confirm('Really sure? This action is permanent!')) {
+                    const name = state.userName;
+                    state = {
+                        userName: name,
+                        studyMode: 'practice',
+                        currentSession: {
+                            questions: [],
+                            currentIndex: 0,
+                            answers: {},
+                            startTime: null,
+                            selectedDomains: [],
+                            selectedDifficulty: []
+                        },
+                        history: [],
+                        stats: {
+                            totalSessions: 0,
+                            totalQuestions: 0,
+                            totalCorrect: 0,
+                            lastStudyDate: null
+                        }
+                    };
+                    saveUserData();
+                    alert('✅ Progress reset successfully!');
+                    backToDashboard();
+                }
+            }
+        }
+
+        // Auto-save every 30 seconds
+        setInterval(() => {
+            if (state.currentSession.questions.length > 0) {
+                saveUserData();
+            }
+        }, 30000);
+
+        // Initialize on load
+        window.onload = init;
+    </script>
+</body>
+</html>

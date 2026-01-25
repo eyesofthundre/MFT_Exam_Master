@@ -1,0 +1,167 @@
+[
+  {
+    "id": 601,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["confidentiality", "HIPAA", "privacy"],
+    "question": "According to HIPAA regulations, which of the following requires a client's written authorization before disclosure?",
+    "options": [
+      "Sharing information with other treating providers for treatment purposes",
+      "Sending client records to the client's attorney at the client's request",
+      "Disclosing necessary billing information to insurance companies",
+      "Reporting suspected child abuse to Child Protective Services"
+    ],
+    "correct": 1,
+    "explanation": "HIPAA allows disclosure without authorization for treatment, payment, and healthcare operations (TPO), and for legally mandated reporting. However, disclosures to third parties like attorneys, family members (unless involved in treatment), or for purposes outside TPO require the client's written authorization. Sending records to an attorney, even at the client's verbal request, requires signed authorization specifying what information will be shared.",
+    "citation": "HIPAA Privacy Rule, 45 CFR Parts 160 and 164; U.S. Department of Health and Human Services (2013). HIPAA for Professionals."
+  },
+  {
+    "id": 602,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["dual relationships", "ethics", "boundaries"],
+    "vignette": "A therapist's current client asks if the therapist would provide therapy to her adult sister, who lives in the same city. The client believes the therapist would be perfect for her sister's needs.",
+    "question": "The MOST appropriate response is:",
+    "options": [
+      "Agree to see both siblings since they are separate adults",
+      "Decline due to potential dual relationship and conflict of interest, and provide referrals",
+      "See the sister only if both siblings give written consent",
+      "Agree but see them at different times and keep information separate"
+    ],
+    "correct": 1,
+    "explanation": "Seeing family members of current clients creates dual relationships and potential conflicts of interest. If confidential information emerges about one sibling that affects the other, the therapist faces ethical dilemmas about disclosure. Family dynamics between siblings could compromise objectivity. The AAMFT Code of Ethics advises avoiding dual relationships that could impair professional judgment. The appropriate response is to explain the potential complications and provide referrals to other qualified therapists.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III [Professional Competence and Integrity], Subprinciple 3.10; Zur, O. (2007). Boundaries in Psychotherapy: Ethical and Clinical Explorations. American Psychological Association."
+  },
+  {
+    "id": 603,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["informed consent", "couples therapy", "secrets"],
+    "vignette": "During the initial couples therapy session, the therapist states: 'I don't keep secrets. Anything shared with me individually will be brought into our joint sessions.' One week later, the wife calls requesting an individual session to discuss her affair, which she hasn't told her husband about.",
+    "question": "The therapist should:",
+    "options": [
+      "See her individually and maintain confidentiality about the affair",
+      "Remind her of the no-secrets policy and help her decide how to address it",
+      "Refuse the individual session and insist she tell her husband immediately",
+      "See her individually but require her to disclose the affair in the next joint session"
+    ],
+    "correct": 1,
+    "explanation": "The therapist clearly established a no-secrets policy during informed consent. When the wife requests to share secret information, the appropriate response is to: (1) remind her of the stated policy, (2) explain that the information would need to be brought into couple sessions, (3) help her consider how to address the affair (in individual or joint session, with or without therapist support), but (4) not force immediate disclosure or create a deadline. The therapist supports her decision-making while maintaining the stated therapeutic frame.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I [Responsibility to Clients]; Margolin, G. (1982). Ethical and Legal Considerations in Marital and Family Therapy. American Psychologist, 37(7), 788-801."
+  },
+  {
+    "id": 604,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["supervision", "clinical competence", "training"],
+    "question": "According to the AAMFT Code of Ethics, therapists should:",
+    "options": [
+      "Only provide services within their competence based on education, training, and experience",
+      "Provide any service requested by clients regardless of training",
+      "Refer all complex cases to more experienced therapists",
+      "Learn new techniques exclusively through self-study and reading"
+    ],
+    "correct": 0,
+    "explanation": "The AAMFT Code of Ethics requires therapists to practice within their areas of competence. This means providing only those services for which they have appropriate education, training, supervised experience, and credentials. When working with new populations or using new approaches, therapists should obtain appropriate training and supervision. This protects clients from harm and maintains professional standards.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III [Professional Competence and Integrity]; American Association for Marriage and Family Therapy (2015). MFT Core Competencies."
+  },
+  {
+    "id": 605,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["subpoena", "legal", "privilege"],
+    "vignette": "A therapist receives a subpoena requiring them to testify in court about a former client's mental health treatment. The client is involved in a custody dispute.",
+    "question": "The therapist should FIRST:",
+    "options": [
+      "Immediately comply with the subpoena and testify",
+      "Contact the client and seek legal consultation about asserting privilege",
+      "Refuse to comply and ignore the subpoena",
+      "Send all records to the court as requested"
+    ],
+    "correct": 1,
+    "explanation": "A subpoena is a request to testify or produce records, not a court order. The therapist should: (1) immediately contact the client to inform them, (2) seek legal consultation about asserting psychotherapist-patient privilege (which belongs to the client), (3) request the court quash the subpoena or issue a protective order if appropriate, and (4) only comply if a judge specifically orders testimony after privilege issues are addressed. Privilege laws vary by state, making legal consultation essential.",
+    "citation": "Jaffee v. Redmond, 518 U.S. 1 (1996) [establishing federal psychotherapist-patient privilege]; AAMFT Code of Ethics (2015), Principle II; APA Practice Organization (2013). Getting Prepared for a Subpoena."
+  },
+  {
+    "id": 606,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["multiple relationships", "ethics", "small community"],
+    "vignette": "A therapist in a small rural town is asked to provide therapy to their child's teacher. There are no other qualified MFT providers within 100 miles.",
+    "question": "The therapist should:",
+    "options": [
+      "Absolutely refuse due to the dual relationship",
+      "Carefully consider whether the relationship can be managed ethically given the lack of alternatives",
+      "Agree only if the teacher transfers their child to a different classroom",
+      "Provide therapy but not discuss their child at all"
+    ],
+    "correct": 1,
+    "explanation": "The AAMFT Code of Ethics recognizes that in some situations (rural areas, small communities, specialized populations), some dual relationships may be unavoidable. In such cases, therapists should: (1) carefully evaluate whether they can maintain objectivity, (2) discuss potential complications with the client, (3) establish clear boundaries, (4) document the decision-making process, (5) seek consultation, and (6) monitor for problems. Simply avoiding all dual relationships may deprive underserved populations of care. The key is thoughtful evaluation and ongoing vigilance.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III.10; Schank, J. A., & Skovholt, T. M. (2006). Ethical Practice in Small Communities: Challenges and Rewards for Psychologists. American Psychological Association; Zur, O. (2007). Boundaries in Psychotherapy. APA."
+  },
+  {
+    "id": 607,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["cultural competence", "diversity", "ethics"],
+    "question": "According to the AAMFT Code of Ethics, therapists are expected to:",
+    "options": [
+      "Only work with clients from their own cultural background",
+      "Refer all culturally different clients to culturally matched therapists",
+      "Respect diversity and seek training to work competently with diverse populations",
+      "Ignore cultural differences and treat all clients exactly the same"
+    ],
+    "correct": 2,
+    "explanation": "The AAMFT Code of Ethics requires therapists to respect diversity (including race, ethnicity, culture, religion, sexual orientation, gender identity, disability, SES) and to obtain education and training necessary to work competently with diverse populations. This doesn't mean only working with similar clients, but rather developing cultural competence, awareness of one's own biases, and willingness to adapt approaches to meet clients' cultural needs.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I [Responsibility to Clients]; Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse: Theory and Practice (8th ed.). Wiley."
+  },
+  {
+    "id": 608,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["record keeping", "documentation", "HIPAA"],
+    "question": "Clinical records should be:",
+    "options": [
+      "Kept indefinitely in all cases",
+      "Destroyed immediately after treatment ends to protect privacy",
+      "Retained according to state law and professional standards (typically 7 years minimum)",
+      "Only maintained if the client requests it"
+    ],
+    "correct": 2,
+    "explanation": "State laws and professional standards typically require clinical records to be retained for a minimum period after treatment ends (commonly 7 years for adults, longer for minors). Records serve important purposes: continuity of care if client returns, legal protection for therapist, and compliance with regulations. HIPAA requires maintaining records but doesn't specify duration; state laws and licensing boards typically do. Records should be securely stored and eventually destroyed per retention requirements.",
+    "citation": "HIPAA Privacy Rule; State-specific record retention laws; AAMFT Code of Ethics (2015); Zuckerman, E. L. (2008). The Paper Office (4th ed.). Guilford Press."
+  },
+  {
+    "id": 609,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["termination", "abandonment", "ethics"],
+    "vignette": "A therapist is relocating to another state in 30 days. They have been seeing a family in crisis for severe issues including suicidal ideation in one member. The therapist gives the family two weeks' notice and a list of referrals.",
+    "question": "This scenario represents:",
+    "options": [
+      "Appropriate termination with adequate notice and referrals",
+      "Potential abandonment given the short notice and client vulnerability",
+      "Acceptable because the therapist provided referrals",
+      "Required because the therapist is moving"
+    ],
+    "correct": 1,
+    "explanation": "This represents potential client abandonment. When terminating due to therapist circumstances (relocation, leaving practice), therapists have an ethical duty to: (1) provide adequate notice (more than 2 weeks for vulnerable clients), (2) assist with transition to new provider, (3) continue treatment until transfer is complete if clinically necessary, (4) possibly arrange coverage or extended care for high-risk clients. Two weeks' notice for a family in crisis with active suicide risk is insufficient. The therapist should have planned the transition months ahead.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I [Responsibility to Clients]; Barnett, J. E., MacGlashan, S., & Clarke, A. J. (2000). Risk Management and Ethical Issues Regarding Termination and Abandonment. Register Report, 26(2), 9-13."
+  },
+  {
+    "id": 610,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["informed consent", "minors", "legal"],
+    "question": "When providing therapy to a minor child, informed consent must be obtained from:",
+    "options": [
+      "The child only, regardless of age",
+      "The parent or legal guardian",
+      "Either parent, even if only one parent brings the child",
+      "The school, if the issue is school-related"
+    ],
+    "correct": 1,
+    "explanation": "Informed consent for treatment of minors must be obtained from the parent or legal guardian who has legal custody and medical decision-making authority. In divorced families, this may require consent from the custodial parent or both parents depending on custody arrangements. The child's assent (agreement) should also be obtained when developmentally appropriate, but legal consent comes from the guardian. Therapists should verify custody and decision-making authority before beginning treatment.",
+    "citation": "State mental health laws regarding minors; AAMFT Code of Ethics (2015), Principle I; Koocher, G. P., & Keith-Spiegel, P. (2016). Ethics in Psychology and the Mental Health Professions: Standards and Cases (4th ed.). Oxford University Press."
+  }
+]

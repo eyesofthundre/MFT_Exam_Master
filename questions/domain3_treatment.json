@@ -1,0 +1,168 @@
+[
+  {
+    "id": 301,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "easy",
+    "tags": ["joining", "therapeutic alliance", "first session"],
+    "question": "In the first session with a new family, the therapist's MOST important priority is to:",
+    "options": [
+      "Conduct a comprehensive diagnostic assessment",
+      "Establish a therapeutic alliance and join with each family member",
+      "Assign homework to begin changing family patterns",
+      "Identify the family's multigenerational transmission patterns"
+    ],
+    "correct": 1,
+    "explanation": "Establishing a therapeutic alliance through joining is the essential foundation for all subsequent therapeutic work. Minuchin emphasized that without successful joining, therapy cannot progress. The therapist must connect with each family member, accommodate to the family's style, and establish trust before assessment, intervention, or structural change can be effective.",
+    "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press; Friedlander, M. L., Escudero, V., & Heatherington, L. (2006). Therapeutic Alliances in Couple and Family Therapy. American Psychological Association."
+  },
+  {
+    "id": 302,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "medium",
+    "tags": ["EFT", "vulnerable emotions", "techniques"],
+    "vignette": "During an EFT session, a typically withdrawn husband begins to express fear that he's 'not good enough' for his wife. His voice trembles and eyes water as he speaks.",
+    "question": "The EFT therapist should:",
+    "options": [
+      "Teach communication skills to help him express feelings more effectively",
+      "Slow down the process and help him stay with and deepen that vulnerable emotion",
+      "Immediately ask the wife to respond to his disclosure",
+      "Reframe his vulnerability as strength to reduce his discomfort"
+    ],
+    "correct": 1,
+    "explanation": "In Emotionally Focused Therapy, when a withdrawn partner accesses and expresses vulnerable emotions (attachment fears), this is a critical therapeutic moment. The EFT therapist's role is to slow down the process, help the client stay present with the emotion, deepen it, and eventually share it with the partner. This accessing and expressing of vulnerable attachment emotions is central to EFT's process of restructuring the emotional bond.",
+    "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy: Creating Connection (2nd ed.). Brunner-Routledge; Greenberg, L. S., & Johnson, S. M. (1988). Emotionally Focused Therapy for Couples. Guilford Press."
+  },
+  {
+    "id": 303,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "easy",
+    "tags": ["enactment", "Structural", "techniques"],
+    "question": "In Structural Family Therapy, an 'enactment' refers to:",
+    "options": [
+      "Role-playing past traumatic family events to process emotions",
+      "Having family members interact with each other during the session while the therapist observes",
+      "The therapist modeling appropriate communication for the family",
+      "Assigning behavioral tasks for the family to complete between sessions"
+    ],
+    "correct": 1,
+    "explanation": "Enactment is a core Structural Family Therapy technique where the therapist asks family members to interact with each other during the session rather than talking about their interactions. This allows the therapist to observe actual family patterns, structures, and sequences as they occur in real time. The therapist can then intervene directly in the interaction to facilitate change.",
+    "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press; Minuchin, S. (1974). Families and Family Therapy. Harvard University Press."
+  },
+  {
+    "id": 304,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "medium",
+    "tags": ["reframing", "techniques", "Strategic"],
+    "vignette": "A family describes their 14-year-old son as 'defiant and disrespectful.' The therapist responds: 'It sounds like he's working hard to become his own person and establish independence, which is exactly what teenagers are supposed to do at his age.'",
+    "question": "This intervention is BEST described as:",
+    "options": [
+      "Circular questioning to explore family patterns",
+      "Reframing the behavior in a more positive or functional light",
+      "Paradoxical intervention prescribing the symptom",
+      "Joining by agreeing with the family's perspective"
+    ],
+    "correct": 1,
+    "explanation": "Reframing offers an alternative, more positive or functional perspective on a situation or behavior. The therapist takes the problematic behavior ('defiant') and reframes it as developmentally appropriate ('establishing independence'). Effective reframing doesn't deny difficulty but offers a different lens that can shift perception and reduce blame, opening possibilities for change.",
+    "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. Norton; Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press."
+  },
+  {
+    "id": 305,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "hard",
+    "tags": ["paradoxical intervention", "Strategic", "techniques"],
+    "vignette": "A couple seeks therapy for constant arguing. All previous attempts to reduce conflict have failed. The therapist says: 'This week, I want you to schedule three arguments of exactly 30 minutes each. Set a timer and make sure you argue for the full time, even if you run out of things to argue about.'",
+    "question": "This technique is BEST described as:",
+    "options": [
+      "Behavioral activation to increase positive interactions",
+      "Paradoxical intervention prescribing the symptom",
+      "Cognitive restructuring of negative thoughts",
+      "Enactment of the problematic pattern"
+    ],
+    "correct": 1,
+    "explanation": "This is a classic paradoxical intervention from Strategic therapy where the therapist prescribes or encourages the symptom. By asking the couple to intentionally schedule and control their arguments, the therapist creates a therapeutic bind: if they comply, they gain control over the arguing; if they rebel by not arguing, the problem improves. Paradoxical interventions are used when direct approaches have failed.",
+    "citation": "Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass; Madanes, C. (1981). Strategic Family Therapy. Jossey-Bass; Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change. Norton."
+  },
+  {
+    "id": 306,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "medium",
+    "tags": ["scaling questions", "SFBT", "techniques"],
+    "question": "In Solution-Focused Brief Therapy, when a therapist asks 'On a scale of 1 to 10, where 1 is the worst it's been and 10 is your goal, where are you today?' this is called:",
+    "options": [
+      "A circular question exploring relational patterns",
+      "A scaling question to assess current status and identify progress",
+      "An exception-finding question identifying times without the problem",
+      "The miracle question to envision the preferred future"
+    ],
+    "correct": 1,
+    "explanation": "Scaling questions are a signature Solution-Focused Brief Therapy technique where clients rate something on a numerical scale (typically 1-10). They provide a concrete way to measure subjective experiences, track change over time, and identify small improvements. Follow-up questions explore what would move the number up one point, making goals more concrete and achievable.",
+    "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. Norton; Berg, I. K., & Miller, S. D. (1992). Working with the Problem Drinker: A Solution-Focused Approach. Norton."
+  },
+  {
+    "id": 307,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "easy",
+    "tags": ["cultural competence", "diversity", "adaptation"],
+    "question": "When working with a family from a collectivist cultural background where direct emotional expression is uncommon, the therapist should:",
+    "options": [
+      "Insist they learn to express emotions directly, as this is essential for therapy",
+      "Adapt the approach to respect their cultural communication style",
+      "Refer them to a therapist from their cultural background",
+      "Educate them about American therapeutic norms and expectations"
+    ],
+    "correct": 1,
+    "explanation": "Cultural competence requires therapists to adapt their approach to respect clients' cultural values and communication styles while still providing effective therapy. When direct emotional expression conflicts with cultural norms, the therapist can respect indirect communication styles, use culturally appropriate metaphors or stories, work with cultural strengths, and address issues in ways consistent with the culture. Imposing Western therapeutic norms is culturally insensitive.",
+    "citation": "Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse: Theory and Practice (8th ed.). Wiley; McGoldrick, M., Giordano, J., & Garcia-Preto, N. (Eds.) (2005). Ethnicity and Family Therapy (3rd ed.). Guilford Press."
+  },
+  {
+    "id": 308,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "hard",
+    "tags": ["domestic violence", "safety", "contraindications"],
+    "vignette": "During an intake session, a wife discloses that her husband hit her last week during an argument, leaving visible bruises. She says it's the first time but she's scared. The husband minimizes the incident.",
+    "question": "The therapist's MOST appropriate immediate response is to:",
+    "options": [
+      "Continue couples therapy with a focus on anger management",
+      "Immediately create a safety plan and see partners separately",
+      "Confront the husband about his abusive behavior in the joint session",
+      "Defer to the wife's stated preference about how to proceed"
+    ],
+    "correct": 1,
+    "explanation": "When domestic violence has occurred, couples therapy is contraindicated until safety is established. Immediate priorities are: (1) assess current danger and create a safety plan, (2) see partners separately (joint sessions can endanger the victim through later retaliation), (3) assess lethality risk, (4) provide domestic violence resources. Couples therapy can only proceed after violence has stopped, perpetrator has engaged in treatment, and safety is established.",
+    "citation": "Stith, S. M., Rosen, K. H., & McCollum, E. E. (2003). Effectiveness of Couples Treatment for Spouse Abuse. Journal of Marital and Family Therapy, 29(3), 407-426; Domestic Abuse Intervention Programs (Duluth Model); AAMFT Code of Ethics (2015)."
+  },
+  {
+    "id": 309,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "medium",
+    "tags": ["countertransference", "self-awareness", "therapeutic relationship"],
+    "vignette": "A therapist working with a couple going through divorce finds herself feeling unusually angry at the husband and protective of the wife. She realizes these feelings are connected to her own difficult divorce years ago.",
+    "question": "This reaction is BEST described as:",
+    "options": [
+      "Clinical intuition based on accurate assessment of the situation",
+      "Countertransference requiring self-reflection and possibly supervision",
+      "Appropriate therapeutic alliance with the wife",
+      "Evidence that the therapist should terminate and refer"
+    ],
+    "correct": 1,
+    "explanation": "Countertransference refers to the therapist's emotional reactions to clients that are influenced by the therapist's own unresolved issues, personal history, or dynamics. The therapist's recognition that her feelings are connected to her own divorce indicates awareness of countertransference. This requires self-reflection, possibly supervision or consultation, to ensure these reactions don't interfere with therapeutic effectiveness or lead to biased interventions.",
+    "citation": "Gelso, C. J., & Hayes, J. A. (2007). Countertransference and the Therapist's Inner Experience: Perils and Possibilities. Lawrence Erlbaum; Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson."
+  },
+  {
+    "id": 310,
+    "domain": "Designing and Conducting Treatment",
+    "difficulty": "medium",
+    "tags": ["externalization", "Narrative", "White"],
+    "vignette": "A therapist working with a child who is anxious asks: 'When the worry monster tries to boss you around and tell you scary things, what do you do to stand up to it?'",
+    "question": "This question exemplifies which Narrative therapy technique?",
+    "options": [
+      "Circular questioning about family relationships",
+      "Externalization of the problem as a separate entity",
+      "Reframing anxiety in positive terms",
+      "Solution-focused exception finding"
+    ],
+    "correct": 1,
+    "explanation": "This exemplifies externalization, a core Narrative therapy technique where the problem is linguistically separated from the person's identity. Instead of 'I am anxious' (problem as identity), the anxiety becomes 'the worry monster' (problem as external entity that can be resisted). The therapist then explores times when the child 'stood up to' the externalized problem, identifying unique outcomes where the child demonstrated agency and competence.",
+    "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; White, M. (2007). Maps of Narrative Practice. Norton; Freeman, J., Epston, D., & Lobovits, D. (1997). Playful Approaches to Serious Problems. Norton."
+  }
+]
