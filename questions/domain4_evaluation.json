@@ -3,7 +3,11 @@
     "id": 401,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "easy",
-    "tags": ["termination", "process", "ending therapy"],
+    "tags": [
+      "termination",
+      "process",
+      "ending therapy"
+    ],
     "question": "When a family reports that their treatment goals have been substantially met, the therapist should:",
     "options": [
       "Continue therapy indefinitely to prevent relapse",
@@ -19,7 +23,11 @@
     "id": 402,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "medium",
-    "tags": ["outcome measurement", "progress", "assessment"],
+    "tags": [
+      "outcome measurement",
+      "progress",
+      "assessment"
+    ],
     "question": "The MOST reliable method for evaluating therapeutic progress is:",
     "options": [
       "The therapist's subjective impression of improvement",
@@ -35,7 +43,11 @@
     "id": 403,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "medium",
-    "tags": ["termination", "client return", "follow-up"],
+    "tags": [
+      "termination",
+      "client return",
+      "follow-up"
+    ],
     "vignette": "A family successfully completed therapy six months ago. They now call requesting to return for several sessions to address a new stressor (job loss). The therapist feels disappointed, viewing their return as evidence of treatment failure.",
     "question": "The therapist's reaction:",
     "options": [
@@ -52,7 +64,11 @@
     "id": 404,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "hard",
-    "tags": ["stuck therapy", "impasse", "clinical judgment"],
+    "tags": [
+      "stuck therapy",
+      "impasse",
+      "clinical judgment"
+    ],
     "vignette": "After 12 sessions, a family shows no measurable progress toward their goals despite the therapist's consistent efforts. The family attends regularly and seems engaged, but patterns remain unchanged.",
     "question": "The therapist's MOST appropriate response is to:",
     "options": [
@@ -69,7 +85,11 @@
     "id": 405,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "easy",
-    "tags": ["termination", "feelings", "processing"],
+    "tags": [
+      "termination",
+      "feelings",
+      "processing"
+    ],
     "vignette": "As termination approaches, a family expresses sadness and worry about 'not making it' without the therapist's support.",
     "question": "The therapist should:",
     "options": [
@@ -86,7 +106,11 @@
     "id": 406,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "medium",
-    "tags": ["progress evaluation", "measurement", "outcomes"],
+    "tags": [
+      "progress evaluation",
+      "measurement",
+      "outcomes"
+    ],
     "question": "Which of the following is the BEST indicator of successful couples therapy outcome?",
     "options": [
       "The couple no longer argues or disagrees",
@@ -102,7 +126,11 @@
     "id": 407,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "hard",
-    "tags": ["unplanned termination", "dropout", "clinical response"],
+    "tags": [
+      "unplanned termination",
+      "dropout",
+      "clinical response"
+    ],
     "vignette": "After four sessions, a family stops attending and doesn't respond to the therapist's phone messages. Three months later, they call requesting to resume therapy.",
     "question": "The therapist should:",
     "options": [
@@ -119,7 +147,11 @@
     "id": 408,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "medium",
-    "tags": ["relapse prevention", "maintenance", "consolidation"],
+    "tags": [
+      "relapse prevention",
+      "maintenance",
+      "consolidation"
+    ],
     "question": "A key component of effective relapse prevention planning in termination is:",
     "options": [
       "Scheduling monthly maintenance sessions indefinitely",
@@ -135,7 +167,11 @@
     "id": 409,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "easy",
-    "tags": ["termination review", "consolidation", "learning"],
+    "tags": [
+      "termination review",
+      "consolidation",
+      "learning"
+    ],
     "vignette": "During the final session, the therapist asks the family: 'Looking back over our work together, what have you learned that will be most helpful going forward?'",
     "question": "The primary purpose of this question is:",
     "options": [
@@ -152,7 +188,11 @@
     "id": 410,
     "domain": "Evaluating Process and Terminating Treatment",
     "difficulty": "hard",
-    "tags": ["premature termination", "clinical judgment", "ethics"],
+    "tags": [
+      "premature termination",
+      "clinical judgment",
+      "ethics"
+    ],
     "vignette": "A therapist has been seeing a family for significant trauma issues for 8 sessions. The family's insurance coverage ends, and they cannot afford to continue. Significant therapeutic work remains incomplete.",
     "question": "The therapist's ethical responsibility is to:",
     "options": [
@@ -164,5 +204,508 @@
     "correct": 2,
     "explanation": "When financial barriers threaten to prematurely end treatment, the therapist's ethical responsibility is to help the family explore options, which may include: (1) sliding scale or reduced fees if feasible, (2) less frequent sessions, (3) referral to community mental health centers or low-cost clinics, (4) connecting them with resources, and (5) providing brief termination/stabilization if needed. The AAMFT Code of Ethics encourages pro bono work but doesn't require indefinite free service. The key is not abandoning clients and helping them access continued care.",
     "citation": "AAMFT Code of Ethics (2015), Principle I [Responsibility to Clients]; Knapp, S., & VandeCreek, L. (2012). Practical Ethics for Psychologists: A Positive Approach (2nd ed.). American Psychological Association."
+  },
+  {
+    "id": 411,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "progress monitoring",
+      "outcome",
+      "evaluation"
+    ],
+    "question": "Routine outcome monitoring in family therapy involves:",
+    "options": [
+      "Only conducting formal assessments at termination",
+      "Regularly tracking client progress throughout treatment using standardized measures",
+      "Relying solely on the therapist's subjective impressions",
+      "Evaluating outcomes only when insurance requires it"
+    ],
+    "correct": 1,
+    "explanation": "Routine outcome monitoring involves regularly (typically each session or periodically) using brief standardized measures to track client progress, therapeutic alliance, and goal achievement. This practice: identifies clients not improving early (allowing course correction), improves outcomes by 65%, enhances accountability, provides feedback to therapist and clients, and supports evidence-based practice. Tools like the ORS (Outcome Rating Scale) and SRS (Session Rating Scale) take less than two minutes.",
+    "citation": "Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client: A Revolutionary Way to Improve Effectiveness Through Client-Directed, Outcome-Informed Therapy. Jossey-Bass; Lambert, M. J., et al. (2003). Enhancing Psychotherapy Outcomes Via Providing Feedback. Journal of Clinical Psychology, 59(2), 159-172."
+  },
+  {
+    "id": 412,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "termination",
+      "ending",
+      "timing"
+    ],
+    "question": "Termination of family therapy should ideally occur when:",
+    "options": [
+      "The therapist feels the family has had enough sessions",
+      "Goals have been achieved and the family can maintain gains independently",
+      "Insurance coverage runs out",
+      "The identified patient's symptoms completely disappear"
+    ],
+    "correct": 1,
+    "explanation": "Appropriate termination occurs when: treatment goals have been substantially achieved, the family can maintain changes independently, new skills are generalized to daily life, and both therapist and family agree they're ready. Termination should be planned collaboratively, not abrupt. Complete symptom elimination isn't always necessary or realistic\u2014many families terminate when functioning improves sufficiently and they have tools to manage future challenges. The goal is sustainable change, not perfection.",
+    "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson; Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford."
+  },
+  {
+    "id": 413,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "relapse prevention",
+      "maintenance",
+      "consolidation"
+    ],
+    "vignette": "A couple has made significant progress in reducing conflict and improving communication. As termination approaches, the therapist asks: 'What might trigger old patterns to return? How would you recognize early warning signs? What would you do if that happened?'",
+    "question": "This intervention addresses:",
+    "options": [
+      "The therapist's anxiety about termination",
+      "Relapse prevention and preparation for future challenges",
+      "Identifying reasons to continue therapy longer",
+      "Undermining the couple's confidence in their progress"
+    ],
+    "correct": 1,
+    "explanation": "This is relapse prevention work, essential during termination phase. It involves: identifying potential triggers for old patterns, recognizing early warning signs, developing specific plans for managing setbacks, normalizing that challenges may recur, and building confidence in managing difficulties independently. This preparation reduces anxiety about ending therapy, consolidates learning, and increases the likelihood of maintaining gains. It frames occasional setbacks as normal rather than as catastrophic failures.",
+    "citation": "Marlatt, G. A., & Donovan, D. M. (Eds.) (2005). Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors (2nd ed.). Guilford; Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge."
+  },
+  {
+    "id": 414,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "feedback",
+      "client-directed",
+      "alliance"
+    ],
+    "question": "Regularly soliciting client feedback about the therapy process:",
+    "options": [
+      "Undermines the therapist's authority and expertise",
+      "Improves outcomes and reduces premature dropout",
+      "Is unnecessary if the therapist is experienced",
+      "Should only be done at termination"
+    ],
+    "correct": 1,
+    "explanation": "Regular client feedback (using tools like the SRS or informal check-ins) significantly improves outcomes and reduces dropout. Feedback helps: identify alliance ruptures early, ensure cultural fit, adjust approaches that aren't working, empower clients, and demonstrate therapist humility and respect. Research shows therapists are poor at detecting when clients are dissatisfied\u2014direct feedback is essential. The practice embodies collaborative, client-centered values while improving effectiveness.",
+    "citation": "Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass; Anker, M. G., et al. (2009). Using Client Feedback to Improve Couple Therapy Outcomes. Journal of Consulting and Clinical Psychology, 77(4), 693-704."
+  },
+  {
+    "id": 415,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "premature termination",
+      "dropout",
+      "engagement"
+    ],
+    "question": "The highest risk period for premature termination in family therapy is:",
+    "options": [
+      "After the first 1-3 sessions",
+      "In the middle phase of treatment",
+      "Just before planned termination",
+      "During the assessment phase only"
+    ],
+    "correct": 0,
+    "explanation": "The highest dropout risk is after the first 1-3 sessions, with approximately 25-50% of families not returning. Common reasons include: poor therapeutic alliance, feeling judged or blamed, mismatch between therapist and family goals, lack of hope or immediate progress, cultural disconnect, or practical barriers. Careful attention to engagement, collaboration, and early success in these initial sessions is critical. Discussing expectations, demonstrating respect, and showing concrete value early reduces dropout.",
+    "citation": "Pereira, T., Lock, J., & Oggins, J. (2006). Role of Therapeutic Alliance in Family Therapy for Adolescent Anorexia Nervosa. International Journal of Eating Disorders, 39(8), 677-684; Pinsof, W. M., & Catherall, D. R. (1986). The Integrative Psychotherapy Alliance. Journal of Marital and Family Therapy, 12(2), 137-151."
+  },
+  {
+    "id": 416,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "goal setting",
+      "measurable outcomes",
+      "evaluation"
+    ],
+    "question": "Treatment goals that are measurable and observable make it easier to:",
+    "options": [
+      "Control family members' behavior",
+      "Evaluate progress and determine when goals are achieved",
+      "Assign blame for lack of improvement",
+      "Extend therapy indefinitely"
+    ],
+    "correct": 1,
+    "explanation": "Measurable, observable goals (e.g., 'Parents will agree on bedtime routine 6 out of 7 nights' rather than 'improve parenting') enable: tracking progress objectively, knowing when goals are achieved, maintaining accountability, adjusting strategies if progress stalls, and determining appropriate termination timing. Concrete goals also increase motivation by making success visible. They should still be meaningful to the family and collaboratively developed, not just imposed for measurement ease.",
+    "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson; Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass."
+  },
+  {
+    "id": 417,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "deterioration",
+      "negative effects",
+      "monitoring"
+    ],
+    "vignette": "Routine outcome measures show a family is getting worse rather than better after 4 sessions. Individual family members report feeling more distressed, and conflicts have intensified since starting therapy.",
+    "question": "The therapist should:",
+    "options": [
+      "Continue with the current approach since change often gets worse before better",
+      "Address this deterioration immediately with the family and modify approach",
+      "Blame the family for not working hard enough",
+      "Terminate immediately without discussion"
+    ],
+    "correct": 1,
+    "explanation": "When clients deteriorate during treatment (5-10% of cases), immediate action is required: openly discuss the data with family, explore their experience of therapy, examine what's not working, consider whether approach/goals need modification, assess for external factors, and potentially refer if needed. Ignoring deterioration violates ethical duty. The therapeutic relationship matters more than model allegiance\u2014if an approach isn't helping or is causing harm, the therapist must adjust. Sometimes 'worse before better' is appropriate, but this should be monitored carefully and discussed openly.",
+    "citation": "Lambert, M. J. (2007). Presidential Address: What We Have Learned From a Decade of Research. Psychotherapy Research, 17(1), 1-14; Lilienfeld, S. O. (2007). Psychological Treatments That Cause Harm. Perspectives on Psychological Science, 2(1), 53-70."
+  },
+  {
+    "id": 418,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "termination",
+      "process",
+      "closure"
+    ],
+    "question": "Good termination practices include:",
+    "options": [
+      "Ending therapy abruptly when goals are met",
+      "Reviewing progress, consolidating learning, and addressing feelings about ending",
+      "Avoiding discussion of termination to prevent client anxiety",
+      "Scheduling termination based solely on session limits"
+    ],
+    "correct": 1,
+    "explanation": "Effective termination involves: announcing ending several sessions in advance, reviewing what was accomplished, attributing change to family efforts, consolidating learning and skills, discussing maintenance and relapse prevention, processing feelings about ending, planning for future challenges, and leaving door open for future contact if needed. Termination is a therapeutic opportunity to celebrate progress, reinforce family competence, and ensure sustainable change. Abrupt endings can feel like abandonment and undermine gains.",
+    "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford; Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson."
+  },
+  {
+    "id": 419,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "follow-up",
+      "booster sessions",
+      "maintenance"
+    ],
+    "question": "Scheduling follow-up or 'booster' sessions after termination:",
+    "options": [
+      "Indicates the family failed treatment",
+      "Can help maintain gains and prevent relapse",
+      "Is unethical and creates dependency",
+      "Should never be done once termination occurs"
+    ],
+    "correct": 1,
+    "explanation": "Follow-up or booster sessions (e.g., one session at 3 and 6 months post-termination) help maintain gains and catch emerging problems early. They: normalize seeking help, reduce pressure for 'perfect' termination, provide accountability for maintaining change, allow brief course corrections, and reduce relapse rates. This practice recognizes that change is ongoing and occasional support is adaptive rather than indicative of failure. It can be planned at termination or arranged as-needed.",
+    "citation": "Whisman, M. A. (1990). The Efficacy of Booster Maintenance Sessions in Behavior Therapy. Behavior Therapy, 21(3), 355-365; Jacobson, N. S., & Addis, M. E. (1993). Research on Couples and Couple Therapy. Journal of Consulting and Clinical Psychology, 61(1), 85-93."
+  },
+  {
+    "id": 420,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "alliance",
+      "rupture",
+      "repair"
+    ],
+    "question": "When a therapeutic alliance rupture occurs, the therapist should:",
+    "options": [
+      "Ignore it and hope it resolves naturally",
+      "Blame the family for being resistant",
+      "Address it directly with the family and work to repair the relationship",
+      "Immediately terminate therapy"
+    ],
+    "correct": 2,
+    "explanation": "Alliance ruptures (tension, disagreement, withdrawal) are common and, when addressed directly, can actually strengthen the therapeutic relationship. Effective rupture repair involves: noticing signs of rupture, raising it non-defensively ('I'm sensing some tension'), listening to family concerns without defensiveness, taking responsibility for therapist contribution, collaboratively problem-solving, and adjusting approach as needed. Unrepaired ruptures lead to poor outcomes and dropout; successful repair predicts positive outcomes.",
+    "citation": "Safran, J. D., Muran, J. C., & Eubanks-Carter, C. (2011). Repairing Alliance Ruptures. Psychotherapy, 48(1), 80-87; Friedlander, M. L., et al. (2006). System for Observing Family Therapy Alliances. Journal of Marital and Family Therapy, 32(4), 391-417."
+  },
+  {
+    "id": 421,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "cultural factors",
+      "termination",
+      "evaluation"
+    ],
+    "question": "Cultural factors that may influence termination include:",
+    "options": [
+      "All cultures view termination identically",
+      "Different cultural values about independence, help-seeking, and authority relationships",
+      "Cultural factors are irrelevant to therapy endings",
+      "Only language barriers matter for termination"
+    ],
+    "correct": 1,
+    "explanation": "Culture significantly impacts termination: collectivist cultures may view independence differently than individualistic ones; hierarchical cultures may expect more directive closure from the 'expert'; some cultures value long-term relationships over time-limited contact; attitudes about mental health help-seeking vary; and expressing feelings about endings may be more or less comfortable. Therapists should explore cultural meaning of termination, respect cultural values about relationships and endings, and adapt termination processes accordingly rather than imposing a single model.",
+    "citation": "Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse: Theory and Practice (8th ed.). Wiley; McGoldrick, M., Giordano, J., & Garcia-Preto, N. (Eds.) (2005). Ethnicity and Family Therapy (3rd ed.). Guilford."
+  },
+  {
+    "id": 422,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "session frequency",
+      "dose-effect",
+      "treatment length"
+    ],
+    "question": "Research on therapy dose-effect relationships suggests:",
+    "options": [
+      "All clients need exactly the same number of sessions",
+      "Improvement typically occurs early, with diminishing returns over time",
+      "No improvement occurs until at least 20 sessions",
+      "Session number is unrelated to outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Dose-effect research shows: approximately 50% of clients improve significantly by session 8, 75% by session 26, and 85% by session 52. The rate of improvement is negatively accelerated\u2014gains come quickly early, then plateau. However, this varies by problem severity, chronicity, and client factors. This suggests: focusing early sessions on engagement and quick wins, monitoring progress routinely to identify non-responders, and individualizing treatment length rather than assuming all clients need the same 'dose.'",
+    "citation": "Hansen, N. B., Lambert, M. J., & Forman, E. M. (2002). The Psychotherapy Dose-Response Effect. Clinical Psychology: Science and Practice, 9(3), 329-343; Howard, K. I., et al. (1986). The Dose-Effect Relationship in Psychotherapy. American Psychologist, 41(2), 159-164."
+  },
+  {
+    "id": 423,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "client satisfaction",
+      "evaluation",
+      "outcomes"
+    ],
+    "question": "Client satisfaction surveys measure:",
+    "options": [
+      "Only the therapist's technical skills",
+      "Clients' subjective experience of therapy and perceived helpfulness",
+      "Objective symptom reduction",
+      "Whether clients completed all assigned homework"
+    ],
+    "correct": 1,
+    "explanation": "Client satisfaction measures subjective experience: how helpful therapy felt, satisfaction with the therapeutic relationship, whether clients felt heard and respected, and perceived benefit. While satisfaction doesn't perfectly correlate with objective outcomes, it matters because: satisfied clients are more likely to complete treatment, satisfaction reflects alliance quality, it has some relationship to outcomes, and client perspective is inherently valuable. Satisfaction data should complement (not replace) objective outcome measures.",
+    "citation": "Lambert, M. J., & Ogles, B. M. (2004). The Efficacy and Effectiveness of Psychotherapy. In M. J. Lambert (Ed.), Bergin and Garfield's Handbook of Psychotherapy and Behavior Change (5th ed.). Wiley."
+  },
+  {
+    "id": 424,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "unplanned termination",
+      "dropout",
+      "prevention"
+    ],
+    "question": "To reduce unplanned termination, therapists should:",
+    "options": [
+      "Never discuss ending therapy",
+      "Regularly check in about satisfaction and progress, address concerns early",
+      "Make therapy last as long as possible",
+      "Avoid asking families about their goals to prevent disappointment"
+    ],
+    "correct": 1,
+    "explanation": "Preventing premature dropout involves: regularly checking satisfaction and progress, addressing concerns immediately, ensuring collaborative goal-setting, demonstrating respect and cultural sensitivity, showing concrete value early, discussing expectations openly, providing early successes, maintaining strong alliance, offering flexibility in approach, and normalizing asking questions or expressing concerns. Creating an atmosphere where families feel safe voicing dissatisfaction paradoxically reduces dropout by allowing course correction.",
+    "citation": "Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass; Pinsof, W. M., & Catherall, D. R. (1986). The Integrative Psychotherapy Alliance. Journal of Marital and Family Therapy, 12(2), 137-151."
+  },
+  {
+    "id": 425,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "evidence-based",
+      "effectiveness",
+      "research"
+    ],
+    "vignette": "A therapist reads that EFT has strong empirical support for couples therapy. However, she primarily works with high-conflict divorcing couples co-parenting children\u2014a population not well-represented in EFT research.",
+    "question": "This situation illustrates:",
+    "options": [
+      "The therapist should use EFT regardless of population fit",
+      "The tension between research evidence and clinical applicability to specific populations",
+      "That research is irrelevant to clinical practice",
+      "The therapist is incompetent for questioning research findings"
+    ],
+    "correct": 1,
+    "explanation": "This illustrates the 'efficacy-effectiveness gap': interventions proven effective in research (efficacy) may not generalize perfectly to all clinical settings and populations (effectiveness). Evidence-based practice integrates: best available research, clinical expertise, and client values/characteristics. The therapist should: consider research evidence, use clinical judgment about applicability, adapt approaches thoughtfully, monitor outcomes with this population, and contribute to practice-based evidence. Blindly applying research without considering context or ignoring research entirely are both problematic.",
+    "citation": "APA Presidential Task Force (2006). Evidence-Based Practice in Psychology. American Psychologist, 61(4), 271-285; Wampold, B. E., & Imel, Z. E. (2015). The Great Psychotherapy Debate. Routledge."
+  },
+  {
+    "id": 426,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "goal attainment",
+      "scaling",
+      "progress"
+    ],
+    "question": "Goal Attainment Scaling (GAS) involves:",
+    "options": [
+      "Weighing clients before and after therapy",
+      "Creating individualized scales for each client's specific goals",
+      "Using only standardized symptom measures",
+      "Ranking family members from most to least improved"
+    ],
+    "correct": 1,
+    "explanation": "Goal Attainment Scaling creates individualized measurement scales for each client's specific goals. For each goal, the therapist and client define: the expected outcome (0), better than expected outcomes (+1, +2), and worse than expected outcomes (-1, -2). This allows measurement of personally meaningful goals that may not be captured by standardized measures, while still providing quantifiable data. GAS is particularly useful in family therapy where goals are diverse and individualized.",
+    "citation": "Kiresuk, T. J., Smith, A., & Cardillo, J. E. (Eds.) (1994). Goal Attainment Scaling: Applications, Theory, and Measurement. Lawrence Erlbaum; Turner-Stokes, L. (2009). Goal Attainment Scaling and Its Practical Application. Clinical Rehabilitation, 23(4), 362-370."
+  },
+  {
+    "id": 427,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "clinical significance",
+      "statistical significance",
+      "outcomes"
+    ],
+    "question": "Clinical significance in therapy refers to:",
+    "options": [
+      "Whether results are statistically significant in research",
+      "Whether changes are meaningful and noticeable in clients' daily lives",
+      "The therapist's credentials and experience level",
+      "How many sessions were required"
+    ],
+    "correct": 1,
+    "explanation": "Clinical significance asks: Did clients' functioning improve enough to make a real difference in their lives? Did they move from dysfunctional to functional range? Do they and others notice meaningful change? This differs from statistical significance, which asks whether change is unlikely due to chance. A change can be statistically significant but clinically trivial (e.g., 2-point improvement on a 100-point scale) or clinically significant without statistical testing (single case). Clinical significance matters more to clients and therapists.",
+    "citation": "Jacobson, N. S., & Truax, P. (1991). Clinical Significance: A Statistical Approach to Defining Meaningful Change. Journal of Consulting and Clinical Psychology, 59(1), 12-19; Kazdin, A. E. (1999). The Meanings and Measurement of Clinical Significance. Journal of Consulting and Clinical Psychology, 67(3), 332-339."
+  },
+  {
+    "id": 428,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "termination",
+      "transference",
+      "feelings"
+    ],
+    "question": "During termination, family members may experience:",
+    "options": [
+      "Only relief and happiness",
+      "Anxiety, sadness, or regression as well as pride and optimism",
+      "No emotional reaction to ending therapy",
+      "Always anger toward the therapist"
+    ],
+    "correct": 1,
+    "explanation": "Termination evokes complex, often mixed feelings: pride in accomplishments, optimism about the future, but also anxiety about managing alone, sadness about losing the therapeutic relationship, and sometimes temporary symptom return (regression) as an unconscious pull to continue therapy. These reactions are normal and should be acknowledged and processed. How termination is handled can itself be therapeutic\u2014modeling healthy endings, tolerating ambivalence, and supporting independence while maintaining connection (e.g., door open for future contact).",
+    "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford; Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson."
+  },
+  {
+    "id": 429,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "deterioration effects",
+      "harmful therapy",
+      "monitoring"
+    ],
+    "question": "Research suggests that approximately what percentage of therapy clients deteriorate or experience negative effects?",
+    "options": [
+      "Less than 1%",
+      "5-10%",
+      "25-30%",
+      "Over 50%"
+    ],
+    "correct": 1,
+    "explanation": "Research estimates 5-10% of clients deteriorate during therapy\u2014getting worse rather than better. Causes include: poor therapeutic alliance, inappropriate treatment approach, therapist incompetence, severe crisis or external events, and occasionally harmful specific techniques. This underscores the importance of: routine outcome monitoring to detect deterioration early, being willing to change approach when clients aren't improving, maintaining strong alliance, avoiding potentially harmful techniques, and making referrals when appropriate. Therapists who don't track outcomes may not realize they're causing harm.",
+    "citation": "Lambert, M. J. (2007). Presidential Address: What We Have Learned. Psychotherapy Research, 17(1), 1-14; Lilienfeld, S. O. (2007). Psychological Treatments That Cause Harm. Perspectives on Psychological Science, 2(1), 53-70."
+  },
+  {
+    "id": 430,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "success",
+      "attribution",
+      "empowerment"
+    ],
+    "question": "When reviewing progress at termination, therapists should:",
+    "options": [
+      "Take full credit for the family's changes to build credibility",
+      "Attribute success primarily to the family's efforts and strengths",
+      "Minimize accomplishments to prevent overconfidence",
+      "Focus only on remaining problems"
+    ],
+    "correct": 1,
+    "explanation": "Attributing change to client efforts (rather than therapist brilliance) empowers families, increases self-efficacy, enhances maintenance of gains, and models humility. The therapist can acknowledge their role (providing structure, ideas, support) while emphasizing that families did the hard work of changing. This attribution style predicts better long-term outcomes\u2014families who believe they achieved change are more likely to maintain it and handle future challenges independently.",
+    "citation": "Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client: A Revolutionary Way to Improve Effectiveness. Jossey-Bass; Hubble, M. A., Duncan, B. L., & Miller, S. D. (Eds.) (1999). The Heart and Soul of Change. APA."
+  },
+  {
+    "id": 431,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "progress notes",
+      "documentation",
+      "evaluation"
+    ],
+    "question": "Progress notes in family therapy should include:",
+    "options": [
+      "Only the therapist's theoretical interpretations",
+      "Who attended, interventions used, client responses, and progress toward goals",
+      "Detailed transcripts of everything said in session",
+      "Only negative or problematic behaviors"
+    ],
+    "correct": 1,
+    "explanation": "Effective progress notes document: who attended, topics/issues addressed, interventions used, client responses and engagement, progress toward goals, safety assessments when relevant, and plans for next session. Notes should be clear, objective, concise, and sufficient to justify medical necessity and demonstrate appropriate care. They support: treatment planning, communication with other providers, legal protection, insurance reimbursement, and quality assurance. Balance thoroughness with efficiency\u2014excessively long notes or superficial brief notes are both problematic.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Cameron, S., & turtle-song, i. (2002). Learning to Write Case Notes Using the SOAP Format. Journal of Counseling & Development, 80(3), 286-292."
+  },
+  {
+    "id": 432,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "therapist self-evaluation",
+      "competence",
+      "development"
+    ],
+    "question": "Therapists should evaluate their own effectiveness by:",
+    "options": [
+      "Only relying on their subjective sense of how sessions went",
+      "Using outcome data, client feedback, supervision, and self-reflection",
+      "Assuming all clients who continue therapy are satisfied",
+      "Comparing themselves only to less experienced therapists"
+    ],
+    "correct": 1,
+    "explanation": "Effective self-evaluation requires multiple sources: objective outcome data, direct client feedback, supervision/consultation, peer review, recording/reviewing sessions, tracking dropout rates, continuing education, and honest self-reflection. Therapists are notoriously poor at accurately assessing their own effectiveness without external data\u2014most rate themselves above average. Routine outcome monitoring provides essential feedback for improving practice and identifying areas needing development. Humility and willingness to learn characterize effective therapists.",
+    "citation": "Walfish, S., McAlister, B., O'Donnell, P., & Lambert, M. J. (2012). An Investigation of Self-Assessment Bias in Mental Health Providers. Psychological Reports, 110(2), 639-644; Miller, S. D., Hubble, M. A., & Duncan, B. L. (2007). Supershrinks: Learning from the Field's Most Effective Practitioners. Psychotherapy Networker, 31(6), 26-35, 56."
+  },
+  {
+    "id": 433,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "hard",
+    "tags": [
+      "measurement",
+      "validity",
+      "outcomes"
+    ],
+    "question": "When selecting outcome measures for family therapy, therapists should consider:",
+    "options": [
+      "Only the measures required by insurance",
+      "Reliability, validity, clinical utility, and cultural appropriateness",
+      "Whatever measures are quickest to administer",
+      "Only measures that will show positive results"
+    ],
+    "correct": 1,
+    "explanation": "Good outcome measures should be: reliable (consistent), valid (measure what they claim), clinically useful (provide actionable information), brief enough to use routinely, sensitive to change, culturally appropriate, and relevant to treatment goals. Measures can assess: symptoms, functioning, relationship quality, therapeutic alliance, or goal progress. Using multiple measures (self-report, behavioral observation, goal attainment) provides richer information than any single measure. The measure should serve clinical decision-making, not just documentation requirements.",
+    "citation": "Sprenkle, D. H., & Piercy, F. P. (Eds.) (2005). Research Methods in Family Therapy (2nd ed.). Guilford; Fischer, J., & Corcoran, K. (2007). Measures for Clinical Practice and Research: A Sourcebook (4th ed.). Oxford University Press."
+  },
+  {
+    "id": 434,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "medium",
+    "tags": [
+      "planned endings",
+      "time-limited",
+      "brief therapy"
+    ],
+    "question": "In time-limited or brief therapy models, announcing the number of sessions upfront:",
+    "options": [
+      "Creates unnecessary pressure and anxiety",
+      "Can focus efforts and make efficient use of time",
+      "Guarantees therapy will fail",
+      "Is unethical and manipulative"
+    ],
+    "correct": 1,
+    "explanation": "Planned, time-limited therapy (e.g., 8-12 sessions) can: focus therapeutic efforts, motivate efficient work, reduce dependency, manage expectations, make therapy more accessible and affordable, and create urgency that promotes change. Research shows brief therapies are often as effective as longer ones for many problems. However, time limits should be flexible for clients needing more, and the approach should fit the problem severity. Some clients benefit from long-term work, others from brief focused intervention.",
+    "citation": "de Shazer, S. (1985). Keys to Solution in Brief Therapy. Norton; Budman, S. H., & Gurman, A. S. (1988). Theory and Practice of Brief Therapy. Guilford."
+  },
+  {
+    "id": 435,
+    "domain": "Evaluating Process and Terminating",
+    "difficulty": "easy",
+    "tags": [
+      "maintenance",
+      "generalization",
+      "sustainability"
+    ],
+    "question": "For therapeutic changes to be maintained after termination, changes need to:",
+    "options": [
+      "Remain dependent on the therapist's continued involvement",
+      "Generalize to multiple contexts and become integrated into daily life",
+      "Be maintained only in the therapy office",
+      "Require no further effort from family members"
+    ],
+    "correct": 1,
+    "explanation": "Sustainable change requires generalization\u2014new patterns must transfer from therapy sessions to daily life, occur across multiple settings, be maintained without therapist presence, and become the 'new normal' for the family. Promoting generalization involves: practicing skills in session, assigning between-session tasks, fading therapist involvement gradually, building family confidence in independent problem-solving, and creating environmental supports for change. Termination should occur when families demonstrate change is generalized and self-sustaining.",
+    "citation": "Stokes, T. F., & Baer, D. M. (1977). An Implicit Technology of Generalization. Journal of Applied Behavior Analysis, 10(2), 349-367; Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford."
   }
 ]

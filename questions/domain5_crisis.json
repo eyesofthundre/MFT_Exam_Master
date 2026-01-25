@@ -3,7 +3,11 @@
     "id": 501,
     "domain": "Managing Crisis Situations",
     "difficulty": "easy",
-    "tags": ["mandated reporting", "child abuse", "legal"],
+    "tags": [
+      "mandated reporting",
+      "child abuse",
+      "legal"
+    ],
     "vignette": "During a therapy session, a mother casually mentions that she sometimes 'pops' her 4-year-old son 'upside the head' when he misbehaves. She says it leaves bruises but 'kids get bruises all the time.'",
     "question": "The therapist should:",
     "options": [
@@ -13,14 +17,18 @@
       "Discuss it privately with the mother to see if she'll stop"
     ],
     "correct": 1,
-    "explanation": "Mental health professionals are mandated reporters in all states. When there is reasonable suspicion of child abuse, therapists must report immediately to Child Protective Services or law enforcement. Physical discipline resulting in bruises meets criteria for physical abuse. The therapist doesn't need certainty—reasonable suspicion is sufficient. Mandated reporting takes precedence over confidentiality, therapeutic relationship, and gathering more evidence (which is CPS's job). Failure to report is a legal violation.",
+    "explanation": "Mental health professionals are mandated reporters in all states. When there is reasonable suspicion of child abuse, therapists must report immediately to Child Protective Services or law enforcement. Physical discipline resulting in bruises meets criteria for physical abuse. The therapist doesn't need certainty\u2014reasonable suspicion is sufficient. Mandated reporting takes precedence over confidentiality, therapeutic relationship, and gathering more evidence (which is CPS's job). Failure to report is a legal violation.",
     "citation": "AAMFT Code of Ethics (2015), Principle I.4; State mandated reporting statutes; Kalichman, S. C. (1999). Mandated Reporting of Suspected Child Abuse: Ethics, Law, and Policy (2nd ed.). American Psychological Association."
   },
   {
     "id": 502,
     "domain": "Managing Crisis Situations",
     "difficulty": "medium",
-    "tags": ["suicide assessment", "safety planning", "crisis"],
+    "tags": [
+      "suicide assessment",
+      "safety planning",
+      "crisis"
+    ],
     "vignette": "A client reports passive suicidal ideation ('Sometimes I wish I wouldn't wake up') but denies active plan, intent, or prior attempts. She has strong family support and her upcoming wedding is in two months.",
     "question": "This client's suicide risk level is BEST described as:",
     "options": [
@@ -37,7 +45,11 @@
     "id": 503,
     "domain": "Managing Crisis Situations",
     "difficulty": "hard",
-    "tags": ["duty to warn", "Tarasoff", "legal"],
+    "tags": [
+      "duty to warn",
+      "Tarasoff",
+      "legal"
+    ],
     "vignette": "A client makes a credible threat to kill his ex-girlfriend's new boyfriend, identifying him by name. The client knows where the person works and has access to firearms. When confronted, he says 'I'm just venting' but doesn't retract the threat.",
     "question": "The therapist's legal and ethical duty is to:",
     "options": [
@@ -54,7 +66,11 @@
     "id": 504,
     "domain": "Managing Crisis Situations",
     "difficulty": "medium",
-    "tags": ["suicide safety planning", "crisis intervention", "techniques"],
+    "tags": [
+      "suicide safety planning",
+      "crisis intervention",
+      "techniques"
+    ],
     "question": "The MOST important component of a suicide safety plan is:",
     "options": [
       "Having the client sign a no-suicide contract",
@@ -70,7 +86,11 @@
     "id": 505,
     "domain": "Managing Crisis Situations",
     "difficulty": "easy",
-    "tags": ["elder abuse", "mandated reporting", "legal"],
+    "tags": [
+      "elder abuse",
+      "mandated reporting",
+      "legal"
+    ],
     "question": "Therapists are mandated reporters for suspected abuse of:",
     "options": [
       "Children only",
@@ -86,7 +106,11 @@
     "id": 506,
     "domain": "Managing Crisis Situations",
     "difficulty": "hard",
-    "tags": ["child abuse disclosure", "forensic interview", "procedure"],
+    "tags": [
+      "child abuse disclosure",
+      "forensic interview",
+      "procedure"
+    ],
     "vignette": "During a family session, a 7-year-old girl suddenly discloses that 'Uncle Tom touched my private parts.' The therapist immediately begins asking detailed questions about what happened, when, where, and how many times.",
     "question": "The therapist's response is:",
     "options": [
@@ -103,7 +127,11 @@
     "id": 507,
     "domain": "Managing Crisis Situations",
     "difficulty": "medium",
-    "tags": ["hospitalization", "psychiatric emergency", "involuntary"],
+    "tags": [
+      "hospitalization",
+      "psychiatric emergency",
+      "involuntary"
+    ],
     "vignette": "A client with active suicidal ideation, specific plan, and means refuses voluntary hospitalization. She says 'You can't make me go.' She appears to have capacity to make decisions.",
     "question": "The therapist should:",
     "options": [
@@ -120,7 +148,11 @@
     "id": 508,
     "domain": "Managing Crisis Situations",
     "difficulty": "easy",
-    "tags": ["domestic violence", "safety", "resources"],
+    "tags": [
+      "domestic violence",
+      "safety",
+      "resources"
+    ],
     "question": "When working with a victim of domestic violence, the therapist's FIRST priority is:",
     "options": [
       "Helping the client understand why they stay in the relationship",
@@ -136,7 +168,11 @@
     "id": 509,
     "domain": "Managing Crisis Situations",
     "difficulty": "medium",
-    "tags": ["homicidal ideation", "threat assessment", "violence risk"],
+    "tags": [
+      "homicidal ideation",
+      "threat assessment",
+      "violence risk"
+    ],
     "question": "Which of the following is the STRONGEST predictor of future violence?",
     "options": [
       "History of previous violent behavior",
@@ -152,7 +188,11 @@
     "id": 510,
     "domain": "Managing Crisis Situations",
     "difficulty": "hard",
-    "tags": ["confidentiality", "minor", "abuse disclosure"],
+    "tags": [
+      "confidentiality",
+      "minor",
+      "abuse disclosure"
+    ],
     "vignette": "A 16-year-old client discloses that her 18-year-old boyfriend is sexually active with her. She says it's consensual and begs the therapist not to tell her parents or report it because 'we're in love and you'll ruin everything.'",
     "question": "The therapist should:",
     "options": [
@@ -164,5 +204,516 @@
     "correct": 1,
     "explanation": "The therapist must determine if this relationship meets statutory rape criteria, which varies by state. Many states have laws against sexual activity between adults (18+) and minors under a certain age, even if 'consensual.' Some states have close-in-age exemptions ('Romeo and Juliet laws'). If it meets criteria for statutory rape, the therapist is a mandated reporter and must report to law enforcement/CPS regardless of the teen's wishes. The therapist should know their state's specific laws regarding age of consent, statutory rape, and mandated reporting requirements.",
     "citation": "State-specific statutory rape laws; AAMFT Code of Ethics (2015), Principle I.4; Boonstra, H. D. (2011). Teen Pregnancy: Trends and Lessons Learned. Guttmacher Policy Review, 5(1), 7-10."
+  },
+  {
+    "id": 511,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "suicide assessment",
+      "imminent risk",
+      "safety"
+    ],
+    "vignette": "During a family session, a 17-year-old reveals he has been thinking about suicide daily for the past month. He has access to his father's gun and has thought about using it. He states 'I don't see a way out of this pain.'",
+    "question": "The therapist should FIRST:",
+    "options": [
+      "Continue the family session and address it next week",
+      "Immediately assess suicide risk level and implement safety planning",
+      "Tell the teen these thoughts are normal and will pass",
+      "Ask the family to leave so the teen can process this privately"
+    ],
+    "correct": 1,
+    "explanation": "Immediate suicide risk assessment is required when a client expresses suicidal ideation, especially with specific means (gun), frequency (daily), and hopelessness. Assessment includes: ideation intensity, plan specificity, means access, intent, protective factors, and prior attempts. Safety planning must address immediate access to lethal means (secure the gun), increase supervision, create crisis response plan, and may include hospitalization if risk is imminent. Family involvement in safety planning is essential for minors. Document thoroughly.",
+    "citation": "Joiner, T. E., et al. (2005). The Interpersonal-Psychological Theory of Suicidal Behavior. Clinical Psychology Review, 25(6), 773-798; Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 512,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "mandated reporting",
+      "child abuse",
+      "duty"
+    ],
+    "question": "MFTs are mandated reporters, meaning they must report suspected:",
+    "options": [
+      "Only confirmed cases of abuse with physical evidence",
+      "Child abuse, elder abuse, and dependent adult abuse as defined by state law",
+      "Only abuse if the client gives permission",
+      "All family conflicts to authorities"
+    ],
+    "correct": 1,
+    "explanation": "MFTs are mandated reporters who must report reasonable suspicion (not proof) of child abuse, elder abuse, and dependent adult abuse to designated authorities as required by state law. Reporting is required even without client consent\u2014confidentiality does not apply. Failure to report can result in criminal charges, license discipline, and civil liability. Therapists should know their state's specific requirements, reporting procedures, timeline (often 24-48 hours), and what constitutes reasonable suspicion. Documentation of the report and clinical reasoning is essential.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Child Welfare Information Gateway (2019). Mandatory Reporters of Child Abuse and Neglect. U.S. Department of Health & Human Services."
+  },
+  {
+    "id": 513,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "domestic violence",
+      "safety planning",
+      "assessment"
+    ],
+    "vignette": "A wife discloses in an individual session that her husband has been physically violent multiple times. She fears for her safety but doesn't want to leave because of finances and concern for her children. She asks you not to tell her husband what she shared.",
+    "question": "The therapist should:",
+    "options": [
+      "Honor her confidentiality and continue couples therapy without addressing the violence",
+      "Prioritize safety: discontinue couples therapy, provide DV resources, develop safety plan",
+      "Tell the husband immediately what his wife disclosed",
+      "Report to police without the client's knowledge or consent"
+    ],
+    "correct": 1,
+    "explanation": "Intimate partner violence (IPV) contraindicates couples therapy as it can escalate danger. The therapist should: see partners individually to assess safety, provide domestic violence resources and hotline numbers, develop detailed safety planning (escape plan, emergency contacts, documents/money secured, safe location identified), document carefully, consider safety of reporting requirements, respect victim's autonomy while emphasizing safety, and discontinue conjoint sessions. Mandated reporting of adult IPV varies by state\u2014know your state laws. Never confront perpetrator in conjoint session about undisclosed violence.",
+    "citation": "Stith, S. M., et al. (2012). Risk Factors in Intimate Partner Violence. Aggression and Violent Behavior, 17(5), 408-413; National Domestic Violence Hotline (2020). Safety Planning Guidelines."
+  },
+  {
+    "id": 514,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "Tarasoff",
+      "duty to warn",
+      "threat"
+    ],
+    "question": "Under Tarasoff principles, therapists have a duty to warn when:",
+    "options": [
+      "A client makes any vague statement about anger",
+      "A client makes a serious, credible, imminent threat toward an identifiable victim",
+      "A client discusses any violent fantasy",
+      "A client has a history of violence but no current threats"
+    ],
+    "correct": 1,
+    "explanation": "Tarasoff v. Regents of University of California established that therapists must breach confidentiality to protect identifiable potential victims when: (1) a serious and imminent threat exists, (2) toward a specific, identifiable person, and (3) the therapist believes the threat is credible. Duty to protect may involve: warning the victim, notifying police, hospitalizing the client. Requirements vary by state\u2014some require only duty to protect (can involve police) vs. duty to warn (must contact victim). Document reasoning thoroughly. General anger or vague threats typically don't trigger Tarasoff duties.",
+    "citation": "Tarasoff v. Regents of University of California, 551 P.2d 334 (Cal. 1976); VandeCreek, L., & Knapp, S. (2001). Tarasoff and Beyond: Legal and Clinical Considerations in the Treatment of Life-Endangering Patients (3rd ed.). Professional Resource Press."
+  },
+  {
+    "id": 515,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "crisis intervention",
+      "de-escalation",
+      "techniques"
+    ],
+    "question": "Effective de-escalation techniques during a crisis include:",
+    "options": [
+      "Raising your voice to match the client's intensity",
+      "Using a calm tone, validating feelings, and maintaining safety",
+      "Arguing with the client about their perceptions",
+      "Ignoring the emotional intensity"
+    ],
+    "correct": 1,
+    "explanation": "De-escalation involves: remaining calm and speaking in a steady, lower tone; validating the person's feelings without agreeing with distorted perceptions; maintaining safe physical distance; using non-threatening body language; limiting choices to simple options; removing audience if possible; and avoiding triggers like arguing, criticism, or demands for immediate compliance. The goal is reducing arousal enough for cognitive processing and problem-solving to occur. Safety is paramount\u2014know when to seek help or leave if violence is imminent.",
+    "citation": "Richmond, J. S., et al. (2012). Verbal De-escalation of the Agitated Patient. Western Journal of Emergency Medicine, 13(1), 17-25; Crisis Prevention Institute (2019). Nonviolent Crisis Intervention Training."
+  },
+  {
+    "id": 516,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "hospitalization",
+      "involuntary",
+      "commitment"
+    ],
+    "question": "Involuntary psychiatric hospitalization is typically justified when a person is:",
+    "options": [
+      "Simply diagnosed with a mental illness",
+      "An imminent danger to self or others due to mental illness",
+      "Refusing to attend therapy sessions",
+      "Experiencing mild depression"
+    ],
+    "correct": 1,
+    "explanation": "Involuntary hospitalization criteria (typically called '5150' hold or similar) require: (1) mental illness or disorder, AND (2) imminent danger to self (suicidal) or others (homicidal), OR gravely disabled (unable to provide food, shelter, clothing for self). Simply having mental illness or refusing treatment isn't sufficient\u2014there must be imminent safety risk. Hospitalization is the least restrictive alternative when safety cannot be maintained outpatient. Procedures vary by state but generally involve evaluation by qualified professionals and judicial review.",
+    "citation": "American Psychiatric Association (2015). The APA Practice Guidelines for the Psychiatric Evaluation of Adults (3rd ed.); Testa, M., & West, S. G. (2010). Civil Commitment in the United States. Psychiatry, 7(10), 30-40."
+  },
+  {
+    "id": 517,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "child abuse",
+      "bruises",
+      "assessment"
+    ],
+    "vignette": "During a family session, you notice unusual bruising on a 6-year-old's arms that looks like finger marks. When asked, the mother explains the child bruises easily and was roughhousing with siblings. The child seems anxious and withdrawn.",
+    "question": "The therapist should:",
+    "options": [
+      "Accept the explanation and continue therapy",
+      "Report to Child Protective Services based on reasonable suspicion of abuse",
+      "Wait to see if more bruises appear before reporting",
+      "Confront the parents about abuse in the session"
+    ],
+    "correct": 1,
+    "explanation": "This presents reasonable suspicion requiring mandated reporting: unusual bruising pattern (finger marks), plus behavioral indicators (anxiety, withdrawal), even with parental explanation. Mandated reporters don't need proof or certainty\u2014'reasonable suspicion' is sufficient. CPS investigates to determine if abuse occurred; that's not the therapist's role. Report should occur within state-mandated timeframe (often 24-48 hours). Don't delay reporting to gather more evidence or confront parents. Document objective observations, not conclusions. Inform parents after filing (unless this endangers child).",
+    "citation": "Child Welfare Information Gateway (2019). What is Child Abuse and Neglect? U.S. Department of Health & Human Services; AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy."
+  },
+  {
+    "id": 518,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "safety plan",
+      "suicide",
+      "components"
+    ],
+    "question": "A comprehensive suicide safety plan should include:",
+    "options": [
+      "Only the therapist's emergency number",
+      "Warning signs, coping strategies, supports, crisis contacts, and means restriction",
+      "A promise the client won't attempt suicide",
+      "Medication only"
+    ],
+    "correct": 1,
+    "explanation": "Evidence-based safety planning (Stanley & Brown model) includes: (1) recognizing warning signs of crisis, (2) internal coping strategies to use alone, (3) social contacts/settings for distraction, (4) people to ask for help (family, friends), (5) professional contacts/crisis numbers, and (6) reducing access to lethal means. The plan should be written, specific, accessible, and collaboratively developed. 'No-suicide contracts' are ineffective and not recommended. Safety planning reduces suicide attempts when combined with follow-up contact.",
+    "citation": "Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention: A Brief Intervention to Mitigate Suicide Risk. Cognitive and Behavioral Practice, 19(2), 256-264; Bryan, C. J., et al. (2017). Effectiveness of a Brief Intervention for Suicidal Ideation. JAMA Psychiatry, 74(6), 563-570."
+  },
+  {
+    "id": 519,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "elder abuse",
+      "signs",
+      "reporting"
+    ],
+    "question": "Signs of possible elder abuse include:",
+    "options": [
+      "Normal aging-related physical decline",
+      "Unexplained injuries, poor hygiene, fearfulness, or financial exploitation",
+      "Choosing to live with family members",
+      "Taking prescribed medications"
+    ],
+    "correct": 1,
+    "explanation": "Elder abuse indicators include: unexplained injuries, poor hygiene/nutrition, over-sedation, fearfulness around caregiver, social isolation, pressure ulcers (bedsores), dehydration, financial exploitation (sudden account changes, unexplained withdrawals, unpaid bills despite income), sexual abuse signs, or caregiver preventing access to elder. Like child abuse, reasonable suspicion (not proof) triggers mandated reporting to Adult Protective Services. Elder abuse is underreported\u2014therapists play crucial role in detection and reporting.",
+    "citation": "National Center on Elder Abuse (2016). Types of Elder Abuse. Administration on Aging; Dong, X., et al. (2013). Elder Abuse and Mortality. Journal of the American Geriatrics Society, 61(2), 269-277."
+  },
+  {
+    "id": 520,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "substance abuse",
+      "intoxication",
+      "session"
+    ],
+    "vignette": "A client arrives to a couples session appearing intoxicated\u2014slurred speech, unsteady gait, alcohol odor. The client insists they're fine and wants to proceed with the session.",
+    "question": "The therapist should:",
+    "options": [
+      "Proceed with the session as requested",
+      "Cancel the session due to client's impairment and safety concerns",
+      "Lecture the client about their drinking problem",
+      "Allow the sober partner to drive the intoxicated partner home"
+    ],
+    "correct": 1,
+    "explanation": "Therapy cannot proceed effectively when a client is intoxicated: they lack capacity for informed consent, cannot fully participate, and safety may be compromised. The therapist should: calmly reschedule, not lecture, assess whether client is safe to drive (arrange safe transportation if not), document, and address substance use in future sober sessions. If intoxication is frequent, it becomes a treatment focus. In some cases, substance treatment must precede or accompany couples/family therapy. Don't allow an intoxicated person to drive\u2014this could involve legal and ethical liability.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Center for Substance Abuse Treatment (2004). Substance Abuse Treatment and Family Therapy. Treatment Improvement Protocol (TIP) Series 39. SAMHSA."
+  },
+  {
+    "id": 521,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "limits of confidentiality",
+      "adolescent",
+      "danger"
+    ],
+    "vignette": "A 15-year-old you're seeing individually reveals she's been 'sexting' with an adult man she met online. She begs you not to tell her parents, saying they'll 'freak out' and she'll lose her phone.",
+    "question": "The therapist should:",
+    "options": [
+      "Maintain confidentiality as the teen requested",
+      "Report to authorities as this involves potential sexual exploitation of a minor",
+      "Only address this if it escalates to in-person contact",
+      "Tell only the parents, not authorities"
+    ],
+    "correct": 1,
+    "explanation": "This involves potential sexual exploitation or grooming of a minor, requiring mandated reporting to Child Protective Services and possibly law enforcement (depending on content and state laws). The teen's age (under 18) and adult perpetrator make this a child safety issue, not confidential information. While this may damage therapeutic alliance, safety takes precedence. The therapist should: explain limits of confidentiality (should have been clarified at start), support the teen through the process, coordinate with parents, and continue therapy if appropriate. Document thoroughly.",
+    "citation": "Child Welfare Information Gateway (2019). Mandatory Reporters of Child Abuse and Neglect. U.S. Department of Health & Human Services; AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy."
+  },
+  {
+    "id": 522,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "homicidal ideation",
+      "violence risk",
+      "assessment"
+    ],
+    "question": "Risk factors for violence that should increase concern include:",
+    "options": [
+      "Only a current verbal threat with no history",
+      "History of violence, substance abuse, access to weapons, and specific plan",
+      "Any expression of anger regardless of context",
+      "Seeking therapy for anger management"
+    ],
+    "correct": 1,
+    "explanation": "Violence risk factors include: history of violence (strongest predictor), substance abuse, access to weapons, specific threat/plan toward identifiable victim, command hallucinations, paranoid delusions about victim, impulsivity, recent stressors, and lack of support system. Assessment considers: acute factors (immediate triggers), static factors (unchangeable history), and dynamic factors (current changeable states). Multiple risk factors compound risk exponentially. Protective factors (social support, treatment engagement, coping skills) should also be assessed. Seek consultation for complex cases.",
+    "citation": "Monahan, J., et al. (2001). Rethinking Risk Assessment: The MacArthur Study of Mental Disorder and Violence. Oxford University Press; American Psychiatric Association (2016). Psychiatric Evaluation of Adults (3rd ed.)."
+  },
+  {
+    "id": 523,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "crisis hotlines",
+      "resources",
+      "referral"
+    ],
+    "question": "The National Suicide Prevention Lifeline number is:",
+    "options": [
+      "911",
+      "988",
+      "1-800-SUICIDE",
+      "411"
+    ],
+    "correct": 1,
+    "explanation": "988 is the National Suicide Prevention Lifeline (as of July 2022, replacing 1-800-273-8255). It provides 24/7 free, confidential support for people in distress, crisis resources, and prevention information. Other key resources: National Domestic Violence Hotline (1-800-799-7233), Crisis Text Line (text HOME to 741741), SAMHSA National Helpline (1-800-662-4357 for substance abuse), and 911 for immediate emergencies. Therapists should have these resources readily available and provide them to all clients at intake.",
+    "citation": "Substance Abuse and Mental Health Services Administration (2022). 988 Suicide & Crisis Lifeline. SAMHSA; National Suicide Prevention Lifeline (2023). Crisis Services Resources."
+  },
+  {
+    "id": 524,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "child protective services",
+      "collaboration",
+      "process"
+    ],
+    "question": "After making a child abuse report to CPS, the therapist should:",
+    "options": [
+      "Immediately terminate therapy with the family",
+      "Continue therapy if appropriate, document, and cooperate with investigation",
+      "Never see the family again to avoid complications",
+      "Deny making the report if family asks"
+    ],
+    "correct": 1,
+    "explanation": "After reporting suspected child abuse, therapists typically: continue therapy if clinically appropriate and family is willing (reporting doesn't automatically end therapy), document the report and clinical reasoning, cooperate with CPS investigation if contacted (within confidentiality bounds), inform parents (usually required after filing unless this endangers child), address family reactions therapeutically, and maintain focus on child safety and family functioning. Some families appreciate the concern for safety; others feel betrayed. Processing this is part of ongoing work.",
+    "citation": "Child Welfare Information Gateway (2019). Mandatory Reporters of Child Abuse and Neglect. U.S. Department of Health & Human Services; AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy."
+  },
+  {
+    "id": 525,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "sexual abuse disclosure",
+      "child",
+      "protocol"
+    ],
+    "vignette": "During an individual play session, a 7-year-old child discloses that 'Uncle Mark touches me in my private parts when he babysits.' This is the first disclosure. The child asks you not to tell anyone.",
+    "question": "The therapist should:",
+    "options": [
+      "Honor the child's request for confidentiality",
+      "Immediately report to CPS/law enforcement and avoid questioning the child further",
+      "Conduct a detailed forensic interview to gather evidence",
+      "Confront Uncle Mark in the next family session"
+    ],
+    "correct": 1,
+    "explanation": "When a child discloses sexual abuse, the therapist should: (1) remain calm and supportive, (2) tell the child they did the right thing by telling, (3) explain you must report to keep them safe (gentle explanation of mandated reporting), (4) report immediately to CPS/law enforcement, (5) document the child's words verbatim, and (6) NOT conduct further questioning\u2014trained forensic interviewers will do this to preserve evidence and avoid contaminating the child's account. Never confront the alleged perpetrator. Multiple interviews can harm the child and compromise legal proceedings.",
+    "citation": "U.S. Department of Justice (2015). National Protocol for Sexual Abuse Medical Forensic Examinations: Pediatric. Office on Violence Against Women; APSAC (2012). Practice Guidelines for Child Sexual Abuse. American Professional Society on the Abuse of Children."
+  },
+  {
+    "id": 526,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "lethality",
+      "means restriction",
+      "firearms"
+    ],
+    "question": "Means restriction for suicide prevention involves:",
+    "options": [
+      "Forcing clients to promise they won't attempt suicide",
+      "Temporarily removing or securing access to lethal means like firearms and medications",
+      "Ignoring method of potential attempt",
+      "Only restricting means after an attempt occurs"
+    ],
+    "correct": 1,
+    "explanation": "Means restriction is one of the most effective suicide prevention strategies. It involves temporarily removing or securing lethal means: firearms locked/removed, medications locked or dispensed in small quantities, ligature points secured. This is particularly important during acute crisis periods. Even brief delays (securing a gun, traveling to another location) can interrupt suicidal impulses\u2014most attempts are impulsive, with <10 minutes between decision and action. Families play essential roles in means restriction. This is a core safety planning component.",
+    "citation": "Yip, P. S., et al. (2012). Means Restriction for Suicide Prevention. The Lancet, 379(9834), 2393-2399; Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 527,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "documentation",
+      "crisis",
+      "legal"
+    ],
+    "question": "When documenting a crisis situation, the therapist should:",
+    "options": [
+      "Wait several days before documenting",
+      "Document thoroughly, promptly, objectively, and include actions taken",
+      "Avoid documentation to protect confidentiality",
+      "Document only positive observations"
+    ],
+    "correct": 1,
+    "explanation": "Crisis documentation should be: timely (as soon as possible after event), thorough (observations, statements, risk assessment, interventions, consultations), objective (facts, not conclusions), include rationale for clinical decisions, note follow-up plans, and be legible. Good documentation provides: legal protection for therapist, continuity of care, evidence of appropriate response, and information for risk management. In court, the standard is 'if it's not documented, it didn't happen.' Never alter records after the fact.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Luepker, E. T. (2003). Record Keeping in Psychotherapy and Counseling: Protecting Confidentiality and the Professional Relationship. Brunner-Routledge."
+  },
+  {
+    "id": 528,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "gravely disabled",
+      "conservatorship",
+      "capacity"
+    ],
+    "vignette": "An elderly client with severe dementia living alone is unable to manage medications, prepare food, or maintain hygiene. Family is concerned but the client refuses help and wants to stay independent. The client has no acute safety risk but is declining.",
+    "question": "This situation may warrant:",
+    "options": [
+      "No action since the client has decision-making capacity",
+      "Reporting to Adult Protective Services for assessment of grave disability",
+      "Immediate involuntary hospitalization",
+      "Telling the family to forcibly remove the client from their home"
+    ],
+    "correct": 1,
+    "explanation": "This presents potential 'grave disability'\u2014inability to provide for basic needs (food, clothing, shelter, medical care) due to mental disorder. While not acutely suicidal/homicidal, the person may need conservatorship or assisted living. Adult Protective Services assesses capacity, safety, and need for intervention. Grave disability criteria vary by state but generally require: mental disorder, inability to meet basic needs, and lack of sufficient support. The person's wishes are considered but safety takes precedence when capacity is impaired. This is different from voluntary choices by capable adults.",
+    "citation": "American Psychiatric Association (2015). Psychiatric Evaluation of Adults (3rd ed.); National Adult Protective Services Association (2018). Guidelines for Adult Protective Services."
+  },
+  {
+    "id": 529,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "consultation",
+      "supervision",
+      "crisis"
+    ],
+    "question": "When managing a crisis situation, seeking consultation or supervision is:",
+    "options": [
+      "A sign of incompetence and should be avoided",
+      "Appropriate and recommended, especially for complex or unfamiliar situations",
+      "Only necessary for unlicensed therapists",
+      "A waste of time during emergencies"
+    ],
+    "correct": 1,
+    "explanation": "Consultation during crises is not only appropriate but often ethically required, especially when: situation is complex or ambiguous, therapist has limited experience with the issue, multiple ethical/legal principles conflict, or therapist feels emotionally reactive. Consultation provides: additional perspective, support for difficult decisions, documentation of thoughtful process, and improved client outcomes. Even experienced therapists consult on challenging cases. Document consultations. This demonstrates reasonable standard of care and can provide legal protection.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Barnett, J. E., & Molzon, C. H. (2014). Clinical Supervision of Psychotherapy. Journal of Clinical Psychology, 70(11), 1053-1061."
+  },
+  {
+    "id": 530,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "self-harm",
+      "NSSI",
+      "assessment"
+    ],
+    "question": "Non-suicidal self-injury (NSSI) such as cutting differs from suicide attempts in that:",
+    "options": [
+      "NSSI involves no risk and requires no intervention",
+      "NSSI is intended to regulate emotions, not to die, though both require clinical attention",
+      "NSSI is more dangerous than suicide attempts",
+      "NSSI only occurs in adolescents"
+    ],
+    "correct": 1,
+    "explanation": "Non-suicidal self-injury (NSSI) like cutting, burning, or hitting oneself is typically used to regulate overwhelming emotions, communicate distress, or self-punish\u2014not to die. However, NSSI still requires serious clinical attention because: it indicates severe emotional dysregulation, predicts future suicide risk (though most who self-harm don't attempt suicide), can accidentally become lethal, and often co-occurs with mental health disorders. Assessment should differentiate NSSI from suicide attempts while taking both seriously and addressing underlying distress.",
+    "citation": "Nock, M. K. (2010). Self-Injury. Annual Review of Clinical Psychology, 6, 339-363; American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 531,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "Tarasoff",
+      "identifiable victim",
+      "warning"
+    ],
+    "vignette": "A client states he's so angry at his boss he could 'kill him.' The client describes violent fantasies but has no plan, no history of violence, and continues working normally. He says this is just venting frustration.",
+    "question": "This situation likely:",
+    "options": [
+      "Requires immediate Tarasoff warning to the boss",
+      "Does not meet Tarasoff criteria due to lack of serious, imminent threat",
+      "Requires immediate hospitalization",
+      "Requires termination of therapy"
+    ],
+    "correct": 1,
+    "explanation": "While the boss is identifiable, this likely doesn't meet Tarasoff criteria because: the threat lacks credibility (expression of frustration vs. serious intent), no plan exists, no history of violence, and no imminent danger. 'Could kill' is different from 'will kill' or 'going to kill.' The therapist should: continue assessing in ongoing sessions, explore anger and coping, monitor for escalation, and document clinical reasoning. If risk escalates (plan develops, behavior changes, threat becomes serious), reassess. Consultation is appropriate for borderline cases.",
+    "citation": "VandeCreek, L., & Knapp, S. (2001). Tarasoff and Beyond: Legal and Clinical Considerations (3rd ed.). Professional Resource Press; Borum, R., & Reddy, M. (2001). Assessing Violence Risk in Tarasoff Situations. Behavioral Sciences & the Law, 19(3), 375-385."
+  },
+  {
+    "id": 532,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": [
+      "mandated reporting",
+      "gray area",
+      "judgment"
+    ],
+    "vignette": "A parent reports using spanking for discipline. The child has no visible injuries. Spanking is legal in your state but the parent describes hitting 'harder when really angry.' The parent seems open to learning other discipline methods.",
+    "question": "The therapist should:",
+    "options": [
+      "Immediately report to CPS as this is definitely abuse",
+      "Use clinical judgment: may not require reporting but address parenting practices therapeutically",
+      "Ignore it since spanking is legal in the state",
+      "Report only if bruises appear in future"
+    ],
+    "correct": 1,
+    "explanation": "This is a gray area requiring clinical judgment. Legal spanking doesn't necessarily constitute abuse, but escalation when angry raises concern. Factors to consider: severity, frequency, injury, child's age, parent's control, pattern of behavior. The therapist might: educate about effective discipline, assess for other abuse indicators, monitor over time, and strengthen parent skills. If the parent resists change, injuries occur, or hitting escalates significantly, reporting may become necessary. Document assessment and interventions. Consultation with CPS or supervisor can clarify whether current situation meets reporting threshold.",
+    "citation": "Child Welfare Information Gateway (2019). What is Child Abuse and Neglect? U.S. Department of Health & Human Services; Zolotor, A. J., et al. (2008). Corporal Punishment and Physical Abuse. Pediatric Clinics of North America, 55(2), 403-414."
+  },
+  {
+    "id": 533,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "acute psychosis",
+      "crisis",
+      "psychotic break"
+    ],
+    "vignette": "During a family session, an adult son becomes increasingly disorganized in his speech, reports hearing voices commanding him to hurt people, appears paranoid that others are trying to poison him, and seems unable to reality-test.",
+    "question": "The therapist should:",
+    "options": [
+      "Continue the session and address it next week",
+      "Seek immediate psychiatric evaluation and possible hospitalization",
+      "Argue with him about the reality of his perceptions",
+      "Send him home with family supervision"
+    ],
+    "correct": 1,
+    "explanation": "Acute psychosis with command hallucinations about violence requires immediate psychiatric evaluation. The person may meet criteria for involuntary hospitalization (danger to others due to mental illness). Actions: remain calm and non-threatening, don't argue with delusions, involve family in safety planning, call mobile crisis team or transport to ER, don't leave person alone if dangerous, and document thoroughly. Command hallucinations instructing violence, especially with paranoid delusions, significantly increase risk. The person needs medication and stabilization before therapy can resume.",
+    "citation": "American Psychiatric Association (2020). The American Psychiatric Association Practice Guideline for the Treatment of Patients With Schizophrenia (3rd ed.); Shea, S. C. (2002). The Practical Art of Suicide Assessment. Wiley."
+  },
+  {
+    "id": 534,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": [
+      "boundaries",
+      "crisis",
+      "contact"
+    ],
+    "question": "Regarding after-hours crisis contact, therapists should:",
+    "options": [
+      "Never be available outside session times",
+      "Establish clear policies about availability and emergency procedures",
+      "Be available 24/7 for all client concerns",
+      "Only provide personal cell numbers to favorite clients"
+    ],
+    "correct": 1,
+    "explanation": "Therapists should establish and communicate clear policies about: when after-hours contact is appropriate (true emergencies vs. routine questions), how to reach therapist or backup coverage, what constitutes an emergency, what to do if unable to reach therapist (ER, crisis line, 988), and boundaries around response time. Written policies given at intake prevent misunderstandings. Most therapists provide limited availability for crises while directing non-urgent issues to next session. Solo practitioners should have backup coverage arrangements.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling: A Practical Guide (5th ed.). Wiley."
+  },
+  {
+    "id": 535,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": [
+      "medical emergency",
+      "scope of practice",
+      "referral"
+    ],
+    "vignette": "A client reports severe chest pain during session. The client dismisses it saying 'it's probably just anxiety' but appears diaphoretic and short of breath.",
+    "question": "The therapist should:",
+    "options": [
+      "Continue exploring the anxiety symptoms",
+      "Call 911 immediately for possible medical emergency",
+      "Schedule a medical appointment for next week",
+      "Teach breathing exercises"
+    ],
+    "correct": 1,
+    "explanation": "Chest pain with diaphoresis (sweating) and shortness of breath could indicate cardiac emergency (heart attack) requiring immediate medical attention. Therapists are not trained to rule out medical causes\u2014when medical emergency is possible, call 911. Better to be cautious than sorry. Don't delay to explore psychological factors or attempt symptom management. After medical clearance, therapy can address anxiety if appropriate. Know your scope of practice\u2014psychological assessment doesn't include ruling out medical emergencies. Document the situation and actions taken.",
+    "citation": "American Heart Association (2020). Warning Signs of a Heart Attack. AHA; AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy."
   }
 ]
