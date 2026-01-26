@@ -42,6 +42,103 @@
             min-height: 100vh;
         }
         
+        /* ===================================
+           FONT SCALING FIX - OVERRIDES EVERYTHING
+           Forces ALL content to scale with accessibility slider
+           =================================== */
+        
+        /* Force EVERY element in content areas to inherit font size */
+        .card *,
+        #studySession *,
+        #sessionReview *,
+        #missedQuestionsReview *,
+        #sessionHistory *,
+        #studyNotes *,
+        #reportCard *,
+        .question-card *,
+        .review-question * {
+            font-size: inherit !important;
+        }
+        
+        /* Exceptions: Keep UI elements at fixed size */
+        .btn,
+        .btn *,
+        .header,
+        .header *,
+        .accessibility-btn,
+        .accessibility-panel,
+        .accessibility-panel *,
+        .filter-btn,
+        .user-info,
+        .user-info *,
+        .logo,
+        .logo * {
+            font-size: 1rem !important;
+        }
+        
+        /* Small UI text */
+        .range-labels,
+        .range-labels *,
+        .session-badge {
+            font-size: 0.75rem !important;
+        }
+        
+        /* Main content text that should scale */
+        .question-card h3,
+        .question-card p,
+        .question-text,
+        .vignette,
+        .answer-option,
+        .explanation,
+        .explanation p,
+        .citation,
+        .review-question,
+        .review-question p,
+        .review-question div,
+        .note-textarea,
+        .session-history-card,
+        #missedQuestionsList,
+        #reviewQuestionsList,
+        #studyNotesList,
+        .domain-performance,
+        #resultDetail,
+        #domainResults {
+            font-size: 1em !important;  /* Inherit from body */
+        }
+        
+        /* Slightly larger for question headings */
+        .question-card h3 {
+            font-size: 1.15em !important;
+        }
+        
+        /* Keep proportions for very large text */
+        body[style*="font-size: 4"] .question-card h3,
+        body[style*="font-size: 5"] .question-card h3,
+        body[style*="font-size: 6"] .question-card h3,
+        body[style*="font-size: 7"] .question-card h3,
+        body[style*="font-size: 8"] .question-card h3 {
+            font-size: 1.05em !important;  /* Less dramatic at huge sizes */
+        }
+        
+        /* UI elements stay readable but smaller */
+        .btn,
+        .header h1,
+        .logo h1,
+        .user-info,
+        .accessibility-btn,
+        .filter-btn,
+        label {
+            font-size: 1rem !important;  /* Fixed at 16px */
+        }
+        
+        /* Small UI text stays small */
+        .range-labels,
+        .domain-bar,
+        .stat-card .label,
+        .session-badge {
+            font-size: 0.75rem !important;  /* Fixed at 12px */
+        }
+        
         .app-container {
             max-width: 1200px;
             margin: 0 auto;
@@ -675,9 +772,444 @@
                 width: 100px;
             }
         }
+        
+        /* ===================================
+           ACCESSIBILITY ENHANCEMENTS
+           =================================== */
+        
+        /* Accessibility Button */
+        .accessibility-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--purple));
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 9999;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .accessibility-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+        }
+        
+        .accessibility-btn:active {
+            transform: scale(0.95);
+        }
+        
+        /* Accessibility Panel */
+        .accessibility-panel {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 340px;
+            background: var(--surface);
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            z-index: 9998;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .accessibility-panel h3 {
+            margin: 0 0 20px 0;
+            color: var(--text);
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .accessibility-section {
+            margin-bottom: 24px;
+        }
+        
+        .accessibility-section label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text);
+            font-size: 0.95rem;
+        }
+        
+        .accessibility-section input[type="range"] {
+            width: 100%;
+            cursor: pointer;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--border);
+            outline: none;
+        }
+        
+        .accessibility-section input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary);
+            cursor: pointer;
+        }
+        
+        .accessibility-section select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-size: 1rem;
+            background: var(--surface);
+            color: var(--text);
+            cursor: pointer;
+        }
+        
+        .range-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-light);
+            margin-top: 4px;
+        }
+        
+        .font-size-display {
+            display: inline-block;
+            margin-left: 8px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        /* Theme Styles */
+        body.theme-dark {
+            --bg: #1e293b;
+            --surface: #0f172a;
+            --text: #e2e8f0;
+            --text-light: #94a3b8;
+            --border: #334155;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        
+        body.theme-dark .card,
+        body.theme-dark .header,
+        body.theme-dark .question-card,
+        body.theme-dark .accessibility-panel {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        
+        body.theme-dark .btn {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        }
+        
+        body.theme-highcontrast {
+            --bg: #000000;
+            --surface: #000000;
+            --text: #FFFFFF;
+            --text-light: #FFFFFF;
+            --border: #FFFFFF;
+            background: #000000;
+        }
+        
+        body.theme-highcontrast .card,
+        body.theme-highcontrast .header,
+        body.theme-highcontrast .question-card,
+        body.theme-highcontrast .accessibility-panel {
+            background: #000000;
+            color: #FFFFFF;
+            border: 3px solid #FFFFFF;
+        }
+        
+        body.theme-highcontrast .btn {
+            background: #FFFFFF;
+            color: #000000;
+            border: 3px solid #FFFFFF;
+        }
+        
+        body.theme-dyslexia {
+            --bg: #fffbeb;
+            --surface: #fefce8;
+            --text: #292524;
+            --text-light: #57534e;
+            --border: #fef3c7;
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            font-family: 'Comic Sans MS', 'OpenDyslexic', sans-serif;
+        }
+        
+        body.theme-dyslexia .card,
+        body.theme-dyslexia .header,
+        body.theme-dyslexia .question-card,
+        body.theme-dyslexia .accessibility-panel {
+            background: #fffbeb;
+            color: #292524;
+        }
+        
+        /* Session History Styles */
+        .session-history-card {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 2px solid var(--border);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .session-history-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px var(--shadow);
+        }
+        
+        .session-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        
+        .session-date {
+            font-weight: 600;
+            color: var(--text);
+            font-size: 1.1rem;
+        }
+        
+        .session-score {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+        
+        .session-score.passing {
+            color: var(--success);
+        }
+        
+        .session-score.failing {
+            color: var(--danger);
+        }
+        
+        .session-details {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        
+        .session-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        /* Review Interface */
+        .review-filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid var(--border);
+            background: var(--surface);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .review-question {
+            background: var(--surface);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-left: 4px solid var(--border);
+        }
+        
+        .review-question.correct {
+            border-left-color: var(--success);
+        }
+        
+        .review-question.incorrect {
+            border-left-color: var(--danger);
+        }
+        
+        .answer-option.user-answer {
+            background: #fef2f2;
+            border-color: var(--danger);
+            font-weight: 600;
+        }
+        
+        .answer-option.user-answer.correct-answer {
+            background: var(--success-light);
+            border-color: var(--success);
+        }
+        
+        .answer-option.correct-answer {
+            background: var(--success-light);
+            border-color: var(--success);
+            font-weight: 600;
+        }
+        
+        /* Notes System */
+        .note-section {
+            margin-top: 20px;
+            padding: 16px;
+            background: var(--bg);
+            border-radius: 8px;
+        }
+        
+        .note-textarea {
+            width: 100%;
+            min-height: 80px;
+            padding: 12px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            resize: vertical;
+        }
+        
+        .note-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 8px;
+            background: var(--warning-light);
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--warning);
+            margin-left: 8px;
+        }
+        
+        .flag-btn {
+            padding: 8px 16px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+        
+        .flag-btn.flagged {
+            background: var(--danger-light);
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+        
+        .navigation-buttons {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        /* ===================================
+           NUCLEAR OVERRIDE - MUST BE LAST
+           This overrides ALL previous font-size declarations
+           =================================== */
+        
+        /* Force ALL text in main content to inherit from body */
+        .card > *,
+        .card > * > *,
+        .card > * > * > *,
+        .question-card,
+        .question-card *,
+        .answer-option,
+        .vignette,
+        .explanation,
+        .review-question,
+        .review-question *,
+        #missedQuestionsList,
+        #missedQuestionsList *,
+        #reviewQuestionsList,
+        #reviewQuestionsList *,
+        #sessionHistoryList,
+        #sessionHistoryList *,
+        #studyNotesList,
+        #studyNotesList *,
+        #questionDisplay,
+        #questionDisplay * {
+            font-size: 1em !important;
+            line-height: inherit !important;
+        }
+        
+        /* Keep buttons/UI usable */
+        button,
+        button *,
+        .btn,
+        .btn *,
+        .header h1,
+        .logo h1,
+        .accessibility-btn {
+            font-size: 1rem !important;
+        }
     </style>
 </head>
 <body>
+    <!-- Accessibility Controls -->
+    <button class="accessibility-btn" id="accessibilityBtn" onclick="toggleAccessibility()" title="Accessibility Settings">
+        ⚙️
+    </button>
+    
+    <div class="accessibility-panel hidden" id="accessibilityPanel">
+        <h3>⚙️ Accessibility Settings</h3>
+        
+        <div class="accessibility-section">
+            <label>
+                Font Size: <span class="font-size-display" id="fontSizeValue">16px</span>
+            </label>
+            <input type="range" id="fontSizeSlider" min="12" max="80" value="16" step="2"
+                   oninput="updateFontSize(this.value)">
+            <div class="range-labels">
+                <span>Small (12px)</span>
+                <span>Normal (16px)</span>
+                <span>Large (40px)</span>
+                <span>Huge (80px)</span>
+            </div>
+        </div>
+        
+        <div class="accessibility-section">
+            <label>Theme</label>
+            <select id="themeSelect" onchange="updateTheme(this.value)">
+                <option value="light">☀️ Light Mode</option>
+                <option value="dark">🌙 Dark Mode</option>
+                <option value="highcontrast">◐ High Contrast</option>
+                <option value="dyslexia">📖 Dyslexia-Friendly</option>
+            </select>
+        </div>
+        
+        <div class="accessibility-section">
+            <label>Line Spacing</label>
+            <select id="lineSpacingSelect" onchange="updateLineSpacing(this.value)">
+                <option value="1.4">Compact</option>
+                <option value="1.6" selected>Normal</option>
+                <option value="2.0">Relaxed</option>
+                <option value="2.4">Extra Relaxed</option>
+            </select>
+        </div>
+        
+        <button class="btn btn-primary" onclick="savePreferences()" style="width: 100%; margin-top: 12px;">
+            💾 Save Preferences
+        </button>
+        
+        <button class="btn" onclick="toggleAccessibility()" style="width: 100%; margin-top: 8px; background: var(--bg);">
+            ✖️ Close
+        </button>
+    </div>
+    
     <div class="app-container">
         <!-- Header -->
         <div class="header">
@@ -731,6 +1263,18 @@
                     <p>Test yourself like the real exam</p>
                 </div>
                 
+                <div class="option-card" onclick="showSessionHistory()">
+                    <div class="icon">📚</div>
+                    <h3>Review Past Sessions</h3>
+                    <p>See all your test results and review missed questions</p>
+                </div>
+                
+                <div class="option-card" onclick="showStudyNotes()">
+                    <div class="icon">📝</div>
+                    <h3>My Study Notes</h3>
+                    <p>Review your personal notes on questions</p>
+                </div>
+                
                 <div class="option-card" onclick="showReportCard()">
                     <div class="icon">📊</div>
                     <h3>Progress Report</h3>
@@ -738,9 +1282,28 @@
                 </div>
                 
                 <div class="option-card" onclick="showResources()">
-                    <div class="icon">📚</div>
+                    <div class="icon">🔗</div>
                     <h3>Study Resources</h3>
                     <p>Helpful links and materials</p>
+                </div>
+            </div>
+            
+            <!-- Quick Stats -->
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid var(--border);">
+                <h3 style="margin-bottom: 15px;">Your Study Stats</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+                    <div style="text-align: center; padding: 15px; background: var(--bg); border-radius: 12px;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--primary);" id="statTotalSessions">0</div>
+                        <div style="font-size: 0.9rem; color: var(--text-light);">Total Sessions</div>
+                    </div>
+                    <div style="text-align: center; padding: 15px; background: var(--bg); border-radius: 12px;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--success);" id="statAvgScore">0%</div>
+                        <div style="font-size: 0.9rem; color: var(--text-light);">Average Score</div>
+                    </div>
+                    <div style="text-align: center; padding: 15px; background: var(--bg); border-radius: 12px;">
+                        <div style="font-size: 2rem; font-weight: 700; color: var(--warning);" id="statFlaggedQuestions">0</div>
+                        <div style="font-size: 0.9rem; color: var(--text-light);">Flagged Questions</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -857,9 +1420,10 @@
             </div>
             
             <div class="action-buttons" style="justify-content: center;">
-                <button class="btn btn-primary" onclick="showMissedQuestions()">Review Missed Questions 📖</button>
+                <button class="btn btn-primary" onclick="reviewSession(window.lastCompletedSessionId)">📚 Review All Questions</button>
+                <button class="btn btn-warning" onclick="showMissedQuestions()">❌ Review Missed Only</button>
                 <button class="btn btn-success" onclick="backToDashboard()">Back to Dashboard</button>
-                <button class="btn btn-secondary" onclick="exportResults()">Download Report 📄</button>
+                <button class="btn btn-secondary" onclick="exportResults()">📄 Download Report</button>
             </div>
         </div>
 
@@ -873,6 +1437,67 @@
             <div class="action-buttons">
                 <button class="btn btn-primary" onclick="backToResults()">Back to Results</button>
                 <button class="btn btn-secondary" onclick="backToDashboard()">Dashboard</button>
+            </div>
+        </div>
+
+        <!-- Session History Screen -->
+        <div class="card hidden" id="sessionHistory">
+            <h2>📚 Past Study Sessions</h2>
+            <p style="color: var(--text-light); margin-bottom: 20px;">Review your test results and learn from missed questions</p>
+            
+            <div class="review-filters">
+                <button class="filter-btn active" onclick="filterSessions('all')">All Sessions</button>
+                <button class="filter-btn" onclick="filterSessions('passed')">✅ Passed (≥70%)</button>
+                <button class="filter-btn" onclick="filterSessions('failed')">❌ Need Review (<70%)</button>
+            </div>
+            
+            <div id="sessionHistoryList">
+                <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                    <div style="font-size: 3rem; margin-bottom: 16px;">📚</div>
+                    <p>No sessions yet. Complete your first practice session to see it here!</p>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-secondary" onclick="backToDashboard()">Back to Dashboard</button>
+            </div>
+        </div>
+
+        <!-- Session Review Screen -->
+        <div class="card hidden" id="sessionReview">
+            <h2>📖 Review Session</h2>
+            <div id="sessionReviewHeader" style="margin-bottom: 20px; padding-bottom: 16px; border-bottom: 2px solid var(--border);"></div>
+            
+            <div class="review-filters">
+                <button class="filter-btn active" onclick="filterReviewQuestions('all')">All Questions</button>
+                <button class="filter-btn" onclick="filterReviewQuestions('incorrect')">❌ Incorrect</button>
+                <button class="filter-btn" onclick="filterReviewQuestions('correct')">✅ Correct</button>
+                <button class="filter-btn" onclick="filterReviewQuestions('flagged')">🚩 Flagged</button>
+            </div>
+            
+            <div id="reviewQuestionsList"></div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-secondary" onclick="showSessionHistory()">Back to History</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Dashboard</button>
+            </div>
+        </div>
+
+        <!-- Study Notes Screen -->
+        <div class="card hidden" id="studyNotes">
+            <h2>📝 My Study Notes</h2>
+            <p style="color: var(--text-light); margin-bottom: 20px;">All your personal notes on questions you've reviewed</p>
+            
+            <div id="studyNotesList">
+                <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                    <div style="font-size: 3rem; margin-bottom: 16px;">📝</div>
+                    <p>No notes yet. Add notes while reviewing questions to see them here!</p>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <button class="btn btn-primary" onclick="exportStudyNotes()">📥 Export Notes</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Back to Dashboard</button>
             </div>
         </div>
 
@@ -978,7 +1603,7 @@
             
             try {
                 console.log('📚 Loading questions...');
-                const promises = domainFiles.map(file => 
+                const promises = domainFiles.map(file =>
                     fetch(file)
                         .then(response => {
                             if (!response.ok) throw new Error(`Failed to load ${file}`);
@@ -1030,20 +1655,29 @@
         let state = {
             userName: '',
             studyMode: 'practice', // 'practice' or 'exam'
+            preferences: {
+                fontSize: 16,
+                theme: 'light',
+                lineSpacing: 1.6
+            },
             currentSession: {
                 questions: [],
                 currentIndex: 0,
                 answers: {},
                 startTime: null,
                 selectedDomains: [],
-                selectedDifficulty: []
+                selectedDifficulty: [],
+                questionDetails: [] // Store complete Q&A for review
             },
+            sessions: [], // Complete history with all Q&A
+            questionNotes: {}, // {questionId: {note: '', flagged: false}}
             history: [],
             stats: {
                 totalSessions: 0,
                 totalQuestions: 0,
                 totalCorrect: 0,
-                lastStudyDate: null
+                lastStudyDate: null,
+                flaggedCount: 0
             }
         };
 
@@ -1060,6 +1694,9 @@
             }
             
             loadUserData();
+            loadPreferences(); // Load accessibility preferences
+            updateDashboardStats(); // Update stats display
+            
             if (state.userName) {
                 document.getElementById('welcomeScreen').classList.add('hidden');
                 document.getElementById('dashboard').classList.remove('hidden');
@@ -1149,8 +1786,8 @@
             const questionCount = parseInt(document.getElementById('questionCount').value);
             
             // Filter questions
-            let filteredQuestions = questionBank.filter(q => 
-                selectedDomains.includes(q.domain) && 
+            let filteredQuestions = questionBank.filter(q =>
+                selectedDomains.includes(q.domain) &&
                 selectedDifficulty.includes(q.difficulty)
             );
             
@@ -1221,8 +1858,8 @@
                             
                             return `
                                 <div class="${classes}" onclick="selectAnswer(${idx})">
-                                    <input type="radio" 
-                                           name="q${question.id}" 
+                                    <input type="radio"
+                                           name="q${question.id}"
                                            id="q${question.id}_${idx}"
                                            ${isSelected ? 'checked' : ''}
                                            ${showFeedback ? 'disabled' : ''}>
@@ -1243,7 +1880,7 @@
                     ${state.studyMode === 'practice' && isAnswered ? `
                         <div class="feedback ${session.answers[question.id] === question.correct ? 'correct' : 'incorrect'}">
                             <h4>${session.answers[question.id] === question.correct ? '✅ Correct!' : '❌ Incorrect'}</h4>
-                            ${session.answers[question.id] !== question.correct ? 
+                            ${session.answers[question.id] !== question.correct ?
                                 `<p><strong>Correct answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}</p>` : ''}
                             <p><strong>Explanation:</strong> ${question.explanation}</p>
                             <div class="citation">
@@ -1305,7 +1942,7 @@
                 const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
                 const minutes = Math.floor(elapsed / 60);
                 const seconds = elapsed % 60;
-                document.getElementById('sessionTimer').textContent = 
+                document.getElementById('sessionTimer').textContent =
                     `Time: ${minutes}:${seconds.toString().padStart(2, '0')}`;
             }
             
@@ -1355,7 +1992,7 @@
                 return;
             }
             
-            const message = answered < session.questions.length 
+            const message = answered < session.questions.length
                 ? `🛑 You've answered ${answered} of ${session.questions.length} questions.\n\nYou'll be graded only on the questions you answered.\n\nEnd session now and see results?`
                 : `🎉 You've answered all ${answered} questions!\n\nReady to see your results?`;
             
@@ -1421,6 +2058,40 @@
                 domainScores: domainScores
             };
             
+            // ENHANCED: Save complete session with all Q&A for review
+            const endTime = Date.now();
+            const duration = Math.floor((endTime - session.startTime) / 1000);
+            
+            const completeSession = {
+                id: 'session_' + Date.now(),
+                date: new Date().toISOString(),
+                mode: state.studyMode,
+                domains: session.selectedDomains,
+                difficulty: session.selectedDifficulty,
+                questions: session.questions.map(q => ({
+                    questionId: q.id,
+                    questionText: q.question,
+                    vignette: q.vignette || '',
+                    options: q.options,
+                    userAnswer: session.answers[q.id],
+                    correctAnswer: q.correct,
+                    isCorrect: session.answers[q.id] === q.correct,
+                    explanation: q.explanation,
+                    citation: q.citation,
+                    domain: q.domain,
+                    difficulty: q.difficulty,
+                    timeSpent: 0 // Could track per question if needed
+                })),
+                score: percentage,
+                correct: correct,
+                total: answered,
+                duration: duration
+            };
+            
+            // Save to enhanced sessions array
+            if (!state.sessions) state.sessions = [];
+            state.sessions.push(completeSession);
+            
             state.history.push(sessionResult);
             state.stats.totalSessions++;
             state.stats.totalQuestions += answered;
@@ -1428,14 +2099,18 @@
             state.stats.lastStudyDate = new Date().toISOString();
             
             saveUserData();
+            updateDashboardStats();
             
-            // Show results
-            showResults(sessionResult, passing);
+            // Show results with review button
+            showResults(sessionResult, passing, completeSession.id);
         }
 
-        function showResults(result, passing) {
+        function showResults(result, passing, sessionId) {
             document.getElementById('studySession').classList.add('hidden');
             document.getElementById('resultsScreen').classList.remove('hidden');
+            
+            // Store sessionId for review button
+            window.lastCompletedSessionId = sessionId;
             
             // Score circle
             const scoreCircle = document.getElementById('resultScore');
@@ -1496,8 +2171,8 @@
 
         function showMissedQuestions() {
             const session = state.currentSession;
-            const missed = session.questions.filter(q => 
-                session.answers[q.id] !== undefined && 
+            const missed = session.questions.filter(q =>
+                session.answers[q.id] !== undefined &&
                 session.answers[q.id] !== q.correct
             );
             
@@ -1557,7 +2232,7 @@
             document.getElementById('reportCard').classList.remove('hidden');
             
             // Calculate stats
-            const avgScore = state.stats.totalQuestions > 0 ? 
+            const avgScore = state.stats.totalQuestions > 0 ?
                 Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100) : 0;
             
             document.getElementById('totalSessions').textContent = state.stats.totalSessions;
@@ -1582,7 +2257,7 @@
                 `;
             }).join('');
             
-            document.getElementById('sessionHistory').innerHTML = historyHtml || 
+            document.getElementById('sessionHistory').innerHTML = historyHtml ||
                 '<p style="text-align: center; color: var(--text-light); padding: 20px;">No sessions yet. Start studying to see your progress!</p>';
             
             window.scrollTo(0, 0);
@@ -1708,8 +2383,407 @@ Visit https://amftrb.org for official exam info.
             }
         }, 30000);
 
+
+        // ===================================
+        // ACCESSIBILITY FUNCTIONS
+        // ===================================
+        
+        function toggleAccessibility() {
+            const panel = document.getElementById('accessibilityPanel');
+            panel.classList.toggle('hidden');
+        }
+        
+        function updateFontSize(size) {
+            const sizeNum = parseInt(size);
+            
+            // Update display with helpful label
+            let label = '';
+            if (sizeNum <= 16) label = ' (Small)';
+            else if (sizeNum <= 24) label = ' (Normal)';
+            else if (sizeNum <= 40) label = ' (Large)';
+            else if (sizeNum <= 60) label = ' (Very Large)';
+            else label = ' (Huge)';
+            
+            document.getElementById('fontSizeValue').textContent = size + 'px' + label;
+            document.body.style.fontSize = size + 'px';
+            state.preferences.fontSize = sizeNum;
+            
+            // Add visual feedback
+            console.log('📏 Font size changed to ' + size + 'px' + label);
+        }
+        
+        function updateTheme(theme) {
+            document.body.classList.remove('theme-light', 'theme-dark', 'theme-highcontrast', 'theme-dyslexia');
+            if (theme !== 'light') {
+                document.body.classList.add('theme-' + theme);
+            }
+            state.preferences.theme = theme;
+        }
+        
+        function updateLineSpacing(spacing) {
+            document.body.style.lineHeight = spacing;
+            state.preferences.lineSpacing = parseFloat(spacing);
+        }
+        
+        function savePreferences() {
+            saveUserData();
+            alert('✅ Accessibility preferences saved!');
+            toggleAccessibility();
+        }
+        
+        function loadPreferences() {
+            if (state.preferences) {
+                if (state.preferences.fontSize) {
+                    document.getElementById('fontSizeSlider').value = state.preferences.fontSize;
+                    updateFontSize(state.preferences.fontSize);
+                }
+                if (state.preferences.theme) {
+                    document.getElementById('themeSelect').value = state.preferences.theme;
+                    updateTheme(state.preferences.theme);
+                }
+                if (state.preferences.lineSpacing) {
+                    document.getElementById('lineSpacingSelect').value = state.preferences.lineSpacing;
+                    updateLineSpacing(state.preferences.lineSpacing);
+                }
+            }
+        }
+        
+        // ===================================
+        // SESSION HISTORY FUNCTIONS
+        // ===================================
+        
+        function showSessionHistory() {
+            hideAllScreens();
+            document.getElementById('sessionHistory').classList.remove('hidden');
+            renderSessionHistory('all');
+        }
+        
+        function filterSessions(filter) {
+            // Update active button
+            document.querySelectorAll('.review-filters .filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            renderSessionHistory(filter);
+        }
+        
+        function renderSessionHistory(filter) {
+            const container = document.getElementById('sessionHistoryList');
+            
+            if (!state.sessions || state.sessions.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <div style="font-size: 3rem; margin-bottom: 16px;">📚</div>
+                        <p>No sessions yet. Complete your first practice session to see it here!</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            let sessions = [...state.sessions].reverse(); // Newest first
+            
+            // Filter sessions
+            if (filter === 'passed') {
+                sessions = sessions.filter(s => s.score >= 70);
+            } else if (filter === 'failed') {
+                sessions = sessions.filter(s => s.score < 70);
+            }
+            
+            if (sessions.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <p>No sessions match this filter.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = sessions.map(session => {
+                const date = new Date(session.date);
+                const scoreClass = session.score >= 70 ? 'passing' : 'failing';
+                const scoreIcon = session.score >= 70 ? '✅' : '❌';
+                
+                return `
+                    <div class="session-history-card" onclick="reviewSession('${session.id}')">
+                        <div class="session-header">
+                            <div class="session-date">${date.toLocaleDateString()} at ${date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</div>
+                            <div class="session-score ${scoreClass}">${scoreIcon} ${session.score}%</div>
+                        </div>
+                        <div class="session-details">
+                            <span><strong>${session.correct}</strong> / ${session.total} correct</span>
+                            <span>Mode: <strong>${session.mode === 'practice' ? '🎯 Practice' : '📝 Exam'}</strong></span>
+                            <span>Time: <strong>${Math.floor(session.duration / 60)}m ${session.duration % 60}s</strong></span>
+                        </div>
+                        <div style="margin-top: 8px; font-size: 0.85rem; color: var(--text-light);">
+                            Domains: ${session.domains.join(', ')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // ===================================
+        // SESSION REVIEW FUNCTIONS
+        // ===================================
+        
+        function reviewSession(sessionId) {
+            const session = state.sessions.find(s => s.id === sessionId);
+            if (!session) return;
+            
+            hideAllScreens();
+            document.getElementById('sessionReview').classList.remove('hidden');
+            
+            // Show session header
+            const scoreClass = session.score >= 70 ? 'passing' : 'failing';
+            const scoreIcon = session.score >= 70 ? '✅' : '❌';
+            const date = new Date(session.date);
+            
+            document.getElementById('sessionReviewHeader').innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px;">
+                    <div>
+                        <div style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 4px;">
+                            ${date.toLocaleDateString()} at ${date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}
+                        </div>
+                        <div style="font-size: 1.2rem; font-weight: 600;">
+                            ${session.mode === 'practice' ? '🎯 Practice Mode' : '📝 Exam Simulation'}
+                        </div>
+                    </div>
+                    <div style="text-align: right;">
+                        <div class="session-score ${scoreClass}" style="font-size: 2rem;">${scoreIcon} ${session.score}%</div>
+                        <div style="font-size: 0.9rem; color: var(--text-light);">${session.correct} / ${session.total} correct</div>
+                    </div>
+                </div>
+            `;
+            
+            // Store current review session
+            window.currentReviewSession = session;
+            
+            // Render questions
+            filterReviewQuestions('all');
+        }
+        
+        function filterReviewQuestions(filter) {
+            // Update active button
+            document.querySelectorAll('#sessionReview .filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            const session = window.currentReviewSession;
+            if (!session) return;
+            
+            let questions = session.questions;
+            
+            // Filter questions
+            if (filter === 'correct') {
+                questions = questions.filter(q => q.isCorrect);
+            } else if (filter === 'incorrect') {
+                questions = questions.filter(q => !q.isCorrect);
+            } else if (filter === 'flagged') {
+                questions = questions.filter(q => state.questionNotes[q.questionId]?.flagged);
+            }
+            
+            const container = document.getElementById('reviewQuestionsList');
+            
+            if (questions.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <p>No questions match this filter.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = questions.map((q, index) => {
+                const isFlagged = state.questionNotes[q.questionId]?.flagged || false;
+                const note = state.questionNotes[q.questionId]?.note || '';
+                const correctClass = q.isCorrect ? 'correct' : 'incorrect';
+                const resultIcon = q.isCorrect ? '✅' : '❌';
+                
+                return `
+                    <div class="review-question ${correctClass}">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px;">
+                            <div style="font-weight: 600; color: var(--text-light);">
+                                Question ${index + 1} of ${questions.length} ${resultIcon}
+                            </div>
+                            <button class="flag-btn ${isFlagged ? 'flagged' : ''}" onclick="toggleFlag('${q.questionId}')">
+                                ${isFlagged ? '🚩 Flagged' : '🏴 Flag'}
+                            </button>
+                        </div>
+                        
+                        ${q.vignette ? `<div style="background: var(--bg); padding: 16px; border-radius: 8px; margin-bottom: 16px; font-style: italic; border-left: 3px solid var(--primary);">${q.vignette}</div>` : ''}
+                        
+                        <div style="font-size: 1.1rem; font-weight: 600; margin-bottom: 16px;">${q.questionText}</div>
+                        
+                        <div class="options-container">
+                            ${q.options.map((opt, i) => {
+                                let classes = ['answer-option'];
+                                if (i === q.userAnswer) classes.push('user-answer');
+                                if (i === q.correctAnswer) classes.push('correct-answer');
+                                
+                                let prefix = '';
+                                if (i === q.userAnswer && i === q.correctAnswer) prefix = '✅ Your answer (Correct): ';
+                                else if (i === q.userAnswer) prefix = '❌ Your answer: ';
+                                else if (i === q.correctAnswer) prefix = '✅ Correct answer: ';
+                                
+                                return `<div class="${classes.join(' ')}">${prefix}${opt}</div>`;
+                            }).join('')}
+                        </div>
+                        
+                        <div style="margin-top: 20px; padding: 16px; background: var(--bg); border-radius: 8px;">
+                            <div style="font-weight: 600; color: var(--primary); margin-bottom: 8px;">📚 Explanation:</div>
+                            <div style="margin-bottom: 12px;">${q.explanation}</div>
+                            <div style="font-size: 0.85rem; color: var(--text-light); font-style: italic;">
+                                📖 ${q.citation}
+                            </div>
+                        </div>
+                        
+                        <div class="note-section">
+                            <label style="font-weight: 600; display: block; margin-bottom: 8px;">
+                                💭 Your Personal Note:
+                            </label>
+                            <textarea 
+                                class="note-textarea" 
+                                placeholder="Add a note to help you remember this concept..."
+                                onchange="saveQuestionNote('${q.questionId}', this.value)"
+                            >${note}</textarea>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        // ===================================
+        // NOTES & FLAGGING FUNCTIONS
+        // ===================================
+        
+        function saveQuestionNote(questionId, note) {
+            if (!state.questionNotes[questionId]) {
+                state.questionNotes[questionId] = { note: '', flagged: false };
+            }
+            state.questionNotes[questionId].note = note;
+            saveUserData();
+        }
+        
+        function toggleFlag(questionId) {
+            if (!state.questionNotes[questionId]) {
+                state.questionNotes[questionId] = { note: '', flagged: false };
+            }
+            state.questionNotes[questionId].flagged = !state.questionNotes[questionId].flagged;
+            
+            // Update flagged count
+            state.stats.flaggedCount = Object.values(state.questionNotes).filter(n => n.flagged).length;
+            
+            saveUserData();
+            updateDashboardStats();
+            
+            // Re-render if we're in review mode
+            if (window.currentReviewSession) {
+                filterReviewQuestions(document.querySelector('#sessionReview .filter-btn.active').textContent.includes('Flagged') ? 'flagged' : document.querySelector('#sessionReview .filter-btn.active').textContent.includes('Incorrect') ? 'incorrect' : document.querySelector('#sessionReview .filter-btn.active').textContent.includes('Correct') ? 'correct' : 'all');
+            }
+        }
+        
+        function showStudyNotes() {
+            hideAllScreens();
+            document.getElementById('studyNotes').classList.remove('hidden');
+            renderStudyNotes();
+        }
+        
+        function renderStudyNotes() {
+            const container = document.getElementById('studyNotesList');
+            const notesWithContent = Object.entries(state.questionNotes).filter(([id, data]) => data.note);
+            
+            if (notesWithContent.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <div style="font-size: 3rem; margin-bottom: 16px;">📝</div>
+                        <p>No notes yet. Add notes while reviewing questions to see them here!</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = notesWithContent.map(([questionId, data]) => {
+                const question = questionBank.find(q => q.id === parseInt(questionId));
+                if (!question) return '';
+                
+                return `
+                    <div class="review-question" style="margin-bottom: 20px;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px;">
+                            <div>
+                                <div style="font-weight: 600; color: var(--primary);">Question #${questionId}</div>
+                                <div style="font-size: 0.9rem; color: var(--text-light);">${question.domain}</div>
+                            </div>
+                            ${data.flagged ? '<span class="note-indicator">🚩 Flagged</span>' : ''}
+                        </div>
+                        <div style="font-size: 1.05rem; margin-bottom: 12px;">${question.question}</div>
+                        <div style="background: var(--warning-light); padding: 12px; border-radius: 8px; border-left: 3px solid var(--warning);">
+                            <div style="font-weight: 600; margin-bottom: 4px;">💭 Your Note:</div>
+                            <div>${data.note}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function exportStudyNotes() {
+            const notesWithContent = Object.entries(state.questionNotes).filter(([id, data]) => data.note);
+            
+            if (notesWithContent.length === 0) {
+                alert('No notes to export!');
+                return;
+            }
+            
+            let text = `MFT Exam Master - Study Notes\n`;
+            text += `Exported: ${new Date().toLocaleString()}\n`;
+            text += `Total Notes: ${notesWithContent.length}\n`;
+            text += `\n${'='.repeat(80)}\n\n`;
+            
+            notesWithContent.forEach(([questionId, data]) => {
+                const question = questionBank.find(q => q.id === parseInt(questionId));
+                if (!question) return;
+                
+                text += `Question #${questionId}${data.flagged ? ' [FLAGGED]' : ''}\n`;
+                text += `Domain: ${question.domain}\n`;
+                text += `Difficulty: ${question.difficulty}\n\n`;
+                text += `Question: ${question.question}\n\n`;
+                text += `YOUR NOTE:\n${data.note}\n\n`;
+                text += `${'-'.repeat(80)}\n\n`;
+            });
+            
+            // Create download
+            const blob = new Blob([text], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `MFT_Study_Notes_${new Date().toISOString().split('T')[0]}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            alert('✅ Study notes exported!');
+        }
+        
+        // ===================================
+        // DASHBOARD STATS UPDATE
+        // ===================================
+        
+        function updateDashboardStats() {
+            document.getElementById('statTotalSessions').textContent = state.stats.totalSessions || 0;
+            
+            const avgScore = state.stats.totalQuestions > 0
+                ? Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100)
+                : 0;
+            document.getElementById('statAvgScore').textContent = avgScore + '%';
+            
+            document.getElementById('statFlaggedQuestions').textContent = state.stats.flaggedCount || 0;
+        }
+
         // Initialize on load
         window.onload = init;
     </script>
 </body>
 </html>
+
