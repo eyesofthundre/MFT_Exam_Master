@@ -1171,7 +1171,7 @@
             <label>
                 Font Size: <span class="font-size-display" id="fontSizeValue">16px</span>
             </label>
-            <input type="range" id="fontSizeSlider" min="12" max="80" value="16" step="2"
+            <input type="range" id="fontSizeSlider" min="12" max="80" value="16" step="2" 
                    oninput="updateFontSize(this.value)">
             <div class="range-labels">
                 <span>Small (12px)</span>
@@ -1603,7 +1603,7 @@
             
             try {
                 console.log('📚 Loading questions...');
-                const promises = domainFiles.map(file =>
+                const promises = domainFiles.map(file => 
                     fetch(file)
                         .then(response => {
                             if (!response.ok) throw new Error(`Failed to load ${file}`);
@@ -1786,8 +1786,8 @@
             const questionCount = parseInt(document.getElementById('questionCount').value);
             
             // Filter questions
-            let filteredQuestions = questionBank.filter(q =>
-                selectedDomains.includes(q.domain) &&
+            let filteredQuestions = questionBank.filter(q => 
+                selectedDomains.includes(q.domain) && 
                 selectedDifficulty.includes(q.difficulty)
             );
             
@@ -1858,8 +1858,8 @@
                             
                             return `
                                 <div class="${classes}" onclick="selectAnswer(${idx})">
-                                    <input type="radio"
-                                           name="q${question.id}"
+                                    <input type="radio" 
+                                           name="q${question.id}" 
                                            id="q${question.id}_${idx}"
                                            ${isSelected ? 'checked' : ''}
                                            ${showFeedback ? 'disabled' : ''}>
@@ -1880,7 +1880,7 @@
                     ${state.studyMode === 'practice' && isAnswered ? `
                         <div class="feedback ${session.answers[question.id] === question.correct ? 'correct' : 'incorrect'}">
                             <h4>${session.answers[question.id] === question.correct ? '✅ Correct!' : '❌ Incorrect'}</h4>
-                            ${session.answers[question.id] !== question.correct ?
+                            ${session.answers[question.id] !== question.correct ? 
                                 `<p><strong>Correct answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}</p>` : ''}
                             <p><strong>Explanation:</strong> ${question.explanation}</p>
                             <div class="citation">
@@ -1942,7 +1942,7 @@
                 const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
                 const minutes = Math.floor(elapsed / 60);
                 const seconds = elapsed % 60;
-                document.getElementById('sessionTimer').textContent =
+                document.getElementById('sessionTimer').textContent = 
                     `Time: ${minutes}:${seconds.toString().padStart(2, '0')}`;
             }
             
@@ -1992,7 +1992,7 @@
                 return;
             }
             
-            const message = answered < session.questions.length
+            const message = answered < session.questions.length 
                 ? `🛑 You've answered ${answered} of ${session.questions.length} questions.\n\nYou'll be graded only on the questions you answered.\n\nEnd session now and see results?`
                 : `🎉 You've answered all ${answered} questions!\n\nReady to see your results?`;
             
@@ -2171,8 +2171,8 @@
 
         function showMissedQuestions() {
             const session = state.currentSession;
-            const missed = session.questions.filter(q =>
-                session.answers[q.id] !== undefined &&
+            const missed = session.questions.filter(q => 
+                session.answers[q.id] !== undefined && 
                 session.answers[q.id] !== q.correct
             );
             
@@ -2232,7 +2232,7 @@
             document.getElementById('reportCard').classList.remove('hidden');
             
             // Calculate stats
-            const avgScore = state.stats.totalQuestions > 0 ?
+            const avgScore = state.stats.totalQuestions > 0 ? 
                 Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100) : 0;
             
             document.getElementById('totalSessions').textContent = state.stats.totalSessions;
@@ -2257,7 +2257,7 @@
                 `;
             }).join('');
             
-            document.getElementById('sessionHistory').innerHTML = historyHtml ||
+            document.getElementById('sessionHistory').innerHTML = historyHtml || 
                 '<p style="text-align: center; color: var(--text-light); padding: 20px;">No sessions yet. Start studying to see your progress!</p>';
             
             window.scrollTo(0, 0);
@@ -2773,7 +2773,7 @@ Visit https://amftrb.org for official exam info.
         function updateDashboardStats() {
             document.getElementById('statTotalSessions').textContent = state.stats.totalSessions || 0;
             
-            const avgScore = state.stats.totalQuestions > 0
+            const avgScore = state.stats.totalQuestions > 0 
                 ? Math.round((state.stats.totalCorrect / state.stats.totalQuestions) * 100)
                 : 0;
             document.getElementById('statAvgScore').textContent = avgScore + '%';
@@ -2786,4 +2786,3 @@ Visit https://amftrb.org for official exam info.
     </script>
 </body>
 </html>
-
