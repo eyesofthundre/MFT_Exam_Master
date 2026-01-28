@@ -3,7 +3,11 @@
     "id": 201,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "medium",
-    "tags": ["DSM-5", "Major Depression", "diagnosis"],
+    "tags": [
+      "DSM-5",
+      "Major Depression",
+      "diagnosis"
+    ],
     "vignette": "A 35-year-old woman presents reporting sadness, loss of interest in activities she previously enjoyed, fatigue, difficulty concentrating, feelings of worthlessness, and thoughts that her family would be better off without her. These symptoms have been present nearly every day for the past three weeks. She has no history of manic or hypomanic episodes.",
     "question": "The MOST appropriate diagnosis is:",
     "options": [
@@ -20,7 +24,11 @@
     "id": 202,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "easy",
-    "tags": ["genogram", "assessment", "McGoldrick"],
+    "tags": [
+      "genogram",
+      "assessment",
+      "McGoldrick"
+    ],
     "question": "A genogram is BEST described as:",
     "options": [
       "A diagram of the family's connections to community resources and social systems",
@@ -36,7 +44,11 @@
     "id": 203,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "hard",
-    "tags": ["Gottman", "Four Horsemen", "assessment"],
+    "tags": [
+      "Gottman",
+      "Four Horsemen",
+      "assessment"
+    ],
     "vignette": "During a couples assessment, the wife expresses concern about an issue. The husband rolls his eyes, makes a sarcastic comment ('Oh, here we go again with your complaints'), and speaks in a mocking tone. This pattern occurs repeatedly throughout the session.",
     "question": "According to Gottman's research, this behavior is BEST described as:",
     "options": [
@@ -53,7 +65,11 @@
     "id": 204,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "medium",
-    "tags": ["GAD", "DSM-5", "anxiety"],
+    "tags": [
+      "GAD",
+      "DSM-5",
+      "anxiety"
+    ],
     "question": "According to DSM-5-TR, the minimum duration of symptoms required for a diagnosis of Generalized Anxiety Disorder is:",
     "options": [
       "Two weeks",
@@ -69,7 +85,11 @@
     "id": 205,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "easy",
-    "tags": ["suicide assessment", "risk factors", "crisis"],
+    "tags": [
+      "suicide assessment",
+      "risk factors",
+      "crisis"
+    ],
     "question": "Which of the following is considered the STRONGEST predictor of future suicide attempts?",
     "options": [
       "Current suicidal ideation with a specific plan",
@@ -85,7 +105,11 @@
     "id": 206,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "medium",
-    "tags": ["PTSD", "DSM-5", "trauma"],
+    "tags": [
+      "PTSD",
+      "DSM-5",
+      "trauma"
+    ],
     "vignette": "A client reports intrusive memories of a car accident that occurred six weeks ago. She avoids driving, experiences hypervigilance when near traffic, has difficulty sleeping, and reports feeling emotionally numb. The symptoms began three days after the accident.",
     "question": "The MOST appropriate diagnosis is:",
     "options": [
@@ -102,7 +126,11 @@
     "id": 207,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "hard",
-    "tags": ["Substance Use", "DSM-5", "severity"],
+    "tags": [
+      "Substance Use",
+      "DSM-5",
+      "severity"
+    ],
     "vignette": "A 42-year-old man reports drinking 6-8 beers nightly (though his wife says it's more like 8-10). He has missed work several times due to hangovers, his wife has threatened to leave due to his drinking, and he has tried unsuccessfully to cut back multiple times. He denies withdrawal symptoms and has never sought treatment.",
     "question": "Based on this information, the MOST appropriate diagnosis is:",
     "options": [
@@ -119,7 +147,11 @@
     "id": 208,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "easy",
-    "tags": ["ecomap", "assessment", "systems"],
+    "tags": [
+      "ecomap",
+      "assessment",
+      "systems"
+    ],
     "question": "An ecomap is used to:",
     "options": [
       "Display family structure across three generations",
@@ -135,7 +167,11 @@
     "id": 209,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "medium",
-    "tags": ["Anorexia", "DSM-5", "eating disorders"],
+    "tags": [
+      "Anorexia",
+      "DSM-5",
+      "eating disorders"
+    ],
     "vignette": "A 16-year-old girl weighs 85 pounds (BMI 14.5, below 5th percentile for age). She reports intense fear of gaining weight, exercises 3-4 hours daily, and sees herself as 'fat' despite being significantly underweight. She achieved this weight through severe calorie restriction and has never engaged in binge eating or purging.",
     "question": "The MOST appropriate diagnosis is:",
     "options": [
@@ -152,7 +188,11 @@
     "id": 210,
     "domain": "Assessing, Hypothesizing, Diagnosing",
     "difficulty": "hard",
-    "tags": ["differential diagnosis", "assessment", "clinical judgment"],
+    "tags": [
+      "differential diagnosis",
+      "assessment",
+      "clinical judgment"
+    ],
     "vignette": "An 8-year-old child presents with poor attention in school, difficulty following multi-step instructions, frequent daydreaming, and losing belongings. Teachers report he seems 'in his own world.' Parents recently divorced after years of high conflict. Symptoms began approximately 2 months after parents separated.",
     "question": "To make an accurate diagnosis, the therapist should FIRST:",
     "options": [
@@ -164,5 +204,923 @@
     "correct": 1,
     "explanation": "The temporal relationship between symptom onset and parental divorce is crucial for differential diagnosis. ADHD symptoms must be present before age 12 and in multiple settings, but more importantly, symptoms that emerge acutely in response to a significant stressor may indicate Adjustment Disorder or trauma-related symptoms rather than ADHD. The therapist must assess the impact of parental conflict and divorce before attributing symptoms to a neurodevelopmental disorder. Premature diagnosis and treatment could miss the actual etiology.",
     "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Emery, R. E. (2012). Renegotiating Family Relationships: Divorce, Child Custody, and Mediation (2nd ed.). Guilford Press."
-  }
+  },
+  {
+    "id": 211,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "DSM-5",
+      "Panic Disorder",
+      "diagnosis"
+    ],
+    "vignette": "A 28-year-old reports recurrent unexpected panic attacks over the past 3 months, with intense fear, racing heart, shortness of breath, and feeling of losing control. She now avoids shopping malls and public transportation where previous attacks occurred. She worries constantly about having another attack.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Generalized Anxiety Disorder",
+      "Specific Phobia, Situational Type",
+      "Panic Disorder with Agoraphobia",
+      "Social Anxiety Disorder"
+    ],
+    "correct": 2,
+    "explanation": "This client meets DSM-5-TR criteria for Panic Disorder with Agoraphobia. She has recurrent unexpected panic attacks (not cued by specific situations), persistent worry about attacks, and avoidance of situations where escape might be difficult (malls, public transit). Agoraphobia involves anxiety about being in places where help may not be available during a panic attack. The combination of panic attacks, anticipatory anxiety, and agoraphobic avoidance indicates both diagnoses.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 212,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "assessment",
+      "family",
+      "circular patterns"
+    ],
+    "vignette": "During assessment, the therapist asks the mother: 'When your husband criticizes your parenting, what does your teenage daughter do?' Then asks the daughter: 'When your parents argue about you, how does that affect how you behave at school?'",
+    "question": "This questioning technique is designed to:",
+    "options": [
+      "Identify who is most to blame for family problems",
+      "Reveal circular causality and interconnected patterns",
+      "Determine which family member needs individual therapy",
+      "Assess cognitive distortions in family communication"
+    ],
+    "correct": 1,
+    "explanation": "These circular questions reveal how family members' behaviors are interconnected in recursive patterns rather than linear cause-and-effect sequences. By asking one member to comment on the relationship between two others, the therapist illuminates circular causality\u2014how A's behavior influences B, which influences C, which circles back to influence A. This systemic assessment moves beyond identifying an 'identified patient' to understanding how all members participate in maintaining patterns.",
+    "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12; Tomm, K. (1988). Interventive Interviewing: Part III. Intending to Ask Lineal, Circular, Strategic, or Reflexive Questions? Family Process, 27(1), 1-15."
+  },
+  {
+    "id": 213,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "Bipolar",
+      "mania"
+    ],
+    "question": "According to DSM-5-TR, the minimum duration required for a manic episode is:",
+    "options": [
+      "2 days",
+      "1 week",
+      "2 weeks",
+      "1 month"
+    ],
+    "correct": 1,
+    "explanation": "A manic episode requires a distinct period of abnormally elevated, expansive, or irritable mood lasting at least one week (or any duration if hospitalization is required). This duration criterion distinguishes mania from briefer mood fluctuations and from hypomania, which requires only 4 consecutive days. The symptoms must be present most of the day, nearly every day, during this period.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 214,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "Gottman",
+      "relationship assessment",
+      "research"
+    ],
+    "vignette": "During a couples assessment, the therapist observes that when the wife raises concerns, the husband turns away, picks up his phone, and gives one-word responses without making eye contact. This pattern occurs repeatedly.",
+    "question": "According to Gottman's research, this behavior represents:",
+    "options": [
+      "Criticism - attacking the partner's character",
+      "Contempt - treating the partner with disrespect",
+      "Defensiveness - deflecting responsibility",
+      "Stonewalling - withdrawing from interaction"
+    ],
+    "correct": 3,
+    "explanation": "This exemplifies stonewalling, one of Gottman's 'Four Horsemen' predicting relationship failure. Stonewalling occurs when a partner withdraws from interaction, shuts down, and stops responding to their partner. It often manifests as turning away, avoiding eye contact, and providing minimal responses. Gottman found that stonewalling is more common in men and typically occurs when feeling physiologically flooded. It's particularly destructive because it prevents conflict resolution and conveys disapproval and distance.",
+    "citation": "Gottman, J. M. (1994). What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes. Lawrence Erlbaum; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers."
+  },
+  {
+    "id": 215,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "differential diagnosis",
+      "Bipolar",
+      "BPD"
+    ],
+    "vignette": "A 24-year-old presents with mood swings, impulsive behavior, and unstable relationships. Mood shifts occur multiple times daily in response to interpersonal events. No history of sustained elevated mood or decreased need for sleep. Chronic feelings of emptiness and fear of abandonment are prominent.",
+    "question": "The presentation is MOST consistent with:",
+    "options": [
+      "Bipolar II Disorder",
+      "Cyclothymic Disorder",
+      "Borderline Personality Disorder",
+      "Bipolar I Disorder, Rapid Cycling"
+    ],
+    "correct": 2,
+    "explanation": "This presentation is most consistent with Borderline Personality Disorder (BPD). Key differentiating features: mood shifts are reactive to interpersonal events and change within hours (not sustained episodes), chronic emptiness and abandonment fears are present, and there's no history of true hypomanic or manic episodes (sustained elevated mood, decreased sleep need). Bipolar mood episodes are episodic, last days to weeks, and are less reactive to external events. The rapid, reactive mood shifts and relationship instability are hallmarks of BPD.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Paris, J. (2019). Suicidality in Borderline Personality Disorder. Medicina, 55(6), 223."
+  },
+  {
+    "id": 216,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "cultural assessment",
+      "diversity",
+      "formulation"
+    ],
+    "question": "When assessing a family from a collectivist cultural background, the therapist should:",
+    "options": [
+      "Assume Western family structure norms apply universally",
+      "Avoid asking about cultural factors to prevent stereotyping",
+      "Explore how cultural values influence family roles and relationships",
+      "Focus exclusively on individual pathology rather than family context"
+    ],
+    "correct": 2,
+    "explanation": "Cultural competence in assessment requires exploring how cultural values, beliefs, and practices influence family structure, roles, communication patterns, and help-seeking. In collectivist cultures, family interdependence, extended family involvement, hierarchical relationships, and indirect communication may be normative and adaptive. The therapist should explore (not assume) cultural influences while avoiding stereotyping, recognizing within-culture diversity, and understanding that problems arise from mismatches between cultural contexts, not from cultural values themselves.",
+    "citation": "McGoldrick, M., Giordano, J., & Garcia-Preto, N. (Eds.) (2005). Ethnicity and Family Therapy (3rd ed.). Guilford Press; Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse: Theory and Practice (8th ed.). Wiley."
+  },
+  {
+    "id": 217,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "Adjustment Disorder",
+      "diagnosis"
+    ],
+    "question": "According to DSM-5-TR, symptoms of an Adjustment Disorder must occur within what time period after the onset of the stressor?",
+    "options": [
+      "2 weeks",
+      "1 month",
+      "3 months",
+      "6 months"
+    ],
+    "correct": 2,
+    "explanation": "Adjustment Disorder requires that emotional or behavioral symptoms develop within 3 months of the onset of an identifiable stressor. The symptoms must cause marked distress out of proportion to the severity of the stressor or cause significant functional impairment. Once the stressor or its consequences have terminated, symptoms must not persist for more than an additional 6 months. This time frame distinguishes Adjustment Disorder from other disorders and from normal stress reactions.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 218,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "trauma assessment",
+      "complex trauma",
+      "PTSD"
+    ],
+    "vignette": "An adult client reports chronic interpersonal difficulties, emotional dysregulation, negative self-perception, and dissociative symptoms. She experienced repeated childhood sexual abuse by a family member from ages 6-14. She meets some but not all PTSD criteria.",
+    "question": "This presentation BEST fits:",
+    "options": [
+      "Posttraumatic Stress Disorder only",
+      "Complex PTSD (ICD-11) or PTSD with additional features",
+      "Borderline Personality Disorder secondary to trauma",
+      "Adjustment Disorder with prolonged duration"
+    ],
+    "correct": 1,
+    "explanation": "This presentation suggests Complex PTSD (recognized in ICD-11) or PTSD with additional complicating features. Complex PTSD results from prolonged, repeated trauma (especially in childhood) and includes core PTSD symptoms plus: difficulties with emotion regulation, negative self-concept, and interpersonal difficulties. While DSM-5-TR doesn't have a separate Complex PTSD diagnosis, it recognizes that prolonged trauma can result in PTSD with additional symptoms of affect dysregulation, negative self-perception, and relationship difficulties that overlap with but are distinct from personality disorders.",
+    "citation": "Herman, J. L. (1992). Complex PTSD: A Syndrome in Survivors of Prolonged and Repeated Trauma. Journal of Traumatic Stress, 5(3), 377-391; World Health Organization (2018). ICD-11 for Mortality and Morbidity Statistics."
+  },
+  {
+    "id": 219,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "assessment",
+      "family lifecycle",
+      "development"
+    ],
+    "question": "In assessing a family, understanding their developmental stage is important because:",
+    "options": [
+      "All families progress through identical, predictable stages",
+      "Different life cycle stages present characteristic challenges and tasks",
+      "Family structure determines which developmental stage they occupy",
+      "Developmental stages predict which members will develop symptoms"
+    ],
+    "correct": 1,
+    "explanation": "Family lifecycle assessment recognizes that different stages (e.g., launching young adults, retirement, caring for aging parents) present characteristic developmental tasks and challenges. Symptoms often emerge when families have difficulty navigating transitions or when developmental tasks conflict. However, lifecycles vary by culture, family structure, and circumstances\u2014not all families follow the same trajectory. The therapist assesses how the family's current challenges relate to their developmental context while avoiding rigid stage models.",
+    "citation": "Carter, B., & McGoldrick, M. (Eds.) (2005). The Expanded Family Life Cycle: Individual, Family, and Social Perspectives (3rd ed.). Pearson; Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford Press."
+  },
+  {
+    "id": 220,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "DSM-5",
+      "OCD",
+      "diagnosis"
+    ],
+    "vignette": "A client reports intrusive thoughts about contamination that cause significant anxiety. She spends 4-5 hours daily washing her hands, cleaning, and avoiding public places. She recognizes these behaviors are excessive but feels unable to stop them. Symptoms have persisted for 8 months.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Generalized Anxiety Disorder",
+      "Specific Phobia",
+      "Obsessive-Compulsive Disorder",
+      "Illness Anxiety Disorder"
+    ],
+    "correct": 2,
+    "explanation": "This client meets DSM-5-TR criteria for Obsessive-Compulsive Disorder (OCD). She has obsessions (intrusive thoughts about contamination causing anxiety) and compulsions (repetitive washing and cleaning) that are time-consuming (4-5 hours daily) and cause significant impairment (avoidance of public places). The key features distinguishing OCD are: the presence of both obsessions and compulsions, recognition that they're excessive (though this insight can vary), and the time-consuming and impairing nature of the symptoms.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 221,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "Major Depression",
+      "diagnosis"
+    ],
+    "question": "According to DSM-5-TR, how many symptoms must be present for a diagnosis of Major Depressive Episode?",
+    "options": [
+      "At least 3 symptoms for 2 weeks",
+      "At least 5 symptoms for 2 weeks",
+      "At least 7 symptoms for 1 month",
+      "At least 9 symptoms for 6 months"
+    ],
+    "correct": 1,
+    "explanation": "A Major Depressive Episode requires at least 5 symptoms present during the same 2-week period, representing a change from previous functioning. At least one symptom must be either depressed mood or loss of interest/pleasure (anhedonia). Additional symptoms include changes in sleep, appetite/weight, energy, concentration, feelings of worthlessness/guilt, psychomotor changes, and suicidal ideation. Symptoms must cause clinically significant distress or impairment.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 222,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "genogram",
+      "assessment",
+      "family history"
+    ],
+    "question": "In creating a genogram, a circle with an 'X' through it indicates:",
+    "options": [
+      "A divorced couple",
+      "A deceased female",
+      "An adopted child",
+      "A miscarriage or abortion"
+    ],
+    "correct": 1,
+    "explanation": "Standard genogram symbols use: a circle for female, square for male, and an 'X' through the symbol indicates the person is deceased. This provides quick visual information about deaths in the family system, which can be crucial for understanding loss, grief patterns, and family structure changes. Genograms typically include 3+ generations and show relationships, patterns, and significant life events through standardized symbols.",
+    "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). Norton; Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson."
+  },
+  {
+    "id": 223,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "differential diagnosis",
+      "GAD",
+      "MDD"
+    ],
+    "vignette": "A 35-year-old reports excessive worry about multiple areas (work, finances, health, family) for 18 months. She feels tense, has trouble concentrating, and experiences sleep disturbance. She also describes sadness and loss of interest in hobbies for the past 8 months.",
+    "question": "The MOST appropriate diagnosis/diagnoses would be:",
+    "options": [
+      "Generalized Anxiety Disorder only",
+      "Major Depressive Disorder only",
+      "Both Generalized Anxiety Disorder and Major Depressive Disorder",
+      "Adjustment Disorder with Mixed Anxiety and Depressed Mood"
+    ],
+    "correct": 2,
+    "explanation": "This client meets criteria for both GAD (excessive worry about multiple domains for >6 months with associated symptoms) and MDD (depressed mood, anhedonia, and other symptoms for >2 weeks). DSM-5-TR allows both diagnoses when full criteria are met for each. The GAD symptoms preceded and extend beyond the depressive episode, supporting separate diagnoses. This high comorbidity between anxiety and depressive disorders is common clinically, occurring in approximately 60% of cases.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Kessler, R. C., et al. (2005). Lifetime Prevalence and Age-of-Onset Distributions of DSM-IV Disorders. Archives of General Psychiatry, 62(6), 593-602."
+  },
+  {
+    "id": 224,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "suicide assessment",
+      "risk factors",
+      "safety"
+    ],
+    "question": "Which of the following is the STRONGEST predictor of future suicide attempts?",
+    "options": [
+      "Current depression diagnosis",
+      "Previous suicide attempt",
+      "Family history of mental illness",
+      "Recent job loss"
+    ],
+    "correct": 1,
+    "explanation": "Previous suicide attempt(s) is the strongest single predictor of future attempts and completed suicide. Someone who has attempted suicide is 38 times more likely to die by suicide than someone without prior attempts. While other factors (depression, family history, stressors) increase risk, past suicidal behavior is the most robust predictor. Assessment must always include detailed history of prior attempts, including method, lethality, intent, and circumstances.",
+    "citation": "Joiner, T. E., et al. (2005). Main Predictions of the Interpersonal-Psychological Theory of Suicidal Behavior. Clinical Psychology Review, 25(6), 773-798; American Association of Suicidology (2020). Suicide Risk Assessment Standards."
+  },
+  {
+    "id": 225,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "PTSD",
+      "diagnosis"
+    ],
+    "question": "According to DSM-5-TR, symptoms of PTSD must last for at least:",
+    "options": [
+      "2 weeks",
+      "1 month",
+      "3 months",
+      "6 months"
+    ],
+    "correct": 1,
+    "explanation": "PTSD requires symptoms lasting more than 1 month. If symptoms occur within 1 month of the traumatic event but last less than 1 month, Acute Stress Disorder may be diagnosed. The 1-month duration criterion distinguishes PTSD from acute stress reactions and from Acute Stress Disorder, which can last 3 days to 1 month. PTSD symptoms falling into clusters: intrusion, avoidance, negative alterations in cognition/mood, and arousal/reactivity changes.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 226,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "attachment",
+      "assessment",
+      "couples"
+    ],
+    "vignette": "During assessment, a partner describes feeling anxious when her spouse travels for work, frequently calling to check in. She reports childhood experiences of her mother being emotionally unpredictable and sometimes unavailable. She worries her spouse will leave her despite no evidence suggesting this.",
+    "question": "This presentation is MOST consistent with which attachment style?",
+    "options": [
+      "Secure attachment",
+      "Dismissive-avoidant attachment",
+      "Anxious-preoccupied attachment",
+      "Fearful-avoidant attachment"
+    ],
+    "correct": 2,
+    "explanation": "This describes anxious-preoccupied attachment (also called anxious-ambivalent). Characteristics include: excessive worry about relationship security, hyperactivation of attachment system, preoccupation with partner's availability, reassurance-seeking behaviors, and fears of abandonment. This often stems from inconsistent caregiver responsiveness in childhood. People with this style desire closeness but constantly worry about whether their partner truly loves them or will leave, leading to clingy or demanding behaviors that can strain relationships.",
+    "citation": "Bowlby, J. (1988). A Secure Base: Parent-Child Attachment and Healthy Human Development. Basic Books; Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge."
+  },
+  {
+    "id": 227,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "substance use",
+      "DSM-5",
+      "assessment"
+    ],
+    "question": "According to DSM-5-TR, the severity of Substance Use Disorder is determined by:",
+    "options": [
+      "The specific substance being used",
+      "Whether psychological or physical dependence is present",
+      "The number of diagnostic criteria met (2-3 mild, 4-5 moderate, 6+ severe)",
+      "The duration of substance use in years"
+    ],
+    "correct": 2,
+    "explanation": "DSM-5-TR eliminated the DSM-IV distinction between abuse and dependence, creating a single Substance Use Disorder with severity specified by number of criteria met: Mild (2-3 criteria), Moderate (4-5 criteria), or Severe (6 or more criteria). There are 11 possible criteria across four categories: impaired control, social impairment, risky use, and pharmacological criteria (tolerance/withdrawal). This dimensional approach better captures the range of substance-related problems.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 228,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "couples assessment",
+      "Gottman",
+      "repair attempts"
+    ],
+    "question": "In Gottman's research, 'repair attempts' refer to:",
+    "options": [
+      "Efforts to physically fix things around the house to reduce conflict",
+      "Attempts to de-escalate conflict and restore positive connection",
+      "Promises to change problematic behaviors in the future",
+      "Seeking professional help after relationship problems develop"
+    ],
+    "correct": 1,
+    "explanation": "Repair attempts are efforts by one or both partners to de-escalate negativity during conflict and restore positive connection. These can be verbal ('Can we take a break?' 'I'm sorry') or nonverbal (humor, touch, softened expression). Gottman found that successful relationships aren't defined by lack of conflict, but by effective repair attempts. In distressed couples, repair attempts often fail or go unnoticed, allowing negative cycles to escalate. The ability to make and receive repair attempts predicts relationship success.",
+    "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown; Gottman, J. M. (1999). The Marriage Clinic: A Scientifically Based Marital Therapy. Norton."
+  },
+  {
+    "id": 229,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "Schizophrenia",
+      "diagnosis"
+    ],
+    "question": "To diagnose Schizophrenia, DSM-5-TR requires continuous signs of disturbance for at least:",
+    "options": [
+      "2 weeks",
+      "1 month",
+      "6 months",
+      "1 year"
+    ],
+    "correct": 2,
+    "explanation": "Schizophrenia requires continuous signs of disturbance for at least 6 months, including at least 1 month of active-phase symptoms (hallucinations, delusions, disorganized speech, grossly disorganized or catatonic behavior, negative symptoms). This 6-month duration criterion distinguishes Schizophrenia from Schizophreniform Disorder (1-6 months) and Brief Psychotic Disorder (<1 month). The requirement ensures the disorder is not better explained by acute, time-limited conditions.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 230,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "assessment",
+      "power",
+      "domestic violence"
+    ],
+    "vignette": "During a couples assessment, the husband frequently interrupts his wife, dismisses her concerns, and makes decisions about their schedule without consulting her. She appears anxious and defers to him on most questions. When asked alone, she reports feeling afraid to disagree with him.",
+    "question": "The therapist should:",
+    "options": [
+      "Proceed with standard couples therapy to improve communication",
+      "Assess for intimate partner violence and consider individual safety planning",
+      "Prescribe assertiveness training for the wife",
+      "Ignore the power differential as cultural differences"
+    ],
+    "correct": 1,
+    "explanation": "This presentation suggests potential intimate partner violence (IPV), requiring immediate screening. Warning signs include: power imbalance, controlling behaviors, partner fear, dismissal of concerns. Couples therapy is contraindicated when IPV is present, as it can escalate danger. The therapist must conduct private, safety-focused assessment with each partner, develop safety planning if needed, and avoid interventions that could increase risk. Cultural considerations are important but never justify abuse or partner fear.",
+    "citation": "Stith, S. M., et al. (2012). An Examination of the Effectiveness of Couples Treatment for IPV. Journal of Marital and Family Therapy, 38(1), 223-232; Domestic Violence & Mental Health Policy Initiative (2016). Assessment Guidelines."
+  },
+  {
+    "id": 231,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "DSM-5",
+      "Anxiety",
+      "differential"
+    ],
+    "vignette": "A college student reports intense anxiety limited to public speaking situations. She avoids classes requiring presentations, causing academic problems. She has no difficulties in other social situations or when speaking with friends. Symptoms have persisted for 2 years.",
+    "question": "The MOST appropriate diagnosis is:",
+    "options": [
+      "Generalized Anxiety Disorder",
+      "Social Anxiety Disorder, Performance Only",
+      "Specific Phobia",
+      "Avoidant Personality Disorder"
+    ],
+    "correct": 1,
+    "explanation": "This presentation meets criteria for Social Anxiety Disorder, Performance Only specifier. The anxiety is limited to performance situations (public speaking) rather than broader social interactions. DSM-5-TR allows the 'performance only' specifier when fear is restricted to speaking or performing in public. This differs from more generalized social anxiety (fear of multiple social situations) and from specific phobia (DSM-5 considers performance anxiety part of social anxiety disorder rather than specific phobia).",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 232,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "assessment",
+      "adolescent",
+      "development"
+    ],
+    "question": "When assessing an adolescent, it is important to:",
+    "options": [
+      "Always meet only with parents to get accurate information",
+      "Guarantee complete confidentiality with no exceptions",
+      "Clarify limits of confidentiality regarding safety issues",
+      "Focus exclusively on individual pathology"
+    ],
+    "correct": 2,
+    "explanation": "Assessment of adolescents requires balancing their developing autonomy and need for privacy with parental rights and safety concerns. The therapist should clarify confidentiality limits upfront: information will be kept private except when safety is at risk (suicidality, homicidality, abuse, severe self-harm). Both individual sessions with the teen and some family sessions are typically valuable. The approach respects the adolescent as an emerging individual while maintaining appropriate safety boundaries and family involvement.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Steinberg, L. (2014). Adolescence (10th ed.). McGraw-Hill."
+  },
+  {
+    "id": 233,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "easy",
+    "tags": [
+      "DSM-5",
+      "duration",
+      "criteria"
+    ],
+    "question": "For Generalized Anxiety Disorder, excessive anxiety and worry must be present for at least:",
+    "options": [
+      "2 weeks",
+      "1 month",
+      "6 months",
+      "1 year"
+    ],
+    "correct": 2,
+    "explanation": "GAD requires excessive anxiety and worry occurring more days than not for at least 6 months, about a number of events or activities. The person finds it difficult to control the worry, and it is associated with at least three of six symptoms (restlessness, fatigue, concentration problems, irritability, muscle tension, sleep disturbance). The 6-month duration distinguishes GAD from shorter-term anxiety reactions and other anxiety disorders with different time frames.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+  },
+  {
+    "id": 234,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "hard",
+    "tags": [
+      "differential diagnosis",
+      "personality disorders",
+      "traits"
+    ],
+    "vignette": "A 30-year-old reports chronic feelings of emptiness, unstable sense of self, and intense but unstable relationships. She describes self-harm behaviors and one suicide attempt. However, symptoms have been present only since a traumatic assault 18 months ago; before that, she functioned well in relationships and work.",
+    "question": "This presentation suggests:",
+    "options": [
+      "Borderline Personality Disorder",
+      "PTSD with emotion dysregulation",
+      "Histrionic Personality Disorder",
+      "Brief Psychotic Disorder"
+    ],
+    "correct": 1,
+    "explanation": "While symptoms resemble BPD, the timeline is crucial for differential diagnosis. Personality disorders require pervasive, stable patterns beginning by early adulthood\u2014not emerging after a specific trauma in adulthood. This presentation suggests PTSD with significant emotion dysregulation, identity disturbance, and self-harm as trauma responses. PTSD can include these features, especially after assault. The key diagnostic distinction: symptoms emerged after trauma in someone with previous good functioning, rather than being lifelong patterns. This affects treatment approach significantly.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Herman, J. L. (1992). Complex PTSD. Journal of Traumatic Stress, 5(3), 377-391."
+  },
+  {
+    "id": 235,
+    "domain": "Assessing, Hypothesizing, Diagnosing",
+    "difficulty": "medium",
+    "tags": [
+      "family assessment",
+      "systems",
+      "presenting problem"
+    ],
+    "question": "From a systemic perspective, the 'identified patient' in family therapy refers to:",
+    "options": [
+      "The family member who sought treatment first",
+      "The family member diagnosed with the most severe disorder",
+      "The person the family views as having 'the problem'",
+      "The family member the therapist determines needs treatment most"
+    ],
+    "correct": 2,
+    "explanation": "The identified patient (IP) is the family member whom the family defines as having 'the problem' and often as the reason for seeking treatment. From a systemic view, the IP's symptoms may serve functions within the family system (e.g., distracting from marital conflict, maintaining homeostasis). While individual treatment may be appropriate, systemic assessment explores how symptoms relate to family patterns, roles, and interactions. The concept challenges linear causality by examining symptoms in context.",
+    "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Satir, V. (1967). Conjoint Family Therapy. Science and Behavior Books."
+  },
+  {
+      "id": 236,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Persistent Depressive Disorder"],
+      "vignette": "A 38-year-old reports feeling down most days for the past 2.5 years. She has low energy, poor concentration, and low self-esteem, but continues working and maintaining relationships. She denies suicidal ideation or significant weight changes.",
+      "question": "The most appropriate diagnosis is:",
+      "options": [
+        "Major Depressive Disorder, recurrent",
+        "Persistent Depressive Disorder (Dysthymia)",
+        "Adjustment Disorder with depressed mood",
+        "Cyclothymic Disorder"
+      ],
+      "correct": 1,
+      "explanation": "Persistent Depressive Disorder (Dysthymia) requires depressed mood for most of the day, more days than not, for at least 2 years (1 year in children/adolescents), plus at least 2 additional symptoms (poor appetite/overeating, insomnia/hypersomnia, low energy, low self-esteem, poor concentration, hopelessness). The chronicity (2.5 years) and less severe but persistent symptoms distinguish this from Major Depression. The client continues functioning, typical of dysthymia. Adjustment Disorder requires identifiable stressor and symptoms within 3 months of stressor.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 237,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["cultural assessment", "diversity"],
+      "question": "When conducting culturally sensitive assessments, therapists should:",
+      "options": [
+        "Avoid discussing cultural differences to prevent discomfort",
+        "Assume cultural group membership determines individual experience",
+        "Explore how clients understand and experience their cultural identity",
+        "Use standardized Western assessment tools regardless of background"
+      ],
+      "correct": 2,
+      "explanation": "Culturally sensitive assessment explores the client's own understanding of their cultural identity, including: how they identify culturally, degree of acculturation, cultural explanations for problems, cultural supports and stressors, and experiences of discrimination. This avoids stereotyping while acknowledging culture's role. Therapists should balance cultural knowledge with individual variation, recognizing within-group diversity. Cultural humility involves asking clients to teach you about their experience rather than assuming based on group membership.",
+      "citation": "Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse: Theory and Practice (8th ed.). Wiley; Comas-Díaz, L. (2012). Multicultural Care: A Clinician's Guide to Cultural Competence. American Psychological Association."
+    },
+    {
+      "id": 238,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "differential diagnosis", "Bipolar"],
+      "vignette": "A 25-year-old presents with current depression. History reveals one past episode of elevated mood lasting 5 days where she was more talkative, needed less sleep, and felt very confident. She functioned well at work during this period with no impairment.",
+      "question": "The diagnosis that best fits this presentation is:",
+      "options": [
+        "Bipolar I Disorder",
+        "Bipolar II Disorder",
+        "Cyclothymic Disorder",
+        "Major Depressive Disorder with mixed features"
+      ],
+      "correct": 1,
+      "explanation": "Bipolar II Disorder requires at least one hypomanic episode (4+ days of elevated mood with symptoms) and one major depressive episode, with no history of full manic episodes. This case describes hypomania: 5 days duration, elevated mood, increased talkativeness, decreased need for sleep, inflated self-esteem, with continued functioning (no marked impairment). Bipolar I requires at least one manic episode (7+ days or hospitalization, with marked impairment). The distinction between hypomania (Bipolar II) and mania (Bipolar I) centers on severity and impairment level.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 239,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["suicide assessment", "risk factors"],
+      "question": "Which factor is considered the STRONGEST predictor of future suicide attempts?",
+      "options": [
+        "Current suicidal ideation",
+        "History of previous suicide attempts",
+        "Diagnosis of major depression",
+        "Recent significant loss"
+      ],
+      "correct": 1,
+      "explanation": "Previous suicide attempts are the strongest single predictor of future attempts and completed suicide. Past attempters are 10-40 times more likely to die by suicide than the general population. While current ideation, depression, and recent losses are all risk factors, past attempts indicate capability (overcoming self-preservation instinct), familiarity with methods, and potentially chronic suicidality. Assessment should always include detailed history of previous attempts: number, lethality, circumstances, and changes since.",
+      "citation": "Joiner, T. E., et al. (2005). The Interpersonal Theory of Suicidal Behavior. Clinical Psychology Review, 25(6), 773-798; Oquendo, M. A., et al. (2006). Prospective Study of Clinical Predictors of Suicidal Acts. American Journal of Psychiatry, 163(8), 1433-1441."
+    },
+    {
+      "id": 240,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["genogram", "symbols", "assessment tool"],
+      "question": "In a genogram, a square typically represents:",
+      "options": [
+        "Female family members",
+        "Male family members",
+        "Deceased family members",
+        "Divorced couples"
+      ],
+      "correct": 1,
+      "explanation": "Standard genogram symbols: squares = males, circles = females, X through symbol = deceased, horizontal line = married/partnered, double slashes through line = divorced, dotted lines = tenuous relationships, wavy lines = conflictual relationships. Genograms map family structure, relationships, patterns, and significant information (deaths, illnesses, occupations, divorces) across at least three generations. They're valuable assessment and intervention tools in systemic therapy.",
+      "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton."
+    },
+    {
+      "id": 241,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "PTSD", "trauma"],
+      "vignette": "A 32-year-old experienced a serious car accident 8 weeks ago. She has intrusive memories, avoids driving, has difficulty sleeping, and is hypervigilant about road safety. She reports feeling detached from friends.",
+      "question": "The most appropriate diagnosis is:",
+      "options": [
+        "Posttraumatic Stress Disorder",
+        "Acute Stress Disorder",
+        "Adjustment Disorder",
+        "Specific Phobia, situational type"
+      ],
+      "correct": 0,
+      "explanation": "PTSD diagnosis requires symptoms lasting more than 1 month after trauma exposure. Symptoms include: intrusion (memories, flashbacks), avoidance, negative alterations in cognition/mood (detachment), and hyperarousal (hypervigilance, sleep disturbance). At 8 weeks, this exceeds the 1-month threshold. Acute Stress Disorder applies to symptoms occurring 3 days to 1 month post-trauma. The full symptom cluster (intrusion + avoidance + negative mood + arousal) indicates PTSD rather than phobia or adjustment disorder.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 242,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["attachment", "assessment", "Adult Attachment Interview"],
+      "question": "The Adult Attachment Interview (AAI) assesses attachment by analyzing:",
+      "options": [
+        "Current relationship satisfaction with partners",
+        "The coherence and narrative quality of descriptions of childhood attachment relationships",
+        "Behavioral observations of parent-child interactions",
+        "Self-report questionnaire responses about relationship patterns"
+      ],
+      "correct": 1,
+      "explanation": "The AAI is a semi-structured interview that assesses adult attachment based on how individuals discuss childhood relationships with caregivers. Classification depends on narrative coherence, consistency, credibility, and metacognitive monitoring—not the content of experiences per se. Secure/autonomous adults provide coherent, balanced narratives. Dismissing adults provide brief, idealized, or devaluing accounts lacking detail. Preoccupied adults give lengthy, confused, passive narratives. Unresolved adults show lapses in reasoning when discussing loss/trauma. The AAI predicts parenting and child attachment.",
+      "citation": "Main, M., Goldwyn, R., & Hesse, E. (2002). Adult Attachment Scoring and Classification Systems. University of California at Berkeley; Hesse, E. (2008). The Adult Attachment Interview. In J. Cassidy & P. R. Shaver (Eds.), Handbook of Attachment (2nd ed.). Guilford Press."
+    },
+    {
+      "id": 243,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["substance use", "DSM-5-TR", "severity"],
+      "question": "DSM-5-TR specifies substance use disorder severity as mild, moderate, or severe based on:",
+      "options": [
+        "The type of substance used",
+        "The number of diagnostic criteria met (2-3 mild, 4-5 moderate, 6+ severe)",
+        "The duration of substance use",
+        "Whether medical complications are present"
+      ],
+      "correct": 1,
+      "explanation": "DSM-5-TR uses a dimensional approach to substance use disorders with severity based on symptom count from 11 possible criteria: 2-3 criteria = mild, 4-5 = moderate, 6+ = severe. This replaced DSM-IV's categorical distinction between 'abuse' and 'dependence.' The 11 criteria include: impaired control (4 criteria), social impairment (3 criteria), risky use (2 criteria), and pharmacological criteria (tolerance/withdrawal, 2 criteria). Severity specifiers guide treatment intensity.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 244,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["Gottman", "assessment", "Sound Relationship House"],
+      "question": "Gottman's assessment of couples includes observing for the 'Four Horsemen,' which are:",
+      "options": [
+        "Criticism, contempt, defensiveness, and stonewalling",
+        "Anger, sadness, fear, and disgust",
+        "Withdrawal, pursuit, attack, and submission",
+        "Denial, projection, rationalization, and displacement"
+      ],
+      "correct": 0,
+      "explanation": "Gottman identified four destructive communication patterns ('Four Horsemen of the Apocalypse'): (1) Criticism—attacking partner's character, (2) Contempt—disrespect, mockery, disgust (strongest predictor of divorce), (3) Defensiveness—counter-attacking or playing victim, (4) Stonewalling—withdrawing and shutting down. These patterns, especially contempt, predict relationship dissolution with high accuracy. Assessment includes observing for these patterns and their antidotes: complaints instead of criticism, building culture of appreciation, taking responsibility, and physiological self-soothing.",
+      "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers; Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton."
+    },
+    {
+      "id": 245,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Generalized Anxiety Disorder"],
+      "question": "For a diagnosis of Generalized Anxiety Disorder in adults, excessive worry must occur:",
+      "options": [
+        "Every day for at least 2 weeks",
+        "More days than not for at least 6 months",
+        "At least once weekly for 3 months",
+        "Persistently for at least 1 year"
+      ],
+      "correct": 1,
+      "explanation": "Generalized Anxiety Disorder (GAD) in adults requires excessive anxiety and worry about multiple events/activities, occurring more days than not for at least 6 months, that is difficult to control. Additional criteria include at least 3 of 6 symptoms (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance) and significant distress/impairment. The 6-month duration and pervasiveness across multiple domains distinguish GAD from normal worry or other anxiety disorders.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 246,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["Complex PTSD", "developmental trauma", "differential"],
+      "vignette": "A 28-year-old with childhood abuse history presents with relationship instability, emotional dysregulation, dissociative symptoms, negative self-concept, and difficulty trusting. She also has trauma-related nightmares and avoidance.",
+      "question": "This presentation most suggests:",
+      "options": [
+        "Borderline Personality Disorder only",
+        "PTSD only",
+        "Complex PTSD or comorbid PTSD and personality disorder",
+        "Dissociative Identity Disorder"
+      ],
+      "correct": 2,
+      "explanation": "Complex PTSD (C-PTSD), proposed in ICD-11, results from prolonged/repeated trauma (often developmental) and includes core PTSD symptoms plus: emotion dysregulation, negative self-concept, and interpersonal difficulties. This overlaps with BPD, leading to diagnostic confusion. C-PTSD emphasizes trauma etiology; BPD includes additional features (abandonment fears, identity disturbance, impulsivity, self-harm, emptiness). Many with developmental trauma meet criteria for both. Comprehensive assessment considers trauma history, full symptom presentation, and treatment implications. DSM-5-TR doesn't include C-PTSD but acknowledges dissociative subtype.",
+      "citation": "Cloitre, M., et al. (2013). The International Trauma Questionnaire. European Journal of Psychotraumatology, 4(1); Herman, J. L. (1992). Complex PTSD: A Syndrome in Survivors of Prolonged and Repeated Trauma. Journal of Traumatic Stress, 5(3), 377-391."
+    },
+    {
+      "id": 247,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["MSE", "mental status exam"],
+      "question": "A mental status examination typically includes assessment of all EXCEPT:",
+      "options": [
+        "Appearance, behavior, and speech",
+        "Mood, affect, and thought processes",
+        "Unconscious conflicts and childhood experiences",
+        "Cognition, insight, and judgment"
+      ],
+      "correct": 2,
+      "explanation": "The Mental Status Examination (MSE) is a structured observation of current functioning across domains: appearance/behavior, speech, mood/affect, thought process and content, perception (hallucinations), cognition (orientation, memory, attention, abstraction), insight, and judgment. The MSE captures the client's presentation at time of evaluation—not historical information, unconscious material, or developmental history. It's analogous to a physical exam in medicine. The MSE complements but doesn't replace comprehensive psychosocial history.",
+      "citation": "Robinson, D. J. (2001). The Mental Status Exam Explained. Rapid Psychler Press; Trzepacz, P. T., & Baker, R. W. (1993). The Psychiatric Mental Status Examination. Oxford University Press."
+    },
+    {
+      "id": 248,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["ecomap", "assessment tool", "systems"],
+      "question": "An ecomap is used to:",
+      "options": [
+        "Diagram environmental factors affecting family health",
+        "Map the family's relationships with external systems and resources",
+        "Track ecological and geographic moves over time",
+        "Assess the family's carbon footprint and environmental impact"
+      ],
+      "correct": 1,
+      "explanation": "An ecomap visually represents a family's connections to external systems: extended family, work, school, healthcare, religious organizations, friends, recreational activities, social services, etc. Lines indicate relationship quality: thick = strong, thin = weak, hatched = stressful. The family (genogram) sits at center, surrounded by external systems. Ecomaps assess social support, identify resources and stressors, reveal isolation, and guide intervention planning. They complement genograms (internal family structure) by showing external connections.",
+      "citation": "Hartman, A. (1995). Diagrammatic Assessment of Family Relationships. Families in Society, 76(2), 111-122; McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton."
+    },
+    {
+      "id": 249,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "OCD", "specifiers"],
+      "question": "DSM-5-TR specifies that OCD should be coded as 'with good or fair insight,' 'with poor insight,' or:",
+      "options": [
+        "'With delusional beliefs'",
+        "'With absent insight/delusional beliefs'",
+        "'With psychotic features'",
+        "'With reality testing impairment'"
+      ],
+      "correct": 1,
+      "explanation": "DSM-5-TR requires specifying current insight level for OCD: (1) good/fair insight—recognizes beliefs are probably not true, (2) poor insight—thinks beliefs are probably true, or (3) absent insight/delusional beliefs—completely convinced beliefs are true. This 'absent insight' specifier replaces the need for separate 'OCD with psychotic features' diagnosis. The continuum acknowledges that obsessions can range from ego-dystonic thoughts to delusional-level conviction, impacting treatment approach (e.g., need for antipsychotic medication).",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 250,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["couples assessment", "Gottman", "observation"],
+      "vignette": "During a couples assessment, the therapist observes that when the wife expresses a concern, the husband immediately offers solutions and advice. The wife responds with frustration, saying he doesn't listen. The husband appears confused and hurt.",
+      "question": "This pattern likely reflects:",
+      "options": [
+        "The husband's contempt for his wife",
+        "A failed repair attempt by the husband",
+        "Mismatched bids—wife seeking emotional connection, husband offering problem-solving",
+        "Evidence of domestic violence"
+      ],
+      "correct": 2,
+      "explanation": "This illustrates a common gender-influenced pattern where one partner seeks emotional connection/validation ('I understand' bids) while the other offers problem-solving ('I'll help fix it' bids). Neither is wrong, but the mismatch creates disconnection. The wife's bid is for empathy; the husband's response, though well-intentioned, misses her need. This isn't contempt (hostile disrespect) but rather a difference in bid style. Effective intervention teaches partners to recognize and respond to each other's bid types appropriately.",
+      "citation": "Gottman, J. M., & DeClaire, J. (2001). The Relationship Cure: A 5 Step Guide. Harmony; Tannen, D. (1990). You Just Don't Understand: Women and Men in Conversation. William Morrow."
+    },
+    {
+      "id": 251,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Adjustment Disorder"],
+      "question": "Adjustment Disorder symptoms must develop within how long after an identified stressor?",
+      "options": [
+        "Within 2 weeks",
+        "Within 3 months",
+        "Within 6 months",
+        "Within 1 year"
+      ],
+      "correct": 1,
+      "explanation": "Adjustment Disorder requires emotional/behavioral symptoms to develop within 3 months of an identifiable stressor onset. Symptoms must cause marked distress (exceeding what's expected) or functional impairment, but don't meet criteria for other specific disorders. Symptoms should remit within 6 months after the stressor (or its consequences) ends, unless specified as 'chronic' (persisting 6+ months, typically with ongoing stressor). Adjustment Disorder serves as a subthreshold diagnosis when distress is clinically significant but below threshold for major disorders.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 252,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["family lifecycle", "assessment", "development"],
+      "question": "Assessing the family lifecycle stage helps therapists understand:",
+      "options": [
+        "The family's socioeconomic status",
+        "Normative developmental tasks and transitions the family faces",
+        "The family's cultural background",
+        "The identified patient's developmental level only"
+      ],
+      "correct": 1,
+      "explanation": "Family lifecycle assessment identifies the developmental stage (launching young adults, families with adolescents, families with young children, later life families, etc.) and associated normative tasks (adjusting to children leaving home, managing adolescent autonomy, establishing couple relationship, etc.). This contextualizes presenting problems: Are symptoms related to normal transition stress? Is the family 'stuck' at a developmental stage? Understanding lifecycle stage helps distinguish typical transition struggles from dysfunction and guides developmentally appropriate interventions.",
+      "citation": "Carter, B., & McGoldrick, M. (Eds.) (2005). The Expanded Family Life Cycle: Individual, Family, and Social Perspectives (3rd ed.). Allyn & Bacon; McGoldrick, M., Carter, B., & Garcia-Preto, N. (Eds.) (2010). The Expanded Family Life Cycle (4th ed.). Pearson."
+    },
+    {
+      "id": 253,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["IPV", "intimate partner violence", "screening"],
+      "question": "Universal IPV screening in clinical settings should:",
+      "options": [
+        "Only occur when abuse is suspected",
+        "Be conducted routinely with all adult clients in private settings",
+        "Only be done if the client initiates the topic",
+        "Avoid direct questions to prevent offending clients"
+      ],
+      "correct": 1,
+      "explanation": "Best practice recommends universal, routine screening for intimate partner violence with all adult clients, regardless of presenting problem or suspicion. Screening should occur: in private (never with partner present), using direct, specific questions ('Has your partner ever hit, kicked, or physically hurt you?'), in a normalizing, non-judgmental manner ('I ask all clients...'), and with safety resources ready. Universal screening increases disclosure, as victims may not volunteer information. Many professional organizations (USPSTF, AMA, AAP) recommend routine screening.",
+      "citation": "U.S. Preventive Services Task Force (2018). Screening for Intimate Partner Violence. JAMA, 320(16), 1678-1687; National Domestic Violence Hotline (2020). Safety Planning Guidelines."
+    },
+    {
+      "id": 254,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Schizophrenia", "duration"],
+      "question": "For a diagnosis of Schizophrenia, continuous signs of disturbance must persist for at least:",
+      "options": [
+        "1 month",
+        "3 months",
+        "6 months",
+        "1 year"
+      ],
+      "correct": 2,
+      "explanation": "Schizophrenia requires continuous signs of disturbance for at least 6 months, including at least 1 month of active-phase symptoms (delusions, hallucinations, disorganized speech, grossly disorganized/catatonic behavior, or negative symptoms). The 6 months may include prodromal or residual periods with only negative symptoms or attenuated positive symptoms. This duration criterion distinguishes Schizophrenia from Schizophreniform Disorder (1-6 months) and Brief Psychotic Disorder (<1 month). The chronicity requirement reflects Schizophrenia's typically persistent course.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 255,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["adolescent assessment", "developmental considerations"],
+      "question": "When assessing adolescents, therapists should be aware that:",
+      "options": [
+        "Adolescents always provide reliable self-reports without need for collateral information",
+        "Confidentiality should be absolute with no exceptions",
+        "Gathering information from multiple sources (parents, school, adolescent) provides the most complete picture",
+        "Assessment should focus exclusively on the identified adolescent without family context"
+      ],
+      "correct": 2,
+      "explanation": "Comprehensive adolescent assessment requires multiple informants (adolescent, parents, teachers, other providers) because: adolescents may minimize problems or lack awareness of external impact, parents may not know internal experiences, each perspective provides valuable information, and discrepancies between informants are clinically meaningful. Assessment should balance adolescent confidentiality (essential for therapeutic alliance) with safety and family involvement. Systemic context matters—adolescent symptoms often relate to family, peer, or school dynamics.",
+      "citation": "Mash, E. J., & Barkley, R. A. (Eds.) (2014). Child Psychopathology (3rd ed.). Guilford Press; American Academy of Child and Adolescent Psychiatry (2013). Practice Parameter for Psychiatric Assessment of Children and Adolescents. Journal of the American Academy of Child & Adolescent Psychiatry, 52(8), 863-875."
+    },
+    {
+      "id": 256,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Social Anxiety Disorder"],
+      "question": "Social Anxiety Disorder is characterized by:",
+      "options": [
+        "Fear of all social interactions equally",
+        "Fear or anxiety about social situations where one might be scrutinized by others",
+        "General shyness and introversion",
+        "Fear only of public speaking situations"
+      ],
+      "correct": 1,
+      "explanation": "Social Anxiety Disorder (Social Phobia) involves marked fear/anxiety about social situations where the person might be scrutinized, fearing they'll act in ways that will be negatively evaluated (humiliated, embarrassed, rejected). The fear is out of proportion to actual threat, causes significant distress/impairment, and typically lasts 6+ months. Social situations are avoided or endured with intense anxiety. This differs from normal shyness in its severity and impairment. 'Performance only' specifier applies if fear is restricted to speaking/performing in public.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 257,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["attachment", "Strange Situation", "assessment"],
+      "question": "In Ainsworth's Strange Situation assessment, securely attached infants typically:",
+      "options": [
+        "Show no distress when separated from caregiver and avoid upon reunion",
+        "Are inconsolably distressed during separation and resist comfort upon reunion",
+        "Use the caregiver as a secure base for exploration and are easily comforted upon reunion",
+        "Show no preference between caregiver and stranger"
+      ],
+      "correct": 2,
+      "explanation": "Securely attached infants (about 65% in normative samples) demonstrate: using caregiver as secure base for exploration, moderate distress at separation (seeking caregiver), and easy soothing at reunion. Avoidant infants show minimal distress at separation and avoid caregiver at reunion. Resistant/ambivalent infants are highly distressed at separation and resist comfort while also seeking it at reunion. Disorganized infants show confused, contradictory behaviors. The Strange Situation assesses infant attachment through separations and reunions with caregiver.",
+      "citation": "Ainsworth, M. D. S., et al. (1978). Patterns of Attachment: A Psychological Study of the Strange Situation. Lawrence Erlbaum; Cassidy, J., & Shaver, P. R. (Eds.) (2016). Handbook of Attachment (3rd ed.). Guilford Press."
+    },
+    {
+      "id": 258,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "hard",
+      "tags": ["cultural formulation", "DSM-5-TR"],
+      "question": "The DSM-5-TR Cultural Formulation Interview (CFI) is designed to:",
+      "options": [
+        "Diagnose culture-bound syndromes",
+        "Systematically assess cultural factors affecting clinical presentation and care",
+        "Determine the client's level of acculturation",
+        "Replace standard diagnostic assessment with cultural assessment"
+      ],
+      "correct": 1,
+      "explanation": "The CFI is a 16-item interview that systematically explores: how clients understand their problems (cultural explanations), cultural factors affecting self-coping and past help-seeking, cultural factors affecting current help-seeking, and cultural factors affecting clinician-patient relationship. It enhances standard assessment by revealing cultural dimensions of illness experience, identifying cultural supports and barriers to care, and improving cultural sensitivity. The CFI supplements (doesn't replace) diagnostic assessment and helps avoid misdiagnosis and improve engagement with diverse clients.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing; Lewis-Fernández, R., et al. (2014). Culture and Psychiatric Evaluation. Journal of Nervous and Mental Disease, 202(5), 390-395."
+    },
+    {
+      "id": 259,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "medium",
+      "tags": ["identified patient", "systemic concept"],
+      "question": "The concept of the 'identified patient' in family therapy refers to:",
+      "options": [
+        "The family member with the most severe pathology",
+        "The person who initiates therapy for the family",
+        "The family member presenting with symptoms, who may be expressing family dysfunction",
+        "The therapist's choice of who to focus treatment on"
+      ],
+      "correct": 2,
+      "explanation": "The identified patient (IP) is the family member presenting with symptoms, who the family has designated as 'the problem.' Systemic thinking views the IP's symptoms as potentially expressing, maintaining, or resulting from family system dysfunction—not solely individual pathology. The symptom may serve functions: deflecting attention from other issues (marital conflict), maintaining homeostasis, or expressing family stress. Assessment explores: what function does the symptom serve? What would happen if it resolved? Who benefits from maintaining the problem? This perspective de-pathologizes the individual while examining relational context.",
+      "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass."
+    },
+    {
+      "id": 260,
+      "domain": "Assessment and Diagnosis",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Panic Disorder"],
+      "question": "Panic attacks in Panic Disorder are characterized by:",
+      "options": [
+        "Gradual onset of anxiety over several hours",
+        "Abrupt surge of intense fear reaching a peak within minutes",
+        "Continuous low-level anxiety throughout the day",
+        "Anxiety only in response to specific phobic stimuli"
+      ],
+      "correct": 1,
+      "explanation": "Panic attacks involve an abrupt surge of intense fear or discomfort reaching a peak within minutes, with at least 4 of 13 symptoms (palpitations, sweating, trembling, shortness of breath, choking feeling, chest pain, nausea, dizziness, chills/heat, paresthesias, derealization/depersonalization, fear of losing control, fear of dying). Panic Disorder requires recurrent unexpected panic attacks plus at least 1 month of persistent concern about additional attacks or maladaptive behavioral changes (avoidance) related to the attacks. The sudden onset distinguishes panic from other anxiety.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    }
+  ]
+
 ]
