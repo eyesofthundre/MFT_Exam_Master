@@ -711,169 +711,492 @@
     "citation": "Kazantzis, N., et al. (2010). Homework Assignments in Cognitive and Behavioral Therapy: A Meta-Analysis. Clinical Psychology: Science and Practice, 17(3), 203-212; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass."
   },
   {
-      "id": 336,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "medium",
-      "tags": ["paradoxical intervention", "Strategic"],
-      "vignette": "Parents complain their 16-year-old stays in his room and refuses family interaction. The therapist instructs: 'For the next week, insist he spend at least 3 hours daily alone in his room with the door locked. No exceptions.'",
-      "question": "This intervention works by:",
-      "options": [
-        "Reinforcing the problematic behavior until parents give up",
-        "Creating a therapeutic double-bind where compliance or rebellion both produce change",
-        "Punishing the adolescent for antisocial behavior",
-        "Teaching parents effective limit-setting"
-      ],
-      "correct": 1,
-      "explanation": "This is a classic paradoxical prescription. By prescribing the symptom, the therapist creates a therapeutic bind: if the teen complies (stays in room as ordered), the behavior becomes under parental control rather than defiant; if he rebels by coming out, the problem is solved. The prescription reframes isolation from defiance to compliance, removing its function. Paradoxical interventions work by altering the meaning and control of symptomatic behavior.",
-      "citation": "Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass; Weeks, G. R., & L'Abate, L. (1982). Paradoxical Psychotherapy: Theory and Practice with Individuals, Couples, and Families. Brunner/Mazel."
-    },
-    {
-      "id": 337,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "easy",
-      "tags": ["informed consent", "ethics"],
-      "question": "Informed consent in family therapy must include information about:",
-      "options": [
-        "Only the therapist's credentials and fees",
-        "Treatment approach, risks/benefits, confidentiality limits, and alternative treatments",
-        "A guarantee of successful outcomes",
-        "The therapist's personal opinions about family structure"
-      ],
-      "correct": 1,
-      "explanation": "Informed consent requires providing information necessary for clients to make autonomous decisions about participation. This includes: therapist qualifications, treatment approach and procedures, expected length/frequency, fees and payment, confidentiality and its limits, foreseeable risks and benefits, alternative treatments available, right to refuse or withdraw, and how records will be handled. Consent is an ongoing process, not a one-time form.",
-      "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Barnett, J. E., et al. (2007). Informed Consent: Too Much of a Good Thing? Professional Psychology: Research and Practice, 38(2), 179-186."
-    },
-    {
-      "id": 338,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "hard",
-      "tags": ["EFT", "attachment injury", "resolution"],
-      "vignette": "A husband reveals he had an affair early in the marriage during his wife's cancer treatment. She describes feeling abandoned at her most vulnerable time. In session, she accesses deep hurt and asks: 'How could you leave me when I needed you most?'",
-      "question": "This represents an attachment injury. EFT resolution requires:",
-      "options": [
-        "The injured partner forgiving immediately to move forward",
-        "The injuring partner acknowledging the injury, expressing remorse, and the injured partner accepting emotional repair",
-        "Avoiding discussion of the injury to prevent re-traumatization",
-        "The therapist mediating a compromise about future behavior"
-      ],
-      "correct": 1,
-      "explanation": "Attachment injury resolution in EFT involves a specific process: (1) injured partner accesses and expresses attachment-related pain/fear, (2) injuring partner hears and acknowledges the impact with genuine remorse and empathy, (3) injured partner risks trusting again by accepting the repair, (4) new interaction creates renewed secure bond. This process can't be rushed—authentic emotional engagement from both partners is essential. The injury must be processed, not bypassed.",
-      "citation": "Johnson, S. M., Makinen, J. A., & Millikin, J. W. (2001). Attachment Injuries in Couple Relationships. Journal of Marital and Family Therapy, 27(2), 145-155; Makinen, J. A., & Johnson, S. M. (2006). Resolving Attachment Injuries in Couples. Journal of Consulting and Clinical Psychology, 74(6), 1055-1064."
-    },
-    {
-      "id": 339,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "medium",
-      "tags": ["Structural", "crisis induction", "intervention"],
-      "question": "In Structural therapy, 'crisis induction' refers to:",
-      "options": [
-        "Creating emergencies to test family coping",
-        "Deliberately unbalancing the system to make rigidity untenable and promote reorganization",
-        "Warning families about potential crises",
-        "Teaching crisis management skills"
-      ],
-      "correct": 1,
-      "explanation": "Crisis induction involves strategically destabilizing a rigid family system to create conditions for structural change. The therapist might: strongly unbalance by fully siding with one member, block a habitual transaction, or create an enactment that exposes dysfunction dramatically. The resulting 'crisis' (family disequilibrium) makes maintaining the old structure difficult, opening possibilities for reorganization. This powerful technique requires timing, therapeutic relationship strength, and skill to manage the intensity.",
-      "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press; Colapinto, J. (1991). Structural Family Therapy. In A. S. Gurman & D. P. Kniskern (Eds.), Handbook of Family Therapy (Vol. 2). Brunner/Mazel."
-    },
-    {
-      "id": 340,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "easy",
-      "tags": ["SFBT", "homework", "tasks"],
-      "question": "In SFBT, between-session tasks typically focus on:",
-      "options": [
-        "Analyzing what's wrong and its causes",
-        "Noticing and doing more of what works",
-        "Confronting family members about denial",
-        "Processing childhood trauma"
-      ],
-      "correct": 1,
-      "explanation": "SFBT tasks amplify solutions and exceptions: 'Notice what's better,' 'Do something different,' 'Continue what's working,' or 'Observe when the problem doesn't happen.' Tasks are future-focused and action-oriented rather than insight-focused. They build on client strengths, maintain solution focus between sessions, and generate evidence that change is possible. The emphasis is on 'more of what works' rather than understanding or eliminating problems.",
-      "citation": "de Shazer, S. (1985). Keys to Solution in Brief Therapy. W. W. Norton; Berg, I. K., & Dolan, Y. (2001). Tales of Solutions: A Collection of Hope-Inspiring Stories. W. W. Norton."
-    },
-    {
-      "id": 341,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "medium",
-      "tags": ["Narrative", "unique outcomes", "thickening"],
-      "vignette": "A client describes herself as 'always anxious and avoidant.' The therapist asks about a recent work presentation she completed successfully. Client dismisses it: 'That was nothing, I was just lucky.'",
-      "question": "The therapist should:",
-      "options": [
-        "Accept the dismissal and move on",
-        "Explore this unique outcome in detail to thicken the alternative story",
-        "Confront the client's minimization",
-        "Interpret the defense mechanism"
-      ],
-      "correct": 1,
-      "explanation": "This is a unique outcome—a time when the problem's influence was less. Narrative therapists thicken alternative stories by exploring unique outcomes in detail: What did you do to make that happen? What does that say about what you value? Who would not be surprised you did this? What does this suggest about your capabilities? Clients often dismiss exceptions as flukes. Detailed exploration makes the alternative story more substantial and believable, challenging the dominant problem-saturated narrative.",
-      "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton; White, M. (2007). Maps of Narrative Practice. W. W. Norton."
-    },
-    {
-      "id": 342,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "hard",
-      "tags": ["Milan", "invariant prescription", "application"],
-      "question": "The Milan team's 'invariant prescription' for families with anorexic children was considered invariant because:",
-      "options": [
-        "It produced invariably positive outcomes",
-        "It was given to all families regardless of their specific characteristics",
-        "It remained unchanged throughout therapy",
-        "It targeted invariant aspects of family structure"
-      ],
-      "correct": 1,
-      "explanation": "The invariant prescription was given identically to all families with anorexic children, regardless of individual family differences—a departure from Milan's earlier emphasis on unique hypotheses. The prescription (parents mysteriously disappearing together without telling children) aimed to strengthen parental coalition and create appropriate boundaries across all such families. This represented a shift from customized strategic interventions to a standardized systemic intervention based on common family patterns in anorexia. The approach was later reconsidered.",
-      "citation": "Selvini Palazzoli, M., et al. (1989). Family Games: General Models of Psychotic Processes in the Family. W. W. Norton; Selvini, M. (1988). The Work of Mara Selvini Palazzoli. Jason Aronson."
-    },
-    {
-      "id": 343,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "medium",
-      "tags": ["Bowenian", "triangles", "detriangling"],
-      "question": "In Bowenian therapy, 'detriangling' involves:",
-      "options": [
-        "Removing the third person from all family sessions",
-        "Helping individuals maintain person-to-person relationships without involving third parties in conflicts",
-        "Creating triangles to reduce anxiety",
-        "Geometric restructuring of the family"
-      ],
-      "correct": 1,
-      "explanation": "Detriangling helps individuals maintain direct, person-to-person relationships without routing anxiety through third parties. This means: staying out of others' conflicts, not allowing yourself to be drawn into conflicts between two others, and addressing issues directly with the relevant person rather than talking about them to others. Detriangling reduces anxiety transmission, increases differentiation, and builds more authentic relationships. It requires managing one's own anxiety rather than displacing it.",
-      "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation: An Approach Based on Bowen Theory. W. W. Norton."
-    },
-    {
-      "id": 344,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "easy",
-      "tags": ["psychoeducation", "intervention"],
-      "question": "Psychoeducation is particularly important when working with families dealing with:",
-      "options": [
-        "Normal developmental transitions only",
-        "Serious mental illness like schizophrenia or bipolar disorder",
-        "Mild relationship conflicts",
-        "Career decisions"
-      ],
-      "correct": 1,
-      "explanation": "Psychoeducation is evidence-based and particularly crucial for families dealing with serious mental illness (schizophrenia, bipolar disorder, major depression). It provides: information about the illness (symptoms, course, treatment), reduces blame and stigma, improves medication adherence, teaches communication and problem-solving skills, and significantly reduces relapse rates. Psychoeducation empowers families with knowledge, reduces expressed emotion, and improves outcomes. It's a standard component of family interventions for SMI.",
-      "citation": "McFarlane, W. R. (2002). Multifamily Groups in the Treatment of Severe Psychiatric Disorders. Guilford Press; Anderson, C. M., Reiss, D. J., & Hogarty, G. E. (1986). Schizophrenia and the Family. Guilford Press."
-    },
-    {
-      "id": 345,
-      "domain": "Designing and Conducting Treatment",
-      "difficulty": "medium",
-      "tags": ["Gottman", "softened startup", "intervention"],
-      "vignette": "A wife typically begins conflict discussions with: 'You never help around here! You're so lazy!' The therapist teaches her to instead say: 'I feel overwhelmed with housework. Could we talk about sharing tasks?'",
-      "question": "This teaches:",
-      "options": [
-        "Passive-aggressive communication",
-        "Softened startup by expressing feelings and needs without criticism",
-        "Avoiding necessary confrontation",
-        "Dishonest communication"
-      ],
-      "correct": 1,
-      "explanation": "Gottman's 'softened startup' means beginning difficult conversations gently rather than harshly. Instead of criticism/contempt ('You never...you're so...'), use: 'I feel...' statements, specific observations, clear requests. Harsh startups predict the course of the entire conversation—91% of the time, conversations that start negatively end negatively. Soft startup includes: complaining without blaming, stating needs positively, being polite and appreciative, and not storing things up. This dramatically improves conflict outcomes.",
-      "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers; Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton."
-    }
-  ]
+          "id": 336,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["paradoxical intervention", "Strategic"],
+          "vignette": "Parents complain their 16-year-old stays in his room and refuses family interaction. The therapist instructs: 'For the next week, insist he spend at least 3 hours daily alone in his room with the door locked. No exceptions.'",
+          "question": "This intervention works by:",
+          "options": [
+              "Reinforcing the problematic behavior until parents give up",
+              "Creating a therapeutic double-bind where compliance or rebellion both produce change",
+              "Punishing the adolescent for antisocial behavior",
+              "Teaching parents effective limit-setting"
+          ],
+          "correct": 1,
+          "explanation": "This is a classic paradoxical prescription. By prescribing the symptom, the therapist creates a therapeutic bind: if the teen complies (stays in room as ordered), the behavior becomes under parental control rather than defiant; if he rebels by coming out, the problem is solved. The prescription reframes isolation from defiance to compliance, removing its function. Paradoxical interventions work by altering the meaning and control of symptomatic behavior.",
+          "citation": "Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass; Weeks, G. R., & L'Abate, L. (1982). Paradoxical Psychotherapy: Theory and Practice with Individuals, Couples, and Families. Brunner/Mazel."
+      },
+      {
+          "id": 337,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["informed consent", "ethics"],
+          "question": "Informed consent in family therapy must include information about:",
+          "options": [
+              "Only the therapist's credentials and fees",
+              "Treatment approach, risks/benefits, confidentiality limits, and alternative treatments",
+              "A guarantee of successful outcomes",
+              "The therapist's personal opinions about family structure"
+          ],
+          "correct": 1,
+          "explanation": "Informed consent requires providing information necessary for clients to make autonomous decisions about participation. This includes: therapist qualifications, treatment approach and procedures, expected length/frequency, fees and payment, confidentiality and its limits, foreseeable risks and benefits, alternative treatments available, right to refuse or withdraw, and how records will be handled. Consent is an ongoing process, not a one-time form.",
+          "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Barnett, J. E., et al. (2007). Informed Consent: Too Much of a Good Thing? Professional Psychology: Research and Practice, 38(2), 179-186."
+      },
+      {
+          "id": 338,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["EFT", "attachment injury", "resolution"],
+          "vignette": "A husband reveals he had an affair early in the marriage during his wife's cancer treatment. She describes feeling abandoned at her most vulnerable time. In session, she accesses deep hurt and asks: 'How could you leave me when I needed you most?'",
+          "question": "This represents an attachment injury. EFT resolution requires:",
+          "options": [
+              "The injured partner forgiving immediately to move forward",
+              "The injuring partner acknowledging the injury, expressing remorse, and the injured partner accepting emotional repair",
+              "Avoiding discussion of the injury to prevent re-traumatization",
+              "The therapist mediating a compromise about future behavior"
+          ],
+          "correct": 1,
+          "explanation": "Attachment injury resolution in EFT involves a specific process: (1) injured partner accesses and expresses attachment-related pain/fear, (2) injuring partner hears and acknowledges the impact with genuine remorse and empathy, (3) injured partner risks trusting again by accepting the repair, (4) new interaction creates renewed secure bond. This process can't be rushed—authentic emotional engagement from both partners is essential. The injury must be processed, not bypassed.",
+          "citation": "Johnson, S. M., Makinen, J. A., & Millikin, J. W. (2001). Attachment Injuries in Couple Relationships. Journal of Marital and Family Therapy, 27(2), 145-155; Makinen, J. A., & Johnson, S. M. (2006). Resolving Attachment Injuries in Couples. Journal of Consulting and Clinical Psychology, 74(6), 1055-1064."
+      },
+      {
+          "id": 339,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Structural", "crisis induction", "intervention"],
+          "question": "In Structural therapy, 'crisis induction' refers to:",
+          "options": [
+              "Creating emergencies to test family coping",
+              "Deliberately unbalancing the system to make rigidity untenable and promote reorganization",
+              "Warning families about potential crises",
+              "Teaching crisis management skills"
+          ],
+          "correct": 1,
+          "explanation": "Crisis induction involves strategically destabilizing a rigid family system to create conditions for structural change. The therapist might: strongly unbalance by fully siding with one member, block a habitual transaction, or create an enactment that exposes dysfunction dramatically. The resulting 'crisis' (family disequilibrium) makes maintaining the old structure difficult, opening possibilities for reorganization. This powerful technique requires timing, therapeutic relationship strength, and skill to manage the intensity.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press; Colapinto, J. (1991). Structural Family Therapy. In A. S. Gurman & D. P. Kniskern (Eds.), Handbook of Family Therapy (Vol. 2). Brunner/Mazel."
+      },
+      {
+          "id": 340,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["SFBT", "homework", "tasks"],
+          "question": "In SFBT, between-session tasks typically focus on:",
+          "options": [
+              "Analyzing what's wrong and its causes",
+              "Noticing and doing more of what works",
+              "Confronting family members about denial",
+              "Processing childhood trauma"
+          ],
+          "correct": 1,
+          "explanation": "SFBT tasks amplify solutions and exceptions: 'Notice what's better,' 'Do something different,' 'Continue what's working,' or 'Observe when the problem doesn't happen.' Tasks are future-focused and action-oriented rather than insight-focused. They build on client strengths, maintain solution focus between sessions, and generate evidence that change is possible. The emphasis is on 'more of what works' rather than understanding or eliminating problems.",
+          "citation": "de Shazer, S. (1985). Keys to Solution in Brief Therapy. W. W. Norton; Berg, I. K., & Dolan, Y. (2001). Tales of Solutions: A Collection of Hope-Inspiring Stories. W. W. Norton."
+      },
+      {
+          "id": 341,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Narrative", "unique outcomes", "thickening"],
+          "vignette": "A client describes herself as 'always anxious and avoidant.' The therapist asks about a recent work presentation she completed successfully. Client dismisses it: 'That was nothing, I was just lucky.'",
+          "question": "The therapist should:",
+          "options": [
+              "Accept the dismissal and move on",
+              "Explore this unique outcome in detail to thicken the alternative story",
+              "Confront the client's minimization",
+              "Interpret the defense mechanism"
+          ],
+          "correct": 1,
+          "explanation": "This is a unique outcome—a time when the problem's influence was less. Narrative therapists thicken alternative stories by exploring unique outcomes in detail: What did you do to make that happen? What does that say about what you value? Who would not be surprised you did this? What does this suggest about your capabilities? Clients often dismiss exceptions as flukes. Detailed exploration makes the alternative story more substantial and believable, challenging the dominant problem-saturated narrative.",
+          "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton; White, M. (2007). Maps of Narrative Practice. W. W. Norton."
+      },
+      {
+          "id": 342,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Milan", "invariant prescription", "application"],
+          "question": "The Milan team's 'invariant prescription' for families with anorexic children was considered invariant because:",
+          "options": [
+              "It produced invariably positive outcomes",
+              "It was given to all families regardless of their specific characteristics",
+              "It remained unchanged throughout therapy",
+              "It targeted invariant aspects of family structure"
+          ],
+          "correct": 1,
+          "explanation": "The invariant prescription was given identically to all families with anorexic children, regardless of individual family differences—a departure from Milan's earlier emphasis on unique hypotheses. The prescription (parents mysteriously disappearing together without telling children) aimed to strengthen parental coalition and create appropriate boundaries across all such families. This represented a shift from customized strategic interventions to a standardized systemic intervention based on common family patterns in anorexia. The approach was later reconsidered.",
+          "citation": "Selvini Palazzoli, M., et al. (1989). Family Games: General Models of Psychotic Processes in the Family. W. W. Norton; Selvini, M. (1988). The Work of Mara Selvini Palazzoli. Jason Aronson."
+      },
+      {
+          "id": 343,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Bowenian", "triangles", "detriangling"],
+          "question": "In Bowenian therapy, 'detriangling' involves:",
+          "options": [
+              "Removing the third person from all family sessions",
+              "Helping individuals maintain person-to-person relationships without involving third parties in conflicts",
+              "Creating triangles to reduce anxiety",
+              "Geometric restructuring of the family"
+          ],
+          "correct": 1,
+          "explanation": "Detriangling helps individuals maintain direct, person-to-person relationships without routing anxiety through third parties. This means: staying out of others' conflicts, not allowing yourself to be drawn into conflicts between two others, and addressing issues directly with the relevant person rather than talking about them to others. Detriangling reduces anxiety transmission, increases differentiation, and builds more authentic relationships. It requires managing one's own anxiety rather than displacing it.",
+          "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation: An Approach Based on Bowen Theory. W. W. Norton."
+      },
+      {
+          "id": 344,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["psychoeducation", "intervention"],
+          "question": "Psychoeducation is particularly important when working with families dealing with:",
+          "options": [
+              "Normal developmental transitions only",
+              "Serious mental illness like schizophrenia or bipolar disorder",
+              "Mild relationship conflicts",
+              "Career decisions"
+          ],
+          "correct": 1,
+          "explanation": "Psychoeducation is evidence-based and particularly crucial for families dealing with serious mental illness (schizophrenia, bipolar disorder, major depression). It provides: information about the illness (symptoms, course, treatment), reduces blame and stigma, improves medication adherence, teaches communication and problem-solving skills, and significantly reduces relapse rates. Psychoeducation empowers families with knowledge, reduces expressed emotion, and improves outcomes. It's a standard component of family interventions for SMI.",
+          "citation": "McFarlane, W. R. (2002). Multifamily Groups in the Treatment of Severe Psychiatric Disorders. Guilford Press; Anderson, C. M., Reiss, D. J., & Hogarty, G. E. (1986). Schizophrenia and the Family. Guilford Press."
+      },
+      {
+          "id": 345,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Gottman", "softened startup", "intervention"],
+          "vignette": "A wife typically begins conflict discussions with: 'You never help around here! You're so lazy!' The therapist teaches her to instead say: 'I feel overwhelmed with housework. Could we talk about sharing tasks?'",
+          "question": "This teaches:",
+          "options": [
+              "Passive-aggressive communication",
+              "Softened startup by expressing feelings and needs without criticism",
+              "Avoiding necessary confrontation",
+              "Dishonest communication"
+          ],
+          "correct": 1,
+          "explanation": "Gottman's 'softened startup' means beginning difficult conversations gently rather than harshly. Instead of criticism/contempt ('You never...you're so...'), use: 'I feel...' statements, specific observations, clear requests. Harsh startups predict the course of the entire conversation—91% of the time, conversations that start negatively end negatively. Soft startup includes: complaining without blaming, stating needs positively, being polite and appreciative, and not storing things up. This dramatically improves conflict outcomes.",
+          "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers; Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton."
+      },
+      {
+          "id": 346,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Structural", "enactment", "intervention"],
+          "vignette": "During session, a mother asks her 14-year-old about homework. The teen rolls his eyes and ignores her. Mother looks at the therapist helplessly.",
+          "question": "A Structural therapist would most likely:",
+          "options": [
+            "Ask the mother how this makes her feel",
+            "Direct the mother to try again and insist on a response, blocking her from looking at the therapist",
+            "Interpret the adolescent's behavior to the mother",
+            "Speak directly to the adolescent about his behavior"
+          ],
+          "correct": 1,
+          "explanation": "Structural therapists create enactments—having family members interact directly in session to reveal and modify transaction patterns. The therapist blocks the mother's attempt to triangle in the therapist ('looking helplessly'), redirects her to engage directly with her son, and may coach her to persist until he responds. This actualizes the problematic pattern (weak parental authority) where it can be restructured. Enactments are more powerful than discussions about interactions.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press."
+        },
+        {
+          "id": 347,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["therapeutic alliance", "engagement"],
+          "question": "Research indicates that the therapeutic alliance is:",
+          "options": [
+            "Less important than the specific techniques used",
+            "One of the strongest predictors of therapy outcome across all modalities",
+            "Only relevant in individual therapy, not family therapy",
+            "Primarily the client's responsibility to establish"
+          ],
+          "correct": 1,
+          "explanation": "Meta-analyses consistently show therapeutic alliance is one of the strongest predictors of outcome across all therapy modalities, accounting for significant variance in results. Alliance includes: agreement on goals, agreement on tasks, and emotional bond between therapist and client(s). In family therapy, therapists must develop alliances with multiple members, often with competing interests. Research suggests alliance may account for more outcome variance than specific techniques, emphasizing relationship factors in therapy effectiveness.",
+          "citation": "Horvath, A. O., et al. (2011). Alliance in Individual Psychotherapy. Psychotherapy, 48(1), 9-16; Friedlander, M. L., et al. (2011). Alliance in Couple and Family Therapy. Psychotherapy, 48(1), 25-33."
+        },
+        {
+          "id": 348,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["EFT", "hold me tight conversation", "intervention"],
+          "question": "In EFT's 'Hold Me Tight' conversation, partners practice:",
+          "options": [
+            "Physical intimacy exercises",
+            "Accessing and sharing attachment needs and fears, and responding with empathy and reassurance",
+            "Cognitive restructuring of relationship beliefs",
+            "Negotiating behavioral contracts"
+          ],
+          "correct": 1,
+          "explanation": "The 'Hold Me Tight' conversation is EFT's structured practice for accessing, articulating, and responding to attachment needs. Partners practice: (1) recognizing their protest polka (negative cycle), (2) finding the raw spots (attachment injuries/vulnerabilities), (3) revisiting a rocky moment with new awareness, (4) Hold Me Tight conversation where each partner shares fears and needs while the other responds with understanding and comfort. This conversation consolidates new bonding patterns and creates a template for future connection.",
+          "citation": "Johnson, S. M. (2008). Hold Me Tight: Seven Conversations for a Lifetime of Love. Little, Brown Spark; Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge."
+        },
+        {
+          "id": 349,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Narrative", "re-authoring", "identity"],
+          "question": "In Narrative therapy, 're-authoring' refers to:",
+          "options": [
+            "Rewriting the client's intake paperwork",
+            "Developing alternative, preferred stories about identity and experience",
+            "Correcting factual errors in the client's history",
+            "Having clients write their autobiography"
+          ],
+          "correct": 1,
+          "explanation": "Re-authoring is the process of developing alternative stories that better represent clients' values, skills, hopes, and preferred identities. It involves: identifying unique outcomes (exceptions to problem stories), exploring their significance, connecting them to valued identities, thickening alternative narratives through detailed exploration, and creating audiences (witnesses) for new stories. Re-authoring doesn't deny problems but offers richer, multi-storied descriptions that open possibilities rather than pathology-dominated narratives.",
+          "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; White, M. (2007). Maps of Narrative Practice. Norton."
+        },
+        {
+          "id": 350,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["SFBT", "exception questions", "technique"],
+          "question": "Exception questions in SFBT ask about:",
+          "options": [
+            "Times when the problem doesn't happen or is less severe",
+            "Exceptions to confidentiality",
+            "Times when the therapist makes exceptions to rules",
+            "Exceptional circumstances that caused the problem"
+          ],
+          "correct": 0,
+          "explanation": "Exception questions explore times when the problem occurs less or not at all: 'When is the anxiety less?' 'Tell me about times you did manage conflict well.' Exceptions reveal existing solutions, client strengths, and conditions that support better functioning. They shift focus from problem analysis to solution identification. Exploring exceptions in detail (what was different? how did you do that?) makes them more replicable and builds confidence that change is possible.",
+          "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. Norton; Berg, I. K., & Miller, S. D. (1992). Working with the Problem Drinker. Norton."
+        },
+        {
+          "id": 351,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Milan", "hypothesizing", "technique"],
+          "question": "In Milan systemic therapy, hypothesizing involves:",
+          "options": [
+            "Telling families what the therapist thinks is wrong",
+            "Creating systemic explanations for symptoms that organize information and guide questioning",
+            "Guessing randomly about family dynamics",
+            "Conducting formal psychological testing"
+          ],
+          "correct": 1,
+          "explanation": "Hypothesizing is the Milan team's process of creating systemic explanations that connect symptoms to relational patterns. Hypotheses are: tentative (to be tested), relational (about interaction patterns not individual pathology), circular (avoiding linear causality), and organizing (guiding therapeutic questioning and intervention). Good hypotheses account for why the symptom exists now, what function it serves, and how it's maintained systemically. Hypotheses evolve throughout therapy based on family responses.",
+          "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality: Three Guidelines for the Conductor of the Session. Family Process, 19(1), 3-12."
+        },
+        {
+          "id": 352,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Bowenian", "I-position", "communication"],
+          "question": "In Bowenian therapy, teaching clients to take 'I-positions' means helping them:",
+          "options": [
+            "Become more selfish and self-focused",
+            "State their beliefs and positions clearly while staying connected to others without demanding agreement",
+            "Use 'I-statements' instead of 'you-statements'",
+            "Maintain rigid positions in all disagreements"
+          ],
+          "correct": 1,
+          "explanation": "Taking I-positions is a core differentiation skill involving: clearly stating one's own beliefs/values/feelings, taking responsibility for one's positions, staying emotionally connected to others despite disagreement, not demanding others agree or change, and managing anxiety that arises from being a self. This differs from simple 'I-statements'—it requires emotional self-regulation while maintaining relationship. I-positions reduce fusion (losing self in others' reactions) and facilitate both autonomy and intimacy.",
+          "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. Norton."
+        },
+        {
+          "id": 353,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["motivational interviewing", "ambivalence"],
+          "question": "When working with ambivalence about change, therapists should:",
+          "options": [
+            "Argue strongly for why change is necessary",
+            "Explore both sides of ambivalence without pushing resolution",
+            "Tell clients they're not ready for therapy",
+            "Focus only on reasons to change"
+          ],
+          "correct": 1,
+          "explanation": "Ambivalence is normal and expected in change processes. Effective approaches: explore both sides non-judgmentally (reasons for and against change), help clients articulate their own motivations, avoid 'righting reflex' (arguing for change), roll with resistance rather than confronting it, and support self-efficacy. Motivational Interviewing principles show that when therapists argue for change, clients often argue against it (sustain talk). Exploring ambivalence collaboratively increases change talk and movement.",
+          "citation": "Miller, W. R., & Rollnick, S. (2013). Motivational Interviewing: Helping People Change (3rd ed.). Guilford Press."
+        },
+        {
+          "id": 354,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["reframing", "intervention"],
+          "question": "Reframing involves:",
+          "options": [
+            "Changing the picture frame during sessions",
+            "Offering an alternative perspective or meaning for behavior or situations",
+            "Refusing to accept the client's viewpoint",
+            "Correcting clients when they're wrong"
+          ],
+          "correct": 1,
+          "explanation": "Reframing offers alternative meanings or perspectives that shift how problems are understood, often making them more solvable. Examples: reframing adolescent defiance as age-appropriate autonomy-seeking, or 'nagging' as caring shown awkwardly. Effective reframes: fit the data (are believable), remove blame, open possibilities for change, and respect family members. Reframing is used across most systemic approaches and can dramatically alter problem definitions and relational dynamics.",
+          "citation": "Watzlawick, P., Weakland, J., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. Norton."
+        },
+        {
+          "id": 355,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Gottman", "repair attempts", "conflict"],
+          "vignette": "During an argument, a husband reaches for his wife's hand and says 'Can we take a break?' She pulls away and continues criticizing.",
+          "question": "This represents:",
+          "options": [
+            "Successful conflict resolution",
+            "A failed repair attempt that may predict relationship distress",
+            "Appropriate boundary setting",
+            "Emotional manipulation"
+          ],
+          "correct": 1,
+          "explanation": "This is a repair attempt (bid to de-escalate conflict) that failed—the wife didn't accept it. Gottman's research shows that accepting repair attempts is crucial for relationship success. In stable marriages, partners accept repairs even clumsy ones. In distressed marriages, repairs are rejected or unnoticed. Failed repairs allow negative cycles to escalate. The quality of repair attempts matters less than partners' willingness to accept them. This pattern indicates negative sentiment override—interpreting partner's actions negatively regardless of intent.",
+          "citation": "Gottman, J. M. (1999). The Marriage Clinic. Norton; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown."
+        },
+        {
+          "id": 356,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Strategic", "restraining change", "paradox"],
+          "vignette": "A couple reports their fighting has decreased. The therapist responds: 'I'm concerned you're improving too quickly. This week, I want you to deliberately have at least two arguments. Don't let things get better yet.'",
+          "question": "This intervention is called:",
+          "options": [
+            "Prescribing a relapse",
+            "Restraining or discouraging change",
+            "Incompetent therapy",
+            "Negative reinforcement"
+          ],
+          "correct": 1,
+          "explanation": "Restraining change is a Strategic paradoxical technique where the therapist cautions against or slows improvement. This works by: creating a therapeutic bind (if they follow directive and fight, it's under therapist control; if they rebel by improving, the problem solves), addressing fears about change, solidifying gains (clients who defend their progress internalize it more), and addressing resistance preemptively. This technique is especially useful when families seem ambivalent about improvement or when gains appear fragile.",
+          "citation": "Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass; Fisch, R., Weakland, J. H., & Segal, L. (1982). The Tactics of Change. Jossey-Bass."
+        },
+        {
+          "id": 357,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["cultural adaptation", "treatment"],
+          "question": "When adapting evidence-based treatments for diverse cultural groups, therapists should:",
+          "options": [
+            "Follow the manual rigidly regardless of culture",
+            "Abandon all evidence-based practices",
+            "Adapt surface and deep structures while maintaining core treatment principles",
+            "Create entirely new treatments for each cultural group"
+          ],
+          "correct": 2,
+          "explanation": "Cultural adaptation maintains treatment fidelity (core principles and change mechanisms) while adapting surface structures (language, examples, materials) and deep structures (cultural values, beliefs, norms integrated into treatment). Effective adaptations: involve community stakeholders, address cultural explanations of problems, incorporate cultural strengths/values, modify examples and metaphors, consider family/community orientation, and address practical barriers. Research shows culturally adapted treatments often show enhanced effectiveness.",
+          "citation": "Bernal, G., Jiménez-Chafey, M. I., & Domenech Rodríguez, M. M. (2009). Cultural Adaptation of Treatments. Professional Psychology: Research and Practice, 40(4), 361-368."
+        },
+        {
+          "id": 358,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["Structural", "joining", "technique"],
+          "question": "In Structural therapy, 'joining' refers to:",
+          "options": [
+            "Combining individual therapy with family sessions",
+            "The therapist establishing connection and accommodating to the family's style",
+            "Family members joining together against the identified patient",
+            "The therapist joining another professional's case"
+          ],
+          "correct": 1,
+          "explanation": "Joining is the Structural therapist's process of connecting with and accommodating to the family to earn the position to later challenge and restructure. Joining techniques include: mimesis (matching family communication style), tracking (following family content and interactions), and confirming (recognizing each member's value). Effective joining creates trust and reduces resistance, allowing the therapist to become temporarily part of the family system with the leverage to modify it. Poor joining undermines all subsequent interventions.",
+          "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press."
+        },
+        {
+          "id": 359,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["termination", "process"],
+          "question": "Effective termination in family therapy typically includes:",
+          "options": [
+            "Ending abruptly when goals are met",
+            "Continuing therapy indefinitely to prevent relapse",
+            "Reviewing progress, addressing future challenges, and normalizing occasional setbacks",
+            "Transferring to another therapist"
+          ],
+          "correct": 2,
+          "explanation": "Effective termination is planned and processed, including: reviewing what was accomplished, identifying what contributed to success, discussing how to maintain gains, anticipating future challenges and how to handle them, normalizing occasional setbacks as part of growth not failure, addressing feelings about ending, and clarifying conditions for returning if needed. Termination is therapeutic—it consolidates learning, increases client agency (they did the work), and prepares for independence. Gradual spacing of sessions often eases transition.",
+          "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford Press; Goldenberg, H., & Goldenberg, I. (2012). Family Therapy: An Overview (8th ed.). Brooks/Cole."
+        },
+        {
+          "id": 360,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Narrative", "definitional ceremony", "witnessing"],
+          "question": "Michael White's 'definitional ceremony' involves:",
+          "options": [
+            "Formal diagnosis of mental disorders",
+            "Wedding ceremonies for couples in therapy",
+            "Outsider witnesses responding to clients' alternative stories in structured ways",
+            "Officially defining the problem at intake"
+          ],
+          "correct": 2,
+          "explanation": "Definitional ceremony is a Narrative practice where outsider witnesses (invited individuals, not therapists) observe therapy and then share responses in structured ways: what captured their attention, what the story says about what the person values and believes, where this touches their own experience, and what image of the person's identity/future it suggests. This process thickens alternative stories by having them witnessed and reflected back, increasing their reality and significance. It comes from anthropological rituals where witnessing authenticates personal/community narratives.",
+          "citation": "White, M. (2007). Maps of Narrative Practice. Norton; Myerhoff, B. (1982). Life History Among the Elderly: Performance, Visibility, and Re-membering."
+        },
+        {
+          "id": 361,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Bowenian", "family projection process"],
+          "question": "The 'family projection process' in Bowen theory describes:",
+          "options": [
+            "How families project blame onto the therapist",
+            "Parents' anxiety being transmitted to and focused on a child, impairing that child's differentiation",
+            "Children projecting their anger onto parents",
+            "Family members denying problems"
+          ],
+          "correct": 1,
+          "explanation": "Family projection process is how parental immaturity/anxiety gets transmitted across generations, typically focusing on one child more than others. The process involves: parents being sensitive to certain child's behaviors, perceiving problems accurately or not, and treating the child as if more problematic than they are, which impairs the child's differentiation. This child often becomes symptomatic and has lower differentiation than siblings. The projection pattern relates to parents' own family-of-origin experiences and unresolved attachments.",
+          "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. Norton."
+        },
+        {
+          "id": 362,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["SFBT", "scaling questions", "measurement"],
+          "question": "Scaling questions in SFBT typically ask clients to:",
+          "options": [
+            "Weigh themselves to track health progress",
+            "Rate their current position on a scale (usually 1-10) regarding goals or confidence",
+            "Complete standardized assessment scales",
+            "Scale back their expectations"
+          ],
+          "correct": 1,
+          "explanation": "Scaling questions ask clients to rate where they are on a 1-10 scale regarding goals, progress, confidence, hope, etc.: 'On a scale of 1-10, where 10 is your goal and 1 is when you called for therapy, where are you today?' Follow-up explores: What accounts for not being lower? What would one point higher look like? Who would notice? Scaling makes abstract concepts concrete, reveals small changes, identifies next steps, and tracks progress. It's useful across ages and issues.",
+          "citation": "Berg, I. K., & de Shazer, S. (1993). Making Numbers Talk: Language in Therapy. In S. Friedman (Ed.), The New Language of Change. Guilford Press."
+        },
+        {
+          "id": 363,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["resistance", "conceptualization"],
+          "question": "Contemporary systemic approaches tend to view 'resistance' as:",
+          "options": [
+            "Client pathology requiring confrontation",
+            "Information about the therapeutic relationship, pace, or approach that needs adjustment",
+            "A sign therapy should be terminated",
+            "Deliberate sabotage by unmotivated clients"
+          ],
+          "correct": 1,
+          "explanation": "Modern systemic thinking reconceptualizes resistance as feedback about therapy fit rather than client deficiency. Resistance indicates: therapy pace is too fast, interventions don't match client readiness/style, goals aren't collaboratively set, therapist hasn't joined adequately, or real barriers exist. This view maintains therapeutic responsibility—'resistance' prompts therapists to adjust approach, not blame clients. Solution-focused and narrative therapies especially reject the resistance concept, seeing it as imposing therapist agendas rather than following client directions.",
+          "citation": "Anderson, H., & Goolishian, H. (1992). The Client is the Expert. In S. McNamee & K. J. Gergen (Eds.), Therapy as Social Construction. Sage; de Shazer, S. (1984). The Death of Resistance. Family Process, 23(1), 11-17."
+        },
+        {
+          "id": 364,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Milan", "neutrality", "stance"],
+          "question": "Selvini Palazzoli's concept of 'neutrality' means the therapist:",
+          "options": [
+            "Shows no emotion or caring during sessions",
+            "Doesn't ally with any family member or take sides in family conflicts",
+            "Remains neutral about whether the family changes",
+            "Has no opinions about the family"
+          ],
+          "correct": 1,
+          "explanation": "Neutrality in Milan therapy means avoiding stable alliances or taking sides in family conflicts, allowing the therapist to remain curious about all perspectives and free to hypothesize systemically. This differs from being uncaring—therapists are actively engaged but strategically avoid being recruited into family coalitions that would compromise systemic perspective. Neutrality enables circular questioning that explores all viewpoints without privileging any. Later revisions noted limitations—therapists can't be neutral about abuse/safety issues.",
+          "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality: Three Guidelines for the Conductor of the Session. Family Process, 19(1), 3-12; Cecchin, G. (1987). Hypothesizing, Circularity, and Neutrality Revisited. Family Process, 26(4), 405-413."
+        },
+        {
+          "id": 365,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["feedback", "outcome monitoring"],
+          "question": "Routine outcome monitoring in therapy involves:",
+          "options": [
+            "Only assessing outcomes at termination",
+            "Systematically collecting client feedback throughout treatment to guide care",
+            "Monitoring the therapist's theoretical knowledge",
+            "Annual comprehensive assessments"
+          ],
+          "correct": 1,
+          "explanation": "Routine outcome monitoring (ROM) involves systematically collecting client feedback on symptoms, functioning, and alliance throughout treatment (often session-by-session). Benefits include: identifying clients not improving early, adjusting treatment when needed, improving outcomes especially for at-risk cases, enhancing therapeutic relationship through collaborative review, and accountability. Tools like ORS (Outcome Rating Scale) and SRS (Session Rating Scale) are brief, easy to use, and research shows ROM significantly improves outcomes.",
+          "citation": "Lambert, M. J. (2010). Prevention of Treatment Failure. American Psychological Association; Duncan, B. L., et al. (2003). The Session Rating Scale. Journal of Brief Therapy, 3(1), 3-12."
+        }
+      ]
 
-]
+
