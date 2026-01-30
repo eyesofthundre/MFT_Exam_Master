@@ -741,7 +741,144 @@
         .hidden {
             display: none !important;
         }
-        
+
+        /* ===================================
+           QUESTION PALETTE / NAVIGATION GRID
+           =================================== */
+
+        .question-palette {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px var(--shadow);
+        }
+
+        .question-palette h3 {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: var(--text-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .palette-toggle {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        .palette-toggle:hover {
+            background: var(--primary-light);
+            color: var(--primary);
+        }
+
+        .palette-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            gap: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .palette-grid.collapsed {
+            display: none;
+        }
+
+        .palette-item {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 2px solid var(--border);
+            background: var(--bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .palette-item:hover {
+            border-color: var(--primary);
+            transform: scale(1.1);
+        }
+
+        .palette-item.current {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+
+        .palette-item.answered {
+            border-color: var(--success);
+            background: var(--success-light);
+            color: var(--success);
+        }
+
+        .palette-item.answered.current {
+            background: var(--success);
+            color: white;
+        }
+
+        .palette-item.skipped {
+            border-color: var(--warning);
+            background: var(--warning-light);
+            color: var(--warning);
+        }
+
+        .palette-legend {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 4px;
+        }
+
+        .legend-dot.current {
+            background: var(--primary);
+        }
+
+        .legend-dot.answered {
+            background: var(--success-light);
+            border: 1px solid var(--success);
+        }
+
+        .legend-dot.unanswered {
+            background: var(--bg);
+            border: 1px solid var(--border);
+        }
+
+        .skip-btn {
+            background: var(--warning-light);
+            color: var(--warning);
+            border: 2px solid var(--warning);
+        }
+
+        .skip-btn:hover {
+            background: var(--warning);
+            color: white;
+        }
+
         @media (max-width: 768px) {
             .app-container {
                 padding: 10px;
@@ -1364,7 +1501,21 @@
                     <div class="progress-bar-fill" id="sessionProgressBar" style="width: 0%"></div>
                 </div>
             </div>
-            
+
+            <!-- Question Palette -->
+            <div class="question-palette">
+                <h3>
+                    <span>Question Navigator</span>
+                    <button class="palette-toggle" onclick="togglePalette()">Hide/Show</button>
+                </h3>
+                <div class="palette-grid" id="questionPalette"></div>
+                <div class="palette-legend">
+                    <div class="legend-item"><div class="legend-dot current"></div> Current</div>
+                    <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
+                    <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
+                </div>
+            </div>
+
             <!-- Question Display -->
             <div id="questionDisplay"></div>
             
@@ -1373,7 +1524,10 @@
                 <h3 style="margin-bottom: 20px; color: var(--text-light); font-size: 1rem;">Ready to continue?</h3>
                 <div class="action-buttons">
                     <button class="btn btn-secondary" onclick="previousQuestion()" id="prevBtn" style="flex: 1;">
-                        ← Previous Question
+                        ← Previous
+                    </button>
+                    <button class="btn skip-btn" onclick="skipQuestion()" id="skipBtn" style="flex: 1;">
+                        Skip →
                     </button>
                     <button class="btn btn-primary" onclick="nextQuestion()" id="nextBtn" style="flex: 2; font-size: 1.1rem;">
                         Next Question →
@@ -1861,8 +2015,7 @@
                                     <input type="radio"
                                            name="q${question.id}"
                                            id="q${question.id}_${idx}"
-                                           ${isSelected ? 'checked' : ''}
-                                           ${showFeedback ? 'disabled' : ''}>
+                                           ${isSelected ? 'checked' : ''}>
                                     <label for="q${question.id}_${idx}">
                                         ${String.fromCharCode(65 + idx)}) ${opt}
                                     </label>
@@ -1890,8 +2043,9 @@
                     ` : ''}
                 </div>
             `;
-            
+
             updateSessionProgress();
+            renderQuestionPalette();
         }
 
         function selectAnswer(optionIndex) {
@@ -1919,12 +2073,63 @@
         
         function previousQuestion() {
             const session = state.currentSession;
-            
+
             if (session.currentIndex > 0) {
                 session.currentIndex--;
                 saveUserData();
                 showQuestion();
                 window.scrollTo(0, 0);
+            }
+        }
+
+        // Skip to next question without answering
+        function skipQuestion() {
+            const session = state.currentSession;
+
+            if (session.currentIndex < session.questions.length - 1) {
+                session.currentIndex++;
+                saveUserData();
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        // Jump to a specific question number
+        function jumpToQuestion(index) {
+            const session = state.currentSession;
+
+            if (index >= 0 && index < session.questions.length) {
+                session.currentIndex = index;
+                saveUserData();
+                showQuestion();
+                window.scrollTo(0, 0);
+            }
+        }
+
+        // Render the question palette grid
+        function renderQuestionPalette() {
+            const session = state.currentSession;
+            const palette = document.getElementById('questionPalette');
+
+            if (!palette) return;
+
+            palette.innerHTML = session.questions.map((q, idx) => {
+                const isAnswered = session.answers[q.id] !== undefined;
+                const isCurrent = idx === session.currentIndex;
+
+                let classes = 'palette-item';
+                if (isCurrent) classes += ' current';
+                if (isAnswered) classes += ' answered';
+
+                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="Question ${idx + 1}">${idx + 1}</div>`;
+            }).join('');
+        }
+
+        // Toggle palette visibility
+        function togglePalette() {
+            const grid = document.getElementById('questionPalette');
+            if (grid) {
+                grid.classList.toggle('collapsed');
             }
         }
 
@@ -1949,8 +2154,9 @@
             // Update button visibility and states
             const prevBtn = document.getElementById('prevBtn');
             const nextBtn = document.getElementById('nextBtn');
+            const skipBtn = document.getElementById('skipBtn');
             const finishBtn = document.getElementById('finishBtn');
-            
+
             // Previous button - disable on first question
             if (session.currentIndex === 0) {
                 prevBtn.disabled = true;
@@ -1961,13 +2167,15 @@
                 prevBtn.style.opacity = '1';
                 prevBtn.style.cursor = 'pointer';
             }
-            
-            // Next vs Finish button - show finish on last question
+
+            // Next/Skip vs Finish button - show finish on last question
             if (session.currentIndex === session.questions.length - 1) {
                 nextBtn.style.display = 'none';
+                skipBtn.style.display = 'none';
                 finishBtn.style.display = 'inline-flex';
             } else {
                 nextBtn.style.display = 'inline-flex';
+                skipBtn.style.display = 'inline-flex';
                 finishBtn.style.display = 'none';
             }
         }

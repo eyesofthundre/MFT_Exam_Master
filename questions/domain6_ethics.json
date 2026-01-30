@@ -163,5 +163,330 @@
     "correct": 1,
     "explanation": "Informed consent for treatment of minors must be obtained from the parent or legal guardian who has legal custody and medical decision-making authority. In divorced families, this may require consent from the custodial parent or both parents depending on custody arrangements. The child's assent (agreement) should also be obtained when developmentally appropriate, but legal consent comes from the guardian. Therapists should verify custody and decision-making authority before beginning treatment.",
     "citation": "State mental health laws regarding minors; AAMFT Code of Ethics (2015), Principle I; Koocher, G. P., & Keith-Spiegel, P. (2016). Ethics in Psychology and the Mental Health Professions: Standards and Cases (4th ed.). Oxford University Press."
+  },
+  {
+    "id": 611,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["supervision", "competence", "ethics"],
+    "question": "Supervisors are ethically responsible for:",
+    "options": [
+      "Only the supervisee's personal development",
+      "The welfare of the supervisee's clients and the quality of services provided",
+      "Providing therapy to the supervisee",
+      "Only administrative aspects of the supervisee's work"
+    ],
+    "correct": 1,
+    "explanation": "Supervisors bear ethical responsibility for: the welfare of clients seen by supervisees, the quality of clinical services, the supervisee's professional development, gatekeeping for the profession, and appropriate oversight of clinical work. This includes ensuring supervisees practice within their competence, reviewing cases, and intervening when client welfare is at risk. The supervisor-supervisee relationship is hierarchical with accountability flowing upward.",
+    "citation": "AAMFT Code of Ethics (2015), Principle IV [Responsibility to Students, Supervisees, and Employees]; Bernard, J. M., & Goodyear, R. K. (2019). Fundamentals of Clinical Supervision (6th ed.). Pearson."
+  },
+  {
+    "id": 612,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["social media", "boundaries", "digital"],
+    "question": "Searching for client information on social media without clinical justification is:",
+    "options": [
+      "Appropriate to learn more about clients",
+      "Generally considered a boundary violation and breach of trust",
+      "Required for thorough assessment",
+      "Only problematic if the client finds out"
+    ],
+    "correct": 1,
+    "explanation": "Searching clients on social media without clinical necessity and consent is generally considered a boundary violation: it's intrusive, may reveal information clients haven't chosen to share, can complicate the therapeutic relationship, and represents using power imbalance inappropriately. If clinical reasons exist for viewing public information, this should be discussed with the client and documented. The principle of minimum necessary information applies.",
+    "citation": "Kolmes, K. (2012). Social Media in the Future of Professional Psychology. Professional Psychology: Research and Practice, 43(6), 606-612; Clinton, B. K., Silverman, B. C., & Brendel, D. H. (2010). Patient-Targeted Googling. Harvard Review of Psychiatry, 18(2), 103-112."
+  },
+  {
+    "id": 613,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["bartering", "fees", "boundaries"],
+    "vignette": "A client in a rural area cannot afford the therapist's fees but offers to provide landscaping services in exchange for therapy sessions. The client is a professional landscaper.",
+    "question": "According to ethical guidelines, bartering for services:",
+    "options": [
+      "Is always prohibited",
+      "May be acceptable when clinically appropriate, fair, and without exploitation risk",
+      "Should be the primary form of payment",
+      "Is only appropriate for goods, not services"
+    ],
+    "correct": 1,
+    "explanation": "Bartering is not absolutely prohibited but requires careful consideration: it should only occur when the client requests it, not involve exploitation, be fair in value, not harm the therapeutic relationship, be culturally appropriate, and be documented. In rural or underserved areas with limited resources, bartering may provide necessary access to care. However, risks include: power imbalance, unclear boundaries, disputes over value, and complicated dual relationships.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VII [Financial Arrangements]; Zur, O. (2007). Boundaries in Psychotherapy: Ethical and Clinical Explorations. American Psychological Association."
+  },
+  {
+    "id": 614,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["telehealth", "licensing", "jurisdiction"],
+    "question": "When providing telehealth services, therapists must be licensed:",
+    "options": [
+      "Only in the state where they have their office",
+      "In the state where the client is physically located during the session",
+      "In any state with similar licensing requirements",
+      "Licensing doesn't apply to telehealth"
+    ],
+    "correct": 1,
+    "explanation": "Telehealth services are generally regulated by the state where the client is located during the session. Therapists typically need licensure in that state to practice there, even remotely. Some states have telehealth-specific regulations, interstate compacts, or temporary provisions. Therapists must verify licensing requirements for each client's location and understand potential liability issues across jurisdictions.",
+    "citation": "AAMFT (2021). Telehealth Resources; American Psychological Association (2013). Guidelines for the Practice of Telepsychology; State licensing board regulations."
+  },
+  {
+    "id": 615,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["advertising", "marketing", "honesty"],
+    "question": "Ethical advertising by therapists requires:",
+    "options": [
+      "Exaggerating credentials to attract clients",
+      "Accurate representation of qualifications, services, and expected outcomes",
+      "Guaranteeing specific treatment results",
+      "Criticizing other therapists to appear superior"
+    ],
+    "correct": 1,
+    "explanation": "Ethical advertising must be: truthful and accurate about credentials, training, and experience; honest about services offered; clear about licensure status; not misleading about expected outcomes; and not disparaging of colleagues. Therapists should not guarantee results, claim superiority without evidence, or misrepresent their qualifications. This protects the public and maintains professional integrity.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VIII [Advertising]; American Psychological Association (2017). Ethical Principles and Code of Conduct, Standard 5."
+  },
+  {
+    "id": 616,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["gift giving", "boundaries", "cultural"],
+    "vignette": "A family from a culture where gift-giving is customary brings an expensive gift to the therapist at the end of treatment. Refusing gifts is considered insulting in their culture.",
+    "question": "The therapist should:",
+    "options": [
+      "Absolutely refuse the gift to maintain boundaries",
+      "Accept thoughtfully with cultural sensitivity while addressing any clinical concerns",
+      "Accept and give an equally expensive gift in return",
+      "Accept without any discussion"
+    ],
+    "correct": 1,
+    "explanation": "Gift-giving requires cultural sensitivity balanced with ethical awareness. A blanket refusal may: insult the family, damage the therapeutic relationship, and impose Western values. The therapist should: consider cultural meaning, assess for manipulation or obligation-creation, evaluate gift value and appropriateness, discuss the gesture therapeutically if needed, and document. Small culturally appropriate gifts at termination may be acceptable; expensive or ongoing gifts warrant more caution.",
+    "citation": "Sue, D. W., & Sue, D. (2019). Counseling the Culturally Diverse (8th ed.). Wiley; Zur, O. (2007). Boundaries in Psychotherapy. American Psychological Association."
+  },
+  {
+    "id": 617,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["fees", "collections", "ethics"],
+    "question": "Regarding unpaid therapy fees, ethical practice requires:",
+    "options": [
+      "Suing clients immediately for non-payment",
+      "Clear fee policies at intake, reasonable collection efforts, and awareness of client welfare",
+      "Never pursuing unpaid fees",
+      "Threatening to disclose confidential information to collect"
+    ],
+    "correct": 1,
+    "explanation": "Ethical fee collection involves: establishing clear payment policies at intake, discussing financial difficulties when they arise, considering sliding scale or payment plans, using reasonable collection efforts, never threatening to reveal confidential information, and weighing client welfare against business needs. Sending to collections is permissible but only necessary information (name, amount owed) should be shared. Threatening disclosure is never appropriate.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VII [Financial Arrangements]; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling (5th ed.). Wiley."
+  },
+  {
+    "id": 618,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["scope of practice", "competence", "referral"],
+    "question": "If a client presents with issues outside the therapist's expertise, the therapist should:",
+    "options": [
+      "Treat the client anyway to gain experience",
+      "Seek appropriate training/supervision or refer to a qualified professional",
+      "Tell the client their issues aren't important",
+      "Pretend to have expertise they don't possess"
+    ],
+    "correct": 1,
+    "explanation": "Practicing within competence boundaries is fundamental. When clients present issues beyond the therapist's expertise: seek additional training and supervision, consult with specialists, or refer to appropriately qualified professionals. Continuing without competence can harm clients and constitutes unethical practice. The therapist should prioritize client welfare over desire to expand practice or avoid inconvenience of referral.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III [Professional Competence and Integrity]; American Association for Marriage and Family Therapy (2015). MFT Core Competencies."
+  },
+  {
+    "id": 619,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["sexual misconduct", "former clients", "boundaries"],
+    "question": "Sexual relationships with former therapy clients:",
+    "options": [
+      "Are always acceptable once therapy ends",
+      "Are prohibited or highly restricted, typically requiring at least 2 years and consideration of exploitation risk",
+      "Are fine if the client initiates",
+      "Are only prohibited if therapy was long-term"
+    ],
+    "correct": 1,
+    "explanation": "Sexual relationships with former clients are highly restricted. AAMFT prohibits them for at least 2 years post-termination, and even then only if the therapist can demonstrate no exploitation of trust, dependency, or vulnerability from the therapy relationship. Many consider any sexual relationship with a former therapy client ethically problematic due to power dynamics, transference, and the intimate nature of therapeutic disclosure. Some clients may never be appropriate partners.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.5; Pope, K. S., Sonne, J. L., & Holroyd, J. (1993). Sexual Feelings in Psychotherapy. American Psychological Association."
+  },
+  {
+    "id": 620,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["professional will", "incapacity", "planning"],
+    "question": "A professional will or practice succession plan:",
+    "options": [
+      "Is only needed for elderly therapists",
+      "Prepares for therapist incapacity or death to protect client welfare",
+      "Is the responsibility of the licensing board",
+      "Should keep client records permanently secret"
+    ],
+    "correct": 1,
+    "explanation": "Professional wills designate colleagues to: access records, notify clients, provide emergency coverage, and manage practice transitions if the therapist becomes incapacitated or dies. This protects clients from abandonment, ensures continuity of care, secures confidential records, and addresses ethical obligations even when the therapist cannot. All therapists should have succession plans regardless of age.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling (5th ed.). Wiley; Barnett, J. E., & Hillard, D. (2001). Psychologist Distress and Impairment. Professional Psychology: Research and Practice, 32(3), 299-303."
+  },
+  {
+    "id": 621,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["HIPAA", "PHI", "security"],
+    "question": "Protected Health Information (PHI) under HIPAA includes:",
+    "options": [
+      "Only written medical records",
+      "Any individually identifiable health information in any form",
+      "Only information stored electronically",
+      "Only billing information"
+    ],
+    "correct": 1,
+    "explanation": "PHI includes any individually identifiable health information transmitted or maintained in any form: electronic, paper, or oral. This encompasses: diagnoses, treatment records, session notes, billing records, communications about the client, and any health information linked to identifying information (name, SSN, address, etc.). All forms require protection under HIPAA.",
+    "citation": "HIPAA Privacy Rule, 45 CFR Parts 160 and 164; U.S. Department of Health and Human Services (2013). HIPAA for Professionals."
+  },
+  {
+    "id": 622,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["research", "clients", "ethics"],
+    "vignette": "A therapist wants to include current therapy cases in a research study on treatment outcomes. The therapist will personally recruit participants and provide both treatment and research data collection.",
+    "question": "Ethical concerns with this design include:",
+    "options": [
+      "No concerns if clients consent",
+      "Dual role conflicts, coercion potential, and need for independent recruitment/consent",
+      "Research and therapy can never be combined",
+      "Only IRB approval is needed"
+    ],
+    "correct": 1,
+    "explanation": "This raises multiple concerns: dual role as therapist and researcher creates conflicts of interest, clients may feel coerced to participate (power imbalance), the therapeutic relationship may be compromised, and objectivity in data collection is questionable. Better designs use: independent recruiters, clear separation of therapy and research roles, genuine voluntary consent, and understanding that declining won't affect treatment. IRB review is necessary but not sufficient.",
+    "citation": "AAMFT Code of Ethics (2015), Principle V [Responsibility to Research Participants]; American Psychological Association (2017). Ethical Principles, Standard 8."
+  },
+  {
+    "id": 623,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["pro bono", "access", "ethics"],
+    "question": "The AAMFT Code of Ethics encourages therapists to:",
+    "options": [
+      "Never provide free services",
+      "Contribute a portion of professional time to services for which there is little or no compensation",
+      "Only serve clients who can pay full fee",
+      "Charge reduced fees only to family members"
+    ],
+    "correct": 1,
+    "explanation": "The AAMFT Code encourages pro bono work—contributing professional time to services with little or no compensation. This addresses: access to care for underserved populations, professional responsibility to the community, and the principle that mental health services should be available regardless of ability to pay. While not mandated, this reflects professional values and ethical aspiration.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VII [Financial Arrangements]; American Psychological Association (2017). Ethical Principles, Principle B."
+  },
+  {
+    "id": 624,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["testimonials", "endorsements", "advertising"],
+    "question": "Using client testimonials in advertising:",
+    "options": [
+      "Is encouraged to demonstrate effectiveness",
+      "Is ethically problematic due to confidentiality and potential exploitation",
+      "Is required by licensing boards",
+      "Is fine if the client offers voluntarily"
+    ],
+    "correct": 1,
+    "explanation": "Client testimonials are ethically problematic: they reveal that a person is/was a therapy client (confidentiality breach), may involve subtle coercion (power imbalance), could exploit gratitude, and can't capture the complexity of therapy outcomes. Even voluntary offers should be declined. Marketing should rely on credentials, services offered, and educational content rather than client endorsements.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VIII [Advertising]; Zur, O. (2007). Boundaries in Psychotherapy. American Psychological Association."
+  },
+  {
+    "id": 625,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["reporting colleague", "ethics", "impairment"],
+    "vignette": "A therapist learns through a mutual client (with consent to communicate) that a colleague regularly falls asleep during sessions and appears confused. The colleague recently lost a spouse and seems to be struggling.",
+    "question": "The therapist's ethical obligation is to:",
+    "options": [
+      "Ignore it as gossip from a client",
+      "Take appropriate action to address colleague impairment that may harm clients",
+      "Assume the colleague will get better on their own",
+      "Tell all potential clients to avoid the colleague"
+    ],
+    "correct": 1,
+    "explanation": "Therapists have an ethical obligation to address colleague impairment that may harm clients. Steps may include: approaching the colleague with compassion, encouraging self-care or leave, reporting to supervisor or practice, and if client welfare remains at risk, reporting to the licensing board. The goal is protecting clients while showing collegial concern. Compassion for the colleague's grief doesn't eliminate duty to protect clients.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; Barnett, J. E., & Hillard, D. (2001). Psychologist Distress and Impairment. Professional Psychology: Research and Practice, 32(3), 299-303."
+  },
+  {
+    "id": 626,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["court testimony", "role conflict", "forensic"],
+    "question": "When asked to provide court testimony about a current therapy client in a custody case:",
+    "options": [
+      "The therapist should eagerly offer opinions about custody",
+      "The therapist should be cautious about role conflicts between treating therapist and forensic evaluator",
+      "The therapist must refuse any court involvement",
+      "The therapist should advocate strongly for one parent"
+    ],
+    "correct": 1,
+    "explanation": "Treating therapists face role conflicts in forensic settings: the therapeutic relationship is compromised by advocacy, confidentiality is threatened, and treating therapists lack the objectivity required for forensic opinions. Generally, treating therapists should: stick to clinical observations rather than custody opinions, explain role limitations to the court, avoid dual roles as treating and evaluating professional, and maintain therapeutic neutrality. Separate forensic evaluators are preferred.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; American Psychological Association (2013). Specialty Guidelines for Forensic Psychology."
+  },
+  {
+    "id": 627,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["continuing education", "competence", "licensure"],
+    "question": "Continuing education requirements for licensed MFTs exist to:",
+    "options": [
+      "Generate revenue for training organizations",
+      "Ensure ongoing competence and current knowledge throughout careers",
+      "Punish therapists with additional requirements",
+      "Only satisfy administrative requirements"
+    ],
+    "correct": 1,
+    "explanation": "Continuing education requirements ensure therapists: stay current with evolving research and best practices, develop new competencies, address identified weaknesses, learn about emerging issues (telehealth, diverse populations), maintain ethical awareness, and demonstrate ongoing commitment to quality care. CE is a professional responsibility for lifelong learning, not just a bureaucratic hurdle.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; State licensing board continuing education requirements."
+  },
+  {
+    "id": 628,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["values conflict", "referral", "ethics"],
+    "vignette": "A therapist has strong personal religious beliefs that homosexuality is sinful. A same-sex couple requests couples therapy.",
+    "question": "The therapist should:",
+    "options": [
+      "Refuse to see any LGBTQ+ clients based on personal beliefs",
+      "Evaluate whether they can provide competent, unbiased care; if not, refer appropriately",
+      "Attempt to change the clients' sexual orientation",
+      "Hide their beliefs and proceed despite internal conflict"
+    ],
+    "correct": 1,
+    "explanation": "Therapists may have personal values that differ from clients. The ethical response is self-evaluation: Can I provide competent, unbiased, affirming care? If personal beliefs would impair effectiveness or harm clients, referral is appropriate—but done respectfully without disparagement. Attempting to change sexual orientation (conversion therapy) is harmful and unethical. Therapists should develop competence with diverse populations rather than routinely refusing service.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I and III; American Psychological Association (2021). Guidelines for Psychological Practice With Sexual Minority Persons."
+  },
+  {
+    "id": 629,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["electronic communication", "confidentiality", "security"],
+    "question": "When communicating with clients via email or text:",
+    "options": [
+      "No special precautions are needed",
+      "Therapists should address informed consent, encryption, and confidentiality risks",
+      "All clinical information can be shared freely",
+      "Electronic communication should be prohibited entirely"
+    ],
+    "correct": 1,
+    "explanation": "Electronic communication requires: informed consent about risks (interception, privacy, permanence), clear policies about what can be communicated electronically, encrypted platforms when possible, awareness that clients may not have private access to email/phone, documentation of electronic communications, and understanding that email/text may not be appropriate for crisis situations. Convenience must be balanced with confidentiality protection.",
+    "citation": "AAMFT (2021). Practice Guidelines for Electronic Communications; American Psychological Association (2013). Guidelines for the Practice of Telepsychology."
+  },
+  {
+    "id": 630,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["documentation", "access", "client rights"],
+    "question": "Clients generally have the right to:",
+    "options": [
+      "Never see their own therapy records",
+      "Access their therapy records with some exceptions for potential harm",
+      "Access only billing records",
+      "Access records only after termination"
+    ],
+    "correct": 1,
+    "explanation": "HIPAA grants clients the right to access their health records, including therapy records. Exceptions exist when: access could cause harm to the client or others, or when records contain information about other individuals. Process notes may be kept separately with different access rules in some jurisdictions. Therapists should document with awareness that clients may read their records. Access requests should be handled promptly.",
+    "citation": "HIPAA Privacy Rule, 45 CFR 164.524; AAMFT Code of Ethics (2015), Principle II; Zuckerman, E. L. (2008). The Paper Office (4th ed.). Guilford."
   }
 ]

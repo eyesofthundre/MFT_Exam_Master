@@ -715,5 +715,984 @@
     "correct": 1,
     "explanation": "Chest pain with diaphoresis (sweating) and shortness of breath could indicate cardiac emergency (heart attack) requiring immediate medical attention. Therapists are not trained to rule out medical causes\u2014when medical emergency is possible, call 911. Better to be cautious than sorry. Don't delay to explore psychological factors or attempt symptom management. After medical clearance, therapy can address anxiety if appropriate. Know your scope of practice\u2014psychological assessment doesn't include ruling out medical emergencies. Document the situation and actions taken.",
     "citation": "American Heart Association (2020). Warning Signs of a Heart Attack. AHA; AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy."
+  },
+  {
+    "id": 536,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide", "protective factors", "assessment"],
+    "question": "Which of the following is considered a PROTECTIVE factor against suicide?",
+    "options": [
+      "Social isolation",
+      "Strong family connections and reasons for living",
+      "Access to lethal means",
+      "Previous suicide attempts"
+    ],
+    "correct": 1,
+    "explanation": "Protective factors reduce suicide risk and include: strong family and social connections, reasons for living (children, religious beliefs, future goals), restricted access to lethal means, effective mental health treatment, problem-solving skills, and cultural beliefs against suicide. Assessment should weigh both risk and protective factors—clients with many risk factors but strong protective factors may be at lower imminent risk.",
+    "citation": "Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press; Stone, D. M., et al. (2017). Preventing Suicide: A Technical Package of Policies, Programs, and Practices. CDC."
+  },
+  {
+    "id": 537,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["suicide", "warning signs", "imminent risk"],
+    "vignette": "A client who has been depressed suddenly appears calm and at peace. She gives away prized possessions and says goodbye to friends. She recently purchased a firearm.",
+    "question": "These behaviors suggest:",
+    "options": [
+      "The depression has lifted naturally",
+      "Potential imminent suicide risk requiring immediate intervention",
+      "No concern as she seems better",
+      "She is moving to a new city"
+    ],
+    "correct": 1,
+    "explanation": "This constellation of behaviors suggests high imminent risk: sudden calmness after depression (may indicate decision to die), giving away possessions, saying goodbye, and acquiring lethal means. The 'peace' may reflect relief at having decided to end suffering. Immediate intervention is required: direct assessment, means restriction (secure the firearm), safety planning, and likely hospitalization evaluation. These warning signs often precede attempts.",
+    "citation": "Rudd, M. D., et al. (2006). Warning Signs for Suicide: Theory, Research, and Clinical Applications. Suicide and Life-Threatening Behavior, 36(3), 255-262; Jobes, D. A. (2016). Managing Suicidal Risk (2nd ed.). Guilford."
+  },
+  {
+    "id": 538,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis hotline", "resources", "988"],
+    "question": "The three-digit number for the national Suicide and Crisis Lifeline is:",
+    "options": [
+      "911",
+      "988",
+      "311",
+      "411"
+    ],
+    "correct": 1,
+    "explanation": "988 is the national Suicide and Crisis Lifeline (launched July 2022), providing 24/7 free, confidential crisis support. Callers can reach trained counselors for suicide prevention, mental health crises, and substance use distress. The number is easier to remember than the previous 10-digit number. Therapists should have this and other crisis resources readily available for clients.",
+    "citation": "SAMHSA (2022). 988 Suicide and Crisis Lifeline. Substance Abuse and Mental Health Services Administration."
+  },
+  {
+    "id": 539,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child abuse", "physical indicators", "recognition"],
+    "question": "Physical indicators that may suggest child abuse include:",
+    "options": [
+      "Normal childhood bruises on shins and knees",
+      "Bruises in unusual locations, patterned injuries, or injuries inconsistent with explanation",
+      "A single accidental injury with clear explanation",
+      "Growth within normal developmental range"
+    ],
+    "correct": 1,
+    "explanation": "Concerning physical indicators include: bruises in unusual locations (face, ears, neck, buttocks, back), patterned injuries (belt marks, cigarette burns, loop marks), injuries inconsistent with developmental ability or given explanation, injuries in various stages of healing, and unexplained fractures. Normal childhood injuries typically occur on shins, knees, and foreheads. Pattern recognition and explanation inconsistency are key assessment factors.",
+    "citation": "Child Welfare Information Gateway (2019). What is Child Abuse and Neglect? U.S. DHHS; Kellogg, N. D. (2007). Evaluation of Suspected Child Physical Abuse. Pediatrics, 119(6), 1232-1241."
+  },
+  {
+    "id": 540,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["duty to warn", "documentation", "Tarasoff"],
+    "vignette": "A therapist determines a Tarasoff warning is required. They warn the identified victim and notify police. The client is furious and threatens to sue for breach of confidentiality.",
+    "question": "The therapist's BEST protection is:",
+    "options": [
+      "They have no protection and will likely lose the lawsuit",
+      "Thorough documentation of the threat, clinical reasoning, and actions taken",
+      "Claiming they never warned anyone",
+      "Agreeing to pay the client to drop the suit"
+    ],
+    "correct": 1,
+    "explanation": "When Tarasoff obligations require breaching confidentiality, thorough documentation provides legal protection. Documentation should include: the specific threat made, clinical assessment of credibility and imminence, consultation obtained, legal requirements in the jurisdiction, specific warnings given, and rationale for clinical decisions. Most states have laws protecting therapists who act in good faith to warn potential victims.",
+    "citation": "Tarasoff v. Regents of University of California, 551 P.2d 334 (Cal. 1976); VandeCreek, L., & Knapp, S. (2001). Tarasoff and Beyond (3rd ed.). Professional Resource Press."
+  },
+  {
+    "id": 541,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["domestic violence", "lethality", "risk factors"],
+    "question": "Lethality risk factors in domestic violence situations include:",
+    "options": [
+      "The couple communicating calmly",
+      "Strangulation, threats to kill, and access to firearms",
+      "Occasional verbal arguments",
+      "Both partners having careers"
+    ],
+    "correct": 1,
+    "explanation": "High lethality risk factors include: strangulation (strongest predictor of future homicide), threats to kill, access to firearms, escalating frequency/severity of violence, stalking behaviors, forced sex, jealousy/possessiveness, substance abuse, and victim attempts to leave (danger increases). These factors should prompt intensive safety planning, shelter referral, and potentially law enforcement involvement.",
+    "citation": "Campbell, J. C., et al. (2003). Risk Factors for Femicide in Abusive Relationships. American Journal of Public Health, 93(7), 1089-1097; Danger Assessment Tool (Campbell)."
+  },
+  {
+    "id": 542,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["informed consent", "crisis", "limits"],
+    "question": "At intake, informing clients about limits of confidentiality in crisis situations:",
+    "options": [
+      "Discourages clients from disclosing important information",
+      "Is ethically required and helps prevent surprises later",
+      "Is unnecessary if the therapist doesn't anticipate crises",
+      "Should only be discussed if a crisis actually occurs"
+    ],
+    "correct": 1,
+    "explanation": "Informed consent requires discussing confidentiality limits at intake, including: mandated reporting of abuse, duty to warn/protect, and actions in psychiatric emergencies. This: respects client autonomy, builds trust through transparency, prevents damaging surprises later, and doesn't discourage disclosure (research shows it doesn't reduce help-seeking). Discussing limits demonstrates professionalism and prepares clients for potential scenarios.",
+    "citation": "AAMFT Code of Ethics (2015), Principle II; Fisher, M. A. (2008). Protecting Confidentiality Rights: The Need for an Ethical Practice Model. American Psychologist, 63(1), 1-13."
+  },
+  {
+    "id": 543,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["neglect", "child welfare", "reporting"],
+    "vignette": "A therapist notices a 5-year-old client is consistently dirty, wearing inappropriate clothing for weather, and mentions being hungry because 'mommy forgets to buy food.' The mother appears overwhelmed and mentions financial struggles.",
+    "question": "The therapist should:",
+    "options": [
+      "Provide money to the family and continue monitoring",
+      "Report to CPS for suspected neglect while continuing to support the family",
+      "Wait until the situation gets worse before reporting",
+      "Only address this if physical abuse occurs"
+    ],
+    "correct": 1,
+    "explanation": "This scenario suggests possible neglect (failure to provide adequate food, clothing, hygiene), which is a form of child maltreatment requiring mandated reporting. Neglect may result from poverty, overwhelm, or lack of parenting knowledge rather than malice—CPS can connect families with resources. The therapist reports based on reasonable suspicion, continues therapeutic support if appropriate, and helps the family access services. Neglect harms children regardless of parental intent.",
+    "citation": "Child Welfare Information Gateway (2019). Definitions of Child Abuse and Neglect. U.S. DHHS; DePanfilis, D. (2006). Child Neglect: A Guide for Prevention, Assessment, and Intervention. DHHS."
+  },
+  {
+    "id": 544,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide", "no-harm contract", "evidence"],
+    "question": "Research on 'no-suicide contracts' shows they:",
+    "options": [
+      "Are highly effective in preventing suicide",
+      "Provide little evidence of effectiveness and may create false security",
+      "Are legally required before discharging suicidal clients",
+      "Replace the need for safety planning"
+    ],
+    "correct": 1,
+    "explanation": "No-suicide contracts (agreements where clients promise not to attempt suicide) have little evidence of effectiveness and may: create false sense of security, serve therapist anxiety more than client safety, be difficult for highly suicidal clients to honor, and lack legal protection. Evidence-based safety planning (identifying warning signs, coping strategies, support contacts, means restriction) is more effective and recommended.",
+    "citation": "Rudd, M. D., Mandrusiak, M., & Joiner, T. E. (2006). The Case Against No-Suicide Contracts. Journal of Clinical Psychology, 62(2), 243-251; Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 545,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["sexual abuse", "behavioral indicators", "children"],
+    "question": "Behavioral indicators of possible child sexual abuse include:",
+    "options": [
+      "Age-appropriate curiosity about bodies",
+      "Sexualized behaviors beyond developmental level, regression, and fear of specific people",
+      "Normal shyness around strangers",
+      "Interest in playing with other children"
+    ],
+    "correct": 1,
+    "explanation": "Behavioral indicators of possible sexual abuse include: sexual knowledge or behaviors beyond developmental level, regression to earlier behaviors, fear of specific people or places, sleep disturbances/nightmares, withdrawal, sudden behavior changes, sexualized play with dolls/toys, reluctance to undress, and inappropriate boundaries. No single indicator confirms abuse, but patterns warrant assessment and possible reporting.",
+    "citation": "Faller, K. C. (2007). Interviewing Children About Sexual Abuse. Oxford University Press; Putnam, F. W. (2003). Ten-Year Research Update Review: Child Sexual Abuse. Journal of the American Academy of Child & Adolescent Psychiatry, 42(3), 269-278."
+  },
+  {
+    "id": 546,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["adolescent", "confidentiality", "safety"],
+    "vignette": "A 16-year-old client discloses cutting herself to cope with overwhelming emotions. She has been hiding this from her parents for months and begs the therapist not to tell them. The cutting is not life-threatening but is frequent.",
+    "question": "The therapist should:",
+    "options": [
+      "Maintain complete confidentiality as the teen requested",
+      "Assess safety, involve parents therapeutically while respecting teen's concerns",
+      "Immediately tell parents everything without preparing the teen",
+      "Report to CPS as this is self-abuse"
+    ],
+    "correct": 1,
+    "explanation": "Non-suicidal self-injury (NSSI) in adolescents requires balancing teen confidentiality with safety needs. The therapist should: assess suicide risk (NSSI increases risk), treat the self-harm clinically, work with the teen to involve parents therapeutically (parents need to know to support recovery and ensure safety), prepare the teen for family involvement, and involve parents in treatment planning. Complete secrecy prevents needed family support; abrupt disclosure damages alliance.",
+    "citation": "Nock, M. K. (2010). Self-Injury. Annual Review of Clinical Psychology, 6, 339-363; AAMFT Code of Ethics (2015), Principle II."
+  },
+  {
+    "id": 547,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["panic attack", "crisis", "intervention"],
+    "vignette": "During a session, a client suddenly experiences rapid heartbeat, difficulty breathing, dizziness, and terror that she's dying. She's had similar episodes before that resolved within 20 minutes.",
+    "question": "This presentation is most consistent with:",
+    "options": [
+      "A heart attack requiring immediate 911 call",
+      "A panic attack requiring grounding and reassurance",
+      "A psychotic break",
+      "A seizure"
+    ],
+    "correct": 1,
+    "explanation": "This presentation is consistent with a panic attack: sudden onset of intense fear with physical symptoms (rapid heartbeat, breathing difficulty, dizziness), feeling of dying, time-limited (typically peaks within 10 minutes), and history of similar episodes. The therapist should: stay calm, provide reassurance, use grounding techniques, normalize the experience, and help the client ride out the episode. However, if this is a first episode or symptoms are atypical, medical evaluation is warranted.",
+    "citation": "American Psychiatric Association (2022). DSM-5-TR. American Psychiatric Publishing; Craske, M. G., & Barlow, D. H. (2014). Panic Disorder and Agoraphobia. In D. H. Barlow (Ed.), Clinical Handbook of Psychological Disorders (5th ed.). Guilford."
+  },
+  {
+    "id": 548,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis intervention", "goals", "principles"],
+    "question": "The primary goal of crisis intervention is:",
+    "options": [
+      "Long-term personality change",
+      "Stabilization and return to pre-crisis functioning",
+      "Comprehensive family therapy",
+      "Medication management"
+    ],
+    "correct": 1,
+    "explanation": "Crisis intervention is brief, focused treatment aimed at: stabilizing the immediate crisis, ensuring safety, returning the person to pre-crisis functioning, connecting them with appropriate ongoing resources, and building coping for future crises. It's not designed for deep personality change or comprehensive treatment—those come after stabilization. Crisis intervention is time-limited (typically 1-6 sessions) and problem-focused.",
+    "citation": "Roberts, A. R., & Ottens, A. J. (2005). The Seven-Stage Crisis Intervention Model. Brief Treatment and Crisis Intervention, 5(4), 329-339; James, R. K., & Gilliland, B. E. (2017). Crisis Intervention Strategies (8th ed.). Cengage."
+  },
+  {
+    "id": 549,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["financial exploitation", "elder abuse", "reporting"],
+    "vignette": "An elderly client's adult son has been managing her finances since her mild dementia diagnosis. The client mentions her savings 'disappeared' and the son bought himself a new car. The son is also the client's primary caregiver.",
+    "question": "This situation suggests:",
+    "options": [
+      "Normal family financial arrangements",
+      "Possible financial exploitation requiring Adult Protective Services report",
+      "No concern unless physical abuse occurs",
+      "A private family matter"
+    ],
+    "correct": 1,
+    "explanation": "This scenario suggests possible financial exploitation of a vulnerable adult: person with cognitive impairment, family member with financial control, unexplained loss of assets, and personal benefit to the caregiver. Financial exploitation is a form of elder abuse requiring mandated reporting to Adult Protective Services. The therapist should report reasonable suspicion while maintaining the therapeutic relationship and ensuring the client's safety.",
+    "citation": "National Center on Elder Abuse (2016). Types of Abuse. Administration on Aging; Nerenberg, L. (2008). Elder Abuse Prevention: Emerging Trends and Promising Strategies. Springer."
+  },
+  {
+    "id": 550,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["mobile crisis", "resources", "alternatives"],
+    "question": "Mobile crisis teams offer an alternative to emergency rooms by:",
+    "options": [
+      "Providing crisis assessment and intervention in community settings",
+      "Replacing all mental health treatment",
+      "Only serving homeless populations",
+      "Performing surgery in the field"
+    ],
+    "correct": 0,
+    "explanation": "Mobile crisis teams provide crisis assessment and intervention in community settings (homes, schools, workplaces) rather than requiring transport to ERs. They can: de-escalate crises, assess safety, connect to services, provide brief stabilization, and determine if hospitalization is needed. This reduces unnecessary ER visits, provides more humane crisis response, and may better engage resistant individuals. Therapists should know local mobile crisis resources.",
+    "citation": "SAMHSA (2014). Crisis Services: Effectiveness, Cost-Effectiveness, and Funding Strategies. Substance Abuse and Mental Health Services Administration."
+  },
+  {
+    "id": 551,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["safety plan", "written", "components"],
+    "question": "A written safety plan should be:",
+    "options": [
+      "Kept only in the therapist's files",
+      "Given to the client and kept accessible for crisis use",
+      "Destroyed after each session",
+      "Shared with everyone the client knows"
+    ],
+    "correct": 1,
+    "explanation": "Safety plans are most effective when clients have their own copy readily accessible during crises. The written plan should be kept: in an easily accessible location (wallet, phone, bedside), reviewed and updated regularly, and known to key support people. A plan locked in a therapist's office isn't helpful when the client is in crisis at 3am. Digital copies on phones provide additional accessibility.",
+    "citation": "Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention: A Brief Intervention to Mitigate Suicide Risk. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 552,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["danger to others", "assessment", "violence risk"],
+    "vignette": "A client with a history of violence describes detailed plans to harm a coworker who received a promotion he wanted. He has specific methods in mind and access to weapons but says he 'probably won't actually do it.'",
+    "question": "The therapist should:",
+    "options": [
+      "Accept his reassurance and continue therapy as usual",
+      "Conduct thorough violence risk assessment and likely invoke Tarasoff duties",
+      "Wait to see if he follows through before taking action",
+      "Tell him he's overreacting about the promotion"
+    ],
+    "correct": 1,
+    "explanation": "This situation has multiple high-risk indicators: specific identifiable victim, detailed plans, access to means, history of violence, and minimization ('probably won't'). The therapist should: conduct thorough risk assessment, document carefully, likely warn the intended victim and notify police under Tarasoff, explore hospitalization if appropriate, and work to reduce risk. The minimization doesn't negate the serious threat indicators.",
+    "citation": "Monahan, J., et al. (2001). Rethinking Risk Assessment: The MacArthur Study. Oxford University Press; Tarasoff v. Regents, 551 P.2d 334 (Cal. 1976)."
+  },
+  {
+    "id": 553,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child witness", "domestic violence", "trauma"],
+    "question": "Children who witness domestic violence:",
+    "options": [
+      "Are generally unaffected if not directly hit",
+      "Often experience trauma symptoms and behavioral problems",
+      "Should never be discussed in therapy",
+      "Are always removed from the home"
+    ],
+    "correct": 1,
+    "explanation": "Children who witness domestic violence frequently experience: trauma symptoms (PTSD, anxiety), behavioral problems, developmental delays, academic difficulties, and increased risk of being in abusive relationships later. Witnessing violence is itself harmful—children don't need to be directly hit to be harmed. In some states, exposing children to domestic violence is itself considered child maltreatment. These children need assessment and often treatment.",
+    "citation": "Edelson, J. L. (1999). Children's Witnessing of Adult Domestic Violence. Journal of Interpersonal Violence, 14(8), 839-870; Gewirtz, A. H., & Edleson, J. L. (2007). Young Children's Exposure to Intimate Partner Violence. Journal of Marital and Family Therapy, 33(1), 94-111."
+  },
+  {
+    "id": 554,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["confidentiality", "exceptions", "crisis"],
+    "question": "Confidentiality may be legally broken in all of the following situations EXCEPT:",
+    "options": [
+      "Suspected child abuse",
+      "Imminent danger to self or others",
+      "Client's employer requests information without consent",
+      "Court order requiring testimony"
+    ],
+    "correct": 2,
+    "explanation": "Confidentiality may be legally broken for: mandated reporting (child/elder abuse), duty to warn/protect (imminent danger), court orders, and client consent. An employer's request without client consent does NOT permit disclosure—this would violate confidentiality. Even with valid legal exceptions, therapists should disclose only the minimum necessary information.",
+    "citation": "AAMFT Code of Ethics (2015), Principle II; HIPAA Privacy Rule, 45 CFR Parts 160 and 164."
+  },
+  {
+    "id": 555,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide", "questioning", "assessment"],
+    "question": "Asking a client directly about suicidal thoughts:",
+    "options": [
+      "Will plant the idea and increase risk",
+      "Is appropriate and does not increase risk",
+      "Should only be done by psychiatrists",
+      "Is never necessary if the client seems okay"
+    ],
+    "correct": 1,
+    "explanation": "Research consistently shows that asking about suicide does NOT increase risk or 'plant the idea.' Direct questioning: provides relief for clients struggling silently, opens dialogue for safety planning, demonstrates care and concern, and is necessary for accurate assessment. Avoiding the topic due to fear of planting ideas can leave at-risk clients unidentified. Use clear, direct language: 'Are you having thoughts of suicide?'",
+    "citation": "Dazzi, T., Gribble, R., Wessely, S., & Fear, N. T. (2014). Does Asking About Suicide and Related Behaviours Induce Suicidal Ideation? What is the Evidence? Psychological Medicine, 44(16), 3361-3363."
+  },
+  {
+    "id": 556,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["cultural factors", "crisis", "assessment"],
+    "vignette": "A Latino immigrant family presents in crisis after the father's deportation. The mother is tearful and says she 'wants to die,' but cultural consultation suggests this may be an idiom of distress rather than literal suicidal intent.",
+    "question": "The therapist should:",
+    "options": [
+      "Ignore the statement since it's 'just cultural'",
+      "Conduct thorough suicide assessment while remaining culturally sensitive",
+      "Immediately hospitalize based on the statement alone",
+      "Avoid discussing suicide to respect cultural norms"
+    ],
+    "correct": 1,
+    "explanation": "Expressions of distress vary culturally, but safety always requires direct assessment. The therapist should: recognize cultural context of distress expressions, still ask directly about suicide (intent, plan, means), assess through culturally appropriate methods, not assume statements are 'just cultural' without evaluation, and be sensitive to unique stressors (immigration trauma, family separation). Cultural understanding informs but doesn't replace safety assessment.",
+    "citation": "Chu, J. P., et al. (2010). Cultural Factors and Suicide Prevention. In J. R. Rogers & D. Lester (Eds.), Understanding Suicide. Hogrefe; McGoldrick, M., Giordano, J., & Garcia-Preto, N. (Eds.) (2005). Ethnicity and Family Therapy (3rd ed.). Guilford."
+  },
+  {
+    "id": 557,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["emergency contact", "release", "preparation"],
+    "question": "Obtaining emergency contact information and releases at intake:",
+    "options": [
+      "Violates confidentiality",
+      "Prepares for potential crisis situations when contact may be needed",
+      "Is only needed for children",
+      "Should only be done after a crisis occurs"
+    ],
+    "correct": 1,
+    "explanation": "Obtaining emergency contacts and releases at intake: prepares for potential crises, allows rapid response when needed, identifies support people, and establishes communication pathways before they're urgently needed. During crisis, obtaining consent may be difficult—having releases in advance streamlines response. This is standard practice for all clients, not just those presenting with obvious risk.",
+    "citation": "AAMFT (2015). Code of Ethics; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling (5th ed.). Wiley."
+  },
+  {
+    "id": 558,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["psychiatric hold", "5150", "criteria"],
+    "question": "The typical criteria for involuntary psychiatric hospitalization include:",
+    "options": [
+      "Any mental health diagnosis",
+      "Mental illness AND imminent danger to self/others or grave disability",
+      "Client refusal to take medication",
+      "Family request for hospitalization"
+    ],
+    "correct": 1,
+    "explanation": "Involuntary hospitalization criteria typically require both: (1) presence of mental illness or disorder, AND (2) one of: danger to self (suicidal), danger to others (homicidal), or gravely disabled (unable to provide for basic needs). Simply having mental illness or refusing treatment isn't sufficient—there must be imminent safety risk. Procedures and terminology vary by state (5150 in California, 302 in Pennsylvania, etc.).",
+    "citation": "Testa, M., & West, S. G. (2010). Civil Commitment in the United States. Psychiatry, 7(10), 30-40; American Psychiatric Association (2016). APA Practice Guidelines."
+  },
+  {
+    "id": 559,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["childhood trauma", "disclosure", "timing"],
+    "vignette": "During the third session, a child begins disclosing sexual abuse by a family member. The child becomes distressed and wants to stop talking. The therapist feels pressure to get all the details before the child 'changes her mind.'",
+    "question": "The therapist should:",
+    "options": [
+      "Push for complete details to ensure accurate reporting",
+      "Follow the child's pace, provide support, and avoid investigative questioning",
+      "Tell the child she must finish before leaving",
+      "Postpone the report until the child tells the whole story"
+    ],
+    "correct": 1,
+    "explanation": "When children disclose abuse, therapists should: follow the child's pace, provide emotional support, avoid investigative questioning (leave details to forensic interviewers), tell the child they're believed and it's not their fault, explain reporting requirements gently, and report based on disclosure received—not wait for complete details. Pressuring distressed children for details can be retraumatizing and may compromise forensic investigation.",
+    "citation": "Faller, K. C. (2007). Interviewing Children About Sexual Abuse. Oxford University Press; APSAC (2012). Practice Guidelines: Forensic Interviewing in Cases of Suspected Child Abuse."
+  },
+  {
+    "id": 560,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["post-crisis", "follow-up", "care"],
+    "question": "After a crisis has been stabilized, important follow-up includes:",
+    "options": [
+      "Assuming the client is fine and resuming normal therapy",
+      "Reviewing what happened, adjusting treatment, and strengthening safety plans",
+      "Terminating the client for being too high-risk",
+      "Never mentioning the crisis again to avoid retraumatization"
+    ],
+    "correct": 1,
+    "explanation": "Post-crisis follow-up should include: reviewing what precipitated the crisis (learning opportunity), adjusting treatment to address underlying issues, strengthening safety plans based on what was learned, reconnecting with therapeutic goals, assessing for ongoing risk, and processing the crisis experience. Crises provide important clinical information and should inform ongoing treatment rather than being ignored.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford; James, R. K., & Gilliland, B. E. (2017). Crisis Intervention Strategies (8th ed.). Cengage."
+  },
+  {
+    "id": 561,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["documentation", "timeliness", "crisis"],
+    "question": "Crisis documentation should be completed:",
+    "options": [
+      "Within a week of the crisis",
+      "As soon as possible after the event, while details are fresh",
+      "Only if the client returns for another session",
+      "By the client's family members"
+    ],
+    "correct": 1,
+    "explanation": "Crisis documentation should be completed as soon as possible—ideally immediately after or same day. Timely documentation ensures: accurate details before memory fades, legal protection, continuity of care, and demonstration of appropriate standard of care. Delayed documentation may appear suspect if later questioned. Document: what happened, assessment, clinical reasoning, actions taken, and plan.",
+    "citation": "Luepker, E. T. (2003). Record Keeping in Psychotherapy and Counseling. Brunner-Routledge; AAMFT (2015). Code of Ethics."
+  },
+  {
+    "id": 562,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["homicidal ideation", "command hallucinations", "psychosis"],
+    "vignette": "A client with schizophrenia reports that 'the voices' are commanding him to hurt his neighbor. He says he's been trying to resist but the voices are getting stronger. He has a history of acting on command hallucinations.",
+    "question": "The therapist's immediate priority is:",
+    "options": [
+      "Exploring the content of the hallucinations",
+      "Assessing imminent danger, coordinating with psychiatry, and potential hospitalization",
+      "Teaching mindfulness to manage the voices",
+      "Scheduling a follow-up next week"
+    ],
+    "correct": 1,
+    "explanation": "Command hallucinations instructing violence, especially with history of compliance, represent high risk requiring immediate action: thorough risk assessment, emergency psychiatric consultation, likely hospitalization evaluation, warning potential victim if identifiable, and possibly police notification. Medication adjustment may be needed. This cannot wait for next week—imminent danger requires same-day response.",
+    "citation": "American Psychiatric Association (2020). Practice Guideline for the Treatment of Patients With Schizophrenia (3rd ed.); Monahan, J., et al. (2001). Rethinking Risk Assessment. Oxford University Press."
+  },
+  {
+    "id": 563,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide", "means restriction", "family involvement"],
+    "question": "When developing a safety plan with a suicidal client, family members can help by:",
+    "options": [
+      "Constantly monitoring the client's every move",
+      "Temporarily securing or removing access to lethal means",
+      "Promising to 'watch them' instead of hospitalization",
+      "Keeping the plan secret from the client"
+    ],
+    "correct": 1,
+    "explanation": "Family involvement in means restriction is one of the most effective suicide prevention strategies. Family can: temporarily store firearms outside the home, lock up medications, remove or secure other lethal means, know warning signs to watch for, and be part of the crisis response plan. This should be collaborative (not surveillance) and time-limited during acute risk periods.",
+    "citation": "Yip, P. S., et al. (2012). Means Restriction for Suicide Prevention. The Lancet, 379(9834), 2393-2399; Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 564,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["mandated reporting", "good faith", "immunity"],
+    "question": "Mandated reporters who make good-faith reports of suspected abuse:",
+    "options": [
+      "Are always sued successfully by families",
+      "Are generally protected by immunity laws even if abuse isn't confirmed",
+      "Must prove abuse occurred before reporting",
+      "Can be fired for making false reports"
+    ],
+    "correct": 1,
+    "explanation": "Good-faith reporters are typically protected by immunity laws from civil and criminal liability, even if the investigation doesn't confirm abuse. The standard is 'reasonable suspicion'—not proof or certainty. This protection encourages reporting and recognizes that professionals can't always know with certainty. Bad-faith or knowingly false reports are not protected.",
+    "citation": "Child Welfare Information Gateway (2019). Immunity for Reporters of Child Abuse and Neglect. U.S. DHHS; State mandated reporting statutes."
+  },
+  {
+    "id": 565,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["dual relationship", "crisis", "boundaries"],
+    "vignette": "A therapist's current client calls in crisis at 2am threatening suicide. The therapist realizes the client is the neighbor's daughter and knows the family personally. The client's parents (the neighbors) are the emergency contacts.",
+    "question": "The therapist should:",
+    "options": [
+      "Ignore the dual relationship to manage the crisis",
+      "Manage the immediate crisis, then address the boundary issue and consider referral",
+      "Refuse to help due to the dual relationship",
+      "Handle it entirely themselves to avoid involving the neighbors"
+    ],
+    "correct": 1,
+    "explanation": "In crisis, safety takes priority—manage the immediate emergency first. After stabilization, the therapist must address the dual relationship: it should have been identified earlier, the therapeutic relationship may be compromised, and referral may be appropriate. The therapist should document the situation, seek consultation, and make clinically appropriate decisions about continuing treatment while managing the discovered boundary issue.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I and III; Pope, K. S., & Vasquez, M. J. T. (2016). Ethics in Psychotherapy and Counseling (5th ed.). Wiley."
+  },
+  {
+    "id": 566,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["overdose", "substance use", "emergency"],
+    "vignette": "During a session, a client admits he took 'a lot of pills' before coming because 'it was too hard to talk about sober.' He becomes increasingly drowsy and confused during the session.",
+    "question": "The therapist should:",
+    "options": [
+      "Continue the session since he seems calmer",
+      "Call 911 immediately for possible overdose",
+      "Wait to see if he becomes more alert",
+      "Have him drink coffee to counteract the pills"
+    ],
+    "correct": 1,
+    "explanation": "Increasing drowsiness and confusion after taking pills suggests possible overdose requiring immediate medical attention. Call 911—this is a medical emergency. The therapist is not qualified to assess overdose severity or manage medical consequences. Don't attempt home remedies (coffee, walking around). Stay with the client until help arrives, try to identify what was taken, and prepare for potential loss of consciousness.",
+    "citation": "SAMHSA (2015). Facing Addiction in America: The Surgeon General's Report on Alcohol, Drugs, and Health. U.S. DHHS; American Association of Poison Control Centers."
+  },
+  {
+    "id": 567,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis text line", "resources", "teens"],
+    "question": "The Crisis Text Line allows people to:",
+    "options": [
+      "Only receive crisis services in person",
+      "Text with a trained crisis counselor by texting HOME to 741741",
+      "Schedule future therapy appointments",
+      "Only receive services during business hours"
+    ],
+    "correct": 1,
+    "explanation": "The Crisis Text Line provides 24/7 text-based crisis support by texting HOME to 741741. A trained crisis counselor responds. This service is particularly valuable for: teens who prefer texting, people who can't speak aloud (domestic violence, privacy concerns), and those uncomfortable with phone calls. Therapists should share this resource along with 988 and other crisis services.",
+    "citation": "Crisis Text Line (2023). How It Works. crisistextline.org; SAMHSA (2023). National Helpline Resources."
+  },
+  {
+    "id": 568,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["custody", "abuse allegations", "assessment"],
+    "vignette": "During a contentious divorce, one parent brings their child to you claiming the other parent is abusing the child. The child's statements are vague and the parent is coaching responses. The parent threatens to sue if you don't report.",
+    "question": "The therapist should:",
+    "options": [
+      "Report immediately to avoid being sued",
+      "Assess carefully, document objectively, and report if reasonable suspicion exists",
+      "Refuse to report since one parent is coaching",
+      "Take sides in the custody dispute"
+    ],
+    "correct": 1,
+    "explanation": "In custody disputes, abuse allegations require careful, objective assessment. The therapist should: gather information from the child directly (without parent present), document observations objectively (including concerning parent behaviors), assess whether reasonable suspicion exists independent of parent's wishes, report if threshold is met, and avoid being manipulated into either side of the dispute. The decision to report is based on clinical assessment, not parent threats.",
+    "citation": "APSAC (2012). Practice Guidelines for Child Abuse Evaluation in Divorce/Custody. American Professional Society on the Abuse of Children; AAMFT (2015). Code of Ethics."
+  },
+  {
+    "id": 569,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["self-care", "vicarious trauma", "therapist"],
+    "question": "After managing a crisis involving a client's suicide attempt, therapists should:",
+    "options": [
+      "Immediately see their next client as usual",
+      "Engage in self-care and seek consultation or support",
+      "Avoid thinking about it to prevent secondary trauma",
+      "Never discuss the event with anyone"
+    ],
+    "correct": 1,
+    "explanation": "Managing crises, especially suicide attempts, can be traumatic for therapists. Appropriate self-care includes: taking time to process emotions, seeking consultation or supervision, peer support, personal therapy if needed, and using organizational resources. Ignoring the impact can lead to burnout, vicarious trauma, and impaired practice. Documentation and administrative tasks should also be completed.",
+    "citation": "Figley, C. R. (Ed.) (2002). Treating Compassion Fatigue. Brunner-Routledge; Barnett, J. E., Baker, E. K., Elman, N. S., & Schoener, G. R. (2007). In Pursuit of Wellness: The Self-Care Imperative. Professional Psychology: Research and Practice, 38(6), 603-612."
+  },
+  {
+    "id": 570,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["lethal means", "firearms", "storage"],
+    "question": "When a client has access to firearms and is at elevated suicide risk, the safest option is:",
+    "options": [
+      "Asking them to promise not to use the gun",
+      "Temporarily storing firearms outside the home with a trusted person or at a gun store",
+      "Ignoring firearm access since asking violates rights",
+      "Assuming the client won't use a gun if they have other means"
+    ],
+    "correct": 1,
+    "explanation": "Firearm access significantly increases suicide lethality—firearm attempts have 85% fatality rate. Safe storage during crisis periods includes: temporary storage with trusted person (family member, friend), gun shop or range storage, police department storage, or using gun safes with someone else holding the combination. This is temporary and collaborative, respecting gun ownership while prioritizing safety during acute risk.",
+    "citation": "Yip, P. S., et al. (2012). Means Restriction for Suicide Prevention. The Lancet, 379(9834), 2393-2399; Barber, C. W., & Miller, M. J. (2014). Reducing a Suicidal Person's Access to Lethal Means of Suicide. American Journal of Preventive Medicine, 47(3), S264-S272."
+  },
+  {
+    "id": 571,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["IPV screening", "routine", "assessment"],
+    "question": "Routine screening for intimate partner violence in therapy:",
+    "options": [
+      "Is invasive and should be avoided",
+      "Can identify hidden abuse and provide opportunities for intervention",
+      "Is only needed when visible injuries exist",
+      "Should only be done by law enforcement"
+    ],
+    "correct": 1,
+    "explanation": "Routine IPV screening is recommended because: many victims don't spontaneously disclose, visible injuries aren't always present, therapy provides safe opportunity for disclosure, and early identification enables intervention. Screening should be done privately (not with partner present), using behaviorally specific questions, in a non-judgmental manner. Universal screening normalizes the questions and reduces stigma.",
+    "citation": "U.S. Preventive Services Task Force (2018). Intimate Partner Violence Screening. USPSTF Recommendation Statement; Trabold, N., et al. (2020). Screenings for Intimate Partner Violence. Journal of the American Board of Family Medicine, 33(4), 611-621."
+  },
+  {
+    "id": 572,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["suicide", "chronic vs acute", "assessment"],
+    "question": "Chronic versus acute suicide risk differ in that:",
+    "options": [
+      "Chronic risk doesn't require safety planning",
+      "Chronic risk involves ongoing vulnerability while acute risk involves imminent danger",
+      "Only acute risk is dangerous",
+      "Chronic risk is more dangerous than acute risk"
+    ],
+    "correct": 1,
+    "explanation": "Chronic risk represents ongoing baseline vulnerability (history of attempts, persistent ideation, chronic mental illness), while acute risk involves imminent danger (recent escalation, plan/intent, acute stressors). Both require attention: chronic risk through ongoing treatment and long-term safety planning; acute risk through immediate crisis intervention. Clients with high chronic risk who experience acute stressors are at particularly elevated risk.",
+    "citation": "Rudd, M. D. (2006). The Assessment and Management of Suicidality. Professional Resource Press; Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press."
+  },
+  {
+    "id": 573,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["safety plan", "review", "maintenance"],
+    "question": "Safety plans should be reviewed and updated:",
+    "options": [
+      "Only when originally created",
+      "Regularly and whenever circumstances change",
+      "Only after a crisis occurs",
+      "Once per year at most"
+    ],
+    "correct": 1,
+    "explanation": "Safety plans are living documents requiring regular review: contacts may change, new coping strategies may be identified, circumstances evolve, and what worked before may not work now. Update after: any crisis (learn from what helped), major life changes, contact information changes, or identification of new strategies. Regular review also reinforces safety planning as an ongoing practice.",
+    "citation": "Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264."
+  },
+  {
+    "id": 574,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child abuse", "disclosure", "response"],
+    "vignette": "A 10-year-old child says, 'My dad hits me with his belt when I'm bad, but please don't tell anyone because I'll get taken away.'",
+    "question": "The therapist's FIRST response should be:",
+    "options": [
+      "Promise not to tell to maintain the child's trust",
+      "Thank the child for telling you and explain that your job is to help keep them safe",
+      "Immediately call CPS in front of the child",
+      "Tell the child they must have done something wrong"
+    ],
+    "correct": 1,
+    "explanation": "When children disclose abuse, immediate responses shape their experience: thank them for telling (reduces shame), affirm it wasn't their fault, explain your role in keeping them safe (gentle explanation of reporting), and don't make promises you can't keep. Never promise not to tell. Address the child's fear of removal by explaining that CPS's goal is helping families. The therapist should then report to CPS and document the disclosure.",
+    "citation": "Faller, K. C. (2007). Interviewing Children About Sexual Abuse. Oxford University Press; Child Welfare Information Gateway (2019). Responding to Child Abuse. U.S. DHHS."
+  },
+  {
+    "id": 575,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["hospitalization", "least restrictive", "alternatives"],
+    "question": "The principle of 'least restrictive alternative' in crisis care means:",
+    "options": [
+      "Always avoiding hospitalization",
+      "Using the least intrusive intervention that ensures safety",
+      "Letting clients choose any option they want",
+      "Restricting all client freedoms during crisis"
+    ],
+    "correct": 1,
+    "explanation": "Least restrictive alternative means using interventions that ensure safety while minimizing restrictions on freedom. This might include: intensive outpatient over inpatient, voluntary over involuntary hospitalization, partial hospitalization over full, or crisis stabilization over extended hospitalization. The goal is safety with maximum autonomy. This principle respects client rights while maintaining duty to protect.",
+    "citation": "American Psychiatric Association (2016). Practice Guidelines for the Psychiatric Evaluation of Adults (3rd ed.); Testa, M., & West, S. G. (2010). Civil Commitment in the United States. Psychiatry, 7(10), 30-40."
+  },
+  {
+    "id": 576,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["protective order", "stalking", "safety"],
+    "question": "When a client is being stalked by an ex-partner, the therapist should help them:",
+    "options": [
+      "Confront the stalker directly",
+      "Document incidents, create safety plans, and consider protective orders",
+      "Move to another country immediately",
+      "Ignore the stalking and focus on therapy"
+    ],
+    "correct": 1,
+    "explanation": "Stalking is a serious safety threat. Therapists should help clients: document all incidents (evidence for legal action), create comprehensive safety plans, consider protective/restraining orders, vary routines to increase unpredictability, notify workplace and others, connect with victim advocates, and address psychological impact. Stalking often escalates and can precede violence—take it seriously.",
+    "citation": "Spitzberg, B. H., & Cupach, W. R. (2007). The State of the Art of Stalking. Aggression and Violent Behavior, 12(1), 64-86; National Center for Victims of Crime (2020). Stalking Resource Center."
+  },
+  {
+    "id": 577,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["consultation", "crisis", "standard of care"],
+    "question": "Seeking consultation during crisis situations:",
+    "options": [
+      "Shows incompetence and should be avoided",
+      "Is appropriate, recommended, and reflects good practice",
+      "Is only necessary for new therapists",
+      "Delays necessary action and should be skipped"
+    ],
+    "correct": 1,
+    "explanation": "Consultation during crises is appropriate and often essential: it provides additional perspective, shares decision-making burden, documents thoughtful process, may identify overlooked factors, and demonstrates standard of care. Even experienced therapists consult on difficult cases. Time-sensitive crises may require abbreviated consultation, but the principle remains important. Document consultations obtained.",
+    "citation": "AAMFT (2015). Code of Ethics; Barnett, J. E., & Molzon, C. H. (2014). Clinical Supervision of Psychotherapy. Journal of Clinical Psychology, 70(11), 1053-1061."
+  },
+  {
+    "id": 578,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["dependent adult", "abuse", "reporting"],
+    "vignette": "A 35-year-old client with intellectual disability discloses that her caregiver takes her disability checks and doesn't give her spending money. She says the caregiver 'loves her' and she's afraid of losing her housing.",
+    "question": "This situation requires:",
+    "options": [
+      "No action since the client is an adult who can make her own decisions",
+      "Report to Adult Protective Services for suspected financial exploitation",
+      "Helping the client confront the caregiver",
+      "Waiting to see if it gets worse"
+    ],
+    "correct": 1,
+    "explanation": "Adults with intellectual disability who cannot fully protect their own interests are 'dependent adults' covered by mandated reporting. Financial exploitation (taking money, controlling finances) of vulnerable adults requires reporting to Adult Protective Services. The client's acceptance or fear doesn't negate the reporting obligation. APS will assess the situation and provide appropriate protective services.",
+    "citation": "National Adult Protective Services Association (2018). Guidelines for Adult Protective Services; State mandated reporting laws for dependent adults."
+  },
+  {
+    "id": 579,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["trauma", "flooding", "crisis"],
+    "question": "If a client becomes overwhelmed and flooded with trauma memories during a session, the therapist should:",
+    "options": [
+      "Push through to complete the trauma work",
+      "Use grounding techniques to help the client return to the present",
+      "Ignore the distress and change the subject",
+      "End the session immediately without processing"
+    ],
+    "correct": 1,
+    "explanation": "When clients become flooded or dissociated during trauma work, grounding techniques help return them to the present moment. Techniques include: orienting to the room (name 5 things you see), sensory grounding (feel feet on floor), breathing exercises, and verbal orientation (today's date, where you are). Don't push through or abandon them—help stabilize before processing what happened and planning next steps.",
+    "citation": "van der Kolk, B. A. (2014). The Body Keeps the Score. Viking; Herman, J. L. (2015). Trauma and Recovery (3rd ed.). Basic Books."
+  },
+  {
+    "id": 580,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis", "stabilization", "phases"],
+    "question": "The first priority in crisis intervention is always:",
+    "options": [
+      "Understanding the complete history",
+      "Ensuring immediate safety",
+      "Completing a full assessment",
+      "Establishing therapeutic rapport"
+    ],
+    "correct": 1,
+    "explanation": "Safety is always the first priority in crisis intervention. Before history-taking, rapport-building, or comprehensive assessment, ensure: the person is not in immediate danger, there are no weapons present, medical emergencies are addressed, and the environment is safe. Only after establishing immediate safety can other crisis intervention tasks proceed effectively.",
+    "citation": "James, R. K., & Gilliland, B. E. (2017). Crisis Intervention Strategies (8th ed.). Cengage; Roberts, A. R. (2005). Crisis Intervention Handbook. Oxford University Press."
+  },
+  {
+    "id": 581,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["suicide", "postvention", "survivors"],
+    "vignette": "A therapist's client dies by suicide. The client's family asks to meet with the therapist to understand what happened.",
+    "question": "The therapist should:",
+    "options": [
+      "Refuse all contact to avoid liability",
+      "Meet with appropriate consultation, maintain confidentiality, and provide compassionate support",
+      "Share the entire clinical record with the family",
+      "Blame the family for the death"
+    ],
+    "correct": 1,
+    "explanation": "After client suicide (postvention), therapists should: obtain consultation before meeting with family, maintain client confidentiality (limits on what can be shared), provide compassionate support without accepting blame, express condolences, and refer family to bereavement resources. The therapist should also attend to their own grief and seek support. Documentation of the death and circumstances is important. Some contact with family is generally appropriate and helpful.",
+    "citation": "Jordan, J. R., & McIntosh, J. L. (Eds.) (2011). Grief After Suicide: Understanding the Consequences and Caring for the Survivors. Routledge; Hendin, H., et al. (2004). Therapist Reactions to Patients' Suicides. American Journal of Psychiatry, 161(8), 1442-1446."
+  },
+  {
+    "id": 582,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["trafficking", "human", "recognition"],
+    "question": "Potential indicators of human trafficking include:",
+    "options": [
+      "Healthy appearance and freedom of movement",
+      "Signs of physical abuse, restricted freedom, and third-party control",
+      "Having an immigrant background",
+      "Working multiple jobs voluntarily"
+    ],
+    "correct": 1,
+    "explanation": "Human trafficking indicators include: signs of physical abuse/malnourishment, restricted freedom (controlled communication, movement), inability to speak for themselves (third party answers), inconsistent stories, lack of control over documents/money, living in work location, coached responses, and excessive fear. If suspected, contact the National Human Trafficking Hotline (1-888-373-7888). This is a form of abuse requiring reporting.",
+    "citation": "U.S. Department of State (2020). Trafficking in Persons Report; National Human Trafficking Hotline (2023). Recognize the Signs."
+  },
+  {
+    "id": 583,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["de-escalation", "body language", "safety"],
+    "question": "Effective body language during crisis de-escalation includes:",
+    "options": [
+      "Standing with arms crossed and direct eye contact",
+      "Non-threatening posture, calm movements, and appropriate distance",
+      "Mirroring the agitated person's intensity",
+      "Standing very close to show engagement"
+    ],
+    "correct": 1,
+    "explanation": "Non-threatening body language aids de-escalation: maintain appropriate distance (not too close), open posture (arms uncrossed), calm and slow movements, relaxed stance (not defensive), indirect eye contact (direct staring can seem challenging), and positioning near exit. Body language communicates safety and calm before words can be processed. The goal is reducing threat perception.",
+    "citation": "Richmond, J. S., et al. (2012). Verbal De-escalation of the Agitated Patient. Western Journal of Emergency Medicine, 13(1), 17-25."
+  },
+  {
+    "id": 584,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["tribal jurisdiction", "Native American", "reporting"],
+    "question": "When working with Native American clients on tribal land, mandated reporting of child abuse:",
+    "options": [
+      "Follows the same procedures as off-reservation",
+      "May involve tribal authorities and different jurisdictional requirements",
+      "Is not required on tribal land",
+      "Should only go to federal authorities"
+    ],
+    "correct": 1,
+    "explanation": "Mandated reporting on tribal land involves complex jurisdictional issues. Reports may go to tribal child welfare, BIA (Bureau of Indian Affairs), or state/county depending on: specific tribe, type of abuse, and applicable laws (including ICWA - Indian Child Welfare Act). Therapists working with Native communities should understand local reporting requirements and relationships between tribal, state, and federal jurisdictions. Consultation with tribal authorities is often helpful.",
+    "citation": "Indian Child Welfare Act (1978), 25 U.S.C. §§ 1901-1963; National Indian Child Welfare Association (NICWA) resources."
+  },
+  {
+    "id": 585,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["military", "deployment", "crisis"],
+    "question": "When working with military families, unique crisis factors may include:",
+    "options": [
+      "No different considerations than civilian families",
+      "Deployment stress, combat trauma, frequent relocations, and military-specific resources",
+      "Only concern during active combat",
+      "Avoiding discussion of military service"
+    ],
+    "correct": 1,
+    "explanation": "Military families face unique stressors: deployment cycles (pre-deployment anxiety, deployment absence, reintegration), combat trauma and PTSD, frequent relocations disrupting support systems, military culture around help-seeking, and specific resources (Military OneSource, VA services). Crisis work should understand military context, use military-specific resources, and recognize both challenges and strengths of military culture.",
+    "citation": "SAMHSA (2014). Behavioral Health Conditions in Children and Youth Exposed to Natural Disasters. Technical Assistance Publication Series; American Psychological Association (2007). The Psychological Needs of U.S. Military Service Members and Their Families."
+  },
+  {
+    "id": 586,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["emergency room", "referral", "crisis"],
+    "question": "Referring a client to the emergency room for psychiatric evaluation is appropriate when:",
+    "options": [
+      "The client is mildly anxious",
+      "There is imminent danger to self or others that cannot be managed outpatient",
+      "The client requests it for any reason",
+      "Insurance requires it"
+    ],
+    "correct": 1,
+    "explanation": "ER referral for psychiatric evaluation is appropriate when: imminent danger to self (active suicidal crisis with plan/intent/means) or others, acute psychosis with safety concerns, medical complications of mental illness, severe intoxication/withdrawal, or when outpatient resources cannot ensure safety. ERs provide 24/7 access to psychiatric evaluation and hospitalization if needed. Prepare the client and provide clinical information to ER staff.",
+    "citation": "American Psychiatric Association (2016). Practice Guidelines for the Psychiatric Evaluation of Adults (3rd ed.); SAMHSA (2014). Crisis Services: Effectiveness, Cost-Effectiveness, and Funding Strategies."
+  },
+  {
+    "id": 587,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["religious beliefs", "suicide", "cultural"],
+    "vignette": "A deeply religious client expresses that suicide is absolutely forbidden by their faith and they would 'never' act on suicidal thoughts because of this belief. They have passive suicidal ideation but strong religious convictions.",
+    "question": "The therapist should:",
+    "options": [
+      "Assume religious beliefs provide complete protection",
+      "Acknowledge religious beliefs as protective while still conducting thorough assessment",
+      "Challenge the client's religious beliefs",
+      "Dismiss the suicidal ideation as unimportant"
+    ],
+    "correct": 1,
+    "explanation": "Religious beliefs against suicide are genuine protective factors that should be acknowledged and supported. However, they don't eliminate risk entirely—some highly distressed individuals act despite religious beliefs. The therapist should: validate religious coping as a strength, explore the depth and stability of these beliefs, still conduct thorough risk assessment, include religious resources in safety planning, and not assume complete protection. Faith can be integrated into treatment.",
+    "citation": "Chu, J. P., et al. (2010). Cultural Factors and Suicide Prevention. In J. R. Rogers & D. Lester (Eds.), Understanding Suicide. Hogrefe; Jobes, D. A. (2016). Managing Suicidal Risk (2nd ed.). Guilford."
+  },
+  {
+    "id": 588,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child", "psychiatric emergency", "parents"],
+    "question": "When a child or adolescent requires emergency psychiatric hospitalization:",
+    "options": [
+      "Parents should not be involved",
+      "Parental consent is typically required unless emergency exception applies",
+      "The child's wishes override parental consent",
+      "Only the school can authorize hospitalization"
+    ],
+    "correct": 1,
+    "explanation": "For minors, parental consent for hospitalization is typically required. Exceptions may exist for: life-threatening emergencies where delay is dangerous, emancipated minors, or situations covered by state-specific emergency provisions. When parents refuse needed hospitalization, consultation with legal and administrative resources may be necessary. Child protective services may be involved if parental refusal constitutes medical neglect.",
+    "citation": "American Academy of Child and Adolescent Psychiatry (2017). Practice Parameter for the Assessment and Treatment of Children and Adolescents With Suicidal Behavior; State-specific laws on minor consent."
+  },
+  {
+    "id": 589,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["LGBTQ", "crisis", "resources"],
+    "question": "Crisis resources specific to LGBTQ+ individuals include:",
+    "options": [
+      "No specific resources are needed",
+      "The Trevor Project and Trans Lifeline for targeted support",
+      "Only general crisis lines",
+      "Resources that discourage LGBTQ+ identity"
+    ],
+    "correct": 1,
+    "explanation": "LGBTQ+-specific crisis resources provide culturally competent support: The Trevor Project (for LGBTQ+ youth, 1-866-488-7386), Trans Lifeline (for transgender individuals, 1-877-565-8860), and LGBT National Hotline. These services understand unique stressors (discrimination, family rejection, identity issues) and provide affirming support. LGBTQ+ youth are at elevated suicide risk, making appropriate resources essential.",
+    "citation": "The Trevor Project (2022). National Survey on LGBTQ Youth Mental Health; Ryan, C., et al. (2009). Family Rejection as a Predictor of Negative Health Outcomes. Pediatrics, 123(1), 346-352."
+  },
+  {
+    "id": 590,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["colleague impairment", "ethics", "reporting"],
+    "vignette": "A therapist becomes aware that a colleague is practicing while clearly impaired (coming to work intoxicated, making dangerous clinical decisions, ignoring client crises).",
+    "question": "The therapist's ethical obligation is to:",
+    "options": [
+      "Ignore it as a private matter",
+      "Address concern appropriately, which may include reporting to supervisor or licensing board",
+      "Tell all the colleague's clients directly",
+      "Wait until a client is harmed before acting"
+    ],
+    "correct": 1,
+    "explanation": "Therapists have an ethical obligation to address colleague impairment that endangers clients. Steps may include: direct conversation with colleague if safe, reporting to supervisor or employer, and/or reporting to licensing board if client safety is at risk. The priority is protecting clients. Many states require reporting impaired colleagues. This is about safety, not personal judgment of the colleague.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; State licensing board regulations regarding impaired professionals."
+  },
+  {
+    "id": 591,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["natural disaster", "crisis response", "community"],
+    "question": "When providing crisis support after a natural disaster affecting a community:",
+    "options": [
+      "Focus only on individual therapy",
+      "Address practical needs, normalize reactions, and provide community-level support",
+      "Insist everyone has PTSD",
+      "Wait several months before offering services"
+    ],
+    "correct": 1,
+    "explanation": "Disaster response requires: addressing immediate practical needs (shelter, food, safety), psychological first aid (not therapy), normalizing stress reactions, community-level interventions, connecting people with resources, and identifying those needing more intensive support. Most people are resilient—not everyone needs therapy. Avoid pathologizing normal stress responses. Long-term needs emerge over time.",
+    "citation": "Brymer, M., et al. (2006). Psychological First Aid: Field Operations Guide (2nd ed.). National Child Traumatic Stress Network; SAMHSA (2017). Disaster Behavioral Health."
+  },
+  {
+    "id": 592,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["warning signs", "suicide", "acute"],
+    "question": "Acute warning signs that someone may be about to attempt suicide include:",
+    "options": [
+      "Long-term depression without recent changes",
+      "Talking about being a burden, giving away possessions, and saying goodbye",
+      "Occasional sadness",
+      "Gradual improvement in mood"
+    ],
+    "correct": 1,
+    "explanation": "Acute warning signs preceding attempts include: talking about being a burden to others, giving away prized possessions, saying goodbye to loved ones, increased substance use, withdrawing from activities, sleeping too much or too little, visiting or calling people to say goodbye, and sudden calmness after distress. These require immediate assessment and intervention—they suggest imminent risk.",
+    "citation": "Rudd, M. D., et al. (2006). Warning Signs for Suicide: Theory, Research, and Clinical Applications. Suicide and Life-Threatening Behavior, 36(3), 255-262."
+  },
+  {
+    "id": 593,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["ethics", "duty conflict", "crisis"],
+    "vignette": "During couples therapy, the wife discloses in an individual session that she's planning to leave her husband and take the children to another state tomorrow without telling him. There's no abuse or custody order. The husband knows nothing.",
+    "question": "This situation involves:",
+    "options": [
+      "Clear duty to warn the husband",
+      "Complex ethical considerations about neutrality, confidentiality, and potential harm",
+      "No ethical concerns",
+      "Mandated reporting to CPS"
+    ],
+    "correct": 1,
+    "explanation": "This presents ethical complexity: couples therapy typically involves a no-secrets policy, but this scenario involves legal (not necessarily unethical) parental action. Considerations include: the therapy contract regarding secrets, potential harm to husband and children, legal vs. ethical obligations, therapeutic neutrality, and whether continuing couples therapy is appropriate. Consultation is essential. There's no mandated reporting obligation or Tarasoff duty here.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I and II; Margolin, G. (1982). Ethical and Legal Considerations in Marital and Family Therapy. American Psychologist, 37(7), 788-801."
+  },
+  {
+    "id": 594,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["telehealth", "crisis", "remote"],
+    "question": "Managing crisis situations via telehealth requires:",
+    "options": [
+      "The same procedures as in-person with no modifications",
+      "Having client's location, local emergency contacts, and remote safety planning protocols",
+      "Refusing to see any high-risk clients via telehealth",
+      "Ignoring geographic limitations"
+    ],
+    "correct": 1,
+    "explanation": "Telehealth crisis management requires: knowing client's exact physical location each session, local emergency resources and contacts, remote safety planning protocols, emergency contact information for someone who can physically check on client, understanding of licensing limitations across state lines, and clear procedures for dispatching help to remote location. Technology should not prevent adequate crisis response.",
+    "citation": "American Psychological Association (2013). Guidelines for the Practice of Telepsychology; Luxton, D. D., et al. (2014). Telepsychology. Professional Psychology: Research and Practice, 45(5), 289-298."
+  },
+  {
+    "id": 595,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["veterans", "crisis", "resources"],
+    "question": "The Veterans Crisis Line provides 24/7 support for veterans and can be reached by:",
+    "options": [
+      "Only visiting a VA hospital in person",
+      "Dialing 988 and pressing 1, or texting 838255",
+      "Only during business hours",
+      "Only for veterans with service-connected disabilities"
+    ],
+    "correct": 1,
+    "explanation": "The Veterans Crisis Line provides 24/7 support to all veterans, service members, and their families. Access by: calling 988 and pressing 1, texting 838255, or chatting at VeteransCrisisLine.net. Counselors are specially trained in veteran-specific issues. Available to all veterans regardless of VA enrollment or service-connected status. Therapists working with veterans should share this resource.",
+    "citation": "U.S. Department of Veterans Affairs (2023). Veterans Crisis Line; SAMHSA (2023). National Helpline Resources."
   }
 ]

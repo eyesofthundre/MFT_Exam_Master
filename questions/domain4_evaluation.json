@@ -707,5 +707,978 @@
     "correct": 1,
     "explanation": "Sustainable change requires generalization\u2014new patterns must transfer from therapy sessions to daily life, occur across multiple settings, be maintained without therapist presence, and become the 'new normal' for the family. Promoting generalization involves: practicing skills in session, assigning between-session tasks, fading therapist involvement gradually, building family confidence in independent problem-solving, and creating environmental supports for change. Termination should occur when families demonstrate change is generalized and self-sustaining.",
     "citation": "Stokes, T. F., & Baer, D. M. (1977). An Implicit Technology of Generalization. Journal of Applied Behavior Analysis, 10(2), 349-367; Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford."
+  },
+  {
+    "id": 436,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["ORS", "outcome measurement", "session feedback"],
+    "question": "The Outcome Rating Scale (ORS) is a brief measure that assesses:",
+    "options": [
+      "The therapist's clinical skills and competence",
+      "Client functioning across personal, interpersonal, social, and overall domains",
+      "The number of sessions needed to complete treatment",
+      "Insurance authorization requirements"
+    ],
+    "correct": 1,
+    "explanation": "The Outcome Rating Scale (ORS) is a 4-item visual analog scale that assesses client functioning in four domains: individual (personal well-being), interpersonal (family, close relationships), social (work, school, friendships), and overall (general sense of well-being). It takes about one minute to complete and is used at each session to track progress throughout treatment.",
+    "citation": "Miller, S. D., Duncan, B. L., Brown, J., Sparks, J. A., & Claud, D. A. (2003). The Outcome Rating Scale: A Preliminary Study of the Reliability, Validity, and Feasibility of a Brief Visual Analog Measure. Journal of Brief Therapy, 2(2), 91-100."
+  },
+  {
+    "id": 437,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["SRS", "alliance", "feedback"],
+    "question": "The Session Rating Scale (SRS) measures:",
+    "options": [
+      "Client symptoms and functioning",
+      "The therapeutic alliance from the client's perspective",
+      "The therapist's adherence to a treatment manual",
+      "Progress toward treatment goals"
+    ],
+    "correct": 1,
+    "explanation": "The Session Rating Scale (SRS) is a brief 4-item measure of the therapeutic alliance completed at the end of each session. It assesses: relationship (feeling heard, understood, respected), goals and topics (working on what client wants), approach or method (good fit for client), and overall (session was right for client). Low scores indicate potential alliance ruptures requiring attention.",
+    "citation": "Duncan, B. L., Miller, S. D., Sparks, J. A., Claud, D. A., Reynolds, L. R., Brown, J., & Johnson, L. D. (2003). The Session Rating Scale: Preliminary Psychometric Properties of a 'Working' Alliance Measure. Journal of Brief Therapy, 3(1), 3-12."
+  },
+  {
+    "id": 438,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["reliable change", "statistics", "outcome measurement"],
+    "question": "The Reliable Change Index (RCI) helps therapists determine:",
+    "options": [
+      "How many sessions insurance will cover",
+      "Whether observed change exceeds measurement error and is statistically reliable",
+      "Which theoretical orientation is most effective",
+      "The client's diagnosis"
+    ],
+    "correct": 1,
+    "explanation": "The Reliable Change Index (RCI) is a statistical method for determining whether change observed in a client exceeds what might be expected from measurement error alone. An RCI of 1.96 or greater indicates 95% confidence that true change occurred. This helps distinguish meaningful clinical improvement from random fluctuation in test scores, providing objective evidence of therapeutic impact.",
+    "citation": "Jacobson, N. S., & Truax, P. (1991). Clinical Significance: A Statistical Approach to Defining Meaningful Change in Psychotherapy Research. Journal of Consulting and Clinical Psychology, 59(1), 12-19."
+  },
+  {
+    "id": 439,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["fading", "session frequency", "termination preparation"],
+    "vignette": "A family has made significant progress and is approaching termination. The therapist suggests reducing sessions from weekly to biweekly, then monthly, before ending.",
+    "question": "This approach is called:",
+    "options": [
+      "Premature termination",
+      "Fading or gradual termination",
+      "Abandonment",
+      "Treatment failure"
+    ],
+    "correct": 1,
+    "explanation": "Fading or gradual termination involves progressively reducing session frequency before ending therapy completely. This approach helps families: practice maintaining changes with less support, build confidence in independent functioning, test skills in real-world situations between sessions, and make termination less abrupt. It serves as a bridge between intensive treatment and full independence.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy: Bringing Meaningful Closure to Therapeutic Relationships. Jossey-Bass."
+  },
+  {
+    "id": 440,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["discharge summary", "documentation", "records"],
+    "question": "A discharge summary should include:",
+    "options": [
+      "Only the final session notes",
+      "Presenting problem, treatment provided, progress made, and aftercare recommendations",
+      "The therapist's personal opinions about the family",
+      "Predictions about the family's future functioning"
+    ],
+    "correct": 1,
+    "explanation": "A discharge summary documents: presenting problems/diagnosis, treatment goals and interventions used, progress and outcomes achieved, reason for termination, current functioning level, referrals made, and aftercare/continuing care recommendations. This provides a comprehensive record for continuity of care and serves as a closure document for the treatment episode.",
+    "citation": "AAMFT (2015). Code of Ethics. American Association for Marriage and Family Therapy; Luepker, E. T. (2003). Record Keeping in Psychotherapy and Counseling. Brunner-Routledge."
+  },
+  {
+    "id": 441,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["common factors", "outcome research", "therapeutic effectiveness"],
+    "question": "Research on common factors in therapy suggests that the LARGEST contributor to outcome is:",
+    "options": [
+      "Specific therapeutic techniques",
+      "Client factors and extratherapeutic events",
+      "The therapist's theoretical orientation",
+      "The length of treatment"
+    ],
+    "correct": 1,
+    "explanation": "Common factors research indicates client factors and extratherapeutic events account for approximately 40% of outcome variance—the largest contributor. These include client strengths, social support, motivation, life events, and fortuitous occurrences. The therapeutic relationship accounts for about 30%, placebo/hope effects about 15%, and specific techniques only about 15%. This underscores the importance of leveraging client resources.",
+    "citation": "Lambert, M. J. (1992). Psychotherapy Outcome Research: Implications for Integrative and Eclectic Therapists. In J. C. Norcross & M. R. Goldfried (Eds.), Handbook of Psychotherapy Integration. Basic Books; Wampold, B. E. (2001). The Great Psychotherapy Debate. Erlbaum."
+  },
+  {
+    "id": 442,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["transfer of care", "referral", "continuity"],
+    "vignette": "A therapist is closing their practice and must transfer ongoing clients to other providers. One family has complex trauma issues and has developed a strong therapeutic alliance over 18 months.",
+    "question": "To facilitate a good transfer, the therapist should:",
+    "options": [
+      "Simply provide the new therapist's contact information",
+      "Facilitate a warm handoff with introduction, summary, and transition period",
+      "End abruptly to avoid prolonging the goodbye",
+      "Tell the family they shouldn't need therapy anymore"
+    ],
+    "correct": 1,
+    "explanation": "Transferring care responsibly requires: providing adequate notice, processing feelings about the transition, preparing a thorough summary, facilitating introduction to the new therapist (ideally a joint session), ensuring records transfer appropriately, and allowing time for the family to establish a new relationship before the original therapist departs. This is especially important for vulnerable clients with attachment issues.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Barnett, J. E., MacGlashan, S., & Clarke, A. J. (2000). Risk Management and Ethical Issues Regarding Termination and Abandonment. Register Report, 26(2), 9-13."
+  },
+  {
+    "id": 443,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination", "client-initiated", "premature"],
+    "question": "When a client wants to terminate therapy before the therapist thinks they're ready, the therapist should:",
+    "options": [
+      "Refuse to allow termination until goals are fully met",
+      "Respect client autonomy while discussing concerns and leaving the door open",
+      "Insist the client is making a mistake",
+      "Report the client to their insurance company"
+    ],
+    "correct": 1,
+    "explanation": "Clients have the right to terminate therapy at any time. When clients want to end prematurely, therapists should: explore their reasons non-defensively, discuss any concerns about timing, review progress made, provide relapse prevention information, ensure crisis resources are available, leave the door open for return, and respect their decision. Attempting to coerce continued treatment violates client autonomy.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Quintana, S. M. (1993). Toward an Expanded and Updated Conceptualization of Termination. Professional Psychology: Research and Practice, 24(4), 426-432."
+  },
+  {
+    "id": 444,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["therapist factors", "effectiveness", "outcome"],
+    "question": "Research on therapist effects shows that:",
+    "options": [
+      "All therapists achieve approximately equal outcomes",
+      "Individual therapist differences account for significant outcome variance",
+      "Only therapist experience matters for outcomes",
+      "Theoretical orientation is the primary determinant of effectiveness"
+    ],
+    "correct": 1,
+    "explanation": "Therapist effects research reveals substantial differences in outcomes between individual therapists—some consistently achieve better results than others regardless of technique used. Therapist factors (interpersonal skills, ability to form alliance, responsiveness to feedback) may account for 5-10% of outcome variance. This finding emphasizes the importance of therapist self-evaluation, feedback-informed practice, and ongoing professional development.",
+    "citation": "Wampold, B. E., & Brown, G. S. (2005). Estimating Variability in Outcomes Attributable to Therapists: A Naturalistic Study of Outcomes in Managed Care. Journal of Consulting and Clinical Psychology, 73(5), 914-923."
+  },
+  {
+    "id": 445,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["treatment-resistant", "non-response", "clinical decision"],
+    "vignette": "Despite 20 sessions of evidence-based treatment, a couple shows no improvement on any outcome measure. The therapist has tried multiple approaches, sought consultation, and addressed alliance issues.",
+    "question": "The MOST appropriate next step is:",
+    "options": [
+      "Continue the same treatment indefinitely",
+      "Consider referral to another provider or different treatment modality",
+      "Blame the couple for not trying hard enough",
+      "Diagnose them with a personality disorder"
+    ],
+    "correct": 1,
+    "explanation": "When treatment is not working despite good-faith efforts, ethical practice requires considering alternatives. Options include: referral to another therapist (sometimes a different personality or style helps), trying a different modality (individual therapy, group, intensive outpatient), psychiatric consultation for medication evaluation, or specialized treatment programs. Continuing ineffective treatment is not in clients' best interest and may constitute harm.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; Lambert, M. J. (2007). Presidential Address: What We Have Learned from a Decade of Research. Psychotherapy Research, 17(1), 1-14."
+  },
+  {
+    "id": 446,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["support groups", "aftercare", "resources"],
+    "question": "Recommending support groups (such as Al-Anon or NAMI) as part of termination planning:",
+    "options": [
+      "Is inappropriate because therapy should be sufficient",
+      "Provides ongoing support and community that extends beyond therapy",
+      "Is only appropriate for severe mental illness",
+      "Replaces the need for any professional help"
+    ],
+    "correct": 1,
+    "explanation": "Support groups provide valuable ongoing community support that complements and extends therapeutic gains. They offer: peer connection with others facing similar challenges, ongoing accountability and encouragement, cost-effective long-term support, normalization of experiences, and practical strategies from lived experience. Recommending appropriate groups as part of aftercare planning helps maintain gains after termination.",
+    "citation": "SAMHSA (2015). Peer Support Services in Crisis Care. Substance Abuse and Mental Health Services Administration; Kelly, J. F., Magill, M., & Stout, R. L. (2009). How Do People Recover from Alcohol Dependence? A Systematic Review. Addiction, 104(1), 97-108."
+  },
+  {
+    "id": 447,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["feedback-informed treatment", "FIT", "outcome tracking"],
+    "question": "Feedback-Informed Treatment (FIT) involves:",
+    "options": [
+      "The therapist giving feedback to clients about their behavior",
+      "Routinely collecting client feedback on outcomes and alliance to guide treatment",
+      "Insurance companies providing feedback on treatment",
+      "Families giving each other feedback during sessions"
+    ],
+    "correct": 1,
+    "explanation": "Feedback-Informed Treatment (FIT) systematically uses client feedback to guide clinical decisions. It involves routinely administering brief measures (like ORS and SRS) at each session, reviewing results with clients, adjusting treatment when data indicates problems, and using the feedback loop to prevent dropout and improve outcomes. Research shows FIT can double effectiveness for some therapists.",
+    "citation": "Miller, S. D., Duncan, B. L., & Hubble, M. A. (2004). Beyond Integration: The Triumph of Outcome Over Process in Clinical Practice. Psychotherapy in Australia, 10(2), 2-19."
+  },
+  {
+    "id": 448,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["expected treatment response", "ETR", "trajectory"],
+    "vignette": "A therapist uses outcome monitoring software that compares each client's progress to expected treatment response (ETR) curves based on similar clients. After 5 sessions, the software flags a client as 'not on track.'",
+    "question": "This alert suggests the therapist should:",
+    "options": [
+      "Ignore it since algorithms can't understand clinical nuance",
+      "Use it as a prompt to review treatment approach and discuss progress with client",
+      "Immediately terminate the client",
+      "Increase medication without consultation"
+    ],
+    "correct": 1,
+    "explanation": "Expected treatment response (ETR) tools compare individual client progress to normative trajectories. When a client is flagged as 'not on track,' it's a clinical decision support prompt—not a directive. The therapist should: discuss the feedback with the client, explore what might be happening, consider adjusting approach, assess alliance, and document the review. Research shows responding to these alerts significantly improves outcomes for at-risk clients.",
+    "citation": "Lambert, M. J., et al. (2003). Enhancing Psychotherapy Outcomes Via Providing Feedback on Client Progress. Clinical Psychology: Science and Practice, 10(3), 159-172."
+  },
+  {
+    "id": 449,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["self-help", "bibliotherapy", "resources"],
+    "question": "Recommending self-help books or workbooks as part of termination:",
+    "options": [
+      "Is inappropriate because clients need professional guidance",
+      "Can reinforce skills learned and provide ongoing support",
+      "Should replace continued professional care for all clients",
+      "Is only appropriate for clients who can't afford therapy"
+    ],
+    "correct": 1,
+    "explanation": "Quality self-help materials (bibliotherapy) can effectively reinforce therapeutic learning, provide ongoing skill practice, and extend treatment gains. When carefully selected to match client needs and reading level, evidence-based self-help materials for issues like anxiety, depression, and relationship skills show meaningful benefit. They work best as complements to therapy rather than replacements.",
+    "citation": "Den Boer, P. C., Wiersma, D., & Van Den Bosch, R. J. (2004). Why is Self-Help Neglected in the Treatment of Emotional Disorders? Psychological Medicine, 34(6), 959-971."
+  },
+  {
+    "id": 450,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["termination letter", "documentation", "closure"],
+    "question": "A termination letter to clients typically includes:",
+    "options": [
+      "Detailed clinical interpretations of family dynamics",
+      "Summary of treatment, progress made, and recommendations for continued growth",
+      "Criticism of family members who didn't fully engage",
+      "The therapist's personal feelings about the family"
+    ],
+    "correct": 1,
+    "explanation": "A termination letter serves as a therapeutic document marking treatment completion. It typically includes: acknowledgment of the work done together, summary of presenting concerns and goals, progress and changes observed, strengths demonstrated, recommendations for maintaining gains, and invitation to return if needed. The letter should be positive, empowering, and reinforce client agency while providing closure.",
+    "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 451,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["therapist grief", "countertransference", "termination"],
+    "vignette": "A therapist has worked with a family for two years through significant crises. As termination approaches, the therapist notices feeling sad and reluctant to end, and has been finding reasons to continue longer.",
+    "question": "The therapist's feelings represent:",
+    "options": [
+      "Evidence that termination would be inappropriate",
+      "Normal countertransference requiring self-awareness and possibly consultation",
+      "A sign the therapist is too attached and should immediately terminate",
+      "Proof the family needs more therapy"
+    ],
+    "correct": 1,
+    "explanation": "Therapist attachment and grief at termination are normal countertransference responses, especially after long or intensive work. These feelings require self-awareness to prevent: inappropriate prolongation of therapy, difficulty letting go, or abrupt termination to avoid sadness. Consultation or supervision helps process these feelings while ensuring termination decisions are clinically appropriate rather than driven by therapist needs.",
+    "citation": "Gelso, C. J., & Hayes, J. A. (2007). Countertransference and the Therapist's Inner Experience. Erlbaum; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 452,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["medication", "coordination", "psychiatry"],
+    "question": "When a client is also receiving psychiatric medication, termination from therapy should include:",
+    "options": [
+      "Immediate recommendation to stop all medications",
+      "Coordination with the prescriber about continued medication management",
+      "The therapist prescribing maintenance medications",
+      "No communication with the prescriber to protect confidentiality"
+    ],
+    "correct": 1,
+    "explanation": "When clients receive concurrent psychiatric medication, termination planning should include coordination with the prescriber. This involves: communicating about therapy termination, discussing any medication changes that might be warranted, ensuring ongoing psychiatric care continues, and clarifying who will monitor mental health symptoms. Medication decisions remain with the prescriber, but coordinated care improves outcomes.",
+    "citation": "American Psychiatric Association (2016). Practice Guidelines for the Psychiatric Evaluation of Adults (3rd ed.); AAMFT (2015). Code of Ethics."
+  },
+  {
+    "id": 453,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["door open", "return", "termination"],
+    "question": "Telling clients 'the door is always open' at termination means:",
+    "options": [
+      "The therapist's office has an open-door policy",
+      "Clients are welcome to return for additional services if needed in the future",
+      "Therapy never really ends",
+      "The therapist will check in regularly"
+    ],
+    "correct": 1,
+    "explanation": "Leaving the door open communicates that therapy can be a resource clients access as needed throughout life, rather than a one-time fix. This reduces pressure for 'perfect' termination, normalizes help-seeking, reduces anxiety about ending, and facilitates appropriate return when facing new challenges. It acknowledges therapy as intermittent resource rather than sign of failure.",
+    "citation": "Cummings, N. A., & Sayama, M. (1995). Focused Psychotherapy: A Casebook of Brief Intermittent Psychotherapy Throughout the Life Cycle. Brunner/Mazel."
+  },
+  {
+    "id": 454,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["iatrogenic", "harm", "evaluation"],
+    "question": "Iatrogenic harm in therapy refers to:",
+    "options": [
+      "Harm caused by the client to themselves",
+      "Negative effects caused by the treatment itself",
+      "Natural symptom fluctuation",
+      "External life stressors affecting progress"
+    ],
+    "correct": 1,
+    "explanation": "Iatrogenic harm refers to negative effects caused by treatment itself—harm done by the intervention rather than the condition. In therapy, this can include: worsening symptoms from inappropriate interventions, dependence created by prolonged unnecessary treatment, family disruption from poorly conducted therapy, or retraumatization from mishandled trauma work. Recognizing iatrogenic potential underscores the importance of outcome monitoring and willingness to change approach.",
+    "citation": "Lilienfeld, S. O. (2007). Psychological Treatments That Cause Harm. Perspectives on Psychological Science, 2(1), 53-70; Barlow, D. H. (2010). Negative Effects from Psychological Treatments. American Psychologist, 65(1), 13-20."
+  },
+  {
+    "id": 455,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["crisis", "termination timing", "clinical judgment"],
+    "vignette": "Planned termination is approaching, but a family member experiences a sudden job loss and the family is in crisis. The family requests to continue therapy.",
+    "question": "The therapist should:",
+    "options": [
+      "Terminate as planned to avoid dependency",
+      "Flexibly extend treatment to address the crisis before terminating",
+      "Refer them to another therapist immediately",
+      "Tell them job loss isn't a therapy issue"
+    ],
+    "correct": 1,
+    "explanation": "Termination timing should be flexible when clients experience significant crises. Rigid adherence to planned termination during crisis can feel like abandonment and may undermine gains. The therapist should: acknowledge the crisis, extend treatment briefly to stabilize, help apply learned coping skills to the new challenge, then re-evaluate termination timing. This demonstrates appropriate clinical responsiveness while avoiding indefinite prolongation.",
+    "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 456,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["final session", "ritual", "termination"],
+    "question": "Creating a meaningful final session ritual (such as reviewing a timeline of progress or reading a letter) serves to:",
+    "options": [
+      "Delay the ending",
+      "Mark the ending, consolidate gains, and provide emotional closure",
+      "Make the therapist feel important",
+      "Ensure the client will return"
+    ],
+    "correct": 1,
+    "explanation": "Termination rituals provide meaningful closure by: marking the transition from therapy to independence, honoring the therapeutic relationship, consolidating learning through reflection, creating a memorable positive ending, and facilitating emotional processing. Rituals might include reviewing progress, exchanging letters, creating a symbolic token, or celebratory activities. The ritual should fit the client and therapeutic relationship.",
+    "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; Imber-Black, E., Roberts, J., & Whiting, R. A. (Eds.) (2003). Rituals in Families and Family Therapy. Norton."
+  },
+  {
+    "id": 457,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["regression", "termination anxiety", "symptoms"],
+    "vignette": "In the weeks before planned termination, a child who had significantly improved begins showing a return of earlier symptoms. Parents are concerned treatment didn't work.",
+    "question": "This pattern MOST likely represents:",
+    "options": [
+      "Evidence treatment was ineffective",
+      "Termination-related regression, which is common and usually temporary",
+      "A completely new problem requiring new treatment",
+      "Proof termination should be canceled"
+    ],
+    "correct": 1,
+    "explanation": "Regression near termination is common, especially in children. It often represents: anxiety about ending, unconscious attempt to prolong therapy, testing whether changes are 'real,' or adjusting to impending independence. Parents should be educated that temporary regression is normal and usually resolves after termination as the family consolidates gains. However, severe regression should be assessed carefully.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson."
+  },
+  {
+    "id": 458,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["stepped care", "treatment intensity", "matching"],
+    "question": "A stepped care model of treatment involves:",
+    "options": [
+      "Using stairs during therapy sessions for exercise",
+      "Matching treatment intensity to client need, stepping up or down as indicated",
+      "Treating all clients with the same intensive protocol",
+      "Only providing treatment to clients who can climb stairs"
+    ],
+    "correct": 1,
+    "explanation": "Stepped care matches treatment intensity to clinical need, beginning with less intensive interventions and stepping up only if needed. For example: self-help materials → group therapy → individual therapy → intensive outpatient → inpatient. This approach is efficient (not over-treating), empowering (trying self-management first), and allows stepping down as clients improve. Evaluation determines appropriate step level.",
+    "citation": "Bower, P., & Gilbody, S. (2005). Stepped Care in Psychological Therapies: Access, Effectiveness and Efficiency. British Journal of Psychiatry, 186(1), 11-17."
+  },
+  {
+    "id": 459,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["continuing education", "therapist development", "evaluation"],
+    "question": "Continuing education for therapists is important because:",
+    "options": [
+      "It's only required for license renewal",
+      "It helps maintain and improve competence throughout one's career",
+      "It replaces the need for supervision",
+      "It guarantees better outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Continuing education supports ongoing professional development by: keeping therapists current with research and best practices, developing new skills, addressing identified weaknesses, preventing stagnation, and maintaining ethical competence. While required for licensure, its primary purpose is ensuring therapists continue growing and providing quality care throughout their careers.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III; American Association for Marriage and Family Therapy (2015). MFT Core Competencies."
+  },
+  {
+    "id": 460,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["qualitative feedback", "client voice", "evaluation"],
+    "question": "Gathering qualitative feedback from clients about their therapy experience:",
+    "options": [
+      "Is less valuable than standardized measures",
+      "Provides rich contextual information that complements quantitative data",
+      "Should replace all quantitative assessment",
+      "Is only needed for research purposes"
+    ],
+    "correct": 1,
+    "explanation": "Qualitative feedback (open-ended questions, interviews, narrative responses) provides rich contextual information about: what was most/least helpful, how clients experienced the therapist, specific meaningful moments, suggestions for improvement, and nuances not captured by rating scales. Used alongside quantitative measures, qualitative feedback enhances understanding and guides clinical improvement.",
+    "citation": "McLeod, J. (2011). Qualitative Research in Counselling and Psychotherapy (2nd ed.). Sage; Elliott, R. (2010). Psychotherapy Change Process Research: Realizing the Promise. Psychotherapy Research, 20(2), 123-135."
+  },
+  {
+    "id": 461,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["sudden gains", "pattern", "outcome"],
+    "vignette": "A client who had been showing steady but modest improvement suddenly shows dramatic improvement between sessions 6 and 7, with gains maintained through termination.",
+    "question": "This pattern is known as:",
+    "options": [
+      "Treatment failure",
+      "A sudden gain, which predicts better long-term outcomes",
+      "Placebo effect",
+      "Spontaneous remission unrelated to therapy"
+    ],
+    "correct": 1,
+    "explanation": "Sudden gains are large, stable improvements occurring between sessions. Research shows sudden gains predict: better outcomes at termination, better maintenance at follow-up, and lower relapse rates. They often occur after cognitive or emotional shifts and may represent moments of significant insight or behavioral change. Therapists should note these patterns and help clients consolidate the factors contributing to the breakthrough.",
+    "citation": "Tang, T. Z., & DeRubeis, R. J. (1999). Sudden Gains and Critical Sessions in Cognitive-Behavioral Therapy for Depression. Journal of Consulting and Clinical Psychology, 67(6), 894-904."
+  },
+  {
+    "id": 462,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["cost-effectiveness", "evaluation", "health economics"],
+    "question": "Evaluating the cost-effectiveness of therapy involves:",
+    "options": [
+      "Only considering therapist fees",
+      "Comparing treatment costs to outcomes achieved and broader benefits",
+      "Always choosing the cheapest option",
+      "Ignoring client outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Cost-effectiveness analysis compares the costs of treatment to outcomes achieved. It considers: direct treatment costs, indirect costs (missed work, childcare), health system savings (reduced ER visits, hospitalizations), productivity gains, and quality-adjusted outcomes. Effective therapy often shows excellent cost-effectiveness when considering reduced healthcare utilization, improved functioning, and prevented crises.",
+    "citation": "Crane, D. R., & Christenson, J. D. (2012). A Summary Report of the Cost-Effectiveness of the Profession and Practice of Marriage and Family Therapy. Contemporary Family Therapy, 34(2), 204-216."
+  },
+  {
+    "id": 463,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["therapeutic frame", "boundaries", "ending"],
+    "question": "Maintaining appropriate boundaries at termination means:",
+    "options": [
+      "Becoming friends with former clients immediately",
+      "Keeping the professional relationship until fully ended, with clear post-termination guidelines",
+      "Never having any contact again",
+      "Ignoring any ethical guidelines about former clients"
+    ],
+    "correct": 1,
+    "explanation": "Professional boundaries continue through termination. This includes: conducting a proper termination process rather than fading away, clarifying post-termination contact expectations, understanding that therapeutic relationship continues for some period after formal ending, and following ethical guidelines about relationships with former clients (typically waiting 2+ years and avoiding any client for whom it could be exploitative).",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Zur, O. (2007). Boundaries in Psychotherapy: Ethical and Clinical Explorations. American Psychological Association."
+  },
+  {
+    "id": 464,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["responder status", "trajectory", "outcome"],
+    "question": "Research distinguishes between early responders, late responders, and non-responders. This suggests:",
+    "options": [
+      "All clients should be treated identically",
+      "Treatment length and approach should be individualized based on response patterns",
+      "Only early responders benefit from therapy",
+      "Non-responders should always be terminated quickly"
+    ],
+    "correct": 1,
+    "explanation": "Different response trajectories exist: early responders improve quickly, late responders need more time, and non-responders may need different approaches. This heterogeneity suggests: monitoring progress throughout treatment, avoiding rigid session limits, persisting with late responders who show eventual improvement, changing approach for non-responders rather than just continuing, and individualizing treatment based on observed patterns.",
+    "citation": "Owen, J., Adelson, J., Budge, S., Wampold, B., Kopta, M., Minami, T., & Miller, S. (2015). Trajectories of Change in Psychotherapy. Journal of Clinical Psychology, 71(9), 817-827."
+  },
+  {
+    "id": 465,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["narrative", "externalization", "termination"],
+    "vignette": "In narrative therapy, a therapist and family have been working to 'defeat Anger' (externalized problem). At termination, the therapist asks the family to write a letter to other families about how they overcame Anger.",
+    "question": "This intervention serves to:",
+    "options": [
+      "Waste time at the end of therapy",
+      "Consolidate gains by having the family articulate their expertise and success story",
+      "Embarrass the family",
+      "Create homework they'll never complete"
+    ],
+    "correct": 1,
+    "explanation": "Writing letters to others facing similar problems is a narrative therapy technique that: consolidates the alternative story of competence, positions the family as experts who have overcome the problem, reinforces their agency and capability, creates a tangible record of progress, and may actually help others. This 'consulting your consultants' practice empowers families as they leave therapy.",
+    "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. Norton; Madigan, S. (2019). Narrative Therapy (2nd ed.). American Psychological Association."
+  },
+  {
+    "id": 466,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["goal review", "treatment planning", "evaluation"],
+    "question": "Regularly reviewing treatment goals throughout therapy:",
+    "options": [
+      "Is unnecessary once goals are initially set",
+      "Ensures treatment remains focused and allows for goal modification as needed",
+      "Undermines the therapist's authority",
+      "Should only occur at termination"
+    ],
+    "correct": 1,
+    "explanation": "Regular goal review keeps treatment focused and responsive. As therapy progresses, initial goals may be achieved, new issues may emerge, or priorities may shift. Periodic review ensures: treatment remains relevant to current needs, both therapist and client stay aligned, progress is visible, and termination criteria remain clear. Goals should be living documents, not static contracts.",
+    "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson; Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass."
+  },
+  {
+    "id": 467,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["collateral contacts", "coordination", "evaluation"],
+    "question": "Collateral contacts (with schools, physicians, other providers) during treatment evaluation:",
+    "options": [
+      "Violate confidentiality and should never occur",
+      "Provide additional perspectives on functioning when properly authorized",
+      "Are only needed for children",
+      "Replace the need for direct client feedback"
+    ],
+    "correct": 1,
+    "explanation": "Collateral contacts with appropriate consent provide valuable additional perspectives on client functioning in different contexts. Teachers can report on school behavior, physicians on physical symptoms, other providers on concurrent treatment. Multiple perspectives create a fuller picture of progress. Proper authorization and clear communication boundaries are essential.",
+    "citation": "AAMFT Code of Ethics (2015), Principle II; American Psychological Association (2017). Ethical Principles of Psychologists and Code of Conduct."
+  },
+  {
+    "id": 468,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["patient-reported outcomes", "PROs", "measurement"],
+    "question": "Patient-Reported Outcome Measures (PROMs) are valuable because they:",
+    "options": [
+      "Replace clinical judgment entirely",
+      "Capture the client's subjective experience of symptoms and functioning",
+      "Are only useful for research",
+      "Measure only physical health"
+    ],
+    "correct": 1,
+    "explanation": "Patient-Reported Outcome Measures (PROMs) capture clients' subjective experiences—how they perceive their symptoms, functioning, and quality of life. Unlike observer ratings, PROMs reflect the client's lived experience. They: empower client voice, track outcomes that matter to clients, identify discrepancies between therapist and client perceptions, and support shared decision-making. Examples include the PHQ-9, GAD-7, ORS, and satisfaction surveys.",
+    "citation": "Snyder, C. F., et al. (2012). Implementing Patient-Reported Outcomes Assessment in Clinical Practice. Quality of Life Research, 21(8), 1305-1314."
+  },
+  {
+    "id": 469,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["intersession", "homework", "generalization"],
+    "question": "Between-session tasks or homework assignments help with:",
+    "options": [
+      "Keeping clients busy",
+      "Generalizing skills to daily life and testing changes outside therapy",
+      "Reducing session time",
+      "Proving clients are compliant"
+    ],
+    "correct": 1,
+    "explanation": "Between-session tasks serve multiple functions: practicing new skills in real-world contexts, testing whether changes generalize beyond therapy, building client agency and self-efficacy, providing data for discussion, and accelerating change. Homework completion predicts better outcomes. Tasks should be collaboratively designed, achievable, and reviewed in subsequent sessions to reinforce learning.",
+    "citation": "Kazantzis, N., Whittington, C., & Dattilio, F. (2010). Meta-Analysis of Homework Effects in Cognitive and Behavioral Therapy. Clinical Psychology: Science and Practice, 17(2), 144-156."
+  },
+  {
+    "id": 470,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["therapeutic gains", "maintenance", "follow-up"],
+    "question": "Research on maintenance of therapeutic gains shows:",
+    "options": [
+      "All gains disappear immediately after termination",
+      "Most clients maintain significant gains, though some relapse may occur",
+      "Therapy never produces lasting change",
+      "Only medication produces lasting change"
+    ],
+    "correct": 1,
+    "explanation": "Research generally shows that therapy produces lasting benefits, with most clients maintaining significant gains at follow-up. However, some relapse is common, particularly for certain conditions (depression, addiction, eating disorders). Relapse prevention planning, booster sessions, and appropriate aftercare improve maintenance. Therapy teaches skills that clients can continue using independently.",
+    "citation": "Nicholson, R. A., & Berman, J. S. (1983). Is Follow-Up Necessary in Evaluating Psychotherapy? Psychological Bulletin, 93(2), 261-278; Hollon, S. D., et al. (2006). Prevention of Relapse Following Cognitive Therapy vs. Medications. Archives of General Psychiatry, 63(4), 417-422."
+  },
+  {
+    "id": 471,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["benchmarking", "effectiveness", "comparison"],
+    "question": "Benchmarking in clinical practice involves:",
+    "options": [
+      "Using a physical bench during sessions",
+      "Comparing outcomes to established norms or standards",
+      "Only treating clients who meet certain benchmarks",
+      "Ignoring outcome data"
+    ],
+    "correct": 1,
+    "explanation": "Benchmarking compares clinical outcomes to established standards—either research trials (efficacy benchmarks) or naturalistic practice data (effectiveness benchmarks). This allows therapists and clinics to evaluate whether they're achieving expected outcomes, identify areas for improvement, and demonstrate accountability. Falling significantly below benchmarks should prompt review of practices.",
+    "citation": "Minami, T., et al. (2008). Benchmarking the Effectiveness of Psychotherapy Treatment for Adult Depression in a Managed Care Environment. Journal of Consulting and Clinical Psychology, 76(1), 116-124."
+  },
+  {
+    "id": 472,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["treatment integrity", "fidelity", "adherence"],
+    "question": "Treatment fidelity or integrity refers to:",
+    "options": [
+      "The therapist's moral character",
+      "The degree to which treatment is delivered as intended",
+      "Client honesty in sessions",
+      "How loyal clients are to their therapist"
+    ],
+    "correct": 1,
+    "explanation": "Treatment fidelity refers to whether an intervention is delivered as intended—with adherence to the model, competence in delivery, and appropriate differentiation from other approaches. High fidelity ensures: clients receive the treatment they're supposed to receive, outcomes can be attributed to the intervention, and quality is consistent. Fidelity monitoring is essential for evidence-based practice.",
+    "citation": "Perepletchikova, F., & Kazdin, A. E. (2005). Treatment Integrity and Therapeutic Change: Issues and Research Recommendations. Clinical Psychology: Science and Practice, 12(4), 365-383."
+  },
+  {
+    "id": 473,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["progress", "plateau", "evaluation"],
+    "vignette": "A family made rapid progress in the first 8 sessions but has shown little change in sessions 9-14. They still report being satisfied with therapy.",
+    "question": "This pattern of plateau is:",
+    "options": [
+      "Always a sign of treatment failure",
+      "Common and may represent consolidation or indicate need for approach modification",
+      "Proof the family is resistant",
+      "A reason to immediately terminate"
+    ],
+    "correct": 1,
+    "explanation": "Plateaus in progress are common after initial rapid improvement. They may represent: consolidation of gains, the 'hard work' phase addressing deeper issues, need for approach modification, or appropriate time for termination if goals are met. Plateaus should prompt discussion with clients about whether to continue, modify approach, or terminate. They're not automatically problematic.",
+    "citation": "Howard, K. I., et al. (1986). The Dose-Effect Relationship in Psychotherapy. American Psychologist, 41(2), 159-164; Lambert, M. J. (2007). Presidential Address. Psychotherapy Research, 17(1), 1-14."
+  },
+  {
+    "id": 474,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["symptoms vs functioning", "outcome domains", "evaluation"],
+    "question": "When evaluating therapy outcomes, it's important to assess both symptoms AND functioning because:",
+    "options": [
+      "Insurance requires it",
+      "Clients may improve in one area but not the other",
+      "Symptoms and functioning are the same thing",
+      "Functioning doesn't matter if symptoms improve"
+    ],
+    "correct": 1,
+    "explanation": "Symptoms and functioning are distinct domains that don't always move together. A client might: have reduced symptoms but still struggle functioning (residual impairment), function well despite persistent symptoms (good coping), or show improvement in one area before the other. Comprehensive evaluation assesses: symptom severity, daily functioning (work, school, relationships), quality of life, and goal attainment. Success in one area doesn't guarantee success in others.",
+    "citation": "McKnight, P. E., & Kashdan, T. B. (2009). The Importance of Functional Impairment to Mental Health Outcomes. Clinical Psychology Review, 29(3), 243-255."
+  },
+  {
+    "id": 475,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["practice-based evidence", "research", "outcomes"],
+    "question": "Practice-based evidence differs from evidence-based practice in that it:",
+    "options": [
+      "Ignores research entirely",
+      "Generates evidence from routine clinical practice to inform effectiveness",
+      "Only uses randomized controlled trials",
+      "Rejects the importance of outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Practice-based evidence (PBE) generates research from naturalistic clinical settings, complementing evidence-based practice (EBP) which applies research to practice. PBE studies: real-world clients (not just research volunteers), diverse therapists and settings, typical treatment conditions, and long-term outcomes. This addresses the efficacy-effectiveness gap and helps develop locally-relevant evidence. Both EBP and PBE are valuable.",
+    "citation": "Barkham, M., & Mellor-Clark, J. (2003). Bridging Evidence-Based Practice and Practice-Based Evidence. Clinical Psychology & Psychotherapy, 10(6), 319-327."
+  },
+  {
+    "id": 476,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["premature termination", "risk factors", "engagement"],
+    "question": "Risk factors for premature termination (dropout) include:",
+    "options": [
+      "High motivation for change",
+      "Practical barriers, poor alliance, and unmet expectations",
+      "Strong therapeutic relationship",
+      "Rapid symptom improvement"
+    ],
+    "correct": 1,
+    "explanation": "Dropout risk factors include: practical barriers (cost, transportation, scheduling), weak therapeutic alliance, mismatch between client and therapist expectations, feeling blamed or judged, lack of early symptom relief, low motivation or being mandated, cultural disconnect, and severity of problems. Understanding these factors helps therapists address them proactively to improve engagement.",
+    "citation": "Swift, J. K., & Greenberg, R. P. (2012). Premature Discontinuation in Adult Psychotherapy: A Meta-Analysis. Journal of Consulting and Clinical Psychology, 80(4), 547-559."
+  },
+  {
+    "id": 477,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["multiple informants", "perspectives", "assessment"],
+    "question": "Using multiple informants (different family members) in outcome assessment:",
+    "options": [
+      "Creates confusion and should be avoided",
+      "Provides different perspectives that may reveal important discrepancies",
+      "Is only needed for child clients",
+      "Always produces identical results"
+    ],
+    "correct": 1,
+    "explanation": "Different family members often have different perspectives on problems and progress. Using multiple informants: captures the systemic nature of family therapy, reveals important discrepancies (e.g., parent vs. child views), provides fuller picture of family functioning, and identifies whose perspective matches observed behavior. Discrepancies themselves can be clinically meaningful and addressed therapeutically.",
+    "citation": "De Los Reyes, A., & Kazdin, A. E. (2005). Informant Discrepancies in the Assessment of Childhood Psychopathology. Psychological Bulletin, 131(4), 483-509."
+  },
+  {
+    "id": 478,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["allegiance effects", "bias", "research"],
+    "question": "Researcher allegiance effects in therapy outcome research refer to:",
+    "options": [
+      "Clients being loyal to their therapists",
+      "The tendency for treatments to show better outcomes when studied by their developers",
+      "Therapists being committed to their theoretical orientation",
+      "Insurance companies favoring certain treatments"
+    ],
+    "correct": 1,
+    "explanation": "Researcher allegiance effects occur when treatments show better outcomes in studies conducted by researchers who developed or favor them. This may result from: subtle biases in study design, more experienced delivery of favored treatment, comparison conditions not fairly represented, or outcome measures favoring the preferred approach. This finding suggests caution in interpreting research and supports the importance of independent replication.",
+    "citation": "Luborsky, L., et al. (1999). The Researcher's Own Therapy Allegiances: A 'Wild Card' in Comparisons of Treatment Efficacy. Clinical Psychology: Science and Practice, 6(1), 95-106."
+  },
+  {
+    "id": 479,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["client preferences", "treatment matching", "evaluation"],
+    "question": "Incorporating client treatment preferences into therapy planning:",
+    "options": [
+      "Is inappropriate as therapists are the experts",
+      "Improves engagement, satisfaction, and often outcomes",
+      "Means letting clients do whatever they want",
+      "Is only important for difficult clients"
+    ],
+    "correct": 1,
+    "explanation": "Research shows that matching treatment to client preferences (about approach, therapist characteristics, goals) improves: engagement and attendance, therapeutic alliance, satisfaction, and often outcomes. Clients who receive preferred treatments are less likely to drop out. This doesn't mean abandoning clinical judgment, but rather collaboratively incorporating preferences where clinically appropriate.",
+    "citation": "Swift, J. K., Callahan, J. L., & Vollmer, B. M. (2011). Preferences. Journal of Clinical Psychology, 67(2), 155-165."
+  },
+  {
+    "id": 480,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination", "mutual agreement", "collaboration"],
+    "question": "Ideally, the decision to terminate therapy should be:",
+    "options": [
+      "Made unilaterally by the therapist",
+      "A mutual decision made collaboratively between therapist and client",
+      "Determined solely by insurance limits",
+      "Made by the client without therapist input"
+    ],
+    "correct": 1,
+    "explanation": "Optimal termination is a collaborative decision between therapist and client based on: achievement of treatment goals, client readiness for independence, mutual agreement about appropriate timing, and client wishes. While either party can initiate discussion, mutual decision-making respects client autonomy while incorporating clinical judgment. Abrupt unilateral termination by either party is generally problematic.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Quintana, S. M. (1993). Toward an Expanded and Updated Conceptualization of Termination. Professional Psychology: Research and Practice, 24(4), 426-432."
+  },
+  {
+    "id": 481,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["effect size", "interpretation", "outcomes"],
+    "question": "An effect size of 0.8 in therapy research is generally considered:",
+    "options": [
+      "Small and clinically meaningless",
+      "Large, indicating substantial treatment effects",
+      "Moderate",
+      "Statistically insignificant"
+    ],
+    "correct": 1,
+    "explanation": "Effect size indicates the magnitude of difference between groups. Using Cohen's guidelines: 0.2 = small, 0.5 = medium, 0.8 = large effect. An effect size of 0.8 means the average treated client is better off than about 79% of untreated clients. Most psychotherapies show medium to large effect sizes (0.5-0.8), indicating substantial clinical benefit. Effect sizes help interpret whether statistically significant findings are also clinically meaningful.",
+    "citation": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.). Lawrence Erlbaum; Kazdin, A. E. (2017). Research Design in Clinical Psychology (5th ed.). Pearson."
+  },
+  {
+    "id": 482,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["session-by-session", "monitoring", "trajectory"],
+    "question": "Session-by-session outcome monitoring provides:",
+    "options": [
+      "Too much data to be useful",
+      "Real-time feedback allowing timely treatment adjustments",
+      "Information that's only useful at termination",
+      "Proof that therapy doesn't work"
+    ],
+    "correct": 1,
+    "explanation": "Session-by-session monitoring provides real-time data on client progress, enabling: early detection of clients not responding (often by session 3-5), immediate identification of alliance problems, timely adjustments to treatment approach, prevention of dropout, and data-informed clinical decisions. This is more useful than waiting until termination to discover therapy wasn't working.",
+    "citation": "Lambert, M. J., et al. (2003). Enhancing Psychotherapy Outcomes Via Providing Feedback. Clinical Psychology: Science and Practice, 10(3), 159-172."
+  },
+  {
+    "id": 483,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["therapist disclosure", "termination", "endings"],
+    "question": "It is generally appropriate for therapists at termination to:",
+    "options": [
+      "Share detailed personal problems with clients",
+      "Express genuine appreciation for the work done together and optimism about client's future",
+      "Ask clients to provide professional references",
+      "Request ongoing personal friendship"
+    ],
+    "correct": 1,
+    "explanation": "Appropriate termination includes the therapist expressing: genuine appreciation for the therapeutic relationship, acknowledgment of the client's work and progress, optimism about their continued growth, and care for their well-being. This is different from inappropriate disclosure of personal problems or attempts to extend the relationship beyond professional bounds.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford."
+  },
+  {
+    "id": 484,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["moderation", "mediation", "mechanisms"],
+    "question": "Understanding moderators and mediators of treatment outcome helps therapists:",
+    "options": [
+      "Charge higher fees",
+      "Match clients to appropriate treatments and understand how change occurs",
+      "Ignore individual differences",
+      "Avoid outcome measurement"
+    ],
+    "correct": 1,
+    "explanation": "Moderators are variables that influence for whom treatment works (matching clients to treatments). Mediators are mechanisms through which treatment works (understanding how change occurs). This knowledge helps: select appropriate interventions for specific clients, focus on active ingredients of change, understand why treatment did or didn't work, and improve treatment precision. For example, if alliance mediates outcome, strengthening alliance should improve results.",
+    "citation": "Kazdin, A. E. (2007). Mediators and Mechanisms of Change in Psychotherapy Research. Annual Review of Clinical Psychology, 3, 1-27."
+  },
+  {
+    "id": 485,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["readiness", "termination criteria", "assessment"],
+    "vignette": "A couple has achieved their primary goals (reduced conflict, improved communication) but the therapist notices they still have some unresolved issues from their families of origin.",
+    "question": "The MOST appropriate approach is:",
+    "options": [
+      "Insist on continuing until all possible issues are resolved",
+      "Discuss whether they want to address these issues or terminate, respecting their goals",
+      "Terminate immediately since primary goals are met",
+      "Refer them to another therapist for the remaining issues"
+    ],
+    "correct": 1,
+    "explanation": "When primary goals are met, therapists should collaboratively discuss: whether clients want to address additional issues, whether now is the right time, and whether continuing serves client interests or therapist preferences. Clients have the right to terminate when their goals are achieved, even if the therapist sees additional areas for work. New goals can be addressed in future treatment if desired.",
+    "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 486,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["documentation", "records", "evaluation"],
+    "question": "Good clinical documentation throughout treatment supports evaluation by:",
+    "options": [
+      "Creating paperwork for its own sake",
+      "Providing a record of progress, interventions, and outcomes over time",
+      "Proving the therapist worked hard",
+      "Satisfying bureaucratic requirements only"
+    ],
+    "correct": 1,
+    "explanation": "Good documentation creates an ongoing record that: tracks progress toward goals over time, documents interventions used and client responses, supports clinical decision-making, enables continuity if therapist changes, provides data for outcome evaluation, and protects both client and therapist legally. Documentation is a clinical tool, not just a bureaucratic requirement.",
+    "citation": "AAMFT (2015). Code of Ethics; Cameron, S., & turtle-song, i. (2002). Learning to Write Case Notes Using the SOAP Format. Journal of Counseling & Development, 80(3), 286-292."
+  },
+  {
+    "id": 487,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["contraindications", "treatment matching", "evaluation"],
+    "question": "Contraindications for couples therapy include:",
+    "options": [
+      "Any relationship conflict",
+      "Active domestic violence, active substance abuse, or when one partner is committed to leaving",
+      "Different communication styles",
+      "Occasional disagreements"
+    ],
+    "correct": 1,
+    "explanation": "Couples therapy is contraindicated when: active domestic violence exists (may endanger victim), active untreated substance abuse impairs capacity for change, one partner is firmly committed to separation (individual therapy more appropriate), or severe individual pathology requires stabilization first. Proper assessment identifies these contraindications, preventing harm and directing clients to appropriate services.",
+    "citation": "Stith, S. M., et al. (2012). Intimate Partner Physical Abuse Perpetration and Victimization Risk Factors. Aggression and Violent Behavior, 17(5), 108-133; Gurman, A. S., et al. (2015). Clinical Handbook of Couple Therapy (5th ed.). Guilford."
+  },
+  {
+    "id": 488,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["single-case design", "evaluation", "individual"],
+    "question": "Single-case designs allow therapists to:",
+    "options": [
+      "Only work with one client their entire career",
+      "Evaluate individual client progress using repeated measures and systematic methods",
+      "Avoid all measurement",
+      "Ignore group research findings"
+    ],
+    "correct": 1,
+    "explanation": "Single-case designs (also called N=1 or single-subject designs) systematically evaluate individual client change through: repeated measurement over time, baseline and treatment phase comparisons, visual and statistical analysis of patterns, and demonstration of treatment effects. This approach bridges research and practice by applying scientific methods to individual clients, complementing group research findings.",
+    "citation": "Kazdin, A. E. (2011). Single-Case Research Designs: Methods for Clinical and Applied Settings (2nd ed.). Oxford University Press."
+  },
+  {
+    "id": 489,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["aftercare", "continuing care", "planning"],
+    "question": "Aftercare planning at termination should include:",
+    "options": [
+      "Nothing—therapy is complete",
+      "Resources, relapse prevention strategies, and plans for addressing future challenges",
+      "Only the therapist's contact information",
+      "A guarantee that problems won't recur"
+    ],
+    "correct": 1,
+    "explanation": "Comprehensive aftercare planning includes: identifying ongoing support resources (support groups, community services), relapse prevention strategies (warning signs, coping plans), maintaining gains (continued skill practice), plans for future challenges (when to seek help), emergency resources (crisis lines, ER), and clarity about returning to therapy if needed. This prepares families for sustained independence.",
+    "citation": "Marlatt, G. A., & Donovan, D. M. (Eds.) (2005). Relapse Prevention (2nd ed.). Guilford; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass."
+  },
+  {
+    "id": 490,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["negative effects", "monitoring", "harm prevention"],
+    "vignette": "A therapist reviews outcome data showing that 3 of their last 15 clients deteriorated during treatment. The therapist typically sees about 50 clients per year.",
+    "question": "This pattern should prompt the therapist to:",
+    "options": [
+      "Ignore it as within normal range",
+      "Critically examine their practice, seek consultation, and identify patterns",
+      "Conclude they're a bad therapist and quit",
+      "Blame the clients"
+    ],
+    "correct": 1,
+    "explanation": "A 20% deterioration rate (3/15) exceeds typical estimates (5-10%). This should prompt: honest self-examination, review of these specific cases for patterns (client type, approach used, alliance issues), consultation with colleagues or supervisor, possible adjustment to practice, and continued monitoring. This doesn't mean the therapist is incompetent, but it does warrant investigation and possible improvement efforts.",
+    "citation": "Lambert, M. J. (2007). Presidential Address: What We Have Learned. Psychotherapy Research, 17(1), 1-14; Lilienfeld, S. O. (2007). Psychological Treatments That Cause Harm. Perspectives on Psychological Science, 2(1), 53-70."
+  },
+  {
+    "id": 491,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["stages of change", "readiness", "termination"],
+    "question": "According to the Transtheoretical Model, termination is most appropriate when clients:",
+    "options": [
+      "Are still in precontemplation",
+      "Have moved through action and are maintaining change independently",
+      "Have just begun contemplating change",
+      "Have made a single attempt at change"
+    ],
+    "correct": 1,
+    "explanation": "The Transtheoretical Model describes stages: precontemplation, contemplation, preparation, action, and maintenance. Termination is most appropriate when clients have: taken action on their goals, achieved target changes, and moved into maintenance where they're sustaining changes independently. Clients should have skills to maintain progress without ongoing therapist support. Premature termination during earlier stages may result in relapse.",
+    "citation": "Prochaska, J. O., & DiClemente, C. C. (1983). Stages and Processes of Self-Change of Smoking. Journal of Consulting and Clinical Psychology, 51(3), 390-395."
+  },
+  {
+    "id": 492,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["no-show", "dropout", "engagement"],
+    "question": "When a client misses a session without notice, the therapist should:",
+    "options": [
+      "Immediately terminate them for non-compliance",
+      "Reach out with concern and explore what happened",
+      "Never contact them again",
+      "Bill them triple the session rate"
+    ],
+    "correct": 1,
+    "explanation": "A missed session may indicate: simple scheduling confusion, practical barriers, ambivalence about therapy, dissatisfaction with treatment, crisis, or symptom exacerbation. Reaching out with genuine concern (not punitive tone) allows: clarification, addressing barriers, repairing alliance issues, and demonstrating care. This often prevents dropout. Automatic punitive responses increase dropout risk.",
+    "citation": "Barrett, M. S., et al. (2008). Early Withdrawal from Mental Health Treatment. Psychotherapy, 45(2), 247-267; Swift, J. K., & Greenberg, R. P. (2012). Premature Discontinuation in Adult Psychotherapy. Journal of Consulting and Clinical Psychology, 80(4), 547-559."
+  },
+  {
+    "id": 493,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["therapeutic factors", "common vs specific", "research"],
+    "question": "The debate about common versus specific factors in therapy effectiveness suggests:",
+    "options": [
+      "Only specific techniques matter",
+      "Both relationship factors and specific interventions contribute to outcomes",
+      "The therapeutic relationship is completely irrelevant",
+      "All therapies are exactly equal in effectiveness for all problems"
+    ],
+    "correct": 1,
+    "explanation": "Research suggests both common factors (alliance, empathy, positive expectations) and specific factors (particular techniques, treatment protocols) contribute to outcomes. Common factors appear to account for more variance overall, but specific factors matter for particular conditions. The skilled therapist integrates both: building strong alliance while using appropriate evidence-based techniques. Neither alone is sufficient.",
+    "citation": "Wampold, B. E. (2015). How Important Are the Common Factors in Psychotherapy? World Psychiatry, 14(3), 270-277; Cuijpers, P., et al. (2019). The Effects of Psychotherapies for Major Depression in Adults. Psychological Medicine, 49(3), 366-381."
+  },
+  {
+    "id": 494,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["termination", "forced", "circumstances"],
+    "vignette": "A therapist learns they have a serious medical condition requiring immediate extended leave. They have 20 active clients, some in crisis.",
+    "question": "The therapist's ethical obligations include:",
+    "options": [
+      "Continuing to work despite the medical condition",
+      "Arranging appropriate coverage, notifying clients, and facilitating transfers",
+      "Simply closing the practice without notice",
+      "Having their spouse contact clients"
+    ],
+    "correct": 1,
+    "explanation": "When forced termination is necessary, the therapist must: notify clients as soon as possible, arrange coverage for emergencies and ongoing care, facilitate warm transfers to new providers (especially for vulnerable clients), provide referrals and records, allow processing of the unexpected ending where possible, and ensure no client is abandoned. Practice management planning should address these contingencies before they occur.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Barnett, J. E., & Hillard, D. (2001). Psychologist Distress and Impairment. Professional Psychology: Research and Practice, 32(3), 299-303."
+  },
+  {
+    "id": 495,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["celebration", "success", "termination"],
+    "question": "Acknowledging and celebrating client success at termination:",
+    "options": [
+      "Is inappropriate professional behavior",
+      "Reinforces progress and builds confidence for the future",
+      "Creates dependence on therapist approval",
+      "Should be avoided to maintain neutrality"
+    ],
+    "correct": 1,
+    "explanation": "Celebrating success at termination serves important functions: reinforcing the progress made, attributing success to client efforts, building confidence for maintaining gains, creating a positive ending experience, and marking the achievement appropriately. This doesn't mean excessive praise or taking credit—it means genuinely acknowledging the family's hard work and growth in a way that empowers continued progress.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass."
   }
 ]
