@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MFT Exam">
+    <meta name="theme-color" content="#667eea">
+    <meta name="description" content="Your complete study companion for the Marriage and Family Therapy National Examination. Practice questions, exam simulations, and progress tracking.">
     <title>MFT Exam Master - Your Personal Study Companion</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
@@ -40,6 +45,25 @@
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
+            min-height: 100dvh; /* Dynamic viewport height for iOS Safari */
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+            /* Safe area padding for notched devices */
+            padding-top: env(safe-area-inset-top);
+            padding-left: env(safe-area-inset-left);
+            padding-right: env(safe-area-inset-right);
+        }
+
+        /* Disable background-attachment: fixed on mobile for performance */
+        @media (max-width: 768px) {
+            body {
+                background-attachment: scroll;
+            }
+        }
+
+        /* iOS-specific tap highlight removal */
+        * {
+            -webkit-tap-highlight-color: transparent;
         }
         
         /* ===================================
@@ -384,9 +408,22 @@
         }
         
         .checkbox-item input[type="checkbox"] {
-            width: 20px;
-            height: 20px;
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
             cursor: pointer;
+            /* Touch-friendly tap area */
+            position: relative;
+        }
+
+        .checkbox-item input[type="checkbox"]::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 44px;
+            height: 44px;
         }
         
         .question-card {
@@ -479,9 +516,11 @@
         .answer-option input[type="radio"] {
             margin-top: 3px;
             margin-right: 12px;
-            width: 20px;
-            height: 20px;
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
             cursor: pointer;
+            /* Touch-friendly - the whole .answer-option is tappable */
         }
         
         .answer-option label {
@@ -551,7 +590,154 @@
             color: var(--text-light);
             margin-top: 10px;
         }
-        
+
+        .study-links {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border);
+        }
+
+        .study-links strong {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .study-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 6px 12px;
+            background: var(--primary-light);
+            border-radius: 6px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+        }
+
+        .study-link:hover {
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+        }
+
+        body.theme-dark .study-link {
+            background: rgba(59, 130, 246, 0.2);
+        }
+
+        body.theme-dark .study-link:hover {
+            background: var(--primary);
+        }
+
+        /* Memory Tip Styling */
+        .memory-tip {
+            margin-top: 15px;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--purple-light) 0%, #faf5ff 100%);
+            border-radius: 12px;
+            border-left: 4px solid var(--purple);
+        }
+
+        .memory-tip-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: var(--purple);
+            margin-bottom: 8px;
+        }
+
+        .memory-tip-content {
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        body.theme-dark .memory-tip {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.1) 100%);
+        }
+
+        /* Question Rating Styles */
+        .question-rating {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px dashed var(--border);
+        }
+
+        .rating-label {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .rating-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .rating-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            background: var(--bg);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.2s;
+            color: var(--text);
+        }
+
+        .rating-btn:hover {
+            transform: scale(1.02);
+        }
+
+        .rating-btn.rating-good:hover,
+        .rating-btn.rating-good.selected {
+            background: var(--success-light);
+            border-color: var(--success);
+            color: var(--success);
+        }
+
+        .rating-btn.rating-irrelevant:hover,
+        .rating-btn.rating-irrelevant.selected {
+            background: var(--warning-light);
+            border-color: var(--warning);
+            color: #b45309;
+        }
+
+        .rating-btn.rating-incorrect:hover,
+        .rating-btn.rating-incorrect.selected {
+            background: var(--danger-light);
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+
+        .rating-btn.rating-issue:hover,
+        .rating-btn.rating-issue.selected {
+            background: var(--purple-light);
+            border-color: var(--purple);
+            color: var(--purple);
+        }
+
+        .rating-btn.selected {
+            font-weight: 600;
+        }
+
+        .rating-thanks {
+            font-size: 0.85rem;
+            color: var(--success);
+            font-style: italic;
+            margin-top: 10px;
+            display: block;
+        }
+
         .progress-bar-container {
             background: var(--bg);
             height: 10px;
@@ -791,8 +977,9 @@
         }
 
         .palette-item {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
+            min-width: 44px;
             border-radius: 8px;
             border: 2px solid var(--border);
             background: var(--bg);
@@ -800,9 +987,10 @@
             align-items: center;
             justify-content: center;
             font-weight: 600;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             cursor: pointer;
             transition: all 0.2s;
+            touch-action: manipulation;
         }
 
         .palette-item:hover {
@@ -879,37 +1067,251 @@
             color: white;
         }
 
+        /* Touch-friendly active states for all devices */
+        .btn:active,
+        .option-card:active,
+        .answer-option:active,
+        .palette-item:active,
+        .session-history-card:active {
+            transform: scale(0.98);
+            opacity: 0.9;
+        }
+
+        /* Only show hover effects on devices with hover capability */
+        @media (hover: hover) {
+            .btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+            }
+
+            .btn-secondary:hover,
+            .btn-success:hover {
+                transform: translateY(-2px);
+            }
+
+            .option-card:hover {
+                transform: translateY(-5px);
+                border-color: var(--primary);
+            }
+
+            .answer-option:hover:not(.correct):not(.incorrect) {
+                background: var(--primary-light);
+                border-color: var(--primary);
+            }
+
+            .checkbox-item:hover {
+                background: var(--primary-light);
+            }
+
+            .palette-item:hover:not(.current):not(.answered):not(.flagged) {
+                background: var(--primary-light);
+                border-color: var(--primary);
+            }
+
+            .session-history-card:hover {
+                border-color: var(--primary);
+                transform: translateY(-2px);
+            }
+
+            .study-link:hover {
+                background: var(--primary);
+                color: white;
+            }
+        }
+
+        /* Tablet breakpoint */
         @media (max-width: 768px) {
             .app-container {
                 padding: 10px;
             }
-            
+
             .header {
                 padding: 20px;
             }
-            
+
             .logo h1 {
                 font-size: 1.4rem;
             }
-            
+
             .options-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .action-buttons {
                 flex-direction: column;
             }
-            
+
             .btn {
                 width: 100%;
                 justify-content: center;
             }
-            
+
             .domain-bar {
                 width: 100px;
             }
+
+            /* Fix accessibility panel on tablets/phones */
+            .accessibility-panel {
+                width: calc(100vw - 40px);
+                max-width: 340px;
+                right: 20px;
+                left: auto;
+            }
         }
-        
+
+        /* Phone breakpoint */
+        @media (max-width: 480px) {
+            .accessibility-panel {
+                width: calc(100vw - 20px);
+                right: 10px;
+                left: 10px;
+                bottom: 80px;
+                max-width: none;
+            }
+
+            .accessibility-btn {
+                width: 50px;
+                height: 50px;
+                bottom: 15px;
+                right: 15px;
+            }
+
+            .question-card {
+                padding: 20px;
+            }
+
+            .palette-grid {
+                grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+                gap: 6px;
+            }
+
+            .palette-item {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+                font-size: 0.8rem;
+            }
+        }
+
+        /* Small phone breakpoint */
+        @media (max-width: 375px) {
+            .header {
+                padding: 15px;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .logo h1 {
+                font-size: 1.2rem;
+            }
+
+            .user-info {
+                align-self: flex-end;
+            }
+
+            .question-card {
+                padding: 15px;
+            }
+        }
+
+        /* ===================================
+           ANDROID FOLDABLE & LARGE SCREEN SUPPORT
+           =================================== */
+
+        /* Foldable devices in unfolded state (Samsung Fold, etc.) */
+        @media (horizontal-viewport-segments: 2) {
+            .app-container {
+                display: grid;
+                grid-template-columns: env(viewport-segment-width 0 0) env(viewport-segment-width 1 0);
+                gap: 0;
+            }
+
+            /* Left panel: navigation/dashboard */
+            .card:not(#studySession .card) {
+                grid-column: 1;
+            }
+
+            /* Right panel: question content */
+            #studySession {
+                grid-column: 2;
+                position: sticky;
+                top: 0;
+                height: 100vh;
+                overflow-y: auto;
+            }
+        }
+
+        /* Large tablets and desktop - two column layout */
+        @media (min-width: 1024px) {
+            .app-container {
+                max-width: 1400px;
+            }
+
+            .options-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .resources-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            /* Side-by-side layout for study session */
+            #studySession {
+                display: grid;
+                grid-template-columns: 1fr 320px;
+                gap: 20px;
+                align-items: start;
+            }
+
+            #studySession > .card:first-child {
+                grid-column: 1 / -1;
+            }
+
+            .question-card {
+                grid-column: 1;
+            }
+
+            .question-palette {
+                grid-column: 2;
+                position: sticky;
+                top: 20px;
+            }
+        }
+
+        /* Landscape orientation on mobile - optimize for wider view */
+        @media (max-height: 500px) and (orientation: landscape) {
+            .header {
+                padding: 10px 20px;
+            }
+
+            .question-card {
+                padding: 15px;
+            }
+
+            .answer-option {
+                padding: 12px 15px;
+            }
+
+            .feedback {
+                padding: 15px;
+            }
+        }
+
+        /* Android-specific touch optimizations */
+        @supports (-webkit-touch-callout: none) or (touch-action: manipulation) {
+            .btn,
+            .option-card,
+            .answer-option,
+            .palette-item,
+            .checkbox-item,
+            .session-history-card {
+                touch-action: manipulation;
+                -webkit-touch-callout: none;
+                user-select: none;
+                -webkit-user-select: none;
+            }
+        }
+
         /* ===================================
            ACCESSIBILITY ENHANCEMENTS
            =================================== */
@@ -918,7 +1320,9 @@
         .accessibility-btn {
             position: fixed;
             bottom: 20px;
+            bottom: max(20px, env(safe-area-inset-bottom));
             right: 20px;
+            right: max(20px, env(safe-area-inset-right));
             width: 60px;
             height: 60px;
             border-radius: 50%;
@@ -930,6 +1334,7 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
             z-index: 9999;
             transition: transform 0.3s, box-shadow 0.3s;
+            touch-action: manipulation;
         }
         
         .accessibility-btn:hover {
@@ -1337,7 +1742,34 @@
                 <option value="2.4">Extra Relaxed</option>
             </select>
         </div>
-        
+
+        <div class="accessibility-section">
+            <label style="display: flex; align-items: center; justify-content: space-between; cursor: pointer;">
+                <span>Show Running Score</span>
+                <input type="checkbox" id="runningScoreToggle" onchange="toggleRunningScore(this.checked)"
+                       style="width: 20px; height: 20px; cursor: pointer;" checked>
+            </label>
+            <small style="color: var(--text-light); display: block; margin-top: 4px;">
+                Display your current score during study sessions
+            </small>
+        </div>
+
+        <div class="accessibility-section" style="border-top: 2px solid var(--border); padding-top: 20px; margin-top: 20px;">
+            <label>Profile Settings</label>
+            <div style="margin-bottom: 12px;">
+                <input type="text" id="settingsUserName" placeholder="Enter your name (optional)"
+                       style="width: 100%; padding: 10px; border-radius: 8px; border: 2px solid var(--border); box-sizing: border-box;">
+            </div>
+            <div style="display: flex; gap: 10px;">
+                <button class="btn btn-secondary" onclick="updateUserName()" style="flex: 1;">
+                    Update Name
+                </button>
+                <button class="btn" onclick="clearUserName()" style="flex: 1; background: var(--bg);">
+                    Go Anonymous
+                </button>
+            </div>
+        </div>
+
         <button class="btn btn-primary" onclick="savePreferences()" style="width: 100%; margin-top: 12px;">
             💾 Save Preferences
         </button>
@@ -1374,8 +1806,8 @@
             
             <div style="max-width: 400px; margin: 0 auto;">
                 <div class="input-group">
-                    <label for="studentName">What's your name?</label>
-                    <input type="text" id="studentName" placeholder="Enter your name" autofocus>
+                    <label for="studentName">What's your name? (optional)</label>
+                    <input type="text" id="studentName" placeholder="Enter your name (optional)" autofocus>
                 </div>
                 <button class="btn btn-primary" onclick="startStudying()" style="width: 100%;">
                     Let's Start Studying! 🚀
@@ -1423,8 +1855,14 @@
                     <h3>Study Resources</h3>
                     <p>Helpful links and materials</p>
                 </div>
+
+                <div class="option-card" onclick="showFeedback()">
+                    <div class="icon">💬</div>
+                    <h3>Give Feedback</h3>
+                    <p>Help improve this study tool</p>
+                </div>
             </div>
-            
+
             <!-- Quick Stats -->
             <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid var(--border);">
                 <h3 style="margin-bottom: 15px;">Your Study Stats</h3>
@@ -1493,8 +1931,11 @@
         <div class="hidden" id="studySession">
             <!-- Progress Bar -->
             <div class="card" style="padding: 20px;">
-                <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.9rem; color: var(--text-light);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; font-size: 0.9rem; color: var(--text-light); flex-wrap: wrap; gap: 10px;">
                     <span>Progress: <span id="sessionProgress">0/0</span></span>
+                    <span id="runningScoreDisplay" style="font-weight: 600; padding: 4px 12px; border-radius: 20px; background: var(--primary-light); color: var(--primary);">
+                        Score: <span id="runningScore">0%</span>
+                    </span>
                     <span id="sessionTimer"></span>
                 </div>
                 <div class="progress-bar-container">
@@ -1738,6 +2179,66 @@
                 <button class="btn btn-primary" onclick="backToDashboard()">Back to Dashboard</button>
             </div>
         </div>
+
+        <!-- Feedback Screen -->
+        <div class="card hidden" id="feedbackScreen">
+            <h2>💬 Give Feedback</h2>
+            <p style="color: var(--text-light); margin-bottom: 30px;">Help us improve MFT Exam Master! Your feedback shapes this study tool.</p>
+
+            <div style="display: grid; gap: 20px; max-width: 600px;">
+                <!-- Feedback Type -->
+                <div class="input-group">
+                    <label for="feedbackType">What kind of feedback?</label>
+                    <select id="feedbackType" style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border);">
+                        <option value="question">Question Issue (incorrect/unclear)</option>
+                        <option value="suggestion">Suggestion for improvement</option>
+                        <option value="bug">Bug or technical issue</option>
+                        <option value="praise">What I love about this app</option>
+                        <option value="other">Other feedback</option>
+                    </select>
+                </div>
+
+                <!-- Question ID (optional) -->
+                <div class="input-group">
+                    <label for="feedbackQuestionId">Question ID (if applicable)</label>
+                    <input type="number" id="feedbackQuestionId" placeholder="e.g., 101, 205, 312..."
+                           style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border);">
+                    <small style="color: var(--text-light);">Find the question ID at the top of each question</small>
+                </div>
+
+                <!-- Feedback Text -->
+                <div class="input-group">
+                    <label for="feedbackText">Your Feedback</label>
+                    <textarea id="feedbackText" rows="5" placeholder="Please describe the issue or suggestion in detail..."
+                              style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border); resize: vertical;"></textarea>
+                </div>
+
+                <!-- Email (optional) -->
+                <div class="input-group">
+                    <label for="feedbackEmail">Your Email (optional)</label>
+                    <input type="email" id="feedbackEmail" placeholder="For follow-up questions (not required)"
+                           style="width: 100%; padding: 12px; border-radius: 8px; border: 2px solid var(--border);">
+                </div>
+
+                <div class="action-buttons" style="margin-top: 10px;">
+                    <button class="btn btn-primary" onclick="submitFeedback()">📤 Submit Feedback</button>
+                    <button class="btn btn-secondary" onclick="backToDashboard()">Cancel</button>
+                </div>
+            </div>
+
+            <!-- Previous Feedback -->
+            <div id="previousFeedback" style="margin-top: 40px; padding-top: 20px; border-top: 2px solid var(--border);">
+                <h3 style="margin-bottom: 15px;">Your Previous Feedback</h3>
+                <div id="feedbackList"></div>
+            </div>
+
+            <!-- Question Stats for Admin -->
+            <div id="questionStatsSection" style="margin-top: 40px; padding-top: 20px; border-top: 2px solid var(--border);">
+                <h3 style="margin-bottom: 15px;">📊 Your Question Statistics</h3>
+                <p style="color: var(--text-light); margin-bottom: 15px;">Questions you've rated or may need review:</p>
+                <div id="questionStatsList"></div>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -1805,6 +2306,98 @@
             { id: "domain6", name: "Ethical, Legal, Professional Standards", description: "Ethics, law, and professional practice" }
         ];
 
+        // Domain default study URLs for further learning
+        const domainDefaultUrls = {
+            "Practice of Systemic Therapy": [
+                { title: "AAMFT: Family Therapy Overview", url: "https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx" },
+                { title: "Bowen Center: Family Systems Theory", url: "https://www.thebowencenter.org/theory/" }
+            ],
+            "Assessing, Hypothesizing, Diagnosing": [
+                { title: "APA: DSM-5 Resources", url: "https://www.psychiatry.org/psychiatrists/practice/dsm" },
+                { title: "AAMFT: Assessment in Family Therapy", url: "https://www.aamft.org/" }
+            ],
+            "Designing and Conducting Treatment": [
+                { title: "AAMFT: Treatment Planning", url: "https://www.aamft.org/" },
+                { title: "AMFTRB: Clinical Resources", url: "https://amftrb.org/resources/" }
+            ],
+            "Evaluating Process and Terminating": [
+                { title: "AMFTRB: Clinical Resources", url: "https://amftrb.org/resources/" }
+            ],
+            "Managing Crisis Situations": [
+                { title: "988 Suicide & Crisis Lifeline", url: "https://988lifeline.org/" },
+                { title: "SAMHSA: Crisis Resources", url: "https://www.samhsa.gov/find-help" }
+            ],
+            "Ethical, Legal, Professional Standards": [
+                { title: "AAMFT Code of Ethics", url: "https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx" },
+                { title: "AMFTRB: Exam Resources", url: "https://amftrb.org/resources/" }
+            ]
+        };
+
+        const globalDefaultUrl = [
+            { title: "AMFTRB Study Resources", url: "https://amftrb.org/resources/" }
+        ];
+
+        // ===================================
+        // GOOGLE FORMS CONFIGURATION
+        // ===================================
+        // To enable feedback collection via Google Forms:
+        // 1. Create a Google Form with these fields:
+        //    - Feedback Type (dropdown)
+        //    - Question ID (short answer, number)
+        //    - Feedback Text (paragraph)
+        //    - Email (short answer, optional)
+        //    - User ID (short answer)
+        //    - Timestamp (short answer)
+        // 2. Get your form's pre-filled link and extract the entry IDs
+        // 3. Update the values below
+
+        const GOOGLE_FORMS_CONFIG = {
+            // === FEEDBACK FORM ===
+            feedback: {
+                enabled: false, // Set to true after configuring
+                formUrl: 'https://docs.google.com/forms/d/e/YOUR_FEEDBACK_FORM_ID/formResponse',
+                fields: {
+                    feedbackType: 'entry.XXXXXXXXXX',    // Replace with your entry ID
+                    questionId: 'entry.XXXXXXXXXX',      // Replace with your entry ID
+                    feedbackText: 'entry.XXXXXXXXXX',    // Replace with your entry ID
+                    email: 'entry.XXXXXXXXXX',           // Replace with your entry ID
+                    userId: 'entry.XXXXXXXXXX',          // Replace with your entry ID
+                    timestamp: 'entry.XXXXXXXXXX'        // Replace with your entry ID
+                }
+            },
+            // === RATINGS FORM ===
+            ratings: {
+                enabled: false, // Set to true after configuring
+                formUrl: 'https://docs.google.com/forms/d/e/YOUR_RATINGS_FORM_ID/formResponse',
+                fields: {
+                    questionId: 'entry.XXXXXXXXXX',      // Question ID number
+                    rating: 'entry.XXXXXXXXXX',          // 'up' or 'down'
+                    domain: 'entry.XXXXXXXXXX',          // Question domain
+                    difficulty: 'entry.XXXXXXXXXX',      // easy/medium/hard
+                    userId: 'entry.XXXXXXXXXX',          // Unique user ID
+                    timestamp: 'entry.XXXXXXXXXX',       // When rated
+                    wasCorrect: 'entry.XXXXXXXXXX'       // Did user answer correctly?
+                }
+            }
+        };
+
+        // Helper function to get study URLs for a question
+        function getStudyUrls(question) {
+            // If question has specific URLs, use them
+            if (question.studyUrls && question.studyUrls.length > 0) {
+                return question.studyUrls;
+            }
+
+            // Fall back to domain default
+            const domainDefault = domainDefaultUrls[question.domain];
+            if (domainDefault) {
+                return domainDefault;
+            }
+
+            // Global fallback
+            return globalDefaultUrl;
+        }
+
         // Application State
         let state = {
             userName: '',
@@ -1812,7 +2405,8 @@
             preferences: {
                 fontSize: 16,
                 theme: 'light',
-                lineSpacing: 1.6
+                lineSpacing: 1.6,
+                showRunningScore: true
             },
             currentSession: {
                 questions: [],
@@ -1825,6 +2419,9 @@
             },
             sessions: [], // Complete history with all Q&A
             questionNotes: {}, // {questionId: {note: '', flagged: false}}
+            questionRatings: {}, // {questionId: 'good' | 'irrelevant' | 'incorrect' | 'issue'}
+            questionStats: {}, // {questionId: {timesAnswered, timesCorrect, good, irrelevant, incorrect, issue}}
+            userFeedback: [], // [{date, questionId, type, comment}]
             history: [],
             stats: {
                 totalSessions: 0,
@@ -1832,7 +2429,8 @@
                 totalCorrect: 0,
                 lastStudyDate: null,
                 flaggedCount: 0
-            }
+            },
+            uniqueUserId: null // Generated on first use for analytics
         };
 
         // Initialize app
@@ -1862,36 +2460,68 @@
 
         // Local Storage functions
         function loadUserData() {
-            const saved = localStorage.getItem('mftExamMaster');
-            if (saved) {
-                state = JSON.parse(saved);
+            try {
+                const saved = localStorage.getItem('mftExamMaster');
+                if (saved) {
+                    state = JSON.parse(saved);
+                }
+            } catch (e) {
+                console.warn('Could not load saved data:', e.message);
+                // Continue with default state
             }
         }
 
         function saveUserData() {
-            localStorage.setItem('mftExamMaster', JSON.stringify(state));
+            try {
+                localStorage.setItem('mftExamMaster', JSON.stringify(state));
+            } catch (e) {
+                console.warn('Could not save data (private browsing?):', e.message);
+                // Silently fail - user can still use app, just won't persist
+            }
         }
 
         // Start studying
         function startStudying() {
             const name = document.getElementById('studentName').value.trim();
-            if (!name) {
-                alert('Please enter your name!');
-                return;
-            }
-            
-            state.userName = name;
+
+            state.userName = name; // Can be empty for anonymous users
             saveUserData();
-            
+
             document.getElementById('welcomeScreen').classList.add('hidden');
             document.getElementById('dashboard').classList.remove('hidden');
             updateUserInfo();
         }
 
         function updateUserInfo() {
-            document.getElementById('userInfo').classList.remove('hidden');
-            document.getElementById('userName').textContent = state.userName;
-            document.getElementById('userAvatar').textContent = state.userName.charAt(0).toUpperCase();
+            const userInfoEl = document.getElementById('userInfo');
+            const userNameEl = document.getElementById('userName');
+            const userAvatarEl = document.getElementById('userAvatar');
+
+            userInfoEl.classList.remove('hidden');
+
+            if (state.userName && state.userName.trim()) {
+                // Show personalized greeting
+                userNameEl.textContent = state.userName;
+                userAvatarEl.textContent = state.userName.charAt(0).toUpperCase();
+            } else {
+                // Show anonymous/generic display
+                userNameEl.textContent = 'Student';
+                userAvatarEl.textContent = '👤';
+            }
+        }
+
+        function updateUserName() {
+            const newName = document.getElementById('settingsUserName').value.trim();
+            state.userName = newName;
+            saveUserData();
+            updateUserInfo();
+        }
+
+        function clearUserName() {
+            state.userName = '';
+            document.getElementById('settingsUserName').value = '';
+            saveUserData();
+            updateUserInfo();
         }
 
         // Select study mode
@@ -2039,6 +2669,42 @@
                             <div class="citation">
                                 <strong>📚 Citation:</strong> ${question.citation}
                             </div>
+                            <div class="study-links">
+                                <strong>🔗 Learn More:</strong>
+                                ${getStudyUrls(question).map(link =>
+                                    `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="study-link">${link.title} →</a>`
+                                ).join('')}
+                            </div>
+                            ${question.memoryTip ? `
+                            <div class="memory-tip">
+                                <div class="memory-tip-header">
+                                    <span>💡</span> Memory Tip
+                                </div>
+                                <div class="memory-tip-content">${question.memoryTip}</div>
+                            </div>
+                            ` : ''}
+                            <div class="question-rating">
+                                <span class="rating-label">Rate this question:</span>
+                                <div class="rating-buttons">
+                                    <button class="rating-btn rating-good ${state.questionRatings[question.id] === 'good' ? 'selected' : ''}"
+                                            onclick="rateQuestion(${question.id}, 'good')" title="Good, helpful question">
+                                        👍 Good
+                                    </button>
+                                    <button class="rating-btn rating-irrelevant ${state.questionRatings[question.id] === 'irrelevant' ? 'selected' : ''}"
+                                            onclick="rateQuestion(${question.id}, 'irrelevant')" title="Not relevant to MFT exam">
+                                        ⚠️ Irrelevant
+                                    </button>
+                                    <button class="rating-btn rating-incorrect ${state.questionRatings[question.id] === 'incorrect' ? 'selected' : ''}"
+                                            onclick="rateQuestion(${question.id}, 'incorrect')" title="The marked answer is wrong">
+                                        ❌ Wrong Answer
+                                    </button>
+                                    <button class="rating-btn rating-issue ${state.questionRatings[question.id] === 'issue' ? 'selected' : ''}"
+                                            onclick="rateQuestion(${question.id}, 'issue')" title="Other issue with this question">
+                                        🔧 Other Issue
+                                    </button>
+                                </div>
+                                ${state.questionRatings[question.id] ? '<span class="rating-thanks">Thanks for your feedback!</span>' : ''}
+                            </div>
                         </div>
                     ` : ''}
                 </div>
@@ -2051,11 +2717,21 @@
         function selectAnswer(optionIndex) {
             const session = state.currentSession;
             const question = session.questions[session.currentIndex];
-            
+
+            // Check if this is the first time answering this question in this session
+            const isFirstAnswer = session.answers[question.id] === undefined;
+
             // Save the answer but DON'T auto-advance
             session.answers[question.id] = optionIndex;
+
+            // Track question statistics (only on first answer)
+            if (isFirstAnswer) {
+                const isCorrect = optionIndex === question.correct;
+                trackQuestionAnswer(question.id, isCorrect);
+            }
+
             saveUserData();
-            
+
             // Just update the display to show selection and feedback (if practice mode)
             showQuestion();
         }
@@ -2138,10 +2814,13 @@
             const answered = Object.keys(session.answers).length;
             const total = session.questions.length;
             const progress = (answered / total) * 100;
-            
+
             document.getElementById('sessionProgress').textContent = `${answered}/${total}`;
             document.getElementById('sessionProgressBar').style.width = `${progress}%`;
-            
+
+            // Update running score
+            updateRunningScore();
+
             // Update timer
             if (session.startTime) {
                 const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
@@ -2288,6 +2967,8 @@
                     citation: q.citation,
                     domain: q.domain,
                     difficulty: q.difficulty,
+                    studyUrls: q.studyUrls || null,
+                    memoryTip: q.memoryTip || null,
                     timeSpent: 0 // Could track per question if needed
                 })),
                 score: percentage,
@@ -2421,11 +3102,25 @@
                             <div class="citation">
                                 <strong>📚 Citation:</strong> ${question.citation}
                             </div>
+                            <div class="study-links">
+                                <strong>🔗 Learn More:</strong>
+                                ${getStudyUrls(question).map(link =>
+                                    `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="study-link">${link.title} →</a>`
+                                ).join('')}
+                            </div>
+                            ${question.memoryTip ? `
+                            <div class="memory-tip">
+                                <div class="memory-tip-header">
+                                    <span>💡</span> Memory Tip
+                                </div>
+                                <div class="memory-tip-content">${question.memoryTip}</div>
+                            </div>
+                            ` : ''}
                         </div>
                     </div>
                 `;
             }).join('');
-            
+
             document.getElementById('missedQuestionsList').innerHTML = missedHtml;
             window.scrollTo(0, 0);
         }
@@ -2487,11 +3182,282 @@
             window.scrollTo(0, 0);
         }
 
+        function showFeedback() {
+            hideAllScreens();
+            document.getElementById('feedbackScreen').classList.remove('hidden');
+            renderPreviousFeedback();
+            renderQuestionStats();
+            window.scrollTo(0, 0);
+        }
+
+        function submitFeedback() {
+            const type = document.getElementById('feedbackType').value;
+            const questionId = document.getElementById('feedbackQuestionId').value;
+            const text = document.getElementById('feedbackText').value.trim();
+            const email = document.getElementById('feedbackEmail').value.trim();
+
+            if (!text) {
+                alert('Please enter your feedback before submitting.');
+                return;
+            }
+
+            // Initialize feedback array if needed
+            if (!state.userFeedback) state.userFeedback = [];
+
+            // Create feedback object
+            const feedback = {
+                id: 'feedback_' + Date.now(),
+                date: new Date().toISOString(),
+                type: type,
+                questionId: questionId ? parseInt(questionId) : null,
+                text: text,
+                email: email || null,
+                userId: generateUniqueUserId()
+            };
+
+            // Save locally
+            state.userFeedback.push(feedback);
+            saveUserData();
+
+            // Send to Google Forms if configured
+            if (GOOGLE_FORMS_CONFIG.feedback.enabled) {
+                sendFeedbackToGoogleForms(feedback);
+            }
+
+            // Clear form
+            document.getElementById('feedbackText').value = '';
+            document.getElementById('feedbackQuestionId').value = '';
+            document.getElementById('feedbackEmail').value = '';
+
+            // Show confirmation
+            alert('Thank you for your feedback! Your input helps improve this study tool.');
+
+            // Re-render feedback list
+            renderPreviousFeedback();
+
+            // Log for analytics
+            console.log('Feedback submitted:', feedback);
+        }
+
+        function sendFeedbackToGoogleForms(feedback) {
+            const config = GOOGLE_FORMS_CONFIG.feedback;
+            const params = new URLSearchParams();
+            params.append(config.fields.feedbackType, feedback.type);
+            params.append(config.fields.questionId, feedback.questionId || '');
+            params.append(config.fields.feedbackText, feedback.text);
+            params.append(config.fields.email, feedback.email || '');
+            params.append(config.fields.userId, feedback.userId);
+            params.append(config.fields.timestamp, feedback.date);
+
+            submitToGoogleForm(config.formUrl, params);
+            console.log('Feedback sent to Google Forms');
+        }
+
+        function sendRatingToGoogleForms(questionId, rating, question, wasCorrect) {
+            if (!GOOGLE_FORMS_CONFIG.ratings.enabled) return;
+
+            const config = GOOGLE_FORMS_CONFIG.ratings;
+            const params = new URLSearchParams();
+            params.append(config.fields.questionId, questionId);
+            params.append(config.fields.rating, rating);
+            params.append(config.fields.domain, question?.domain || 'Unknown');
+            params.append(config.fields.difficulty, question?.difficulty || 'Unknown');
+            params.append(config.fields.userId, generateUniqueUserId());
+            params.append(config.fields.timestamp, new Date().toISOString());
+            params.append(config.fields.wasCorrect, wasCorrect ? 'Yes' : 'No');
+
+            submitToGoogleForm(config.formUrl, params);
+            console.log('Rating sent to Google Forms:', { questionId, rating });
+        }
+
+        function submitToGoogleForm(formUrl, params) {
+            // Submit via hidden iframe (avoids CORS issues)
+            const iframeName = 'google_forms_iframe_' + Date.now();
+            const iframe = document.createElement('iframe');
+            iframe.style.display = 'none';
+            iframe.name = iframeName;
+            document.body.appendChild(iframe);
+
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = formUrl;
+            form.target = iframeName;
+
+            // Add all params as hidden inputs
+            for (const [key, value] of params.entries()) {
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = key;
+                input.value = value;
+                form.appendChild(input);
+            }
+
+            document.body.appendChild(form);
+            form.submit();
+
+            // Clean up after submission
+            setTimeout(() => {
+                if (document.body.contains(form)) document.body.removeChild(form);
+                if (document.body.contains(iframe)) document.body.removeChild(iframe);
+            }, 2000);
+        }
+
+        function renderPreviousFeedback() {
+            const container = document.getElementById('feedbackList');
+            if (!state.userFeedback || state.userFeedback.length === 0) {
+                container.innerHTML = '<p style="color: var(--text-light); font-style: italic;">No feedback submitted yet.</p>';
+                return;
+            }
+
+            const feedbackHtml = state.userFeedback.slice().reverse().slice(0, 10).map(fb => {
+                const date = new Date(fb.date).toLocaleDateString();
+                const typeLabels = {
+                    question: '❓ Question Issue',
+                    suggestion: '💡 Suggestion',
+                    bug: '🐛 Bug Report',
+                    praise: '❤️ Praise',
+                    other: '📝 Other'
+                };
+                return `
+                    <div style="background: var(--bg); padding: 15px; border-radius: 8px; margin-bottom: 10px; border-left: 4px solid var(--primary);">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                            <span style="font-weight: 600;">${typeLabels[fb.type] || fb.type}</span>
+                            <span style="color: var(--text-light); font-size: 0.85rem;">${date}</span>
+                        </div>
+                        ${fb.questionId ? `<div style="font-size: 0.85rem; color: var(--primary); margin-bottom: 8px;">Question #${fb.questionId}</div>` : ''}
+                        <div style="color: var(--text);">${fb.text}</div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = feedbackHtml;
+        }
+
+        function renderQuestionStats() {
+            const container = document.getElementById('questionStatsList');
+
+            // Get rated questions by type
+            const ratedQuestions = { good: [], irrelevant: [], incorrect: [], issue: [] };
+            if (state.questionRatings) {
+                for (const qId in state.questionRatings) {
+                    const rating = state.questionRatings[qId];
+                    if (ratedQuestions[rating]) {
+                        ratedQuestions[rating].push(parseInt(qId));
+                    }
+                }
+            }
+
+            const totalRated = Object.values(ratedQuestions).flat().length;
+
+            if (totalRated === 0) {
+                container.innerHTML = '<p style="color: var(--text-light); font-style: italic;">Answer and rate more questions to see statistics.</p>';
+                return;
+            }
+
+            let html = '';
+
+            // Show incorrect answer questions (highest priority)
+            if (ratedQuestions.incorrect.length > 0) {
+                html += '<h4 style="color: var(--danger); margin-bottom: 10px;">❌ Questions With Wrong Answers (' + ratedQuestions.incorrect.length + ')</h4>';
+                html += '<div style="display: grid; gap: 10px; margin-bottom: 20px;">';
+                ratedQuestions.incorrect.forEach(qId => {
+                    html += `
+                        <div style="background: var(--danger-light); padding: 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                            <span><strong>Question #${qId}</strong> - Marked answer may be incorrect</span>
+                            <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" onclick="reportQuestion(${qId})">
+                                Report Details
+                            </button>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+
+            // Show irrelevant questions
+            if (ratedQuestions.irrelevant.length > 0) {
+                html += '<h4 style="color: #b45309; margin-bottom: 10px;">⚠️ Irrelevant Questions (' + ratedQuestions.irrelevant.length + ')</h4>';
+                html += '<div style="display: grid; gap: 10px; margin-bottom: 20px;">';
+                ratedQuestions.irrelevant.forEach(qId => {
+                    html += `
+                        <div style="background: var(--warning-light); padding: 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                            <span><strong>Question #${qId}</strong> - May not be relevant to MFT exam</span>
+                            <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" onclick="reportQuestion(${qId})">
+                                Report Details
+                            </button>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+
+            // Show other issues
+            if (ratedQuestions.issue.length > 0) {
+                html += '<h4 style="color: var(--purple); margin-bottom: 10px;">🔧 Other Issues (' + ratedQuestions.issue.length + ')</h4>';
+                html += '<div style="display: grid; gap: 10px; margin-bottom: 20px;">';
+                ratedQuestions.issue.forEach(qId => {
+                    html += `
+                        <div style="background: var(--purple-light); padding: 12px; border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                            <span><strong>Question #${qId}</strong></span>
+                            <button class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;" onclick="reportQuestion(${qId})">
+                                Report Details
+                            </button>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+
+            // Show good questions count
+            if (ratedQuestions.good.length > 0) {
+                html += '<h4 style="color: var(--success); margin-bottom: 10px;">👍 Good Questions (' + ratedQuestions.good.length + ')</h4>';
+                html += '<p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 15px;">These questions are working well for you!</p>';
+            }
+
+            // Show overall stats
+            html += `
+                <div style="background: var(--bg); padding: 15px; border-radius: 8px; margin-top: 20px;">
+                    <h4 style="margin-bottom: 10px;">📈 Your Rating Summary</h4>
+                    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+                        <div style="text-align: center; padding: 10px; background: var(--success-light); border-radius: 8px;">
+                            <div style="font-size: 1.3rem; font-weight: 700; color: var(--success);">${ratedQuestions.good.length}</div>
+                            <div style="font-size: 0.75rem; color: var(--text-light);">Good</div>
+                        </div>
+                        <div style="text-align: center; padding: 10px; background: var(--warning-light); border-radius: 8px;">
+                            <div style="font-size: 1.3rem; font-weight: 700; color: #b45309;">${ratedQuestions.irrelevant.length}</div>
+                            <div style="font-size: 0.75rem; color: var(--text-light);">Irrelevant</div>
+                        </div>
+                        <div style="text-align: center; padding: 10px; background: var(--danger-light); border-radius: 8px;">
+                            <div style="font-size: 1.3rem; font-weight: 700; color: var(--danger);">${ratedQuestions.incorrect.length}</div>
+                            <div style="font-size: 0.75rem; color: var(--text-light);">Wrong Answer</div>
+                        </div>
+                        <div style="text-align: center; padding: 10px; background: var(--purple-light); border-radius: 8px;">
+                            <div style="font-size: 1.3rem; font-weight: 700; color: var(--purple);">${ratedQuestions.issue.length}</div>
+                            <div style="font-size: 0.75rem; color: var(--text-light);">Other</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function reportQuestion(questionId) {
+            document.getElementById('feedbackType').value = 'question';
+            document.getElementById('feedbackQuestionId').value = questionId;
+            document.getElementById('feedbackText').focus();
+            window.scrollTo(0, 0);
+        }
+
+        // Utility function to hide all screens
+        function hideAllScreens() {
+            document.querySelectorAll('.card, #studySession, #sessionHistory, #sessionReview, #studyNotesScreen').forEach(el => {
+                el.classList.add('hidden');
+            });
+        }
+
         function backToDashboard() {
             // Hide all screens
-            document.querySelectorAll('.card, #studySession').forEach(el => {
-                if (el.id !== 'dashboard') el.classList.add('hidden');
-            });
+            hideAllScreens();
             
             // Show dashboard
             document.getElementById('dashboard').classList.remove('hidden');
@@ -2653,13 +3619,234 @@ Visit https://amftrb.org for official exam info.
                     document.getElementById('lineSpacingSelect').value = state.preferences.lineSpacing;
                     updateLineSpacing(state.preferences.lineSpacing);
                 }
+                // Load running score preference
+                const showScore = state.preferences.showRunningScore !== false;
+                document.getElementById('runningScoreToggle').checked = showScore;
+                applyRunningScoreVisibility(showScore);
+            }
+            // Populate the name settings input
+            document.getElementById('settingsUserName').value = state.userName || '';
+        }
+
+        // Running score functions
+        function toggleRunningScore(show) {
+            state.preferences.showRunningScore = show;
+            saveUserData();
+            applyRunningScoreVisibility(show);
+        }
+
+        function applyRunningScoreVisibility(show) {
+            const scoreDisplay = document.getElementById('runningScoreDisplay');
+            if (scoreDisplay) {
+                scoreDisplay.style.display = show ? 'inline-block' : 'none';
             }
         }
-        
+
+        function updateRunningScore() {
+            const session = state.currentSession;
+            const scoreDisplay = document.getElementById('runningScore');
+            const scoreContainer = document.getElementById('runningScoreDisplay');
+
+            if (!scoreDisplay || !scoreContainer) return;
+
+            // Hide if preference is off
+            if (state.preferences.showRunningScore === false) {
+                scoreContainer.style.display = 'none';
+                return;
+            }
+            scoreContainer.style.display = 'inline-block';
+
+            // Calculate current score
+            let correct = 0;
+            let answered = 0;
+            for (const questionId in session.answers) {
+                const question = session.questions.find(q => q.id === parseInt(questionId));
+                if (question) {
+                    answered++;
+                    if (session.answers[questionId] === question.correct) {
+                        correct++;
+                    }
+                }
+            }
+
+            // Display score
+            if (answered === 0) {
+                scoreDisplay.textContent = '0%';
+                scoreContainer.style.background = 'var(--primary-light)';
+                scoreContainer.style.color = 'var(--primary)';
+            } else {
+                const percentage = Math.round((correct / answered) * 100);
+                scoreDisplay.textContent = `${percentage}%`;
+
+                // Color based on score
+                if (percentage >= 70) {
+                    scoreContainer.style.background = 'var(--success-light)';
+                    scoreContainer.style.color = 'var(--success)';
+                } else if (percentage >= 50) {
+                    scoreContainer.style.background = 'var(--warning-light)';
+                    scoreContainer.style.color = 'var(--warning)';
+                } else {
+                    scoreContainer.style.background = 'var(--danger-light)';
+                    scoreContainer.style.color = 'var(--danger)';
+                }
+            }
+        }
+
+        // ===================================
+        // QUESTION RATING & FEEDBACK FUNCTIONS
+        // ===================================
+
+        function rateQuestion(questionId, rating) {
+            // Initialize ratings object if needed
+            if (!state.questionRatings) state.questionRatings = {};
+            if (!state.questionStats) state.questionStats = {};
+
+            // Get previous rating
+            const previousRating = state.questionRatings[questionId];
+
+            // Only send to Google Forms if this is a new rating (not changing existing)
+            const isNewRating = !previousRating;
+
+            // Update user's rating
+            state.questionRatings[questionId] = rating;
+
+            // Initialize question stats if needed
+            if (!state.questionStats[questionId]) {
+                state.questionStats[questionId] = {
+                    timesAnswered: 0,
+                    timesCorrect: 0,
+                    good: 0,
+                    irrelevant: 0,
+                    incorrect: 0,
+                    issue: 0
+                };
+            }
+
+            // Update aggregate stats (local only - for your review)
+            const stats = state.questionStats[questionId];
+
+            // Remove previous rating if exists
+            if (previousRating && stats[previousRating] !== undefined) {
+                stats[previousRating] = Math.max(0, stats[previousRating] - 1);
+            }
+
+            // Add new rating
+            if (stats[rating] !== undefined) {
+                stats[rating]++;
+            }
+
+            saveUserData();
+
+            // Send to Google Forms (only for new ratings to avoid duplicates)
+            if (isNewRating) {
+                const session = state.currentSession;
+                const question = session.questions.find(q => q.id === questionId);
+                const wasCorrect = session.answers[questionId] === question?.correct;
+                sendRatingToGoogleForms(questionId, rating, question, wasCorrect);
+            }
+
+            // Update UI
+            showQuestion();
+
+            // Log for analytics
+            console.log(`Question ${questionId} rated: ${rating}`, stats);
+        }
+
+        function trackQuestionAnswer(questionId, isCorrect) {
+            if (!state.questionStats) state.questionStats = {};
+
+            if (!state.questionStats[questionId]) {
+                state.questionStats[questionId] = {
+                    timesAnswered: 0,
+                    timesCorrect: 0,
+                    good: 0,
+                    irrelevant: 0,
+                    incorrect: 0,
+                    issue: 0
+                };
+            }
+
+            state.questionStats[questionId].timesAnswered++;
+            if (isCorrect) {
+                state.questionStats[questionId].timesCorrect++;
+            }
+        }
+
+        function getQuestionDifficulty(questionId) {
+            const stats = state.questionStats[questionId];
+            if (!stats || stats.timesAnswered < 3) return null;
+
+            const correctRate = stats.timesCorrect / stats.timesAnswered;
+            if (correctRate >= 0.8) return 'easy';
+            if (correctRate >= 0.5) return 'medium';
+            return 'hard';
+        }
+
+        function getProblematicQuestions() {
+            // Returns questions that may need revision
+            const problematic = [];
+
+            for (const questionId in state.questionStats) {
+                const stats = state.questionStats[questionId];
+                const totalRatings = (stats.good || 0) + (stats.irrelevant || 0) + (stats.incorrect || 0) + (stats.issue || 0);
+                const negativeRatings = (stats.irrelevant || 0) + (stats.incorrect || 0) + (stats.issue || 0);
+
+                // Flag questions marked as having incorrect answer
+                if (stats.incorrect > 0) {
+                    problematic.push({
+                        questionId: parseInt(questionId),
+                        stats: stats,
+                        reason: 'Marked as incorrect answer',
+                        severity: 'high'
+                    });
+                }
+
+                // Flag questions marked as irrelevant
+                if (stats.irrelevant > 0) {
+                    problematic.push({
+                        questionId: parseInt(questionId),
+                        stats: stats,
+                        reason: 'Marked as irrelevant',
+                        severity: 'medium'
+                    });
+                }
+
+                // Flag if high ratio of issues
+                if (totalRatings >= 3 && negativeRatings / totalRatings > 0.3) {
+                    problematic.push({
+                        questionId: parseInt(questionId),
+                        stats: stats,
+                        reason: 'High negative rating ratio',
+                        severity: 'medium'
+                    });
+                }
+
+                // Flag if very low correct rate with enough attempts
+                if (stats.timesAnswered >= 5 && stats.timesCorrect / stats.timesAnswered < 0.2) {
+                    problematic.push({
+                        questionId: parseInt(questionId),
+                        stats: stats,
+                        reason: 'Very low correct rate (<20%)',
+                        severity: 'low'
+                    });
+                }
+            }
+
+            return problematic;
+        }
+
+        function generateUniqueUserId() {
+            if (!state.uniqueUserId) {
+                state.uniqueUserId = 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+                saveUserData();
+            }
+            return state.uniqueUserId;
+        }
+
         // ===================================
         // SESSION HISTORY FUNCTIONS
         // ===================================
-        
+
         function showSessionHistory() {
             hideAllScreens();
             document.getElementById('sessionHistory').classList.remove('hidden');
@@ -2842,11 +4029,25 @@ Visit https://amftrb.org for official exam info.
                         <div style="margin-top: 20px; padding: 16px; background: var(--bg); border-radius: 8px;">
                             <div style="font-weight: 600; color: var(--primary); margin-bottom: 8px;">📚 Explanation:</div>
                             <div style="margin-bottom: 12px;">${q.explanation}</div>
-                            <div style="font-size: 0.85rem; color: var(--text-light); font-style: italic;">
+                            <div style="font-size: 0.85rem; color: var(--text-light); font-style: italic; margin-bottom: 12px;">
                                 📖 ${q.citation}
                             </div>
+                            <div class="study-links">
+                                <strong>🔗 Learn More:</strong>
+                                ${getStudyUrls(q).map(link =>
+                                    `<a href="${link.url}" target="_blank" rel="noopener noreferrer" class="study-link">${link.title} →</a>`
+                                ).join('')}
+                            </div>
+                            ${q.memoryTip ? `
+                            <div class="memory-tip">
+                                <div class="memory-tip-header">
+                                    <span>💡</span> Memory Tip
+                                </div>
+                                <div class="memory-tip-content">${q.memoryTip}</div>
+                            </div>
+                            ` : ''}
                         </div>
-                        
+
                         <div class="note-section">
                             <label style="font-weight: 600; display: block; margin-bottom: 8px;">
                                 💭 Your Personal Note:
