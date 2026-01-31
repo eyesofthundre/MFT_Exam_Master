@@ -1056,6 +1056,17 @@
             border: 1px solid var(--border);
         }
 
+        .question-palette.navigator-hidden {
+            display: none;
+        }
+
+        .show-navigator-btn {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            font-size: 0.95rem;
+        }
+
         .skip-btn {
             background: var(--warning-light);
             color: var(--warning);
@@ -1943,20 +1954,6 @@
                 </div>
             </div>
 
-            <!-- Question Palette -->
-            <div class="question-palette">
-                <h3>
-                    <span>Question Navigator</span>
-                    <button class="palette-toggle" onclick="togglePalette()">Hide/Show</button>
-                </h3>
-                <div class="palette-grid" id="questionPalette"></div>
-                <div class="palette-legend">
-                    <div class="legend-item"><div class="legend-dot current"></div> Current</div>
-                    <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
-                    <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
-                </div>
-            </div>
-
             <!-- Question Display -->
             <div id="questionDisplay"></div>
             
@@ -1991,6 +1988,25 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Question Navigator (Bottom) -->
+            <div class="question-palette" id="questionNavigator">
+                <h3>
+                    <span>Question Navigator</span>
+                    <button class="palette-toggle" onclick="toggleNavigator()">Hide Navigator</button>
+                </h3>
+                <div class="palette-grid" id="questionPalette"></div>
+                <div class="palette-legend">
+                    <div class="legend-item"><div class="legend-dot current"></div> Current</div>
+                    <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
+                    <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
+                </div>
+            </div>
+
+            <!-- Show Navigator Button (when hidden) -->
+            <button class="btn btn-secondary show-navigator-btn" id="showNavigatorBtn" onclick="toggleNavigator()" style="display: none;">
+                Show Question Navigator
+            </button>
         </div>
 
         <!-- Results Screen -->
@@ -2603,7 +2619,10 @@
             // Show study session
             document.getElementById('studySettings').classList.add('hidden');
             document.getElementById('studySession').classList.remove('hidden');
-            
+
+            // Restore navigator visibility preference
+            restoreNavigatorPreference();
+
             showQuestion();
         }
 
@@ -2801,11 +2820,35 @@
             }).join('');
         }
 
-        // Toggle palette visibility
-        function togglePalette() {
-            const grid = document.getElementById('questionPalette');
-            if (grid) {
-                grid.classList.toggle('collapsed');
+        // Toggle navigator visibility (complete hide/show)
+        function toggleNavigator() {
+            const navigator = document.getElementById('questionNavigator');
+            const showBtn = document.getElementById('showNavigatorBtn');
+
+            if (!navigator || !showBtn) return;
+
+            const isHidden = navigator.classList.toggle('navigator-hidden');
+            showBtn.style.display = isHidden ? 'block' : 'none';
+
+            // Update button text
+            const toggleBtn = navigator.querySelector('.palette-toggle');
+            if (toggleBtn) {
+                toggleBtn.textContent = 'Hide Navigator';
+            }
+
+            // Save preference
+            localStorage.setItem('mft_navigator_hidden', isHidden ? 'true' : 'false');
+        }
+
+        // Restore navigator preference on session start
+        function restoreNavigatorPreference() {
+            const isHidden = localStorage.getItem('mft_navigator_hidden') === 'true';
+            const navigator = document.getElementById('questionNavigator');
+            const showBtn = document.getElementById('showNavigatorBtn');
+
+            if (navigator && showBtn && isHidden) {
+                navigator.classList.add('navigator-hidden');
+                showBtn.style.display = 'block';
             }
         }
 
