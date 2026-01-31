@@ -1936,6 +1936,8 @@
                 <button class="btn btn-primary" onclick="startStudySession()">Start Session 🎯</button>
                 <button class="btn btn-secondary" onclick="backToDashboard()">Back</button>
             </div>
+
+            <p id="freshQuestionsInfo" style="color: var(--text-light); font-size: 0.85rem; margin-top: 15px; text-align: center; padding: 10px; background: var(--bg); border-radius: 8px;"></p>
         </div>
 
         <!-- Study Session -->
@@ -2144,7 +2146,34 @@
             
             <div class="action-buttons">
                 <button class="btn btn-primary" onclick="backToDashboard()">Back to Dashboard</button>
+                <button class="btn btn-secondary" onclick="showSeenQuestions()">View Seen Questions</button>
+                <button class="btn btn-warning" onclick="resetSeenQuestions()">Reset Seen Questions</button>
                 <button class="btn btn-danger" onclick="resetProgress()">Reset All Progress</button>
+            </div>
+            <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 10px; text-align: center;">
+                Seen questions: <span id="seenQuestionsCount">0</span> / <span id="totalQuestionsCount">0</span>
+                (Questions won't repeat until 80% have been seen)
+            </p>
+        </div>
+
+        <!-- Seen Questions List -->
+        <div class="card hidden" id="seenQuestionsScreen">
+            <h2>Previously Seen Questions</h2>
+            <p style="color: var(--text-light); margin-bottom: 15px;">Questions you've already answered (won't repeat until 80% of pool is seen)</p>
+
+            <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                <label for="seenFilterDomain" style="color: var(--text-light);">Filter by domain:</label>
+                <select id="seenFilterDomain" onchange="filterSeenQuestions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border);">
+                    <option value="all">All Domains</option>
+                </select>
+                <span id="seenFilterCount" style="color: var(--text-light); font-size: 0.9rem;"></span>
+            </div>
+
+            <div id="seenQuestionsList" style="max-height: 500px; overflow-y: auto;"></div>
+
+            <div class="action-buttons" style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="showSessionHistory()">Back to History</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Dashboard</button>
             </div>
         </div>
 
@@ -2438,6 +2467,7 @@
             questionRatings: {}, // {questionId: 'good' | 'irrelevant' | 'incorrect' | 'issue'}
             questionStats: {}, // {questionId: {timesAnswered, timesCorrect, good, irrelevant, incorrect, issue}}
             userFeedback: [], // [{date, questionId, type, comment}]
+            seenQuestions: [], // Track question IDs that have been viewed (no repeat until 80% seen)
             history: [],
             stats: {
                 totalSessions: 0,
@@ -2480,6 +2510,10 @@
                 const saved = localStorage.getItem('mftExamMaster');
                 if (saved) {
                     state = JSON.parse(saved);
+                    // Migration: ensure seenQuestions array exists for existing users
+                    if (!state.seenQuestions) {
+                        state.seenQuestions = [];
+                    }
                 }
             } catch (e) {
                 console.warn('Could not load saved data:', e.message);
@@ -2559,6 +2593,27 @@
                     </label>
                 </div>
             `).join('');
+
+            // Show fresh questions info
+            updateFreshQuestionsInfo();
+        }
+
+        function updateFreshQuestionsInfo() {
+            const seenCount = (state.seenQuestions || []).length;
+            const totalCount = questionBank.length;
+            const freshCount = totalCount - seenCount;
+            const freshPercent = totalCount > 0 ? Math.round((freshCount / totalCount) * 100) : 100;
+
+            const infoEl = document.getElementById('freshQuestionsInfo');
+            if (infoEl) {
+                if (freshPercent >= 80) {
+                    infoEl.innerHTML = `✨ <strong>${freshCount}</strong> fresh questions available (${freshPercent}% of pool) — Questions won't repeat until 80% have been seen.`;
+                } else if (freshPercent > 0) {
+                    infoEl.innerHTML = `📚 <strong>${freshCount}</strong> fresh questions remaining (${freshPercent}%). Some previously seen questions may appear to ensure variety.`;
+                } else {
+                    infoEl.innerHTML = `🔄 All ${totalCount} questions have been seen! Questions will now cycle. <a href="#" onclick="resetSeenQuestions(); return false;">Reset seen questions</a>`;
+                }
+            }
         }
 
         // Start study session
@@ -2584,26 +2639,54 @@
             }
             
             const questionCount = parseInt(document.getElementById('questionCount').value);
-            
-            // Filter questions
-            let filteredQuestions = questionBank.filter(q =>
+
+            // Filter questions by domain and difficulty
+            let matchingQuestions = questionBank.filter(q =>
                 selectedDomains.includes(q.domain) &&
                 selectedDifficulty.includes(q.difficulty)
             );
-            
-            // Sort by difficulty (progressive)
-            filteredQuestions.sort((a, b) => {
-                const diffOrder = { easy: 1, medium: 2, hard: 3 };
-                return diffOrder[a.difficulty] - diffOrder[b.difficulty];
-            });
-            
-            // Limit to requested count
-            filteredQuestions = filteredQuestions.slice(0, questionCount);
-            
-            if (filteredQuestions.length === 0) {
+
+            if (matchingQuestions.length === 0) {
                 alert('No questions match your criteria. Try different settings.');
                 return;
             }
+
+            // Separate unseen and seen questions (no repeat until 80% seen)
+            const seenSet = new Set(state.seenQuestions || []);
+            let unseenQuestions = matchingQuestions.filter(q => !seenSet.has(q.id));
+            let seenQuestions = matchingQuestions.filter(q => seenSet.has(q.id));
+
+            // Calculate if we've hit the 80% threshold for this question pool
+            const seenPercentage = seenQuestions.length / matchingQuestions.length;
+            const shouldRecycle = seenPercentage >= 0.8 || unseenQuestions.length < questionCount;
+
+            // Shuffle function
+            const shuffle = (arr) => {
+                const shuffled = [...arr];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            };
+
+            // Build question pool: prioritize unseen, add seen only if needed
+            let filteredQuestions = [];
+            if (shouldRecycle) {
+                // Mix unseen first, then seen (shuffled)
+                filteredQuestions = [...shuffle(unseenQuestions), ...shuffle(seenQuestions)];
+            } else {
+                // Only unseen questions (shuffled)
+                filteredQuestions = shuffle(unseenQuestions);
+            }
+
+            // Limit to requested count
+            filteredQuestions = filteredQuestions.slice(0, questionCount);
+
+            // Show user info about question pool
+            const unseenCount = unseenQuestions.length;
+            const totalPool = matchingQuestions.length;
+            console.log(`📚 Question pool: ${unseenCount}/${totalPool} unseen (${Math.round((1-seenPercentage)*100)}% fresh)`)
             
             // Initialize session
             state.currentSession = {
@@ -2747,6 +2830,12 @@
             if (isFirstAnswer) {
                 const isCorrect = optionIndex === question.correct;
                 trackQuestionAnswer(question.id, isCorrect);
+
+                // Mark question as seen (for no-repeat-until-80% feature)
+                if (!state.seenQuestions) state.seenQuestions = [];
+                if (!state.seenQuestions.includes(question.id)) {
+                    state.seenQuestions.push(question.id);
+                }
             }
 
             saveUserData();
@@ -3493,7 +3582,7 @@
 
         // Utility function to hide all screens
         function hideAllScreens() {
-            document.querySelectorAll('.card, #studySession, #sessionHistory, #sessionReview, #studyNotesScreen').forEach(el => {
+            document.querySelectorAll('.card, #studySession, #sessionHistory, #sessionReview, #studyNotesScreen, #seenQuestionsScreen').forEach(el => {
                 el.classList.add('hidden');
             });
         }
@@ -3578,6 +3667,7 @@ Visit https://amftrb.org for official exam info.
                             selectedDomains: [],
                             selectedDifficulty: []
                         },
+                        seenQuestions: [],
                         history: [],
                         stats: {
                             totalSessions: 0,
@@ -3591,6 +3681,177 @@ Visit https://amftrb.org for official exam info.
                     backToDashboard();
                 }
             }
+        }
+
+        function resetSeenQuestions() {
+            const seenCount = (state.seenQuestions || []).length;
+            if (seenCount === 0) {
+                alert('No seen questions to reset!');
+                return;
+            }
+            if (confirm(`Reset ${seenCount} seen questions? This will allow all questions to appear again as "fresh" questions.`)) {
+                state.seenQuestions = [];
+                saveUserData();
+                updateSeenQuestionsDisplay();
+                alert('✅ Seen questions reset! All questions will now appear as fresh.');
+            }
+        }
+
+        function updateSeenQuestionsDisplay() {
+            const seenCount = document.getElementById('seenQuestionsCount');
+            const totalCount = document.getElementById('totalQuestionsCount');
+            if (seenCount && totalCount) {
+                seenCount.textContent = (state.seenQuestions || []).length;
+                totalCount.textContent = questionBank.length;
+            }
+        }
+
+        function showSeenQuestions() {
+            hideAllScreens();
+            document.getElementById('seenQuestionsScreen').classList.remove('hidden');
+
+            // Populate domain filter dropdown
+            const domainSelect = document.getElementById('seenFilterDomain');
+            const uniqueDomains = [...new Set(questionBank.map(q => q.domain))];
+            domainSelect.innerHTML = '<option value="all">All Domains</option>' +
+                uniqueDomains.map(d => `<option value="${d}">${d}</option>`).join('');
+
+            // Render the list
+            filterSeenQuestions();
+        }
+
+        function filterSeenQuestions() {
+            const selectedDomain = document.getElementById('seenFilterDomain').value;
+            const seenSet = new Set(state.seenQuestions || []);
+
+            // Get seen questions from question bank
+            let seenQuestionsList = questionBank.filter(q => seenSet.has(q.id));
+
+            // Apply domain filter
+            if (selectedDomain !== 'all') {
+                seenQuestionsList = seenQuestionsList.filter(q => q.domain === selectedDomain);
+            }
+
+            // Sort by ID
+            seenQuestionsList.sort((a, b) => a.id - b.id);
+
+            // Update count display
+            const countEl = document.getElementById('seenFilterCount');
+            countEl.textContent = `Showing ${seenQuestionsList.length} question${seenQuestionsList.length !== 1 ? 's' : ''}`;
+
+            // Render the list
+            const listEl = document.getElementById('seenQuestionsList');
+
+            if (seenQuestionsList.length === 0) {
+                listEl.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <p style="font-size: 1.2rem;">No seen questions yet!</p>
+                        <p>Start a study session to begin tracking your progress.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            listEl.innerHTML = seenQuestionsList.map(q => {
+                // Get stats for this question if available
+                const stats = state.questionStats?.[q.id];
+                const timesAnswered = stats?.timesAnswered || 0;
+                const timesCorrect = stats?.timesCorrect || 0;
+                const accuracy = timesAnswered > 0 ? Math.round((timesCorrect / timesAnswered) * 100) : 0;
+
+                return `
+                    <div class="seen-question-item" onclick="showSeenQuestionDetail(${q.id})" style="
+                        padding: 15px;
+                        margin-bottom: 10px;
+                        background: var(--bg);
+                        border-radius: 8px;
+                        border: 1px solid var(--border);
+                        cursor: pointer;
+                        transition: all 0.2s;
+                    " onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor='var(--border)'">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;">
+                            <div style="flex: 1;">
+                                <div style="font-size: 0.8rem; color: var(--text-light); margin-bottom: 5px;">
+                                    #${q.id} • ${q.domain} •
+                                    <span class="difficulty-badge difficulty-${q.difficulty}" style="font-size: 0.7rem; padding: 2px 6px;">${q.difficulty}</span>
+                                </div>
+                                <div style="font-weight: 500; line-height: 1.4;">
+                                    ${q.question.length > 120 ? q.question.substring(0, 120) + '...' : q.question}
+                                </div>
+                            </div>
+                            <div style="text-align: right; min-width: 80px;">
+                                ${timesAnswered > 0 ? `
+                                    <div style="font-size: 0.85rem; color: ${accuracy >= 70 ? 'var(--success)' : accuracy >= 50 ? 'var(--warning)' : 'var(--danger)'}; font-weight: 600;">
+                                        ${accuracy}% correct
+                                    </div>
+                                    <div style="font-size: 0.75rem; color: var(--text-light);">
+                                        ${timesCorrect}/${timesAnswered} attempts
+                                    </div>
+                                ` : `
+                                    <div style="font-size: 0.8rem; color: var(--text-light);">Seen</div>
+                                `}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showSeenQuestionDetail(questionId) {
+            const question = questionBank.find(q => q.id === questionId);
+            if (!question) return;
+
+            const stats = state.questionStats?.[questionId];
+
+            // Create a modal-like display
+            const listEl = document.getElementById('seenQuestionsList');
+            listEl.innerHTML = `
+                <div style="background: white; border-radius: 12px; padding: 20px; border: 2px solid var(--primary);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <span class="difficulty-badge difficulty-${question.difficulty}">${question.difficulty.toUpperCase()}</span>
+                        <button onclick="filterSeenQuestions()" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;">← Back to List</button>
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">
+                        #${question.id} • ${question.domain}
+                    </div>
+
+                    ${question.vignette ? `<div class="vignette" style="margin-bottom: 15px;">${question.vignette}</div>` : ''}
+
+                    <div style="font-size: 1.1rem; font-weight: 500; margin-bottom: 20px;">${question.question}</div>
+
+                    <div style="margin-bottom: 20px;">
+                        ${question.options.map((opt, idx) => `
+                            <div style="padding: 12px; margin-bottom: 8px; border-radius: 8px; border: 2px solid ${idx === question.correct ? 'var(--success)' : 'var(--border)'}; background: ${idx === question.correct ? 'var(--success-light)' : 'var(--bg)'};">
+                                <strong>${String.fromCharCode(65 + idx)})</strong> ${opt}
+                                ${idx === question.correct ? ' ✓' : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div style="background: var(--bg); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                        <strong>Explanation:</strong> ${question.explanation}
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-light);">
+                        <strong>Citation:</strong> ${question.citation}
+                    </div>
+
+                    ${question.studyUrls && question.studyUrls.length > 0 ? `
+                        <div style="margin-top: 10px; font-size: 0.85rem;">
+                            <strong>Study Links:</strong>
+                            ${question.studyUrls.map(url => `<a href="${url}" target="_blank" style="display: block; color: var(--primary);">${url}</a>`).join('')}
+                        </div>
+                    ` : ''}
+
+                    ${stats ? `
+                        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-light);">
+                            <strong>Your Stats:</strong> Answered ${stats.timesAnswered || 0} times, correct ${stats.timesCorrect || 0} times
+                            (${stats.timesAnswered > 0 ? Math.round((stats.timesCorrect / stats.timesAnswered) * 100) : 0}%)
+                        </div>
+                    ` : ''}
+                </div>
+            `;
         }
 
         // Auto-save every 30 seconds
@@ -3894,6 +4155,7 @@ Visit https://amftrb.org for official exam info.
             hideAllScreens();
             document.getElementById('sessionHistory').classList.remove('hidden');
             renderSessionHistory('all');
+            updateSeenQuestionsDisplay();
         }
         
         function filterSessions(filter) {
