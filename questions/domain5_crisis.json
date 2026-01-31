@@ -1694,5 +1694,548 @@
     "correct": 1,
     "explanation": "The Veterans Crisis Line provides 24/7 support to all veterans, service members, and their families. Access by: calling 988 and pressing 1, texting 838255, or chatting at VeteransCrisisLine.net. Counselors are specially trained in veteran-specific issues. Available to all veterans regardless of VA enrollment or service-connected status. Therapists working with veterans should share this resource.",
     "citation": "U.S. Department of Veterans Affairs (2023). Veterans Crisis Line; SAMHSA (2023). National Helpline Resources."
+  },
+  {
+    "id": 596,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicide assessment", "Columbia Protocol", "screening"],
+    "question": "The Columbia Suicide Severity Rating Scale (C-SSRS) is distinguished from other suicide assessment tools by its focus on:",
+    "options": [
+      "Only assessing past suicide attempts",
+      "Differentiating between suicidal ideation intensity and suicidal behavior",
+      "Measuring depression symptoms exclusively",
+      "Predicting exact timing of suicide attempts"
+    ],
+    "correct": 1,
+    "explanation": "The C-SSRS uniquely distinguishes between suicidal ideation (passive to active, with or without plan, intent, and behaviors) and actual suicidal behavior (attempts, interrupted attempts, aborted attempts, preparatory behaviors). This differentiation helps clinicians understand the severity and imminence of risk. The scale tracks both intensity of ideation and lethality of behaviors, providing a comprehensive assessment that guides intervention level.",
+    "citation": "Posner, K., et al. (2011). The Columbia-Suicide Severity Rating Scale. American Journal of Psychiatry, 168(12), 1266-1277.",
+    "studyUrls": ["https://cssrs.columbia.edu/"],
+    "memoryTip": "C-SSRS = 'Classifies Severity' - it separates thoughts from actions and rates intensity of each."
+  },
+  {
+    "id": 597,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["crisis intervention", "Roberts model", "stages"],
+    "question": "In Roberts' Seven-Stage Crisis Intervention Model, which stage immediately follows establishing rapport?",
+    "options": [
+      "Developing an action plan",
+      "Identifying the major problems and precipitants",
+      "Exploring feelings and emotions",
+      "Generating alternatives"
+    ],
+    "correct": 2,
+    "explanation": "Roberts' Seven-Stage Model proceeds: (1) Plan and conduct crisis assessment, (2) Establish rapport and therapeutic relationship, (3) Identify major problems including precipitants, (4) Deal with feelings and emotions, (5) Generate and explore alternatives, (6) Develop and formulate action plan, (7) Follow-up. After establishing rapport, exploring feelings/emotions helps clients feel heard before problem-solving begins. This emotional processing prepares clients for the cognitive work of generating alternatives.",
+    "citation": "Roberts, A. R. (2005). Crisis Intervention Handbook: Assessment, Treatment, and Research (3rd ed.). Oxford University Press.",
+    "studyUrls": ["https://www.oxfordhandbooks.com/"],
+    "memoryTip": "After rapport (connection), explore feelings (hearts) before heads (problem-solving). 'Connect, Feel, Think, Act.'"
+  },
+  {
+    "id": 598,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["trauma-informed", "crisis", "principles"],
+    "question": "A trauma-informed approach to crisis intervention emphasizes:",
+    "options": [
+      "Immediately processing traumatic memories",
+      "Safety, trustworthiness, choice, collaboration, and empowerment",
+      "Challenging distorted cognitions during the crisis",
+      "Minimizing discussion of past trauma"
+    ],
+    "correct": 1,
+    "explanation": "SAMHSA's trauma-informed principles—safety, trustworthiness and transparency, peer support, collaboration and mutuality, empowerment and choice, and cultural/historical/gender issues—guide crisis intervention. During crisis, processing trauma is contraindicated; instead, focus on stabilization, safety, and restoring sense of control. The approach recognizes that crisis responses may be trauma-related and avoids re-traumatization while honoring client autonomy.",
+    "citation": "SAMHSA (2014). SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach. HHS Publication No. (SMA) 14-4884.",
+    "studyUrls": ["https://www.samhsa.gov/nctic/trauma-interventions"],
+    "memoryTip": "STCCE: Safety, Trust, Choice, Collaboration, Empowerment—'STaying Calm Creates Empowerment.'"
+  },
+  {
+    "id": 599,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["de-escalation", "verbal techniques", "crisis"],
+    "question": "The most effective first step in verbal de-escalation is:",
+    "options": [
+      "Firmly stating consequences for continued behavior",
+      "Using a calm, non-threatening tone and active listening",
+      "Immediately offering solutions to the problem",
+      "Asking rapid, direct questions"
+    ],
+    "correct": 1,
+    "explanation": "Verbal de-escalation begins with non-verbal and paraverbal communication: calm tone, relaxed posture, appropriate distance, and active listening. This signals safety and respect, reducing perceived threat. Premature problem-solving or confrontation can escalate agitation. The acronym LEAP (Listen, Empathize, Agree when possible, Partner) guides the approach. Validation of emotions often reduces intensity before any intervention.",
+    "citation": "Richmond, J. S., et al. (2012). Verbal De-escalation of the Agitated Patient. Western Journal of Emergency Medicine, 13(1), 17-25.",
+    "studyUrls": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3298202/"],
+    "memoryTip": "De-escalation starts with 'de-' (down): lower your voice, slow your pace, reduce your threat."
+  },
+  {
+    "id": 600,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["involuntary commitment", "civil commitment", "criteria"],
+    "question": "The legal standard for involuntary psychiatric commitment in most U.S. states requires:",
+    "options": [
+      "Any mental illness diagnosis",
+      "Danger to self or others OR grave disability due to mental illness",
+      "Family request and physician approval",
+      "Criminal behavior linked to mental illness"
+    ],
+    "correct": 1,
+    "explanation": "Most states require proof of: (1) presence of mental illness, AND (2) imminent danger to self or others OR grave disability (inability to provide for basic needs). This balances individual liberty with protection. Standards vary by state—some use 'clear and convincing evidence,' others 'probable cause' for emergency holds. Criminal behavior alone doesn't qualify unless linked to mental illness and ongoing danger. The criteria evolved from O'Connor v. Donaldson (1975).",
+    "citation": "Appelbaum, P. S. (1994). Almost a Revolution: Mental Health Law and the Limits of Change. Oxford University Press; O'Connor v. Donaldson, 422 U.S. 563 (1975).",
+    "studyUrls": ["https://www.treatmentadvocacycenter.org/"],
+    "memoryTip": "DDD: Danger (to self/others) or Disability (grave) + Disease (mental illness) = commitment criteria."
+  },
+  {
+    "id": 601,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child abuse", "mandated reporting", "legal"],
+    "question": "When a mandated reporter suspects child abuse, they must report:",
+    "options": [
+      "Only if they have definitive proof of abuse",
+      "When they have reasonable suspicion, regardless of certainty",
+      "Only if the child directly discloses abuse",
+      "After conducting a thorough investigation"
+    ],
+    "correct": 1,
+    "explanation": "Mandated reporters must report when they have 'reasonable suspicion' or 'reasonable cause to believe' abuse has occurred—proof is not required. Investigation is the responsibility of Child Protective Services and law enforcement, not the reporter. Waiting for proof or investigating independently delays protection and may violate reporting laws. Reports should be made immediately or within 24-48 hours depending on state law.",
+    "citation": "Child Abuse Prevention and Treatment Act (CAPTA), 42 U.S.C. § 5106a; Child Welfare Information Gateway (2019). Mandatory Reporters of Child Abuse and Neglect.",
+    "studyUrls": ["https://www.childwelfare.gov/topics/systemwide/laws-policies/statutes/manda/"],
+    "memoryTip": "Reasonable SUSPICION, not proof—'When in doubt, report it out.'"
+  },
+  {
+    "id": 602,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["elder abuse", "mandated reporting", "vulnerable adults"],
+    "question": "Signs that may indicate elder financial abuse include:",
+    "options": [
+      "The elder making independent financial decisions",
+      "Sudden changes in banking, missing funds, or new 'friends' with financial interest",
+      "Family members helping with bill paying at elder's request",
+      "Reduced spending due to fixed income"
+    ],
+    "correct": 1,
+    "explanation": "Red flags for elder financial abuse include: sudden changes in bank accounts or wills, unexplained withdrawals, missing belongings or cash, new 'friends' or caregivers taking financial interest, unpaid bills when resources exist, elder's confusion about financial status, and isolation from family. Financial abuse often co-occurs with emotional abuse. MFTs are mandated reporters of elder abuse in most states and should know local Adult Protective Services procedures.",
+    "citation": "National Center on Elder Abuse (2021). Types of Abuse; Nerenberg, L. (2008). Elder Abuse Prevention: Emerging Trends and Promising Strategies. Springer.",
+    "studyUrls": ["https://ncea.acl.gov/"],
+    "memoryTip": "SCAM: Sudden changes, Confusion about finances, 'new friends' with Access, Missing money."
+  },
+  {
+    "id": 603,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["IPV", "safety planning", "lethality"],
+    "vignette": "A client in couples therapy privately reveals her husband has been physically abusive and she wants to leave. She asks for your help developing a safety plan.",
+    "question": "The FIRST priority in safety planning for intimate partner violence is:",
+    "options": [
+      "Filing for divorce",
+      "Assessing lethality risk factors and identifying immediate safety options",
+      "Confronting the abuser in joint session",
+      "Reporting to law enforcement immediately"
+    ],
+    "correct": 1,
+    "explanation": "Safety planning begins with lethality assessment (access to weapons, prior strangulation, escalation patterns, threats to kill, stalking). Then identify: safe places to go, trusted contacts, essential items to take, documentation storage, financial resources, and steps to take during an emergency. Joint confrontation is dangerous and contraindicated. Reporting is the survivor's choice unless children are at risk. The therapist's role is empowerment, not control.",
+    "citation": "Campbell, J. C. (2004). Danger Assessment. Johns Hopkins University School of Nursing; National Domestic Violence Hotline Safety Planning Guidelines.",
+    "studyUrls": ["https://www.dangerassessment.org/", "https://www.thehotline.org/plan-for-safety/"],
+    "memoryTip": "SAFE: Size up danger, Access to exit, Friends and resources, Essential items ready."
+  },
+  {
+    "id": 604,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["homicidal ideation", "assessment", "Tarasoff"],
+    "question": "Assessment of homicidal ideation should include all of the following EXCEPT:",
+    "options": [
+      "Specificity of plan and intended victim",
+      "Access to means (weapons)",
+      "Promising the client absolute confidentiality",
+      "History of violence and impulse control"
+    ],
+    "correct": 2,
+    "explanation": "Homicidal ideation assessment parallels suicide assessment: specificity of thoughts, identified victim, plan, means access, history of violence, impulse control, and protective factors. Absolute confidentiality CANNOT be promised when there's potential duty to warn (Tarasoff). Clinicians must inform clients at intake about confidentiality limits. Assessment also considers: recent stressors, substance use, command hallucinations, and capacity to carry out threats.",
+    "citation": "Tarasoff v. Regents of University of California, 17 Cal. 3d 425 (1976); Borum, R., & Reddy, M. (2001). Assessing Violence Risk in Tarasoff Situations. Professional Psychology: Research and Practice, 32(5), 439-447.",
+    "studyUrls": ["https://www.apa.org/topics/gun-violence-crime"],
+    "memoryTip": "Homicidal assessment mirrors suicidal: SIMH—Specificity, Intent, Means, History. But NO absolute confidentiality."
+  },
+  {
+    "id": 605,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["psychotic crisis", "intervention", "acute"],
+    "vignette": "A client arrives at session appearing disheveled, speaking rapidly about government surveillance, and stating that 'they' put a tracking device in his tooth. He appears fearful and agitated.",
+    "question": "The most appropriate immediate intervention is:",
+    "options": [
+      "Challenge his delusional beliefs with reality testing",
+      "Remain calm, avoid arguing about beliefs, assess safety, and facilitate psychiatric evaluation",
+      "Discharge him from therapy for being too unstable",
+      "Have him sign a no-harm contract"
+    ],
+    "correct": 1,
+    "explanation": "During acute psychotic episodes: stay calm, use simple language, don't argue with delusions (increases agitation), maintain safe distance, assess for danger to self/others, and facilitate psychiatric evaluation. Avoid direct confrontation of beliefs—instead, empathize with the distress ('That sounds frightening'). Evaluate medication compliance, substance use, and recent stressors. The priority is safety and connection to appropriate psychiatric care, not insight-oriented work.",
+    "citation": "American Psychiatric Association (2020). The APA Practice Guidelines for the Treatment of Patients with Schizophrenia (3rd ed.); Addington, D. E., et al. (2005). Clinical Guidelines for the Treatment of Schizophrenia. Canadian Journal of Psychiatry, 50(Suppl 1), 7S-57S.",
+    "studyUrls": ["https://psychiatryonline.org/guidelines"],
+    "memoryTip": "Don't ARGUE with psychosis: Avoid confrontation, Remain calm, Get psychiatric help, Understand their fear, Ensure safety."
+  },
+  {
+    "id": 606,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["substance crisis", "overdose", "intervention"],
+    "question": "Naloxone (Narcan) is a life-saving intervention used for:",
+    "options": [
+      "Alcohol poisoning",
+      "Opioid overdose reversal",
+      "Benzodiazepine overdose",
+      "Stimulant overdose"
+    ],
+    "correct": 1,
+    "explanation": "Naloxone is an opioid antagonist that rapidly reverses opioid overdose (heroin, fentanyl, oxycodone, etc.). Signs of opioid overdose include: pinpoint pupils, unconsciousness, slow/stopped breathing. Naloxone is available without prescription in most states. It doesn't work for alcohol, benzodiazepines, or stimulants. MFTs working with substance-using clients should know about naloxone availability and harm reduction resources.",
+    "citation": "SAMHSA (2023). Naloxone; Centers for Disease Control and Prevention (2022). Lifesaving Naloxone.",
+    "studyUrls": ["https://www.samhsa.gov/medication-assisted-treatment/medications-counseling-related-conditions/naloxone"],
+    "memoryTip": "Naloxone = 'NO-Opioid' — it blocks opioids and only works on opioids."
+  },
+  {
+    "id": 607,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["self-harm", "NSSI", "assessment"],
+    "question": "Non-suicidal self-injury (NSSI) differs from suicidal behavior primarily in:",
+    "options": [
+      "The level of pain experienced",
+      "The intent—NSSI lacks intent to die and often serves emotion regulation",
+      "The method used",
+      "The frequency of behavior"
+    ],
+    "correct": 1,
+    "explanation": "NSSI is defined as deliberate self-harm without intent to die. Common functions include: emotion regulation (release tension), self-punishment, anti-dissociation, and interpersonal communication. While NSSI and suicide attempts may use similar methods, intent differs. However, NSSI is a significant risk factor for future suicide attempts. Assessment must distinguish intent while recognizing elevated risk. Treatment focuses on teaching alternative coping and addressing underlying distress.",
+    "citation": "Nock, M. K. (2010). Self-Injury. Annual Review of Clinical Psychology, 6, 339-363; DSM-5-TR (2022). Conditions for Further Study.",
+    "studyUrls": ["https://www.selfinjury.bctr.cornell.edu/"],
+    "memoryTip": "NSSI = 'Not Suicidal, Serving (other) Intentions'—regulate emotions, not end life."
+  },
+  {
+    "id": 608,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["means restriction", "lethal means", "safety"],
+    "question": "Lethal means counseling is most effective when the therapist:",
+    "options": [
+      "Demands the client remove all potentially dangerous items",
+      "Collaboratively discusses reducing access to lethal means with the client and involved family",
+      "Avoids discussing specific means to prevent giving ideas",
+      "Focuses only on firearms"
+    ],
+    "correct": 1,
+    "explanation": "Lethal means counseling involves collaborative discussion about temporarily reducing access to methods of self-harm. Research shows that means restriction saves lives—suicidal crises are often brief and impulsive. Involve family when possible (with permission) for implementation. Address the client's primary means but also consider medications, vehicles, heights. Counseling should be non-judgmental and framed as temporary safety measure during crisis period.",
+    "citation": "Barber, C. W., & Miller, M. J. (2014). Reducing a Suicidal Person's Access to Lethal Means of Suicide. American Journal of Preventive Medicine, 47(3S2), S264-S272.",
+    "studyUrls": ["https://www.hsph.harvard.edu/means-matter/"],
+    "memoryTip": "Means Matter: CALM—Collaborative, Access reduction, Lethal means, Matter (temporarily)."
+  },
+  {
+    "id": 609,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["postvention", "suicide", "survivors"],
+    "question": "Postvention following a client suicide should include:",
+    "options": [
+      "Immediately destroying all records to protect confidentiality",
+      "Consultation, documentation, self-care, and support for affected parties",
+      "Avoiding contact with the deceased client's family",
+      "Discontinuing all similar cases"
+    ],
+    "correct": 1,
+    "explanation": "Postvention involves: (1) Consultation with colleagues and legal/ethics experts, (2) Careful documentation of care provided and events, (3) Self-care for the therapist (this is traumatic), (4) Consideration of contact with family (with legal guidance), (5) Support for other clients who knew the deceased, (6) Review of practice with an eye toward learning, not blame. Records should be preserved. The therapist's own grief and second-guessing require attention.",
+    "citation": "Chemtob, C. M., et al. (1988). Patient Suicide: Frequency and Impact on Psychiatrists. American Journal of Psychiatry, 145(2), 224-228; APA Practice Guidelines.",
+    "studyUrls": ["https://www.sprc.org/resources-programs/after-suicide-toolkit-schools"],
+    "memoryTip": "DOCS: Documentation, Others (consult), Care (self), Support (family, clients)."
+  },
+  {
+    "id": 610,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["first responders", "coordination", "emergency"],
+    "question": "When calling 911 for a mental health emergency, clinicians should:",
+    "options": [
+      "Provide only the address and hang up immediately",
+      "Communicate that it's a mental health crisis, describe behaviors, and mention any weapons",
+      "Avoid mentioning mental health to prevent bias",
+      "Let the client make the call themselves"
+    ],
+    "correct": 1,
+    "explanation": "When calling 911: clearly state it's a psychiatric/mental health emergency, describe concerning behaviors (not diagnoses), mention any weapons or violence, provide exact location, and stay on the line. Many areas have Crisis Intervention Teams (CIT) trained officers who respond to mental health calls. If available, mobile crisis teams may be preferable to police. Inform dispatch of any cultural or communication needs.",
+    "citation": "National Alliance on Mental Illness (2023). Navigating a Mental Health Crisis; Watson, A. C., & Fulambarker, A. J. (2012). The Crisis Intervention Team Model of Police Response to Mental Health Crises. Best Practices in Mental Health, 8(2), 71-81.",
+    "studyUrls": ["https://www.nami.org/About-Mental-Illness/Treatment/Getting-Treatment-During-a-Crisis"],
+    "memoryTip": "Tell 911: WHAT (mental health crisis), WHERE (exact location), WEAPONS (any present), WHO (description)."
+  },
+  {
+    "id": 611,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["documentation", "crisis", "liability"],
+    "question": "Documentation following a crisis intervention session should include all EXCEPT:",
+    "options": [
+      "Assessment findings and clinical reasoning",
+      "Interventions used and client response",
+      "Predictions about future behavior",
+      "Safety plan details and follow-up arrangements"
+    ],
+    "correct": 2,
+    "explanation": "Crisis documentation should include: presenting concerns, mental status findings, risk assessment (factors present, not predictions), clinical reasoning for decisions, interventions provided, client response to interventions, safety plan specifics, and follow-up plans with timeframes. Avoid predicting behavior—instead document risk factors and protective factors assessed. Clear documentation protects both client and clinician and communicates to other providers.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Simpson, S., & Stacy, M. (2004). Avoiding the Malpractice Snare. The Psychotherapy Networker, 28(6), 73-81.",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+    "memoryTip": "Document WHAT you assessed and DID, not WHAT WILL happen—we assess risk, not predict futures."
+  },
+  {
+    "id": 612,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["liability", "malpractice", "standard of care"],
+    "question": "The legal standard for evaluating therapist conduct in a suicide malpractice case is typically:",
+    "options": [
+      "Whether the suicide was prevented",
+      "Whether the therapist met the standard of care of a reasonable practitioner",
+      "Whether the therapist predicted the suicide would occur",
+      "Whether the client signed a safety contract"
+    ],
+    "correct": 1,
+    "explanation": "Malpractice requires proving: (1) duty (therapeutic relationship existed), (2) breach (care fell below standard of similarly trained practitioners), (3) causation (breach contributed to harm), and (4) damages (harm occurred). The question is not whether suicide was prevented but whether assessment and intervention met professional standards. Safety contracts don't prevent malpractice claims. Documentation of thorough assessment and appropriate interventions is protective.",
+    "citation": "Bongar, B. (2002). The Suicidal Patient: Clinical and Legal Standards of Care (2nd ed.). American Psychological Association; Packman, W. L., & Harris, E. A. (1998). Legal Issues and Risk Management in Suicidal Patients. American Psychological Association.",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+    "memoryTip": "Standard of care = 'Reasonable practitioner would do THIS'—not perfection, not prediction."
+  },
+  {
+    "id": 613,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis resources", "hotlines", "referral"],
+    "question": "The national Suicide and Crisis Lifeline number, available 24/7, is:",
+    "options": [
+      "911",
+      "988",
+      "411",
+      "1-800-SUICIDE"
+    ],
+    "correct": 1,
+    "explanation": "988 is the national Suicide and Crisis Lifeline, launched in July 2022. Calling or texting 988 connects individuals to trained crisis counselors 24/7. Veterans can press 1 to reach the Veterans Crisis Line. 988 is easier to remember than the previous 1-800-273-8255. Clinicians should know this number and share it with clients as part of safety planning. 911 is for emergencies requiring immediate emergency response.",
+    "citation": "SAMHSA (2023). 988 Suicide and Crisis Lifeline.",
+    "studyUrls": ["https://988lifeline.org/"],
+    "memoryTip": "988 = 'Nine-Eight-Eight, Don't Hesitate'—three digits to save a life."
+  },
+  {
+    "id": 614,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["mobile crisis", "crisis services", "community"],
+    "question": "Mobile crisis teams are designed to:",
+    "options": [
+      "Replace emergency room psychiatric services entirely",
+      "Provide in-person crisis assessment and intervention in the community to reduce hospitalization",
+      "Only transport individuals to hospitals",
+      "Provide long-term therapy in home settings"
+    ],
+    "correct": 1,
+    "explanation": "Mobile crisis teams deploy mental health professionals to assess and intervene in the community—homes, schools, workplaces. Goals include: stabilization in least restrictive environment, connection to services, and reducing unnecessary ER visits and hospitalizations. Teams typically include clinicians and may include peer specialists. They can assess, provide brief intervention, and coordinate follow-up care. Availability varies significantly by region.",
+    "citation": "SAMHSA (2020). National Guidelines for Behavioral Health Crisis Care; Steadman, H. J., et al. (2000). Comparing Outcomes of Major Models of Police Responses to Mental Health Emergencies. Psychiatric Services, 51(5), 645-649.",
+    "studyUrls": ["https://www.samhsa.gov/sites/default/files/national-guidelines-for-behavioral-health-crisis-care-02242020.pdf"],
+    "memoryTip": "Mobile = 'Meeting Clients Where They Are'—community-based, not hospital-based."
+  },
+  {
+    "id": 615,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["psychiatric hold", "5150", "emergency detention"],
+    "question": "A 72-hour psychiatric hold (e.g., 5150 in California) can typically be initiated by:",
+    "options": [
+      "Only psychiatrists",
+      "Designated professionals including police officers, certain mental health clinicians, and physicians",
+      "Any concerned family member",
+      "The individual themselves"
+    ],
+    "correct": 1,
+    "explanation": "Emergency psychiatric holds can be initiated by designated professionals: peace officers, designated mental health clinicians, physicians, and in some states, certain other professionals. Family members cannot directly initiate holds but can request professional evaluation. Criteria require mental disorder plus danger to self/others or grave disability. Hold duration and procedures vary by state (72 hours is common). Individuals have rights including legal representation and hearing.",
+    "citation": "California Welfare and Institutions Code Section 5150; Treatment Advocacy Center (2023). State Standards for Initiating Involuntary Treatment.",
+    "studyUrls": ["https://www.treatmentadvocacycenter.org/browse-by-state"],
+    "memoryTip": "5150 = 'Cops, Clinicians, and Docs'—designated professionals, not just anyone."
+  },
+  {
+    "id": 616,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["safety contract", "no-suicide contract", "limitations"],
+    "question": "Research on 'no-suicide contracts' or safety contracts indicates that they:",
+    "options": [
+      "Significantly reduce suicide risk",
+      "Are legally protective for clinicians",
+      "Should not be used as a primary intervention or substitute for thorough assessment",
+      "Are required by professional ethics codes"
+    ],
+    "correct": 2,
+    "explanation": "Research does not support no-suicide contracts as effective interventions; they may provide false reassurance and are not legally protective. Safety PLANS (collaborative, specific action steps) differ from safety CONTRACTS (agreements not to self-harm). Contracts should never substitute for thorough assessment, means restriction, and connection to support. Some clients agree to contracts despite intent to die. Focus instead on collaborative safety planning with concrete steps.",
+    "citation": "Rudd, M. D., et al. (2006). Warning Signs for Suicide: Theory, Research, and Clinical Applications. Suicide and Life-Threatening Behavior, 36(3), 255-262; Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention. Cognitive and Behavioral Practice, 19(2), 256-264.",
+    "studyUrls": ["https://suicidepreventionlifeline.org/"],
+    "memoryTip": "Contracts don't save lives—PLANS do. A promise isn't a plan."
+  },
+  {
+    "id": 617,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["re-entry planning", "hospitalization", "discharge"],
+    "question": "When a client returns from psychiatric hospitalization, the therapist's first priority is typically:",
+    "options": [
+      "Immediately resuming normal therapy goals",
+      "Reviewing discharge plan, medications, follow-up appointments, and current safety status",
+      "Avoiding discussion of the hospitalization to prevent embarrassment",
+      "Terminating therapy since hospital was needed"
+    ],
+    "correct": 1,
+    "explanation": "Post-hospitalization sessions should review: discharge diagnoses and recommendations, medication changes, follow-up appointments scheduled, current mental status and safety, environmental changes made, and updated safety plan. The transition period after discharge is high-risk for suicide. Coordinate care with prescriber if applicable. Validate the client's experience while supporting engagement with continued treatment. Normalize hospitalization as part of treatment when appropriate.",
+    "citation": "Chung, D. T., et al. (2017). Suicide Rates After Discharge from Psychiatric Facilities. JAMA Psychiatry, 74(7), 694-702.",
+    "studyUrls": ["https://www.psychiatry.org/patients-families/what-is-psychiatry"],
+    "memoryTip": "Post-hospital = High risk. SAFE: Safety check, Appointments confirmed, Follow-up plan, Environment reviewed."
+  },
+  {
+    "id": 618,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["secondary trauma", "vicarious trauma", "therapist self-care"],
+    "question": "Secondary traumatic stress (STS) in therapists working with trauma and crisis differs from burnout in that STS:",
+    "options": [
+      "Develops slowly over many years",
+      "Can emerge suddenly after exposure to client trauma material and mirrors PTSD symptoms",
+      "Only affects inexperienced clinicians",
+      "Is entirely preventable with good supervision"
+    ],
+    "correct": 1,
+    "explanation": "Secondary traumatic stress (STS) involves PTSD-like symptoms (intrusive thoughts, avoidance, hyperarousal) resulting from indirect trauma exposure through clients' stories. Unlike burnout, which develops gradually from workplace stress, STS can emerge suddenly after particularly impactful sessions. Risk factors include: high caseload of trauma clients, personal trauma history, lack of supervision/support, and isolation. Prevention includes: balanced caseloads, consultation, self-care, and organizational support.",
+    "citation": "Figley, C. R. (1995). Compassion Fatigue: Coping with Secondary Traumatic Stress Disorder. Brunner/Mazel; Bride, B. E. (2007). Prevalence of Secondary Traumatic Stress among Social Workers. Social Work, 52(1), 63-70.",
+    "studyUrls": ["https://www.apa.org/practice/programs/dmhi/research-information/vicarious-trauma"],
+    "memoryTip": "STS = 'Sudden Trauma Symptoms'—client trauma becomes your trauma symptoms. Burnout builds slowly."
+  },
+  {
+    "id": 619,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["LGBTQ+", "youth", "suicide risk"],
+    "question": "Research indicates that LGBTQ+ youth are at elevated suicide risk primarily due to:",
+    "options": [
+      "Inherent mental illness in LGBTQ+ individuals",
+      "Minority stress, family rejection, and victimization experiences",
+      "Biological factors unique to sexual minorities",
+      "Inadequate intelligence"
+    ],
+    "correct": 1,
+    "explanation": "The minority stress model explains elevated risk: LGBTQ+ youth face discrimination, victimization, family rejection, and internalized stigma—all risk factors for suicidality. Family acceptance is powerfully protective: research shows family acceptance reduces suicide attempts by 40%. Affirming therapy, connection to LGBTQ+ community, and advocacy reduce risk. The elevated risk reflects social factors, not inherent pathology. The Trevor Project provides LGBTQ+-specific crisis support.",
+    "citation": "Meyer, I. H. (2003). Prejudice, Social Stress, and Mental Health in Lesbian, Gay, and Bisexual Populations. Psychological Bulletin, 129(5), 674-697; Ryan, C., et al. (2009). Family Rejection as a Predictor of Negative Health Outcomes. Pediatrics, 123(1), 346-352.",
+    "studyUrls": ["https://www.thetrevorproject.org/resources/"],
+    "memoryTip": "LGBTQ+ risk = minority STRESS, not pathology. Family acceptance = 40% fewer attempts."
+  },
+  {
+    "id": 620,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["elderly", "suicide", "risk factors"],
+    "question": "Risk factors for suicide in older adults include all of the following EXCEPT:",
+    "options": [
+      "Social isolation and loss of spouse",
+      "Physical illness and chronic pain",
+      "High number of previous attempts",
+      "Access to firearms"
+    ],
+    "correct": 2,
+    "explanation": "Older adults (especially white males 85+) have the highest suicide rates. Risk factors include: social isolation, widowhood, physical illness, chronic pain, functional decline, depression, alcohol use, and firearm access (most lethal method in this group). Critically, older adults are more likely to die on first attempt—fewer prior attempts doesn't mean lower risk. They use more lethal means and give fewer warnings. Depression screening and means restriction are essential.",
+    "citation": "Conwell, Y. (2013). Suicide in Later Life: Challenges and Priorities for Prevention. American Journal of Preventive Medicine, 47(3S2), S244-S250.",
+    "studyUrls": ["https://www.sprc.org/populations/older-adults"],
+    "memoryTip": "Elderly suicide: fewer attempts but higher completion—SILF: Social isolation, Illness, Loss, Firearms."
+  },
+  {
+    "id": 621,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["cultural considerations", "crisis", "diversity"],
+    "question": "Cultural considerations in crisis intervention should include recognition that:",
+    "options": [
+      "All cultures respond to crisis identically",
+      "Cultural beliefs may influence crisis expression, help-seeking, and appropriate interventions",
+      "Cultural considerations are secondary to clinical protocol",
+      "Language barriers are not clinically significant"
+    ],
+    "correct": 1,
+    "explanation": "Cultural context profoundly affects crisis: expression of distress (somatic vs. psychological), stigma around mental health, family role in intervention, religious beliefs about suicide/harm, trust in systems (police, hospitals), and language access. Clinicians must: use trained interpreters (not family), understand culture-specific expressions of distress, involve culturally appropriate supports, and recognize historical trauma affecting help-seeking. Culturally adapted interventions improve outcomes.",
+    "citation": "Sue, D. W., & Sue, D. (2015). Counseling the Culturally Diverse: Theory and Practice (7th ed.). Wiley; Chu, J. P., et al. (2016). Cultural Considerations in Suicide Prevention. Annual Review of Clinical Psychology, 12, 25-64.",
+    "studyUrls": ["https://www.apa.org/topics/multicultural-diversity"],
+    "memoryTip": "Culture shapes CRISIS: Communication style, Resources trusted, Interpretation of symptoms, Stigma, Interventions that fit, Support systems."
+  },
+  {
+    "id": 622,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis stabilization", "goals", "acute intervention"],
+    "question": "The primary goal of crisis stabilization is:",
+    "options": [
+      "Complete resolution of all client problems",
+      "Returning the client to pre-crisis level of functioning and ensuring immediate safety",
+      "Beginning long-term psychotherapy",
+      "Diagnosing the underlying mental illness"
+    ],
+    "correct": 1,
+    "explanation": "Crisis stabilization focuses on: (1) ensuring immediate safety, (2) reducing acute distress, and (3) restoring functioning to pre-crisis baseline. It is not long-term therapy—resolution of underlying issues comes later. Goals are limited: stabilize, safety plan, connect to ongoing support. Crisis intervention is typically brief (1-6 sessions). The therapist is active and directive, unlike traditional therapy. Success is measured by safety and stabilization, not cure.",
+    "citation": "Roberts, A. R. (2005). Crisis Intervention Handbook: Assessment, Treatment, and Research (3rd ed.). Oxford University Press.",
+    "studyUrls": ["https://www.samhsa.gov/find-help/national-helpline"],
+    "memoryTip": "Crisis goal = STABLE, not SOLVED. Return to baseline, not transform the client."
+  },
+  {
+    "id": 623,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["warning signs", "suicide", "recognition"],
+    "question": "According to the American Association of Suicidology, the mnemonic 'IS PATH WARM' represents:",
+    "options": [
+      "Stages of grief",
+      "Suicide warning signs: Ideation, Substance abuse, Purposelessness, Anxiety, Trapped, Hopelessness, Withdrawal, Anger, Recklessness, Mood changes",
+      "Treatment phases",
+      "Risk assessment domains"
+    ],
+    "correct": 1,
+    "explanation": "IS PATH WARM represents warning signs: Ideation (talking about/threatening suicide), Substance abuse, Purposelessness (no reason for living), Anxiety/agitation, Trapped (feeling no way out), Hopelessness, Withdrawal from others, Anger (rage, seeking revenge), Recklessness, Mood changes (dramatic swings). These warning signs indicate need for immediate assessment. They differ from risk factors (more stable characteristics) in representing acute changes in behavior or mental state.",
+    "citation": "American Association of Suicidology (2006). Recognizing and Responding to Suicide Risk. AAS.",
+    "studyUrls": ["https://suicidology.org/resources/warning-signs/"],
+    "memoryTip": "IS PATH WARM—memorize this phrase. If someone IS on a PATH to suicide, provide WARMTH and help."
+  },
+  {
+    "id": 624,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["SAFER-R", "crisis model", "intervention"],
+    "vignette": "A clinician is providing crisis intervention following a school shooting in which a client witnessed a classmate being killed.",
+    "question": "The SAFER-R model of crisis intervention includes all components EXCEPT:",
+    "options": [
+      "Stabilize, Acknowledge the crisis, Facilitate understanding",
+      "Encourage adaptive coping, Restore functioning",
+      "Provide detailed trauma processing during the acute phase",
+      "Referral for continued support"
+    ],
+    "correct": 2,
+    "explanation": "SAFER-R: Stabilize (ensure safety, reduce physiological arousal), Acknowledge (validate crisis is real and significant), Facilitate understanding (psychoeducation about normal reactions), Encourage adaptive coping (strengthen existing skills, add new ones), Restore functioning (help return to pre-crisis baseline), Refer (connect to continued care). Detailed trauma processing is NOT appropriate during acute crisis—it can increase distress and traumatic stress symptoms. Stabilization comes first.",
+    "citation": "Everly, G. S., & Lating, J. M. (2017). The Johns Hopkins Guide to Psychological First Aid. Johns Hopkins University Press.",
+    "studyUrls": ["https://www.ptsd.va.gov/professional/treat/type/psych_firstaid_manual.asp"],
+    "memoryTip": "SAFER-R = keep them SAFER, then REFER. No trauma processing in acute phase!"
+  },
+  {
+    "id": 625,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["protective factors", "resilience", "suicide prevention"],
+    "question": "Protective factors that reduce suicide risk include:",
+    "options": [
+      "Previous suicide attempts",
+      "Social isolation",
+      "Strong family connections, reasons for living, and effective coping skills",
+      "Access to lethal means"
+    ],
+    "correct": 2,
+    "explanation": "Protective factors include: social support and connection, family cohesion, reasons for living (children, pets, goals), religious/spiritual beliefs that discourage suicide, effective coping and problem-solving skills, access to mental health care, restricted access to lethal means, and hope for the future. Assessment should evaluate both risk and protective factors. Interventions can strengthen protective factors—building reasons for living and connection. Previous attempts and isolation are risk factors.",
+    "citation": "U.S. Department of Health and Human Services (2012). 2012 National Strategy for Suicide Prevention; Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press.",
+    "studyUrls": ["https://www.cdc.gov/suicide/factors/index.html"],
+    "memoryTip": "COPES: Connection, Opportunity (for help), Purpose (reasons for living), Effective coping, Skills."
   }
 ]

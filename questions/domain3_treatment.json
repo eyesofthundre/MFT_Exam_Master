@@ -1196,6 +1196,551 @@
           "correct": 1,
           "explanation": "Routine outcome monitoring (ROM) involves systematically collecting client feedback on symptoms, functioning, and alliance throughout treatment (often session-by-session). Benefits include: identifying clients not improving early, adjusting treatment when needed, improving outcomes especially for at-risk cases, enhancing therapeutic relationship through collaborative review, and accountability. Tools like ORS (Outcome Rating Scale) and SRS (Session Rating Scale) are brief, easy to use, and research shows ROM significantly improves outcomes.",
           "citation": "Lambert, M. J. (2010). Prevention of Treatment Failure. American Psychological Association; Duncan, B. L., et al. (2003). The Session Rating Scale. Journal of Brief Therapy, 3(1), 3-12."
+        },
+        {
+          "id": 366,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["psychoeducation", "intervention", "families"],
+          "question": "Psychoeducation in family therapy involves:",
+          "options": [
+            "The therapist learning about family dynamics",
+            "Providing information about disorders, treatment, and coping strategies to families",
+            "Testing family members' psychological knowledge",
+            "Formal academic coursework for therapists"
+          ],
+          "correct": 1,
+          "explanation": "Psychoeducation provides families with information about mental health conditions, their causes, symptoms, treatments, warning signs, and coping strategies. It empowers families with knowledge, reduces blame and stigma, improves treatment adherence, teaches communication and problem-solving skills, and has been shown to significantly reduce relapse rates for conditions like schizophrenia and bipolar disorder.",
+          "citation": "McFarlane, W. R. (2002). Multifamily Groups in the Treatment of Severe Psychiatric Disorders. Guilford Press.",
+          "studyUrls": ["https://www.nami.org/Advocacy/Policy-Priorities/Improving-Health/Family-Psychoeducation"],
+          "memoryTip": "Psychoeducation = teaching families about the disorder so they can be informed partners in treatment."
+        },
+        {
+          "id": 367,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["EFT", "Stage 1", "de-escalation"],
+          "question": "In EFT Stage 1, the primary goal is to:",
+          "options": [
+            "Resolve all relationship conflicts",
+            "De-escalate the negative interactional cycle and access underlying emotions",
+            "Teach communication skills",
+            "Explore family-of-origin issues"
+          ],
+          "correct": 1,
+          "explanation": "EFT Stage 1 (De-escalation) focuses on: identifying the negative interaction cycle (pursue-withdraw, etc.), helping partners see the cycle as the enemy rather than each other, accessing the primary emotions (attachment fears) underneath secondary emotions (anger, shutdown), and beginning to de-escalate the cycle. This stage creates safety and prepares for the restructuring work of Stage 2.",
+          "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+          "studyUrls": ["https://iceeft.com/what-is-eft/"],
+          "memoryTip": "EFT Stage 1 = De-escalate; Stage 2 = Restructure; Stage 3 = Consolidate (DRC)."
+        },
+        {
+          "id": 368,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Structural", "boundary making", "technique"],
+          "vignette": "An enmeshed mother frequently speaks for her teenage daughter. In session, when the therapist asks the daughter a question, the mother answers. The Structural therapist positions chairs so the daughter faces the therapist with mother behind her, then redirects all questions to the daughter only.",
+          "question": "This intervention is called:",
+          "options": [
+            "Family sculpting",
+            "Boundary making through spatial manipulation",
+            "Circular questioning",
+            "Paradoxical intervention"
+          ],
+          "correct": 1,
+          "explanation": "Boundary making involves concrete actions to create or reinforce boundaries between subsystems. Using space (seating arrangements) physically blocks problematic transactions (mother answering for daughter) and creates new interactional possibilities. Structural therapists actively manipulate physical space, seating, who speaks to whom, and who's in the room to actualizing structural changes. The intervention makes implicit enmeshment explicit and creates immediate structural shift.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Structural_Family_Therapy.aspx"],
+          "memoryTip": "Boundary making = using physical space and rules about who talks to whom to create separations."
+        },
+        {
+          "id": 369,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["informed consent", "treatment planning"],
+          "question": "Informed consent for family therapy should include:",
+          "options": [
+            "Only the therapist's credentials",
+            "Goals, methods, risks, confidentiality limits, and alternatives to treatment",
+            "A guarantee of specific outcomes",
+            "Only billing information"
+          ],
+          "correct": 1,
+          "explanation": "Informed consent ensures clients understand and agree to treatment. It includes: nature and goals of therapy, methods to be used, potential risks and benefits, limits of confidentiality, fee structure, cancellation policy, therapist credentials, alternatives to treatment, and right to discontinue. In family therapy, consent becomes more complex - all adults should consent, and there should be clarity about confidentiality among family members.",
+          "citation": "AAMFT Code of Ethics (2015), Principle I; APA Ethics Code (2017), Standard 10.01.",
+          "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+          "memoryTip": "Informed consent = clients know what they're getting into before therapy starts."
+        },
+        {
+          "id": 370,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Narrative", "letters", "documentation"],
+          "question": "In Narrative therapy, therapeutic letters are used to:",
+          "options": [
+            "Provide formal medical documentation",
+            "Summarize sessions and thicken alternative stories in written form",
+            "Bill insurance companies",
+            "Maintain legal records"
+          ],
+          "correct": 1,
+          "explanation": "Therapeutic letters in Narrative therapy summarize sessions, highlight unique outcomes, thicken alternative stories, and provide clients a tangible record of their preferred narratives. White estimated letters were worth 3-4 sessions. Letters continue therapeutic work between sessions, give clients something to revisit and reflect on, can be shared with important others as audience for new stories, and document the re-authoring process.",
+          "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton; Epston, D. (1994). Extending the Conversation. Family Therapy Networker, 18(6), 30-37.",
+          "studyUrls": ["https://dulwichcentre.com.au/what-is-narrative-therapy/"],
+          "memoryTip": "Narrative letters = therapy continues on paper; worth 3-4 sessions according to White."
+        },
+        {
+          "id": 371,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Bowenian", "coaching", "differentiation"],
+          "question": "In Bowenian coaching, the therapist primarily works with:",
+          "options": [
+            "The whole family together in session",
+            "One family member who works on their own differentiation within the family system",
+            "Only the identified patient",
+            "Extended family members without the nuclear family"
+          ],
+          "correct": 1,
+          "explanation": "Bowenian therapy often involves coaching - working with one motivated family member to increase their differentiation within their family system. This person develops person-to-person relationships with family members, takes I-positions, detriangles from family emotional processes, and becomes a calmer presence that influences the whole system. Change in one member's functioning can shift the entire system.",
+          "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson.",
+          "studyUrls": ["https://www.thebowencenter.org/theory/eight-concepts"],
+          "memoryTip": "Bowenian coaching = working with ONE person to change the whole system from inside."
+        },
+        {
+          "id": 372,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Strategic", "ordeal", "paradox"],
+          "vignette": "A client complains of insomnia but resists changing habits. The therapist prescribes: 'If you can't sleep, you must get up and scrub the kitchen floor for one hour, then return to bed. If still awake, clean the bathroom.'",
+          "question": "This intervention is an example of:",
+          "options": [
+            "Sleep hygiene education",
+            "An ordeal technique making the symptom more trouble than it's worth",
+            "Behavioral punishment",
+            "Relaxation training"
+          ],
+          "correct": 1,
+          "explanation": "Ordeal therapy (Haley) prescribes that maintaining the symptom requires performing an unpleasant but beneficial ordeal. If the symptom occurs, the person must do something they'd rather avoid. The symptom becomes more trouble than giving it up. Ordeals should be: harder than the symptom, beneficial, not harmful, logically connected if possible, and performed reliably. Here, insomnia triggers productive but unpleasant cleaning, making staying awake costly.",
+          "citation": "Haley, J. (1984). Ordeal Therapy: Unusual Ways to Change Behavior. Jossey-Bass.",
+          "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/types/strategic-therapy"],
+          "memoryTip": "Ordeal = if you're going to have the symptom, you'll have to do something harder."
+        },
+        {
+          "id": 373,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["homework", "between-session", "tasks"],
+          "question": "Between-session homework in family therapy serves to:",
+          "options": [
+            "Replace in-session work to save time",
+            "Extend therapeutic work, test new patterns, and promote generalization",
+            "Give the therapist a break",
+            "Punish families for not changing fast enough"
+          ],
+          "correct": 1,
+          "explanation": "Homework extends therapy beyond sessions by: providing opportunities to practice new skills, testing whether in-session changes transfer to daily life, gathering data about patterns (observation tasks), maintaining therapeutic momentum, building client agency, and promoting generalization. Effective homework is collaboratively designed, specific, achievable, and reviewed in subsequent sessions.",
+          "citation": "Kazantzis, N., Whittington, C., & Dattilio, F. (2010). Meta-Analysis of Homework Effects in Cognitive and Behavioral Therapy. Clinical Psychology: Science and Practice, 17(2), 144-156.",
+          "studyUrls": ["https://www.apa.org/ptsd-guideline/treatments/cognitive-behavioral-therapy"],
+          "memoryTip": "Homework = therapy continues at home; practice makes permanent."
+        },
+        {
+          "id": 374,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["EFT", "evocative responding", "technique"],
+          "question": "In EFT, 'evocative responding' involves the therapist:",
+          "options": [
+            "Provoking emotional reactions deliberately",
+            "Using empathic reflection and questions to help clients access deeper emotions",
+            "Avoiding emotional topics",
+            "Challenging cognitive distortions"
+          ],
+          "correct": 1,
+          "explanation": "Evocative responding uses empathic reflection and evocative questions to help clients access and elaborate their emotional experience: 'What's happening for you right now?' 'If that fear could speak, what would it say?' 'Can you stay with that feeling?' It's not provoking emotion but creating safety for emotions to emerge. This is a core EFT micro-intervention for accessing primary attachment emotions underneath secondary defensive reactions.",
+          "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+          "studyUrls": ["https://iceeft.com/what-is-eft/"],
+          "memoryTip": "Evocative = drawing out (evoking) deeper emotions through empathic curiosity."
+        },
+        {
+          "id": 375,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["reflecting team", "postmodern", "intervention"],
+          "question": "The reflecting team approach (Tom Andersen) involves:",
+          "options": [
+            "Family members reflecting on their problems alone",
+            "Team members discussing their observations while family listens, then family responds",
+            "Using mirrors in the therapy room",
+            "Homework focused on self-reflection"
+          ],
+          "correct": 1,
+          "explanation": "In reflecting team practice, observers discuss their reflections with each other while the family watches/listens, then the family responds to what they heard. Reflecting teams offer multiple perspectives tentatively, avoid certainty or pathologizing, speak respectfully about family members, and offer different but not contradictory ideas. This approach respects family autonomy, provides options rather than prescriptions, and models collaborative, non-hierarchical conversation.",
+          "citation": "Andersen, T. (1991). The Reflecting Team: Dialogues and Dialogues about the Dialogues. W. W. Norton.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+          "memoryTip": "Reflecting team = therapists reflect OUT LOUD while family listens and picks what fits."
+        },
+        {
+          "id": 376,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["goals", "treatment planning", "collaboration"],
+          "question": "Collaborative goal-setting in family therapy:",
+          "options": [
+            "Is unnecessary as the therapist knows what's best",
+            "Ensures goals are meaningful to clients and increases engagement",
+            "Should focus only on eliminating symptoms",
+            "Is only done at the end of therapy"
+          ],
+          "correct": 1,
+          "explanation": "Collaborative goal-setting involves working with clients to identify meaningful, achievable goals. This increases motivation and engagement, ensures treatment addresses what matters to clients, provides shared direction, allows progress measurement, and respects client autonomy. Goals should be specific, measurable, achievable, relevant, and time-bound (SMART), stated positively (what they want, not just what they don't want), and regularly reviewed.",
+          "citation": "Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client: A Revolutionary Way to Improve Effectiveness Through Client-Directed, Outcome-Informed Therapy. Jossey-Bass.",
+          "studyUrls": ["https://scottdmiller.com/"],
+          "memoryTip": "Collaborative goals = therapy works better when clients help set the destination."
+        },
+        {
+          "id": 377,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["SFBT", "do something different", "task"],
+          "vignette": "A couple describes having the same argument repeatedly with the same outcome. The SFBT therapist suggests: 'This week, when that argument starts, do something different - anything different - even if it seems silly.'",
+          "question": "This task is based on the principle that:",
+          "options": [
+            "Insight must precede behavioral change",
+            "Interrupting problem patterns with any different behavior can create change",
+            "Silly behaviors are therapeutic",
+            "Arguments should be avoided completely"
+          ],
+          "correct": 1,
+          "explanation": "The 'do something different' task reflects SFBT/MRI insight that problem patterns persist because people keep trying the same unsuccessful solutions. Any change - even random or seemingly illogical - can interrupt the pattern and create new possibilities. The specific alternative matters less than breaking the repetitive sequence. This empowers clients to experiment without requiring insight into why patterns exist.",
+          "citation": "de Shazer, S. (1985). Keys to Solution in Brief Therapy. W. W. Norton; Watzlawick, P., Weakland, J., & Fisch, R. (1974). Change. W. W. Norton.",
+          "studyUrls": ["https://solutionfocused.net/"],
+          "memoryTip": "Do something different = if it's not working, any change beats doing the same thing again."
+        },
+        {
+          "id": 378,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Gottman", "dreams within conflict", "intervention"],
+          "question": "Gottman's 'Dreams Within Conflict' intervention helps couples:",
+          "options": [
+            "Interpret each other's dreams for psychological meaning",
+            "Explore the underlying hopes, values, and history beneath gridlocked positions",
+            "Stop having dreams about conflict",
+            "Avoid discussing difficult topics"
+          ],
+          "correct": 1,
+          "explanation": "Dreams Within Conflict helps with perpetual problems where partners are gridlocked. Each partner explores: What's the dream behind your position? What does this issue mean to you? What values/hopes/fears underlie it? Partners take turns as speaker and listener, focusing on understanding rather than persuading. This honors both partners' underlying dreams, even if full agreement isn't possible, allowing movement from gridlock to dialogue.",
+          "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers.",
+          "studyUrls": ["https://www.gottman.com/blog/managing-vs-resolving-conflict-relationships-perpetual-problems/"],
+          "memoryTip": "Dreams Within Conflict = what deeper dream is each person fighting for?"
+        },
+        {
+          "id": 379,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["IBCT", "acceptance", "behavioral"],
+          "question": "Integrative Behavioral Couple Therapy (IBCT) differs from Traditional BCT by adding:",
+          "options": [
+            "More focus on communication skills",
+            "Acceptance-based interventions alongside change strategies",
+            "Individual therapy sessions only",
+            "Medication recommendations"
+          ],
+          "correct": 1,
+          "explanation": "Integrative Behavioral Couple Therapy (Jacobson & Christensen) integrates traditional behavioral change strategies (communication training, problem-solving, behavior exchange) with acceptance-based interventions (empathic joining, unified detachment, tolerance building). IBCT recognizes that some differences are unchangeable and helps partners accept each other's 'core issues.' This combination shows improved long-term outcomes compared to traditional BCT alone.",
+          "citation": "Jacobson, N. S., & Christensen, A. (1998). Acceptance and Change in Couple Therapy: A Therapist's Guide to Transforming Relationships. W. W. Norton.",
+          "studyUrls": ["https://www.ibct.info/"],
+          "memoryTip": "IBCT = Integrative = change what you can, accept what you can't, in couples."
+        },
+        {
+          "id": 380,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["validation", "intervention", "technique"],
+          "question": "Validation in therapy involves:",
+          "options": [
+            "Agreeing with everything the client says",
+            "Communicating understanding and acceptance of the client's experience",
+            "Validating the therapist's theoretical orientation",
+            "Checking that paperwork is correct"
+          ],
+          "correct": 1,
+          "explanation": "Validation communicates that the client's feelings, thoughts, and behaviors make sense given their context and experience - even if they're problematic. Validation differs from agreement; you can validate someone's pain without endorsing their actions. Validation reduces defensiveness, builds alliance, creates safety for vulnerability, and is essential before clients can consider change. It's especially important in family therapy where multiple perspectives need validation.",
+          "citation": "Linehan, M. M. (1993). Cognitive-Behavioral Treatment of Borderline Personality Disorder. Guilford Press.",
+          "studyUrls": ["https://behavioraltech.org/resources/faqs/dialectical-behavior-therapy-dbt/"],
+          "memoryTip": "Validation = 'Your reaction makes sense given what you've experienced' - not the same as agreement."
+        },
+        {
+          "id": 381,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["Structural", "mimesis", "joining"],
+          "question": "In Structural therapy, 'mimesis' refers to:",
+          "options": [
+            "Copying family members' problematic behaviors",
+            "Matching or adapting to the family's style, tempo, and communication patterns",
+            "Miming instructions when working with deaf clients",
+            "Remembering family member names"
+          ],
+          "correct": 1,
+          "explanation": "Mimesis is a joining technique where the therapist matches or mirrors the family's communication style, pace, affect, and language patterns. With an emotionally expressive family, the therapist becomes more animated; with a reserved family, more measured. Mimesis builds rapport by showing the therapist can 'speak their language' and reduces the sense of therapist as outsider. It's a component of accommodation to family style.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Structural_Family_Therapy.aspx"],
+          "memoryTip": "Mimesis = mimic their style; match the family's communication 'dialect.'"
+        },
+        {
+          "id": 382,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Narrative", "absent but implicit", "scaffolding"],
+          "vignette": "A client says: 'I finally told my boss I needed reasonable work hours.' The Narrative therapist asks: 'What does standing up for yourself say about what you believe you deserve? What values made that action possible?'",
+          "question": "This explores:",
+          "options": [
+            "Cognitive distortions",
+            "Absent but implicit values that gave meaning to the action",
+            "Past trauma",
+            "Defense mechanisms"
+          ],
+          "correct": 1,
+          "explanation": "'Absent but implicit' refers to values, beliefs, hopes, and commitments that are implied by actions but not explicitly stated. The action (asserting boundaries) implies underlying beliefs (I deserve respect, my time matters). Narrative therapists make these implicit meanings explicit through scaffolding questions, thickening preferred stories by connecting actions to identity and values. This moves from 'landscape of action' (what happened) to 'landscape of identity' (what it means).",
+          "citation": "White, M. (2007). Maps of Narrative Practice. W. W. Norton.",
+          "studyUrls": ["https://dulwichcentre.com.au/what-is-narrative-therapy/"],
+          "memoryTip": "Absent but implicit = the invisible values that must be present for actions to make sense."
+        },
+        {
+          "id": 383,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["relapse prevention", "maintenance"],
+          "question": "Relapse prevention in family therapy includes:",
+          "options": [
+            "Keeping families in therapy indefinitely",
+            "Anticipating challenges, identifying warning signs, and planning coping responses",
+            "Preventing families from ever having problems again",
+            "Avoiding discussion of potential setbacks"
+          ],
+          "correct": 1,
+          "explanation": "Relapse prevention prepares families for challenges after therapy ends: anticipating situations that might trigger old patterns, identifying early warning signs of relapse, planning specific coping responses, normalizing setbacks as part of the change process (not failure), and clarifying when to return for 'booster' sessions. This realistic approach improves long-term maintenance and reduces demoralization if problems recur.",
+          "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford Press.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+          "memoryTip": "Relapse prevention = plan for bumps in the road so they don't derail the whole journey."
+        },
+        {
+          "id": 384,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["EFT", "Stage 2", "restructuring"],
+          "question": "In EFT Stage 2, the primary goal is to:",
+          "options": [
+            "Identify the negative cycle",
+            "Help partners access vulnerable emotions and respond to each other's attachment needs",
+            "Consolidate gains and prepare for termination",
+            "Teach communication skills"
+          ],
+          "correct": 1,
+          "explanation": "EFT Stage 2 (Restructuring) involves: helping withdrawers reengage and express attachment needs; helping pursuers soften and express vulnerability rather than criticism; creating new bonding events where partners reach and respond to each other; and establishing new patterns of emotional accessibility and responsiveness. This is where the core change occurs - partners have new emotional experiences of each other that reshape the relationship.",
+          "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+          "studyUrls": ["https://iceeft.com/what-is-eft/"],
+          "memoryTip": "EFT Stage 2 = Restructure the bond; new ways of reaching and responding."
+        },
+        {
+          "id": 385,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["multisystemic", "MST", "adolescent"],
+          "question": "Multisystemic Therapy (MST) for adolescent behavior problems is characterized by:",
+          "options": [
+            "Office-based individual therapy only",
+            "Intensive, home-based interventions addressing multiple systems (family, school, peers, community)",
+            "Residential treatment",
+            "Group therapy with delinquent peers"
+          ],
+          "correct": 1,
+          "explanation": "MST is an intensive, home-based treatment for serious adolescent antisocial behavior. It addresses multiple systems influencing behavior: family (parenting practices, relationships), school (academic support, behavior), peers (promoting prosocial peers, reducing antisocial peer influence), and community. Therapists have small caseloads, are available 24/7, and deliver services where problems occur. MST has strong research support for reducing recidivism and out-of-home placements.",
+          "citation": "Henggeler, S. W., et al. (2009). Multisystemic Therapy for Antisocial Behavior in Children and Adolescents (2nd ed.). Guilford Press.",
+          "studyUrls": ["https://www.mstservices.com/"],
+          "memoryTip": "MST = Multi-Systemic = work with ALL the systems (family, school, peers) where the teen lives."
+        },
+        {
+          "id": 386,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Strategic", "pretend technique", "Madanes"],
+          "vignette": "A child has severe tantrums that control the household. Madanes instructs the parents to ask the child to 'pretend' to have a tantrum at a scheduled time each day, with parents pretending to be upset.",
+          "question": "This intervention works by:",
+          "options": [
+            "Punishing the child for tantrums",
+            "Making the symptom voluntary and changing its function in the family hierarchy",
+            "Ignoring the behavior",
+            "Sedating the child"
+          ],
+          "correct": 1,
+          "explanation": "Madanes' 'pretend technique' has children practice symptoms voluntarily under parental direction. This: makes involuntary behavior voluntary (changing its nature), puts parents in charge (correcting hierarchy), removes secondary gain (tantrums no longer control parents), and often leads to symptom reduction (voluntary practice is less compelling). The pretend directive changes the meaning and function of behavior within the family system.",
+          "citation": "Madanes, C. (1981). Strategic Family Therapy. Jossey-Bass.",
+          "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/types/strategic-therapy"],
+          "memoryTip": "Pretend technique = practice the symptom on purpose; takes the power out of it."
+        },
+        {
+          "id": 387,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["genogram", "intervention", "Bowenian"],
+          "question": "Using a genogram therapeutically involves:",
+          "options": [
+            "Only collecting historical facts",
+            "Exploring multigenerational patterns, triangles, and their influence on current relationships",
+            "Creating a legal family tree",
+            "Diagnosing genetic disorders"
+          ],
+          "correct": 1,
+          "explanation": "Therapeutic genogram work goes beyond data collection to explore: multigenerational patterns of relationship, anxiety, and symptoms; triangles and their current influence; cutoffs and their meanings; family themes and legacies; and how the past informs current functioning. The process itself is therapeutic - as patterns become visible, clients gain perspective and choices about whether to repeat or change inherited patterns.",
+          "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton.",
+          "studyUrls": ["https://www.thebowencenter.org/theory/eight-concepts"],
+          "memoryTip": "Therapeutic genogram = not just who's who, but what patterns keep repeating."
+        },
+        {
+          "id": 388,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["SFBT", "compliments", "session structure"],
+          "question": "In SFBT, the therapist's compliments at the end of session serve to:",
+          "options": [
+            "Flatter clients to maintain the relationship",
+            "Highlight client strengths, resources, and efforts that support change",
+            "Fill time at the end of session",
+            "Avoid discussing problems"
+          ],
+          "correct": 1,
+          "explanation": "End-of-session compliments in SFBT highlight: client strengths and resources, efforts they've made, qualities that will help them reach goals, and progress already achieved. Compliments are genuine observations, not empty praise. They reinforce solution-focus, build confidence, and serve as a bridge to the therapeutic task. The compliment-task sequence emphasizes what's working and extends strengths-based work between sessions.",
+          "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton.",
+          "studyUrls": ["https://solutionfocused.net/"],
+          "memoryTip": "SFBT compliments = genuine recognition of what's working, not just flattery."
+        },
+        {
+          "id": 389,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["attachment", "intervention", "child-parent"],
+          "question": "Circle of Security intervention helps parents:",
+          "options": [
+            "Set stricter boundaries with children",
+            "Recognize and respond to children's attachment needs for both secure base and safe haven",
+            "Develop authoritarian parenting styles",
+            "Reduce all physical contact with children"
+          ],
+          "correct": 1,
+          "explanation": "Circle of Security is an attachment-based intervention helping parents: understand children's attachment needs (secure base for exploration and safe haven for comfort), recognize when children need support versus autonomy, identify their own attachment 'shark music' (triggered reactions from their history), and provide consistent, sensitive responses. The visual 'circle' shows children going out to explore (top of circle) and returning for comfort (bottom), with parents providing what's needed at each point.",
+          "citation": "Powell, B., Cooper, G., Hoffman, K., & Marvin, B. (2014). The Circle of Security Intervention. Guilford Press.",
+          "studyUrls": ["https://www.circleofsecurityinternational.com/"],
+          "memoryTip": "Circle of Security = kids go out to explore (secure base) and come back for comfort (safe haven)."
+        },
+        {
+          "id": 390,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["circular questions", "intervention", "Milan"],
+          "question": "Circular questions in therapy ask family members to:",
+          "options": [
+            "Answer questions in a circular seating arrangement",
+            "Comment on the relationship between other family members or how others might view situations",
+            "Give circular, non-committal answers",
+            "Repeat questions back to the therapist"
+          ],
+          "correct": 1,
+          "explanation": "Circular questions ask one family member to describe the relationship between two others, or to speculate how someone else sees a situation: 'When Mom and Dad argue, what does your sister do?' 'Who would be most upset if the problem suddenly disappeared?' This reveals relational patterns, introduces multiple perspectives, and illuminates circular causality without direct confrontation. They're diagnostic and interventive simultaneously.",
+          "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Milan_Systemic_Family_Therapy.aspx"],
+          "memoryTip": "Circular questions = Person A describes relationship between B and C; reveals patterns."
+        },
+        {
+          "id": 391,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["emotion coaching", "parent training", "Gottman"],
+          "question": "Gottman's 'emotion coaching' for parents involves:",
+          "options": [
+            "Teaching children to suppress negative emotions",
+            "Recognizing emotions as opportunities for connection and teaching",
+            "Coaching parents to express more positive emotions",
+            "Using sports metaphors in therapy"
+          ],
+          "correct": 1,
+          "explanation": "Emotion coaching (Gottman) teaches parents to: see children's negative emotions as opportunities for intimacy and teaching rather than problems to solve; validate and name emotions; help children understand and regulate emotions; and set limits on behavior while accepting feelings. Emotion coaching parents raise children with better emotional intelligence, self-regulation, academic performance, and peer relationships. It contrasts with emotion-dismissing or emotion-disapproving parenting.",
+          "citation": "Gottman, J. M., Katz, L. F., & Hooven, C. (1996). Parental Meta-Emotion Philosophy and the Emotional Life of Families. Journal of Family Psychology, 10(3), 243-268.",
+          "studyUrls": ["https://www.gottman.com/blog/an-introduction-to-emotion-coaching/"],
+          "memoryTip": "Emotion coaching = emotions are teaching moments, not problems to fix."
+        },
+        {
+          "id": 392,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Contextual", "multidirected partiality", "fairness"],
+          "question": "In Contextual therapy, 'multidirected partiality' means the therapist:",
+          "options": [
+            "Sides with whoever is most upset",
+            "Takes turns being partial to each family member, advocating for everyone's legitimate interests",
+            "Remains completely neutral and uninvolved",
+            "Focuses only on the identified patient"
+          ],
+          "correct": 1,
+          "explanation": "Multidirected partiality (Boszormenyi-Nagy) means the therapist advocates for each family member's legitimate interests in turn, including absent members and future generations. Unlike neutrality (staying uninvolved), the therapist actively sides with each person's valid claims and concerns. This models fairness, ensures everyone feels heard, and addresses the relational ledger of entitlements and obligations. It's partiality to everyone, not neutrality to anyone.",
+          "citation": "Boszormenyi-Nagy, I., & Krasner, B. R. (1986). Between Give and Take: A Clinical Guide to Contextual Therapy. Brunner/Mazel.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Contextual_Family_Therapy.aspx"],
+          "memoryTip": "Multidirected partiality = take turns being on everyone's side; advocate for all."
+        },
+        {
+          "id": 393,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["process", "content", "intervention"],
+          "question": "When therapists focus on 'process' rather than 'content,' they attend to:",
+          "options": [
+            "The specific topics families discuss",
+            "How family members interact with each other during discussion",
+            "The accuracy of information provided",
+            "Taking detailed notes"
+          ],
+          "correct": 1,
+          "explanation": "Process focus attends to HOW family members interact: who speaks to whom, who interrupts, who is silenced, emotional tone, sequences of interaction, coalitions, power dynamics. Content is WHAT they discuss; process is HOW they discuss it. Systemic therapists often prioritize process over content because changing interaction patterns (process) is more therapeutic than solving any single topic (content). The same process issues appear across different content areas.",
+          "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press.",
+          "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+          "memoryTip": "Content = WHAT they talk about; Process = HOW they talk (and process is usually more important)."
+        },
+        {
+          "id": 394,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["functional family therapy", "FFT", "adolescent"],
+          "question": "Functional Family Therapy (FFT) is designed primarily for:",
+          "options": [
+            "Couples without children",
+            "At-risk and delinquent adolescents and their families",
+            "Families with very young children",
+            "Individual adults with anxiety"
+          ],
+          "correct": 1,
+          "explanation": "Functional Family Therapy is an evidence-based intervention for at-risk and delinquent youth (ages 11-18) and their families. FFT has three phases: engagement/motivation (reduce blame, increase hope), behavior change (specific parenting and communication skills), and generalization (maintain changes, connect to community resources). It's briefer than MST (8-12 sessions), office-based, and has strong research support for reducing recidivism and substance use.",
+          "citation": "Alexander, J. F., & Parsons, B. V. (1982). Functional Family Therapy. Brooks/Cole; Sexton, T. L. (2011). Functional Family Therapy in Clinical Practice. Routledge.",
+          "studyUrls": ["https://www.fftllc.com/"],
+          "memoryTip": "FFT = for troubled teens; Engagement, Behavior change, Generalization (EBG phases)."
+        },
+        {
+          "id": 395,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["common factors", "research", "outcome"],
+          "question": "Research on 'common factors' in therapy suggests that:",
+          "options": [
+            "Specific techniques account for most therapy outcomes",
+            "Factors shared across therapies (alliance, hope, therapist factors) contribute significantly to outcomes",
+            "Only medication produces reliable outcomes",
+            "Therapist training doesn't matter"
+          ],
+          "correct": 1,
+          "explanation": "Common factors research suggests that factors shared across all therapies - therapeutic alliance, hope/expectancy, client factors, and therapist factors - may account for as much or more outcome variance than specific techniques. This doesn't mean techniques don't matter, but that relationship and context are powerful. Implications: alliance quality matters regardless of approach; client engagement is crucial; therapist development should emphasize relationship skills alongside technique training.",
+          "citation": "Wampold, B. E. (2015). The Great Psychotherapy Debate: The Evidence for What Makes Psychotherapy Work (2nd ed.). Routledge; Duncan, B. L. (2010). On Becoming a Better Therapist. American Psychological Association.",
+          "studyUrls": ["https://www.apa.org/pubs/journals/features/pst-42-1-5.pdf"],
+          "memoryTip": "Common factors = what ALL therapies share (alliance, hope, engagement) may matter most."
         }
       ]
 

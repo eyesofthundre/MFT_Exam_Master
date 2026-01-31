@@ -1120,7 +1120,554 @@
       "correct": 1,
       "explanation": "Panic attacks involve an abrupt surge of intense fear or discomfort reaching a peak within minutes, with at least 4 of 13 symptoms (palpitations, sweating, trembling, shortness of breath, choking feeling, chest pain, nausea, dizziness, chills/heat, paresthesias, derealization/depersonalization, fear of losing control, fear of dying). Panic Disorder requires recurrent unexpected panic attacks plus at least 1 month of persistent concern about additional attacks or maladaptive behavioral changes (avoidance) related to the attacks. The sudden onset distinguishes panic from other anxiety.",
       "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing."
+    },
+    {
+      "id": 261,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "ADHD", "diagnosis"],
+      "question": "According to DSM-5-TR, for a diagnosis of ADHD in adults, symptoms must have been present before age:",
+      "options": [
+        "7",
+        "12",
+        "16",
+        "18"
+      ],
+      "correct": 1,
+      "explanation": "DSM-5-TR requires that several ADHD symptoms be present before age 12 (changed from age 7 in DSM-IV). This criterion acknowledges that while ADHD is a neurodevelopmental disorder beginning in childhood, it may not be recognized until later when demands increase. Retrospective assessment of childhood symptoms is essential for adult diagnosis, often requiring collateral information from parents or school records.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.cdc.gov/adhd/diagnosis/index.html"],
+      "memoryTip": "ADHD onset before 12 - think 'a dozen years old' as the cutoff."
+    },
+    {
+      "id": 262,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["protective factors", "suicide", "assessment"],
+      "question": "Which of the following is considered a protective factor against suicide?",
+      "options": [
+        "Social isolation",
+        "Access to lethal means",
+        "Strong family connections and social support",
+        "Previous suicide attempts"
+      ],
+      "correct": 2,
+      "explanation": "Protective factors reduce the likelihood of suicide and include: strong connections to family and community, problem-solving and coping skills, restricted access to lethal means, cultural/religious beliefs against suicide, ongoing mental health treatment, and reasons for living. Strong social support provides belonging, assistance in crisis, and reasons to live. Assessment must evaluate both risk and protective factors to gauge overall level of concern.",
+      "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Centers for Disease Control and Prevention (2022). Risk and Protective Factors.",
+      "studyUrls": ["https://www.cdc.gov/suicide/factors/index.html"],
+      "memoryTip": "Protective = connections that 'protect' - family, friends, faith, future plans."
+    },
+    {
+      "id": 263,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Autism", "diagnosis"],
+      "vignette": "A 25-year-old man presents with difficulty reading social cues, restricted interests (trains), preference for routines, and sensory sensitivities. He reports these have been present since childhood but was never evaluated. He has a graduate degree and lives independently.",
+      "question": "The MOST appropriate diagnostic consideration is:",
+      "options": [
+        "Social Anxiety Disorder",
+        "Schizoid Personality Disorder",
+        "Autism Spectrum Disorder, Level 1 (requiring support)",
+        "Obsessive-Compulsive Personality Disorder"
+      ],
+      "correct": 2,
+      "explanation": "This presentation suggests Autism Spectrum Disorder (ASD). Key features: persistent deficits in social communication (reading social cues), restricted/repetitive patterns (intense train interest, routine preference), sensory sensitivities, and symptoms present from early development. Level 1 ('requiring support') indicates the person can function but needs some assistance. High-functioning adults often aren't diagnosed until adulthood when demands exceed coping capacity. The graduate degree and independent living are consistent with Level 1.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.cdc.gov/autism/diagnosis/index.html"],
+      "memoryTip": "ASD Levels: 1 = needs some support; 2 = needs substantial; 3 = needs very substantial."
+    },
+    {
+      "id": 264,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["timeline", "family assessment", "tool"],
+      "question": "A family timeline (or chronology) is used in assessment to:",
+      "options": [
+        "Schedule future therapy appointments",
+        "Track sequential events, transitions, and their relationship to symptom development",
+        "List all family members' birthdays",
+        "Create a treatment plan timeline"
+      ],
+      "correct": 1,
+      "explanation": "A family timeline or chronology plots significant events (births, deaths, marriages, divorces, moves, job changes, illnesses, traumas) in sequential order along with symptom onset and changes. This helps identify patterns, connections between life events and symptoms, accumulation of stressors, and family developmental stages. Seeing events laid out chronologically often reveals relationships not apparent when discussing history non-linearly.",
+      "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+      "memoryTip": "Timeline = seeing the story unfold - what happened when and what changed?"
+    },
+    {
+      "id": 265,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Somatic Symptom Disorder", "diagnosis"],
+      "question": "Somatic Symptom Disorder is characterized by:",
+      "options": [
+        "Intentional production of symptoms for external gain",
+        "Excessive thoughts, feelings, or behaviors related to somatic symptoms",
+        "Physical symptoms with confirmed medical explanation",
+        "Denial of any physical discomfort"
+      ],
+      "correct": 1,
+      "explanation": "Somatic Symptom Disorder (SSD) involves one or more somatic symptoms that are distressing or result in significant life disruption, along with excessive thoughts, feelings, or behaviors related to the symptoms (disproportionate health anxiety, excessive time/energy devoted to symptoms). Unlike older 'somatization' diagnoses, SSD doesn't require the symptoms be medically unexplained - the focus is on the excessive psychological response regardless of whether a medical condition exists.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.merckmanuals.com/professional/psychiatric-disorders/somatic-symptom-and-related-disorders/somatic-symptom-disorder"],
+      "memoryTip": "SSD = symptoms + excessive RESPONSE to symptoms (thoughts, feelings, behaviors about the symptoms)."
+    },
+    {
+      "id": 266,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["differential diagnosis", "Depression", "Grief"],
+      "vignette": "A woman's husband died 3 weeks ago. She reports persistent sadness, crying, poor sleep, decreased appetite, and difficulty concentrating. She finds some comfort in memories and can experience moments of positive emotion when with grandchildren.",
+      "question": "The MOST appropriate assessment conclusion is:",
+      "options": [
+        "Major Depressive Disorder requiring immediate treatment",
+        "Normal grief response; monitor and support",
+        "Prolonged Grief Disorder",
+        "Adjustment Disorder with Depressed Mood"
+      ],
+      "correct": 1,
+      "explanation": "At 3 weeks post-loss, this presentation is consistent with normal grief. Key differentiating features from depression: she can experience moments of positive emotion, finds comfort in memories, and symptoms are clearly tied to the loss. DSM-5-TR notes that grief can resemble depression but is typically experienced in 'waves' rather than persistent sadness, and self-esteem is usually preserved. Prolonged Grief Disorder requires symptoms lasting 12+ months (adults). Clinical support is appropriate, but pathologizing normal grief is harmful.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Shear, M. K. (2015). Complicated Grief. New England Journal of Medicine, 372(2), 153-160.",
+      "studyUrls": ["https://grief.com/the-five-stages-of-grief/"],
+      "memoryTip": "Normal grief = waves of pain with moments of light; depression = constant darkness with no relief."
+    },
+    {
+      "id": 267,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["assessment", "triangulation", "Bowen"],
+      "vignette": "During family assessment, whenever the therapist asks about the couple's relationship, the mother redirects conversation to their son's behavioral problems. The father appears relieved by these redirections.",
+      "question": "This pattern MOST likely represents:",
+      "options": [
+        "Appropriate parental concern for their child",
+        "Triangulation using the child to avoid marital issues",
+        "Child-focused family with appropriate priorities",
+        "Resistance requiring confrontation"
+      ],
+      "correct": 1,
+      "explanation": "This pattern exemplifies triangulation - a two-person system (the couple) involving a third party (son) to reduce anxiety in their relationship. The child's problems serve a homeostatic function by deflecting attention from marital difficulties. The father's relief suggests the pattern serves both parents. Assessment should hypothesize: What would happen if the child improved? What marital issues might emerge? This pattern is common when child symptoms stabilize a distressed marriage.",
+      "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+      "studyUrls": ["https://www.thebowencenter.org/theory/eight-concepts"],
+      "memoryTip": "Triangulation in assessment = when focus on child consistently diverts from couple issues."
+    },
+    {
+      "id": 268,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Insomnia", "diagnosis"],
+      "question": "For a diagnosis of Insomnia Disorder, sleep difficulties must occur at least how many nights per week?",
+      "options": [
+        "1 night",
+        "3 nights",
+        "5 nights",
+        "7 nights"
+      ],
+      "correct": 1,
+      "explanation": "Insomnia Disorder requires difficulty initiating or maintaining sleep, or early morning awakening, occurring at least 3 nights per week for at least 3 months, causing significant distress or impairment. The '3 nights per week' criterion distinguishes clinical insomnia from occasional sleep difficulties everyone experiences. Sleep complaints must not be better explained by another sleep disorder, medical condition, substance, or mental disorder.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.sleepfoundation.org/insomnia"],
+      "memoryTip": "Insomnia: 3-3 rule = 3 nights/week for 3 months minimum."
+    },
+    {
+      "id": 269,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["projective", "assessment", "Rorschach"],
+      "question": "Projective assessment techniques such as the Rorschach are based on the assumption that:",
+      "options": [
+        "Direct questioning always yields accurate information",
+        "Ambiguous stimuli elicit responses revealing underlying psychological dynamics",
+        "Standardized questions produce reliable diagnostic data",
+        "Self-report measures are superior to all other methods"
+      ],
+      "correct": 1,
+      "explanation": "Projective techniques assume that when presented with ambiguous stimuli (inkblots, incomplete sentences, pictures), people 'project' their own needs, feelings, conflicts, and ways of perceiving the world onto them. This presumably bypasses conscious defenses to reveal unconscious material. While controversial regarding reliability and validity, projective techniques remain used in some settings for personality assessment and hypothesis generation.",
+      "citation": "Groth-Marnat, G., & Wright, A. J. (2016). Handbook of Psychological Assessment (6th ed.). Wiley.",
+      "studyUrls": ["https://www.apa.org/topics/assessment-psychology"],
+      "memoryTip": "Projective = you PROJECT your inner world onto vague images like a movie projector."
+    },
+    {
+      "id": 270,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Dissociative Identity Disorder", "diagnosis"],
+      "vignette": "A client reports gaps in memory for everyday events and personal information. She sometimes 'comes to' in unfamiliar places without knowing how she got there. Family members report she sometimes acts like a different person, using different names and mannerisms. These experiences began after severe childhood abuse.",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Schizophrenia with identity confusion",
+        "Borderline Personality Disorder with identity disturbance",
+        "Dissociative Identity Disorder",
+        "Malingering for attention"
+      ],
+      "correct": 2,
+      "explanation": "This presentation meets criteria for Dissociative Identity Disorder (DID): disruption of identity characterized by two or more distinct personality states, recurrent gaps in recall of everyday events and personal information, and significant distress/impairment. DID typically develops following severe childhood trauma as a dissociative coping mechanism. It differs from BPD identity disturbance (which doesn't involve distinct personality states) and from schizophrenia (which involves psychotic symptoms, not dissociation).",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); International Society for the Study of Trauma and Dissociation (2011). Guidelines for Treating DID in Adults.",
+      "studyUrls": ["https://www.isst-d.org/resources/adult-treatment-guidelines/"],
+      "memoryTip": "DID = Distinct Identities + Dissociative amnesia + childhood trauma history."
+    },
+    {
+      "id": 271,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["couples assessment", "intimacy", "sexual"],
+      "question": "When assessing sexual concerns in couples, the therapist should FIRST:",
+      "options": [
+        "Immediately refer to a sex therapist",
+        "Avoid the topic to prevent embarrassment",
+        "Normalize discussing sexuality and assess both partners' perspectives",
+        "Focus only on the partner reporting dissatisfaction"
+      ],
+      "correct": 2,
+      "explanation": "Assessment of sexual concerns requires the therapist to normalize discussion of sexuality, creating safety to explore a sensitive topic. Both partners' perspectives matter since sexual issues are inherently relational. Assessment explores: each partner's satisfaction, desire discrepancies, communication about sex, medical factors, relationship context, history of trauma, and cultural/religious influences. Many couples present with other issues while sexual problems remain hidden until the therapist inquires.",
+      "citation": "McCarthy, B. W., & McCarthy, E. (2012). Sexual Awareness: Your Guide to Healthy Couple Sexuality (5th ed.). Routledge; Weeks, G. R., & Gambescia, N. (2015). Couple Therapy and Sexual Problems. In A. S. Gurman et al. (Eds.), Clinical Handbook of Couple Therapy (5th ed.). Guilford Press.",
+      "studyUrls": ["https://www.aasect.org/"],
+      "memoryTip": "Sexual assessment = normalize, include both partners, explore relationally."
+    },
+    {
+      "id": 272,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Specific Phobia", "types"],
+      "question": "According to DSM-5-TR, Specific Phobia specifiers include all EXCEPT:",
+      "options": [
+        "Animal type",
+        "Natural environment type",
+        "Social interaction type",
+        "Blood-injection-injury type"
+      ],
+      "correct": 2,
+      "explanation": "DSM-5-TR Specific Phobia specifiers include: Animal (spiders, insects, dogs), Natural Environment (heights, storms, water), Blood-Injection-Injury (needles, medical procedures), Situational (airplanes, elevators, enclosed spaces), and Other (choking, vomiting, loud sounds). 'Social interaction type' is not a Specific Phobia specifier - fear of social situations is Social Anxiety Disorder. The specifiers help identify the phobic stimulus type, which has treatment implications.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/specific-phobias"],
+      "memoryTip": "Specific Phobia types: ANBSO - Animal, Natural environment, Blood-injection-injury, Situational, Other."
+    },
+    {
+      "id": 273,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "observational", "interaction"],
+      "question": "Observing family interaction patterns during assessment is valuable because:",
+      "options": [
+        "Family members always accurately report their interactions",
+        "Observed behavior often differs from reported behavior and reveals implicit patterns",
+        "It saves time compared to interviewing",
+        "Families behave exactly as they do at home"
+      ],
+      "correct": 1,
+      "explanation": "Direct observation of family interaction is crucial because: (1) families often lack awareness of their patterns or present idealized versions; (2) nonverbal communication, sequences, and implicit rules become visible; (3) therapist can see who interrupts whom, who defers to whom, how conflict is handled in real-time. While families may modify behavior in session, core patterns typically emerge. Observation combined with self-report provides fuller assessment than either alone.",
+      "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Patterson, G. R. (1982). Coercive Family Process. Castalia.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+      "memoryTip": "Observation reveals what families DO, not just what they SAY they do."
+    },
+    {
+      "id": 274,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Conversion Disorder", "FND"],
+      "vignette": "A 22-year-old presents with sudden paralysis of her legs following a motor vehicle accident in which she was uninjured. Neurological examination and imaging are negative. She displays 'la belle indifference' (unusual lack of concern about paralysis).",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Factitious Disorder",
+        "Conversion Disorder (Functional Neurological Symptom Disorder)",
+        "Somatic Symptom Disorder",
+        "Malingering"
+      ],
+      "correct": 1,
+      "explanation": "Conversion Disorder (now called Functional Neurological Symptom Disorder, FND) involves neurological symptoms (paralysis, blindness, seizures) incompatible with recognized neurological conditions. It requires clinical findings of incompatibility between symptoms and neurology (not just negative tests). The temporal relationship to a stressor (accident) and la belle indifference are classic features. Unlike factitious disorder or malingering, symptoms are not intentionally produced. Unlike somatic symptom disorder, the focus is specifically on neurological symptoms.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Stone, J., et al. (2010). The Symptoms of Functional Neurological Disorders. Journal of Neurology, Neurosurgery & Psychiatry, 81(5), 481-486.",
+      "studyUrls": ["https://www.neurosymptoms.org/"],
+      "memoryTip": "Conversion = psychological distress CONVERTS to neurological symptoms; FND = Functional (not structural) problem."
+    },
+    {
+      "id": 275,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "strengths", "resilience"],
+      "question": "A strengths-based assessment differs from traditional assessment by:",
+      "options": [
+        "Ignoring problems completely",
+        "Identifying client and family resources alongside difficulties",
+        "Only focusing on positive traits",
+        "Avoiding diagnosis entirely"
+      ],
+      "correct": 1,
+      "explanation": "Strengths-based assessment identifies client and family resources, competencies, and protective factors alongside problems and risk factors. It doesn't ignore difficulties but balances pathology-focus with attention to what's working, previous successes, coping strategies, social supports, and hope. This provides a more complete picture, reduces stigma, builds therapeutic alliance, and identifies resources for intervention. Strengths-based assessment emerged from family therapy, resilience research, and positive psychology.",
+      "citation": "Walsh, F. (2015). Strengthening Family Resilience (3rd ed.). Guilford Press; Saleebey, D. (Ed.) (2012). The Strengths Perspective in Social Work Practice (6th ed.). Pearson.",
+      "studyUrls": ["https://www.apa.org/topics/resilience"],
+      "memoryTip": "Strengths-based = problems AND strengths; what's wrong AND what's working."
+    },
+    {
+      "id": 276,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Premenstrual Dysphoric Disorder", "diagnosis"],
+      "question": "Premenstrual Dysphoric Disorder (PMDD) requires symptoms to be present:",
+      "options": [
+        "Throughout the entire menstrual cycle",
+        "Only during menstruation",
+        "In the week before menses, improving within days after onset",
+        "For at least 6 months continuously"
+      ],
+      "correct": 2,
+      "explanation": "PMDD requires symptoms in the final week before menses onset, beginning to improve within a few days after menses onset, and becoming minimal or absent in the week post-menses. At least 5 symptoms must be present including at least 1 affective symptom (mood lability, irritability, depressed mood, or anxiety). Symptoms must occur in most cycles for 12 months, cause significant distress/impairment, and not be exacerbation of another disorder. Prospective daily ratings for at least 2 cycles confirm diagnosis.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.acog.org/womens-health/faqs/premenstrual-syndrome"],
+      "memoryTip": "PMDD = Premenstrual = BEFORE period; symptoms improve AFTER period starts."
+    },
+    {
+      "id": 277,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["circular causality", "assessment", "systemic"],
+      "question": "Circular causality in systemic assessment means:",
+      "options": [
+        "Identifying who started the problem first",
+        "Understanding behavior as part of recursive feedback loops with no single cause",
+        "Going around in circles without making progress",
+        "Blaming everyone equally for problems"
+      ],
+      "correct": 1,
+      "explanation": "Circular causality is a foundational systemic concept meaning that behaviors exist in recursive feedback loops where A influences B which influences C which influences A - there is no linear first cause. Assessment from this perspective asks: What patterns maintain the problem? rather than Who caused it? This contrasts with linear causality (A causes B) and shifts focus from blame to understanding interactional sequences and feedback loops that can be interrupted.",
+      "citation": "Watzlawick, P., Bavelas, J. B., & Jackson, D. D. (1967). Pragmatics of Human Communication. W. W. Norton; Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+      "memoryTip": "Circular = like a circle, no beginning or end; everyone's behavior connects in loops."
+    },
+    {
+      "id": 278,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Hoarding Disorder", "OCD spectrum"],
+      "vignette": "A 60-year-old's home is filled floor-to-ceiling with newspapers, magazines, and items she considers valuable. She reports extreme distress at discarding anything. Her living space is unusable, and she cannot cook or sleep in normal areas due to clutter. She recognizes this is a problem.",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Obsessive-Compulsive Disorder with hoarding symptoms",
+        "Hoarding Disorder",
+        "Obsessive-Compulsive Personality Disorder",
+        "Specific Phobia of discarding"
+      ],
+      "correct": 1,
+      "explanation": "Hoarding Disorder (separate from OCD in DSM-5-TR) involves: persistent difficulty discarding possessions, distress associated with discarding, accumulation that congests living areas and compromises their use, and significant distress/impairment. Unlike OCD, hoarding isn't driven by obsessions about harm but by perceived value/utility of items and distress about losing them. This client shows good insight (recognizing it's a problem). Hoarding Disorder is in the Obsessive-Compulsive and Related Disorders chapter but is a distinct diagnosis.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Frost, R. O., & Steketee, G. (2010). Stuff: Compulsive Hoarding and the Meaning of Things. Houghton Mifflin Harcourt.",
+      "studyUrls": ["https://iocdf.org/about-hoarding/"],
+      "memoryTip": "Hoarding Disorder = difficulty discarding + clutter that compromises living space + distress."
+    },
+    {
+      "id": 279,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["MSE", "affect", "assessment"],
+      "question": "In a mental status examination, 'affect' refers to:",
+      "options": [
+        "The client's reported emotional state",
+        "The observable expression of emotion",
+        "Long-term emotional patterns",
+        "Emotional reactions to the therapist"
+      ],
+      "correct": 1,
+      "explanation": "Affect in the MSE refers to the observable, outward expression of emotion - facial expressions, tone of voice, body language, and reactivity during the interview. It contrasts with 'mood,' which is the client's subjective, reported emotional state. Affect is described in terms of quality (sad, anxious, euphoric), range (broad, restricted, flat), appropriateness (congruent or incongruent with content), and reactivity (how it changes during conversation).",
+      "citation": "Robinson, D. J. (2001). The Mental Status Exam Explained. Rapid Psychler Press.",
+      "studyUrls": ["https://www.ncbi.nlm.nih.gov/books/NBK532999/"],
+      "memoryTip": "Affect = what you SEE (observable); Mood = what they SAY (reported)."
+    },
+    {
+      "id": 280,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Binge Eating Disorder", "eating"],
+      "question": "Binge Eating Disorder differs from Bulimia Nervosa primarily because BED:",
+      "options": [
+        "Involves larger quantities of food",
+        "Does not involve regular compensatory behaviors",
+        "Only occurs in people who are overweight",
+        "Is less severe and distressing"
+      ],
+      "correct": 1,
+      "explanation": "The key distinction is that Binge Eating Disorder (BED) involves recurrent binge eating episodes WITHOUT regular compensatory behaviors (purging, fasting, excessive exercise), while Bulimia Nervosa requires regular compensatory behaviors after binges. Both involve eating large amounts rapidly with loss of control and marked distress. BED can occur at any weight. Both are clinically significant disorders causing substantial distress and impairment.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nationaleatingdisorders.org/learn/by-eating-disorder/bed"],
+      "memoryTip": "BED = Binge but no purge; Bulimia = Binge then compensate."
+    },
+    {
+      "id": 281,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["attachment", "disorganized", "assessment"],
+      "vignette": "In the Strange Situation, an infant approaches mother upon reunion but then freezes, looks away, and makes incomplete movements toward and away from her. The infant seems dazed and confused.",
+      "question": "This attachment pattern is classified as:",
+      "options": [
+        "Secure attachment",
+        "Avoidant attachment",
+        "Resistant/ambivalent attachment",
+        "Disorganized/disoriented attachment"
+      ],
+      "correct": 3,
+      "explanation": "Disorganized/disoriented attachment (Type D) is characterized by contradictory, confused behaviors upon reunion - approaching while looking away, freezing, dazed expressions, incomplete or interrupted movements. The infant seems to lack a coherent strategy for managing distress. This pattern is associated with frightening or frightened parental behavior, often linked to parental trauma or loss. Disorganized attachment is a significant risk factor for later psychopathology.",
+      "citation": "Main, M., & Hesse, E. (1990). Parents' Unresolved Traumatic Experiences are Related to Infant Disorganized Attachment Status. In M. T. Greenberg et al. (Eds.), Attachment in the Preschool Years. University of Chicago Press.",
+      "studyUrls": ["https://www.attachmentresearchcenter.com/"],
+      "memoryTip": "Disorganized = no organized strategy; contradictory approach-avoid; 'freeze and confusion.'"
+    },
+    {
+      "id": 282,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Separation Anxiety", "children"],
+      "question": "Separation Anxiety Disorder in children requires symptoms lasting at least:",
+      "options": [
+        "2 weeks",
+        "4 weeks",
+        "3 months",
+        "6 months"
+      ],
+      "correct": 1,
+      "explanation": "Separation Anxiety Disorder in children requires symptoms lasting at least 4 weeks. For adults, the duration requirement is 6 months or more. The different duration criteria reflect that anxiety about separation is more developmentally normative in children, so a shorter duration still represents significant impairment. Symptoms include excessive distress about separation from attachment figures, worry about harm to them, reluctance to leave home, and physical complaints when separation occurs.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.aacap.org/AACAP/Families_and_Youth/Facts_for_Families/FFF-Guide/Children-Who-Wont-Go-To-School-Separation-Anxiety-007.aspx"],
+      "memoryTip": "Separation Anxiety duration: Children = 4 weeks; Adults = 6 months."
+    },
+    {
+      "id": 283,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["CAGE", "alcohol", "screening"],
+      "question": "The CAGE questionnaire screens for alcohol problems by asking about:",
+      "options": [
+        "Quantity and frequency of drinking",
+        "Cutting down, Annoyance at criticism, Guilt, and Eye-opener drinks",
+        "Family history of alcoholism",
+        "Medical consequences of drinking"
+      ],
+      "correct": 1,
+      "explanation": "CAGE is a brief 4-item screening tool: C = Have you ever felt you should CUT down on drinking? A = Have people ANNOYED you by criticizing your drinking? G = Have you ever felt GUILTY about drinking? E = Have you ever had a drink first thing in morning (EYE-OPENER) to steady nerves or relieve hangover? Two or more 'yes' answers suggest problematic alcohol use warranting further assessment. CAGE is quick and memorable but doesn't assess quantity/frequency.",
+      "citation": "Ewing, J. A. (1984). Detecting Alcoholism: The CAGE Questionnaire. JAMA, 252(14), 1905-1907.",
+      "studyUrls": ["https://www.mdcalc.com/calc/1729/cage-questions-alcohol-use"],
+      "memoryTip": "CAGE = Cut down, Annoyed, Guilty, Eye-opener - each letter is the key word."
+    },
+    {
+      "id": 284,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["differential", "Psychosis", "substances"],
+      "vignette": "A 19-year-old presents with paranoid delusions and auditory hallucinations that began 2 days ago. Urine drug screen is positive for methamphetamine. He reports heavy meth use over the past week.",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Schizophrenia",
+        "Brief Psychotic Disorder",
+        "Substance/Medication-Induced Psychotic Disorder",
+        "Schizophreniform Disorder"
+      ],
+      "correct": 2,
+      "explanation": "Substance/Medication-Induced Psychotic Disorder is diagnosed when psychotic symptoms develop during or soon after substance intoxication or withdrawal and are attributable to the substance's physiological effects. Methamphetamine commonly causes psychotic symptoms including paranoid delusions and hallucinations. Key differentiators: temporal relationship to substance use, symptoms consistent with substance effects, and resolution when substance clears. If psychosis persists substantially beyond expected intoxication/withdrawal period, a primary psychotic disorder should be considered.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision); Bramness, J. G., et al. (2012). Amphetamine-Induced Psychosis. Current Opinion in Psychiatry, 25(4), 206-211.",
+      "studyUrls": ["https://www.samhsa.gov/"],
+      "memoryTip": "Substance-induced = psychosis timeline matches substance use timeline; resolves when drug clears."
+    },
+    {
+      "id": 285,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["homeostasis", "systemic", "assessment"],
+      "question": "In family systems theory, homeostasis refers to:",
+      "options": [
+        "A family's tendency toward warmth and closeness",
+        "The system's tendency to maintain stability and resist change",
+        "Equal distribution of power among family members",
+        "The family's physical living environment"
+      ],
+      "correct": 1,
+      "explanation": "Homeostasis describes the family system's tendency to maintain stability, equilibrium, and the status quo, even when patterns are dysfunctional. Families develop rules, roles, and patterns that resist change. This explains why symptoms can serve stabilizing functions and why change in one member creates pressure for return to familiar patterns. Assessment considers: What maintains current equilibrium? What would happen if symptoms resolved? What homeostatic mechanisms might resist intervention?",
+      "citation": "Jackson, D. D. (1957). The Question of Family Homeostasis. Psychiatric Quarterly Supplement, 31, 79-90.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+      "memoryTip": "Homeostasis = home staying the same; systems resist change to stay stable (even if stuck)."
+    },
+    {
+      "id": 286,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Prolonged Grief", "diagnosis"],
+      "question": "According to DSM-5-TR, Prolonged Grief Disorder in adults requires symptoms lasting at least:",
+      "options": [
+        "1 month after the death",
+        "6 months after the death",
+        "12 months after the death",
+        "2 years after the death"
+      ],
+      "correct": 2,
+      "explanation": "Prolonged Grief Disorder (new in DSM-5-TR) requires: death of someone close, persistent grief response with intense yearning/longing and preoccupation with the deceased, at least 3 of 8 additional symptoms (identity disruption, disbelief, emotional numbness, feeling life is meaningless, intense loneliness, avoidance of reminders, etc.), significant impairment, and duration of at least 12 months since death for adults (6 months for children). This distinguishes PGD from normal grief.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://grief.com/"],
+      "memoryTip": "Prolonged Grief = 12 months for adults (1 year); 6 months for children/adolescents."
+    },
+    {
+      "id": 287,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["hypothesis", "systemic", "assessment"],
+      "question": "In systemic assessment, formulating hypotheses serves to:",
+      "options": [
+        "Arrive at definitive diagnoses as quickly as possible",
+        "Generate tentative ideas about patterns that guide exploration and intervention",
+        "Prove which family member is causing problems",
+        "Replace the need for direct observation"
+      ],
+      "correct": 1,
+      "explanation": "Systemic hypotheses are tentative, working ideas about how patterns, meanings, and contexts connect to presenting problems. They're not diagnoses but guides for further exploration and intervention design. Good hypotheses are circular (systemic, not linear), include all family members, and are held lightly - ready to be revised based on new information. The Milan team formalized hypothesizing as one of three key guidelines (along with circularity and neutrality).",
+      "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Milan_Systemic_Family_Therapy.aspx"],
+      "memoryTip": "Hypotheses = educated guesses about patterns; held lightly, revised as you learn more."
+    },
+    {
+      "id": 288,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Schizotypal", "differential"],
+      "vignette": "A 35-year-old reports few close relationships, magical thinking (believes he can sense others' emotions psychically), unusual perceptual experiences (feeling a 'presence'), eccentric behavior, and excessive social anxiety with paranoid fears. No psychotic symptoms are present.",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Schizophrenia, residual type",
+        "Schizotypal Personality Disorder",
+        "Social Anxiety Disorder",
+        "Avoidant Personality Disorder"
+      ],
+      "correct": 1,
+      "explanation": "Schizotypal Personality Disorder involves: pervasive pattern of social/interpersonal deficits, cognitive/perceptual distortions, and eccentric behavior. Features include: ideas of reference, magical thinking, unusual perceptions, odd thinking/speech, paranoid ideation, inappropriate affect, lack of close relationships, social anxiety with paranoid features, and eccentric behavior. Unlike Schizophrenia, there are no sustained psychotic symptoms. Unlike Avoidant PD, the social difficulty stems from oddity and paranoia rather than fear of rejection.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/schizophrenia"],
+      "memoryTip": "Schizotypal = 'schizo-lite' - odd, eccentric, quasi-psychotic features but no full psychosis."
+    },
+    {
+      "id": 289,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["presenting problem", "assessment", "systemic"],
+      "question": "When a family presents with a child's behavioral problem, systemic assessment explores:",
+      "options": [
+        "Only the child's individual pathology",
+        "The function of symptoms within family interaction patterns",
+        "Which parent is to blame for the problem",
+        "Whether the child should be removed from the home"
+      ],
+      "correct": 1,
+      "explanation": "Systemic assessment views the presenting problem in relational context, exploring: What function might the symptom serve? How do family members interact around the problem? What patterns maintain it? Who is affected and how? When is the problem better or worse? This doesn't blame parents but recognizes that symptoms exist within interactional patterns. The child's behavior may deflect from other issues, maintain homeostasis, or express family stress.",
+      "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass.",
+      "studyUrls": ["https://www.aamft.org/Consumer_Updates/Family_Therapy.aspx"],
+      "memoryTip": "Systemic assessment = zoom out from the child to see the whole family dance."
+    },
+    {
+      "id": 290,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Agoraphobia", "diagnosis"],
+      "question": "According to DSM-5-TR, Agoraphobia involves fear or anxiety about:",
+      "options": [
+        "Specific objects or animals",
+        "Social situations where one might be scrutinized",
+        "Two or more situations where escape might be difficult or help unavailable",
+        "Being separated from attachment figures"
+      ],
+      "correct": 2,
+      "explanation": "Agoraphobia involves marked fear or anxiety about two or more of five situations: using public transportation, being in open spaces, being in enclosed spaces, standing in line or being in a crowd, and being outside home alone. The fear centers on escape being difficult or help unavailable if panic-like symptoms occur. Situations are actively avoided, require companion, or are endured with intense fear. Duration must be 6+ months with significant impairment. Agoraphobia can occur with or without Panic Disorder.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/agoraphobia"],
+      "memoryTip": "Agoraphobia = fear of places where escape is hard; need 2+ situations (not just one specific place)."
     }
-  ]
-
 ]
