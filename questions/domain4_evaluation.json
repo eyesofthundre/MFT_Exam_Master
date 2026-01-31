@@ -1680,5 +1680,546 @@
     "correct": 1,
     "explanation": "Celebrating success at termination serves important functions: reinforcing the progress made, attributing success to client efforts, building confidence for maintaining gains, creating a positive ending experience, and marking the achievement appropriately. This doesn't mean excessive praise or taking credit—it means genuinely acknowledging the family's hard work and growth in a way that empowers continued progress.",
     "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass; Duncan, B. L., Miller, S. D., & Sparks, J. A. (2004). The Heroic Client. Jossey-Bass."
+  },
+  {
+    "id": 496,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["ORS", "outcome measure", "feedback"],
+    "question": "The Outcome Rating Scale (ORS) measures:",
+    "options": [
+      "Therapist competence",
+      "Client wellbeing across individual, interpersonal, social, and overall domains",
+      "Insurance reimbursement rates",
+      "Diagnostic accuracy"
+    ],
+    "correct": 1,
+    "explanation": "The ORS is a brief 4-item visual analog scale measuring client wellbeing in four areas: individual (personal functioning), interpersonal (relationships), social (work, school, social roles), and overall (general sense of wellbeing). It takes about 1 minute to complete and is designed for session-by-session outcome monitoring. Low scores indicate distress; improvement over time indicates therapeutic progress.",
+    "citation": "Miller, S. D., Duncan, B. L., Brown, J., Sparks, J. A., & Claud, D. A. (2003). The Outcome Rating Scale. Journal of Brief Therapy, 2(2), 91-100.",
+    "studyUrls": ["https://scottdmiller.com/performance-metrics/"],
+    "memoryTip": "ORS = 4 items, 4 domains: Individual, Interpersonal, Social, Overall (I-I-S-O)."
+  },
+  {
+    "id": 497,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["SRS", "alliance", "feedback"],
+    "question": "The Session Rating Scale (SRS) assesses:",
+    "options": [
+      "Client symptoms",
+      "The therapeutic alliance from the client's perspective",
+      "Therapist theoretical knowledge",
+      "Treatment compliance"
+    ],
+    "correct": 1,
+    "explanation": "The SRS is a brief 4-item visual analog scale assessing therapeutic alliance: relationship (feeling heard, understood, respected), goals and topics (working on what client wants), approach/method (fit of therapist's approach), and overall (overall session quality). Administered at session end, it provides real-time feedback on alliance, allowing immediate repair of ruptures. Low scores warrant discussion.",
+    "citation": "Duncan, B. L., Miller, S. D., Sparks, J. A., Claud, D. A., Reynolds, L. R., Brown, J., & Johnson, L. D. (2003). The Session Rating Scale. Journal of Brief Therapy, 3(1), 3-12.",
+    "studyUrls": ["https://scottdmiller.com/performance-metrics/"],
+    "memoryTip": "SRS = Session feedback on alliance: Relationship, Goals, Approach, Overall (R-G-A-O)."
+  },
+  {
+    "id": 498,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["dose-effect", "research", "session number"],
+    "question": "Research on the dose-effect relationship in therapy suggests:",
+    "options": [
+      "All clients need exactly 20 sessions",
+      "Most improvement occurs early, with diminishing returns over extended treatment",
+      "Therapy only works after 50 sessions",
+      "Number of sessions doesn't matter"
+    ],
+    "correct": 1,
+    "explanation": "Dose-effect research (Howard et al.) shows that improvement follows a negatively accelerated curve - most change occurs in early sessions with diminishing returns as treatment extends. About 50% of clients show clinically significant improvement by session 8, 75% by session 26. This supports: expecting early improvement, monitoring progress, and questioning extended treatment when progress plateaus. However, individual variation is substantial.",
+    "citation": "Howard, K. I., Kopta, S. M., Krause, M. S., & Orlinsky, D. E. (1986). The Dose-Effect Relationship in Psychotherapy. American Psychologist, 41(2), 159-164.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/releases/pst-42-1-5.pdf"],
+    "memoryTip": "Dose-effect = early sessions pack the most punch; law of diminishing returns applies."
+  },
+  {
+    "id": 499,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["goal attainment scaling", "GAS", "measurement"],
+    "question": "Goal Attainment Scaling (GAS) is a method that:",
+    "options": [
+      "Only uses standardized questionnaires",
+      "Creates individualized outcome measures based on specific client goals",
+      "Measures only diagnostic symptoms",
+      "Ignores client preferences"
+    ],
+    "correct": 1,
+    "explanation": "Goal Attainment Scaling creates individualized measures by: defining specific goals with the client, specifying expected outcome levels (from much worse to much better than expected), and rating attainment at termination. GAS is sensitive to changes that matter to clients and captures outcomes that standardized measures might miss. It's particularly useful when client goals are unique or when measuring family-level outcomes.",
+    "citation": "Kiresuk, T. J., Smith, A., & Cardillo, J. E. (Eds.) (1994). Goal Attainment Scaling: Applications, Theory, and Measurement. Lawrence Erlbaum.",
+    "studyUrls": ["https://www.sralab.org/rehabilitation-measures/goal-attainment-scaling"],
+    "memoryTip": "GAS = tailor-made measures for each client's specific goals."
+  },
+  {
+    "id": 500,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["reliable change", "clinical significance", "statistics"],
+    "question": "The Reliable Change Index (RCI) determines whether:",
+    "options": [
+      "A therapist is reliable",
+      "Change in scores exceeds measurement error and reflects true change",
+      "Clients are reliable in attendance",
+      "Research findings can be replicated"
+    ],
+    "correct": 1,
+    "explanation": "The Reliable Change Index determines whether change in scores is statistically reliable - exceeding what would be expected from measurement error alone. An RCI > 1.96 indicates 95% confidence that true change occurred. This prevents interpreting random fluctuation as meaningful improvement or deterioration. RCI is typically used alongside clinical significance (reaching normal range) for comprehensive outcome evaluation.",
+    "citation": "Jacobson, N. S., & Truax, P. (1991). Clinical Significance: A Statistical Approach to Defining Meaningful Change in Psychotherapy Research. Journal of Consulting and Clinical Psychology, 59(1), 12-19.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/features/ccp-59-1-12.pdf"],
+    "memoryTip": "RCI = Is the change REAL or just measurement noise? RCI > 1.96 = real change."
+  },
+  {
+    "id": 501,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["clinical significance", "outcome", "interpretation"],
+    "question": "Clinical significance in therapy outcomes means the client:",
+    "options": [
+      "Has statistically significant improvement",
+      "Has moved from dysfunctional to functional range on measures",
+      "Completed all homework assignments",
+      "Attended all scheduled sessions"
+    ],
+    "correct": 1,
+    "explanation": "Clinical significance (Jacobson & Truax) means the client has moved from the dysfunctional population range to the functional/normative range - their scores now resemble non-clinical samples. This goes beyond statistical significance (any reliable change) to meaningful, real-world improvement. Full recovery requires both: reliable change (RCI) plus movement to functional range (clinical significance).",
+    "citation": "Jacobson, N. S., & Truax, P. (1991). Clinical Significance: A Statistical Approach to Defining Meaningful Change. Journal of Consulting and Clinical Psychology, 59(1), 12-19.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/features/ccp-59-1-12.pdf"],
+    "memoryTip": "Clinical significance = crossed the line from 'clinical' population to 'normal' population."
+  },
+  {
+    "id": 502,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["expected treatment response", "ETR", "monitoring"],
+    "vignette": "A therapist is using an outcome monitoring system that compares a client's actual progress to the 'expected treatment response' (ETR) trajectory. After session 6, the client is significantly below the ETR curve.",
+    "question": "This feedback indicates:",
+    "options": [
+      "The client is definitely not going to improve",
+      "The client is at risk for poor outcome and treatment adjustment should be considered",
+      "Treatment is going well",
+      "The system is malfunctioning"
+    ],
+    "correct": 1,
+    "explanation": "Expected Treatment Response (ETR) uses normative data to predict typical improvement trajectories. Clients falling significantly below ETR are 'not on track' (NOT) and at elevated risk for treatment failure. Research shows this feedback prompts clinicians to adjust treatment, improving outcomes for at-risk clients. The feedback doesn't mean failure is certain but that current approach may need modification.",
+    "citation": "Lambert, M. J. (2010). Prevention of Treatment Failure: The Use of Measuring, Monitoring, and Feedback in Clinical Practice. American Psychological Association.",
+    "studyUrls": ["https://www.apa.org/pubs/books/4317195"],
+    "memoryTip": "Below ETR = 'Not On Track' - warning light that something needs to change."
+  },
+  {
+    "id": 503,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["follow-up", "maintenance", "evaluation"],
+    "question": "Conducting follow-up assessment after termination helps:",
+    "options": [
+      "Bill additional fees",
+      "Evaluate whether treatment gains are maintained over time",
+      "Keep clients dependent on therapy",
+      "Satisfy curiosity"
+    ],
+    "correct": 1,
+    "explanation": "Follow-up assessment (typically 3-12 months post-termination) evaluates: whether gains are maintained, if relapse has occurred, long-term treatment effectiveness, and whether booster sessions are needed. Follow-up data informs understanding of treatment durability and helps identify which clients or conditions are at risk for relapse. Brief check-ins also communicate ongoing care.",
+    "citation": "Hollon, S. D., Stewart, M. O., & Strunk, D. (2006). Enduring Effects for Cognitive Behavior Therapy in the Treatment of Depression and Anxiety. Annual Review of Psychology, 57, 285-315.",
+    "studyUrls": ["https://www.apa.org/ptsd-guideline/treatments/cognitive-behavioral-therapy"],
+    "memoryTip": "Follow-up = check that changes stuck after therapy ended."
+  },
+  {
+    "id": 504,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["FACES", "family assessment", "measure"],
+    "question": "The FACES (Family Adaptability and Cohesion Evaluation Scales) measures:",
+    "options": [
+      "Individual psychopathology",
+      "Family cohesion and flexibility based on the Circumplex Model",
+      "Facial expressions during therapy",
+      "Therapist competence"
+    ],
+    "correct": 1,
+    "explanation": "FACES is a family assessment instrument based on Olson's Circumplex Model, measuring: family cohesion (emotional bonding among members) and flexibility (ability to change in response to stress). Balanced levels of both are associated with healthy functioning; extreme scores (very high or low) suggest dysfunction. FACES provides a systemic measure of family functioning, useful for tracking family-level change.",
+    "citation": "Olson, D. H. (2011). FACES IV and the Circumplex Model: Validation Study. Journal of Marital and Family Therapy, 37(1), 64-80.",
+    "studyUrls": ["https://www.facesiv.com/"],
+    "memoryTip": "FACES = Family Adaptability and Cohesion; based on Circumplex Model (balanced is best)."
+  },
+  {
+    "id": 505,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["deterioration", "negative outcomes", "monitoring"],
+    "question": "Research suggests that approximately what percentage of therapy clients deteriorate during treatment?",
+    "options": [
+      "0% - therapy never causes harm",
+      "5-10% - a small but significant minority",
+      "50% - about half of all clients",
+      "90% - most clients get worse"
+    ],
+    "correct": 1,
+    "explanation": "Research consistently finds that 5-10% of clients deteriorate during therapy. This may result from: harmful interventions, poor alliance, therapist incompetence, or factors unrelated to therapy. Routine outcome monitoring helps identify deteriorating clients early so treatment can be adjusted. Acknowledging that some clients worsen is essential for ethical, evidence-based practice.",
+    "citation": "Lambert, M. J. (2007). Presidential Address: What We Have Learned from a Decade of Research Aimed at Improving Psychotherapy Outcome. Psychotherapy Research, 17(1), 1-14.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "5-10% deteriorate - small but significant; why outcome monitoring matters."
+  },
+  {
+    "id": 506,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["booster sessions", "maintenance", "follow-up"],
+    "question": "Booster sessions after termination are used to:",
+    "options": [
+      "Start therapy over from the beginning",
+      "Reinforce gains, address new challenges, and prevent relapse",
+      "Satisfy insurance requirements",
+      "Replace regular therapy"
+    ],
+    "correct": 1,
+    "explanation": "Booster sessions are brief, periodic check-ins after termination to: reinforce and consolidate gains, address new challenges before they escalate, provide relapse prevention tune-ups, demonstrate ongoing availability, and catch emerging problems early. They may be scheduled (e.g., monthly for 3 months, then as needed) or available on-demand. Boosters support long-term maintenance without ongoing therapy dependence.",
+    "citation": "Whisman, M. A. (1990). The Efficacy of Booster Maintenance Sessions in Behavior Therapy. Behavior Therapy, 21(3), 319-335.",
+    "studyUrls": ["https://www.apa.org/ptsd-guideline/treatments/cognitive-behavioral-therapy"],
+    "memoryTip": "Booster = tune-up after termination; keep gains running smoothly."
+  },
+  {
+    "id": 507,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["subjective units of distress", "SUDS", "measurement"],
+    "question": "Subjective Units of Distress Scale (SUDS) ratings:",
+    "options": [
+      "Require complex psychological testing",
+      "Ask clients to rate their distress on a 0-10 or 0-100 scale",
+      "Measure physiological stress responses",
+      "Are only used for phobias"
+    ],
+    "correct": 1,
+    "explanation": "SUDS is a simple self-report scale (0-10 or 0-100) where clients rate their current distress level. It's quick, requires no materials, and can be used repeatedly within and across sessions. SUDS tracks moment-to-moment changes (useful in exposure therapy), monitors anxiety levels, and provides a common language for discussing distress intensity. Its simplicity makes it practical for routine clinical use.",
+    "citation": "Wolpe, J. (1969). The Practice of Behavior Therapy. Pergamon Press.",
+    "studyUrls": ["https://www.anxietycanada.com/articles/suds-subjective-units-of-distress-scale/"],
+    "memoryTip": "SUDS = 'How bad is it right now on a scale of 0-10?' Simple, quick, useful."
+  },
+  {
+    "id": 508,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["supershrink", "expertise", "outcomes"],
+    "question": "Research on therapist effects shows that:",
+    "options": [
+      "All therapists produce identical outcomes",
+      "Individual therapists vary significantly in effectiveness, even using the same treatment",
+      "Only medication produces reliable outcomes",
+      "Therapist training doesn't affect outcomes"
+    ],
+    "correct": 1,
+    "explanation": "Research consistently shows significant therapist effects - different therapists using the same treatment produce different outcomes. Some therapists ('supershrinks') consistently outperform others. This variance relates to: interpersonal skills, ability to form alliance, responsiveness to client needs, and personal attributes. This finding emphasizes that the therapist matters, not just the treatment model, and supports investment in therapist development.",
+    "citation": "Wampold, B. E., & Brown, G. S. (2005). Estimating Variability in Outcomes Attributable to Therapists. Journal of Consulting and Clinical Psychology, 73(5), 914-923.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
+    "memoryTip": "Therapist effects = WHO delivers treatment matters, not just WHAT treatment."
+  },
+  {
+    "id": 509,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["termination", "summary", "consolidation"],
+    "question": "A termination summary typically includes:",
+    "options": [
+      "Only the therapist's theoretical reflections",
+      "Review of presenting problems, treatment provided, progress made, and recommendations",
+      "Detailed billing information",
+      "Predictions about the client's future"
+    ],
+    "correct": 1,
+    "explanation": "A termination summary documents: original presenting problems and goals, treatment modality and interventions used, progress made and goals achieved, remaining concerns or unmet goals, recommendations for future care, and any referrals provided. This serves clinical, legal, and continuity purposes. It creates a record that future providers can reference and documents the course of treatment.",
+    "citation": "AAMFT Code of Ethics (2015); Cameron, S., & turtle-song, i. (2002). Learning to Write Case Notes Using the SOAP Format. Journal of Counseling & Development, 80(3), 286-292.",
+    "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+    "memoryTip": "Termination summary = where we started, what we did, how far we got, what's next."
+  },
+  {
+    "id": 510,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["therapeutic factors", "client factors", "outcome"],
+    "question": "Research suggests that client factors (motivation, severity, support) account for approximately what proportion of therapy outcome?",
+    "options": [
+      "Less than 5%",
+      "About 40% or more",
+      "Exactly 10%",
+      "100%"
+    ],
+    "correct": 1,
+    "explanation": "Lambert's pie chart model estimates client factors (extra-therapeutic change, including motivation, resources, severity, life events, support systems) account for about 40% of outcome variance. This is the largest single contributor, followed by relationship factors (~30%), expectancy/placebo (~15%), and technique (~15%). This emphasizes the importance of harnessing client strengths and resources, not just applying techniques.",
+    "citation": "Lambert, M. J. (1992). Psychotherapy Outcome Research: Implications for Integrative and Eclectic Therapists. In J. C. Norcross & M. R. Goldfried (Eds.), Handbook of Psychotherapy Integration. Basic Books.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Client factors = 40% (largest piece); what clients bring matters most."
+  },
+  {
+    "id": 511,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["feedback-informed treatment", "FIT", "outcomes"],
+    "question": "Feedback-Informed Treatment (FIT) involves:",
+    "options": [
+      "Therapists giving feedback to clients only",
+      "Systematically collecting and using client feedback to guide treatment decisions",
+      "Feedback from insurance companies",
+      "Feedback between therapists only"
+    ],
+    "correct": 1,
+    "explanation": "Feedback-Informed Treatment (FIT) systematically collects client feedback on outcomes and alliance each session, then uses this data to guide treatment. When feedback indicates poor progress or alliance problems, therapists adjust approach. Research shows FIT improves outcomes, especially for clients at risk of deterioration. FIT makes therapy responsive to individual client needs rather than following fixed protocols.",
+    "citation": "Miller, S. D., Duncan, B. L., & Hubble, M. A. (2004). Beyond Integration: The Triumph of Outcome Over Process in Clinical Practice. Psychotherapy in Australia, 10(2), 32-43.",
+    "studyUrls": ["https://scottdmiller.com/"],
+    "memoryTip": "FIT = collect feedback, use it; therapy guided by client data, not just theory."
+  },
+  {
+    "id": 512,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["working alliance", "components", "Bordin"],
+    "question": "According to Bordin's model, the working alliance consists of:",
+    "options": [
+      "Only the emotional bond between therapist and client",
+      "Agreement on goals, agreement on tasks, and the therapeutic bond",
+      "Therapist expertise only",
+      "Contract negotiations and fees"
+    ],
+    "correct": 1,
+    "explanation": "Bordin's pantheoretical model defines working alliance as three components: (1) Agreement on GOALS - shared understanding of what therapy aims to achieve; (2) Agreement on TASKS - mutual acceptance of activities/interventions used; (3) BOND - quality of emotional connection, trust, and respect. All three contribute to alliance strength. Weakness in any component warrants attention and repair.",
+    "citation": "Bordin, E. S. (1979). The Generalizability of the Psychoanalytic Concept of the Working Alliance. Psychotherapy: Theory, Research & Practice, 16(3), 252-260.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Bordin's alliance = Goals + Tasks + Bond (GTB - like 'Good To Bond')."
+  },
+  {
+    "id": 513,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["PHQ-9", "depression", "measurement"],
+    "question": "The PHQ-9 is a brief measure used to assess:",
+    "options": [
+      "Personality disorders",
+      "Depression severity based on DSM criteria",
+      "Marital satisfaction",
+      "Therapist competence"
+    ],
+    "correct": 1,
+    "explanation": "The PHQ-9 (Patient Health Questionnaire-9) is a brief, 9-item depression screening and severity measure. Items correspond to DSM depression criteria, rated 0-3 for frequency over past 2 weeks. Total scores indicate severity: 5-9 mild, 10-14 moderate, 15-19 moderately severe, 20-27 severe. It's free, validated, and widely used for screening and tracking depression treatment response.",
+    "citation": "Kroenke, K., Spitzer, R. L., & Williams, J. B. (2001). The PHQ-9: Validity of a Brief Depression Severity Measure. Journal of General Internal Medicine, 16(9), 606-613.",
+    "studyUrls": ["https://www.phqscreeners.com/"],
+    "memoryTip": "PHQ-9 = 9 items for 9 depression symptoms; free, quick, tracks progress."
+  },
+  {
+    "id": 514,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["client satisfaction", "outcome", "evaluation"],
+    "question": "Client satisfaction with therapy:",
+    "options": [
+      "Is the same as symptom improvement",
+      "Is an important but distinct outcome from symptom change",
+      "Is irrelevant to therapy evaluation",
+      "Only matters for marketing"
+    ],
+    "correct": 1,
+    "explanation": "Client satisfaction is an important but distinct outcome from symptom improvement. Clients can be satisfied but not improved (appreciated support without change), or improved but dissatisfied (change occurred but process was unpleasant). Satisfaction reflects: feeling heard, treatment fit, relationship quality, and overall experience. It predicts continuation, referrals, and treatment completion. Both symptom change and satisfaction should be assessed.",
+    "citation": "Attkisson, C. C., & Greenfield, T. K. (2004). The UCSF Client Satisfaction Scales: I. The Client Satisfaction Questionnaire-8. In M. E. Maruish (Ed.), The Use of Psychological Testing for Treatment Planning and Outcomes Assessment (3rd ed.). Lawrence Erlbaum.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Satisfaction ≠ improvement; both matter but measure different things."
+  },
+  {
+    "id": 515,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["sudden gains", "research", "change patterns"],
+    "question": "Research on 'sudden gains' in therapy shows that:",
+    "options": [
+      "All improvement is gradual and linear",
+      "Large improvements sometimes occur between consecutive sessions, predicting good outcomes",
+      "Sudden changes always indicate instability",
+      "Only medication produces sudden improvement"
+    ],
+    "correct": 1,
+    "explanation": "Sudden gains are large, stable improvements occurring between consecutive sessions - often accounting for 50%+ of total improvement. Research shows sudden gains predict better outcomes, lower relapse rates, and are common across treatments. They may reflect critical therapeutic events, insight moments, or real-world changes. Sudden gains challenge the assumption that change is always gradual and linear.",
+    "citation": "Tang, T. Z., & DeRubeis, R. J. (1999). Sudden Gains and Critical Sessions in Cognitive-Behavioral Therapy for Depression. Journal of Consulting and Clinical Psychology, 67(6), 894-904.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
+    "memoryTip": "Sudden gains = big jumps between sessions; predict good long-term outcomes."
+  },
+  {
+    "id": 516,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["qualitative feedback", "client voice", "evaluation"],
+    "question": "Qualitative feedback from clients (open-ended questions about therapy experience) provides:",
+    "options": [
+      "Nothing useful beyond quantitative measures",
+      "Rich, detailed information about client experiences that numbers miss",
+      "Only complaints",
+      "Information that contradicts all quantitative data"
+    ],
+    "correct": 1,
+    "explanation": "Qualitative feedback captures nuances that quantitative measures miss: what specifically helped or hindered, what clients wish had been different, memorable moments, suggestions for improvement, and experiences in their own words. This complements numerical ratings by explaining WHY clients improved or didn't, providing actionable information for therapist development and treatment refinement.",
+    "citation": "Elliott, R. (2010). Psychotherapy Change Process Research: Realizing the Promise. Psychotherapy Research, 20(2), 123-135.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Qualitative = the STORY behind the numbers; what and why, not just how much."
+  },
+  {
+    "id": 517,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["stages of termination", "process", "endings"],
+    "question": "Effective termination typically progresses through stages including:",
+    "options": [
+      "Abrupt ending without discussion",
+      "Raising termination, reviewing progress, addressing feelings, and planning for the future",
+      "Therapist deciding alone without client input",
+      "Avoiding any discussion of ending"
+    ],
+    "correct": 1,
+    "explanation": "Termination as a process involves stages: (1) Raising termination - introducing the topic when appropriate; (2) Reviewing progress - examining what was accomplished and how; (3) Processing feelings - addressing emotions about ending (for both client and therapist); (4) Consolidating gains - ensuring learning is integrated; (5) Planning ahead - relapse prevention, resources, conditions for return. This makes ending therapeutic rather than just administrative.",
+    "citation": "Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Termination stages: Raise it, Review, Process feelings, Consolidate, Plan ahead."
+  },
+  {
+    "id": 518,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["number needed to treat", "NNT", "statistics"],
+    "question": "The Number Needed to Treat (NNT) statistic tells us:",
+    "options": [
+      "How many therapists are needed",
+      "How many clients must receive treatment for one to benefit compared to no treatment",
+      "The ideal number of therapy sessions",
+      "How many diagnoses a client has"
+    ],
+    "correct": 1,
+    "explanation": "NNT is the number of clients who must receive treatment for one additional person to benefit compared to control condition. Lower NNT = more effective treatment. For example, NNT of 3 means for every 3 treated clients, 1 will improve who wouldn't have otherwise. NNT makes effect sizes clinically interpretable and helps compare treatment options. Most effective psychotherapies have NNTs of 2-4.",
+    "citation": "Kraemer, H. C., & Kupfer, D. J. (2006). Size of Treatment Effects and Their Importance to Clinical Research and Practice. Biological Psychiatry, 59(11), 990-996.",
+    "studyUrls": ["https://www.cebm.net/2014/03/number-needed-to-treat-nnt/"],
+    "memoryTip": "NNT = treat this many, one extra person benefits; lower = better."
+  },
+  {
+    "id": 519,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["treatment completion", "engagement", "outcome"],
+    "question": "Completing the planned course of treatment is associated with:",
+    "options": [
+      "No relationship to outcomes",
+      "Better outcomes compared to premature termination",
+      "Worse outcomes due to dependency",
+      "Only financial benefit to therapists"
+    ],
+    "correct": 1,
+    "explanation": "Research shows treatment completers have better outcomes than those who drop out prematurely. This may reflect: receiving adequate 'dose' of treatment, processing termination therapeutically, greater engagement and motivation, or simply that those doing well stay longer. While correlation doesn't prove causation, supporting engagement and completion is clinically important. Addressing dropout risk factors improves completion rates.",
+    "citation": "Swift, J. K., & Greenberg, R. P. (2012). Premature Discontinuation in Adult Psychotherapy: A Meta-Analysis. Journal of Consulting and Clinical Psychology, 80(4), 547-559.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
+    "memoryTip": "Completers do better; dropping out early = missing the full benefit."
+  },
+  {
+    "id": 520,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["alliance rupture", "repair", "process"],
+    "question": "Alliance ruptures are best addressed by:",
+    "options": [
+      "Ignoring them and continuing with planned interventions",
+      "Acknowledging the rupture, exploring client's experience, and working to repair",
+      "Blaming the client for being difficult",
+      "Immediately terminating therapy"
+    ],
+    "correct": 1,
+    "explanation": "Alliance ruptures (tears in the therapeutic relationship) occur in most therapies and, when successfully repaired, can strengthen the alliance. Effective repair involves: noticing rupture signs (withdrawal, hostility), acknowledging the rupture non-defensively, exploring the client's experience, taking responsibility for therapist contributions, and negotiating resolution. Unrepaired ruptures predict dropout and poor outcome; repaired ruptures predict positive outcome.",
+    "citation": "Safran, J. D., Muran, J. C., & Eubanks-Carter, C. (2011). Repairing Alliance Ruptures. Psychotherapy, 48(1), 80-87.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Ruptures happen; repair = acknowledge, explore, take responsibility, fix together."
+  },
+  {
+    "id": 521,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["therapist self-assessment", "development", "outcomes"],
+    "question": "Research on therapist self-assessment of effectiveness shows:",
+    "options": [
+      "Therapists accurately predict their outcomes",
+      "Therapists tend to overestimate their effectiveness compared to actual data",
+      "Self-assessment is completely accurate",
+      "Therapists consistently underestimate their abilities"
+    ],
+    "correct": 1,
+    "explanation": "Research shows therapists tend to overestimate their effectiveness - most believe they're above average, which is statistically impossible. Therapists often: overestimate client improvement, underestimate deterioration, and miss clients who drop out. This supports the importance of formal outcome measurement rather than relying solely on clinical judgment. Feedback data helps calibrate self-assessment.",
+    "citation": "Walfish, S., McAlister, B., O'Donnell, P., & Lambert, M. J. (2012). An Investigation of Self-Assessment Bias in Mental Health Providers. Psychological Reports, 110(2), 639-644.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Therapist self-assessment = usually too optimistic; data keeps us honest."
+  },
+  {
+    "id": 522,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["transfer", "referral", "continuity"],
+    "question": "When transferring a client to another therapist, best practice includes:",
+    "options": [
+      "Simply providing the new therapist's name",
+      "Coordinating care, sharing relevant information with consent, and supporting the transition",
+      "Cutting off all contact immediately",
+      "Warning the new therapist about the 'difficult' client"
+    ],
+    "correct": 1,
+    "explanation": "Effective transfer includes: helping the client understand the reason for transfer, collaboratively selecting an appropriate new provider, obtaining consent to share records and communicate, providing a thorough summary to the new therapist, allowing time to process the transition, and offering an introduction session if appropriate. Warm handoffs reduce dropout and maintain continuity of care.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I; Kramer, S. A. (1990). Positive Endings in Psychotherapy. Jossey-Bass.",
+    "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+    "memoryTip": "Warm transfer = don't just hand off; coordinate, share info, support the move."
+  },
+  {
+    "id": 523,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["outcome domains", "multidimensional", "evaluation"],
+    "question": "Comprehensive outcome evaluation should assess:",
+    "options": [
+      "Only symptom reduction",
+      "Multiple domains including symptoms, functioning, quality of life, and goal attainment",
+      "Only client satisfaction",
+      "Only therapist impressions"
+    ],
+    "correct": 1,
+    "explanation": "Comprehensive outcome evaluation assesses multiple domains because: (1) Symptoms may improve without functional improvement; (2) Quality of life reflects subjective wellbeing beyond symptoms; (3) Goal attainment captures individual priorities; (4) Different stakeholders (client, family, referrer) may have different outcome priorities. A single domain provides incomplete picture. Multidimensional assessment captures treatment's full impact.",
+    "citation": "Kazdin, A. E. (2006). Assessment and Evaluation in Clinical Practice. In C. D. Goodheart, A. E. Kazdin, & R. J. Sternberg (Eds.), Evidence-Based Psychotherapy. American Psychological Association.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Multiple domains = symptoms + functioning + quality of life + goals achieved."
+  },
+  {
+    "id": 524,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["regression to mean", "statistics", "interpretation"],
+    "question": "Regression to the mean is important to consider in outcome evaluation because:",
+    "options": [
+      "It's never relevant to therapy",
+      "Extreme scores tend to move toward average, which can be mistaken for treatment effect",
+      "It means all clients get worse",
+      "It only affects medication trials"
+    ],
+    "correct": 1,
+    "explanation": "Regression to the mean is a statistical phenomenon where extreme scores tend to move toward average on retest, regardless of intervention. Clients often seek therapy when symptoms are at their worst; improvement may partly reflect natural regression rather than treatment effect. This is why: (1) comparison groups are important in research; (2) individual improvement should be interpreted cautiously; (3) effect sizes compare treatment to control, accounting for regression.",
+    "citation": "Bland, J. M., & Altman, D. G. (1994). Regression Towards the Mean. BMJ, 308(6942), 1499.",
+    "studyUrls": ["https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2540389/"],
+    "memoryTip": "Regression to mean = extreme scores drift toward average; not all 'improvement' is treatment."
+  },
+  {
+    "id": 525,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["therapist growth", "deliberate practice", "development"],
+    "question": "Research on therapist expertise development suggests:",
+    "options": [
+      "Experience automatically leads to improved outcomes",
+      "Deliberate practice with feedback is necessary for continued improvement",
+      "Training has no effect on outcomes",
+      "Expertise is entirely innate"
+    ],
+    "correct": 1,
+    "explanation": "Research challenges the assumption that experience automatically improves outcomes - years of practice don't consistently predict effectiveness. What does predict growth: deliberate practice (focused effort on specific skills), systematic feedback on outcomes, willingness to examine and address weaknesses, and ongoing learning. Without these, therapists may plateau or even decline. Expertise requires intentional development, not just accumulated hours.",
+    "citation": "Chow, D. L., Miller, S. D., Seidel, J. A., Kane, R. T., Thornton, J. A., & Andrews, W. P. (2015). The Role of Deliberate Practice in the Development of Highly Effective Psychotherapists. Psychotherapy, 52(3), 337-345.",
+    "studyUrls": ["https://scottdmiller.com/"],
+    "memoryTip": "Experience ≠ expertise; deliberate practice + feedback = actual improvement."
   }
 ]
