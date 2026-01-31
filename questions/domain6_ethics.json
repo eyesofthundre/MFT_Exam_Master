@@ -2549,5 +2549,95 @@
     "citation": "Cottone, R. R., & Claus, R. E. (2000). Ethical decision-making models: A review. Counseling and Values, 45(1), 58-78; Kitchener, K. S. (1984). Intuition, Critical Evaluation and Ethical Principles. The Counseling Psychologist, 12(3), 43-55.",
     "studyUrls": ["https://www.apa.org/ethics/commentary/ethical-decision-making"],
     "memoryTip": "Ethical dilemmas: Use a MODEL, not your gut. Identify → Consult → Consider → Decide → Document."
+  },
+  {
+    "id": 746,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["HIPAA", "minimum necessary", "disclosure"],
+    "question": "HIPAA's 'minimum necessary' standard requires that:",
+    "options": [
+      "All available information be shared to ensure thorough care",
+      "Only the minimum amount of PHI necessary to accomplish the intended purpose be used or disclosed",
+      "Therapists share nothing with anyone",
+      "Clients sign multiple consent forms"
+    ],
+    "correct": 1,
+    "explanation": "The minimum necessary standard limits use and disclosure of protected health information to what is reasonably necessary to accomplish the purpose. Applies to most uses/disclosures, with exceptions for treatment, client access to own records, and disclosures required by law. Requires policies identifying who needs access and limiting access by role. When responding to requests, share only what's needed—don't send entire records when a summary suffices.",
+    "citation": "HIPAA Privacy Rule, 45 CFR §164.502(b), §164.514(d); HHS (2003). Summary of the HIPAA Privacy Rule.",
+    "studyUrls": ["https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"],
+    "memoryTip": "Minimum necessary = share only what's NEEDED. Not everything, just enough for the purpose."
+  },
+  {
+    "id": 747,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["FERPA", "minors", "educational records"],
+    "question": "When treating a minor student, FERPA (Family Educational Rights and Privacy Act) applies to:",
+    "options": [
+      "All therapy records",
+      "Educational records maintained by schools, which may include school-based counseling",
+      "Only private practice records",
+      "Only medical records"
+    ],
+    "correct": 1,
+    "explanation": "FERPA protects educational records in schools receiving federal funding. School-based counseling notes may be covered by FERPA rather than HIPAA. Key differences: FERPA gives parents access rights until age 18 (then to student), requires consent for disclosure with fewer exceptions than HIPAA, and is enforced by Department of Education. Therapists in schools must understand which law applies. Personal notes kept separate ('sole possession records') may be exempt.",
+    "citation": "Family Educational Rights and Privacy Act (FERPA), 20 U.S.C. §1232g; 34 CFR Part 99; Joint Guidance on FERPA and HIPAA (2008).",
+    "studyUrls": ["https://studentprivacy.ed.gov/"],
+    "memoryTip": "FERPA = schools. HIPAA = healthcare. School counseling = usually FERPA. Know which applies."
+  },
+  {
+    "id": 748,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["dual relationships", "exploitation", "power"],
+    "question": "The primary ethical concern with dual relationships is:",
+    "options": [
+      "They are always illegal",
+      "The potential for exploitation due to power imbalance and impaired objectivity",
+      "They make scheduling difficult",
+      "Insurance companies prohibit them"
+    ],
+    "correct": 1,
+    "explanation": "Dual relationships are concerning because the power differential in therapy can be exploited when boundaries blur, and the therapist's objectivity may be compromised. Not all dual relationships are prohibited—some are unavoidable (rural communities) or potentially beneficial (attending client's graduation). The standard is whether the relationship could reasonably be expected to impair objectivity or be exploitative. Avoidance is preferred; when unavoidable, careful navigation and documentation are essential.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.3; Zur, O. (2007). Boundaries in Psychotherapy: Ethical and Clinical Explorations. APA.",
+    "studyUrls": ["https://www.zurinstitute.com/boundaries-dual-relationships/"],
+    "memoryTip": "Dual relationship concern = POWER + OBJECTIVITY. Could it exploit or impair judgment?"
+  },
+  {
+    "id": 749,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["record retention", "documentation", "legal"],
+    "question": "Regarding record retention, therapists should keep client records for:",
+    "options": [
+      "One year after termination",
+      "Forever without exception",
+      "At least the period required by state law, often 7 years for adults (longer for minors)",
+      "Only while the client is actively in treatment"
+    ],
+    "correct": 2,
+    "explanation": "Record retention requirements vary by state but typically require 7 years after termination for adults. For minors, records often must be kept until the minor reaches age of majority plus the retention period (e.g., until age 25). Some states have longer requirements. Beyond legal minimums, consider: malpractice statute of limitations, potential for client return, nature of treatment. Secure destruction required after retention period. Document destruction date and method.",
+    "citation": "State licensing board regulations; HIPAA Privacy Rule §164.530(j); APA Record Keeping Guidelines (2007).",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+    "memoryTip": "Records: 7 years typical for adults, LONGER for minors. Check YOUR state's requirements."
+  },
+  {
+    "id": 750,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["moral distress", "ethical climate", "systemic ethics"],
+    "question": "Moral distress in therapists occurs when:",
+    "options": [
+      "They dislike their clients",
+      "They know the ethically correct action but institutional or systemic barriers prevent them from taking it",
+      "They disagree with their supervisor's theoretical orientation",
+      "Clients terminate prematurely"
+    ],
+    "correct": 1,
+    "explanation": "Moral distress arises when therapists know the right action but constraints (institutional policies, insurance limitations, systemic barriers, power dynamics) prevent ethical action. Examples: being pressured to discharge clients too soon, inadequate resources for client needs, policies that conflict with client welfare. Chronic moral distress leads to burnout and moral residue. Addressing it requires: advocacy, consultation, self-care, and sometimes whistleblowing or job change.",
+    "citation": "Jameton, A. (1984). Nursing Practice: The Ethical Issues. Prentice-Hall; Austin, W. (2012). Moral Distress and the Contemporary Plight of Health Professionals. HEC Forum, 24(1), 27-38.",
+    "studyUrls": ["https://www.apa.org/monitor/2020/04/ce-corner-moral"],
+    "memoryTip": "Moral distress = KNOW the right thing, CAN'T do it. Systemic barriers block ethical action."
   }
 ]

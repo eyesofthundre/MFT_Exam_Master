@@ -2032,5 +2032,725 @@
       "citation": "Iwata, B. A., et al. (1994). Toward a Functional Analysis of Self-Injury. Journal of Applied Behavior Analysis, 27(2), 197-209; O'Neill, R. E., et al. (2015). Functional Assessment and Program Development (3rd ed.). Cengage.",
       "studyUrls": ["https://www.apa.org/"],
       "memoryTip": "Functional analysis = ABC: Antecedent → Behavior → Consequence. What triggers it, what maintains it?"
+    },
+    {
+      "id": 311,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "MDD", "criteria"],
+      "question": "The minimum duration of symptoms required for a Major Depressive Episode is:",
+      "options": [
+        "1 week",
+        "2 weeks",
+        "1 month",
+        "6 months"
+      ],
+      "correct": 1,
+      "explanation": "Major Depressive Episode requires 5+ symptoms (including depressed mood or anhedonia) present nearly every day for at least 2 weeks. Symptoms must cause clinically significant distress or impairment and not be attributable to substances or another medical condition. The 2-week duration distinguishes clinical depression from normal sadness or brief mood fluctuations.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/depression"],
+      "memoryTip": "MDD = 2 weeks minimum. Remember: at least 2 weeks of 5+ symptoms including the big 2 (sad or anhedonic)."
+    },
+    {
+      "id": 312,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "ADHD", "criteria"],
+      "question": "DSM-5-TR criteria for ADHD require that symptoms:",
+      "options": [
+        "First appear after age 18",
+        "Were present prior to age 12",
+        "Only occur at school or work",
+        "Cause impairment in only one setting"
+      ],
+      "correct": 1,
+      "explanation": "ADHD requires several inattentive or hyperactive-impulsive symptoms present before age 12 (changed from age 7 in DSM-IV), present in 2+ settings (home, school, work), with clear interference with functioning. Adult diagnosis requires retrospective assessment of childhood symptoms. Presentations: predominantly inattentive, predominantly hyperactive-impulsive, or combined.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd"],
+      "memoryTip": "ADHD onset = before age 12 (not 7 anymore). Symptoms in 2+ settings. Think: '12 in 2.'"
+    },
+    {
+      "id": 313,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "mental status", "MSE"],
+      "question": "The mental status examination (MSE) assesses:",
+      "options": [
+        "Only cognitive functioning",
+        "Family history",
+        "Current psychological state including appearance, mood, thought process, cognition, and insight",
+        "Personality traits"
+      ],
+      "correct": 2,
+      "explanation": "The MSE is a structured assessment of current psychological functioning covering: appearance, behavior, speech, mood and affect, thought process and content, perception, cognition (orientation, memory, attention), insight, and judgment. It's a snapshot of current mental state, not history or personality. Like a psychological 'vital signs' check.",
+      "citation": "Trzepacz, P. T., & Baker, R. W. (1993). The Psychiatric Mental Status Examination. Oxford University Press.",
+      "studyUrls": ["https://www.ncbi.nlm.nih.gov/books/NBK320/"],
+      "memoryTip": "MSE = ABC STAMP LICKER: Appearance, Behavior, Cognition, Speech, Thought, Affect, Mood, Perception, insight, judgment."
+    },
+    {
+      "id": 314,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "panic disorder", "criteria"],
+      "question": "For Panic Disorder diagnosis, panic attacks must be:",
+      "options": [
+        "Always triggered by specific situations",
+        "Recurrent and unexpected, followed by persistent concern or behavioral change",
+        "Occurring daily",
+        "Accompanied by agoraphobia"
+      ],
+      "correct": 1,
+      "explanation": "Panic Disorder requires: recurrent unexpected panic attacks (not triggered by obvious cue) AND at least one attack followed by 1+ month of: persistent worry about additional attacks, or significant maladaptive behavior change (avoidance). Panic attacks alone don't equal Panic Disorder—the persistent worry or behavioral change is key. Agoraphobia is now a separate diagnosis.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/panic-disorder"],
+      "memoryTip": "Panic Disorder = unexpected attacks + worry/avoidance lasting 1+ month. Not just panic attacks!"
+    },
+    {
+      "id": 315,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "personality disorders", "clusters"],
+      "question": "DSM-5-TR Personality Disorder Cluster B includes:",
+      "options": [
+        "Paranoid, Schizoid, Schizotypal",
+        "Antisocial, Borderline, Histrionic, Narcissistic",
+        "Avoidant, Dependent, Obsessive-Compulsive",
+        "All personality disorders"
+      ],
+      "correct": 1,
+      "explanation": "Cluster B ('dramatic, emotional, erratic'): Antisocial, Borderline, Histrionic, Narcissistic. Cluster A ('odd, eccentric'): Paranoid, Schizoid, Schizotypal. Cluster C ('anxious, fearful'): Avoidant, Dependent, OCPD. Clusters are descriptive groupings with limited clinical validity but help organize the personality disorders.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/borderline-personality-disorder"],
+      "memoryTip": "Cluster B = dramatic/erratic: 'Bad Boys Act Nuts' (Borderline, Antisocial, Histrionic, Narcissistic)."
+    },
+    {
+      "id": 316,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "genogram", "intergenerational"],
+      "question": "A genogram typically includes at least:",
+      "options": [
+        "One generation",
+        "Two generations",
+        "Three generations",
+        "Five generations"
+      ],
+      "correct": 2,
+      "explanation": "Standard genograms include at least three generations to capture intergenerational patterns: grandparents, parents, and children (or client's generation). Three generations reveal transmission of patterns, relationship themes, significant events, and multigenerational dynamics. More generations provide richer information but may become unwieldy. Focus on clinically relevant information.",
+      "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2020). Genograms: Assessment and Treatment (4th ed.). W. W. Norton.",
+      "studyUrls": ["https://www.genopro.com/genogram/"],
+      "memoryTip": "Genogram = 3 generations minimum. Grandparents, parents, you. See the patterns repeat."
+    },
+    {
+      "id": 317,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Social Anxiety Disorder", "criteria"],
+      "question": "Social Anxiety Disorder involves fear of:",
+      "options": [
+        "Being alone",
+        "Open spaces",
+        "Negative evaluation by others in social situations",
+        "Specific objects or animals"
+      ],
+      "correct": 2,
+      "explanation": "Social Anxiety Disorder (Social Phobia) involves marked fear of social situations where scrutiny by others is possible—fear of negative evaluation, embarrassment, or humiliation. Symptoms last 6+ months, cause significant distress/impairment, and the fear is out of proportion to actual threat. Can be 'performance only' specifier if limited to speaking/performing.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/social-anxiety-disorder"],
+      "memoryTip": "Social Anxiety = fear of being judged. 'What if they think I'm stupid/weird?' Not fear of people, fear of evaluation."
+    },
+    {
+      "id": 318,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Somatic Symptom Disorder", "criteria"],
+      "question": "Somatic Symptom Disorder requires:",
+      "options": [
+        "That symptoms must be medically unexplained",
+        "Distressing somatic symptoms plus excessive thoughts, feelings, or behaviors related to them",
+        "At least 5 different physical complaints",
+        "Complete absence of any medical condition"
+      ],
+      "correct": 1,
+      "explanation": "Somatic Symptom Disorder focuses on excessive response to somatic symptoms, not whether they're medically explained. Criteria: 1+ distressing somatic symptoms disrupting daily life, PLUS excessive thoughts/feelings/behaviors (disproportionate concern, high anxiety, excessive time/energy devoted). Symptoms must persist 6+ months. Real medical illness can coexist—the issue is the excessive psychological response.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/"],
+      "memoryTip": "Somatic Symptom Disorder = excessive RESPONSE to symptoms. Whether explained or not doesn't matter."
+    },
+    {
+      "id": 319,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "suicide risk", "protective factors"],
+      "question": "Protective factors against suicide include:",
+      "options": [
+        "Access to lethal means",
+        "Previous suicide attempts",
+        "Strong social support, reasons for living, and treatment engagement",
+        "Hopelessness"
+      ],
+      "correct": 2,
+      "explanation": "Protective factors buffer against suicide: social support and connectedness, children in the home, religious/spiritual beliefs, reasons for living, problem-solving skills, help-seeking behavior, treatment engagement, restricted access to lethal means. Assessment should evaluate both risk and protective factors. Protective factors don't eliminate risk but provide counterbalancing resources.",
+      "citation": "SAMHSA (2012). Preventing Suicide: A Toolkit for High Schools; Stone, D. M., et al. (2017). Preventing Suicide. MMWR, 66(28), 1-64.",
+      "studyUrls": ["https://www.sprc.org/"],
+      "memoryTip": "Protective factors = reasons to LIVE + CONNECTIONS + COPING. The opposite of risk factors."
+    },
+    {
+      "id": 320,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Specific Phobia", "types"],
+      "question": "Which is NOT a specifier type for Specific Phobia in DSM-5-TR?",
+      "options": [
+        "Animal",
+        "Blood-injection-injury",
+        "Social situations",
+        "Situational"
+      ],
+      "correct": 2,
+      "explanation": "Specific Phobia specifier types: Animal, Natural environment (heights, storms, water), Blood-injection-injury, Situational (airplanes, elevators, enclosed spaces), and Other. Social situations is NOT a Specific Phobia type—fear of social situations is Social Anxiety Disorder. Specific Phobia involves fear of specific objects or situations other than social or agoraphobic.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/specific-phobias"],
+      "memoryTip": "Specific Phobia types: ABNSO (Animal, Blood, Natural environment, Situational, Other). Social = separate disorder."
+    },
+    {
+      "id": 321,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "dissociative", "DID"],
+      "question": "Dissociative Identity Disorder (DID) is characterized by:",
+      "options": [
+        "A single fragmented sense of self",
+        "Two or more distinct personality states with discontinuities in sense of self and agency",
+        "Temporary memory loss after trauma",
+        "Fear of identity theft"
+      ],
+      "correct": 1,
+      "explanation": "DID involves disruption of identity with 2+ distinct personality states (some cultures describe as possession), with discontinuities in sense of self, affect, behavior, consciousness, memory, perception, cognition, and/or motor function. Recurrent gaps in recall of everyday events, personal information, or trauma beyond ordinary forgetting. Typically associated with overwhelming childhood trauma.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.isst-d.org/"],
+      "memoryTip": "DID = 2+ distinct states + memory gaps. Not 'split personality'—disrupted identity with amnesia barriers."
+    },
+    {
+      "id": 322,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "family", "life cycle"],
+      "question": "The 'family life cycle' framework helps assess families by:",
+      "options": [
+        "Determining biological age only",
+        "Identifying developmental stages and normative transitions families navigate",
+        "Measuring family income",
+        "Counting family members"
+      ],
+      "correct": 1,
+      "explanation": "The family life cycle (Carter & McGoldrick) identifies normative developmental stages: leaving home, coupling, families with young children, families with adolescents, launching children, later life. Each stage has emotional tasks and requires adaptation. Problems often emerge at transitions. Assessment considers: What stage? What transitions? Are there pile-ups of stressors? How is this family handling normative challenges?",
+      "citation": "Carter, B., & McGoldrick, M. (2005). The Expanded Family Life Cycle (3rd ed.). Allyn & Bacon.",
+      "studyUrls": ["https://www.aamft.org/"],
+      "memoryTip": "Family life cycle = normative stages with tasks. Symptoms often appear at transitions."
+    },
+    {
+      "id": 323,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "insomnia", "criteria"],
+      "question": "Insomnia Disorder requires sleep difficulties occurring at least:",
+      "options": [
+        "Once per month",
+        "Once per week for 1 month",
+        "3 nights per week for at least 3 months",
+        "Every night for 6 months"
+      ],
+      "correct": 2,
+      "explanation": "Insomnia Disorder requires: difficulty initiating sleep, maintaining sleep, or early morning awakening, occurring at least 3 nights per week for at least 3 months, causing significant distress or impairment, despite adequate opportunity for sleep. It's not better explained by another sleep-wake disorder or medical condition and not due to substances.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.sleepfoundation.org/"],
+      "memoryTip": "Insomnia Disorder: 3 nights/week for 3 months. Think '3 × 3' rule."
+    },
+    {
+      "id": 324,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "eating disorders", "ARFID"],
+      "question": "Avoidant/Restrictive Food Intake Disorder (ARFID) differs from Anorexia Nervosa in that ARFID:",
+      "options": [
+        "Always involves weight loss",
+        "Does not involve body image disturbance or fear of weight gain",
+        "Only affects children",
+        "Requires purging behaviors"
+      ],
+      "correct": 1,
+      "explanation": "ARFID involves eating disturbance leading to failure to meet nutritional needs, but WITHOUT the body image disturbance or fear of fatness characteristic of Anorexia. ARFID may involve apparent lack of interest in eating, avoidance based on sensory characteristics, or concern about aversive consequences of eating. It occurs across all ages. Anorexia has body image disturbance; ARFID doesn't.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nationaleatingdisorders.org/"],
+      "memoryTip": "ARFID = restriction without body image issues. Not about weight/shape—about sensory, interest, or fear of consequences."
+    },
+    {
+      "id": 325,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "clinical interview", "techniques"],
+      "question": "Open-ended questions in clinical assessment are useful for:",
+      "options": [
+        "Getting yes/no answers quickly",
+        "Eliciting detailed information and understanding client's perspective",
+        "Establishing diagnosis in one question",
+        "Avoiding emotional content"
+      ],
+      "correct": 1,
+      "explanation": "Open-ended questions invite elaboration: 'Tell me about...,' 'What was that like?,' 'How did you feel?' They elicit the client's narrative, reveal what's important to them, and provide rich clinical information. Closed questions (yes/no) are useful for specific facts but limit response. Good assessment balances both, using open-ended to understand and closed to clarify specifics.",
+      "citation": "Morrison, J. (2014). The First Interview (4th ed.). Guilford Press.",
+      "studyUrls": ["https://www.apa.org/"],
+      "memoryTip": "Open-ended = opens doors. 'Tell me about' invites story; 'Did you' closes it down."
+    },
+    {
+      "id": 326,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "substance use", "criteria"],
+      "question": "DSM-5-TR Substance Use Disorders are diagnosed on a spectrum from:",
+      "options": [
+        "Acute to chronic",
+        "Mild to severe based on symptom count",
+        "Physical to psychological",
+        "Inpatient to outpatient"
+      ],
+      "correct": 1,
+      "explanation": "Substance Use Disorders are rated by severity based on number of criteria met in past 12 months: Mild (2-3 criteria), Moderate (4-5 criteria), Severe (6+ criteria). The 11 criteria include tolerance, withdrawal, using more than intended, unsuccessful attempts to cut down, craving, etc. This dimensional approach replaced the abuse/dependence distinction from DSM-IV.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.samhsa.gov/"],
+      "memoryTip": "SUD severity: Mild (2-3), Moderate (4-5), Severe (6+). Count the criteria!"
+    },
+    {
+      "id": 327,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "schizophrenia", "symptoms"],
+      "question": "In schizophrenia, 'negative symptoms' include:",
+      "options": [
+        "Hallucinations and delusions",
+        "Diminished emotional expression, avolition, and alogia",
+        "Disorganized speech",
+        "Aggressive behaviors"
+      ],
+      "correct": 1,
+      "explanation": "Negative symptoms represent diminished/absent functions: diminished emotional expression (flat affect), avolition (decreased motivation), alogia (poverty of speech), anhedonia (decreased pleasure), asociality (reduced social drive). Positive symptoms are additions (hallucinations, delusions, disorganized speech). Negative symptoms often predict functional outcome more than positive symptoms and are harder to treat.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/schizophrenia"],
+      "memoryTip": "Negative symptoms = what's MISSING (flat affect, no motivation, reduced speech). Positive = what's ADDED (hallucinations, delusions)."
+    },
+    {
+      "id": 328,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "outcome measures", "standardized"],
+      "question": "Using standardized outcome measures in assessment helps therapists to:",
+      "options": [
+        "Avoid talking to clients",
+        "Track progress objectively and identify clients who aren't improving",
+        "Bill at higher rates",
+        "Replace clinical judgment entirely"
+      ],
+      "correct": 1,
+      "explanation": "Standardized outcome measures (like ORS, PHQ-9, GAD-7) provide objective data to track progress, detect deterioration early, inform treatment decisions, and demonstrate outcomes. Research shows therapists can't reliably identify deteriorating clients without measurement. Measures supplement (don't replace) clinical judgment and provide common language for discussing progress with clients.",
+      "citation": "Lambert, M. J. (2010). Prevention of Treatment Failure: The Use of Measuring, Monitoring, and Feedback in Clinical Practice. APA.",
+      "studyUrls": ["https://www.apa.org/"],
+      "memoryTip": "Outcome measures = track what you're treating. Without data, you're guessing about progress."
+    },
+    {
+      "id": 329,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "ODD", "criteria"],
+      "question": "Oppositional Defiant Disorder (ODD) is characterized by:",
+      "options": [
+        "Criminal behavior and violation of others' rights",
+        "A pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness",
+        "Hyperactivity and impulsivity",
+        "Social withdrawal"
+      ],
+      "correct": 1,
+      "explanation": "ODD involves a pattern (6+ months) of: angry/irritable mood (temper, touchy, angry/resentful), argumentative/defiant behavior (argues with authority, defies rules, deliberately annoys, blames others), and/or vindictiveness. Symptoms occur with non-sibling. Severity based on settings affected. ODD differs from Conduct Disorder (no serious violations of others' rights) and ADHD (not primarily hyperactive).",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.aacap.org/"],
+      "memoryTip": "ODD = Angry mood + Defiant behavior + Vindictiveness. Think 'ODDly defiant' without serious rule-breaking."
+    },
+    {
+      "id": 330,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "trauma", "PTSD"],
+      "question": "PTSD requires exposure to trauma through all of the following EXCEPT:",
+      "options": [
+        "Directly experiencing the event",
+        "Witnessing the event in person",
+        "Learning about a violent or accidental event happening to a close family member/friend",
+        "Hearing about an event from a news report"
+      ],
+      "correct": 3,
+      "explanation": "PTSD Criterion A (exposure) includes: (1) directly experiencing, (2) witnessing in person, (3) learning about violent/accidental trauma to close family member/friend, (4) repeated/extreme exposure to aversive details (first responders, not through media). Media exposure (TV, movies, pictures) does NOT count unless it's work-related. News reports alone are explicitly excluded from Criterion A.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.ptsd.va.gov/"],
+      "memoryTip": "PTSD trauma exposure: Direct, Witness, Learn (close other), or Work-related. NOT through media/news."
+    },
+    {
+      "id": 331,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "risk", "self-harm"],
+      "question": "Non-suicidal self-injury (NSSI) differs from suicide attempts primarily in:",
+      "options": [
+        "The method used",
+        "The intent—NSSI lacks intent to die",
+        "The age of the person",
+        "The number of incidents"
+      ],
+      "correct": 1,
+      "explanation": "NSSI is intentional self-inflicted damage without suicidal intent—typically for emotion regulation, self-punishment, or communication. Unlike suicide attempts, there's no intent to die. However, NSSI is a significant risk factor for later suicide attempts. Assessment should clarify intent: 'When you cut, were you trying to end your life or was it for another reason?' Don't assume NSSI means no suicide risk.",
+      "citation": "Nock, M. K. (2010). Self-Injury. Annual Review of Clinical Psychology, 6, 339-363; International Society for the Study of Self-Injury (ISSS).",
+      "studyUrls": ["https://www.selfinjury.bctr.cornell.edu/"],
+      "memoryTip": "NSSI = harm without intent to die. But still a RED FLAG for future suicide risk."
+    },
+    {
+      "id": 332,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Bulimia Nervosa", "criteria"],
+      "question": "Bulimia Nervosa requires binge eating and compensatory behaviors occurring on average:",
+      "options": [
+        "Once per month",
+        "Once per week for at least 3 months",
+        "Daily for 1 month",
+        "Twice yearly"
+      ],
+      "correct": 1,
+      "explanation": "Bulimia Nervosa requires: binge eating (large amount + loss of control), inappropriate compensatory behaviors (purging, fasting, excessive exercise), both occurring at least once per week for 3 months, and self-evaluation unduly influenced by body shape/weight. Severity is rated by compensatory behavior frequency per week.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nationaleatingdisorders.org/"],
+      "memoryTip": "Bulimia = binge + compensate, once/week for 3 months. '1 × 3' rule."
+    },
+    {
+      "id": 333,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "delirium", "features"],
+      "question": "The key distinguishing feature of delirium is:",
+      "options": [
+        "Gradual onset over months",
+        "Disturbance in attention and awareness that develops acutely and fluctuates",
+        "Stable cognitive impairment",
+        "Primarily mood symptoms"
+      ],
+      "correct": 1,
+      "explanation": "Delirium is characterized by: (1) disturbance in attention and awareness, (2) develops over short time (hours to days) and fluctuates, (3) additional cognitive disturbance (memory, orientation, language, visuospatial, perception), (4) not explained by pre-existing neurocognitive disorder, (5) evidence it's caused by medical condition, substance, or multiple etiologies. Acute onset and fluctuation distinguish it from dementia.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nia.nih.gov/"],
+      "memoryTip": "Delirium = ACUTE, FLUCTUATING confusion. Medical emergency. Dementia = gradual, stable."
+    },
+    {
+      "id": 334,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "relational", "systemic"],
+      "question": "Assessing the 'relational context' in family therapy involves examining:",
+      "options": [
+        "Only the individual's symptoms",
+        "Patterns of interaction, family structure, communication, and relationships",
+        "Financial status",
+        "Educational achievements"
+      ],
+      "correct": 1,
+      "explanation": "Relational context assessment examines: interaction patterns (who talks to whom, how), family structure (hierarchy, boundaries, subsystems), communication styles (clear vs. unclear, direct vs. indirect), relationship qualities (closeness, conflict, alliances, coalitions), and how the presenting problem fits within these patterns. Symptoms are understood in relational context, not just as individual pathology.",
+      "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson.",
+      "studyUrls": ["https://www.aamft.org/"],
+      "memoryTip": "Relational context = the water the fish swims in. Individual symptoms make sense in family patterns."
+    },
+    {
+      "id": 335,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Persistent Depressive Disorder", "duration"],
+      "question": "Persistent Depressive Disorder (Dysthymia) requires depressed mood for at least:",
+      "options": [
+        "2 weeks",
+        "1 month",
+        "6 months",
+        "2 years (1 year for children/adolescents)"
+      ],
+      "correct": 3,
+      "explanation": "Persistent Depressive Disorder requires depressed mood for most of the day, more days than not, for at least 2 years (1 year for children/adolescents). During this period, no symptom-free interval longer than 2 months. It's characterized by chronic, lower-grade depression rather than the episodic severe depression of MDD, though the two can co-occur ('double depression').",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/depression"],
+      "memoryTip": "Persistent Depressive = 2 years adult, 1 year child. Chronic low-grade depression."
+    },
+    {
+      "id": 336,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["assessment", "cultural", "formulation"],
+      "question": "The DSM-5's Cultural Formulation Interview (CFI) helps clinicians assess:",
+      "options": [
+        "Immigration status only",
+        "Cultural factors affecting diagnosis, help-seeking, and treatment",
+        "Language proficiency",
+        "Socioeconomic status"
+      ],
+      "correct": 1,
+      "explanation": "The CFI is a semi-structured interview assessing: cultural definition of the problem (how client/community understand it), cultural perceptions of cause, context, and support (stressors, supports, cultural factors), cultural factors affecting self-coping and past help-seeking, cultural factors affecting current help-seeking, and cultural identity. It helps clinicians understand illness experience through the client's cultural lens.",
+      "citation": "American Psychiatric Association (2022). DSM-5-TR; Lewis-Fernández, R., et al. (2016). Culture and Psychiatric Evaluation. Cultural Psychiatry.",
+      "studyUrls": ["https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/dsm-5-cultural-formulation-interview"],
+      "memoryTip": "CFI = Cultural Formulation Interview. How does culture shape the problem, causes, help-seeking?"
+    },
+    {
+      "id": 337,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Intermittent Explosive Disorder", "criteria"],
+      "question": "Intermittent Explosive Disorder involves:",
+      "options": [
+        "Planned, premeditated aggression",
+        "Recurrent behavioral outbursts representing failure to control aggressive impulses",
+        "Aggression only toward family members",
+        "Aggression secondary to another mental disorder"
+      ],
+      "correct": 1,
+      "explanation": "IED involves recurrent behavioral outbursts of aggression (verbal or physical) representing failure to control aggressive impulses. The aggression is impulsive (not premeditated), grossly out of proportion to provocation, causes distress or impairment, and is not better explained by another disorder. Individual must be at least 6 years old. Outbursts are generally not premeditated and not committed to achieve some tangible objective.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.mayoclinic.org/diseases-conditions/intermittent-explosive-disorder"],
+      "memoryTip": "IED = impulsive aggression out of proportion. Not planned, not goal-directed. Explosive outbursts."
+    },
+    {
+      "id": 338,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "presenting problem", "initial"],
+      "question": "The 'presenting problem' in family assessment refers to:",
+      "options": [
+        "The therapist's theoretical formulation",
+        "The issue or concern that brought the family to therapy",
+        "The most severe diagnosis",
+        "What insurance will cover"
+      ],
+      "correct": 1,
+      "explanation": "The presenting problem is the family's stated reason for seeking therapy—their view of what's wrong. It's the starting point, though systemic assessment may reveal different or broader issues. Respecting the presenting problem builds alliance, even while exploring relational context. 'What brings you in today?' captures the family's perspective, which may differ from the ultimate treatment focus.",
+      "citation": "Nichols, M. P., & Davis, S. D. (2020). Family Therapy: Concepts and Methods (12th ed.). Pearson.",
+      "studyUrls": ["https://www.aamft.org/"],
+      "memoryTip": "Presenting problem = what they say is wrong. The ticket for entry, even if not the whole story."
+    },
+    {
+      "id": 339,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Separation Anxiety", "adult"],
+      "question": "In DSM-5-TR, Separation Anxiety Disorder can be diagnosed in adults when:",
+      "options": [
+        "It cannot be diagnosed in adults",
+        "Symptoms last at least 4 weeks",
+        "Symptoms last at least 6 months and cause significant distress or impairment",
+        "Only after a divorce"
+      ],
+      "correct": 2,
+      "explanation": "DSM-5 removed the upper age limit for Separation Anxiety Disorder. In adults, duration must be at least 6 months (versus 4 weeks for children). Features include excessive anxiety about separation from attachment figures, worry about harm to them, reluctance to leave, nightmares about separation, and physical symptoms. Adult SAD is more common than previously recognized and often comorbid with other anxiety disorders.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/"],
+      "memoryTip": "Adult Separation Anxiety = now in DSM. 6 months for adults (4 weeks for kids)."
+    },
+    {
+      "id": 340,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "strengths", "resources"],
+      "question": "A strengths-based assessment approach involves:",
+      "options": [
+        "Ignoring problems",
+        "Identifying client resources, competencies, and supports alongside challenges",
+        "Only focusing on what's working",
+        "Avoiding diagnosis"
+      ],
+      "correct": 1,
+      "explanation": "Strengths-based assessment balances problem identification with recognition of resources, competencies, coping abilities, support networks, and resilience factors. It asks 'what's right' alongside 'what's wrong.' This provides a complete picture, identifies assets to build on in treatment, empowers clients, and reduces the pathologizing focus of deficit-only assessment. Both challenges AND resources inform treatment planning.",
+      "citation": "Saleebey, D. (2012). The Strengths Perspective in Social Work Practice (6th ed.). Pearson.",
+      "studyUrls": ["https://www.apa.org/"],
+      "memoryTip": "Strengths-based = problems AND resources. What's strong, not just what's wrong."
+    },
+    {
+      "id": 341,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Binge Eating Disorder", "criteria"],
+      "question": "Binge Eating Disorder differs from Bulimia Nervosa in that BED:",
+      "options": [
+        "Involves larger binges",
+        "Does not involve regular compensatory behaviors",
+        "Only affects men",
+        "Requires hospitalization"
+      ],
+      "correct": 1,
+      "explanation": "Binge Eating Disorder involves recurrent binge episodes (large amount + loss of control) without the regular compensatory behaviors (purging, fasting, excessive exercise) seen in Bulimia. BED criteria: binges at least once/week for 3 months, marked distress about binging, and no regular compensatory behaviors. BED is the most common eating disorder.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nationaleatingdisorders.org/"],
+      "memoryTip": "BED = Binge without the purge. Bulimia = Binge + compensate. BED: eating distress without compensation."
+    },
+    {
+      "id": 342,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["assessment", "couple", "patterns"],
+      "question": "The 'demand-withdraw' pattern in couples assessment describes:",
+      "options": [
+        "A healthy negotiation style",
+        "One partner pursuing/criticizing while the other avoids/withdraws",
+        "Both partners being equally assertive",
+        "A financial arrangement"
+      ],
+      "correct": 1,
+      "explanation": "Demand-withdraw is a common distressed couple pattern: one partner (demander) pushes for discussion, criticizes, or pursues; the other (withdrawer) avoids, shuts down, or distances. This creates a self-perpetuating cycle—pursuit triggers withdrawal, which triggers more pursuit. Research links this pattern to relationship dissatisfaction and dissolution. Assessment identifies the pattern so couples can interrupt it.",
+      "citation": "Christensen, A., & Heavey, C. L. (1990). Gender and Social Structure in the Demand/Withdraw Pattern. Journal of Personality and Social Psychology, 59(1), 73-81.",
+      "studyUrls": ["https://www.gottman.com/"],
+      "memoryTip": "Demand-withdraw = pursue-distance dance. One pushes, one pulls away, repeat."
+    },
+    {
+      "id": 343,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Hoarding Disorder", "criteria"],
+      "question": "Hoarding Disorder is characterized by:",
+      "options": [
+        "Collecting valuable items",
+        "Persistent difficulty discarding possessions regardless of actual value, causing distress and clutter",
+        "Temporary clutter during moving",
+        "Symptoms of OCD only"
+      ],
+      "correct": 1,
+      "explanation": "Hoarding Disorder involves: persistent difficulty discarding possessions regardless of value, due to perceived need to save them or distress about discarding; accumulation that clutters living areas and compromises their use; significant distress or impairment. It's now separate from OCD in DSM-5. Specifiers: with excessive acquisition, with good/fair/poor/absent insight.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://iocdf.org/about-hoarding/"],
+      "memoryTip": "Hoarding = can't discard + clutter + distress. Separate from OCD. About the STUFF and its meaning."
+    },
+    {
+      "id": 344,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "timeline", "history"],
+      "question": "A timeline of the presenting problem helps the therapist understand:",
+      "options": [
+        "The client's age only",
+        "When symptoms began, their course, and relationship to life events",
+        "Family income changes",
+        "Educational history"
+      ],
+      "correct": 1,
+      "explanation": "A problem timeline tracks: when symptoms first appeared, how they developed over time, periods of improvement or worsening, and relationships to life events (stressors, transitions, losses, changes). This reveals patterns (e.g., depression always follows conflict), identifies triggers, shows what's helped before, and provides context for current presentation. 'When did this start? What was happening in your life then?'",
+      "citation": "Morrison, J. (2014). The First Interview (4th ed.). Guilford Press.",
+      "studyUrls": ["https://www.apa.org/"],
+      "memoryTip": "Timeline = when, how developed, connected to what? Context reveals patterns."
+    },
+    {
+      "id": 345,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Complicated Grief", "PCBD"],
+      "question": "Prolonged Grief Disorder (new in DSM-5-TR) differs from normal grief primarily by:",
+      "options": [
+        "Any grief lasting over 2 weeks",
+        "Intense yearning and preoccupation with the deceased that persists at least 12 months in adults, with functional impairment",
+        "Grief after sudden death only",
+        "Absence of any positive memories"
+      ],
+      "correct": 1,
+      "explanation": "Prolonged Grief Disorder (new in DSM-5-TR): intense yearning/longing for deceased, preoccupation with the deceased or circumstances of death, lasting at least 12 months in adults (6 months in children), nearly every day for at least the last month, with significant functional impairment. Identity disruption, disbelief, avoidance of reminders, emotional pain, difficulty engaging in life. Distinguishes pathological from normal grief.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.apa.org/topics/grief"],
+      "memoryTip": "Prolonged Grief Disorder = 12 months+ adult, 6+ child. Intense yearning + impairment. New in DSM-5-TR."
+    },
+    {
+      "id": 346,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "attachment", "patterns"],
+      "question": "In attachment-informed assessment, an 'anxious-preoccupied' attachment style is characterized by:",
+      "options": [
+        "Comfort with intimacy and independence",
+        "High anxiety about relationships with strong need for closeness and fear of abandonment",
+        "Avoidance of close relationships",
+        "Disorganized approach to relationships"
+      ],
+      "correct": 1,
+      "explanation": "Anxious-preoccupied (anxious) attachment involves high anxiety about relationships: strong desire for closeness, hypervigilance to rejection cues, fear of abandonment, and tendency to be clingy or demanding. In contrast: secure = comfortable with intimacy and autonomy; dismissive-avoidant = values independence, uncomfortable with closeness; fearful-avoidant = wants closeness but fears it.",
+      "citation": "Bartholomew, K., & Horowitz, L. M. (1991). Attachment Styles Among Young Adults. Journal of Personality and Social Psychology, 61(2), 226-244.",
+      "studyUrls": ["https://www.apa.org/topics/personality/attachment"],
+      "memoryTip": "Anxious attachment = 'Don't leave me!' High need + high fear. Hypervigilant about relationship."
+    },
+    {
+      "id": 347,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "Selective Mutism", "criteria"],
+      "question": "Selective Mutism involves:",
+      "options": [
+        "Complete inability to speak in all situations",
+        "Consistent failure to speak in specific social situations despite speaking in other situations",
+        "Choosing not to speak as manipulation",
+        "A speech impediment"
+      ],
+      "correct": 1,
+      "explanation": "Selective Mutism involves consistent failure to speak in specific social situations where speaking is expected (e.g., school), despite speaking in other situations (e.g., home). Duration at least 1 month (not first month of school). Interferes with achievement or social communication. Not due to lack of knowledge or comfort with language. Often related to social anxiety.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.selectivemutism.org/"],
+      "memoryTip": "Selective Mutism = CAN speak but doesn't in certain places. Not 'won't' but 'can't' in those situations."
+    },
+    {
+      "id": 348,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["assessment", "differential diagnosis", "process"],
+      "question": "Differential diagnosis involves:",
+      "options": [
+        "Giving multiple diagnoses to every client",
+        "Systematically comparing symptom presentation to multiple possible diagnoses to determine the best fit",
+        "Diagnosing different family members",
+        "Using different diagnostic systems"
+      ],
+      "correct": 1,
+      "explanation": "Differential diagnosis is the process of distinguishing between conditions with similar presentations by systematically comparing symptoms, history, course, and other features. Questions: What else could this be? What would I expect to see if it were X vs. Y? For example, differentiating between Bipolar II and MDD requires assessing for hypomanic episodes. Good assessment considers alternatives.",
+      "citation": "Morrison, J. (2014). Diagnosis Made Easier (2nd ed.). Guilford Press.",
+      "studyUrls": ["https://www.psychiatry.org/"],
+      "memoryTip": "Differential diagnosis = 'What else could this be?' Compare and contrast to find best fit."
+    },
+    {
+      "id": 349,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "safety", "domestic violence"],
+      "question": "When assessing for intimate partner violence, the clinician should:",
+      "options": [
+        "Only ask if obvious injuries are present",
+        "Always ask privately using direct, non-judgmental questions",
+        "Ask with the partner present for honesty",
+        "Assume it would be disclosed without asking"
+      ],
+      "correct": 1,
+      "explanation": "IPV assessment should be routine, private (never with partner present), and use direct, non-judgmental questions: 'Has your partner ever hit, kicked, or hurt you?' 'Do you feel safe at home?' Many victims don't disclose unless asked directly. Screening in private protects safety. If disclosed, assess immediate danger, provide information about resources, and develop a safety plan. Don't pressure to leave—support client autonomy.",
+      "citation": "ACOG (2012). Intimate Partner Violence. Committee Opinion No. 518; Family Violence Prevention Fund (2004). National Consensus Guidelines.",
+      "studyUrls": ["https://www.thehotline.org/"],
+      "memoryTip": "IPV screening: PRIVATE + DIRECT + NON-JUDGMENTAL. Ask everyone; many won't volunteer."
+    },
+    {
+      "id": 350,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "specifiers", "course"],
+      "question": "DSM-5-TR course specifiers such as 'in partial remission' indicate:",
+      "options": [
+        "The diagnosis has never been made",
+        "Current symptom status relative to previous full criteria",
+        "Treatment recommendations",
+        "Insurance coverage status"
+      ],
+      "correct": 1,
+      "explanation": "Course specifiers describe current status: 'in full remission' (no symptoms), 'in partial remission' (some symptoms present but no longer meets full criteria or symptom-free period followed by some symptoms), 'in early remission,' 'in sustained remission.' These track disorder course over time. Other specifiers describe current severity (mild, moderate, severe) or features (with anxious distress, with psychotic features).",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.psychiatry.org/"],
+      "memoryTip": "Course specifiers = where are symptoms NOW? Full criteria, partial, or in remission?"
     }
 ]

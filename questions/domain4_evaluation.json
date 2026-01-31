@@ -2581,5 +2581,95 @@
     "citation": "Minami, T., Wampold, B. E., Serlin, R. C., Hamilton, E. G., Brown, G. S., & Kircher, J. C. (2008). Benchmarking the Effectiveness of Psychotherapy Treatment for Adult Depression. Journal of Consulting and Clinical Psychology, 76(1), 116-125.",
     "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
     "memoryTip": "Benchmarking = compare your results to research results. Are you meeting the standard?"
+  },
+  {
+    "id": 546,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["clinical significance", "statistical significance", "outcomes"],
+    "question": "The difference between statistical significance and clinical significance in therapy outcomes is:",
+    "options": [
+      "They are the same thing",
+      "Statistical significance refers to reliable change, while clinical significance refers to meaningful real-world improvement",
+      "Clinical significance only matters in research",
+      "Statistical significance is more important than clinical significance"
+    ],
+    "correct": 1,
+    "explanation": "Statistical significance indicates that change is unlikely due to chance (reliable change index). Clinical significance indicates that the change is large enough to be meaningful in the client's life—often defined as moving from a clinical range to a normal range of functioning. A change can be statistically significant but not clinically significant (tiny but reliable improvement) or vice versa. Both matter: we want reliable changes that actually improve clients' lives.",
+    "citation": "Jacobson, N. S., & Truax, P. (1991). Clinical Significance: A Statistical Approach to Defining Meaningful Change. Journal of Consulting and Clinical Psychology, 59(1), 12-19.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
+    "memoryTip": "Statistical = reliable (not chance). Clinical = meaningful (matters in real life). We want BOTH."
+  },
+  {
+    "id": 547,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["dose-response", "session number", "outcomes"],
+    "question": "Research on the dose-response relationship in psychotherapy suggests:",
+    "options": [
+      "More sessions always produce better outcomes",
+      "Most improvement occurs in the first 10-20 sessions, with diminishing returns thereafter",
+      "The exact number of sessions doesn't matter at all",
+      "8 sessions is optimal for all clients"
+    ],
+    "correct": 1,
+    "explanation": "Howard et al.'s dose-response research found a negatively accelerating curve: rapid improvement early in treatment with diminishing returns over time. Approximately 50% of clients show clinically significant improvement by session 8-10, 75% by session 26. This supports the 'good enough level' model—clients improve to a satisfactory level and terminate rather than seeking maximum possible improvement. However, individual variation is substantial; some need more sessions.",
+    "citation": "Howard, K. I., Kopta, S. M., Krause, M. S., & Orlinsky, D. E. (1986). The Dose-Effect Relationship in Psychotherapy. American Psychologist, 41(2), 159-164.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/amp"],
+    "memoryTip": "Dose-response: Most gain EARLY (first 10-20 sessions), then diminishing returns. Not linear."
+  },
+  {
+    "id": 548,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "easy",
+    "tags": ["progress notes", "documentation", "evaluation"],
+    "question": "Progress notes that support treatment evaluation should:",
+    "options": [
+      "Only document what the client said verbatim",
+      "Be vague to protect confidentiality",
+      "Track interventions used, client response, and progress toward treatment goals",
+      "Only be written when termination is near"
+    ],
+    "correct": 2,
+    "explanation": "Effective progress notes support ongoing evaluation by documenting: session focus and interventions used, client's response to interventions, observable changes in symptoms/functioning, movement toward (or away from) treatment goals, and any modifications to the treatment plan. This creates a longitudinal record that allows therapist and client to review progress over time. Notes should be timely, relevant, and goal-focused—not just session summaries.",
+    "citation": "Prieto, L. R., & Scheel, K. R. (2002). Using Case Documentation to Strengthen Counselor Trainees' Case Conceptualization Skills. Journal of Counseling & Development, 80(1), 11-21.",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+    "memoryTip": "Progress notes = IRGP: Interventions, Response, Goals, Progress. Track what matters."
+  },
+  {
+    "id": 549,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "medium",
+    "tags": ["booster sessions", "relapse prevention", "maintenance"],
+    "question": "Booster sessions after formal termination are used to:",
+    "options": [
+      "Avoid ever truly terminating",
+      "Maintain gains, prevent relapse, and address new challenges using established skills",
+      "Generate additional income",
+      "Replace regular therapy permanently"
+    ],
+    "correct": 1,
+    "explanation": "Booster sessions are periodic check-ins after formal termination, used to: maintain treatment gains over time, catch early signs of relapse, reinforce skills learned in therapy, address new challenges using established tools, and provide support during vulnerable periods. Research supports boosters for preventing relapse in depression and anxiety. Typically scheduled at increasing intervals (1 month, 3 months, 6 months). They're a planned part of the termination process, not failure to terminate.",
+    "citation": "Vittengl, J. R., Clark, L. A., Dunn, T. W., & Jarrett, R. B. (2007). Reducing Relapse and Recurrence in Unipolar Depression: A Comparative Meta-Analysis. Journal of Consulting and Clinical Psychology, 75(3), 475-488.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/ccp"],
+    "memoryTip": "Booster sessions = planned maintenance check-ins. Not failure to terminate—strategic follow-up."
+  },
+  {
+    "id": 550,
+    "domain": "Evaluating Process and Terminating Treatment",
+    "difficulty": "hard",
+    "tags": ["common factors", "specific factors", "outcome research"],
+    "question": "Research on common factors versus specific techniques in therapy outcomes suggests:",
+    "options": [
+      "Specific techniques account for most of the variance in outcomes",
+      "Common factors (alliance, empathy, expectations) account for more outcome variance than specific techniques",
+      "Only medication produces real change",
+      "Outcomes are entirely random"
+    ],
+    "correct": 1,
+    "explanation": "Meta-analyses consistently show that common factors (therapeutic alliance, therapist empathy, client expectations, agreement on goals) account for more outcome variance (approximately 30%) than specific techniques (approximately 15%). The 'Dodo Bird verdict' suggests different therapies produce similar outcomes. This doesn't mean techniques don't matter—but relationship factors matter more. Effective therapists attend to alliance across all modalities. The best outcomes combine strong alliance with appropriate techniques.",
+    "citation": "Wampold, B. E. (2015). How Important Are the Common Factors in Psychotherapy? An Update. World Psychiatry, 14(3), 270-277; Norcross, J. C., & Lambert, M. J. (2018). Psychotherapy Relationships That Work III. Psychotherapy, 55(4), 303-315.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+    "memoryTip": "Common factors > specific techniques. Relationship matters MORE than the model. Dodo Bird verdict."
   }
 ]

@@ -2018,6 +2018,726 @@
         "citation": "Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12; Cecchin, G. (1987). Hypothesizing, Circularity, and Neutrality Revisited. Family Process, 26(4), 405-413.",
         "studyUrls": ["https://www.aamft.org/"],
         "memoryTip": "Neutrality = curious about ALL, allied with NONE. Multi-partial, not impartial."
+      },
+      {
+        "id": 211,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Bowen", "differentiation", "self"],
+        "question": "In Bowenian theory, a well-differentiated person is characterized by:",
+        "options": [
+          "Emotional distance from family",
+          "The ability to maintain a sense of self while remaining emotionally connected",
+          "Always agreeing with others to keep peace",
+          "Complete independence from relationships"
+        ],
+        "correct": 1,
+        "explanation": "Differentiation of self refers to the ability to maintain a solid sense of self (beliefs, values, goals) while remaining emotionally connected to important others. High differentiation means being able to think clearly under stress, not automatically reacting emotionally, and balancing intimacy with autonomy. It's not about distance—it's about being connected without losing yourself. Low differentiation leads to fusion or emotional cutoff.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Differentiation = connected but not consumed. Solid self + close relationships."
+      },
+      {
+        "id": 212,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["MRI", "attempted solutions", "brief therapy"],
+        "question": "The MRI Brief Therapy model focuses primarily on:",
+        "options": [
+          "Childhood trauma resolution",
+          "How attempted solutions maintain the problem",
+          "Medication management",
+          "Long-term personality change"
+        ],
+        "correct": 1,
+        "explanation": "The MRI (Mental Research Institute) model views problems as maintained by the very solutions people attempt. 'More of the same' solutions that don't work perpetuate the problem cycle. Treatment involves identifying the attempted solution pattern and doing something different—often the opposite. The focus is on present interactions, not history, and therapy is deliberately brief. The problem is the solution!",
+        "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. W. W. Norton; Fisch, R., Weakland, J. H., & Segal, L. (1982). The Tactics of Change. Jossey-Bass.",
+        "studyUrls": ["https://www.mri.org/"],
+        "memoryTip": "MRI = attempted solutions ARE the problem. Stop doing more of what doesn't work."
+      },
+      {
+        "id": 213,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["structural", "boundaries", "enmeshment"],
+        "question": "In Structural Family Therapy, 'enmeshment' refers to:",
+        "options": [
+          "Family members being too distant",
+          "Boundaries that are overly diffuse with excessive emotional involvement",
+          "Clear and healthy boundaries",
+          "Physical proximity during sessions"
+        ],
+        "correct": 1,
+        "explanation": "Enmeshment describes a family pattern where boundaries are diffuse—members are overly involved in each other's lives, thoughts, and feelings. Individual autonomy is sacrificed for togetherness. Changes in one member immediately reverberate through all. Enmeshed families have difficulty with separation and individuation. The opposite extreme is disengagement (rigid boundaries, disconnection). Healthy families balance connection and autonomy.",
+        "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Enmeshment = too close, no breathing room. Where do I end and you begin?"
+      },
+      {
+        "id": 214,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["EFT", "attachment", "bonding events"],
+        "question": "The goal of 'bonding events' in EFT Stage 2 is to:",
+        "options": [
+          "Create dependence between partners",
+          "Have partners express attachment needs and respond with accessibility and responsiveness",
+          "Resolve past traumas",
+          "Establish rules for communication"
+        ],
+        "correct": 1,
+        "explanation": "Bonding events occur in EFT Stage 2 when partners can express their deepest attachment needs and longings, and the other partner responds with new accessibility and responsiveness. The withdrawer reaches for connection; the pursuer softens and becomes accessible. These powerful moments create new emotional experiences and restructure the attachment bond. They demonstrate that partners can be there for each other.",
+        "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "Bonding events = reaching out + responding. New experience of 'I need you' + 'I'm here for you.'"
+      },
+      {
+        "id": 215,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["contextual", "legacy", "Boszormenyi-Nagy"],
+        "question": "Boszormenyi-Nagy's concept of 'destructive entitlement' refers to:",
+        "options": [
+          "Reasonable expectations in relationships",
+          "The belief that past injuries justify harming others",
+          "Healthy assertion of needs",
+          "Legal inheritance rights"
+        ],
+        "correct": 1,
+        "explanation": "Destructive entitlement occurs when people who have been legitimately injured feel justified in extracting payment from others—often innocent parties like children or partners. Past victimization becomes permission for current exploitation. The injured party feels 'owed' and takes without giving. This perpetuates injustice across generations. Contextual therapy addresses this through acknowledgment of legitimate grievances while interrupting destructive patterns.",
+        "citation": "Boszormenyi-Nagy, I., & Krasner, B. R. (1986). Between Give and Take: A Clinical Guide to Contextual Therapy. Brunner/Mazel.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Destructive entitlement = 'I was hurt, so I can hurt you.' Victim becomes victimizer."
+      },
+      {
+        "id": 216,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["strategic", "ordeals", "Haley"],
+        "question": "In Haley's strategic therapy, an 'ordeal' is:",
+        "options": [
+          "A traumatic experience to process",
+          "A task more difficult than the symptom, making the symptom unnecessary",
+          "A psychological test",
+          "A punishment for bad behavior"
+        ],
+        "correct": 1,
+        "explanation": "An ordeal is a strategic intervention where the therapist prescribes a task that is more difficult or unpleasant than the symptom but has a positive effect. If the person has the symptom, they must do the ordeal. This makes maintaining the symptom costly. Examples: exercising at 2 AM when insomnia occurs, donating to a disliked cause when relapsing. The symptom becomes unnecessary as change is easier than the ordeal.",
+        "citation": "Haley, J. (1984). Ordeal Therapy: Unusual Ways to Change Behavior. Jossey-Bass.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Ordeal = keeping the symptom costs more than changing. Make the problem expensive."
+      },
+      {
+        "id": 217,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["genogram", "symbols", "assessment"],
+        "question": "In genogram notation, a square represents:",
+        "options": [
+          "A female",
+          "A male",
+          "A deceased person",
+          "An unborn child"
+        ],
+        "correct": 1,
+        "explanation": "Standard genogram symbols: square = male, circle = female, X through symbol = deceased. Horizontal lines connect couples, vertical lines connect parents to children. Additional notations indicate relationship quality (close, conflictual, distant, cutoff), births, deaths, marriages, divorces, and other significant events. Genograms typically include at least three generations and provide visual representation of family patterns.",
+        "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2020). Genograms: Assessment and Treatment (4th ed.). W. W. Norton.",
+        "studyUrls": ["https://www.genopro.com/genogram/"],
+        "memoryTip": "Square = male (think of 'square shoulders'). Circle = female."
+      },
+      {
+        "id": 218,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["narrative", "unique outcomes", "exceptions"],
+        "question": "In Narrative Therapy, 'unique outcomes' or 'sparkling moments' are:",
+        "options": [
+          "Times when the person succeeded despite the problem story",
+          "The most severe problem occurrences",
+          "Moments of insight in therapy",
+          "Positive feedback from the therapist"
+        ],
+        "correct": 0,
+        "explanation": "Unique outcomes are times when the problem didn't dominate—exceptions to the problem-saturated story. They're evidence of abilities, values, and resources that the dominant story obscures. Finding and thickening unique outcomes provides scaffold for an alternative, preferred story. Questions like 'Was there a time when you stood up to anxiety?' identify these moments. They reveal that the person is more than the problem.",
+        "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton; White, M. (2007). Maps of Narrative Practice. W. W. Norton.",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "Unique outcomes = times the problem didn't win. Exceptions to the problem story = alternative story seeds."
+      },
+      {
+        "id": 219,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["structural", "enactment", "technique"],
+        "question": "In Structural Family Therapy, 'enactment' involves:",
+        "options": [
+          "The therapist role-playing family scenarios",
+          "Having family members interact with each other in session to demonstrate patterns",
+          "Acting out scenes from the past",
+          "Writing and performing plays"
+        ],
+        "correct": 1,
+        "explanation": "Enactment is a core structural technique where the therapist asks family members to interact with each other in session rather than talking to the therapist about each other. 'Show me what happens when...' or 'Talk to your daughter about this now.' Enactment reveals live interactional patterns, allows the therapist to observe and intervene in real-time, and creates opportunities for in-session restructuring of interactions.",
+        "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Enactment = 'Show me, don't tell me.' Interactions happen live in the room."
+      },
+      {
+        "id": 220,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["SFBT", "scaling", "questions"],
+        "question": "SFBT scaling questions typically ask clients to rate:",
+        "options": [
+          "Their intelligence level",
+          "Their progress, confidence, or motivation on a scale of 1-10",
+          "How much they like their therapist",
+          "The severity of their childhood trauma"
+        ],
+        "correct": 1,
+        "explanation": "Scaling questions ask clients to rate something (progress, confidence, motivation, hope) on a 1-10 scale. Follow-up questions build on the rating: 'What makes it a 4 and not a 3?' (identifies existing strengths), 'What would one point higher look like?' (defines next small step). Scaling creates shared language, identifies progress, and breaks change into manageable increments. It's concrete where feelings may seem vague.",
+        "citation": "de Shazer, S. (1994). Words Were Originally Magic. W. W. Norton; Berg, I. K., & Miller, S. D. (1992). Working with the Problem Drinker. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "Scaling = '1-10, where are you?' Then 'What put you there?' and 'What's one step up?'"
+      },
+      {
+        "id": 221,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Bowen", "multigenerational transmission", "patterns"],
+        "question": "Bowen's concept of 'multigenerational transmission process' explains how:",
+        "options": [
+          "Genetic diseases are inherited",
+          "Levels of differentiation and relational patterns are passed through generations",
+          "Family wealth is transferred",
+          "Children always become like their parents"
+        ],
+        "correct": 1,
+        "explanation": "Multigenerational transmission process describes how levels of differentiation, emotional patterns, and relational dynamics pass through generations. Children develop differentiation levels influenced by parents' levels and family emotional process. Over generations, progressively lower differentiation can accumulate in certain family lines, creating vulnerability to symptoms. Genograms track these patterns. Understanding family history illuminates present functioning.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Multigenerational transmission = differentiation levels cascade through generations. Patterns beget patterns."
+      },
+      {
+        "id": 222,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Gottman", "four horsemen", "criticism"],
+        "question": "In Gottman's research, 'criticism' differs from 'complaint' in that criticism:",
+        "options": [
+          "Is more effective at creating change",
+          "Attacks the partner's character rather than addressing a specific behavior",
+          "Is always healthy in relationships",
+          "Focuses on specific events"
+        ],
+        "correct": 1,
+        "explanation": "Complaint addresses a specific behavior: 'I'm frustrated that you didn't call.' Criticism attacks character: 'You never call—you're so selfish.' Criticism implies something is globally wrong with the partner and often uses 'you always' or 'you never.' It's one of the Four Horsemen that predicts relationship dissolution. Antidote: use 'I' statements, describe specific behaviors, express feelings and needs without attacking character.",
+        "citation": "Gottman, J. M. (1994). What Predicts Divorce? Lawrence Erlbaum; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown.",
+        "studyUrls": ["https://www.gottman.com/"],
+        "memoryTip": "Complaint = specific behavior. Criticism = character attack. 'You did X' vs 'You ARE X.'"
+      },
+      {
+        "id": 223,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["Satir", "communication stances", "placating"],
+        "question": "In Satir's communication stances, the 'placater' typically:",
+        "options": [
+          "Blames others for problems",
+          "Agrees with everyone to avoid conflict, ignoring their own needs",
+          "Uses logic to avoid emotion",
+          "Distracts from serious topics"
+        ],
+        "correct": 1,
+        "explanation": "Satir identified five communication stances. The placater agrees, apologizes, and tries to please, sacrificing self to maintain harmony. They ignore their own needs, saying 'whatever you want.' Other stances: blamer (attacks others, ignores self), super-reasonable (uses logic, ignores emotions), irrelevant (distracts from issues), and congruent (healthy, balanced). Stances are survival strategies developed in families of origin.",
+        "citation": "Satir, V. (1972). Peoplemaking. Science and Behavior Books; Satir, V., Banmen, J., Gerber, J., & Gomori, M. (1991). The Satir Model. Science and Behavior Books.",
+        "studyUrls": ["https://satirglobal.org/"],
+        "memoryTip": "Placater = peace at any price. 'Yes, dear, whatever you say, I'm sorry.' Self disappears."
+      },
+      {
+        "id": 224,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Milan", "invariant prescription", "intervention"],
+        "question": "The Milan team's 'invariant prescription' was designed to:",
+        "options": [
+          "Provide the same homework to all families",
+          "Interrupt transgenerational coalitions by having parents keep their activities secret from children",
+          "Standardize therapy length",
+          "Eliminate the need for assessment"
+        ],
+        "correct": 1,
+        "explanation": "The invariant prescription instructed parents to go out together without telling children where or when, keeping their relationship separate from the children. This disrupted inappropriate child-parent coalitions and strengthened the parental subsystem boundary. The secrecy prevented children from interfering and reinforced that the parental relationship is separate from the parent-child relationship. It addressed triangulation patterns.",
+        "citation": "Selvini Palazzoli, M. (1986). Towards a General Model of Psychotic Family Games. Journal of Marital and Family Therapy, 12(4), 339-349.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Invariant prescription = parents have secrets from kids. Strengthens couple boundary, breaks coalition."
+      },
+      {
+        "id": 225,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["experiential", "sculpting", "Satir"],
+        "question": "Family sculpting is a technique where:",
+        "options": [
+          "Families make clay figures of each other",
+          "Family members physically position each other to represent relationship dynamics",
+          "Therapists draw the family structure",
+          "Families watch videos of other families"
+        ],
+        "correct": 1,
+        "explanation": "Family sculpting has one family member physically position others in the room to represent their perception of family relationships—closeness, distance, hierarchy, alliances. Postures and distances reveal dynamics non-verbally. Others can then create their own sculptures, revealing different perceptions. The physical experience often accesses feelings that words don't reach. Associated with Satir and experiential approaches.",
+        "citation": "Satir, V., & Baldwin, M. (1983). Satir Step by Step. Science and Behavior Books; Duhl, F. J., Kantor, D., & Duhl, B. S. (1973). Learning, Space, and Action in Family Therapy. Seminars in Psychiatry, 5(2), 167-183.",
+        "studyUrls": ["https://satirglobal.org/"],
+        "memoryTip": "Sculpting = make a human statue of family relationships. Show the dynamics physically."
+      },
+      {
+        "id": 226,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["systems theory", "homeostasis", "change"],
+        "question": "System homeostasis refers to:",
+        "options": [
+          "The tendency of systems to seek stability and resist change",
+          "The inevitability of system breakdown",
+          "Equal power distribution",
+          "Random system fluctuations"
+        ],
+        "correct": 0,
+        "explanation": "Homeostasis is a system's tendency to maintain stability through self-regulating mechanisms. In families, symptomatic behavior may serve homeostatic functions—the problem maintains equilibrium. When change threatens, families may sabotage improvement to restore the familiar state. Understanding homeostasis explains why symptoms persist and why change efforts are resisted. Successful therapy must address homeostatic mechanisms.",
+        "citation": "Jackson, D. D. (1957). The Question of Family Homeostasis. Psychiatric Quarterly Supplement, 31, 79-90; Hoffman, L. (1981). Foundations of Family Therapy. Basic Books.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Homeostasis = systems prefer the familiar. Change is threatening; symptoms may serve stability."
+      },
+      {
+        "id": 227,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["EFT", "primary emotions", "secondary emotions"],
+        "question": "In EFT, the distinction between primary and secondary emotions is important because:",
+        "options": [
+          "Only primary emotions are real",
+          "Primary emotions drive attachment behavior while secondary emotions often mask them",
+          "Secondary emotions are healthier",
+          "Insurance only covers primary emotion work"
+        ],
+        "correct": 1,
+        "explanation": "EFT distinguishes: primary emotions (first response, often attachment-related like fear of abandonment or sadness at disconnection), secondary emotions (reactions to primary emotions that may mask them, like anger covering hurt), and instrumental emotions (used to influence others). Effective EFT accesses primary emotions beneath secondary ones. A partner's anger (secondary) may mask fear of rejection (primary). Processing primary emotions enables bonding events.",
+        "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge; Greenberg, L. S. (2015). Emotion-Focused Therapy (2nd ed.). APA.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "Primary = what's underneath. Secondary = what shows on top. Dig beneath anger to find the hurt."
+      },
+      {
+        "id": 228,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Bowen", "sibling position", "birth order"],
+        "question": "Bowen's concept of sibling position suggests that:",
+        "options": [
+          "Birth order has no impact on personality",
+          "Birth order influences personality characteristics and relationship tendencies",
+          "Only firstborns can be differentiated",
+          "Sibling position determines intelligence"
+        ],
+        "correct": 1,
+        "explanation": "Bowen incorporated Toman's sibling position research, suggesting birth order creates characteristic profiles. Firstborns tend toward leadership and responsibility; youngest may be more carefree and creative. Couple dynamics are influenced by sibling position fit (two oldest may have power struggles; two youngest may struggle with responsibility). This is one factor among many—family emotional process and differentiation level also matter.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Toman, W. (1961). Family Constellation. Springer.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Sibling position = birth order shapes tendencies. First learns leadership; last learns charm."
+      },
+      {
+        "id": 229,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["structural", "coalition", "alliance"],
+        "question": "In Structural Family Therapy, a 'cross-generational coalition' is:",
+        "options": [
+          "A healthy parent-child alliance",
+          "An inappropriate alliance between a parent and child against the other parent",
+          "Grandparents helping with childcare",
+          "Family meetings across generations"
+        ],
+        "correct": 1,
+        "explanation": "A cross-generational coalition is an inappropriate alliance where one parent aligns with a child against the other parent, crossing the generational boundary. The child is triangulated into marital conflict. This creates hierarchy confusion, puts the child in an impossible position, and often correlates with child symptoms. Structural therapy aims to dissolve such coalitions and strengthen appropriate generational boundaries.",
+        "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Cross-generational coalition = parent + child vs. parent. Child stuck in the middle of adult conflict."
+      },
+      {
+        "id": 230,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["narrative", "deconstruction", "discourse"],
+        "question": "In Narrative Therapy, 'deconstruction' refers to:",
+        "options": [
+          "Tearing down family relationships",
+          "Examining and unpacking taken-for-granted beliefs and dominant discourses",
+          "Destroying old behavioral patterns",
+          "Analyzing family structures"
+        ],
+        "correct": 1,
+        "explanation": "Deconstruction examines taken-for-granted assumptions and dominant cultural discourses that shape problem stories. Questions like 'Where did you learn that men shouldn't cry?' or 'Who benefits from this belief?' reveal how cultural ideas become personal truths. Deconstruction opens space between person and problem by showing that what feels 'natural' is actually constructed. It challenges totalizing descriptions and creates possibilities for alternative stories.",
+        "citation": "White, M. (1991). Deconstruction and Therapy. Dulwich Centre Newsletter, 3, 21-40; Freedman, J., & Combs, G. (1996). Narrative Therapy: The Social Construction of Preferred Realities. W. W. Norton.",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "Deconstruction = unpack 'obvious' beliefs. Where did that idea come from? Who says so?"
+      },
+      {
+        "id": 231,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["strategic", "restraining change", "intervention"],
+        "question": "A 'go slow' or 'restraining' message paradoxically works by:",
+        "options": [
+          "Actually slowing down therapy",
+          "Reducing pressure to change, freeing clients to move at their own pace",
+          "Delaying payment",
+          "Extending session length"
+        ],
+        "correct": 1,
+        "explanation": "Restraining interventions ('go slow,' 'don't change too fast,' 'I'm not sure you're ready') reduce performance pressure and reactance. Clients often respond by demonstrating they CAN change. It also respects homeostatic needs and protects against relapse by acknowledging change is difficult. If clients follow the advice and go slow, they're cooperating with therapy. If they speed up, they're changing. Either outcome is therapeutic.",
+        "citation": "Fisch, R., Weakland, J. H., & Segal, L. (1982). The Tactics of Change. Jossey-Bass; Haley, J. (1963). Strategies of Psychotherapy. Grune & Stratton.",
+        "studyUrls": ["https://www.mri.org/"],
+        "memoryTip": "Go slow = reduces pressure, often accelerates change. Paradox: 'Don't change' invites changing."
+      },
+      {
+        "id": 232,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["Gottman", "repair attempts", "conflict"],
+        "question": "According to Gottman, successful repair attempts during conflict:",
+        "options": [
+          "Must be perfectly worded",
+          "Only work if the underlying issue is resolved",
+          "Are more about de-escalating tension than resolving content",
+          "Should always involve apologies"
+        ],
+        "correct": 2,
+        "explanation": "Repair attempts are efforts to de-escalate conflict and prevent negative affect from spiraling. They can be humor, changing the topic, expressions of appreciation, taking responsibility, or even a silly face. Success depends more on the relationship's overall positive sentiment than perfect delivery. In distressed couples, even good repair attempts fail because they're not received well. Repair is about process (lowering intensity), not content (solving the issue).",
+        "citation": "Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown.",
+        "studyUrls": ["https://www.gottman.com/"],
+        "memoryTip": "Repair attempts = hitting the brakes on escalation. Success depends on receiver's willingness."
+      },
+      {
+        "id": 233,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["contextual", "parentification", "Boszormenyi-Nagy"],
+        "question": "In Contextual Family Therapy, 'parentification' refers to:",
+        "options": [
+          "Normal parenting responsibilities",
+          "Children taking on adult caretaking roles that exceed developmental appropriateness",
+          "Becoming a parent for the first time",
+          "Strict parenting styles"
+        ],
+        "correct": 1,
+        "explanation": "Parentification occurs when children assume adult responsibilities beyond their developmental capacity—emotional caretaking of parents, managing younger siblings, handling adult tasks. While some responsibility builds competence, excessive parentification is exploitation that denies childhood. The child earns merit but receives no acknowledgment. This creates ledger imbalances and may lead to destructive entitlement later. Contextual therapy helps acknowledge what was sacrificed.",
+        "citation": "Boszormenyi-Nagy, I., & Spark, G. M. (1973). Invisible Loyalties. Harper & Row; Jurkovic, G. J. (1997). Lost Childhoods: The Plight of the Parentified Child. Brunner/Mazel.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Parentification = child as parent before their time. Invisible exploitation; visible later consequences."
+      },
+      {
+        "id": 234,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["EFT", "tango", "stages"],
+        "question": "The EFT 'Tango' describes:",
+        "options": [
+          "A dance therapy technique",
+          "The five moves of deepening emotional experience and restructuring interactions",
+          "A couple's negative cycle",
+          "The therapist's footwork"
+        ],
+        "correct": 1,
+        "explanation": "The EFT Tango describes five key moves: (1) Mirror present process, (2) Affect assembly—help client access and articulate emotion, (3) Deepen emotion using RISSSC (Repeat, Images, Slow, Soft, Simple, Client's words), (4) Expand the narrative, (5) Enact new responses. The Tango is danced repeatedly throughout EFT, spiraling deeper each time. It moves from surface to underlying attachment emotions and needs.",
+        "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge; Johnson, S. M. (2019). Attachment Theory in Practice. Guilford Press.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "EFT Tango = 5 moves deeper into emotion. Mirror, Assemble, Deepen, Expand, Enact."
+      },
+      {
+        "id": 235,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["systems", "identified patient", "function"],
+        "question": "From a systemic perspective, the 'function' of a symptom refers to:",
+        "options": [
+          "How well the symptom serves the individual",
+          "How the symptom may serve the family system's needs",
+          "The medical purpose of symptoms",
+          "The therapist's interpretation"
+        ],
+        "correct": 1,
+        "explanation": "Systemic thinking asks what role a symptom plays in the family system. A child's behavior problems might keep parents focused on them rather than their marital conflict. An adolescent's eating disorder might maintain the family's need to be needed. This doesn't blame the person or suggest conscious intent—it recognizes that symptoms exist in relational context and may be maintained by the system's organization.",
+        "citation": "Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass; Hoffman, L. (1981). Foundations of Family Therapy. Basic Books.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Symptom function = what does the problem DO for the system? Who benefits from the status quo?"
+      },
+      {
+        "id": 236,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Bowen", "societal regression", "anxiety"],
+        "question": "Bowen's concept of 'societal emotional process' suggests that:",
+        "options": [
+          "Society has no impact on families",
+          "Societies, like families, can become more or less differentiated under stress",
+          "Only individual therapy addresses societal issues",
+          "Politics should be discussed in therapy"
+        ],
+        "correct": 1,
+        "explanation": "Bowen extended his concepts to society, proposing that societies, like families, respond to chronic anxiety with regression toward fusion and emotional reactivity. During high-anxiety periods, societies show more polarization, blaming, quick-fix solutions, and erosion of individuality for togetherness or for 'us vs. them' positions. Understanding this helps therapists appreciate the broader emotional field affecting families.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E. (2019). Bowen Theory's Secrets. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Societal regression = anxious societies behave like anxious families. Polarization, fusion, reactivity."
+      },
+      {
+        "id": 237,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["SFBT", "exception finding", "questions"],
+        "question": "The purpose of 'exception questions' in SFBT is to:",
+        "options": [
+          "Find who is to blame for the problem",
+          "Identify times when the problem didn't occur or was less severe",
+          "Determine if exceptions to confidentiality apply",
+          "Challenge the client's story"
+        ],
+        "correct": 1,
+        "explanation": "Exception questions explore times when the problem didn't happen or was less intense: 'When is the problem even a little bit better?' 'What's different about times when you manage your anger?' Exceptions reveal existing solutions and resources. If the client handled it differently once, they can do it again. Building on exceptions is more efficient than starting from scratch. Exceptions contain the DNA of solutions.",
+        "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton; Berg, I. K., & Miller, S. D. (1992). Working with the Problem Drinker. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "Exceptions = when the problem took a break. What's different then? Do more of THAT."
+      },
+      {
+        "id": 238,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["structural", "disengagement", "boundaries"],
+        "question": "In Structural Family Therapy, 'disengagement' describes families with:",
+        "options": [
+          "Too much closeness",
+          "Overly rigid boundaries that limit connection and support",
+          "Perfect balance",
+          "No boundaries"
+        ],
+        "correct": 1,
+        "explanation": "Disengagement is the opposite of enmeshment—boundaries are too rigid, creating disconnection. Members function autonomously but miss the support and connection of family relationships. Changes in one member barely register with others. Children from disengaged families may lack sense of belonging and support. Like enmeshment, disengagement exists on a continuum. Healthy families balance connectedness with individual autonomy.",
+        "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Disengagement = too far apart. Rigid walls instead of permeable boundaries. Isolated in the same house."
+      },
+      {
+        "id": 239,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Milan", "hypothesizing", "circular"],
+        "question": "In the Milan model, 'hypothesizing' serves to:",
+        "options": [
+          "Establish the definitive truth about the family",
+          "Generate systemic ideas to guide questioning and organize information",
+          "Diagnose individual disorders",
+          "Predict therapy outcomes"
+        ],
+        "correct": 1,
+        "explanation": "Milan hypothesizing involves the team generating systemic explanations before and during sessions. Hypotheses are never considered 'true'—they're useful if they organize information and generate good questions. Multiple hypotheses prevent premature closure. The hypothesis guides circular questioning, which in turn modifies hypotheses. This recursive process keeps the team curious and avoids the trap of believing they've discovered 'the' problem.",
+        "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Hypothesizing = systemic guesses to guide inquiry. Never 'truth'—always tentative and evolving."
+      },
+      {
+        "id": 240,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Gottman", "positive sentiment override", "relationships"],
+        "question": "Gottman's concept of 'positive sentiment override' explains why:",
+        "options": [
+          "Happy couples never fight",
+          "In satisfied relationships, partners interpret neutral or ambiguous behaviors positively",
+          "Therapy always produces positive outcomes",
+          "Partners should ignore negative behaviors"
+        ],
+        "correct": 1,
+        "explanation": "Positive sentiment override occurs in relationships with high positivity ratio—partners give each other the benefit of the doubt. Neutral or even mildly negative behaviors are interpreted through a positive lens ('They're just stressed'). In distressed relationships with negative sentiment override, even positive behaviors are viewed with suspicion. Building the friendship and positive climate shifts interpretation toward positive sentiment override.",
+        "citation": "Gottman, J. M. (1994). What Predicts Divorce? Lawrence Erlbaum; Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton.",
+        "studyUrls": ["https://www.gottman.com/"],
+        "memoryTip": "Positive sentiment override = rose-colored glasses in good relationships. Benefit of the doubt."
+      },
+      {
+        "id": 241,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["systemic", "equifinality", "change"],
+        "question": "The concept of 'equifinality' in systems theory means:",
+        "options": [
+          "All systems eventually fail",
+          "Different starting points can lead to the same outcome, and vice versa",
+          "Systems are always in equilibrium",
+          "Final outcomes are always predictable"
+        ],
+        "correct": 1,
+        "explanation": "Equifinality means the same endpoint can be reached from different starting points via different paths. Conversely, similar starting points can lead to different outcomes. This challenges linear cause-effect thinking. For therapy, it means: there are multiple paths to wellness, and understanding origins doesn't determine treatment. Focus on what maintains problems now and what paths forward exist, not just how things started.",
+        "citation": "von Bertalanffy, L. (1968). General System Theory. George Braziller; Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). Pragmatics of Human Communication. W. W. Norton.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Equifinality = many roads lead to Rome. Same destination, different routes. Focus on destination."
+      },
+      {
+        "id": 242,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["narrative", "re-authoring", "conversations"],
+        "question": "In Narrative Therapy, 're-authoring' conversations help clients:",
+        "options": [
+          "Literally rewrite their autobiography",
+          "Develop and thicken alternative, preferred stories of their lives",
+          "Change their legal name",
+          "Forget their problems"
+        ],
+        "correct": 1,
+        "explanation": "Re-authoring conversations build alternative stories from unique outcomes. Once exceptions are identified, the therapist helps thicken them: linking to values, tracing history, connecting to identity, imagining future developments, recruiting an audience. The preferred story becomes more substantial, more 'real,' providing a counter-narrative to the problem-saturated story. The person becomes the author of a life story that includes more than the problem.",
+        "citation": "White, M. (2007). Maps of Narrative Practice. W. W. Norton; White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton.",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "Re-authoring = writing a new chapter. Thin problem story becomes thick preferred story."
+      },
+      {
+        "id": 243,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["EFT", "negative cycle", "attachment"],
+        "question": "In EFT, the 'negative cycle' or 'demon dialogue' refers to:",
+        "options": [
+          "Arguments about money",
+          "The repetitive, self-perpetuating pattern of reactive behaviors between partners",
+          "Conversations that should be avoided",
+          "When the therapist loses control of the session"
+        ],
+        "correct": 1,
+        "explanation": "The negative cycle is the repetitive interactional pattern that traps couples—typically pursue-withdraw or attack-attack. Each partner's behavior triggers the other's in an escalating loop. EFT Stage 1 focuses on identifying and de-escalating this cycle. Partners learn to see the cycle as the enemy, not each other. 'There's that cycle again!' The cycle maintains attachment distress and blocks emotional engagement.",
+        "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "Negative cycle = the enemy. Not you vs. me, but us vs. the cycle. Name it to tame it."
+      },
+      {
+        "id": 244,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["Satir", "iceberg", "model"],
+        "question": "Satir's 'iceberg' metaphor illustrates that:",
+        "options": [
+          "Therapy should be cold and distant",
+          "Visible behaviors are just the surface; deeper feelings, needs, and yearnings lie beneath",
+          "Problems are frozen and unchangeable",
+          "Only the surface matters in therapy"
+        ],
+        "correct": 1,
+        "explanation": "Satir's iceberg model shows that behavior (visible above water) is driven by deeper levels: coping stances, feelings, feelings about feelings, perceptions, expectations, yearnings, and self (below water). Effective therapy addresses these deeper levels, not just surface behavior. Change at the deeper levels creates lasting change in behavior. What you see is only a small part of what's happening.",
+        "citation": "Satir, V., Banmen, J., Gerber, J., & Gomori, M. (1991). The Satir Model. Science and Behavior Books.",
+        "studyUrls": ["https://satirglobal.org/"],
+        "memoryTip": "Satir's iceberg = behavior is the tip. Below: feelings, perceptions, yearnings, self. Go deeper."
+      },
+      {
+        "id": 245,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Bowen", "nuclear family emotional process", "patterns"],
+        "question": "Bowen's 'nuclear family emotional process' describes four patterns, including:",
+        "options": [
+          "Medication non-compliance",
+          "Marital conflict, dysfunction in one spouse, impairment of children, and emotional distance",
+          "Structural family patterns",
+          "Communication deficits"
+        ],
+        "correct": 1,
+        "explanation": "The nuclear family emotional process describes how families manage undifferentiation and anxiety through four patterns: (1) marital conflict—tension stays in the couple, (2) dysfunction in one spouse—one partner absorbs the stress, developing symptoms, (3) impairment of one or more children—parental anxiety/focus projected onto children, (4) emotional distance—using distance to manage intensity. Most families use combinations of these patterns.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Nuclear family process = 4 ways families handle anxiety: fight, one gets sick, focus on kids, distance."
+      },
+      {
+        "id": 246,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["strategic", "reframing", "technique"],
+        "question": "The technique of 'reframing' in family therapy involves:",
+        "options": [
+          "Buying new picture frames",
+          "Offering a new, more benign or useful interpretation of behavior",
+          "Confronting family members about their behavior",
+          "Avoiding discussion of difficult topics"
+        ],
+        "correct": 1,
+        "explanation": "Reframing offers a new interpretation of behavior that changes its meaning without denying the facts. A teen's 'rebelliousness' might be reframed as 'seeking independence,' or a partner's 'nagging' as 'caring deeply.' Good reframes are believable, shift perception toward something workable, and often reduce blame and defensiveness. By changing the meaning, the response to the behavior can also change.",
+        "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. W. W. Norton.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Reframing = same picture, new frame. Change the meaning, change the response. 'Stubborn' → 'determined.'"
+      },
+      {
+        "id": 247,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["SFBT", "coping", "questions"],
+        "question": "SFBT 'coping questions' are most useful when clients feel:",
+        "options": [
+          "Everything is going well",
+          "Overwhelmed and unable to identify any positives",
+          "Ready to terminate therapy",
+          "Unchallenged by their problems"
+        ],
+        "correct": 1,
+        "explanation": "Coping questions acknowledge difficulty while eliciting resilience: 'How have you managed to keep going despite everything?' 'What keeps you from giving up?' They're especially useful when clients can't identify exceptions—they recognize the struggle while highlighting survival and coping. Even when 'nothing works,' the fact that the client is still here means something is working. Coping questions access hidden resources.",
+        "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton; Berg, I. K. (1994). Family-Based Services: A Solution-Focused Approach. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "Coping questions = 'How are you still standing?' Acknowledges struggle, reveals resilience."
+      },
+      {
+        "id": 248,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["postmodern", "social constructionism", "therapy"],
+        "question": "A social constructionist approach to therapy emphasizes:",
+        "options": [
+          "Objective observation of family dysfunction",
+          "That meaning and 'reality' are co-created through language and social interaction",
+          "Biological determinism",
+          "The therapist as expert authority"
+        ],
+        "correct": 1,
+        "explanation": "Social constructionism holds that what we take to be 'reality' is constructed through language, relationship, and social process. There's no objective truth to be discovered—meanings are co-created. This shifts therapy from 'expert diagnosing problems' to 'collaborative exploration of meaning.' Problems are not discovered but constructed in language; solutions emerge through new conversations and meanings.",
+        "citation": "Gergen, K. J. (1985). The Social Constructionist Movement in Modern Psychology. American Psychologist, 40(3), 266-275; Anderson, H. (1997). Conversation, Language, and Possibilities. Basic Books.",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "Social constructionism = reality is made in conversation. No objective truth—co-constructed meaning."
+      },
+      {
+        "id": 249,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["structural", "accommodation", "joining"],
+        "question": "Minuchin's 'accommodation' in joining involves:",
+        "options": [
+          "Giving the family a comfortable room",
+          "Adjusting to the family's style, language, and affective range",
+          "Agreeing with everything the family says",
+          "Providing financial assistance"
+        ],
+        "correct": 1,
+        "explanation": "Accommodation is part of joining where the therapist adjusts their personal style to fit the family's communication patterns, language, affective tone, and tempo. A formal family receives more formal interaction; an expressive family gets more animated engagement. This isn't manipulation—it's respecting the family's culture and meeting them where they are to build alliance and entry into the system.",
+        "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Accommodation = matching the family's rhythm. Join them in their style, not impose yours."
+      },
+      {
+        "id": 250,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["Gottman", "turning toward", "bids"],
+        "question": "Gottman's research on 'bids for connection' found that happy couples:",
+        "options": [
+          "Ignore most bids to maintain independence",
+          "Turn toward each other's bids significantly more often than distressed couples",
+          "Make fewer bids than unhappy couples",
+          "Only respond to large, dramatic bids"
+        ],
+        "correct": 1,
+        "explanation": "Bids are attempts to connect—questions, gestures, looks, touches. Partners can turn toward (respond positively), turn away (ignore), or turn against (respond hostilely). Gottman found masters of relationships turn toward bids 86% of the time; disasters only 33%. These small moments accumulate. The emotional bank account is built in micro-moments, not grand gestures. Noticing and responding to bids builds connection.",
+        "citation": "Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown; Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton.",
+        "studyUrls": ["https://www.gottman.com/"],
+        "memoryTip": "Bids = small reaches for connection. Turn TOWARD (86% in happy couples). Small moments matter."
       }
 ]
  
