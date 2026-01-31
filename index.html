@@ -1021,6 +1021,42 @@
             color: var(--warning);
         }
 
+        .palette-item.flagged {
+            border-color: #9333ea;
+            background: #f3e8ff;
+            color: #9333ea;
+            position: relative;
+        }
+
+        .palette-item.flagged::after {
+            content: '🚩';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: 10px;
+        }
+
+        .mark-review-btn {
+            background: #f3e8ff;
+            color: #9333ea;
+            border: 2px solid #9333ea;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .mark-review-btn:hover {
+            background: #9333ea;
+            color: white;
+        }
+
+        .mark-review-btn.flagged {
+            background: #9333ea;
+            color: white;
+        }
+
         .palette-legend {
             display: flex;
             gap: 15px;
@@ -1991,6 +2027,18 @@
                 </div>
             </div>
 
+            <!-- Exam Mode: Flagged Questions Summary -->
+            <div id="flaggedSummary" class="card" style="display: none; background: #f3e8ff; border: 2px solid #9333ea;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    <span style="color: #9333ea; font-weight: 600;">
+                        🚩 <span id="flaggedCount">0</span> question(s) flagged for review
+                    </span>
+                    <button class="btn" onclick="jumpToNextFlagged()" style="background: #9333ea; color: white; padding: 8px 16px;">
+                        Jump to Next Flagged →
+                    </button>
+                </div>
+            </div>
+
             <!-- Question Navigator (Bottom) -->
             <div class="question-palette" id="questionNavigator">
                 <h3>
@@ -2002,6 +2050,7 @@
                     <div class="legend-item"><div class="legend-dot current"></div> Current</div>
                     <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
                     <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
+                    <div class="legend-item" id="flaggedLegend" style="display: none;"><div class="legend-dot" style="background: #f3e8ff; border: 1px solid #9333ea;"></div> Flagged</div>
                 </div>
             </div>
 
@@ -2693,6 +2742,7 @@
                 questions: filteredQuestions,
                 currentIndex: 0,
                 answers: {},
+                flaggedForReview: [], // Track question IDs marked for review (exam mode)
                 startTime: Date.now(),
                 selectedDomains: selectedDomains,
                 selectedDifficulty: selectedDifficulty,
@@ -2756,10 +2806,18 @@
                         }).join('')}
                     </div>
                     
-                    ${!isAnswered && state.studyMode === 'exam' ? `
-                        <div style="text-align: center; margin-top: 20px; padding: 15px; background: var(--primary-light); border-radius: 8px; color: var(--primary);">
-                            <strong>💡 Tip:</strong> Select an answer above, then click "Next Question" to continue
+                    ${state.studyMode === 'exam' ? `
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+                            <button class="mark-review-btn ${(session.flaggedForReview || []).includes(question.id) ? 'flagged' : ''}"
+                                    onclick="toggleFlagQuestion(${question.id})">
+                                ${(session.flaggedForReview || []).includes(question.id) ? '🚩 Flagged for Review' : '🏳️ Mark for Review'}
+                            </button>
                         </div>
+                        ${!isAnswered ? `
+                            <div style="text-align: center; margin-top: 15px; padding: 12px; background: var(--bg); border-radius: 8px; color: var(--text-light); font-size: 0.9rem;">
+                                Select an answer, then use navigation below or the Question Navigator to continue.
+                            </div>
+                        ` : ''}
                     ` : ''}
                     
                     ${state.studyMode === 'practice' && isAnswered ? `
@@ -2814,6 +2872,7 @@
 
             updateSessionProgress();
             renderQuestionPalette();
+            updateFlaggedSummary();
         }
 
         function selectAnswer(optionIndex) {
@@ -2890,22 +2949,103 @@
             }
         }
 
+        // Toggle flag for review (exam mode)
+        function toggleFlagQuestion(questionId) {
+            const session = state.currentSession;
+            if (!session.flaggedForReview) session.flaggedForReview = [];
+
+            const idx = session.flaggedForReview.indexOf(questionId);
+            if (idx === -1) {
+                session.flaggedForReview.push(questionId);
+            } else {
+                session.flaggedForReview.splice(idx, 1);
+            }
+
+            saveUserData();
+            showQuestion();
+            renderQuestionPalette();
+            updateFlaggedSummary();
+        }
+
+        // Update the flagged questions summary (exam mode)
+        function updateFlaggedSummary() {
+            const session = state.currentSession;
+            const summary = document.getElementById('flaggedSummary');
+            const countEl = document.getElementById('flaggedCount');
+
+            if (!summary || !countEl) return;
+
+            const flaggedCount = (session.flaggedForReview || []).length;
+
+            if (state.studyMode === 'exam' && flaggedCount > 0) {
+                summary.style.display = 'block';
+                countEl.textContent = flaggedCount;
+            } else {
+                summary.style.display = 'none';
+            }
+        }
+
+        // Jump to next flagged question (exam mode)
+        function jumpToNextFlagged() {
+            const session = state.currentSession;
+            const flagged = session.flaggedForReview || [];
+
+            if (flagged.length === 0) return;
+
+            // Find the next flagged question after current index
+            const currentIdx = session.currentIndex;
+            let nextFlaggedIdx = -1;
+
+            // First, look for flagged questions after current position
+            for (let i = currentIdx + 1; i < session.questions.length; i++) {
+                if (flagged.includes(session.questions[i].id)) {
+                    nextFlaggedIdx = i;
+                    break;
+                }
+            }
+
+            // If not found, wrap around to beginning
+            if (nextFlaggedIdx === -1) {
+                for (let i = 0; i <= currentIdx; i++) {
+                    if (flagged.includes(session.questions[i].id)) {
+                        nextFlaggedIdx = i;
+                        break;
+                    }
+                }
+            }
+
+            if (nextFlaggedIdx !== -1) {
+                jumpToQuestion(nextFlaggedIdx);
+            }
+        }
+
         // Render the question palette grid
         function renderQuestionPalette() {
             const session = state.currentSession;
             const palette = document.getElementById('questionPalette');
+            const flaggedLegend = document.getElementById('flaggedLegend');
 
             if (!palette) return;
+
+            // Show flagged legend in exam mode
+            if (flaggedLegend) {
+                flaggedLegend.style.display = state.studyMode === 'exam' ? 'flex' : 'none';
+            }
+
+            const flaggedSet = new Set(session.flaggedForReview || []);
 
             palette.innerHTML = session.questions.map((q, idx) => {
                 const isAnswered = session.answers[q.id] !== undefined;
                 const isCurrent = idx === session.currentIndex;
+                const isFlagged = flaggedSet.has(q.id);
 
                 let classes = 'palette-item';
                 if (isCurrent) classes += ' current';
                 if (isAnswered) classes += ' answered';
+                if (isFlagged) classes += ' flagged';
 
-                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="Question ${idx + 1}">${idx + 1}</div>`;
+                const title = `Question ${idx + 1}${isFlagged ? ' (Flagged for Review)' : ''}`;
+                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
             }).join('');
         }
 
@@ -2931,10 +3071,18 @@
 
         // Restore navigator preference on session start
         function restoreNavigatorPreference() {
-            const isHidden = localStorage.getItem('mft_navigator_hidden') === 'true';
             const navigator = document.getElementById('questionNavigator');
             const showBtn = document.getElementById('showNavigatorBtn');
 
+            // Always show navigator in exam mode for full navigation ability
+            if (state.studyMode === 'exam') {
+                if (navigator) navigator.classList.remove('navigator-hidden');
+                if (showBtn) showBtn.style.display = 'none';
+                return;
+            }
+
+            // For practice mode, respect user preference
+            const isHidden = localStorage.getItem('mft_navigator_hidden') === 'true';
             if (navigator && showBtn && isHidden) {
                 navigator.classList.add('navigator-hidden');
                 showBtn.style.display = 'block';
