@@ -1669,5 +1669,368 @@
       "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
       "studyUrls": ["https://www.nimh.nih.gov/health/topics/agoraphobia"],
       "memoryTip": "Agoraphobia = fear of places where escape is hard; need 2+ situations (not just one specific place)."
+    },
+    {
+      "id": 291,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "Bipolar II", "diagnosis"],
+      "vignette": "A 32-year-old woman reports recurring depressive episodes and periods of elevated mood lasting 4-5 days with decreased need for sleep, increased energy, and rapid speech. She remains functional during elevated periods and has never been hospitalized for mood symptoms.",
+      "question": "The MOST appropriate diagnosis is:",
+      "options": [
+        "Major Depressive Disorder, recurrent",
+        "Bipolar I Disorder",
+        "Bipolar II Disorder",
+        "Cyclothymic Disorder"
+      ],
+      "correct": 2,
+      "explanation": "Bipolar II Disorder requires at least one hypomanic episode (4+ days of elevated/irritable mood with increased activity) and at least one major depressive episode, without ever meeting criteria for a full manic episode. Hypomania doesn't cause marked impairment or require hospitalization. Bipolar I requires at least one manic episode (7+ days or hospitalization). Cyclothymic has numerous hypomanic and depressive periods not meeting full criteria for 2+ years.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/bipolar-disorder"],
+      "memoryTip": "Bipolar II = 'hypo' not 'full' mania. Functional highs, disabling lows. II = two extremes but less severe up."
+    },
+    {
+      "id": 292,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "collateral", "information"],
+      "question": "Gathering collateral information from sources other than the client is MOST important when:",
+      "options": [
+        "The client requests complete confidentiality",
+        "The client's self-report may be limited by cognitive impairment or denial",
+        "The therapist wants to speed up the assessment",
+        "Family members are unavailable"
+      ],
+      "correct": 1,
+      "explanation": "Collateral information is especially valuable when clients may have limited insight (psychosis, substance abuse denial, cognitive impairment, dementia) or when there's concern about accuracy (children, clients with secondary gain). Sources include family members, previous treatment records, schools, medical providers. Collateral information requires appropriate releases and should be balanced with the client's perspective. It's essential for accurate case conceptualization in complex cases.",
+      "citation": "Morrison, J. (2014). The First Interview (4th ed.). Guilford Press; Groth-Marnat, G., & Wright, A. J. (2016). Handbook of Psychological Assessment (6th ed.). Wiley.",
+      "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+      "memoryTip": "Collateral = get the other side of the story. Especially when the client might not know or tell the full picture."
+    },
+    {
+      "id": 293,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "PTSD", "criteria"],
+      "question": "DSM-5-TR requires how many symptom clusters for a PTSD diagnosis?",
+      "options": [
+        "Two: re-experiencing and avoidance",
+        "Three: intrusion, avoidance, and hyperarousal",
+        "Four: intrusion, avoidance, negative cognitions/mood, and arousal/reactivity",
+        "Five: adding dissociation as a required cluster"
+      ],
+      "correct": 2,
+      "explanation": "DSM-5-TR PTSD requires exposure to trauma plus symptoms from four clusters: (B) Intrusion/re-experiencing (1+ required), (C) Avoidance of trauma-related stimuli (1+ required), (D) Negative alterations in cognitions and mood (2+ required), and (E) Alterations in arousal and reactivity (2+ required). Duration must exceed 1 month with significant distress/impairment. The dissociative subtype (depersonalization/derealization) is a specifier, not a required cluster.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.ptsd.va.gov/professional/treat/essentials/dsm5_ptsd.asp"],
+      "memoryTip": "PTSD = 4 clusters: INANE (Intrusion, Negative mood, Avoidance, Nervous/arousal, Exceeds 1 month)."
+    },
+    {
+      "id": 294,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["genogram", "symbols", "assessment"],
+      "question": "On a genogram, a square represents:",
+      "options": [
+        "A female family member",
+        "A male family member",
+        "A deceased family member",
+        "A child"
+      ],
+      "correct": 1,
+      "explanation": "Standard genogram symbols use squares for males and circles for females. Deceased members have an X through the symbol. Horizontal lines connect partners; vertical lines connect parents to children. Various line styles indicate relationship quality: solid (close), wavy (conflictual), dotted (distant), double lines (very close/fused). Filled symbols may indicate the index person. Pregnancy is shown as a triangle. Miscarriage/abortion also has specific symbols.",
+      "citation": "McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton.",
+      "studyUrls": ["https://www.genopro.com/genogram/"],
+      "memoryTip": "Square = male (think 'men are square' or 'box'). Circle = female. X marks the deceased."
+    },
+    {
+      "id": 295,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "specifier", "severity"],
+      "question": "In DSM-5-TR, a severity specifier indicates:",
+      "options": [
+        "How long the disorder has been present",
+        "The degree of symptom intensity or functional impairment",
+        "The cause of the disorder",
+        "Whether medication is needed"
+      ],
+      "correct": 1,
+      "explanation": "Severity specifiers indicate the intensity of symptoms or degree of impairment, typically rated as mild, moderate, or severe. For example, a Major Depressive Episode is rated mild (few symptoms beyond minimum, minor impairment), moderate (intermediate), or severe (most symptoms, marked impairment). Specifiers don't indicate causation or treatment recommendations—they describe current clinical presentation for more precise diagnosis.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.psychiatry.org/psychiatrists/practice/dsm"],
+      "memoryTip": "Severity specifier = mild, moderate, severe. How BAD is it right now?"
+    },
+    {
+      "id": 296,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["differential", "psychosis", "substances"],
+      "vignette": "A 25-year-old presents with paranoid delusions and auditory hallucinations that began 2 weeks ago. Toxicology is positive for methamphetamine, which the client reports using daily for the past month.",
+      "question": "The MOST appropriate initial diagnosis is:",
+      "options": [
+        "Schizophrenia",
+        "Brief Psychotic Disorder",
+        "Substance/Medication-Induced Psychotic Disorder",
+        "Delusional Disorder"
+      ],
+      "correct": 2,
+      "explanation": "When psychotic symptoms occur in the context of recent substance use, Substance/Medication-Induced Psychotic Disorder should be the initial consideration. Methamphetamine is well-known for causing psychosis. The diagnosis requires evidence from history or labs that symptoms developed during or within a month of substance use, and that the substance is capable of producing such symptoms. If symptoms persist substantially beyond the expected duration of intoxication/withdrawal, a primary psychotic disorder may be diagnosed.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.samhsa.gov/"],
+      "memoryTip": "Psychosis + recent drug use = substance-induced until proven otherwise. Rule out substances first."
+    },
+    {
+      "id": 297,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["mental status", "mood", "affect"],
+      "question": "The difference between mood and affect in a mental status examination is:",
+      "options": [
+        "They are interchangeable terms",
+        "Mood is subjective feeling; affect is observable emotional expression",
+        "Affect is long-term; mood is immediate",
+        "Mood can only be assessed through testing"
+      ],
+      "correct": 1,
+      "explanation": "Mood is the client's subjective, sustained emotional state (what they report feeling—'I feel sad'). Affect is the observable, moment-to-moment expression of emotion (what the examiner sees—facial expressions, voice tone, body language). Mood is like climate; affect is like weather. Affect is described by range (full, restricted, flat), congruence (matches content), intensity, and quality. Incongruence between reported mood and observed affect is clinically significant.",
+      "citation": "Carlat, D. J. (2017). The Psychiatric Interview (4th ed.). Wolters Kluwer; Morrison, J. (2014). The First Interview (4th ed.). Guilford Press.",
+      "studyUrls": ["https://www.psychiatry.org/"],
+      "memoryTip": "Mood = what they SAY they feel (subjective). Affect = what you SEE (observable expression)."
+    },
+    {
+      "id": 298,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["risk assessment", "suicide", "protective"],
+      "question": "Protective factors against suicide include all EXCEPT:",
+      "options": [
+        "Strong family connections",
+        "Access to lethal means",
+        "Reasons for living",
+        "Effective coping skills"
+      ],
+      "correct": 1,
+      "explanation": "Protective factors reduce suicide risk and include: social support and connection, family cohesion, reasons for living (children, goals, religious beliefs), effective coping and problem-solving skills, access to mental health care, and restricted access to lethal means. Access to lethal means is a RISK factor, not protective. Comprehensive risk assessment evaluates both risk and protective factors to determine overall level of concern and guide intervention.",
+      "citation": "U.S. Department of Health and Human Services (2012). National Strategy for Suicide Prevention; Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press.",
+      "studyUrls": ["https://www.cdc.gov/suicide/factors/index.html"],
+      "memoryTip": "Protective = CONNECT and COPE. Lethal means ACCESS is a risk factor (increases risk)."
+    },
+    {
+      "id": 299,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["DSM-5-TR", "OCD", "insight specifier"],
+      "question": "The 'insight' specifier for OCD in DSM-5-TR indicates:",
+      "options": [
+        "The client's intelligence level",
+        "Degree of recognition that OCD beliefs are not true",
+        "How long the person has had OCD",
+        "Whether treatment is working"
+      ],
+      "correct": 1,
+      "explanation": "DSM-5-TR specifies OCD insight levels: good/fair insight (recognizes OCD beliefs are definitely or probably not true), poor insight (thinks OCD beliefs are probably true), and absent insight/delusional (completely convinced OCD beliefs are true). Insight level affects treatment—those with poor or absent insight may be less responsive to standard CBT and may require modified approaches. Insight can fluctuate over time and situations.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://iocdf.org/"],
+      "memoryTip": "OCD insight = Do they KNOW their fears are excessive? Good insight = 'I know it's irrational.' Poor = 'It's probably real.'"
+    },
+    {
+      "id": 300,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["personality", "Borderline", "differential"],
+      "vignette": "A 28-year-old presents with unstable relationships, identity confusion, impulsivity (spending, sex), chronic emptiness, intense anger, and frantic efforts to avoid abandonment. She also reports brief stress-related paranoid ideation.",
+      "question": "Which personality disorder is MOST likely?",
+      "options": [
+        "Histrionic Personality Disorder",
+        "Borderline Personality Disorder",
+        "Narcissistic Personality Disorder",
+        "Dependent Personality Disorder"
+      ],
+      "correct": 1,
+      "explanation": "Borderline Personality Disorder involves a pervasive pattern of instability in relationships, self-image, and affects, with marked impulsivity. Key features include: frantic efforts to avoid abandonment, unstable/intense relationships, identity disturbance, impulsivity (spending, sex, substances, binge eating), suicidal/self-harming behavior, affective instability, chronic emptiness, inappropriate intense anger, and transient stress-related paranoia or dissociation. The vignette describes classic BPD features.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/borderline-personality-disorder"],
+      "memoryTip": "BPD = PRAISE: Pattern of instability, Relationships unstable, Abandonment fears, Identity disturbance, Self-harm/impulsivity, Emptiness/anger."
+    },
+    {
+      "id": 301,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "cultural", "formulation"],
+      "question": "The DSM-5-TR Cultural Formulation Interview is used to:",
+      "options": [
+        "Diagnose culture-bound syndromes only",
+        "Explore how cultural factors influence the client's presentation and treatment",
+        "Determine if the client is from a minority culture",
+        "Replace standard diagnostic criteria"
+      ],
+      "correct": 1,
+      "explanation": "The Cultural Formulation Interview (CFI) is a set of questions exploring how cultural factors influence: the client's definition and understanding of the problem, perceptions of cause, context and support, coping and past help-seeking, and expectations for treatment. It helps clinicians understand presenting problems in cultural context without making assumptions. The CFI supplements, not replaces, standard assessment. It improves diagnostic accuracy and treatment engagement.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.psychiatry.org/psychiatrists/practice/dsm/educational-resources/dsm-5-cultural-formulation-interview"],
+      "memoryTip": "CFI = Client's cultural Frame of reference for their problems. What does this mean to THEM?"
+    },
+    {
+      "id": 302,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["eating disorders", "BMI", "severity"],
+      "question": "In DSM-5-TR, Anorexia Nervosa severity is primarily based on:",
+      "options": [
+        "Duration of illness",
+        "Number of purging episodes",
+        "Body Mass Index (BMI)",
+        "Amount of body dissatisfaction"
+      ],
+      "correct": 2,
+      "explanation": "Anorexia Nervosa severity in DSM-5-TR is based on BMI: Mild (BMI ≥17), Moderate (BMI 16-16.99), Severe (BMI 15-15.99), and Extreme (BMI <15). For children/adolescents, BMI percentiles are used. Severity may be increased based on functional impairment and need for supervision. BMI is used because it objectively indicates malnutrition level and medical risk. However, severity of psychological symptoms should also guide treatment intensity.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nationaleatingdisorders.org/"],
+      "memoryTip": "Anorexia severity = BMI. Lower BMI = more severe. Mild ≥17, Extreme <15."
+    },
+    {
+      "id": 303,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["developmental", "Autism", "DSM-5-TR"],
+      "question": "DSM-5-TR Autism Spectrum Disorder severity levels are determined by:",
+      "options": [
+        "IQ score alone",
+        "Level of support required for social communication and restricted behaviors",
+        "Age of onset",
+        "Number of symptoms present"
+      ],
+      "correct": 1,
+      "explanation": "ASD severity is rated separately for social communication and restricted/repetitive behaviors on three levels: Level 1 ('Requiring support'), Level 2 ('Requiring substantial support'), and Level 3 ('Requiring very substantial support'). Severity reflects current support needs, not intrinsic ability. Levels may change over time with intervention. This system replaced previous categories (Autistic Disorder, Asperger's, PDD-NOS) with a single spectrum diagnosis plus severity specifiers.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.cdc.gov/ncbddd/autism/index.html"],
+      "memoryTip": "ASD severity = SUPPORT needed, not IQ. Level 1-2-3 for each domain (social and restricted behaviors)."
+    },
+    {
+      "id": 304,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["family assessment", "circular questions", "Milan"],
+      "question": "Circular questions in family assessment are designed to:",
+      "options": [
+        "Trap family members in contradictions",
+        "Elicit information about relationships and differences in perspective",
+        "Avoid sensitive topics",
+        "Determine who is telling the truth"
+      ],
+      "correct": 1,
+      "explanation": "Circular questions ask about relationships, differences, and changes over time, eliciting information about the family system rather than individual 'facts.' Types include: difference questions ('Who is closest to mom?'), triadic questions ('What does dad do when mom criticizes Johnny?'), and temporal questions ('Was it worse before or after the move?'). They introduce information to the family about itself while assessing patterns. Developed by the Milan team.",
+      "citation": "Selvini Palazzoli, M., et al. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12; Tomm, K. (1988). Interventive Interviewing. Family Process, 27(1), 1-15.",
+      "studyUrls": ["https://www.aamft.org/"],
+      "memoryTip": "Circular questions = ask about RELATIONSHIPS and DIFFERENCES, not just facts. 'Who notices when...'"
+    },
+    {
+      "id": 305,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["DSM-5-TR", "GAD", "duration"],
+      "question": "Generalized Anxiety Disorder (GAD) requires excessive worry occurring:",
+      "options": [
+        "For at least 1 month",
+        "For at least 3 months",
+        "More days than not for at least 6 months",
+        "Only during specific situations"
+      ],
+      "correct": 2,
+      "explanation": "GAD requires excessive anxiety and worry about various events/activities, occurring more days than not for at least 6 months, with difficulty controlling the worry. At least 3 associated symptoms are required (restlessness, fatigue, concentration difficulty, irritability, muscle tension, sleep disturbance). The worry must cause significant distress or impairment and not be due to substances or another condition.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/generalized-anxiety-disorder-gad"],
+      "memoryTip": "GAD = 6 months, more days than not. General worry about MANY things, not specific fears."
+    },
+    {
+      "id": 306,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "schizoaffective", "differential"],
+      "question": "Schizoaffective Disorder differs from Schizophrenia with comorbid depression primarily by:",
+      "options": [
+        "The type of delusions present",
+        "Requiring mood episodes during a substantial portion of the illness duration",
+        "The presence of negative symptoms",
+        "Earlier age of onset"
+      ],
+      "correct": 1,
+      "explanation": "Schizoaffective Disorder requires: (1) an uninterrupted illness period with a major mood episode concurrent with Criterion A of Schizophrenia, (2) delusions/hallucinations for 2+ weeks in absence of major mood episode during the lifetime illness, and (3) mood episode symptoms present for majority of total illness duration. The key distinction is that in Schizoaffective, mood episodes are present during a substantial portion of total illness, not just brief periods.",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.nimh.nih.gov/health/topics/schizophrenia"],
+      "memoryTip": "Schizoaffective = psychosis + mood for MAJORITY of illness. Schizophrenia with depression = mood is brief/minor."
+    },
+    {
+      "id": 307,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "suicide", "imminent risk"],
+      "question": "Which factor MOST suggests imminent suicide risk?",
+      "options": [
+        "Family history of depression",
+        "Previous suicide attempt 5 years ago",
+        "Specific plan with access to means and stated intent",
+        "General feelings of hopelessness"
+      ],
+      "correct": 2,
+      "explanation": "Imminent risk is indicated by: specific plan (detailed method, time, place), access to means (especially lethal means like firearms), stated intent to act, preparations (giving away possessions, writing notes), and recent precipitating events. While history, hopelessness, and family history are chronic risk factors, a specific plan with means access and expressed intent signals acute danger requiring immediate intervention. Imminent risk = high specificity and capability.",
+      "citation": "Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press; Rudd, M. D., et al. (2006). Warning Signs for Suicide. Suicide and Life-Threatening Behavior, 36(3), 255-262.",
+      "studyUrls": ["https://suicidepreventionlifeline.org/"],
+      "memoryTip": "Imminent risk = PLAN + MEANS + INTENT. The more specific and ready, the more dangerous."
+    },
+    {
+      "id": 308,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "easy",
+      "tags": ["assessment", "presenting problem", "systemic"],
+      "question": "The 'identified patient' in family therapy refers to:",
+      "options": [
+        "The family member with the most severe diagnosis",
+        "The person the family presents as having the problem",
+        "The healthiest family member",
+        "The therapist's initial focus"
+      ],
+      "correct": 1,
+      "explanation": "The identified patient (IP) is the family member whom the family presents as having 'the problem'—often a child with behavioral issues or an individual with symptoms. Systemic thinking views the IP's symptoms as existing within relational patterns, possibly serving a function for the family system. The term highlights that the 'real' problem may be systemic rather than individual. Assessment explores both the IP's difficulties and the broader family context.",
+      "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass.",
+      "studyUrls": ["https://www.aamft.org/"],
+      "memoryTip": "Identified Patient = who the family points to. But systemically, the 'problem' may be in the patterns."
+    },
+    {
+      "id": 309,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "hard",
+      "tags": ["DSM-5-TR", "Adjustment Disorder", "criteria"],
+      "question": "Adjustment Disorder differs from other disorders primarily because:",
+      "options": [
+        "Symptoms must be more severe",
+        "Symptoms must be clearly linked to an identifiable stressor and resolve when stressor ends",
+        "No time criteria apply",
+        "It can only be diagnosed in children"
+      ],
+      "correct": 1,
+      "explanation": "Adjustment Disorder requires: identifiable stressor within 3 months of onset, symptoms exceed normal expectable response, significant distress/impairment, doesn't meet criteria for another disorder, and symptoms resolve within 6 months of stressor termination. The key feature is direct connection to a stressor and expected resolution. If symptoms persist beyond 6 months after stressor ends, another diagnosis should be considered. Specifiers indicate predominant symptom type (depressed mood, anxiety, conduct, mixed).",
+      "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+      "studyUrls": ["https://www.psychiatry.org/"],
+      "memoryTip": "Adjustment Disorder = stress reaction that's too much but should resolve. Linked to stressor, limited duration."
+    },
+    {
+      "id": 310,
+      "domain": "Assessing, Hypothesizing, Diagnosing",
+      "difficulty": "medium",
+      "tags": ["assessment", "functional analysis", "behavioral"],
+      "question": "A functional analysis of behavior examines:",
+      "options": [
+        "Only the frequency of the behavior",
+        "The antecedents, behavior, and consequences (ABC)",
+        "The unconscious meaning of the behavior",
+        "Whether the behavior is age-appropriate"
+      ],
+      "correct": 1,
+      "explanation": "Functional analysis (or functional behavioral assessment) examines the ABC pattern: Antecedents (what triggers or precedes the behavior), the Behavior itself (specific, observable description), and Consequences (what maintains it through reinforcement or other functions). This reveals the function the behavior serves—escape, attention, access to tangibles, or automatic reinforcement. Understanding function guides intervention design by addressing maintaining factors rather than just eliminating behavior.",
+      "citation": "Iwata, B. A., et al. (1994). Toward a Functional Analysis of Self-Injury. Journal of Applied Behavior Analysis, 27(2), 197-209; O'Neill, R. E., et al. (2015). Functional Assessment and Program Development (3rd ed.). Cengage.",
+      "studyUrls": ["https://www.apa.org/"],
+      "memoryTip": "Functional analysis = ABC: Antecedent → Behavior → Consequence. What triggers it, what maintains it?"
     }
 ]

@@ -1741,6 +1741,366 @@
           "citation": "Wampold, B. E. (2015). The Great Psychotherapy Debate: The Evidence for What Makes Psychotherapy Work (2nd ed.). Routledge; Duncan, B. L. (2010). On Becoming a Better Therapist. American Psychological Association.",
           "studyUrls": ["https://www.apa.org/pubs/journals/features/pst-42-1-5.pdf"],
           "memoryTip": "Common factors = what ALL therapies share (alliance, hope, engagement) may matter most."
+        },
+        {
+          "id": 396,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["EFT", "attachment injury", "forgiveness"],
+          "question": "In EFT, an 'attachment injury' refers to:",
+          "options": [
+            "Physical abuse in the relationship",
+            "A specific incident of abandonment or betrayal when comfort was needed",
+            "General relationship dissatisfaction",
+            "Childhood trauma only"
+          ],
+          "correct": 1,
+          "explanation": "An attachment injury is a specific incident where one partner failed to respond at a critical moment of need, creating a wound that continues to affect the relationship. Common examples include affairs, lack of support during illness/loss, or emotional abandonment. These injuries block relationship repair because they represent attachment betrayal. EFT addresses attachment injuries through a specific protocol involving the injured partner expressing the impact and the offending partner offering congruent, attuned responses.",
+          "citation": "Johnson, S. M., Makinen, J. A., & Millikin, J. W. (2001). Attachment Injuries in Couple Relationships. Journal of Marital and Family Therapy, 27(2), 145-155.",
+          "studyUrls": ["https://iceeft.com/"],
+          "memoryTip": "Attachment injury = 'Where were you when I needed you most?' A specific betrayal at a vulnerable moment."
+        },
+        {
+          "id": 397,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["homework", "compliance", "engagement"],
+          "question": "When clients don't complete therapy homework, the therapist should FIRST:",
+          "options": [
+            "Terminate therapy for noncompliance",
+            "Assign the same homework again with stronger language",
+            "Explore what prevented completion and adjust accordingly",
+            "Ignore it and move on"
+          ],
+          "correct": 2,
+          "explanation": "Non-completion of homework is clinically significant information. Explore obstacles: Was the task unclear? Too difficult? Poorly timed? Did something come up? Is there ambivalence about change? Understanding barriers allows adjustment. Perhaps the assignment didn't fit the client's life, values, or readiness. Homework should be collaboratively designed and modified based on feedback. Non-completion often reflects therapist-client misattunement rather than client defiance.",
+          "citation": "Kazantzis, N., Whittington, C., & Dattilio, F. (2010). Meta-Analysis of Homework Effects in Cognitive and Behavioral Therapy. Clinical Psychology: Science and Practice, 17(2), 144-156.",
+          "studyUrls": ["https://www.apa.org/"],
+          "memoryTip": "Homework not done? Ask WHY, don't just push harder. Non-completion = feedback about fit."
+        },
+        {
+          "id": 398,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["paradoxical", "strategic", "intervention"],
+          "question": "Paradoxical interventions work therapeutically by:",
+          "options": [
+            "Confusing clients into compliance",
+            "Placing clients in a position where change occurs regardless of whether they comply or resist",
+            "Tricking clients without their knowledge",
+            "Avoiding the real issues"
+          ],
+          "correct": 1,
+          "explanation": "Paradoxical interventions create therapeutic double-binds: if the client follows the directive (e.g., 'schedule your arguments'), they gain control over what seemed uncontrollable; if they resist and reduce the behavior, the therapeutic goal is achieved. Either path leads toward change. Paradox works best with oppositional clients and when direct approaches have failed. The therapist should understand the rationale and use paradox sparingly, not as a trick but as a strategic repositioning.",
+          "citation": "Weeks, G. R., & L'Abate, L. (1982). Paradoxical Psychotherapy. Brunner/Mazel; Haley, J. (1976). Problem-Solving Therapy. Jossey-Bass.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Paradox = win-win for change. Comply → gain control. Resist → stop the symptom. Either way, change."
+        },
+        {
+          "id": 399,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["cognitive", "couples", "attribution"],
+          "question": "In cognitive-behavioral couples therapy, attribution errors that damage relationships involve:",
+          "options": [
+            "Attributing partner's positive actions to stable traits and negative actions to circumstances",
+            "Attributing partner's negative actions to stable traits and positive actions to circumstances",
+            "Making no attributions about partner behavior",
+            "Only focusing on one's own behavior"
+          ],
+          "correct": 1,
+          "explanation": "Distressed couples show a pattern of distress-maintaining attributions: they attribute partner's negative behaviors to stable, global, internal traits ('He's selfish') while dismissing positive behaviors as situational ('She only did it because her mom was visiting'). Happy couples show the reverse pattern. CBCT works to challenge these attribution patterns, helping partners recognize stable positives and situational factors in negatives. Changing attributions changes emotional responses.",
+          "citation": "Baucom, D. H., Epstein, N. B., Sayers, S. L., & Sher, T. G. (1989). The Role of Cognitions in Marital Relationships. Journal of Consulting and Clinical Psychology, 57(1), 31-38.",
+          "studyUrls": ["https://www.apa.org/pubs/books/4316015"],
+          "memoryTip": "Distressed couples: bad = 'that's who they ARE'; good = 'that was just luck.' Reverse the pattern!"
+        },
+        {
+          "id": 400,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["treatment planning", "goals", "collaboration"],
+          "question": "Treatment goals in family therapy should be:",
+          "options": [
+            "Determined solely by the therapist based on assessment",
+            "Collaboratively developed with the family in terms they understand",
+            "Kept vague to allow flexibility",
+            "Focused only on symptom reduction"
+          ],
+          "correct": 1,
+          "explanation": "Effective treatment goals are developed collaboratively, ensuring family buy-in and relevance. Goals should be concrete, behavioral, achievable, and stated in the family's language. Both process goals (improved communication) and outcome goals (reduced fighting) may be included. Collaborative goal-setting enhances motivation and allows the family to track their own progress. Goals should be reviewed and revised as treatment progresses.",
+          "citation": "Sprenkle, D. H., Davis, S. D., & Lebow, J. L. (2009). Common Factors in Couple and Family Therapy. Guilford Press.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Goals = SMART + collaborative. In their words, with their input, achievable and measurable."
+        },
+        {
+          "id": 401,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Bowen", "differentiation", "coaching"],
+          "question": "In Bowenian therapy, coaching a client to make a 'person-to-person' contact with a parent involves:",
+          "options": [
+            "Having the parent attend therapy sessions",
+            "The client relating to the parent as individuals without triangling or role-playing",
+            "Writing letters that are never sent",
+            "Cutting off contact with the parent"
+          ],
+          "correct": 1,
+          "explanation": "Person-to-person contact involves relating to family members as individuals, not in terms of roles or triangles. The client works to: stay non-reactive, maintain I-positions, avoid gossiping about other family members (triangling), and discuss personal thoughts/feelings directly. This is coached in session through planning and processing visits. The goal is increased differentiation—maintaining self while staying connected—not insight alone but changed behavior in the actual family relationship.",
+          "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; McGoldrick, M., & Carter, B. (2001). Advances in Coaching. Family Process, 40(3), 299-306.",
+          "studyUrls": ["https://www.thebowencenter.org/"],
+          "memoryTip": "Person-to-person = adult-to-adult, I-to-I, without roles or triangles. Direct, non-reactive contact."
+        },
+        {
+          "id": 402,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["narrative", "externalizing", "conversation"],
+          "question": "Externalizing conversations in Narrative Therapy help clients by:",
+          "options": [
+            "Encouraging them to blame others for their problems",
+            "Separating the person from the problem to enable agency and resistance",
+            "Denying that problems exist",
+            "Focusing only on external circumstances"
+          ],
+          "correct": 1,
+          "explanation": "Externalizing separates the person from the problem ('The problem is the problem, the person is not the problem'). Instead of 'I am depressed' → 'Depression has been influencing my life.' This linguistic shift reduces shame, reveals the problem's tactics, identifies when the person has resisted, and opens possibilities for different relationships with the problem. Externalizing questions explore how the problem operates, when it's stronger/weaker, and what the person does to resist it.",
+          "citation": "White, M., & Epston, D. (1990). Narrative Means to Therapeutic Ends. W. W. Norton; White, M. (2007). Maps of Narrative Practice. W. W. Norton.",
+          "studyUrls": ["https://dulwichcentre.com.au/"],
+          "memoryTip": "Externalizing = The problem is an 'it,' not 'I.' Creates distance to fight back against it."
+        },
+        {
+          "id": 403,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["joining", "resistance", "engagement"],
+          "question": "When a family member appears resistant in early sessions, the therapist should:",
+          "options": [
+            "Confront the resistance directly and firmly",
+            "Work harder on joining and understanding that person's perspective",
+            "Exclude them from future sessions",
+            "Focus only on willing participants"
+          ],
+          "correct": 1,
+          "explanation": "Apparent resistance often signals inadequate joining or misattunement. The therapist should consider: Does this person feel heard? Are they being blamed? Do they understand the purpose of therapy? Are they forced to attend? Working to join the 'resistant' member—understanding their concerns, validating their perspective, not requiring them to be 'wrong'—often dissolves resistance. What looks like opposition may be self-protection or loyalty.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press; Anderson, H., & Goolishian, H. (1988). Human Systems as Linguistic Systems. Family Process, 27(4), 371-393.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Resistance = feedback about joining. Join harder before pushing harder."
+        },
+        {
+          "id": 404,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["SFBT", "relationship", "questions"],
+          "question": "SFBT relationship questions (e.g., 'What would your partner notice?') serve to:",
+          "options": [
+            "Create conflict between family members",
+            "Access different perspectives and increase awareness of relational impact",
+            "Determine who is right in disagreements",
+            "Replace direct observation"
+          ],
+          "correct": 1,
+          "explanation": "Relationship questions invite clients to consider others' perspectives: 'What would your mother notice different?' 'What would your best friend say you're doing right?' This expands self-perception beyond individual viewpoint, highlights relational effects of change, recruits imagined support, and identifies what changes would be visible to others. These questions are inherently systemic—connecting individual change to relational context—within a solution-focused frame.",
+          "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton; De Jong, P., & Berg, I. K. (2013). Interviewing for Solutions (4th ed.). Brooks/Cole.",
+          "studyUrls": ["https://solutionfocused.net/"],
+          "memoryTip": "Relationship questions = 'What would X notice?' See yourself through others' eyes."
+        },
+        {
+          "id": 405,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["intergenerational", "loyalty", "invisible"],
+          "question": "Boszormenyi-Nagy's concept of 'invisible loyalties' refers to:",
+          "options": [
+            "Explicitly stated family rules",
+            "Unconscious obligations to family members that influence behavior across generations",
+            "Loyalty to the therapist",
+            "Children's obedience to parents"
+          ],
+          "correct": 1,
+          "explanation": "Invisible loyalties are unconscious obligations to family of origin that transcend conscious choice. They emerge from the family's 'ledger' of entitlements and indebtedness across generations. A person may unknowingly sacrifice their own interests, repeat destructive patterns, or avoid surpassing parents due to invisible loyalty. Therapy involves making these loyalties visible, acknowledging legitimate debts, and finding ways to honor obligations without self-destruction.",
+          "citation": "Boszormenyi-Nagy, I., & Spark, G. M. (1973). Invisible Loyalties: Reciprocity in Intergenerational Family Therapy. Harper & Row.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Invisible loyalties = unconscious family debts. You follow rules you don't know you're following."
+        },
+        {
+          "id": 406,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["termination", "ending", "treatment"],
+          "question": "Appropriate criteria for therapy termination include all EXCEPT:",
+          "options": [
+            "Goals have been substantially achieved",
+            "Client has developed skills to maintain gains",
+            "The therapist is bored with the case",
+            "Client and therapist agree it's time"
+          ],
+          "correct": 2,
+          "explanation": "Appropriate termination criteria include: treatment goals achieved, client has skills to maintain progress, issues are resolved or client can manage them independently, and mutual agreement between therapist and client. Termination should be a thoughtful process with review of progress and discussion of maintaining gains. Therapist factors like boredom are never appropriate reasons—they indicate need for supervision or case transfer, not termination.",
+          "citation": "Worden, M. (2003). Family Therapy Basics (3rd ed.). Brooks/Cole; AAMFT Code of Ethics (2015), Standard 1.10.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Termination = goals met + skills to maintain + mutual agreement. Never because therapist is done."
+        },
+        {
+          "id": 407,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["structural", "unbalancing", "hierarchy"],
+          "question": "In Structural Family Therapy, 'unbalancing' involves:",
+          "options": [
+            "Making the family feel unstable",
+            "Temporarily aligning with one family member to shift power dynamics",
+            "Removing the most problematic family member",
+            "Avoiding taking any positions"
+          ],
+          "correct": 1,
+          "explanation": "Unbalancing is a technique where the therapist deliberately affiliates with one family member to shift entrenched power dynamics. The therapist might support an underdog, strengthen parental authority, or side with someone whose voice is marginalized. This challenges homeostasis and creates room for structural change. Unbalancing is used strategically after joining is established, and the therapist eventually returns to a more neutral position.",
+          "citation": "Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+          "studyUrls": ["https://www.psychotherapy.net/"],
+          "memoryTip": "Unbalancing = strategically taking sides to tip the power scales. Temporary alliance for structural change."
+        },
+        {
+          "id": 408,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Gottman", "perpetual problems", "dialogue"],
+          "question": "According to Gottman, 69% of couple conflicts are 'perpetual problems,' which means:",
+          "options": [
+            "These problems should be immediately resolved",
+            "These ongoing issues require dialogue and acceptance rather than solution",
+            "Couples with perpetual problems should divorce",
+            "Only 31% of conflicts matter"
+          ],
+          "correct": 1,
+          "explanation": "Gottman's research found that 69% of couple conflicts are perpetual—rooted in personality differences or fundamental life values that won't be resolved. Examples: introvert vs. extrovert, neat vs. messy, different spending philosophies. Successful couples learn to dialogue about perpetual problems with humor and acceptance rather than trying to 'solve' them. The goal is understanding and accommodation, not resolution. Gridlocked perpetual problems need work on the dream within the conflict.",
+          "citation": "Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers.",
+          "studyUrls": ["https://www.gottman.com/"],
+          "memoryTip": "69% of conflicts = perpetual. Learn to dance with them, not destroy them. Dialogue, not solution."
+        },
+        {
+          "id": 409,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["psychoeducation", "family", "intervention"],
+          "question": "Family psychoeducation for serious mental illness typically includes:",
+          "options": [
+            "Only medication information",
+            "Information about the illness, coping strategies, and communication skills",
+            "Blaming family members for causing the illness",
+            "Encouraging families to lower their expectations"
+          ],
+          "correct": 1,
+          "explanation": "Family psychoeducation provides: accurate information about the illness (symptoms, course, treatment), reduces blame and guilt, teaches communication and problem-solving skills, helps families recognize early warning signs, builds coping strategies, and connects families to support. It's evidence-based for schizophrenia, bipolar, depression. Psychoeducation combines support with information, recognizing families as partners in treatment rather than causes of illness.",
+          "citation": "McFarlane, W. R. (2002). Multifamily Groups in the Treatment of Severe Psychiatric Disorders. Guilford Press; Miklowitz, D. J. (2010). Bipolar Disorder: A Family-Focused Treatment Approach (2nd ed.). Guilford Press.",
+          "studyUrls": ["https://www.nami.org/Your-Journey/Family-Members-and-Caregivers/Family-to-Family"],
+          "memoryTip": "Psychoeducation = educate + support. Families as partners, not patients or perpetrators."
+        },
+        {
+          "id": 410,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["SFBT", "first session", "formula"],
+          "question": "The SFBT 'first session formula task' asks clients to:",
+          "options": [
+            "Write about their problems in detail",
+            "Observe what happens in their life that they want to continue",
+            "Practice relaxation exercises",
+            "Complete psychological testing"
+          ],
+          "correct": 1,
+          "explanation": "The first session formula task: 'Between now and next time we meet, observe what happens in your life (family, relationship, work) that you want to continue to have happen.' This orients clients toward noticing existing positives and exceptions rather than dwelling on problems. It's 'formula' because it can be used with any client regardless of presenting problem. The task presupposes that good things are happening that should continue.",
+          "citation": "de Shazer, S. (1985). Keys to Solution in Brief Therapy. W. W. Norton; de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton.",
+          "studyUrls": ["https://solutionfocused.net/"],
+          "memoryTip": "First session task = notice what's ALREADY working. Look for keepers, not problems."
+        },
+        {
+          "id": 411,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["Milan", "positive connotation", "intervention"],
+          "question": "The Milan technique of 'positive connotation' involves:",
+          "options": [
+            "Simply being supportive and encouraging",
+            "Reframing symptoms and behaviors as positive contributions to family homeostasis",
+            "Avoiding negative feedback",
+            "Praising only the identified patient"
+          ],
+          "correct": 1,
+          "explanation": "Positive connotation goes beyond simple reframing by attributing positive motives to all family members' behaviors, including symptoms, as contributions to family stability. The IP's symptom might be framed as protecting parents' marriage; parents' overinvolvement as loving concern. This eliminates blame, highlights systemic function, and paradoxically allows change (if the symptom is already 'good,' there's no need to fight over it). It's delivered with genuine warmth, not sarcasm.",
+          "citation": "Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1978). Paradox and Counterparadox. Jason Aronson.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "Positive connotation = everyone's behavior serves the family, even symptoms. Removes the 'villain.'"
+        },
+        {
+          "id": 412,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["motivational interviewing", "ambivalence", "change"],
+          "question": "When using Motivational Interviewing with an ambivalent client, the therapist should:",
+          "options": [
+            "Push harder for change",
+            "Roll with resistance and evoke the client's own arguments for change",
+            "Give up if the client isn't ready",
+            "Make decisions for the client"
+          ],
+          "correct": 1,
+          "explanation": "MI recognizes ambivalence as normal, not resistance. Core principles: express empathy, develop discrepancy (between current behavior and values), roll with resistance (don't argue against it), and support self-efficacy. The therapist elicits 'change talk' from the client rather than providing arguments for change. When the therapist argues for change, the client naturally argues against it. Let clients voice their own reasons for changing.",
+          "citation": "Miller, W. R., & Rollnick, S. (2013). Motivational Interviewing: Helping People Change (3rd ed.). Guilford Press.",
+          "studyUrls": ["https://motivationalinterviewing.org/"],
+          "memoryTip": "MI = evoke THEIR reasons for change. If you push, they'll pull back. Roll with resistance."
+        },
+        {
+          "id": 413,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "easy",
+          "tags": ["confidentiality", "couples", "secrets"],
+          "question": "A 'no secrets' policy in couples therapy means:",
+          "options": [
+            "Therapists share everything with both partners",
+            "Information shared individually may be brought into joint sessions",
+            "Couples should have no privacy from each other",
+            "Secrets from childhood must be disclosed"
+          ],
+          "correct": 1,
+          "explanation": "A no-secrets policy means the therapist won't keep confidential information from one partner that's relevant to the therapy. If a partner shares something privately (e.g., an affair), the therapist may bring it into couples work or require disclosure. This is established in informed consent BEFORE individual sessions. Alternatives include never meeting individually or being a 'holder of secrets.' Each approach has rationale; clarity upfront is essential.",
+          "citation": "Hertlein, K. M., & Piercy, F. P. (2006). Internet Infidelity. Journal of Couple & Relationship Therapy, 5(2), 29-48; Weeks, G. R., & Treat, S. R. (2001). Couples in Treatment (2nd ed.). Brunner-Routledge.",
+          "studyUrls": ["https://www.aamft.org/"],
+          "memoryTip": "No secrets policy = what you tell me alone might come into couples work. Established BEFORE individual meetings."
+        },
+        {
+          "id": 414,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "hard",
+          "tags": ["reflecting team", "postmodern", "intervention"],
+          "question": "Tom Andersen's reflecting team approach involves:",
+          "options": [
+            "The team criticizing the family's behavior",
+            "Team members sharing their reflections aloud while the family observes, then the family responds",
+            "Keeping all team observations secret",
+            "Having the team make decisions for the family"
+          ],
+          "correct": 1,
+          "explanation": "The reflecting team observes the therapy session, then the family and therapist watch while team members share their thoughts aloud—what struck them, what they wondered about, alternative perspectives. The family then responds to the reflections. This transparent process offers multiple perspectives, positions the family as experts on their own life, and democratizes the therapeutic process. Reflections are tentative, curious, and respectful—never instructive or judgmental.",
+          "citation": "Andersen, T. (1987). The Reflecting Team. Family Process, 26(4), 415-428; Andersen, T. (1991). The Reflecting Team: Dialogues and Dialogues about the Dialogues. W. W. Norton.",
+          "studyUrls": ["https://dulwichcentre.com.au/"],
+          "memoryTip": "Reflecting team = think out loud while family listens, then family responds. Open, curious, transparent."
+        },
+        {
+          "id": 415,
+          "domain": "Designing and Conducting Treatment",
+          "difficulty": "medium",
+          "tags": ["rupture", "repair", "alliance"],
+          "question": "When a therapeutic rupture (alliance strain) occurs, the therapist should:",
+          "options": [
+            "Ignore it and continue with the treatment plan",
+            "Address it directly, acknowledge their contribution, and work to repair",
+            "Terminate therapy immediately",
+            "Blame the client for being difficult"
+          ],
+          "correct": 1,
+          "explanation": "Ruptures (strains in the therapeutic alliance) are inevitable and can be therapeutic if repaired. Research shows that rupture-repair sequences can strengthen the alliance and model healthy relationship repair. Address ruptures directly: name the tension, explore the client's experience, acknowledge your contribution, and work together toward understanding. Avoiding or blaming worsens the rupture. Successful repair demonstrates that relationships can survive conflict.",
+          "citation": "Safran, J. D., & Muran, J. C. (2000). Negotiating the Therapeutic Alliance. Guilford Press; Eubanks, C. F., Muran, J. C., & Safran, J. D. (2018). Alliance Rupture Repair. Psychotherapy, 55(4), 295-299.",
+          "studyUrls": ["https://www.apa.org/pubs/journals/pst"],
+          "memoryTip": "Rupture = opportunity. Address it, don't avoid it. Repair strengthens the relationship."
         }
       ]
 

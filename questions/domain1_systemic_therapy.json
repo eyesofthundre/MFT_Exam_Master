@@ -1658,6 +1658,366 @@
         "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. W. W. Norton; Fisch, R., Weakland, J. H., & Segal, L. (1982). The Tactics of Change. Jossey-Bass.",
         "studyUrls": ["https://www.mri.org/"],
         "memoryTip": "MRI = Minimal change to the attempted solution can create maximum change in the problem."
+      },
+      {
+        "id": 191,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Bowen", "triangles", "detriangling"],
+        "question": "In Bowen theory, the process of 'detriangling' involves:",
+        "options": [
+          "Removing a family member from therapy",
+          "Maintaining a non-anxious presence while staying connected to both parties in a triangle",
+          "Encouraging family members to avoid each other",
+          "Creating new triangles to dilute tension"
+        ],
+        "correct": 1,
+        "explanation": "Detriangling is the process of removing oneself from the emotional reactivity of a triangle while maintaining connection with both other parties. It requires maintaining a non-anxious presence, refusing to take sides, staying in emotional contact without becoming reactive, and speaking for oneself rather than about the absent third party. The differentiated position allows the triangle to deactivate as the person stops participating in the reactive pattern.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Detriangle = Stay connected to BOTH, reactive to NEITHER. Cool presence, warm connection."
+      },
+      {
+        "id": 192,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["narrative", "absent but implicit", "deconstruction"],
+        "question": "In Narrative Therapy, 'absent but implicit' refers to:",
+        "options": [
+          "Family members who are deceased",
+          "Values and commitments revealed by what the person protests against or mourns",
+          "Unconscious desires",
+          "Information the client is hiding"
+        ],
+        "correct": 1,
+        "explanation": "The 'absent but implicit' concept recognizes that expressions of distress, protest, or grief imply the presence of something valued. If someone mourns a loss, they valued what was lost; if they protest injustice, they value fairness. By attending to what is absent but implicit in problem-saturated stories, therapists can identify values, hopes, and commitments that form the foundation for alternative stories. This technique reveals meaning even in expressions of pain.",
+        "citation": "White, M. (2000). Reflections on Narrative Practice. Dulwich Centre Publications; Carey, M., Walther, S., & Russell, S. (2009). The Absent but Implicit. International Journal of Narrative Therapy and Community Work, 2009(2).",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "What you mourn shows what you love; what you protest shows what you value. Pain implies care."
+      },
+      {
+        "id": 193,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["SFBT", "coping", "resilience"],
+        "question": "The SFBT 'coping question' is most useful when:",
+        "options": [
+          "The client reports significant improvement",
+          "The client feels overwhelmed and unable to identify any positives",
+          "The therapist wants to assign homework",
+          "The client has achieved their goals"
+        ],
+        "correct": 1,
+        "explanation": "Coping questions are used when clients feel overwhelmed and cannot identify exceptions or improvements. By asking 'How have you managed to cope?' or 'What keeps you going?', the therapist acknowledges the difficulty while highlighting unrecognized strengths. This validates the struggle while also identifying resilience resources. Coping questions are especially valuable in crisis situations or when scaling questions seem insensitive to current distress.",
+        "citation": "De Jong, P., & Berg, I. K. (2013). Interviewing for Solutions (4th ed.). Brooks/Cole; de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "Coping questions = when things are too hard to find exceptions, find survival strengths instead."
+      },
+      {
+        "id": 194,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["EFT", "attachment", "accessibility"],
+        "question": "In Emotionally Focused Therapy, 'A.R.E.' stands for:",
+        "options": [
+          "Analyze, Resolve, Empathize",
+          "Accessible, Responsive, Engaged",
+          "Accept, Reflect, Explore",
+          "Attachment, Regulation, Expression"
+        ],
+        "correct": 1,
+        "explanation": "A.R.E. represents the three key elements of secure attachment bonds: Accessible (Can I reach you?), Responsive (Can I rely on you to respond emotionally?), and Engaged (Do I know you value me and will stay close?). These questions capture the core attachment needs that EFT aims to address. When partners can answer 'yes' to these questions, they have a secure bond. EFT helps couples create these conditions by restructuring negative cycles and fostering emotional engagement.",
+        "citation": "Johnson, S. M. (2008). Hold Me Tight: Seven Conversations for a Lifetime of Love. Little, Brown; Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "A.R.E. you there for me? Accessible, Responsive, Engaged = secure attachment."
+      },
+      {
+        "id": 195,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Milan", "hypothesizing", "systemic"],
+        "question": "In Milan Systemic Therapy, the team's hypothesis should be:",
+        "options": [
+          "Presented to the family as definitive truth",
+          "Systemic, useful for generating questions, and held tentatively",
+          "Based primarily on individual psychopathology",
+          "Kept secret from the treatment team"
+        ],
+        "correct": 1,
+        "explanation": "Milan hypotheses must be systemic (explaining patterns rather than blaming individuals), useful (generating circular questions that explore the hypothesis), and tentative (held lightly and revised based on new information). The hypothesis is a tool for curiosity, not a conclusion. It connects behaviors, beliefs, and relationships in a coherent pattern. Multiple hypotheses may be entertained simultaneously, and the team remains curious rather than certain.",
+        "citation": "Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12.",
+        "studyUrls": ["https://www.milanoschool.org/"],
+        "memoryTip": "Milan hypothesis = tentative, systemic, useful. It's a flashlight for exploring, not a verdict."
+      },
+      {
+        "id": 196,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Gottman", "repair", "conflict"],
+        "question": "According to Gottman's research, successful repair attempts during conflict:",
+        "options": [
+          "Are unnecessary in happy marriages",
+          "Must be perfectly timed and worded",
+          "Predict relationship stability more than the amount of conflict",
+          "Should only be made by one partner"
+        ],
+        "correct": 2,
+        "explanation": "Gottman's research found that the success of repair attempts during conflict is more predictive of relationship stability than the frequency or intensity of conflict itself. Repair attempts are any statement or action that prevents negativity from escalating. Happy couples make and receive repairs effectively; distressed couples' repairs fail not because they're absent but because the emotional climate is too negative. Repair can be humor, affection, apology, or simple de-escalation.",
+        "citation": "Gottman, J. M. (1999). The Marriage Clinic. W. W. Norton; Gottman, J. M., & Silver, N. (1999). The Seven Principles for Making Marriage Work. Crown Publishers.",
+        "studyUrls": ["https://www.gottman.com/"],
+        "memoryTip": "It's not whether you fight, but whether repairs LAND. Successful repair = relationship success."
+      },
+      {
+        "id": 197,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["Minuchin", "joining", "therapeutic alliance"],
+        "question": "Minuchin's concept of 'joining' involves:",
+        "options": [
+          "The therapist becoming a family member",
+          "Adapting to the family's style while establishing therapeutic leadership",
+          "Having family members physically join hands",
+          "Joining two families together for treatment"
+        ],
+        "correct": 1,
+        "explanation": "Joining is the process of building a therapeutic alliance by adapting to the family's communication style, affective range, and worldview while establishing a leadership position. Minuchin identified three levels: close (personal connection), median (active listening, tracking), and disengaged (expert professional stance). Effective joining respects the family's structure while positioning the therapist to challenge it. Without joining, structural interventions will be rejected.",
+        "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Minuchin, S., & Fishman, H. C. (1981). Family Therapy Techniques. Harvard University Press.",
+        "studyUrls": ["https://www.psychotherapy.net/"],
+        "memoryTip": "Joining = 'When in Rome...' Adapt to their style FIRST, then lead change."
+      },
+      {
+        "id": 198,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["postmodern", "social construction", "language"],
+        "question": "Social constructionism in family therapy emphasizes that:",
+        "options": [
+          "Problems are biologically determined",
+          "Reality and meaning are created through social interaction and language",
+          "Therapists should construct solutions for families",
+          "Family structure is universal across cultures"
+        ],
+        "correct": 1,
+        "explanation": "Social constructionism holds that what we take to be 'reality' is constructed through social processes, particularly language and conversation. Problems, identities, and possibilities are shaped by cultural discourses and interpersonal dialogue. This perspective influenced Narrative Therapy (stories shape identity), Collaborative Therapy (change through dialogue), and Solution-Focused approaches (language creates reality). It shifts focus from discovering 'truth' to creating useful meanings.",
+        "citation": "Gergen, K. J. (1999). An Invitation to Social Construction. Sage; McNamee, S., & Gergen, K. J. (1992). Therapy as Social Construction. Sage.",
+        "studyUrls": ["https://www.taosinstitute.net/"],
+        "memoryTip": "Social construction = we build reality together through conversation. Language doesn't describe reality; it creates it."
+      },
+      {
+        "id": 199,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["Whitaker", "symbolic-experiential", "therapist use of self"],
+        "question": "Carl Whitaker's symbolic-experiential approach emphasized:",
+        "options": [
+          "Strict adherence to treatment protocols",
+          "The therapist's authentic personhood and symbolic experience in sessions",
+          "Avoiding emotional expression in therapy",
+          "Working only with the identified patient"
+        ],
+        "correct": 1,
+        "explanation": "Whitaker emphasized the therapist's use of self as the primary instrument of change. He valued authenticity, spontaneity, and symbolic experience over technique. The therapist engages personally, shares fantasies and images, and uses playfulness and absurdity to unlock family rigidity. He believed therapist growth was essential and often co-led therapy. His approach was intuitive rather than strategic, trusting the therapeutic encounter to generate healing.",
+        "citation": "Whitaker, C. A., & Bumberry, W. M. (1988). Dancing with the Family: A Symbolic-Experiential Approach. Brunner/Mazel; Neill, J. R., & Kniskern, D. P. (1982). From Psyche to System: The Evolving Therapy of Carl Whitaker.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Whitaker = Wild, authentic, symbolic. The therapist IS the technique."
+      },
+      {
+        "id": 200,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["SFBT", "presuppositional", "questions"],
+        "question": "Presuppositional questions in SFBT are characterized by:",
+        "options": [
+          "Assuming the problem will never change",
+          "Embedding assumptions of positive change in the question structure",
+          "Requiring yes/no answers",
+          "Focusing on problem causation"
+        ],
+        "correct": 1,
+        "explanation": "Presuppositional questions embed assumptions that positive change is possible or already happening. 'What will be different when the problem is solved?' presupposes it will be solved. 'What else did you notice improving?' presupposes improvements exist. These questions direct attention toward solutions and competencies while bypassing debate about whether change is possible. The grammatical structure does therapeutic work by orienting toward a preferred future.",
+        "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton; O'Hanlon, W. H., & Weiner-Davis, M. (1989). In Search of Solutions. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "Presuppositional = the question ASSUMES the answer you want. 'WHEN you succeed...' not 'IF.'"
+      },
+      {
+        "id": 201,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["Bowen", "emotional cutoff", "differentiation"],
+        "question": "According to Bowen, emotional cutoff from family of origin typically results in:",
+        "options": [
+          "Increased differentiation and emotional freedom",
+          "Replication of similar emotional intensity in other relationships",
+          "Complete resolution of family-of-origin issues",
+          "Improved ability to manage anxiety"
+        ],
+        "correct": 1,
+        "explanation": "Emotional cutoff is the way people manage unresolved emotional issues with family by reducing or cutting off contact. While it may provide temporary relief, it doesn't resolve the underlying fusion. The same level of emotional intensity and reactivity tends to emerge in other significant relationships (marriage, friendships, workplace). True differentiation involves staying in contact while managing one's own reactivity, not geographic or emotional distance.",
+        "citation": "Bowen, M. (1978). Family Therapy in Clinical Practice. Jason Aronson; Kerr, M. E., & Bowen, M. (1988). Family Evaluation. W. W. Norton.",
+        "studyUrls": ["https://www.thebowencenter.org/"],
+        "memoryTip": "Cutoff = carrying the problem to a new address. Distance doesn't equal differentiation."
+      },
+      {
+        "id": 202,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["strategic", "reframing", "intervention"],
+        "question": "Therapeutic reframing is most effective when it:",
+        "options": [
+          "Contradicts the family's experience",
+          "Offers a new meaning that fits the facts but opens new possibilities",
+          "Blames family members for the problem",
+          "Uses technical psychological jargon"
+        ],
+        "correct": 1,
+        "explanation": "Effective reframes must fit the family's experience (be believable) while offering a new perspective that opens possibilities for change. A reframe doesn't deny facts but offers a different interpretation. Reframing a teen's 'rebelliousness' as 'growing independence' fits the behavior but changes its meaning. Good reframes are positive (finding benevolent motives), systemic (connecting behaviors to relationships), and useful (enabling new responses).",
+        "citation": "Watzlawick, P., Weakland, J. H., & Fisch, R. (1974). Change: Principles of Problem Formation and Problem Resolution. W. W. Norton.",
+        "studyUrls": ["https://www.mri.org/"],
+        "memoryTip": "Reframe = same picture, different frame. Change the meaning, keep the facts."
+      },
+      {
+        "id": 203,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["intergenerational", "legacy", "transmission"],
+        "question": "The concept of 'family legacy' in intergenerational therapy refers to:",
+        "options": [
+          "Only financial inheritance",
+          "Patterns of relating, beliefs, and expectations passed across generations",
+          "Legal documents like wills",
+          "The family's reputation in the community"
+        ],
+        "correct": 1,
+        "explanation": "Family legacy encompasses the patterns, beliefs, expectations, roles, and relational styles transmitted across generations. These include explicit teachings (family values, stories) and implicit patterns (conflict styles, emotional expression rules, loyalty expectations). Legacies can be resources (resilience, connection) or burdens (trauma, shame, rigid roles). Intergenerational therapy examines how legacies shape current functioning and which elements to keep, modify, or release.",
+        "citation": "Boszormenyi-Nagy, I., & Spark, G. M. (1973). Invisible Loyalties. Harper & Row; McGoldrick, M., Gerson, R., & Petry, S. (2008). Genograms: Assessment and Intervention (3rd ed.). W. W. Norton.",
+        "studyUrls": ["https://www.multiculturalfamily.org/"],
+        "memoryTip": "Family legacy = what you inherited that's not in the will. Patterns, beliefs, and ways of relating."
+      },
+      {
+        "id": 204,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["circular causality", "systemic", "linear"],
+        "question": "Circular causality differs from linear causality in that it:",
+        "options": [
+          "Focuses on finding the one person who caused the problem",
+          "Views behaviors as mutually influencing in ongoing feedback loops",
+          "Believes problems have no causes",
+          "Only applies to physical systems"
+        ],
+        "correct": 1,
+        "explanation": "Circular causality is a fundamental systemic concept viewing behaviors as mutually influential rather than unidirectional. In a circular view, A influences B, B influences A, and both influence and are influenced by context. The 'pursuer-distancer' pattern illustrates this: pursuing triggers distancing, distancing triggers more pursuing. Neither causes the other independently. This perspective shifts from blame to pattern recognition and enables systemic interventions.",
+        "citation": "Bateson, G. (1972). Steps to an Ecology of Mind. Ballantine Books; Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). Pragmatics of Human Communication. W. W. Norton.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Circular = no start, no single cause. It's a dance where each partner's moves affect the other's."
+      },
+      {
+        "id": 205,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["narrative", "witnessing", "definitional ceremony"],
+        "question": "In Narrative Therapy, 'outsider witness' practices involve:",
+        "options": [
+          "Having family members spy on each other",
+          "Bringing in audience members to reflect on and retell the client's preferred story",
+          "Keeping therapy completely private",
+          "Expert witnesses from court"
+        ],
+        "correct": 1,
+        "explanation": "Outsider witness practices (definitional ceremonies) involve bringing in selected audience members to hear the client's story and then offer reflections. Witnesses don't evaluate or advise; they share what struck them, what images arose, what resonated with their own experience, and how hearing the story moved them. This 'telling and retelling' enriches and thickens the alternative story, creating a community of acknowledgment around the person's preferred identity.",
+        "citation": "White, M. (2007). Maps of Narrative Practice. W. W. Norton; Myerhoff, B. (1982). Life History Among the Elderly. In J. Ruby (Ed.), A Crack in the Mirror. University of Pennsylvania Press.",
+        "studyUrls": ["https://dulwichcentre.com.au/"],
+        "memoryTip": "Outsider witnesses = audience who reflect back the client's story, enriching its meaning."
+      },
+      {
+        "id": 206,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["EFT", "softening", "Stage 2"],
+        "question": "In EFT, a 'softening' by a previously withdrawn partner involves:",
+        "options": [
+          "The partner becoming more critical",
+          "The partner expressing vulnerable emotions and attachment needs",
+          "The partner leaving therapy",
+          "The partner increasing withdrawal"
+        ],
+        "correct": 1,
+        "explanation": "Softening is a key change event in EFT Stage 2 where a previously withdrawn partner accesses and expresses their underlying vulnerable emotions and attachment needs to their partner. This often follows the other partner's blamer softening. The withdrawn partner moves from defensive distance to expressing needs for connection ('I need to know you want me close'). This opens the door for the couple to create new patterns of accessibility and responsiveness.",
+        "citation": "Johnson, S. M. (2004). The Practice of Emotionally Focused Couple Therapy (2nd ed.). Brunner-Routledge; Johnson, S. M. (2019). Attachment Theory in Practice. Guilford Press.",
+        "studyUrls": ["https://iceeft.com/"],
+        "memoryTip": "Softening = walls come down, vulnerability comes out. The withdrawn partner reaches out."
+      },
+      {
+        "id": 207,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["structural", "hierarchy", "parental subsystem"],
+        "question": "A key goal in Structural Family Therapy when children display behavior problems is often to:",
+        "options": [
+          "Remove the children from the home",
+          "Strengthen the parental subsystem's executive function",
+          "Encourage children to parent themselves",
+          "Eliminate all family rules"
+        ],
+        "correct": 1,
+        "explanation": "In Structural Family Therapy, children's behavior problems often relate to unclear hierarchy or weak parental subsystem boundaries. Treatment typically involves strengthening the parental subsystem's executive function—their ability to work together to set limits, provide structure, and make decisions. This may involve unbalancing (supporting parental authority), boundary making (clarifying parent-child distinctions), and enactment (having parents practice working together in session).",
+        "citation": "Minuchin, S. (1974). Families and Family Therapy. Harvard University Press; Minuchin, S., Nichols, M. P., & Lee, W. Y. (2007). Assessing Families and Couples. Pearson.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Kids acting out? Check if the parental team is functioning. Parents united = children contained."
+      },
+      {
+        "id": 208,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["cybernetics", "second-order", "observing system"],
+        "question": "Second-order cybernetics in family therapy introduced the concept that:",
+        "options": [
+          "Therapists observe families from a completely objective position",
+          "The observer is part of the system being observed and influences what is seen",
+          "Only machines can be truly systemic",
+          "Family therapy should be abandoned"
+        ],
+        "correct": 1,
+        "explanation": "Second-order cybernetics (cybernetics of cybernetics) recognizes that the observer cannot be separated from the observed. The therapist is part of the therapeutic system, not an objective external observer. What the therapist 'sees' is co-constructed with the family. This led to greater attention to therapist reflexivity, the therapeutic relationship as a system, and the influence of therapist beliefs on what problems and solutions are possible. It challenged the expert stance of first-order approaches.",
+        "citation": "von Foerster, H. (1981). Observing Systems. Intersystems Publications; Hoffman, L. (1985). Beyond Power and Control. Family Systems Medicine, 3(4), 381-396.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Second-order = the observer is IN the picture, not just looking at it. You influence what you observe."
+      },
+      {
+        "id": 209,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["SFBT", "compliments", "intervention"],
+        "question": "In SFBT, 'compliments' at the end of a session serve to:",
+        "options": [
+          "Flatter the client to ensure they return",
+          "Highlight client strengths and resources that emerged during the conversation",
+          "Avoid dealing with difficult topics",
+          "Replace the need for homework tasks"
+        ],
+        "correct": 1,
+        "explanation": "SFBT compliments are genuine observations about client strengths, resources, and successes that emerged during the session. They validate what clients are already doing well and reinforce solution-building. Compliments bridge to any tasks or suggestions by establishing the client's capacity to carry them out. They're specific (not general praise), based on session content, and highlight both coping and change. This fits SFBT's philosophy of building on strengths.",
+        "citation": "de Shazer, S. (1988). Clues: Investigating Solutions in Brief Therapy. W. W. Norton; Berg, I. K., & Dolan, Y. (2001). Tales of Solutions. W. W. Norton.",
+        "studyUrls": ["https://solutionfocused.net/"],
+        "memoryTip": "SFBT compliments = specific observations of strength, not empty flattery. 'I noticed you...' not 'You're great!'"
+      },
+      {
+        "id": 210,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["therapeutic neutrality", "Milan", "stance"],
+        "question": "Therapeutic neutrality in systemic therapy refers to:",
+        "options": [
+          "Having no emotional response to clients",
+          "Not taking sides among family members while being curious about all perspectives",
+          "Refusing to make any interventions",
+          "Treating all families exactly the same way"
+        ],
+        "correct": 1,
+        "explanation": "Therapeutic neutrality involves not taking sides or forming alliances with any family member against another. The therapist maintains curiosity about all perspectives without judging who is 'right.' This allows all members to feel heard and keeps the therapist from being triangulated. Neutrality doesn't mean having no values or opinions—it means not using the therapeutic position to impose them. Later critiques noted neutrality is impossible regarding issues like violence and oppression.",
+        "citation": "Selvini Palazzoli, M., Boscolo, L., Cecchin, G., & Prata, G. (1980). Hypothesizing-Circularity-Neutrality. Family Process, 19(1), 3-12; Cecchin, G. (1987). Hypothesizing, Circularity, and Neutrality Revisited. Family Process, 26(4), 405-413.",
+        "studyUrls": ["https://www.aamft.org/"],
+        "memoryTip": "Neutrality = curious about ALL, allied with NONE. Multi-partial, not impartial."
       }
 ]
  
