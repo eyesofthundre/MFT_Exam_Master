@@ -1965,7 +1965,8 @@
             
             <div class="input-group">
                 <label for="questionCount">Number of Questions</label>
-                <input type="number" id="questionCount" value="10" min="5" max="150">
+                <input type="number" id="questionCount" value="10" min="5" max="200">
+                <small id="questionCountNote" style="display: none; color: var(--primary); margin-top: 5px;">📝 National MFT Exam format: 200 questions</small>
             </div>
             
             <div class="action-buttons">
@@ -2626,11 +2627,11 @@
         // Select study mode
         function selectMode(mode) {
             state.studyMode = mode;
-            
+
             // Show study settings
             document.getElementById('dashboard').classList.add('hidden');
             document.getElementById('studySettings').classList.remove('hidden');
-            
+
             // Populate domain selection
             const domainSelection = document.getElementById('domainSelection');
             domainSelection.innerHTML = domains.map(domain => `
@@ -2642,6 +2643,20 @@
                     </label>
                 </div>
             `).join('');
+
+            // Handle exam mode - fixed at 200 questions like the national exam
+            const questionCountInput = document.getElementById('questionCount');
+            const questionCountNote = document.getElementById('questionCountNote');
+
+            if (mode === 'exam') {
+                questionCountInput.value = 200;
+                questionCountInput.disabled = true;
+                questionCountNote.style.display = 'block';
+            } else {
+                questionCountInput.value = 10;
+                questionCountInput.disabled = false;
+                questionCountNote.style.display = 'none';
+            }
 
             // Show fresh questions info
             updateFreshQuestionsInfo();
