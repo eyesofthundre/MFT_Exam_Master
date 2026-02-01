@@ -964,6 +964,8 @@
             padding: 20px;
             margin-bottom: 20px;
             box-shadow: 0 4px 6px var(--shadow);
+            width: 100%;
+            max-width: 100%;
         }
 
         .question-palette h3 {
@@ -992,10 +994,11 @@
 
         .palette-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-            gap: 8px;
-            max-height: 300px;
-            overflow-y: auto;
+            grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+            gap: 10px;
+            max-height: none;
+            overflow-y: visible;
+            padding: 10px 0;
         }
 
         .palette-grid.collapsed {
@@ -1003,9 +1006,9 @@
         }
 
         .palette-item {
-            width: 44px;
-            height: 44px;
-            min-width: 44px;
+            width: 48px;
+            height: 48px;
+            min-width: 48px;
             border-radius: 8px;
             border: 2px solid var(--border);
             background: var(--bg);
@@ -1252,15 +1255,15 @@
             }
 
             .palette-grid {
-                grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-                gap: 6px;
+                grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+                gap: 8px;
             }
 
             .palette-item {
-                width: 40px;
-                height: 40px;
-                min-width: 40px;
-                font-size: 0.8rem;
+                width: 44px;
+                height: 44px;
+                min-width: 44px;
+                font-size: 0.85rem;
             }
         }
 
@@ -1332,14 +1335,11 @@
                 display: block;
             }
 
+            /* Question navigator stays full-width at bottom for easy access */
             #studySession .question-palette {
-                position: fixed;
-                right: 20px;
-                top: 100px;
-                width: 300px;
-                max-height: calc(100vh - 140px);
-                overflow-y: auto;
-                z-index: 100;
+                position: relative;
+                width: 100%;
+                max-width: 100%;
             }
 
             /* Ensure navigation card is always visible */
@@ -2229,19 +2229,19 @@
                 </div>
             </div>
 
-            <!-- Question Navigator (Bottom) -->
+            <!-- Question Navigator (Bottom - Full Width) -->
             <div class="question-palette" id="questionNavigator">
-                <h3>
-                    <span>Question Navigator</span>
-                    <button class="palette-toggle" onclick="toggleNavigator()">Hide Navigator</button>
+                <h3 style="font-size: 1.1rem; color: var(--text); margin-bottom: 15px;">
+                    <span>📋 Click Any Question to Jump</span>
+                    <button class="palette-toggle" onclick="toggleNavigator()">Hide</button>
                 </h3>
-                <div class="palette-grid" id="questionPalette"></div>
-                <div class="palette-legend">
+                <div class="palette-legend" style="margin-bottom: 12px;">
                     <div class="legend-item"><div class="legend-dot current"></div> Current</div>
                     <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
                     <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
                     <div class="legend-item" id="flaggedLegend" style="display: none;"><div class="legend-dot" style="background: #f3e8ff; border: 1px solid #9333ea;"></div> Flagged</div>
                 </div>
+                <div class="palette-grid" id="questionPalette"></div>
             </div>
 
             <!-- Show Navigator Button (when hidden) -->
@@ -2769,6 +2769,15 @@
             }
         }
 
+        // Debounced save for performance - waits 500ms after last call
+        let saveTimeout = null;
+        function debouncedSave() {
+            if (saveTimeout) clearTimeout(saveTimeout);
+            saveTimeout = setTimeout(() => {
+                saveUserData();
+            }, 500);
+        }
+
         // Start studying
         function startStudying() {
             const name = document.getElementById('studentName').value.trim();
@@ -2952,7 +2961,10 @@
                 selectedDifficulty: selectedDifficulty,
                 mode: state.studyMode
             };
-            
+
+            // Reset palette state for new session
+            resetPaletteState();
+
             // Show study session
             document.getElementById('studySettings').classList.add('hidden');
             document.getElementById('studySession').classList.remove('hidden');
@@ -3107,47 +3119,106 @@
             showQuestion();
         }
 
+        // Throttle navigation to prevent button flooding
+        let navThrottle = false;
+
         function nextQuestion() {
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
+
             const session = state.currentSession;
-            
-            if (session.currentIndex < session.questions.length - 1) {
-                session.currentIndex++;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            if (!session || !session.questions) return;
+
+            const totalQuestions = session.questions.length;
+            const answeredCount = Object.keys(session.answers).length;
+
+            // If all questions answered, finish the session
+            if (answeredCount >= totalQuestions) {
+                finishSession();
+                return;
             }
+
+            // Find the lowest numbered unanswered question
+            for (let i = 0; i < totalQuestions; i++) {
+                const questionId = session.questions[i].id;
+                if (session.answers[questionId] === undefined) {
+                    session.currentIndex = i;
+                    debouncedSave();
+                    showQuestion();
+                    window.scrollTo(0, 0);
+                    return;
+                }
+            }
+
+            // Fallback (shouldn't reach here if answeredCount is correct)
+            finishSession();
         }
-        
+
         function previousQuestion() {
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
+
             const session = state.currentSession;
+            if (!session || !session.questions) return;
 
             if (session.currentIndex > 0) {
                 session.currentIndex--;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            } else {
+                // Wrap to end
+                session.currentIndex = session.questions.length - 1;
             }
+
+            debouncedSave();
+            showQuestion();
+            window.scrollTo(0, 0);
         }
 
-        // Skip to next question without answering
+        // Skip to next unanswered question
         function skipQuestion() {
-            const session = state.currentSession;
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
 
-            if (session.currentIndex < session.questions.length - 1) {
-                session.currentIndex++;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            const session = state.currentSession;
+            if (!session || !session.questions) return;
+
+            const totalQuestions = session.questions.length;
+            const startIndex = session.currentIndex;
+
+            // Find next unanswered question
+            let nextIndex = (session.currentIndex + 1) % totalQuestions;
+
+            while (nextIndex !== startIndex) {
+                const questionId = session.questions[nextIndex].id;
+                if (session.answers[questionId] === undefined) {
+                    // Found an unanswered question
+                    session.currentIndex = nextIndex;
+                    debouncedSave();
+                    showQuestion();
+                    window.scrollTo(0, 0);
+                    return;
+                }
+                nextIndex = (nextIndex + 1) % totalQuestions;
             }
+
+            // All questions answered - go to finish
+            finishSession();
         }
 
         // Jump to a specific question number
         function jumpToQuestion(index) {
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
+
             const session = state.currentSession;
+            if (!session || !session.questions) return;
 
             if (index >= 0 && index < session.questions.length) {
                 session.currentIndex = index;
-                saveUserData();
+                debouncedSave();
                 showQuestion();
                 window.scrollTo(0, 0);
             }
@@ -3224,6 +3295,10 @@
         }
 
         // Render the question palette grid
+        // Track if palette has been initialized
+        let paletteInitialized = false;
+        let lastPaletteIndex = -1;
+
         function renderQuestionPalette() {
             const session = state.currentSession;
             const palette = document.getElementById('questionPalette');
@@ -3238,19 +3313,64 @@
 
             const flaggedSet = new Set(session.flaggedForReview || []);
 
-            palette.innerHTML = session.questions.map((q, idx) => {
+            // Only rebuild HTML if not initialized or question count changed
+            if (!paletteInitialized || palette.children.length !== session.questions.length) {
+                palette.innerHTML = session.questions.map((q, idx) => {
+                    const isAnswered = session.answers[q.id] !== undefined;
+                    const isCurrent = idx === session.currentIndex;
+                    const isFlagged = flaggedSet.has(q.id);
+
+                    let classes = 'palette-item';
+                    if (isCurrent) classes += ' current';
+                    if (isAnswered) classes += ' answered';
+                    if (isFlagged) classes += ' flagged';
+
+                    const title = `Question ${idx + 1}${isFlagged ? ' (Flagged for Review)' : ''}`;
+                    return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
+                }).join('');
+                paletteInitialized = true;
+                lastPaletteIndex = session.currentIndex;
+                return;
+            }
+
+            // Fast update: only update changed items
+            const items = palette.children;
+
+            // Update previous current item
+            if (lastPaletteIndex >= 0 && lastPaletteIndex < items.length) {
+                const prevItem = items[lastPaletteIndex];
+                prevItem.classList.remove('current');
+            }
+
+            // Update all items for answered/flagged state and set new current
+            for (let idx = 0; idx < items.length; idx++) {
+                const item = items[idx];
+                const q = session.questions[idx];
                 const isAnswered = session.answers[q.id] !== undefined;
                 const isCurrent = idx === session.currentIndex;
                 const isFlagged = flaggedSet.has(q.id);
 
-                let classes = 'palette-item';
-                if (isCurrent) classes += ' current';
-                if (isAnswered) classes += ' answered';
-                if (isFlagged) classes += ' flagged';
+                // Update classes efficiently
+                if (isCurrent) {
+                    item.classList.add('current');
+                }
+                if (isAnswered && !item.classList.contains('answered')) {
+                    item.classList.add('answered');
+                }
+                if (isFlagged && !item.classList.contains('flagged')) {
+                    item.classList.add('flagged');
+                } else if (!isFlagged && item.classList.contains('flagged')) {
+                    item.classList.remove('flagged');
+                }
+            }
 
-                const title = `Question ${idx + 1}${isFlagged ? ' (Flagged for Review)' : ''}`;
-                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
-            }).join('');
+            lastPaletteIndex = session.currentIndex;
+        }
+
+        // Reset palette state when starting new session
+        function resetPaletteState() {
+            paletteInitialized = false;
+            lastPaletteIndex = -1;
         }
 
         // Toggle navigator visibility (complete hide/show)
@@ -3320,25 +3440,20 @@
             const skipBtn = document.getElementById('skipBtn');
             const finishBtn = document.getElementById('finishBtn');
 
-            // Previous button - disable on first question
-            if (session.currentIndex === 0) {
-                prevBtn.disabled = true;
-                prevBtn.style.opacity = '0.5';
-                prevBtn.style.cursor = 'not-allowed';
-            } else {
-                prevBtn.disabled = false;
-                prevBtn.style.opacity = '1';
-                prevBtn.style.cursor = 'pointer';
-            }
+            // Previous button - always enabled (wraps around)
+            prevBtn.disabled = false;
+            prevBtn.style.opacity = '1';
+            prevBtn.style.cursor = 'pointer';
 
-            // Next/Skip vs Finish button - show finish on last question
-            if (session.currentIndex === session.questions.length - 1) {
-                nextBtn.style.display = 'none';
-                skipBtn.style.display = 'none';
+            // Always show Next and Skip buttons (Next wraps around and finishes when all answered)
+            nextBtn.style.display = 'inline-flex';
+            skipBtn.style.display = 'inline-flex';
+
+            // Show Finish button when all questions are answered (as alternative to Next)
+            const answeredCount = Object.keys(session.answers).length;
+            if (answeredCount >= session.questions.length) {
                 finishBtn.style.display = 'inline-flex';
             } else {
-                nextBtn.style.display = 'inline-flex';
-                skipBtn.style.display = 'inline-flex';
                 finishBtn.style.display = 'none';
             }
         }
