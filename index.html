@@ -1338,12 +1338,27 @@
                 grid-column: 1 / -1;
             }
 
+            #studySession > #questionDisplay {
+                grid-column: 1;
+            }
+
+            /* Navigation and action buttons card */
+            #studySession > .card:nth-child(3) {
+                grid-column: 1;
+            }
+
+            /* Flagged summary card */
+            #studySession > #flaggedSummary {
+                grid-column: 1;
+            }
+
             .question-card {
                 grid-column: 1;
             }
 
             .question-palette {
                 grid-column: 2;
+                grid-row: 2 / span 4;
                 position: sticky;
                 top: 20px;
             }
