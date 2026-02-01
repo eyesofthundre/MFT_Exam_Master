@@ -1502,7 +1502,78 @@
         body.theme-dark .btn {
             background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
         }
-        
+
+        body.theme-dark .review-question {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .review-question * {
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .answer-option {
+            background: #1e293b;
+            border-color: #475569;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .answer-option.user-answer {
+            background: #7f1d1d;
+            border-color: #ef4444;
+            color: #fecaca;
+        }
+
+        body.theme-dark .answer-option.correct-answer,
+        body.theme-dark .answer-option.user-answer.correct-answer {
+            background: #14532d;
+            border-color: #10b981;
+            color: #a7f3d0;
+        }
+
+        body.theme-dark .feedback {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .feedback.correct {
+            background: #14532d;
+            border-color: #10b981;
+        }
+
+        body.theme-dark .feedback.incorrect {
+            background: #7f1d1d;
+            border-color: #ef4444;
+        }
+
+        body.theme-dark .citation,
+        body.theme-dark .study-links,
+        body.theme-dark .memory-tip {
+            background: #334155;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .option-card {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .option-card:hover {
+            background: #334155;
+        }
+
+        body.theme-dark input,
+        body.theme-dark select,
+        body.theme-dark textarea {
+            background: #1e293b;
+            color: #e2e8f0;
+            border-color: #475569;
+        }
+
+        body.theme-dark .checkbox-item label {
+            color: #e2e8f0;
+        }
+
         body.theme-highcontrast {
             --bg: #000000;
             --surface: #000000;
@@ -1526,7 +1597,56 @@
             color: #000000;
             border: 3px solid #FFFFFF;
         }
-        
+
+        body.theme-highcontrast .review-question,
+        body.theme-highcontrast .answer-option,
+        body.theme-highcontrast .feedback,
+        body.theme-highcontrast .option-card {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        body.theme-highcontrast .review-question *,
+        body.theme-highcontrast .answer-option *,
+        body.theme-highcontrast .feedback * {
+            color: #FFFFFF;
+        }
+
+        body.theme-highcontrast .answer-option.user-answer {
+            background: #000000;
+            border: 3px solid #FF0000;
+        }
+
+        body.theme-highcontrast .answer-option.correct-answer {
+            background: #000000;
+            border: 3px solid #00FF00;
+        }
+
+        body.theme-highcontrast .feedback.correct {
+            border: 3px solid #00FF00;
+        }
+
+        body.theme-highcontrast .feedback.incorrect {
+            border: 3px solid #FF0000;
+        }
+
+        body.theme-highcontrast .citation,
+        body.theme-highcontrast .study-links,
+        body.theme-highcontrast .memory-tip {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        body.theme-highcontrast input,
+        body.theme-highcontrast select,
+        body.theme-highcontrast textarea {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
         body.theme-dyslexia {
             --bg: #fffbeb;
             --surface: #fefce8;
