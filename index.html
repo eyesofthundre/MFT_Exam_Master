@@ -1326,41 +1326,27 @@
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            /* Side-by-side layout for study session */
+            /* Side-by-side layout for study session - DISABLED for reliability */
+            /* Navigation was getting lost in grid layout, using simpler approach */
             #studySession {
-                display: grid;
-                grid-template-columns: 1fr 320px;
-                gap: 20px;
-                align-items: start;
+                display: block;
             }
 
-            #studySession > .card:first-child {
-                grid-column: 1 / -1;
+            #studySession .question-palette {
+                position: fixed;
+                right: 20px;
+                top: 100px;
+                width: 300px;
+                max-height: calc(100vh - 140px);
+                overflow-y: auto;
+                z-index: 100;
             }
 
-            #studySession > #questionDisplay {
-                grid-column: 1;
-            }
-
-            /* Navigation and action buttons card */
-            #studySession > .card:nth-child(3) {
-                grid-column: 1;
-            }
-
-            /* Flagged summary card */
-            #studySession > #flaggedSummary {
-                grid-column: 1;
-            }
-
-            .question-card {
-                grid-column: 1;
-            }
-
-            .question-palette {
-                grid-column: 2;
-                grid-row: 2 / span 4;
-                position: sticky;
-                top: 20px;
+            /* Ensure navigation card is always visible */
+            #navigationCard {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
             }
         }
 
@@ -1834,6 +1820,23 @@
             gap: 12px;
             margin-top: 20px;
         }
+
+        /* FAILSAFE: Ensure navigation card is ALWAYS visible */
+        #navigationCard {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            position: relative !important;
+        }
+
+        #navigationCard .action-buttons {
+            display: flex !important;
+        }
+
+        #navigationCard .btn {
+            display: inline-flex !important;
+        }
+
         /* ===================================
            NUCLEAR OVERRIDE - MUST BE LAST
            This overrides ALL previous font-size declarations
@@ -2125,7 +2128,7 @@
             <div id="questionDisplay"></div>
             
             <!-- Navigation -->
-            <div class="card">
+            <div class="card" id="navigationCard">
                 <h3 style="margin-bottom: 20px; color: var(--text-light); font-size: 1rem;">Ready to continue?</h3>
                 <div class="action-buttons">
                     <button class="btn btn-secondary" onclick="previousQuestion()" id="prevBtn" style="flex: 1;">
