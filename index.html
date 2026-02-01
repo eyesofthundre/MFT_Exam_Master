@@ -1474,6 +1474,11 @@
             --text: #e2e8f0;
             --text-light: #94a3b8;
             --border: #334155;
+            --success-light: #14532d;
+            --danger-light: #7f1d1d;
+            --warning-light: #78350f;
+            --primary-light: #1e3a5f;
+            --purple-light: #3b0764;
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
         }
         
@@ -1560,12 +1565,42 @@
             color: #e2e8f0;
         }
 
+        /* Dark mode: Ensure all text on colored backgrounds is readable */
+        body.theme-dark [style*="background: var(--success-light)"],
+        body.theme-dark [style*="background: var(--danger-light)"],
+        body.theme-dark [style*="background: var(--warning-light)"],
+        body.theme-dark [style*="background: var(--primary-light)"] {
+            color: #e2e8f0 !important;
+        }
+
+        body.theme-dark [style*="background: var(--success-light)"] *,
+        body.theme-dark [style*="background: var(--danger-light)"] *,
+        body.theme-dark [style*="background: var(--warning-light)"] *,
+        body.theme-dark [style*="background: var(--primary-light)"] * {
+            color: #e2e8f0 !important;
+        }
+
+        body.theme-dark .score-circle {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .vignette {
+            background: #334155;
+            color: #e2e8f0;
+        }
+
         body.theme-highcontrast {
             --bg: #000000;
             --surface: #000000;
             --text: #FFFFFF;
             --text-light: #FFFFFF;
             --border: #FFFFFF;
+            --success-light: #000000;
+            --danger-light: #000000;
+            --warning-light: #000000;
+            --primary-light: #000000;
+            --purple-light: #000000;
             background: #000000;
         }
         
@@ -1628,6 +1663,29 @@
         body.theme-highcontrast input,
         body.theme-highcontrast select,
         body.theme-highcontrast textarea {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        /* High contrast: Ensure ALL text is white on black */
+        body.theme-highcontrast [style*="background: var(--success-light)"],
+        body.theme-highcontrast [style*="background: var(--danger-light)"],
+        body.theme-highcontrast [style*="background: var(--warning-light)"],
+        body.theme-highcontrast [style*="background: var(--primary-light)"] {
+            color: #FFFFFF !important;
+            border: 2px solid #FFFFFF !important;
+        }
+
+        body.theme-highcontrast [style*="background: var(--success-light)"] *,
+        body.theme-highcontrast [style*="background: var(--danger-light)"] *,
+        body.theme-highcontrast [style*="background: var(--warning-light)"] *,
+        body.theme-highcontrast [style*="background: var(--primary-light)"] * {
+            color: #FFFFFF !important;
+        }
+
+        body.theme-highcontrast .score-circle,
+        body.theme-highcontrast .vignette {
             background: #000000;
             color: #FFFFFF;
             border: 2px solid #FFFFFF;
