@@ -1018,13 +1018,14 @@
             height: 50px;
             min-width: 50px;
             border-radius: 8px;
-            border: 2px solid var(--border);
-            background: var(--bg);
+            border: 2px solid #f59e0b;
+            background: #fef3c7;
+            color: #b45309;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             cursor: pointer;
             transition: all 0.2s;
             touch-action: manipulation;
@@ -1032,24 +1033,28 @@
 
         .palette-item:hover {
             border-color: var(--primary);
-            transform: scale(1.1);
+            transform: scale(1.05);
+            background: #fde68a;
         }
 
         .palette-item.current {
             border-color: var(--primary);
             background: var(--primary);
             color: white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
         }
 
         .palette-item.answered {
             border-color: var(--success);
-            background: var(--success-light);
-            color: var(--success);
+            background: #d1fae5;
+            color: #047857;
         }
 
         .palette-item.answered.current {
             background: var(--success);
+            border-color: var(--success);
             color: white;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
         }
 
         .palette-item.skipped {
@@ -1125,8 +1130,8 @@
         }
 
         .legend-dot.unanswered {
-            background: var(--bg);
-            border: 1px solid var(--border);
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
         }
 
         .question-palette.navigator-hidden {
@@ -1529,21 +1534,32 @@
         }
 
         body.theme-dark .palette-item {
-            background: #334155;
-            border-color: #475569;
-            color: #e2e8f0;
+            background: #78350f;
+            border-color: #f59e0b;
+            color: #fef3c7;
+        }
+
+        body.theme-dark .palette-item:hover {
+            background: #92400e;
         }
 
         body.theme-dark .palette-item.current {
             background: var(--primary);
             border-color: var(--primary);
             color: white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
         }
 
         body.theme-dark .palette-item.answered {
             background: #14532d;
             border-color: #10b981;
             color: #a7f3d0;
+        }
+
+        body.theme-dark .palette-item.answered.current {
+            background: #059669;
+            border-color: #10b981;
+            color: white;
         }
 
         body.theme-dark .review-question {
