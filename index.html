@@ -961,11 +961,18 @@
         .question-palette {
             background: white;
             border-radius: 16px;
-            padding: 20px;
+            padding: 25px;
             margin-bottom: 20px;
             box-shadow: 0 4px 6px var(--shadow);
             width: 100%;
             max-width: 100%;
+            box-sizing: border-box;
+            border-left: 6px solid var(--primary);
+        }
+
+        /* Match question card styling for consistency */
+        #studySession .question-palette {
+            margin-top: 20px;
         }
 
         .question-palette h3 {
@@ -994,11 +1001,12 @@
 
         .palette-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
             gap: 10px;
             max-height: none;
             overflow-y: visible;
-            padding: 10px 0;
+            padding: 15px 0;
+            width: 100%;
         }
 
         .palette-grid.collapsed {
@@ -1006,9 +1014,9 @@
         }
 
         .palette-item {
-            width: 48px;
-            height: 48px;
-            min-width: 48px;
+            width: 100%;
+            height: 50px;
+            min-width: 50px;
             border-radius: 8px;
             border: 2px solid var(--border);
             background: var(--bg);
@@ -1340,6 +1348,12 @@
                 position: relative;
                 width: 100%;
                 max-width: 100%;
+                margin-top: 25px;
+            }
+
+            /* Ensure palette grid fills width */
+            #studySession .palette-grid {
+                grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
             }
 
             /* Ensure navigation card is always visible */
@@ -1503,6 +1517,33 @@
 
         body.theme-dark .btn-secondary:hover {
             background: #475569;
+        }
+
+        body.theme-dark .question-palette {
+            background: #1e293b;
+            border-color: #3b82f6;
+        }
+
+        body.theme-dark .question-palette h3 {
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .palette-item {
+            background: #334155;
+            border-color: #475569;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .palette-item.current {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        body.theme-dark .palette-item.answered {
+            background: #14532d;
+            border-color: #10b981;
+            color: #a7f3d0;
         }
 
         body.theme-dark .review-question {
