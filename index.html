@@ -2789,7 +2789,7 @@
 
         // Initialize app
         async function init() {
-            console.log('🚀 Initializing MFT Exam Master...');
+            console.log('🚀 Initializing MFT Exam Master v2.1');
             
             // Load questions first
             await loadAllQuestions();
@@ -2843,7 +2843,18 @@
                         questionNotes: loadedState.questionNotes || {},
                         questionRatings: loadedState.questionRatings || {},
                         seenQuestions: loadedState.seenQuestions || [],
-                        questionStats: loadedState.questionStats || {}
+                        questionStats: loadedState.questionStats || {},
+                        userFeedback: loadedState.userFeedback || [],
+                        history: loadedState.history || [],
+                        stats: {
+                            totalSessions: 0,
+                            totalQuestions: 0,
+                            totalCorrect: 0,
+                            lastStudyDate: null,
+                            flaggedCount: 0,
+                            ...(loadedState.stats || {})
+                        },
+                        uniqueUserId: loadedState.uniqueUserId || null
                     };
                 }
             } catch (e) {
@@ -3532,16 +3543,16 @@
         function endSessionNow() {
             const session = state.currentSession;
             const answered = Object.keys(session.answers).length;
-            
+
             if (answered === 0) {
                 alert('⚠️ You haven\'t answered any questions yet!');
                 return;
             }
-            
+
             const message = answered < session.questions.length
                 ? `🛑 You've answered ${answered} of ${session.questions.length} questions.\n\nYou'll be graded only on the questions you answered.\n\nEnd session now and see results?`
                 : `🎉 You've answered all ${answered} questions!\n\nReady to see your results?`;
-            
+
             if (confirm(message)) {
                 calculateResults();
             }
@@ -3557,22 +3568,27 @@
         function finishSession() {
             const session = state.currentSession;
             const answered = Object.keys(session.answers).length;
-            
+
             if (answered < session.questions.length) {
                 if (!confirm(`You've answered ${answered} of ${session.questions.length} questions. Finish anyway?`)) {
                     return;
                 }
             }
-            
+
             calculateResults();
         }
 
         function calculateResults() {
-            const session = state.currentSession;
-            let correct = 0;
-            const domainScores = {};
-            
-            session.questions.forEach(question => {
+            try {
+                const session = state.currentSession;
+                if (!session || !session.questions) {
+                    console.warn('No session data found');
+                    return;
+                }
+                let correct = 0;
+                const domainScores = {};
+
+                session.questions.forEach(question => {
                 const domain = question.domain;
                 if (!domainScores[domain]) {
                     domainScores[domain] = { correct: 0, total: 0, answered: 0 };
@@ -3639,7 +3655,11 @@
             // Save to enhanced sessions array
             if (!state.sessions) state.sessions = [];
             state.sessions.push(completeSession);
-            
+
+            // Ensure history and stats exist (safety check)
+            if (!state.history) state.history = [];
+            if (!state.stats) state.stats = { totalSessions: 0, totalQuestions: 0, totalCorrect: 0, lastStudyDate: null, flaggedCount: 0 };
+
             state.history.push(sessionResult);
             state.stats.totalSessions++;
             state.stats.totalQuestions += answered;
@@ -3648,9 +3668,12 @@
             
             saveUserData();
             updateDashboardStats();
-            
+
             // Show results with review button
             showResults(sessionResult, passing, completeSession.id);
+            } catch (error) {
+                console.error('Error in calculateResults:', error);
+            }
         }
 
         function showResults(result, passing, sessionId) {
