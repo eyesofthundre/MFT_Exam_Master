@@ -3357,19 +3357,24 @@
 
         // Render the question palette grid with numbered buttons
         function renderQuestionPalette() {
+            console.log('renderQuestionPalette called');
+
             const session = state.currentSession;
             const palette = document.getElementById('questionPalette');
             const flaggedLegend = document.getElementById('flaggedLegend');
 
             if (!palette) {
-                console.warn('Question palette element not found');
+                console.error('ERROR: Question palette element not found!');
                 return;
             }
 
             if (!session || !session.questions || session.questions.length === 0) {
-                console.warn('No questions in session');
+                console.error('ERROR: No questions in session!', session);
+                palette.innerHTML = '<div style="color: red; padding: 20px;">No questions loaded</div>';
                 return;
             }
+
+            console.log('Rendering palette with', session.questions.length, 'questions');
 
             // Show flagged legend in exam mode
             if (flaggedLegend) {
@@ -3378,8 +3383,10 @@
 
             const flaggedSet = new Set(session.flaggedForReview || []);
 
-            // Always rebuild the palette to ensure numbers show
-            palette.innerHTML = session.questions.map((q, idx) => {
+            // Build the palette HTML
+            let html = '';
+            for (let idx = 0; idx < session.questions.length; idx++) {
+                const q = session.questions[idx];
                 const isAnswered = session.answers[q.id] !== undefined;
                 const isCurrent = idx === session.currentIndex;
                 const isFlagged = flaggedSet.has(q.id);
@@ -3389,9 +3396,12 @@
                 if (isAnswered) classes += ' answered';
                 if (isFlagged) classes += ' flagged';
 
-                const title = `Question ${idx + 1}${isAnswered ? ' (Answered)' : ' (Unanswered)'}${isFlagged ? ' - Flagged for Review' : ''}`;
-                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
-            }).join('');
+                const title = `Question ${idx + 1}${isAnswered ? ' (Answered)' : ' (Unanswered)'}${isFlagged ? ' - Flagged' : ''}`;
+                html += `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
+            }
+
+            palette.innerHTML = html;
+            console.log('Palette rendered, innerHTML length:', palette.innerHTML.length);
         }
 
         // Reset palette state when starting new session (kept for compatibility)
