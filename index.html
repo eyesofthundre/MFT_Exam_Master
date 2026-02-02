@@ -2817,17 +2817,34 @@
             try {
                 const saved = localStorage.getItem('mftExamMaster');
                 if (saved) {
-                    state = JSON.parse(saved);
-                    // Migration: ensure required properties exist for existing users
-                    if (!state.seenQuestions) {
-                        state.seenQuestions = [];
-                    }
-                    if (!state.questionRatings) {
-                        state.questionRatings = {};
-                    }
-                    if (!state.questionNotes) {
-                        state.questionNotes = {};
-                    }
+                    const loadedState = JSON.parse(saved);
+
+                    // Merge loaded state with defaults to ensure all properties exist
+                    state = {
+                        userName: loadedState.userName || '',
+                        studyMode: loadedState.studyMode || 'practice',
+                        preferences: {
+                            fontSize: 16,
+                            theme: 'light',
+                            lineSpacing: 1.6,
+                            showRunningScore: true,
+                            ...(loadedState.preferences || {})
+                        },
+                        currentSession: loadedState.currentSession || {
+                            questions: [],
+                            currentIndex: 0,
+                            answers: {},
+                            startTime: null,
+                            selectedDomains: [],
+                            selectedDifficulty: [],
+                            questionDetails: []
+                        },
+                        sessions: loadedState.sessions || [],
+                        questionNotes: loadedState.questionNotes || {},
+                        questionRatings: loadedState.questionRatings || {},
+                        seenQuestions: loadedState.seenQuestions || [],
+                        questionStats: loadedState.questionStats || {}
+                    };
                 }
             } catch (e) {
                 console.warn('Could not load saved data:', e.message);
