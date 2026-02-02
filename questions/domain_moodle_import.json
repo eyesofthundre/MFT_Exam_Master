@@ -1,0 +1,362 @@
+[
+    {
+        "id": 30112,
+        "domain": "Crisis Management",
+        "difficulty": "medium",
+        "tags": ["crisis", "sexual assault", "medical emergency", "first intervention"],
+        "question": "A woman who was just raped calls you in crisis and then comes to your office that day. She tells you that she does not want to press charges. You should first:",
+        "options": [
+            "Report the rape to the police",
+            "Maintain her confidence and deal with the issues therapeutically",
+            "Suggest a doctor's examination",
+            "Ask her for details about the rape"
+        ],
+        "correct": 2,
+        "explanation": "The immediate priority with a sexual assault survivor is addressing medical needs. A medical examination can address physical injuries, provide STI testing/prevention, offer emergency contraception, and preserve forensic evidence if she later decides to report. Respecting her autonomy about not pressing charges is important, but medical care comes first. Therapeutic processing can follow once immediate safety and medical needs are addressed. Reporting to police would violate confidentiality, and asking for details may be retraumatizing as a first intervention.",
+        "citation": "Source: AATBS MFT Exam Prep. Crisis intervention principles; AAMFT Code of Ethics regarding client autonomy",
+        "studyUrls": ["https://www.rainn.org/articles/what-expect-hospital", "https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+        "memoryTip": "SAFETY FIRST in crisis: Medical needs before therapeutic processing. 'Suggest a doctor' = immediate physical safety."
+    },
+    {
+        "id": 30059,
+        "domain": "Treatment Planning",
+        "difficulty": "medium",
+        "tags": ["termination", "continuity of care", "referral", "ethics"],
+        "question": "A woman you have been seeing is terminating therapy early because she is going away to college soon. What should you do?",
+        "options": [
+            "Ensure she gets therapy in her new location",
+            "Try to do as much as possible with her before she moves",
+            "Do occasional phone sessions with her after she leaves for school",
+            "Tell her to come back and see you during school breaks"
+        ],
+        "correct": 0,
+        "explanation": "When a client terminates therapy due to relocation, the ethical responsibility is to ensure continuity of care by helping them connect with appropriate therapeutic services in their new location. The question implies treatment goals are not yet achieved. Rushing services (B) is inappropriate. Phone sessions across state lines (C) may violate licensing requirements. Suggesting she return during breaks (D) doesn't address ongoing therapeutic needs.",
+        "citation": "Source: AATBS MFT Exam Prep. AAMFT Code of Ethics - Standard 1.11 (Termination); Continuity of care principles",
+        "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx", "https://www.goodtherapy.org/blog/how-to-end-therapy-right-way-1218145"],
+        "memoryTip": "Termination = TRANSITION, not abandonment. Help them CONNECT to new services, don't cram or create dependency."
+    },
+    {
+        "id": 29159,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "hard",
+        "tags": ["identified patient", "reframing", "scapegoating", "strategic therapy", "systemic"],
+        "question": "The Johnson family comes to you for therapy. They have three children: Bill, age 15, Sally age 9, and Michael, age 7. Bill is rebellious and hostile at home. At school, he has been truant and fighting with teachers and peers. In the initial interview, you notice that the mother seems to dominate the family. You have to intervene several times when the family \"gangs up\" on Bill, as they seem to think that he is the source of all of their problems. After the second session, the mother asks you to see Bill alone, since \"he is the one with the problem\". You agree to do this for a few sessions, but explain that, after this, you will want to see the whole family again. Before your third session with Bill, the mother calls and says that Bill's behavior has not improved, and that therapy is not working. What would have been the most appropriate therapy in the above case?",
+        "options": [
+            "Immediate problem-solving via a carefully designed behavior modification program targeting Bill's objectionable behaviors",
+            "Referring Bill to a teen group where he would get support and some \"reality therapy\" from his peers",
+            "Reframing Bill's bad behavior as serving some useful purpose in the family system",
+            "Confronting the family about their faulty beliefs and dysfunctional communication patterns"
+        ],
+        "correct": 2,
+        "explanation": "Bill is the 'identified patient' (IP) being scapegoated by the family. From a systemic perspective, his symptoms serve a function in maintaining family homeostasis. Reframing his behavior as serving a useful purpose shifts the family from linear thinking ('Bill is the problem') to circular/systemic thinking. Options A and B reinforce Bill as the sole problem, ignoring family dynamics. Option D could be appropriate later but is too confrontational early in treatment before rapport is established.",
+        "citation": "Source: AATBS MFT Exam Prep. Strategic Family Therapy (Haley, Madanes); Structural Family Therapy (Minuchin); MRI Brief Therapy",
+        "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/types/strategic-family-therapy", "https://www.aamft.org/Consumer_Updates/Identified_Patient.aspx"],
+        "memoryTip": "IP = Identified Patient = SCAPEGOAT. REFRAMING shifts blame from individual to SYSTEM. Think circular, not linear."
+    },
+    {
+        "id": 29550,
+        "domain": "Assessment and Diagnosis",
+        "difficulty": "medium",
+        "tags": ["assessment", "observation", "child therapy", "attachment", "systemic"],
+        "question": "A mother brings in her daughter, age five, for play therapy. The daughter has been clingy and anxious. The mother tried to enroll the daughter in preschool, but the child cried all day and had to be taken home. This also happened the second time she tried to take her to preschool. The mother tells you that her daughter has \"always been sensitive\" but that things have been worse lately because of the tension between the mother and the child's father, who does not live with them. The best way to diagnose the problem would be to",
+        "options": [
+            "Directly observe interactions between the mother and daughter",
+            "Ask the mother what she observes in the daughter",
+            "Observe the child's themes in play",
+            "Ask the child what she thinks is wrong with her"
+        ],
+        "correct": 0,
+        "explanation": "From a systemic perspective, the child's separation anxiety is a relational symptom that should be assessed in the context of the mother-daughter relationship. Direct observation of their interactions reveals attachment patterns, communication styles, and how the mother responds to the child's anxiety. The mother mentioned parental tension, suggesting the child may be responding to family stress. Asking a 5-year-old what's 'wrong with her' is developmentally inappropriate, and relying solely on maternal report or individual play themes misses the relational context.",
+        "citation": "Source: AATBS MFT Exam Prep. Family Systems Assessment; Attachment Theory (Bowlby, Ainsworth)",
+        "studyUrls": ["https://www.attachmenttraumanetwork.org/", "https://www.aamft.org/Consumer_Updates/Family_Therapy_Basics.aspx"],
+        "memoryTip": "Separation anxiety = RELATIONAL symptom. Assess the RELATIONSHIP through direct OBSERVATION, not just reports."
+    },
+    {
+        "id": 30030,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["systems theory", "equipotentiality", "equifinality", "general systems theory"],
+        "question": "John and Jacob are brothers that grew up in an extremely authoritarian household. The father demanded strict obedience and harsh punishments. Once they became adults themselves, John had similar parenting styles and raised his children in the same way in which he was raised. Jacob, on the other hand, was mindful to change these patterns, and instead parented his children with a loving, teaching, and supportive style. This is an example of _________________.",
+        "options": [
+            "Equifinality",
+            "Equipotentiality",
+            "Homeostasis",
+            "Morphostasis"
+        ],
+        "correct": 1,
+        "explanation": "Equipotentiality predicts that the same initial circumstances can have different outcomes. Both brothers experienced the same authoritarian upbringing (same starting point), but John replicated the pattern while Jacob changed it (different outcomes). This helps therapists learn not to predict causality within a family. Equifinality is the opposite - different starting points leading to the same outcome. Homeostasis and morphostasis both refer to systems maintaining stability.",
+        "citation": "Source: AATBS MFT Exam Prep. General Systems Theory (von Bertalanffy); Family Systems concepts",
+        "studyUrls": ["https://www.britannica.com/science/systems-theory", "https://www.goodtherapy.org/learn-about-therapy/types/family-systems-therapy"],
+        "memoryTip": "EQUI-POTENTIALITY = same POTENTIAL start, DIFFERENT ends. EQUI-FINALITY = same FINAL outcome, different starts. Think: POTENTIALity = starting POTENTial."
+    },
+    {
+        "id": 29226,
+        "domain": "Ethics and Professional Practice",
+        "difficulty": "hard",
+        "tags": ["ethics", "therapist misconduct", "informed consent", "confidentiality", "client autonomy"],
+        "question": "During your second session with a client, she tells you that she had a sexual relationship with her former therapist. She says that she is embarrassed and just wants to forget the whole thing, but that she still has feelings for the therapist. The client also says that she's told you this because she trusts you, but she knows that therapists \"stick together\" and that you probably won't do anything. Your ethical obligation in this situation is to ______________.",
+        "options": [
+            "Call the other therapist to find out his side of the story",
+            "Inform the client of her legal rights and options",
+            "Report the therapist to the licensing board",
+            "Collect additional information about the matter in subsequent sessions"
+        ],
+        "correct": 1,
+        "explanation": "The AAMFT Code of Ethics requires respecting clients' rights to make decisions and helping them understand consequences (Standard 1.7). Informing the client of her legal rights and options empowers her to make her own decision. Calling the other therapist (A) or reporting to the board (C) would violate client confidentiality. While discussing in future sessions (D) may be helpful therapeutically, the question asks about ethical obligation, which is to inform her of her rights.",
+        "citation": "Source: AATBS MFT Exam Prep. AAMFT Code of Ethics - Standard 1.7 (Client Autonomy); State licensing board guidelines",
+        "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx", "https://www.zurinstitute.com/sexual-misconduct/"],
+        "memoryTip": "INFORM, don't DECIDE for the client. Respect AUTONOMY = let THEM choose what to do with the information."
+    },
+    {
+        "id": 29271,
+        "domain": "Treatment Planning",
+        "difficulty": "medium",
+        "tags": ["dual diagnosis", "co-occurring disorders", "substance abuse", "mental health", "referral"],
+        "question": "A therapist is working with Greg who is also taking medication for a severe mental disorder. The therapist finds out that he has been using a lot of alcohol. Where would be the best place for the therapist to refer Greg?",
+        "options": [
+            "To a dual diagnosis setting",
+            "For in-patient treatment",
+            "To a therapist specializing in chemical treatment",
+            "To a psychiatrist"
+        ],
+        "correct": 0,
+        "explanation": "Greg presents with co-occurring disorders: a severe mental disorder and alcohol abuse. Dual diagnosis settings provide integrated treatment that addresses both mental health and substance use disorders simultaneously. Research consistently shows that treating both conditions together leads to better outcomes than treating them separately. Chemical treatment alone (C) ignores mental health needs. A psychiatrist (D) focuses on medication management. In-patient (B) is a level of care, not a specialization.",
+        "citation": "Source: AATBS MFT Exam Prep. SAMHSA TIP 42: Substance Abuse Treatment for Persons With Co-Occurring Disorders",
+        "studyUrls": ["https://www.samhsa.gov/find-help/national-helpline", "https://store.samhsa.gov/product/TIP-42-Substance-Use-Disorder-Treatment-for-People-With-Co-Occurring-Disorders/PEP20-02-01-004"],
+        "memoryTip": "Two problems = DUAL diagnosis. DUAL = treat BOTH together, not separately. Mental health + substance use = integrated care."
+    },
+    {
+        "id": 29636,
+        "domain": "Assessment and Diagnosis",
+        "difficulty": "medium",
+        "tags": ["genogram", "assessment", "family patterns", "multigenerational", "Bowen"],
+        "question": "A marriage and family therapist is working with Lucy to help her understand why she doesn't seem to advance in any of the jobs she has held. Lucy has an older brother who is highly successful. Even though they did equally well in school, Lucy seems to underestimate herself and sell herself short in all of her jobs. She states, \"I guess I'm just not very smart\". She has been working for free on the weekends as a bookkeeper for a friend for the past five years. Lucy won't accept payment from him, even though she has a hard time making ends meet. The therapist theorizes that her behavior may be related to a system of beliefs that there must always be a \"loser\" for every \"winner\" in sibling relationships. What intervention would the therapist use to highlight the problematic beliefs that Lucy seems to have?",
+        "options": [
+            "Empty chair work",
+            "Interpretation of the transference",
+            "A genogram",
+            "Bring the brother in for a conjoint session"
+        ],
+        "correct": 2,
+        "explanation": "A genogram is an assessment tool and intervention that helps clients become aware of unconscious patterns inherited from prior generations through the 'multigenerational transmission process.' It would help Lucy SEE how the 'winner/loser' sibling dynamic developed in her family. Empty chair (A) is Gestalt technique for disowned aspects. Transference interpretation (B) focuses on the therapist relationship. A conjoint session (D) doesn't specifically address Lucy's internalized beliefs about sibling roles.",
+        "citation": "Source: AATBS MFT Exam Prep. McGoldrick, Gerson & Petry - Genograms: Assessment and Intervention; Bowen Family Systems Theory",
+        "studyUrls": ["https://www.genopro.com/genogram/", "https://www.goodtherapy.org/learn-about-therapy/types/genograms"],
+        "memoryTip": "GENOGRAM = GENO (family/generations) + GRAM (picture/map). Visual MAP of family BELIEFS and PATTERNS across generations."
+    },
+    {
+        "id": 29480,
+        "domain": "Assessment and Diagnosis",
+        "difficulty": "easy",
+        "tags": ["DSM-5", "substance use disorder", "diagnosis", "severity"],
+        "question": "As described in the DSM-5, the level of severity of Substance Use Disorders is based on ________________.",
+        "options": [
+            "Degree of social impairment",
+            "Number of symptoms",
+            "The presence of tolerance and/or withdrawal",
+            "The degree of distress caused by use of the substance"
+        ],
+        "correct": 1,
+        "explanation": "In DSM-5, Substance Use Disorder severity is determined by the number of symptoms from 11 diagnostic criteria: Mild (2-3 symptoms), Moderate (4-5 symptoms), and Severe (6 or more symptoms). This replaced the DSM-IV distinction between 'abuse' and 'dependence.' Social impairment (A) is one criterion. Tolerance/withdrawal (C) were emphasized in DSM-IV but are now just 2 of 11 criteria. Distress (D) is important but doesn't determine severity level.",
+        "citation": "Source: AATBS MFT Exam Prep. DSM-5 Substance-Related and Addictive Disorders",
+        "studyUrls": ["https://www.psychiatry.org/patients-families/addiction-substance-use-disorders", "https://www.ncbi.nlm.nih.gov/books/NBK519702/"],
+        "memoryTip": "DSM-5 SUD = COUNT the symptoms! 2-3 = Mild, 4-5 = Moderate, 6+ = Severe. Simple math determines severity."
+    },
+    {
+        "id": 29981,
+        "domain": "Ethics and Professional Practice",
+        "difficulty": "medium",
+        "tags": ["ethics", "LGBTQ", "values", "informed consent", "referral", "self-disclosure"],
+        "question": "Stephen is age 25, gay, and not in a committed relationship. He asks you if you believe homosexuality is wrong, or if you can support his search for a permanent partner. From an ethical standpoint, you should __________________.",
+        "options": [
+            "Tell him your values and beliefs are unimportant and that you have the clinical skills to help him toward his goals regardless of your own opinions",
+            "Share just enough of your own values and beliefs to allow Stephen to make an informed decision about whether he is comfortable working with you",
+            "Share your values and beliefs only if your theoretical orientation permits self-disclosure",
+            "Share your values and beliefs and, if you cannot be supportive, offer to refer Stephen to someone who is more comfortable with gay clients"
+        ],
+        "correct": 3,
+        "explanation": "This answer addresses all ethical obligations: transparency when directly asked (informed consent), and appropriate action if there's a values conflict (referral to protect the client from potential harm). Option A dismisses the client's legitimate concern. Option B doesn't address what to do if there's incompatibility. Option C inappropriately prioritizes theoretical orientation over client welfare. The ethical principle of 'do no harm' requires referral when a therapist cannot provide affirmative, supportive care.",
+        "citation": "Source: AATBS MFT Exam Prep. AAMFT Code of Ethics - Non-discrimination; Informed Consent; Standard 1.1",
+        "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx", "https://www.apa.org/pi/lgbt/resources/guidelines"],
+        "memoryTip": "Can't SUPPORT the client's goals? Must REFER. Honesty about values + appropriate ACTION (referral if needed) = complete ethical response."
+    },
+    {
+        "id": 29224,
+        "domain": "Ethics and Professional Practice",
+        "difficulty": "medium",
+        "tags": ["multicultural", "cultural competence", "diversity", "ethics"],
+        "question": "When providing therapy to a racially or culturally different client, the therapist should __________________.",
+        "options": [
+            "Discuss the difference only if the client raises concerns about it",
+            "Rely on generalizations about the client's racial or cultural group to maximize the effectiveness of therapy",
+            "Ask the client if he or she has any concerns about the difference during an initial session",
+            "Be aware that a client's experiences with prejudice may take the form of paranoia and pathological defensiveness"
+        ],
+        "correct": 2,
+        "explanation": "Culturally competent practice involves proactively addressing racial and cultural differences early in therapy. This demonstrates cultural awareness, opens dialogue about potential concerns, and gives permission to discuss the topic. Option A places too much responsibility on the client. Option B is stereotyping. Option D pathologizes legitimate responses to discrimination by labeling them as 'paranoia' and 'pathological defensiveness,' which is culturally insensitive.",
+        "citation": "Source: AATBS MFT Exam Prep. Sue & Sue - Counseling the Culturally Diverse; APA Multicultural Guidelines",
+        "studyUrls": ["https://www.apa.org/about/policy/multicultural-guidelines", "https://www.counseling.org/knowledge-center/competencies"],
+        "memoryTip": "Be PROACTIVE about culture, not passive. ASK early in initial session, don't ASSUME (stereotypes) or PATHOLOGIZE (calling responses 'paranoid')."
+    },
+    {
+        "id": 30113,
+        "domain": "Ethics and Professional Practice",
+        "difficulty": "easy",
+        "tags": ["mandated reporting", "child abuse", "ethics", "legal"],
+        "question": "You are counseling an 11-year-old girl who tells you she has been physically abused by her mother. As evidence, she shows you the bruises and scars on her back and neck. You are legally required to do which of the following?",
+        "options": [
+            "Contact the girl's parents and request that they contact an appropriate child protection agency",
+            "Investigate the situation to determine whether the girl is telling the truth",
+            "Report the suspected abuse to an appropriate authority",
+            "Turn the child over to an appropriate authority"
+        ],
+        "correct": 2,
+        "explanation": "Therapists are mandated reporters legally required to report SUSPECTED child abuse to appropriate authorities (CPS) when there is reasonable suspicion. With verbal disclosure and visible physical evidence, the threshold is clearly met. You don't contact the alleged abuser (A), you don't investigate - that's CPS's job (B), and you don't physically remove the child (D). Your role is to REPORT; authorities determine subsequent actions.",
+        "citation": "Source: AATBS MFT Exam Prep. State Mandated Reporter Laws; Child Abuse Prevention and Treatment Act (CAPTA)",
+        "studyUrls": ["https://www.childwelfare.gov/topics/systemwide/laws-policies/statutes/manda/", "https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+        "memoryTip": "SUSPECTED = REPORT. Don't investigate, don't warn abuser, don't remove child. Just REPORT to authorities. They investigate."
+    },
+    {
+        "id": 30081,
+        "domain": "Treatment Planning",
+        "difficulty": "medium",
+        "tags": ["premature termination", "engagement", "psychoeducation", "therapeutic relationship"],
+        "question": "The best thing to say to a new client to help decrease the possibility of premature termination is _______________.",
+        "options": [
+            "\"If you stick through the hard times, you will feel better in the long run\"",
+            "\"It will probably feel worse before it feels better\"",
+            "\"You will probably want to leave therapy before it's complete\"",
+            "\"It is best to make a commitment to a certain number of sessions in advance\""
+        ],
+        "correct": 1,
+        "explanation": "Clients often feel worse as painful feelings emerge during progress, or feel frustrated that issues are more complex than expected. Preparing them for this from the beginning helps prevent premature termination when therapy gets difficult. Option A guarantees an outcome (inappropriate). Option C ('you'll want to leave') is not necessarily true. Option D is inappropriate - clients have the right to terminate at any time without required commitments.",
+        "citation": "Source: AATBS MFT Exam Prep. Therapeutic engagement and retention research; Client preparation for therapy",
+        "studyUrls": ["https://www.apa.org/pubs/journals/features/pst-pst0000078.pdf", "https://societyforpsychotherapy.org/"],
+        "memoryTip": "Prepare for the PROCESS getting harder ('worse before better'), not for wanting to QUIT. Set realistic EXPECTATIONS about the emotional journey."
+    },
+    {
+        "id": 29672,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["homeostasis", "systems theory", "alcoholism", "family dynamics"],
+        "question": "According to a systems perspective, when an alcoholic husband or father stops drinking ___________________.",
+        "options": [
+            "The family responds positively in terms of their covert behavior",
+            "The family exerts covert pressure on the husband/father in order to reestablish homeostasis",
+            "The family responds positively on a covert level but negativity on an overt level",
+            "The family exerts covert pressure on the husband/father to conform to social norms"
+        ],
+        "correct": 1,
+        "explanation": "According to family systems theory, families maintain homeostasis (equilibrium) even around dysfunctional patterns. If an alcoholic stops drinking, the family's balance is upset. Other members will react by unconsciously (covertly) encouraging the alcoholic to resume drinking to restore homeostasis. The family may be overtly supportive but covertly undermine sobriety. This explains enabling behaviors and why families can inadvertently sabotage recovery.",
+        "citation": "Source: AATBS MFT Exam Prep. Family Systems Theory; Jackson's concept of family homeostasis; Steinglass et al. - The Alcoholic Family",
+        "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/issues/codependency", "https://www.aamft.org/Consumer_Updates/Alcoholism_and_Families.aspx"],
+        "memoryTip": "Change disrupts HOMEOSTASIS. Family unconsciously (COVERTLY) pulls back to the FAMILIAR, even if dysfunctional. Overtly positive, covertly sabotaging."
+    },
+    {
+        "id": 29098,
+        "domain": "Assessment and Diagnosis",
+        "difficulty": "hard",
+        "tags": ["borderline personality disorder", "BPD", "treatment", "resistance"],
+        "question": "Which of the following would you expect to encounter when treating a client with Borderline Personality Disorder?",
+        "options": [
+            "Overt expressions of cooperation with covert resistance to treatment",
+            "Violent outbursts",
+            "Flat affect",
+            "Cooperation with treatment recommendations"
+        ],
+        "correct": 0,
+        "explanation": "This captures the common ambivalence and confusing interactions in treating BPD clients - they may appear cooperative overtly while covertly resisting treatment. This reflects the splitting, push-pull dynamics, and challenging therapeutic relationships characteristic of BPD. While BPD includes difficulty controlling emotions, violent outbursts are NOT a defining treatment expectation. Flat affect is the opposite of BPD (emotions are intense). Simple cooperation is rarely the experience in BPD treatment.",
+        "citation": "Source: AATBS MFT Exam Prep. DSM-5 Borderline Personality Disorder; Linehan - Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+        "studyUrls": ["https://www.nimh.nih.gov/health/topics/borderline-personality-disorder", "https://behavioraltech.org/resources/faqs/borderline-personality-disorder-faqs/"],
+        "memoryTip": "BPD treatment = AMBIVALENCE and CONFUSION. Looks cooperative on surface (OVERT), but COVERTLY resists. Expect mixed signals, not straightforward cooperation."
+    },
+    {
+        "id": 30045,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["solution-focused", "SFBT", "exceptions", "strengths"],
+        "question": "As a solution-focused family therapist, the purpose of asking a family questions about circumstances in which the problem does NOT occur is to ____________.",
+        "options": [
+            "Maintain rapport with the family",
+            "Change the direction of the interview",
+            "Assess the resources and strengths of the family",
+            "Contextualize the problem"
+        ],
+        "correct": 2,
+        "explanation": "In Solution-Focused Brief Therapy (SFBT), exception questions ask about times when the problem doesn't occur to identify existing strengths, resources, and solutions. The assumption is that clients already have competencies. By exploring exceptions, the therapist discovers what's already working and helps the family 'do more of it.' This is fundamentally different from problem-focused approaches that contextualize when/why problems occur (D).",
+        "citation": "Source: AATBS MFT Exam Prep. de Shazer & Berg - Solution-Focused Brief Therapy; SFBT principles",
+        "studyUrls": ["https://solutionfocused.net/", "https://www.goodtherapy.org/learn-about-therapy/types/solution-focused-therapy"],
+        "memoryTip": "EXCEPTION questions find EXISTING strengths and resources. When does it NOT happen? What's ALREADY WORKING? Do MORE of it."
+    },
+    {
+        "id": 29181,
+        "domain": "Ethics and Professional Practice",
+        "difficulty": "hard",
+        "tags": ["mandated reporting", "child abuse", "assessment", "hypothetical disclosure"],
+        "question": "The therapist is working with a 35-year-old male client that says, \"Suppose someone had sex with their 7 year-old daughter. Could they get help in therapy?\" The client has a 7-year-old daughter. The therapist should ________________.",
+        "options": [
+            "File a child abuse report",
+            "Assess further to determine if there is sufficient reason to suspect child abuse has occurred",
+            "Suggest that he bring his daughter with him to the next session",
+            "Call the daughter after the session is over to interview her"
+        ],
+        "correct": 1,
+        "explanation": "While this statement is a significant red flag (hypothetical matching his own situation), it's not a direct disclosure. Further assessment with clarifying questions ('Are you talking about yourself?' 'Has something happened with your daughter?') helps determine whether there's reasonable suspicion to trigger a mandated report. Reporting based solely on a hypothetical may be premature. Bringing the daughter (C) could alert a potential abuser. Interviewing her (D) violates confidentiality and investigation is CPS's role.",
+        "citation": "Source: AATBS MFT Exam Prep. Mandated Reporter Guidelines; AAMFT Code of Ethics",
+        "studyUrls": ["https://www.childwelfare.gov/topics/responding/reporting/", "https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+        "memoryTip": "HYPOTHETICAL = ASSESS further with direct questions. DIRECT disclosure = REPORT immediately. Clarify before acting on ambiguous statements."
+    },
+    {
+        "id": 30121,
+        "domain": "Crisis Management",
+        "difficulty": "medium",
+        "tags": ["crisis", "medical emergency", "diabetes", "alcohol withdrawal"],
+        "question": "An unemployed house painter was disabled at work. He comes in for help with relationship difficulties. He tells you he is diabetic and has been drinking at least a few pints of scotch every day for the last three weeks. While in the first session, he begins to tremble and sweat profusely and tells you he feels faint. What is your first intervention?",
+        "options": [
+            "Hospitalize him against his will",
+            "Suggest he consider going to the hospital",
+            "Call the family and tell them to hospitalize him",
+            "Call the paramedics immediately"
+        ],
+        "correct": 3,
+        "explanation": "This is a medical emergency requiring immediate intervention. The combination of diabetes and heavy alcohol use is dangerous. The acute symptoms (trembling, sweating, feeling faint) could indicate alcohol withdrawal (risk of seizures, delirium tremens) or diabetic crisis (hypoglycemia, ketoacidosis) - both potentially life-threatening. 'Suggesting' the hospital (B) is too passive for an active emergency. The client is symptomatic NOW. While this breaks confidentiality, disclosure is permissible to ensure client safety.",
+        "citation": "Source: AATBS MFT Exam Prep. Crisis intervention protocols; Medical emergency response; Duty to protect",
+        "studyUrls": ["https://www.samhsa.gov/find-help/national-helpline", "https://www.niaaa.nih.gov/publications/brochures-and-fact-sheets/alcohol-use-disorder-and-diabetes"],
+        "memoryTip": "ACTIVE medical symptoms = CALL 911 immediately. Don't 'suggest' during an emergency - ACT. Safety overrides confidentiality."
+    },
+    {
+        "id": 30105,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "medium",
+        "tags": ["paradoxical intervention", "strategic therapy", "prescribing the symptom"],
+        "question": "Eric and Emily come to therapy for help with learning how to stop arguing every night over trivial matters. They report to the therapist that they have \"tried everything\" and are at a loss with knowing how to respond to each other in kinder and more respectful ways. The therapist issues a directive to both of them, instructing them to argue every night for at least twenty minutes. This is called ____________________.",
+        "options": [
+            "An ordeal",
+            "A paradoxical intervention",
+            "Unbalancing",
+            "Reframing"
+        ],
+        "correct": 1,
+        "explanation": "Prescribing the symptom is a paradoxical intervention used in strategic family therapy. The therapist recommends clients intentionally do what they've been doing to maintain the problematic activity consciously. This paradox works because deliberate arguing removes spontaneity and gives control; they may rebel against the directive by not arguing. An ordeal (A) is an unpleasant task performed when symptoms occur. Unbalancing (C) is structural therapy for altering hierarchies. Reframing (D) changes the meaning of behavior.",
+        "citation": "Source: AATBS MFT Exam Prep. Strategic Family Therapy (Haley, Watzlawick, MRI); Paradoxical techniques",
+        "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/types/strategic-family-therapy", "https://www.mribrief.org/"],
+        "memoryTip": "PARADOX = Prescribe what they want to STOP. 'Do MORE of the problem on purpose' = paradoxical intervention. Makes the unconscious conscious."
+    },
+    {
+        "id": 29831,
+        "domain": "Practice of Systemic Therapy",
+        "difficulty": "easy",
+        "tags": ["enmeshment", "boundaries", "Minuchin", "structural therapy"],
+        "question": "When a family is so interdependent that personal boundaries are not apparent, this is referred to as ___________________.",
+        "options": [
+            "Enmeshment",
+            "Pseudomutuality",
+            "Pseudohostility",
+            "Disengagement"
+        ],
+        "correct": 0,
+        "explanation": "According to Minuchin (Structural Family Therapy), enmeshment results when there are diffuse psychological boundaries between individuals or subsystems in a family. It produces loss of autonomy and is characterized by high resonance and reactivity between individuals. Pseudomutuality (B, Wynne) is harmony covering deep conflicts. Pseudohostility (C) is arguing over trivial matters to avoid underlying issues. Disengagement (D) is the OPPOSITE - mutual withdrawal with rigid boundaries.",
+        "citation": "Source: AATBS MFT Exam Prep. Minuchin, S. (1974). Families and Family Therapy. Harvard University Press",
+        "studyUrls": ["https://www.goodtherapy.org/learn-about-therapy/types/structural-family-therapy", "https://www.aamft.org/Consumer_Updates/Structural_Family_Therapy.aspx"],
+        "memoryTip": "ENMESHMENT = EN-MESHED together, boundaries BLURRED/diffuse, too close. DISENGAGEMENT = DIS-connected, boundaries RIGID, too distant. Opposites on boundary spectrum."
+    }
+]

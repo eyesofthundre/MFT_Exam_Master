@@ -1492,6 +1492,17 @@
         
         body.theme-dark .btn {
             background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+        }
+
+        body.theme-dark .btn-secondary {
+            background: #334155;
+            color: #e2e8f0;
+            border-color: #64748b;
+        }
+
+        body.theme-dark .btn-secondary:hover {
+            background: #475569;
         }
 
         body.theme-dark .review-question {
@@ -2537,7 +2548,8 @@
                 'questions/domain3_treatment.json',
                 'questions/domain4_evaluation.json',
                 'questions/domain5_crisis.json',
-                'questions/domain6_ethics.json'
+                'questions/domain6_ethics.json',
+                'questions/domain_moodle_import.json'
             ];
             
             try {
@@ -3119,14 +3131,10 @@
             showQuestion();
         }
 
-        // Throttle navigation to prevent button flooding
+        // Throttle for skip/jump navigation only
         let navThrottle = false;
 
         function nextQuestion() {
-            if (navThrottle) return;
-            navThrottle = true;
-            setTimeout(() => navThrottle = false, 100);
-
             const session = state.currentSession;
             if (!session || !session.questions) return;
 
@@ -3156,10 +3164,6 @@
         }
 
         function previousQuestion() {
-            if (navThrottle) return;
-            navThrottle = true;
-            setTimeout(() => navThrottle = false, 100);
-
             const session = state.currentSession;
             if (!session || !session.questions) return;
 
