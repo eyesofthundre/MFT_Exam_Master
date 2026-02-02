@@ -2818,9 +2818,15 @@
                 const saved = localStorage.getItem('mftExamMaster');
                 if (saved) {
                     state = JSON.parse(saved);
-                    // Migration: ensure seenQuestions array exists for existing users
+                    // Migration: ensure required properties exist for existing users
                     if (!state.seenQuestions) {
                         state.seenQuestions = [];
+                    }
+                    if (!state.questionRatings) {
+                        state.questionRatings = {};
+                    }
+                    if (!state.questionNotes) {
+                        state.questionNotes = {};
                     }
                 }
             } catch (e) {
