@@ -3355,17 +3355,21 @@
             }
         }
 
-        // Render the question palette grid
-        // Track if palette has been initialized
-        let paletteInitialized = false;
-        let lastPaletteIndex = -1;
-
+        // Render the question palette grid with numbered buttons
         function renderQuestionPalette() {
             const session = state.currentSession;
             const palette = document.getElementById('questionPalette');
             const flaggedLegend = document.getElementById('flaggedLegend');
 
-            if (!palette) return;
+            if (!palette) {
+                console.warn('Question palette element not found');
+                return;
+            }
+
+            if (!session || !session.questions || session.questions.length === 0) {
+                console.warn('No questions in session');
+                return;
+            }
 
             // Show flagged legend in exam mode
             if (flaggedLegend) {
@@ -3374,64 +3378,26 @@
 
             const flaggedSet = new Set(session.flaggedForReview || []);
 
-            // Only rebuild HTML if not initialized or question count changed
-            if (!paletteInitialized || palette.children.length !== session.questions.length) {
-                palette.innerHTML = session.questions.map((q, idx) => {
-                    const isAnswered = session.answers[q.id] !== undefined;
-                    const isCurrent = idx === session.currentIndex;
-                    const isFlagged = flaggedSet.has(q.id);
-
-                    let classes = 'palette-item';
-                    if (isCurrent) classes += ' current';
-                    if (isAnswered) classes += ' answered';
-                    if (isFlagged) classes += ' flagged';
-
-                    const title = `Question ${idx + 1}${isFlagged ? ' (Flagged for Review)' : ''}`;
-                    return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
-                }).join('');
-                paletteInitialized = true;
-                lastPaletteIndex = session.currentIndex;
-                return;
-            }
-
-            // Fast update: only update changed items
-            const items = palette.children;
-
-            // Update previous current item
-            if (lastPaletteIndex >= 0 && lastPaletteIndex < items.length) {
-                const prevItem = items[lastPaletteIndex];
-                prevItem.classList.remove('current');
-            }
-
-            // Update all items for answered/flagged state and set new current
-            for (let idx = 0; idx < items.length; idx++) {
-                const item = items[idx];
-                const q = session.questions[idx];
+            // Always rebuild the palette to ensure numbers show
+            palette.innerHTML = session.questions.map((q, idx) => {
                 const isAnswered = session.answers[q.id] !== undefined;
                 const isCurrent = idx === session.currentIndex;
                 const isFlagged = flaggedSet.has(q.id);
 
-                // Update classes efficiently
-                if (isCurrent) {
-                    item.classList.add('current');
-                }
-                if (isAnswered && !item.classList.contains('answered')) {
-                    item.classList.add('answered');
-                }
-                if (isFlagged && !item.classList.contains('flagged')) {
-                    item.classList.add('flagged');
-                } else if (!isFlagged && item.classList.contains('flagged')) {
-                    item.classList.remove('flagged');
-                }
-            }
+                let classes = 'palette-item';
+                if (isCurrent) classes += ' current';
+                if (isAnswered) classes += ' answered';
+                if (isFlagged) classes += ' flagged';
 
-            lastPaletteIndex = session.currentIndex;
+                const title = `Question ${idx + 1}${isAnswered ? ' (Answered)' : ' (Unanswered)'}${isFlagged ? ' - Flagged for Review' : ''}`;
+                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
+            }).join('');
         }
 
-        // Reset palette state when starting new session
+        // Reset palette state when starting new session (kept for compatibility)
         function resetPaletteState() {
-            paletteInitialized = false;
-            lastPaletteIndex = -1;
+            const palette = document.getElementById('questionPalette');
+            if (palette) palette.innerHTML = '';
         }
 
         // Toggle navigator visibility (complete hide/show)
