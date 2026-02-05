@@ -559,10 +559,10 @@
         ],
         "question": "In Bowen Family Systems Theory, triangulation occurs when:",
         "options": [
-            "Three therapists work collaboratively with one family",
+            "One partner consistently sides with a child against the other parent",
             "A two-person system under stress involves a third party to reduce anxiety",
-            "Three generations live in the same household",
-            "Family members form geometric seating arrangements in session"
+            "Emotional fusion between two family members that excludes a third",
+            "A stable dyadic relationship pattern that resists outside influence"
         ],
         "correct": 1,
         "explanation": "Triangulation is the process by which a two-person system experiencing tension involves a third party to reduce anxiety and stabilize the relationship. This is the smallest stable relationship system according to Bowen. While triangulation temporarily reduces anxiety, it prevents direct resolution of the original tension and can spread anxiety throughout the system. Common triangles include: two parents triangling a child, or spouses triangling in-laws, therapists, or affairs.",
@@ -681,7 +681,7 @@
         ],
         "question": "In Strategic therapy, 'reframing' involves:",
         "options": [
-            "Replacing picture frames in the therapy office",
+            "Reflecting the client's statements back verbatim for validation",
             "Offering an alternative perspective on the meaning or context of behavior",
             "Setting clearer boundaries in family relationships",
             "Restructuring the family hierarchy"
@@ -1058,9 +1058,9 @@
         "question": "According to EFT, a securely attached relationship provides both a 'safe haven' and:",
         "options": [
           "A secure base for exploration",
-          "Financial security",
-          "Social status",
-          "Complete independence"
+          "Emotional distance to prevent conflict",
+          "Clear communication skills for problem-solving",
+          "Complete independence from the partner"
         ],
         "correct": 0,
         "explanation": "Bowlby's attachment theory (foundation of EFT) identifies two key functions of secure attachment bonds: 'safe haven' (turning to the attachment figure for comfort in distress) and 'secure base' (using the security of the relationship as a foundation for exploration and autonomous functioning). EFT helps couples restore both functions—partners become both sources of comfort in difficult times and secure bases that support each other's individual growth and exploration.",
@@ -1379,8 +1379,8 @@
         "options": [
           "Diagnose individual psychopathology",
           "Map multigenerational patterns, triangles, and emotional processes",
-          "Create a legal family tree for inheritance purposes",
-          "Identify which family member needs medication"
+          "Track behavioral reinforcement patterns across sessions",
+          "Assess current family communication sequences"
         ],
         "correct": 1,
         "explanation": "In Bowenian therapy, the genogram maps multigenerational patterns including triangles, emotional cutoffs, fusion, and the transmission of anxiety across generations. It helps identify patterns repeating over generations and guides differentiation work. The genogram is a key assessment and intervention tool that helps both therapist and client see family emotional processes in visual form, often revealing patterns not previously recognized.",
@@ -1774,10 +1774,10 @@
         "tags": ["Minuchin", "joining", "therapeutic alliance"],
         "question": "Minuchin's concept of 'joining' involves:",
         "options": [
-          "The therapist becoming a family member",
+          "The therapist becoming enmeshed with the family system",
           "Adapting to the family's style while establishing therapeutic leadership",
-          "Having family members physically join hands",
-          "Joining two families together for treatment"
+          "Challenging rigid family boundaries from the first session",
+          "Maintaining strict professional distance to ensure objectivity"
         ],
         "correct": 1,
         "explanation": "Joining is the process of building a therapeutic alliance by adapting to the family's communication style, affective range, and worldview while establishing a leadership position. Minuchin identified three levels: close (personal connection), median (active listening, tracking), and disengaged (expert professional stance). Effective joining respects the family's structure while positioning the therapist to challenge it. Without joining, structural interventions will be rejected.",
@@ -1918,10 +1918,10 @@
         "tags": ["narrative", "witnessing", "definitional ceremony"],
         "question": "In Narrative Therapy, 'outsider witness' practices involve:",
         "options": [
-          "Having family members spy on each other",
+          "Therapists from other orientations observing and critiquing the session",
           "Bringing in audience members to reflect on and retell the client's preferred story",
-          "Keeping therapy completely private",
-          "Expert witnesses from court"
+          "Family members who were not present describing their version of events",
+          "Professional consultants providing expert diagnostic opinions"
         ],
         "correct": 1,
         "explanation": "Outsider witness practices (definitional ceremonies) involve bringing in selected audience members to hear the client's story and then offer reflections. Witnesses don't evaluate or advise; they share what struck them, what images arose, what resonated with their own experience, and how hearing the story moved them. This 'telling and retelling' enriches and thickens the alternative story, creating a community of acknowledgment around the person's preferred identity.",
