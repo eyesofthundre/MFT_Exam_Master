@@ -67,6 +67,9 @@
         [data-fontsize="small"] { font-size: 14px; }
         [data-fontsize="medium"] { font-size: 16px; }
         [data-fontsize="large"] { font-size: 20px; }
+        [data-fontsize="xlarge"] { font-size: 24px; }
+        [data-fontsize="xxlarge"] { font-size: 28px; }
+        [data-fontsize="huge"] { font-size: 34px; }
 
         /* Line height classes */
         [data-lineheight="tight"] { line-height: 1.4; }
@@ -696,10 +699,13 @@
                         <div class="setting-label">Font Size</div>
                         <div class="setting-description">Adjust text size for readability</div>
                     </div>
-                    <div class="setting-control" data-setting="fontSize">
-                        <button class="setting-btn" data-value="small" onclick="setFontSize('small')">A</button>
-                        <button class="setting-btn active" data-value="medium" onclick="setFontSize('medium')">A+</button>
-                        <button class="setting-btn" data-value="large" onclick="setFontSize('large')">A++</button>
+                    <div class="setting-control" data-setting="fontSize" style="flex-wrap: wrap;">
+                        <button class="setting-btn" data-value="small" onclick="setFontSize('small')">S</button>
+                        <button class="setting-btn active" data-value="medium" onclick="setFontSize('medium')">M</button>
+                        <button class="setting-btn" data-value="large" onclick="setFontSize('large')">L</button>
+                        <button class="setting-btn" data-value="xlarge" onclick="setFontSize('xlarge')">XL</button>
+                        <button class="setting-btn" data-value="xxlarge" onclick="setFontSize('xxlarge')">2XL</button>
+                        <button class="setting-btn" data-value="huge" onclick="setFontSize('huge')">3XL</button>
                     </div>
                 </div>
             </div>
