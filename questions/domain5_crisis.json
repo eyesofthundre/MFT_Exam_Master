@@ -2237,5 +2237,455 @@
     "citation": "U.S. Department of Health and Human Services (2012). 2012 National Strategy for Suicide Prevention; Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press.",
     "studyUrls": ["https://www.cdc.gov/suicide/factors/index.html"],
     "memoryTip": "COPES: Connection, Opportunity (for help), Purpose (reasons for living), Effective coping, Skills."
+  },
+  {
+    "id": 626,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["interpersonal theory", "suicide", "Joiner"],
+    "question": "According to Joiner's Interpersonal Theory of Suicide, the three factors that combine to create suicidal capability are:",
+    "options": [
+      "Hopelessness, depression, and anxiety",
+      "Thwarted belongingness, perceived burdensomeness, and acquired capability",
+      "Family history, previous attempts, and substance abuse",
+      "Impulsivity, anger, and access to means"
+    ],
+    "correct": 1,
+    "explanation": "Joiner's theory proposes that lethal suicidal behavior requires: (1) thwarted belongingness (feeling disconnected, not part of a group), (2) perceived burdensomeness (believing one is a burden on others), and (3) acquired capability (reduced fear of death through habituation, often from prior self-harm, trauma exposure, or violence). The desire for suicide comes from belongingness + burdensomeness; capability determines whether desire becomes action.",
+    "citation": "Joiner, T. E. (2005). Why People Die by Suicide. Harvard University Press; Van Orden, K. A., et al. (2010). The Interpersonal Theory of Suicide. Psychological Review, 117(2), 575-600.",
+    "studyUrls": ["https://www.apa.org/pubs/journals/rev"],
+    "memoryTip": "Joiner's triad: 'I don't BELONG, I'm a BURDEN, and I CAN do it.' (Belong, Burden, Capability)"
+  },
+  {
+    "id": 627,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["psychological first aid", "PFA", "disaster"],
+    "question": "Psychological First Aid (PFA) is characterized by:",
+    "options": [
+      "Deep processing of traumatic experiences",
+      "Practical support, safety, stabilization, and connection to resources",
+      "Diagnosis of psychiatric disorders",
+      "Long-term therapy commitment"
+    ],
+    "correct": 1,
+    "explanation": "PFA is an evidence-informed approach for immediate assistance following crisis/disaster. Core elements include: contact and engagement, safety and comfort, stabilization, information gathering, practical assistance, connection with social supports, information on coping, and linkage to services. PFA is NOT therapy—it's immediate, practical support focused on safety and stabilization. It can be provided by trained non-mental health professionals.",
+    "citation": "Brymer, M., et al. (2006). Psychological First Aid: Field Operations Guide (2nd ed.). National Child Traumatic Stress Network and National Center for PTSD.",
+    "studyUrls": ["https://www.ptsd.va.gov/professional/treat/type/psych_firstaid_manual.asp"],
+    "memoryTip": "PFA = Practical First Aid for the psyche. Stabilize, support, connect—not therapy."
+  },
+  {
+    "id": 628,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["critical incident", "CISD", "debriefing"],
+    "question": "Research on Critical Incident Stress Debriefing (CISD) has found:",
+    "options": [
+      "It consistently prevents PTSD",
+      "Mandatory single-session debriefing may be ineffective or harmful for some",
+      "It should be required for all trauma survivors",
+      "It's the only evidence-based crisis intervention"
+    ],
+    "correct": 1,
+    "explanation": "Research on mandatory single-session CISD has been mixed to negative—some studies found no benefit and possible harm (interference with natural recovery, re-traumatization). Current guidelines recommend against mandatory debriefing for all trauma-exposed individuals. Psychological First Aid is now preferred for immediate response. If debriefing is offered, it should be voluntary, well-timed, and part of comprehensive support rather than a standalone intervention.",
+    "citation": "Rose, S., Bisson, J., Churchill, R., & Wessely, S. (2002). Psychological Debriefing for Preventing Post Traumatic Stress Disorder. Cochrane Database of Systematic Reviews; McNally, R. J., Bryant, R. A., & Ehlers, A. (2003). Does Early Psychological Intervention Promote Recovery from Posttraumatic Stress? Psychological Science in the Public Interest, 4(2), 45-79.",
+    "studyUrls": ["https://www.cochrane.org/"],
+    "memoryTip": "CISD research = mixed; mandatory debriefing may harm. PFA is now preferred."
+  },
+  {
+    "id": 629,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["strangulation", "IPV", "lethality"],
+    "question": "In intimate partner violence assessment, non-fatal strangulation is significant because:",
+    "options": [
+      "It rarely indicates danger",
+      "It's the strongest predictor of future homicide by the partner",
+      "It's not relevant to safety planning",
+      "It suggests the victim is exaggerating"
+    ],
+    "correct": 1,
+    "explanation": "Non-fatal strangulation is the most significant predictor of intimate partner homicide—victims strangled are 750% more likely to be killed by their partner. Strangulation demonstrates willingness to kill and ability to control the victim's breath/life. It often leaves minimal visible injury despite serious internal damage. Assessment must specifically ask about strangulation, and its presence indicates extreme danger requiring enhanced safety planning.",
+    "citation": "Glass, N., et al. (2008). Non-Fatal Strangulation Is an Important Risk Factor for Homicide of Women. Journal of Emergency Medicine, 35(3), 329-335; Training Institute on Strangulation Prevention.",
+    "studyUrls": ["https://www.strangulationtraininginstitute.com/"],
+    "memoryTip": "Strangulation = strongest homicide predictor. 'Hands on neck' = extreme danger."
+  },
+  {
+    "id": 630,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["safety plan", "components", "suicide"],
+    "question": "The Stanley-Brown Safety Planning Intervention includes all EXCEPT:",
+    "options": [
+      "Warning signs and coping strategies",
+      "Social supports and professional contacts",
+      "No-suicide contract signed by client",
+      "Means restriction"
+    ],
+    "correct": 2,
+    "explanation": "The Stanley-Brown Safety Plan includes six steps: (1) recognizing warning signs, (2) internal coping strategies, (3) social contacts/distractions, (4) family/friends to contact for help, (5) professionals/agencies to contact, (6) making the environment safe (means restriction). It does NOT include no-suicide contracts, which research shows are ineffective. Safety plans are collaborative, specific, and action-oriented—different from contracts that simply ask clients to promise not to self-harm.",
+    "citation": "Stanley, B., & Brown, G. K. (2012). Safety Planning Intervention: A Brief Intervention to Mitigate Suicide Risk. Cognitive and Behavioral Practice, 19(2), 256-264.",
+    "studyUrls": ["https://suicidesafetyplan.com/"],
+    "memoryTip": "Safety plan = 6 steps of what TO DO. No contracts—plans beat promises."
+  },
+  {
+    "id": 631,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["acute stress", "ASD", "criteria"],
+    "question": "Acute Stress Disorder differs from PTSD primarily in:",
+    "options": [
+      "Type of trauma required",
+      "Duration—ASD is diagnosed 3 days to 1 month after trauma",
+      "Symptom categories required",
+      "Age of onset"
+    ],
+    "correct": 1,
+    "explanation": "Acute Stress Disorder (ASD) is diagnosed from 3 days to 1 month following trauma exposure. If symptoms persist beyond 1 month, PTSD may be diagnosed. ASD requires 9+ symptoms from 5 categories (intrusion, negative mood, dissociation, avoidance, arousal). ASD doesn't always predict PTSD—many with ASD recover, and some develop PTSD without meeting ASD criteria. Early intervention during the ASD window may prevent PTSD development.",
+    "citation": "American Psychiatric Association (2022). Diagnostic and Statistical Manual of Mental Disorders (5th ed., Text Revision). American Psychiatric Publishing.",
+    "studyUrls": ["https://www.ptsd.va.gov/"],
+    "memoryTip": "ASD = 3 days to 1 month. After 1 month = consider PTSD. ASD is the 'acute' window."
+  },
+  {
+    "id": 632,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["duty to protect", "Tarasoff", "exceptions"],
+    "question": "The Tarasoff duty is typically triggered when:",
+    "options": [
+      "Any client expresses anger",
+      "There's a serious, credible threat toward an identifiable victim",
+      "Family members request information",
+      "The client has a history of violence"
+    ],
+    "correct": 1,
+    "explanation": "Tarasoff duty requires: (1) a serious threat of physical violence, (2) toward a reasonably identifiable victim(s), and (3) likelihood the threat will be carried out. General anger, vague threats, or history alone don't trigger duty. The threat must be specific enough to identify potential victims. Duty may be discharged through warning, hospitalization, intensified treatment, or other protective action. State laws vary significantly on implementation.",
+    "citation": "Tarasoff v. Regents of University of California, 17 Cal. 3d 425 (1976); Borum, R., & Reddy, M. (2001). Assessing Violence Risk in Tarasoff Situations. Professional Psychology: Research and Practice, 32(5), 439-447.",
+    "studyUrls": ["https://www.apa.org/monitor/julaug01/psychlaw"],
+    "memoryTip": "Tarasoff trigger = SIP: Serious threat, Identifiable victim, Probable action. All three needed."
+  },
+  {
+    "id": 633,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["crisis line", "resources", "national"],
+    "question": "The Crisis Text Line can be reached by texting:",
+    "options": [
+      "911",
+      "HOME to 741741",
+      "988",
+      "HELP to 911"
+    ],
+    "correct": 1,
+    "explanation": "Crisis Text Line is reached by texting HOME to 741741 (in the US). It provides free 24/7 support via text for people in crisis. This is valuable for those uncomfortable with phone calls, especially younger people. 988 is the Suicide & Crisis Lifeline for calls/texts to that number. Therapists should know both resources and share them with clients who may prefer text-based support.",
+    "citation": "Crisis Text Line (2023). https://www.crisistextline.org/; SAMHSA Resources.",
+    "studyUrls": ["https://www.crisistextline.org/"],
+    "memoryTip": "Crisis TEXT Line = text HOME to 741741. '741741' = easier to remember than 988 for text."
+  },
+  {
+    "id": 634,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["suicidal ideation", "passive", "active"],
+    "question": "The difference between passive and active suicidal ideation is:",
+    "options": [
+      "Passive means no danger; active means danger",
+      "Passive involves wishing for death without plan; active involves planning or intent",
+      "They're the same thing",
+      "Passive only occurs in elderly"
+    ],
+    "correct": 1,
+    "explanation": "Passive suicidal ideation involves thoughts like 'I wish I were dead' or 'I wish I wouldn't wake up' without specific intent or planning. Active ideation involves thoughts with intent to act and may include method consideration, planning, or rehearsal. Both warrant assessment, but active ideation with plan and intent indicates higher imminent risk. Passive ideation can progress to active, so ongoing monitoring is important regardless of initial presentation.",
+    "citation": "Posner, K., et al. (2011). The Columbia-Suicide Severity Rating Scale. American Journal of Psychiatry, 168(12), 1266-1277.",
+    "studyUrls": ["https://cssrs.columbia.edu/"],
+    "memoryTip": "Passive = wishing for death. Active = planning for it. Both matter; active is more urgent."
+  },
+  {
+    "id": 635,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["firearms", "means restriction", "counseling"],
+    "question": "When counseling about firearms in suicide prevention, research shows:",
+    "options": [
+      "Discussions don't affect behavior",
+      "Temporary removal from home during crisis significantly reduces risk",
+      "Only permanent removal is effective",
+      "Firearms questions should be avoided"
+    ],
+    "correct": 1,
+    "explanation": "Research supports that temporarily removing firearms from the home during suicidal crises significantly reduces risk. Counseling about Lethal Means (CALM) training helps clinicians have these conversations effectively. Options include: storing with friend/family, gun shop storage, trigger locks, ammunition separation. Temporary measures are more acceptable to firearm owners than permanent removal. The goal is reducing access during the acute crisis period, not permanent confiscation.",
+    "citation": "Barber, C. W., & Miller, M. J. (2014). Reducing a Suicidal Person's Access to Lethal Means of Suicide. American Journal of Preventive Medicine, 47(3S2), S264-S272.",
+    "studyUrls": ["https://www.hsph.harvard.edu/means-matter/"],
+    "memoryTip": "Temporary removal during crisis = effective. 'CALM' the situation by reducing access."
+  },
+  {
+    "id": 636,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["child abuse", "indicators", "recognition"],
+    "question": "Physical indicators that may suggest child abuse include all EXCEPT:",
+    "options": [
+      "Unexplained bruises in various stages of healing",
+      "Injuries inconsistent with developmental stage",
+      "Normal childhood accidents with consistent explanations",
+      "Bruises on soft tissue areas rarely injured in play"
+    ],
+    "correct": 2,
+    "explanation": "Physical indicators of abuse include: unexplained injuries, injuries inconsistent with explanation or developmental ability, bruises in various stages of healing, injuries on soft tissue rarely hurt in play (ears, neck, buttocks, inner thighs), patterned injuries (belt, cord marks), and delay in seeking treatment. Normal childhood accidents with consistent, developmentally appropriate explanations are NOT indicators. Context and patterns matter—single indicators warrant assessment, not automatic reporting.",
+    "citation": "Child Welfare Information Gateway (2019). Recognizing Child Abuse and Neglect: Signs and Symptoms; Kellogg, N. D., & Committee on Child Abuse and Neglect (2007). Evaluation of Suspected Child Physical Abuse. Pediatrics, 119(6), 1232-1241.",
+    "studyUrls": ["https://www.childwelfare.gov/topics/can/identifying/"],
+    "memoryTip": "Abuse indicators = TEN: Timing (healing stages), Explanation mismatch, Non-play areas injured."
+  },
+  {
+    "id": 637,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["panic attack", "intervention", "grounding"],
+    "question": "During a client's panic attack in session, the therapist should:",
+    "options": [
+      "Call 911 immediately",
+      "Stay calm, validate the experience, and guide grounding/breathing techniques",
+      "Leave the room to get help",
+      "Tell the client to stop panicking"
+    ],
+    "correct": 1,
+    "explanation": "During a panic attack: stay calm (modeling regulation), validate ('This is scary but not dangerous'), guide slow breathing (exhale longer than inhale), use grounding techniques (5 senses, cold water, movement), provide reassurance that it will pass, and stay present. Don't leave or minimize. After the acute phase, psychoeducation about panic can be helpful. Emergency services are usually not needed for panic attacks unless there's concern about a medical cause.",
+    "citation": "Barlow, D. H. (2002). Anxiety and Its Disorders (2nd ed.). Guilford Press; Clark, D. M. (1986). A Cognitive Approach to Panic. Behaviour Research and Therapy, 24(4), 461-470.",
+    "studyUrls": ["https://www.nimh.nih.gov/health/topics/panic-disorder"],
+    "memoryTip": "Panic attack response: STAY calm, VALIDATE, BREATHE, GROUND. You're the calm in the storm."
+  },
+  {
+    "id": 638,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["risk assessment", "static", "dynamic"],
+    "question": "In suicide risk assessment, dynamic risk factors differ from static factors in that they:",
+    "options": [
+      "Are more predictive of long-term risk",
+      "Can change over time and are targets for intervention",
+      "Include demographics and history",
+      "Cannot be assessed"
+    ],
+    "correct": 1,
+    "explanation": "Static risk factors are fixed (age, gender, previous attempts, family history)—they inform long-term risk but can't be changed. Dynamic factors can change and thus are intervention targets: current suicidal ideation, hopelessness, acute stressors, intoxication, access to means, social support, treatment engagement. Risk assessment monitors both, but intervention focuses on modifiable dynamic factors. Acute risk depends more on dynamic factors.",
+    "citation": "Rudd, M. D. (2006). Fluid Vulnerability Theory. In T. E. Ellis (Ed.), Cognition and Suicide: Theory, Research, and Therapy. American Psychological Association.",
+    "studyUrls": ["https://www.sprc.org/"],
+    "memoryTip": "Static = set in stone (history). Dynamic = can change (current state)—dynamic factors are treatment targets."
+  },
+  {
+    "id": 639,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["informed consent", "crisis", "limitations"],
+    "question": "Informed consent regarding crisis situations should explain:",
+    "options": [
+      "That the therapist will never break confidentiality",
+      "The limits of confidentiality including duty to warn and mandated reporting",
+      "That clients should never discuss suicidal thoughts",
+      "Only billing and scheduling policies"
+    ],
+    "correct": 1,
+    "explanation": "Informed consent must address confidentiality limits BEFORE crisis situations arise. Clients should understand: mandated reporting requirements (child/elder abuse), duty to warn/protect (danger to others), and actions the therapist may take if the client is at imminent risk to self. This prevents surprises and may actually facilitate disclosure—clients know the boundaries upfront. Document that these limits were explained.",
+    "citation": "AAMFT Code of Ethics (2015), Standard 2.1; APA Ethics Code (2017), Standard 4.02.",
+    "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+    "memoryTip": "Consent = no surprises. Tell them the limits BEFORE crisis, not during."
+  },
+  {
+    "id": 640,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["domestic violence", "resources", "national"],
+    "question": "The National Domestic Violence Hotline number is:",
+    "options": [
+      "1-800-799-SAFE (7233)",
+      "911",
+      "988",
+      "1-800-273-TALK"
+    ],
+    "correct": 0,
+    "explanation": "The National Domestic Violence Hotline (1-800-799-SAFE / 1-800-799-7233) provides 24/7 confidential support for victims, survivors, and those questioning unhealthy relationships. Services include crisis intervention, safety planning, and referrals to local resources. Therapists should know this number and share it safely with clients (DV victims may need to clear phone records). The hotline also offers chat and text options.",
+    "citation": "National Domestic Violence Hotline (2023). https://www.thehotline.org/",
+    "studyUrls": ["https://www.thehotline.org/"],
+    "memoryTip": "DV Hotline = 1-800-799-SAFE. 'SAFE' is the goal; 7233 spells it."
+  },
+  {
+    "id": 641,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["hospitalization", "criteria", "involuntary"],
+    "question": "Involuntary psychiatric hospitalization is generally appropriate when:",
+    "options": [
+      "The client misses appointments",
+      "The client poses imminent danger to self or others due to mental illness and refuses voluntary treatment",
+      "Family members request it",
+      "The client has any mental illness diagnosis"
+    ],
+    "correct": 1,
+    "explanation": "Involuntary hospitalization requires: (1) mental illness/disorder, (2) imminent danger to self or others OR grave disability (can't meet basic needs), AND (3) refusal or inability to accept voluntary treatment. It's a last resort when less restrictive options are insufficient. The danger must be imminent, not merely possible. Family wishes alone don't justify involuntary commitment. Due process protections apply, including hearings and legal representation.",
+    "citation": "Appelbaum, P. S. (1994). Almost a Revolution: Mental Health Law and the Limits of Change. Oxford University Press; Treatment Advocacy Center State Standards.",
+    "studyUrls": ["https://www.treatmentadvocacycenter.org/"],
+    "memoryTip": "Involuntary = DID: Danger (imminent), Illness (mental), Declining (voluntary treatment)."
+  },
+  {
+    "id": 642,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["alliance", "crisis", "relationship"],
+    "question": "Maintaining therapeutic alliance during crisis intervention is important because:",
+    "options": [
+      "It's not important during crisis—just take action",
+      "Alliance increases client cooperation, honest disclosure, and likelihood of following safety plans",
+      "It allows the therapist to avoid making difficult decisions",
+      "It replaces the need for safety interventions"
+    ],
+    "correct": 1,
+    "explanation": "Even in crisis, alliance matters: clients who trust their therapist are more likely to disclose honestly (including suicidal thoughts), cooperate with safety planning, and follow through on plans. A collaborative approach to safety planning increases effectiveness compared to imposed restrictions. Balance empathy and alliance with necessary protective actions. Alliance doesn't mean avoiding hard decisions—it means making them with the client when possible, not to the client.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Rudd, M. D., et al. (2001). Treating Suicidal Behavior. Guilford Press.",
+    "studyUrls": ["https://cams-care.com/"],
+    "memoryTip": "Alliance in crisis = cooperation. Clients work WITH you on safety if they trust you."
+  },
+  {
+    "id": 643,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["debriefing", "self-care", "therapist"],
+    "question": "After a client crisis event, the therapist should:",
+    "options": [
+      "Never discuss it with anyone",
+      "Seek consultation, process their own reactions, and document carefully",
+      "Immediately take on more crisis cases",
+      "Avoid thinking about it"
+    ],
+    "correct": 1,
+    "explanation": "After a crisis event, therapists need: consultation (to review decisions and get support), personal processing (crisis work is stressful—self-care and supervision matter), careful documentation (detailed, contemporaneous notes), and review of the situation for learning. Avoiding processing can lead to secondary trauma. Consultation protects both client (better decisions) and therapist (risk management, emotional support).",
+    "citation": "Chemtob, C. M., et al. (1988). Patient Suicide: Frequency and Impact on Psychiatrists. American Journal of Psychiatry, 145(2), 224-228; Figley, C. R. (1995). Compassion Fatigue. Brunner/Mazel.",
+    "studyUrls": ["https://www.apa.org/practice/programs/dmhi/research-information/vicarious-trauma"],
+    "memoryTip": "After crisis: CDPS—Consult, Document, Process, Self-care. Don't go it alone."
+  },
+  {
+    "id": 644,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["contagion", "suicide", "postvention"],
+    "question": "Suicide contagion (clustering) is most concerning in which population?",
+    "options": [
+      "Elderly adults",
+      "Adolescents and young adults",
+      "Middle-aged professionals",
+      "It affects all populations equally"
+    ],
+    "correct": 1,
+    "explanation": "Suicide contagion—increased suicide risk following exposure to another's suicide—is most pronounced among adolescents and young adults. Risk increases with close relationship to the deceased, similar demographics, sensationalized media coverage, and detailed method information. Postvention in schools and communities aims to prevent cluster suicides through appropriate response, support for at-risk individuals, and following safe messaging guidelines for discussing the death.",
+    "citation": "Gould, M. S., Wallenstein, S., & Kleinman, M. (1990). Time-Space Clustering of Teenage Suicide. American Journal of Epidemiology, 131(1), 71-78; AFSP/SPRC Safe Messaging Guidelines.",
+    "studyUrls": ["https://afsp.org/", "https://reportingonsuicide.org/"],
+    "memoryTip": "Contagion risk = highest in YOUTH. Teen suicide clusters require immediate postvention."
+  },
+  {
+    "id": 645,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["CAMS", "collaborative", "assessment"],
+    "question": "The Collaborative Assessment and Management of Suicidality (CAMS) approach emphasizes:",
+    "options": [
+      "The therapist as sole expert making decisions for the client",
+      "Side-by-side collaboration with the client in assessing and managing their suicidality",
+      "Avoiding direct discussion of suicide",
+      "Immediate hospitalization for all suicidal clients"
+    ],
+    "correct": 1,
+    "explanation": "CAMS is an evidence-based therapeutic framework featuring side-by-side collaboration: therapist and client literally sit together to complete the Suicide Status Form, jointly assessing risk and developing treatment plans. This collaboration enhances engagement, gives clients voice in their treatment, and addresses the interpersonal disconnection often underlying suicidality. CAMS treats suicidality as the primary focus (not just a symptom) and builds a working alliance around managing it together.",
+    "citation": "Jobes, D. A. (2016). Managing Suicidal Risk: A Collaborative Approach (2nd ed.). Guilford Press; Jobes, D. A., et al. (2017). Clinical Trial of CAMS. Journal of Consulting and Clinical Psychology, 85(3), 287-298.",
+    "studyUrls": ["https://cams-care.com/"],
+    "memoryTip": "CAMS = side-by-SIDE. Collaboration, not coercion. Together with the client, not to them."
+  },
+  {
+    "id": 646,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["means restriction", "lethal means", "prevention"],
+    "question": "Lethal means restriction counseling involves:",
+    "options": [
+      "Telling clients they can never own firearms",
+      "Collaboratively reducing access to lethal means during high-risk periods",
+      "Searching client's home without permission",
+      "Only discussing means after an attempt"
+    ],
+    "correct": 1,
+    "explanation": "Lethal means restriction (or 'means safety') involves collaboratively working with suicidal clients and their families to temporarily reduce access to lethal means during high-risk periods. Research shows that reducing access to one method does NOT lead to substitution—it saves lives. Counseling approaches include: voluntary removal of firearms by family, medication lockboxes, and bridge barriers. The conversation should be non-judgmental, collaborative, and focused on temporary safety measures.",
+    "citation": "Barber, C. W., & Miller, M. J. (2014). Reducing a Suicidal Person's Access to Lethal Means of Suicide. American Journal of Preventive Medicine, 47(3), S264-S272; Suicide Prevention Resource Center (2018). Lethal Means Counseling.",
+    "studyUrls": ["https://www.sprc.org/", "https://www.hsph.harvard.edu/means-matter/"],
+    "memoryTip": "Means restriction: COLLABORATIVE, TEMPORARY, LIFE-SAVING. No substitution—means matter."
+  },
+  {
+    "id": 647,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["crisis stabilization", "phases", "intervention"],
+    "question": "The three phases of crisis intervention (Roberts' model) in order are:",
+    "options": [
+      "Planning, assessment, follow-up",
+      "Assessment and rapport, intervention and action, termination and follow-up",
+      "Medication, hospitalization, discharge",
+      "Individual therapy, group therapy, termination"
+    ],
+    "correct": 1,
+    "explanation": "Roberts' Seven-Stage Crisis Intervention Model includes three broad phases: (1) Assessment and Rapport—establish contact, assess lethality, build working alliance; (2) Intervention and Action—identify major problems, explore feelings, generate alternatives, develop action plan; (3) Termination and Follow-up—ensure stabilization, connect to ongoing resources, plan follow-up contact. Crisis intervention is brief, focused, and aims to restore functioning to pre-crisis level, not provide ongoing therapy.",
+    "citation": "Roberts, A. R. (2005). Crisis Intervention Handbook: Assessment, Treatment, and Research (3rd ed.). Oxford University Press.",
+    "studyUrls": ["https://www.oxfordreference.com/"],
+    "memoryTip": "Roberts' phases: AIT—Assess/rapport, Intervene/act, Terminate/follow-up."
+  },
+  {
+    "id": 648,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "easy",
+    "tags": ["warning signs", "suicide", "recognition"],
+    "question": "The mnemonic 'IS PATH WARM' helps clinicians remember:",
+    "options": [
+      "Medication dosages",
+      "Suicide warning signs",
+      "Crisis hotline numbers",
+      "Documentation requirements"
+    ],
+    "correct": 1,
+    "explanation": "IS PATH WARM is an evidence-based mnemonic for suicide warning signs: Ideation (suicidal thoughts), Substance abuse, Purposelessness, Anxiety, Trapped (feeling), Hopelessness, Withdrawal, Anger, Recklessness, and Mood changes. The presence of multiple warning signs, especially hopelessness and feeling trapped, indicates elevated risk. This mnemonic helps clinicians quickly assess warning signs during evaluation. Created by the American Association of Suicidology.",
+    "citation": "American Association of Suicidology (2006). IS PATH WARM Warning Signs; Rudd, M. D. (2008). Suicide Warning Signs in Clinical Practice. Current Psychiatry Reports, 10(1), 87-90.",
+    "studyUrls": ["https://suicidology.org/resources/warning-signs/"],
+    "memoryTip": "IS PATH WARM: Ideation, Substance abuse, Purposelessness, Anxiety, Trapped, Hopelessness, Withdrawal, Anger, Recklessness, Mood changes."
+  },
+  {
+    "id": 649,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "medium",
+    "tags": ["trauma", "grounding", "dissociation"],
+    "question": "When a client dissociates during a session while discussing trauma, the therapist should first:",
+    "options": [
+      "Continue with the trauma narrative",
+      "End the session immediately",
+      "Use grounding techniques to help the client return to present awareness",
+      "Interpret the dissociation psychodynamically"
+    ],
+    "correct": 2,
+    "explanation": "Dissociation is a protective response to overwhelming material. When it occurs: first, orient the client to present safety using grounding techniques (5-4-3-2-1 senses, naming objects in room, feet on floor, holding ice or cold water). Avoid continuing trauma discussion until client is regulated. Then: discuss what happened, develop strategies for staying in 'window of tolerance,' and titrate future trauma work. Continuing during dissociation can retraumatize; interpretation isn't helpful until regulated.",
+    "citation": "Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the Body: A Sensorimotor Approach to Psychotherapy. W.W. Norton; Van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). The Haunted Self. W.W. Norton.",
+    "studyUrls": ["https://www.nicabm.com/"],
+    "memoryTip": "Dissociation response: GROUND first, then discuss. 5-4-3-2-1 senses. Safety before processing."
+  },
+  {
+    "id": 650,
+    "domain": "Managing Crisis Situations",
+    "difficulty": "hard",
+    "tags": ["homicide risk", "violence", "assessment"],
+    "question": "Key risk factors for violence toward others include:",
+    "options": [
+      "High education level and stable employment",
+      "Prior violence history, access to weapons, specific threats, and substance use",
+      "Introversion and social anxiety",
+      "Being in therapy"
+    ],
+    "correct": 1,
+    "explanation": "Violence risk factors include: history of violence (strongest predictor), access to weapons, specific identifiable threats, active substance use, command hallucinations, acute psychosis with paranoia, history of childhood abuse, young male demographic, and recent stressors (job loss, relationship breakup). Assessment uses structured tools like HCR-20. Risk is elevated when multiple factors combine with recent triggers. Protective factors include stable support, treatment engagement, and no access to means.",
+    "citation": "Monahan, J. (2008). Structured Risk Assessment of Violence. In R. Simon & K. Tardiff (Eds.), Textbook of Violence Assessment and Management. APA; Douglas, K. S., et al. (2014). HCR-20 V3: Assessing Risk for Violence.",
+    "studyUrls": ["https://www.psychiatry.org/psychiatrists/practice/clinical-practice-guidelines"],
+    "memoryTip": "Violence risk: HATS—History of violence, Access to weapons, Threats (specific), Substances."
   }
 ]

@@ -2189,5 +2189,455 @@
     "citation": "Federation of State Medical Boards (2022). Interstate Licensure Compacts; State licensing board telehealth regulations.",
     "studyUrls": ["https://www.psypact.org/", "https://www.aswb.org/mobility/"],
     "memoryTip": "Telehealth licensure: CLIENT'S location matters. Licensed where THEY are, not where you sit."
+  },
+  {
+    "id": 726,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["social media", "boundaries", "digital ethics"],
+    "question": "When a client sends a friend request on social media, the most ethical response is to:",
+    "options": [
+      "Accept it to build rapport",
+      "Accept but restrict what they can see",
+      "Not accept and discuss the professional boundary in session",
+      "Block the client entirely without discussion"
+    ],
+    "correct": 2,
+    "explanation": "Accepting social media connections with clients blurs professional boundaries and can compromise confidentiality (others see the connection), create dual relationships, and provide access to therapist's personal life that affects the therapeutic frame. Best practice: have a clear policy in informed consent, decline requests, and discuss the boundary therapeutically. Blocking without discussion may harm the alliance.",
+    "citation": "Kolmes, K. (2012). Social Media in the Future of Professional Psychology. Professional Psychology: Research and Practice, 43(6), 606-612; AAMFT Code of Ethics (2015), Principle I.3.",
+    "studyUrls": ["https://www.apa.org/monitor/2012/04/ce-corner"],
+    "memoryTip": "Social media requests: DECLINE and DISCUSS. Don't accept, don't ghost."
+  },
+  {
+    "id": 727,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["minors", "confidentiality", "parental rights"],
+    "question": "When treating an adolescent, parents request full disclosure of session content. The therapist should:",
+    "options": [
+      "Share everything since parents are paying",
+      "Refuse to share anything with parents",
+      "Balance minor's confidentiality with parents' legitimate need for information, sharing general progress without details",
+      "Have the adolescent summarize sessions instead"
+    ],
+    "correct": 2,
+    "explanation": "Adolescent treatment requires balancing: parents have legal rights to access records (varies by state), but therapeutic effectiveness requires some confidentiality. Best practice: establish clear agreement at outset about what will/won't be shared, share general themes and safety concerns, involve adolescent in parent communications, protect private content that's therapeutically important. Safety issues (suicidality, abuse) must be shared.",
+    "citation": "AAMFT Code of Ethics (2015), Principle II.2; Gustafson, K. E., & McNamara, J. R. (1987). Confidentiality with minor clients. Professional Psychology: Research and Practice, 18(5), 503-508.",
+    "studyUrls": ["https://www.apa.org/topics/children/confidentiality"],
+    "memoryTip": "Adolescent confidentiality: BALANCE not ALL or NOTHING. Share progress, protect process."
+  },
+  {
+    "id": 728,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["gifts", "boundaries", "cultural considerations"],
+    "question": "A client from a culture where gift-giving is an important sign of respect offers an expensive gift. The therapist should:",
+    "options": [
+      "Refuse all gifts regardless of context",
+      "Accept it to avoid cultural insensitivity",
+      "Consider cultural meaning, gift value, and clinical implications before deciding, discussing with the client",
+      "Accept but don't document it"
+    ],
+    "correct": 2,
+    "explanation": "Gift acceptance requires nuanced clinical judgment: consider cultural meaning (refusal may be deeply offensive in some cultures), monetary value (small token vs. expensive item), timing (beginning vs. termination), client's motivation, and clinical implications. Best practice: explore meaning with client, accept modest culturally appropriate gifts when clinically indicated, decline expensive or potentially boundary-violating gifts with cultural sensitivity, and always document.",
+    "citation": "Knox, S. (2008). Gifts in psychotherapy: Practice review and recommendations. Psychotherapy: Theory, Research, Practice, Training, 45(1), 103-110; AAMFT Code of Ethics (2015), Principle I.3.",
+    "studyUrls": ["https://www.apa.org/ethics/commentary/ethical-clinical-practice"],
+    "memoryTip": "Gifts: Consider CULTURE, VALUE, MEANING, TIMING—then DOCUMENT your decision."
+  },
+  {
+    "id": 729,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["abandonment", "termination", "continuity of care"],
+    "question": "Client abandonment occurs when a therapist:",
+    "options": [
+      "Refers a client to another provider",
+      "Terminates with appropriate notice and referrals",
+      "Unilaterally discontinues treatment without adequate notice or transfer of care",
+      "Limits session frequency due to clinical improvement"
+    ],
+    "correct": 2,
+    "explanation": "Abandonment is terminating care without reasonable notice, availability of continuing care, or opportunity to make other arrangements. NOT abandonment: appropriate termination with notice, providing referrals, tapering services based on progress. Abandonment risk is higher when: therapist is sole provider, client is in crisis, termination is abrupt, no referrals provided. Protect against abandonment claims by documenting termination process and offering referrals.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.11; Younggren, J. N., & Gottlieb, M. C. (2008). Termination and abandonment. Professional Psychology: Research and Practice, 39(5), 498-504.",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/termination"],
+    "memoryTip": "Abandonment = ABRUPT departure + NO referrals + NO notice. Proper termination has all three."
+  },
+  {
+    "id": 730,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["values", "imposing values", "neutrality"],
+    "question": "When a client's values directly conflict with the therapist's deeply held values, the ethical response is to:",
+    "options": [
+      "Try to change the client's values to match the therapist's",
+      "Pretend to agree with the client",
+      "Recognize the conflict, avoid imposing values, and refer if unable to provide competent care",
+      "Lecture the client on why their values are wrong"
+    ],
+    "correct": 2,
+    "explanation": "Therapists must not impose their values on clients. When value conflicts arise: acknowledge personal reactions (supervision helps), examine if conflict impairs objectivity, determine if competent care is possible, refer if necessary without abandoning client. Neutrality doesn't mean having no values—it means not using the therapeutic relationship to change client values to match therapist's. Client autonomy in value choices is paramount.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.8; APA Ethics Code (2017), Principle E: Respect for People's Rights and Dignity.",
+    "studyUrls": ["https://www.apa.org/ethics/code"],
+    "memoryTip": "Value conflicts: RECOGNIZE, don't IMPOSE. Refer if you CAN'T provide unbiased care."
+  },
+  {
+    "id": 731,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["referral", "competence", "scope of practice"],
+    "question": "A therapist should refer a client when:",
+    "options": [
+      "The client becomes emotional",
+      "Treatment isn't producing quick results",
+      "The presenting problem exceeds the therapist's competence or scope",
+      "The client asks difficult questions"
+    ],
+    "correct": 2,
+    "explanation": "Referral is indicated when: issue exceeds competence (training, experience), personal issues impair objectivity, client needs services therapist can't provide (psychiatric medication, specialized treatment), dual relationship problems, value conflicts that can't be managed. Referral is NOT failure—it's ethical practice. Ensure warm handoff, don't abandon, provide options. Continuing beyond competence is unethical even if client prefers you.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III.11, III.15; APA Ethics Code (2017), Standard 2.01.",
+    "studyUrls": ["https://www.apa.org/ethics/code"],
+    "memoryTip": "Refer when it EXCEEDS: Expertise, experience, or ethical boundaries. Referral = good ethics."
+  },
+  {
+    "id": 732,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["subpoena", "records", "legal process"],
+    "question": "Upon receiving a subpoena for client records, the therapist's first response should be:",
+    "options": [
+      "Immediately send all records to comply",
+      "Destroy the records to protect the client",
+      "Contact the client and/or an attorney before releasing any information",
+      "Ignore it since therapy records are always protected"
+    ],
+    "correct": 2,
+    "explanation": "A subpoena is NOT a court order—it's a request. First steps: notify client immediately, seek legal consultation, determine if valid privilege exists, consider filing a motion to quash if appropriate, request client's written authorization. Don't automatically comply or destroy records. If ultimately required to produce records, limit to what's ordered, request in-camera review. Document all actions taken.",
+    "citation": "Committee on Legal Issues, APA (2016). Strategies for Private Practitioners Coping with Subpoenas or Compelled Testimony; HIPAA Privacy Rule, 45 CFR §164.512(e).",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/subpoenas"],
+    "memoryTip": "Subpoena: PAUSE—not automatic! Contact client + attorney FIRST. Subpoena ≠ court order."
+  },
+  {
+    "id": 733,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["scope of competence", "continuing education", "professional development"],
+    "question": "Maintaining competence in professional practice requires:",
+    "options": [
+      "Completing only the minimum required CE credits",
+      "Ongoing education, consultation, and staying current with research and best practices",
+      "Relying solely on experience gained in graduate school",
+      "Avoiding new treatment approaches to prevent errors"
+    ],
+    "correct": 1,
+    "explanation": "Competence is not static—it requires ongoing maintenance: continuing education beyond minimums, staying current with research and evidence-based practices, seeking consultation for challenging cases, recognizing and addressing knowledge gaps, adapting to new populations and issues. Stagnation is incompetence over time. The field evolves; practitioners must too.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III.1, III.2; APA Ethics Code (2017), Standard 2.03 Maintaining Competence.",
+    "studyUrls": ["https://www.aamft.org/Continuing_Education/"],
+    "memoryTip": "Competence: not a DEGREE, but a PROCESS. Keep learning or fall behind."
+  },
+  {
+    "id": 734,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["bartering", "fees", "boundaries"],
+    "question": "Bartering for therapy services (exchanging services instead of money) is:",
+    "options": [
+      "Always unethical",
+      "Always acceptable if both parties agree",
+      "Potentially acceptable if it's not clinically contraindicated and doesn't create exploitation",
+      "Required when clients can't afford services"
+    ],
+    "correct": 2,
+    "explanation": "Bartering is not prohibited but requires careful consideration: Is there potential for exploitation? Does the arrangement create problematic dual relationships? Is the exchange equitable? Would it harm the therapeutic relationship? Is the client in a position to freely consent? Document the agreement. Avoid bartering when client is in vulnerable position or when service involves ongoing contact. Cash-strapped clients may feel pressured—offer sliding scale instead.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VII.5; APA Ethics Code (2017), Standard 6.05 Barter with Clients.",
+    "studyUrls": ["https://www.apa.org/ethics/code"],
+    "memoryTip": "Bartering: POSSIBLE but PROBLEMATIC. Document, evaluate power dynamics, prefer alternatives."
+  },
+  {
+    "id": 735,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["supervision", "liability", "vicarious liability"],
+    "question": "A supervisor's liability for supervisee's actions is best described as:",
+    "options": [
+      "Supervisors are never liable for supervisee actions",
+      "Supervisors are vicariously liable and must provide adequate oversight, documentation, and intervention",
+      "Only supervisees are responsible for their own actions",
+      "Liability only applies after licensure"
+    ],
+    "correct": 1,
+    "explanation": "Supervisors have vicarious liability (respondeat superior): they're responsible for supervisee's professional actions within the scope of supervision. Requirements: provide adequate oversight, regular review of cases, document supervision sessions, intervene when supervisee is impaired or incompetent, ensure supervisees practice within competence, model ethical behavior. Inadequate supervision = independent liability. Supervisors should carry liability insurance that covers supervision.",
+    "citation": "AAMFT Code of Ethics (2015), Principle IV; Thomas, J. T. (2010). The Ethics of Supervision and Consultation. APA.",
+    "studyUrls": ["https://www.apa.org/ed/graduate/supervision"],
+    "memoryTip": "Supervisor liability = VICARIOUS. If supervisee errs under your watch, you're on the hook too."
+  },
+  {
+    "id": 736,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["elder abuse", "mandatory reporting", "vulnerable adults"],
+    "question": "Regarding elder abuse reporting, MFTs in most jurisdictions:",
+    "options": [
+      "Have no reporting obligations for adults",
+      "Only report if the elder requests it",
+      "Are mandated reporters required to report suspected elder abuse or neglect",
+      "Only report physical abuse, not financial exploitation"
+    ],
+    "correct": 2,
+    "explanation": "Most states have mandatory reporting laws for elder abuse covering: physical abuse, neglect, financial exploitation, abandonment, emotional abuse, and self-neglect. Therapists who have reasonable suspicion must report to Adult Protective Services or designated agency. Report even if victim doesn't want to—they may be coerced or lack capacity. Financial exploitation is reportable. Know your state's specific definitions and procedures. Document suspicion and report.",
+    "citation": "Elder Justice Act (2010); State Adult Protective Services laws; AAMFT Code of Ethics (2015), Principle II.1.",
+    "studyUrls": ["https://ncea.acl.gov/What-We-Do/Practice/Mandatory-Reporting.aspx"],
+    "memoryTip": "Elder abuse: MANDATED reporter in most states. Report SUSPICION—all types including financial."
+  },
+  {
+    "id": 737,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["professional impairment", "self-care", "fitness to practice"],
+    "question": "When a therapist recognizes personal impairment affecting their work, they should:",
+    "options": [
+      "Continue working to avoid abandoning clients",
+      "Hide it to protect their reputation",
+      "Seek help and limit or suspend practice as needed to protect clients",
+      "Wait for someone else to report them"
+    ],
+    "correct": 2,
+    "explanation": "Professional impairment (from burnout, mental health issues, substance use, personal crises) requires self-recognition and action: seek personal therapy/treatment, consult with colleagues, consider supervision increase, limit practice if impaired, take leave if necessary. Client welfare comes first. Hiding impairment and continuing to practice is unethical. Colleagues who notice impairment have ethical duty to address it. Recovery and return to practice is possible with proper support.",
+    "citation": "AAMFT Code of Ethics (2015), Principle III.3; APA Ethics Code (2017), Standard 2.06 Personal Problems and Conflicts.",
+    "studyUrls": ["https://www.apa.org/practice/ce/self-care"],
+    "memoryTip": "Impairment: RECOGNIZE → GET HELP → LIMIT PRACTICE. Client safety trumps career concerns."
+  },
+  {
+    "id": 738,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["duty to protect", "third party", "Tarasoff"],
+    "question": "The duty to protect third parties (Tarasoff) is triggered when:",
+    "options": [
+      "A client expresses any anger toward someone",
+      "There is a serious, credible threat to an identifiable potential victim",
+      "A client has ever been violent in the past",
+      "The therapist feels uncomfortable with a client"
+    ],
+    "correct": 1,
+    "explanation": "Tarasoff duty (varies by state) requires: serious threat (not vague anger), credible risk (ability and intent), identifiable victim(s). Actions may include: warning potential victim, notifying police, hospitalizing client, increasing treatment intensity, documenting assessment. Not triggered by: past violence alone, general anger, non-specific threats. Document threat assessment thoroughly, including factors supporting and refuting danger. Know your state's specific requirements.",
+    "citation": "Tarasoff v. Regents of the University of California, 17 Cal. 3d 425 (1976); Quattrocchi, M. R., & Schopp, R. F. (2005). Tarasaurus Rex. Behavioral Sciences & the Law, 23(5), 597-609.",
+    "studyUrls": ["https://www.apa.org/topics/ethics/duty-to-protect"],
+    "memoryTip": "Tarasoff triggers: SERIOUS + CREDIBLE + IDENTIFIABLE. All three needed, not just anger."
+  },
+  {
+    "id": 739,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["fees", "informed consent", "collection practices"],
+    "question": "Ethical management of unpaid fees includes:",
+    "options": [
+      "Refusing to release records until paid",
+      "Using aggressive collection agencies without notice",
+      "Clear policies established upfront and clinically appropriate collection practices",
+      "Charging interest without disclosure"
+    ],
+    "correct": 2,
+    "explanation": "Ethical fee practices: establish clear policies in informed consent (rates, payment timing, late fees, collection procedures), discuss financial difficulties openly, offer payment plans when possible, use collection agencies only with prior notice and minimal disclosure. Cannot withhold records needed for emergency treatment. Cannot use collection practices that harm client welfare. Cannot terminate solely for non-payment without proper notice and referrals. Document all financial communications.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VII; APA Ethics Code (2017), Standard 6.04 Fees and Financial Arrangements.",
+    "studyUrls": ["https://www.apa.org/ethics/code"],
+    "memoryTip": "Fee collection: DISCLOSED in advance, HUMANE in process, NO record hostage-taking."
+  },
+  {
+    "id": 740,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["technology", "electronic records", "security"],
+    "question": "HIPAA requirements for electronic protected health information (ePHI) include:",
+    "options": [
+      "Paper records only to avoid hacking",
+      "Technical safeguards like encryption, access controls, and audit trails",
+      "Storing all records in cloud services without agreements",
+      "Sharing passwords among staff for convenience"
+    ],
+    "correct": 1,
+    "explanation": "HIPAA Security Rule requires: administrative safeguards (policies, training, risk assessment), physical safeguards (facility security, workstation security), technical safeguards (access controls, encryption, audit trails, transmission security). Business Associate Agreements (BAAs) required with any vendor handling ePHI. Regular risk assessments required. Password sharing prohibited. Cloud services need BAAs. Breach notification required within 60 days for breaches affecting 500+ individuals.",
+    "citation": "HIPAA Security Rule, 45 CFR Part 160 and Part 164, Subparts A and C; HHS (2013). HIPAA Security Series.",
+    "studyUrls": ["https://www.hhs.gov/hipaa/for-professionals/security/index.html"],
+    "memoryTip": "HIPAA ePHI: Encrypt + Access control + Audit trails + BAAs with vendors."
+  },
+  {
+    "id": 741,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["advertising", "truthfulness", "marketing"],
+    "question": "Ethical advertising and marketing requires that therapists:",
+    "options": [
+      "Can make any claims that might attract clients",
+      "Must accurately represent credentials, services, and outcomes without false or misleading statements",
+      "Should guarantee treatment success",
+      "Can use client testimonials without restrictions"
+    ],
+    "correct": 1,
+    "explanation": "Ethical advertising: accurate representation of credentials (no inflated titles), honest service descriptions, no guaranteed outcomes, no exploitation of vulnerable populations, truthful claims based on evidence. Client testimonials are problematic (confidentiality, coercion, representativeness). Avoid sensationalism or creating unjustified expectations. Specialization claims require actual training. Comparative claims must be verifiable. Social media marketing follows same rules.",
+    "citation": "AAMFT Code of Ethics (2015), Principle VIII; APA Ethics Code (2017), Standard 5.01 Avoidance of False or Deceptive Statements.",
+    "studyUrls": ["https://www.aamft.org/Legal_Ethics/Code_of_Ethics.aspx"],
+    "memoryTip": "Advertising: ACCURATE + HONEST + NO guarantees. If it sounds too good, it's unethical."
+  },
+  {
+    "id": 742,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["consultation", "confidentiality", "peer support"],
+    "question": "When seeking consultation about a challenging case, the therapist should:",
+    "options": [
+      "Share full identifying information for complete context",
+      "Avoid consultation to protect confidentiality",
+      "Disguise or limit identifying information while sharing clinically relevant details",
+      "Only consult if the client gives written permission"
+    ],
+    "correct": 2,
+    "explanation": "Consultation is ethical and encouraged for challenging cases, but confidentiality must be protected: disguise identifying information (change name, demographics), share only clinically relevant details, choose consultants bound by confidentiality (licensed professionals), don't consult with people who might know client. Informed consent should mention consultation as part of practice. Written permission not typically required for professional consultation with appropriate disguising. Document consultation received.",
+    "citation": "AAMFT Code of Ethics (2015), Principle II.2; APA Ethics Code (2017), Standard 4.06 Consultations.",
+    "studyUrls": ["https://www.apa.org/ethics/code"],
+    "memoryTip": "Consultation: DO IT but DISGUISE identity. Share the case, protect the person."
+  },
+  {
+    "id": 743,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["split treatment", "coordination", "medication"],
+    "question": "When a client receives therapy from an MFT and medication from a psychiatrist (split treatment), ethical practice requires:",
+    "options": [
+      "Each provider works independently without communication",
+      "The therapist manages medication discussions",
+      "Clear role definition, regular communication between providers, and client authorization for coordination",
+      "The client decides what each provider should know"
+    ],
+    "correct": 2,
+    "explanation": "Split treatment (psychotherapy + medication management by different providers) requires: clear delineation of roles and responsibilities, authorization from client for providers to communicate, regular coordination about treatment progress and concerns, agreement on crisis protocols, avoiding contradictory recommendations. Lack of communication increases risk of fragmented care, medication errors, and liability. Document coordination efforts. Client confidentiality still applies—share only relevant clinical information.",
+    "citation": "Riba, M. B., & Balon, R. (2005). Competency in Combining Pharmacotherapy and Psychotherapy. APA; AAMFT Code of Ethics (2015), Principle III.11.",
+    "studyUrls": ["https://www.psychiatry.org/psychiatrists/practice/professional-interests/integrated-care"],
+    "memoryTip": "Split treatment: COMMUNICATE with other providers. Authorization + coordination = safety."
+  },
+  {
+    "id": 744,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["cultural humility", "cultural competence", "diversity"],
+    "question": "Cultural competence in ethical practice is best understood as:",
+    "options": [
+      "Knowing everything about every culture",
+      "Treating all clients exactly the same regardless of background",
+      "An ongoing commitment to self-awareness, learning, and adapting practice to diverse clients",
+      "Completing one diversity training"
+    ],
+    "correct": 2,
+    "explanation": "Cultural competence (better termed 'cultural humility') is: not a destination but ongoing process, involves self-awareness of own cultural assumptions and biases, requires learning about clients' cultural contexts, adapts interventions to cultural values, acknowledges power dynamics, treats client as expert on their own experience. Not stereotyping or assuming based on group membership. Treating everyone 'the same' ignores important differences. Lifelong learning required.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.1; Sue, D. W. (2010). Microaggressions in Everyday Life. Wiley; APA Multicultural Guidelines (2017).",
+    "studyUrls": ["https://www.apa.org/about/policy/multicultural-guidelines"],
+    "memoryTip": "Cultural competence: ONGOING journey, not a destination. Humility + learning + adapting."
+  },
+  {
+    "id": 745,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["ethical decision-making", "model", "dilemmas"],
+    "question": "When facing an ethical dilemma with no clear right answer, the BEST approach is to:",
+    "options": [
+      "Go with your gut instinct immediately",
+      "Avoid the decision by terminating with the client",
+      "Use a systematic decision-making model: identify issues, consult codes/laws/colleagues, consider options and consequences, decide, document, and evaluate",
+      "Do whatever the client wants"
+    ],
+    "correct": 2,
+    "explanation": "Ethical decision-making models provide systematic framework: (1) identify the ethical issues, (2) consult relevant ethics codes, laws, and guidelines, (3) seek consultation with colleagues or ethics committees, (4) consider all possible courses of action, (5) evaluate consequences of each option for all stakeholders, (6) make decision and implement, (7) document reasoning, (8) evaluate outcome. Gut instinct is unreliable; avoiding the dilemma is unethical; client wishes don't override ethics.",
+    "citation": "Cottone, R. R., & Claus, R. E. (2000). Ethical decision-making models: A review. Counseling and Values, 45(1), 58-78; Kitchener, K. S. (1984). Intuition, Critical Evaluation and Ethical Principles. The Counseling Psychologist, 12(3), 43-55.",
+    "studyUrls": ["https://www.apa.org/ethics/commentary/ethical-decision-making"],
+    "memoryTip": "Ethical dilemmas: Use a MODEL, not your gut. Identify → Consult → Consider → Decide → Document."
+  },
+  {
+    "id": 746,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["HIPAA", "minimum necessary", "disclosure"],
+    "question": "HIPAA's 'minimum necessary' standard requires that:",
+    "options": [
+      "All available information be shared to ensure thorough care",
+      "Only the minimum amount of PHI necessary to accomplish the intended purpose be used or disclosed",
+      "Therapists share nothing with anyone",
+      "Clients sign multiple consent forms"
+    ],
+    "correct": 1,
+    "explanation": "The minimum necessary standard limits use and disclosure of protected health information to what is reasonably necessary to accomplish the purpose. Applies to most uses/disclosures, with exceptions for treatment, client access to own records, and disclosures required by law. Requires policies identifying who needs access and limiting access by role. When responding to requests, share only what's needed—don't send entire records when a summary suffices.",
+    "citation": "HIPAA Privacy Rule, 45 CFR §164.502(b), §164.514(d); HHS (2003). Summary of the HIPAA Privacy Rule.",
+    "studyUrls": ["https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/minimum-necessary-requirement/index.html"],
+    "memoryTip": "Minimum necessary = share only what's NEEDED. Not everything, just enough for the purpose."
+  },
+  {
+    "id": 747,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["FERPA", "minors", "educational records"],
+    "question": "When treating a minor student, FERPA (Family Educational Rights and Privacy Act) applies to:",
+    "options": [
+      "All therapy records",
+      "Educational records maintained by schools, which may include school-based counseling",
+      "Only private practice records",
+      "Only medical records"
+    ],
+    "correct": 1,
+    "explanation": "FERPA protects educational records in schools receiving federal funding. School-based counseling notes may be covered by FERPA rather than HIPAA. Key differences: FERPA gives parents access rights until age 18 (then to student), requires consent for disclosure with fewer exceptions than HIPAA, and is enforced by Department of Education. Therapists in schools must understand which law applies. Personal notes kept separate ('sole possession records') may be exempt.",
+    "citation": "Family Educational Rights and Privacy Act (FERPA), 20 U.S.C. §1232g; 34 CFR Part 99; Joint Guidance on FERPA and HIPAA (2008).",
+    "studyUrls": ["https://studentprivacy.ed.gov/"],
+    "memoryTip": "FERPA = schools. HIPAA = healthcare. School counseling = usually FERPA. Know which applies."
+  },
+  {
+    "id": 748,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "easy",
+    "tags": ["dual relationships", "exploitation", "power"],
+    "question": "The primary ethical concern with dual relationships is:",
+    "options": [
+      "They are always illegal",
+      "The potential for exploitation due to power imbalance and impaired objectivity",
+      "They make scheduling difficult",
+      "Insurance companies prohibit them"
+    ],
+    "correct": 1,
+    "explanation": "Dual relationships are concerning because the power differential in therapy can be exploited when boundaries blur, and the therapist's objectivity may be compromised. Not all dual relationships are prohibited—some are unavoidable (rural communities) or potentially beneficial (attending client's graduation). The standard is whether the relationship could reasonably be expected to impair objectivity or be exploitative. Avoidance is preferred; when unavoidable, careful navigation and documentation are essential.",
+    "citation": "AAMFT Code of Ethics (2015), Principle I.3; Zur, O. (2007). Boundaries in Psychotherapy: Ethical and Clinical Explorations. APA.",
+    "studyUrls": ["https://www.zurinstitute.com/boundaries-dual-relationships/"],
+    "memoryTip": "Dual relationship concern = POWER + OBJECTIVITY. Could it exploit or impair judgment?"
+  },
+  {
+    "id": 749,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "medium",
+    "tags": ["record retention", "documentation", "legal"],
+    "question": "Regarding record retention, therapists should keep client records for:",
+    "options": [
+      "One year after termination",
+      "Forever without exception",
+      "At least the period required by state law, often 7 years for adults (longer for minors)",
+      "Only while the client is actively in treatment"
+    ],
+    "correct": 2,
+    "explanation": "Record retention requirements vary by state but typically require 7 years after termination for adults. For minors, records often must be kept until the minor reaches age of majority plus the retention period (e.g., until age 25). Some states have longer requirements. Beyond legal minimums, consider: malpractice statute of limitations, potential for client return, nature of treatment. Secure destruction required after retention period. Document destruction date and method.",
+    "citation": "State licensing board regulations; HIPAA Privacy Rule §164.530(j); APA Record Keeping Guidelines (2007).",
+    "studyUrls": ["https://www.apa.org/practice/guidelines/record-keeping"],
+    "memoryTip": "Records: 7 years typical for adults, LONGER for minors. Check YOUR state's requirements."
+  },
+  {
+    "id": 750,
+    "domain": "Ethical, Legal, Professional Standards",
+    "difficulty": "hard",
+    "tags": ["moral distress", "ethical climate", "systemic ethics"],
+    "question": "Moral distress in therapists occurs when:",
+    "options": [
+      "They dislike their clients",
+      "They know the ethically correct action but institutional or systemic barriers prevent them from taking it",
+      "They disagree with their supervisor's theoretical orientation",
+      "Clients terminate prematurely"
+    ],
+    "correct": 1,
+    "explanation": "Moral distress arises when therapists know the right action but constraints (institutional policies, insurance limitations, systemic barriers, power dynamics) prevent ethical action. Examples: being pressured to discharge clients too soon, inadequate resources for client needs, policies that conflict with client welfare. Chronic moral distress leads to burnout and moral residue. Addressing it requires: advocacy, consultation, self-care, and sometimes whistleblowing or job change.",
+    "citation": "Jameton, A. (1984). Nursing Practice: The Ethical Issues. Prentice-Hall; Austin, W. (2012). Moral Distress and the Contemporary Plight of Health Professionals. HEC Forum, 24(1), 27-38.",
+    "studyUrls": ["https://www.apa.org/monitor/2020/04/ce-corner-moral"],
+    "memoryTip": "Moral distress = KNOW the right thing, CAN'T do it. Systemic barriers block ethical action."
   }
 ]

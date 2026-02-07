@@ -27,7 +27,7 @@
             --bg: #F9FAFB;
             --surface: #FFFFFF;
             --text: #111827;
-            --text-light: #6B7280;
+            --text-light: #374151;
             --border: #E5E7EB;
             --shadow: rgba(0, 0, 0, 0.1);
         }
@@ -40,6 +40,7 @@
         
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 19px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             background-attachment: fixed;
             color: var(--text);
@@ -89,7 +90,7 @@
         .btn *,
         .header,
         .header *,
-        .accessibility-btn,
+        .settings-btn,
         .accessibility-panel,
         .accessibility-panel *,
         .filter-btn,
@@ -149,7 +150,7 @@
         .header h1,
         .logo h1,
         .user-info,
-        .accessibility-btn,
+        .settings-btn,
         .filter-btn,
         label {
             font-size: 1rem !important;  /* Fixed at 16px */
@@ -227,7 +228,32 @@
             font-weight: 600;
             font-size: 1.1rem;
         }
-        
+
+        .settings-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--purple));
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            margin-left: 5px;
+        }
+
+        .settings-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .settings-btn:active {
+            transform: scale(0.95);
+        }
+
         .card {
             background: white;
             border-radius: 16px;
@@ -935,9 +961,18 @@
         .question-palette {
             background: white;
             border-radius: 16px;
-            padding: 20px;
+            padding: 25px;
             margin-bottom: 20px;
             box-shadow: 0 4px 6px var(--shadow);
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            border-left: 6px solid var(--primary);
+        }
+
+        /* Match question card styling for consistency */
+        #studySession .question-palette {
+            margin-top: 20px;
         }
 
         .question-palette h3 {
@@ -966,10 +1001,12 @@
 
         .palette-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-            gap: 8px;
-            max-height: 300px;
-            overflow-y: auto;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            gap: 10px;
+            max-height: none;
+            overflow-y: visible;
+            padding: 15px 0;
+            width: 100%;
         }
 
         .palette-grid.collapsed {
@@ -977,17 +1014,18 @@
         }
 
         .palette-item {
-            width: 44px;
-            height: 44px;
-            min-width: 44px;
+            width: 100%;
+            height: 50px;
+            min-width: 50px;
             border-radius: 8px;
-            border: 2px solid var(--border);
-            background: var(--bg);
+            border: 2px solid #f59e0b;
+            background: #fef3c7;
+            color: #b45309;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             cursor: pointer;
             transition: all 0.2s;
             touch-action: manipulation;
@@ -995,30 +1033,70 @@
 
         .palette-item:hover {
             border-color: var(--primary);
-            transform: scale(1.1);
+            transform: scale(1.05);
+            background: #fde68a;
         }
 
         .palette-item.current {
             border-color: var(--primary);
             background: var(--primary);
             color: white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
         }
 
         .palette-item.answered {
             border-color: var(--success);
-            background: var(--success-light);
-            color: var(--success);
+            background: #d1fae5;
+            color: #047857;
         }
 
         .palette-item.answered.current {
             background: var(--success);
+            border-color: var(--success);
             color: white;
+            box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
         }
 
         .palette-item.skipped {
             border-color: var(--warning);
             background: var(--warning-light);
             color: var(--warning);
+        }
+
+        .palette-item.flagged {
+            border-color: #9333ea;
+            background: #f3e8ff;
+            color: #9333ea;
+            position: relative;
+        }
+
+        .palette-item.flagged::after {
+            content: '🚩';
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: 10px;
+        }
+
+        .mark-review-btn {
+            background: #f3e8ff;
+            color: #9333ea;
+            border: 2px solid #9333ea;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .mark-review-btn:hover {
+            background: #9333ea;
+            color: white;
+        }
+
+        .mark-review-btn.flagged {
+            background: #9333ea;
+            color: white;
         }
 
         .palette-legend {
@@ -1052,8 +1130,19 @@
         }
 
         .legend-dot.unanswered {
-            background: var(--bg);
-            border: 1px solid var(--border);
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+        }
+
+        .question-palette.navigator-hidden {
+            display: none;
+        }
+
+        .show-navigator-btn {
+            width: 100%;
+            margin-top: 20px;
+            padding: 12px;
+            font-size: 0.95rem;
         }
 
         .skip-btn {
@@ -1169,11 +1258,9 @@
                 max-width: none;
             }
 
-            .accessibility-btn {
-                width: 50px;
-                height: 50px;
-                bottom: 15px;
-                right: 15px;
+            .settings-btn {
+                width: 35px;
+                height: 35px;
             }
 
             .question-card {
@@ -1181,15 +1268,15 @@
             }
 
             .palette-grid {
-                grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
-                gap: 6px;
+                grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+                gap: 8px;
             }
 
             .palette-item {
-                width: 40px;
-                height: 40px;
-                min-width: 40px;
-                font-size: 0.8rem;
+                width: 44px;
+                height: 44px;
+                min-width: 44px;
+                font-size: 0.85rem;
             }
         }
 
@@ -1255,26 +1342,30 @@
                 grid-template-columns: repeat(3, 1fr);
             }
 
-            /* Side-by-side layout for study session */
+            /* Side-by-side layout for study session - DISABLED for reliability */
+            /* Navigation was getting lost in grid layout, using simpler approach */
             #studySession {
-                display: grid;
-                grid-template-columns: 1fr 320px;
-                gap: 20px;
-                align-items: start;
+                display: block;
             }
 
-            #studySession > .card:first-child {
-                grid-column: 1 / -1;
+            /* Question navigator stays full-width at bottom for easy access */
+            #studySession .question-palette {
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+                margin-top: 25px;
             }
 
-            .question-card {
-                grid-column: 1;
+            /* Ensure palette grid fills width */
+            #studySession .palette-grid {
+                grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
             }
 
-            .question-palette {
-                grid-column: 2;
-                position: sticky;
-                top: 20px;
+            /* Ensure navigation card is always visible */
+            #navigationCard {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
             }
         }
 
@@ -1316,40 +1407,10 @@
            ACCESSIBILITY ENHANCEMENTS
            =================================== */
         
-        /* Accessibility Button */
-        .accessibility-btn {
-            position: fixed;
-            bottom: 20px;
-            bottom: max(20px, env(safe-area-inset-bottom));
-            right: 20px;
-            right: max(20px, env(safe-area-inset-right));
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary), var(--purple));
-            border: none;
-            color: white;
-            font-size: 24px;
-            cursor: pointer;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            z-index: 9999;
-            transition: transform 0.3s, box-shadow 0.3s;
-            touch-action: manipulation;
-        }
-        
-        .accessibility-btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 16px rgba(0,0,0,0.4);
-        }
-        
-        .accessibility-btn:active {
-            transform: scale(0.95);
-        }
-        
         /* Accessibility Panel */
         .accessibility-panel {
             position: fixed;
-            bottom: 90px;
+            top: 80px;
             right: 20px;
             width: 340px;
             background: var(--surface);
@@ -1432,6 +1493,11 @@
             --text: #e2e8f0;
             --text-light: #94a3b8;
             --border: #334155;
+            --success-light: #14532d;
+            --danger-light: #7f1d1d;
+            --warning-light: #78350f;
+            --primary-light: #1e3a5f;
+            --purple-light: #3b0764;
             background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
         }
         
@@ -1445,14 +1511,164 @@
         
         body.theme-dark .btn {
             background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
         }
-        
+
+        body.theme-dark .btn-secondary {
+            background: #334155;
+            color: #e2e8f0;
+            border-color: #64748b;
+        }
+
+        body.theme-dark .btn-secondary:hover {
+            background: #475569;
+        }
+
+        body.theme-dark .question-palette {
+            background: #1e293b;
+            border-color: #3b82f6;
+        }
+
+        body.theme-dark .question-palette h3 {
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .palette-item {
+            background: #78350f;
+            border-color: #f59e0b;
+            color: #fef3c7;
+        }
+
+        body.theme-dark .palette-item:hover {
+            background: #92400e;
+        }
+
+        body.theme-dark .palette-item.current {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+        }
+
+        body.theme-dark .palette-item.answered {
+            background: #14532d;
+            border-color: #10b981;
+            color: #a7f3d0;
+        }
+
+        body.theme-dark .palette-item.answered.current {
+            background: #059669;
+            border-color: #10b981;
+            color: white;
+        }
+
+        body.theme-dark .review-question {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .review-question * {
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .answer-option {
+            background: #1e293b;
+            border-color: #475569;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .answer-option.user-answer {
+            background: #7f1d1d;
+            border-color: #ef4444;
+            color: #fecaca;
+        }
+
+        body.theme-dark .answer-option.correct-answer,
+        body.theme-dark .answer-option.user-answer.correct-answer {
+            background: #14532d;
+            border-color: #10b981;
+            color: #a7f3d0;
+        }
+
+        body.theme-dark .feedback {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .feedback.correct {
+            background: #14532d;
+            border-color: #10b981;
+        }
+
+        body.theme-dark .feedback.incorrect {
+            background: #7f1d1d;
+            border-color: #ef4444;
+        }
+
+        body.theme-dark .citation,
+        body.theme-dark .study-links,
+        body.theme-dark .memory-tip {
+            background: #334155;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .option-card {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .option-card:hover {
+            background: #334155;
+        }
+
+        body.theme-dark input,
+        body.theme-dark select,
+        body.theme-dark textarea {
+            background: #1e293b;
+            color: #e2e8f0;
+            border-color: #475569;
+        }
+
+        body.theme-dark .checkbox-item label {
+            color: #e2e8f0;
+        }
+
+        /* Dark mode: Ensure all text on colored backgrounds is readable */
+        body.theme-dark [style*="background: var(--success-light)"],
+        body.theme-dark [style*="background: var(--danger-light)"],
+        body.theme-dark [style*="background: var(--warning-light)"],
+        body.theme-dark [style*="background: var(--primary-light)"] {
+            color: #e2e8f0 !important;
+        }
+
+        body.theme-dark [style*="background: var(--success-light)"] *,
+        body.theme-dark [style*="background: var(--danger-light)"] *,
+        body.theme-dark [style*="background: var(--warning-light)"] *,
+        body.theme-dark [style*="background: var(--primary-light)"] * {
+            color: #e2e8f0 !important;
+        }
+
+        body.theme-dark .score-circle {
+            background: #1e293b;
+            color: #e2e8f0;
+        }
+
+        body.theme-dark .vignette {
+            background: #334155;
+            color: #e2e8f0;
+        }
+
         body.theme-highcontrast {
             --bg: #000000;
             --surface: #000000;
             --text: #FFFFFF;
             --text-light: #FFFFFF;
             --border: #FFFFFF;
+            --success-light: #000000;
+            --danger-light: #000000;
+            --warning-light: #000000;
+            --primary-light: #000000;
+            --purple-light: #000000;
             background: #000000;
         }
         
@@ -1470,12 +1686,84 @@
             color: #000000;
             border: 3px solid #FFFFFF;
         }
-        
+
+        body.theme-highcontrast .review-question,
+        body.theme-highcontrast .answer-option,
+        body.theme-highcontrast .feedback,
+        body.theme-highcontrast .option-card {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        body.theme-highcontrast .review-question *,
+        body.theme-highcontrast .answer-option *,
+        body.theme-highcontrast .feedback * {
+            color: #FFFFFF;
+        }
+
+        body.theme-highcontrast .answer-option.user-answer {
+            background: #000000;
+            border: 3px solid #FF0000;
+        }
+
+        body.theme-highcontrast .answer-option.correct-answer {
+            background: #000000;
+            border: 3px solid #00FF00;
+        }
+
+        body.theme-highcontrast .feedback.correct {
+            border: 3px solid #00FF00;
+        }
+
+        body.theme-highcontrast .feedback.incorrect {
+            border: 3px solid #FF0000;
+        }
+
+        body.theme-highcontrast .citation,
+        body.theme-highcontrast .study-links,
+        body.theme-highcontrast .memory-tip {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        body.theme-highcontrast input,
+        body.theme-highcontrast select,
+        body.theme-highcontrast textarea {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
+        /* High contrast: Ensure ALL text is white on black */
+        body.theme-highcontrast [style*="background: var(--success-light)"],
+        body.theme-highcontrast [style*="background: var(--danger-light)"],
+        body.theme-highcontrast [style*="background: var(--warning-light)"],
+        body.theme-highcontrast [style*="background: var(--primary-light)"] {
+            color: #FFFFFF !important;
+            border: 2px solid #FFFFFF !important;
+        }
+
+        body.theme-highcontrast [style*="background: var(--success-light)"] *,
+        body.theme-highcontrast [style*="background: var(--danger-light)"] *,
+        body.theme-highcontrast [style*="background: var(--warning-light)"] *,
+        body.theme-highcontrast [style*="background: var(--primary-light)"] * {
+            color: #FFFFFF !important;
+        }
+
+        body.theme-highcontrast .score-circle,
+        body.theme-highcontrast .vignette {
+            background: #000000;
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+        }
+
         body.theme-dyslexia {
             --bg: #fffbeb;
             --surface: #fefce8;
             --text: #292524;
-            --text-light: #57534e;
+            --text-light: #44403c;
             --border: #fef3c7;
             background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
             font-family: 'Comic Sans MS', 'OpenDyslexic', sans-serif;
@@ -1658,6 +1946,23 @@
             gap: 12px;
             margin-top: 20px;
         }
+
+        /* FAILSAFE: Ensure navigation card is ALWAYS visible */
+        #navigationCard {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            position: relative !important;
+        }
+
+        #navigationCard .action-buttons {
+            display: flex !important;
+        }
+
+        #navigationCard .btn {
+            display: inline-flex !important;
+        }
+
         /* ===================================
            NUCLEAR OVERRIDE - MUST BE LAST
            This overrides ALL previous font-size declarations
@@ -1695,17 +2000,13 @@
         .btn *,
         .header h1,
         .logo h1,
-        .accessibility-btn {
+        .settings-btn {
             font-size: 1rem !important;
         }
     </style>
 </head>
 <body>
-    <!-- Accessibility Controls -->
-    <button class="accessibility-btn" id="accessibilityBtn" onclick="toggleAccessibility()" title="Accessibility Settings">
-        ⚙️
-    </button>
-    
+    <!-- Accessibility Panel -->
     <div class="accessibility-panel hidden" id="accessibilityPanel">
         <h3>⚙️ Accessibility Settings</h3>
         
@@ -1789,12 +2090,16 @@
                     <p style="margin: 0; color: var(--text-light); font-size: 0.9rem;">Your Personal Study Companion</p>
                 </div>
             </div>
+            <a href="index-v2.html" style="padding: 8px 16px; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; color: var(--text); text-decoration: none; font-size: 0.85rem; white-space: nowrap;">Try New UI</a>
             <div class="user-info hidden" id="userInfo">
                 <div class="user-avatar" id="userAvatar"></div>
                 <div>
                     <div style="font-weight: 600;" id="userName"></div>
                     <div style="font-size: 0.85rem; color: var(--text-light);">Student</div>
                 </div>
+                <button class="settings-btn" id="accessibilityBtn" onclick="toggleAccessibility()" title="Settings">
+                    ⚙️
+                </button>
             </div>
         </div>
 
@@ -1856,12 +2161,7 @@
                     <p>Helpful links and materials</p>
                 </div>
 
-                <div class="option-card" onclick="showFeedback()">
-                    <div class="icon">💬</div>
-                    <h3>Give Feedback</h3>
-                    <p>Help improve this study tool</p>
                 </div>
-            </div>
 
             <!-- Quick Stats -->
             <div style="margin-top: 30px; padding-top: 20px; border-top: 2px solid var(--border);">
@@ -1879,6 +2179,11 @@
                         <div style="font-size: 2rem; font-weight: 700; color: var(--warning);" id="statFlaggedQuestions">0</div>
                         <div style="font-size: 0.9rem; color: var(--text-light);">Flagged Questions</div>
                     </div>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="#" onclick="showFeedback(); return false;" style="color: var(--primary); font-size: 0.9rem; text-decoration: none; font-weight: 500;">
+                        💬 Give Feedback
+                    </a>
                 </div>
             </div>
         </div>
@@ -1918,13 +2223,16 @@
             
             <div class="input-group">
                 <label for="questionCount">Number of Questions</label>
-                <input type="number" id="questionCount" value="10" min="5" max="50">
+                <input type="number" id="questionCount" value="10" min="5" max="200">
+                <small id="questionCountNote" style="display: none; color: var(--primary); margin-top: 5px;">📝 National MFT Exam format: 200 questions</small>
             </div>
             
             <div class="action-buttons">
                 <button class="btn btn-primary" onclick="startStudySession()">Start Session 🎯</button>
                 <button class="btn btn-secondary" onclick="backToDashboard()">Back</button>
             </div>
+
+            <p id="freshQuestionsInfo" style="color: var(--text-light); font-size: 0.85rem; margin-top: 15px; text-align: center; padding: 10px; background: var(--bg); border-radius: 8px;"></p>
         </div>
 
         <!-- Study Session -->
@@ -1943,25 +2251,11 @@
                 </div>
             </div>
 
-            <!-- Question Palette -->
-            <div class="question-palette">
-                <h3>
-                    <span>Question Navigator</span>
-                    <button class="palette-toggle" onclick="togglePalette()">Hide/Show</button>
-                </h3>
-                <div class="palette-grid" id="questionPalette"></div>
-                <div class="palette-legend">
-                    <div class="legend-item"><div class="legend-dot current"></div> Current</div>
-                    <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
-                    <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
-                </div>
-            </div>
-
             <!-- Question Display -->
             <div id="questionDisplay"></div>
             
             <!-- Navigation -->
-            <div class="card">
+            <div class="card" id="navigationCard">
                 <h3 style="margin-bottom: 20px; color: var(--text-light); font-size: 1rem;">Ready to continue?</h3>
                 <div class="action-buttons">
                     <button class="btn btn-secondary" onclick="previousQuestion()" id="prevBtn" style="flex: 1;">
@@ -1991,6 +2285,38 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Exam Mode: Flagged Questions Summary -->
+            <div id="flaggedSummary" class="card" style="display: none; background: #f3e8ff; border: 2px solid #9333ea;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    <span style="color: #9333ea; font-weight: 600;">
+                        🚩 <span id="flaggedCount">0</span> question(s) flagged for review
+                    </span>
+                    <button class="btn" onclick="jumpToNextFlagged()" style="background: #9333ea; color: white; padding: 8px 16px;">
+                        Jump to Next Flagged →
+                    </button>
+                </div>
+            </div>
+
+            <!-- Question Navigator (Bottom - Full Width) -->
+            <div class="question-palette" id="questionNavigator">
+                <h3 style="font-size: 1.1rem; color: var(--text); margin-bottom: 15px;">
+                    <span>📋 Click Any Question to Jump</span>
+                    <button class="palette-toggle" onclick="toggleNavigator()">Hide</button>
+                </h3>
+                <div class="palette-legend" style="margin-bottom: 12px;">
+                    <div class="legend-item"><div class="legend-dot current"></div> Current</div>
+                    <div class="legend-item"><div class="legend-dot answered"></div> Answered</div>
+                    <div class="legend-item"><div class="legend-dot unanswered"></div> Unanswered</div>
+                    <div class="legend-item" id="flaggedLegend" style="display: none;"><div class="legend-dot" style="background: #f3e8ff; border: 1px solid #9333ea;"></div> Flagged</div>
+                </div>
+                <div class="palette-grid" id="questionPalette"></div>
+            </div>
+
+            <!-- Show Navigator Button (when hidden) -->
+            <button class="btn btn-secondary show-navigator-btn" id="showNavigatorBtn" onclick="toggleNavigator()" style="display: none;">
+                Show Question Navigator
+            </button>
         </div>
 
         <!-- Results Screen -->
@@ -2128,7 +2454,34 @@
             
             <div class="action-buttons">
                 <button class="btn btn-primary" onclick="backToDashboard()">Back to Dashboard</button>
+                <button class="btn btn-secondary" onclick="showSeenQuestions()">View Seen Questions</button>
+                <button class="btn btn-warning" onclick="resetSeenQuestions()">Reset Seen Questions</button>
                 <button class="btn btn-danger" onclick="resetProgress()">Reset All Progress</button>
+            </div>
+            <p style="color: var(--text-light); font-size: 0.85rem; margin-top: 10px; text-align: center;">
+                Seen questions: <span id="seenQuestionsCount">0</span> / <span id="totalQuestionsCount">0</span>
+                (Questions won't repeat until 80% have been seen)
+            </p>
+        </div>
+
+        <!-- Seen Questions List -->
+        <div class="card hidden" id="seenQuestionsScreen">
+            <h2>Previously Seen Questions</h2>
+            <p style="color: var(--text-light); margin-bottom: 15px;">Questions you've already answered (won't repeat until 80% of pool is seen)</p>
+
+            <div style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                <label for="seenFilterDomain" style="color: var(--text-light);">Filter by domain:</label>
+                <select id="seenFilterDomain" onchange="filterSeenQuestions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border);">
+                    <option value="all">All Domains</option>
+                </select>
+                <span id="seenFilterCount" style="color: var(--text-light); font-size: 0.9rem;"></span>
+            </div>
+
+            <div id="seenQuestionsList" style="max-height: 500px; overflow-y: auto;"></div>
+
+            <div class="action-buttons" style="margin-top: 20px;">
+                <button class="btn btn-primary" onclick="showSessionHistory()">Back to History</button>
+                <button class="btn btn-secondary" onclick="backToDashboard()">Dashboard</button>
             </div>
         </div>
 
@@ -2253,7 +2606,8 @@
                 'questions/domain3_treatment.json',
                 'questions/domain4_evaluation.json',
                 'questions/domain5_crisis.json',
-                'questions/domain6_ethics.json'
+                'questions/domain6_ethics.json',
+                'questions/domain_moodle_import.json'
             ];
             
             try {
@@ -2337,50 +2691,6 @@
             { title: "AMFTRB Study Resources", url: "https://amftrb.org/resources/" }
         ];
 
-        // ===================================
-        // GOOGLE FORMS CONFIGURATION
-        // ===================================
-        // To enable feedback collection via Google Forms:
-        // 1. Create a Google Form with these fields:
-        //    - Feedback Type (dropdown)
-        //    - Question ID (short answer, number)
-        //    - Feedback Text (paragraph)
-        //    - Email (short answer, optional)
-        //    - User ID (short answer)
-        //    - Timestamp (short answer)
-        // 2. Get your form's pre-filled link and extract the entry IDs
-        // 3. Update the values below
-
-        const GOOGLE_FORMS_CONFIG = {
-            // === FEEDBACK FORM ===
-            feedback: {
-                enabled: false, // Set to true after configuring
-                formUrl: 'https://docs.google.com/forms/d/e/YOUR_FEEDBACK_FORM_ID/formResponse',
-                fields: {
-                    feedbackType: 'entry.XXXXXXXXXX',    // Replace with your entry ID
-                    questionId: 'entry.XXXXXXXXXX',      // Replace with your entry ID
-                    feedbackText: 'entry.XXXXXXXXXX',    // Replace with your entry ID
-                    email: 'entry.XXXXXXXXXX',           // Replace with your entry ID
-                    userId: 'entry.XXXXXXXXXX',          // Replace with your entry ID
-                    timestamp: 'entry.XXXXXXXXXX'        // Replace with your entry ID
-                }
-            },
-            // === RATINGS FORM ===
-            ratings: {
-                enabled: false, // Set to true after configuring
-                formUrl: 'https://docs.google.com/forms/d/e/YOUR_RATINGS_FORM_ID/formResponse',
-                fields: {
-                    questionId: 'entry.XXXXXXXXXX',      // Question ID number
-                    rating: 'entry.XXXXXXXXXX',          // 'up' or 'down'
-                    domain: 'entry.XXXXXXXXXX',          // Question domain
-                    difficulty: 'entry.XXXXXXXXXX',      // easy/medium/hard
-                    userId: 'entry.XXXXXXXXXX',          // Unique user ID
-                    timestamp: 'entry.XXXXXXXXXX',       // When rated
-                    wasCorrect: 'entry.XXXXXXXXXX'       // Did user answer correctly?
-                }
-            }
-        };
-
         // Helper function to get study URLs for a question
         function getStudyUrls(question) {
             // If question has specific URLs, use them
@@ -2422,6 +2732,7 @@
             questionRatings: {}, // {questionId: 'good' | 'irrelevant' | 'incorrect' | 'issue'}
             questionStats: {}, // {questionId: {timesAnswered, timesCorrect, good, irrelevant, incorrect, issue}}
             userFeedback: [], // [{date, questionId, type, comment}]
+            seenQuestions: [], // Track question IDs that have been viewed (no repeat until 80% seen)
             history: [],
             stats: {
                 totalSessions: 0,
@@ -2435,7 +2746,7 @@
 
         // Initialize app
         async function init() {
-            console.log('🚀 Initializing MFT Exam Master...');
+            console.log('🚀 Initializing MFT Exam Master v2.1');
             
             // Load questions first
             await loadAllQuestions();
@@ -2463,7 +2774,45 @@
             try {
                 const saved = localStorage.getItem('mftExamMaster');
                 if (saved) {
-                    state = JSON.parse(saved);
+                    const loadedState = JSON.parse(saved);
+
+                    // Merge loaded state with defaults to ensure all properties exist
+                    state = {
+                        userName: loadedState.userName || '',
+                        studyMode: loadedState.studyMode || 'practice',
+                        preferences: {
+                            fontSize: 16,
+                            theme: 'light',
+                            lineSpacing: 1.6,
+                            showRunningScore: true,
+                            ...(loadedState.preferences || {})
+                        },
+                        currentSession: loadedState.currentSession || {
+                            questions: [],
+                            currentIndex: 0,
+                            answers: {},
+                            startTime: null,
+                            selectedDomains: [],
+                            selectedDifficulty: [],
+                            questionDetails: []
+                        },
+                        sessions: loadedState.sessions || [],
+                        questionNotes: loadedState.questionNotes || {},
+                        questionRatings: loadedState.questionRatings || {},
+                        seenQuestions: loadedState.seenQuestions || [],
+                        questionStats: loadedState.questionStats || {},
+                        userFeedback: loadedState.userFeedback || [],
+                        history: loadedState.history || [],
+                        stats: {
+                            totalSessions: 0,
+                            totalQuestions: 0,
+                            totalCorrect: 0,
+                            lastStudyDate: null,
+                            flaggedCount: 0,
+                            ...(loadedState.stats || {})
+                        },
+                        uniqueUserId: loadedState.uniqueUserId || null
+                    };
                 }
             } catch (e) {
                 console.warn('Could not load saved data:', e.message);
@@ -2478,6 +2827,15 @@
                 console.warn('Could not save data (private browsing?):', e.message);
                 // Silently fail - user can still use app, just won't persist
             }
+        }
+
+        // Debounced save for performance - waits 500ms after last call
+        let saveTimeout = null;
+        function debouncedSave() {
+            if (saveTimeout) clearTimeout(saveTimeout);
+            saveTimeout = setTimeout(() => {
+                saveUserData();
+            }, 500);
         }
 
         // Start studying
@@ -2527,11 +2885,11 @@
         // Select study mode
         function selectMode(mode) {
             state.studyMode = mode;
-            
+
             // Show study settings
             document.getElementById('dashboard').classList.add('hidden');
             document.getElementById('studySettings').classList.remove('hidden');
-            
+
             // Populate domain selection
             const domainSelection = document.getElementById('domainSelection');
             domainSelection.innerHTML = domains.map(domain => `
@@ -2543,6 +2901,41 @@
                     </label>
                 </div>
             `).join('');
+
+            // Handle exam mode - fixed at 200 questions like the national exam
+            const questionCountInput = document.getElementById('questionCount');
+            const questionCountNote = document.getElementById('questionCountNote');
+
+            if (mode === 'exam') {
+                questionCountInput.value = 200;
+                questionCountInput.disabled = true;
+                questionCountNote.style.display = 'block';
+            } else {
+                questionCountInput.value = 10;
+                questionCountInput.disabled = false;
+                questionCountNote.style.display = 'none';
+            }
+
+            // Show fresh questions info
+            updateFreshQuestionsInfo();
+        }
+
+        function updateFreshQuestionsInfo() {
+            const seenCount = (state.seenQuestions || []).length;
+            const totalCount = questionBank.length;
+            const freshCount = totalCount - seenCount;
+            const freshPercent = totalCount > 0 ? Math.round((freshCount / totalCount) * 100) : 100;
+
+            const infoEl = document.getElementById('freshQuestionsInfo');
+            if (infoEl) {
+                if (freshPercent >= 80) {
+                    infoEl.innerHTML = `✨ <strong>${freshCount}</strong> fresh questions available (${freshPercent}% of pool) — Questions won't repeat until 80% have been seen.`;
+                } else if (freshPercent > 0) {
+                    infoEl.innerHTML = `📚 <strong>${freshCount}</strong> fresh questions remaining (${freshPercent}%). Some previously seen questions may appear to ensure variety.`;
+                } else {
+                    infoEl.innerHTML = `🔄 All ${totalCount} questions have been seen! Questions will now cycle. <a href="#" onclick="resetSeenQuestions(); return false;">Reset seen questions</a>`;
+                }
+            }
         }
 
         // Start study session
@@ -2568,43 +2961,101 @@
             }
             
             const questionCount = parseInt(document.getElementById('questionCount').value);
-            
-            // Filter questions
-            let filteredQuestions = questionBank.filter(q =>
+
+            // Filter questions by domain and difficulty
+            let matchingQuestions = questionBank.filter(q =>
                 selectedDomains.includes(q.domain) &&
                 selectedDifficulty.includes(q.difficulty)
             );
-            
-            // Sort by difficulty (progressive)
-            filteredQuestions.sort((a, b) => {
-                const diffOrder = { easy: 1, medium: 2, hard: 3 };
-                return diffOrder[a.difficulty] - diffOrder[b.difficulty];
-            });
-            
-            // Limit to requested count
-            filteredQuestions = filteredQuestions.slice(0, questionCount);
-            
-            if (filteredQuestions.length === 0) {
+
+            if (matchingQuestions.length === 0) {
                 alert('No questions match your criteria. Try different settings.');
                 return;
             }
+
+            // Separate unseen and seen questions (no repeat until 80% seen)
+            const seenSet = new Set(state.seenQuestions || []);
+            let unseenQuestions = matchingQuestions.filter(q => !seenSet.has(q.id));
+            let seenQuestions = matchingQuestions.filter(q => seenSet.has(q.id));
+
+            // Calculate if we've hit the 80% threshold for this question pool
+            const seenPercentage = seenQuestions.length / matchingQuestions.length;
+            const shouldRecycle = seenPercentage >= 0.8 || unseenQuestions.length < questionCount;
+
+            // Shuffle function
+            const shuffle = (arr) => {
+                const shuffled = [...arr];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            };
+
+            // Build question pool: prioritize unseen, add seen only if needed
+            let filteredQuestions = [];
+            if (shouldRecycle) {
+                // Mix unseen first, then seen (shuffled)
+                filteredQuestions = [...shuffle(unseenQuestions), ...shuffle(seenQuestions)];
+            } else {
+                // Only unseen questions (shuffled)
+                filteredQuestions = shuffle(unseenQuestions);
+            }
+
+            // Limit to requested count
+            filteredQuestions = filteredQuestions.slice(0, questionCount);
+
+            // Show user info about question pool
+            const unseenCount = unseenQuestions.length;
+            const totalPool = matchingQuestions.length;
+            console.log(`📚 Question pool: ${unseenCount}/${totalPool} unseen (${Math.round((1-seenPercentage)*100)}% fresh)`)
             
             // Initialize session
             state.currentSession = {
                 questions: filteredQuestions,
                 currentIndex: 0,
                 answers: {},
+                shuffledOptions: {}, // Maps questionId -> array of original indices in display order
+                flaggedForReview: [], // Track question IDs marked for review (exam mode)
                 startTime: Date.now(),
                 selectedDomains: selectedDomains,
                 selectedDifficulty: selectedDifficulty,
                 mode: state.studyMode
             };
-            
+
+            // Reset palette state for new session
+            resetPaletteState();
+
             // Show study session
             document.getElementById('studySettings').classList.add('hidden');
             document.getElementById('studySession').classList.remove('hidden');
-            
+
+            // Restore navigator visibility preference
+            restoreNavigatorPreference();
+
             showQuestion();
+        }
+
+        // Get or create shuffled option order for a question
+        // Returns array of original indices in display order, e.g., [2, 0, 3, 1]
+        function getShuffledOptions(questionId, numOptions) {
+            const session = state.currentSession;
+            if (!session.shuffledOptions) session.shuffledOptions = {};
+
+            // Return existing shuffle if already created for this question
+            if (session.shuffledOptions[questionId]) {
+                return session.shuffledOptions[questionId];
+            }
+
+            // Create new shuffled order
+            const indices = Array.from({ length: numOptions }, (_, i) => i);
+            for (let i = indices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [indices[i], indices[j]] = [indices[j], indices[i]];
+            }
+
+            session.shuffledOptions[questionId] = indices;
+            return indices;
         }
 
         // Show current question
@@ -2612,7 +3063,10 @@
             const session = state.currentSession;
             const question = session.questions[session.currentIndex];
             const isAnswered = session.answers[question.id] !== undefined;
-            
+
+            // Get shuffled option order for this question
+            const shuffled = getShuffledOptions(question.id, question.options.length);
+
             const display = document.getElementById('questionDisplay');
             display.innerHTML = `
                 <div class="question-card">
@@ -2622,49 +3076,58 @@
                             ${question.difficulty.toUpperCase()}
                         </div>
                     </div>
-                    
+
                     ${question.vignette ? `<div class="vignette">${question.vignette}</div>` : ''}
-                    
+
                     <div class="question-text">${question.question}</div>
-                    
+
                     <div class="answers">
-                        ${question.options.map((opt, idx) => {
-                            const isSelected = session.answers[question.id] === idx;
+                        ${shuffled.map((originalIdx, displayIdx) => {
+                            const opt = question.options[originalIdx];
+                            const isSelected = session.answers[question.id] === originalIdx;
                             const showFeedback = state.studyMode === 'practice' && isAnswered;
-                            const isCorrect = idx === question.correct;
-                            
+                            const isCorrect = originalIdx === question.correct;
+
                             let classes = 'answer-option';
                             if (isSelected) classes += ' selected';
                             if (showFeedback) {
                                 if (isCorrect) classes += ' correct';
                                 else if (isSelected) classes += ' incorrect';
                             }
-                            
+
                             return `
-                                <div class="${classes}" onclick="selectAnswer(${idx})">
+                                <div class="${classes}" onclick="selectAnswer(${originalIdx})">
                                     <input type="radio"
                                            name="q${question.id}"
-                                           id="q${question.id}_${idx}"
+                                           id="q${question.id}_${displayIdx}"
                                            ${isSelected ? 'checked' : ''}>
-                                    <label for="q${question.id}_${idx}">
-                                        ${String.fromCharCode(65 + idx)}) ${opt}
+                                    <label for="q${question.id}_${displayIdx}">
+                                        ${String.fromCharCode(65 + displayIdx)}) ${opt}
                                     </label>
                                 </div>
                             `;
                         }).join('')}
                     </div>
                     
-                    ${!isAnswered && state.studyMode === 'exam' ? `
-                        <div style="text-align: center; margin-top: 20px; padding: 15px; background: var(--primary-light); border-radius: 8px; color: var(--primary);">
-                            <strong>💡 Tip:</strong> Select an answer above, then click "Next Question" to continue
+                    ${state.studyMode === 'exam' ? `
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+                            <button class="mark-review-btn ${(session.flaggedForReview || []).includes(question.id) ? 'flagged' : ''}"
+                                    onclick="toggleFlagQuestion(${question.id})">
+                                ${(session.flaggedForReview || []).includes(question.id) ? '🚩 Flagged for Review' : '🏳️ Mark for Review'}
+                            </button>
                         </div>
+                        ${!isAnswered ? `
+                            <div style="text-align: center; margin-top: 15px; padding: 12px; background: var(--bg); border-radius: 8px; color: var(--text-light); font-size: 0.9rem;">
+                                Select an answer, then use navigation below or the Question Navigator to continue.
+                            </div>
+                        ` : ''}
                     ` : ''}
                     
                     ${state.studyMode === 'practice' && isAnswered ? `
                         <div class="feedback ${session.answers[question.id] === question.correct ? 'correct' : 'incorrect'}">
                             <h4>${session.answers[question.id] === question.correct ? '✅ Correct!' : '❌ Incorrect'}</h4>
                             ${session.answers[question.id] !== question.correct ?
-                                `<p><strong>Correct answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}</p>` : ''}
+                                `<p><strong>Correct answer:</strong> ${String.fromCharCode(65 + shuffled.indexOf(question.correct))}) ${question.options[question.correct]}</p>` : ''}
                             <p><strong>Explanation:</strong> ${question.explanation}</p>
                             <div class="citation">
                                 <strong>📚 Citation:</strong> ${question.citation}
@@ -2712,6 +3175,7 @@
 
             updateSessionProgress();
             renderQuestionPalette();
+            updateFlaggedSummary();
         }
 
         function selectAnswer(optionIndex) {
@@ -2728,6 +3192,12 @@
             if (isFirstAnswer) {
                 const isCorrect = optionIndex === question.correct;
                 trackQuestionAnswer(question.id, isCorrect);
+
+                // Mark question as seen (for no-repeat-until-80% feature)
+                if (!state.seenQuestions) state.seenQuestions = [];
+                if (!state.seenQuestions.includes(question.id)) {
+                    state.seenQuestions.push(question.id);
+                }
             }
 
             saveUserData();
@@ -2736,76 +3206,265 @@
             showQuestion();
         }
 
+        // Throttle for skip/jump navigation only
+        let navThrottle = false;
+
         function nextQuestion() {
             const session = state.currentSession;
-            
-            if (session.currentIndex < session.questions.length - 1) {
-                session.currentIndex++;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            if (!session || !session.questions) return;
+
+            const totalQuestions = session.questions.length;
+            const answeredCount = Object.keys(session.answers).length;
+
+            // If all questions answered, finish the session
+            if (answeredCount >= totalQuestions) {
+                finishSession();
+                return;
             }
+
+            // Find the lowest numbered unanswered question
+            for (let i = 0; i < totalQuestions; i++) {
+                const questionId = session.questions[i].id;
+                if (session.answers[questionId] === undefined) {
+                    session.currentIndex = i;
+                    debouncedSave();
+                    showQuestion();
+                    window.scrollTo(0, 0);
+                    return;
+                }
+            }
+
+            // Fallback (shouldn't reach here if answeredCount is correct)
+            finishSession();
         }
-        
+
         function previousQuestion() {
             const session = state.currentSession;
+            if (!session || !session.questions) return;
 
             if (session.currentIndex > 0) {
                 session.currentIndex--;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            } else {
+                // Wrap to end
+                session.currentIndex = session.questions.length - 1;
             }
+
+            debouncedSave();
+            showQuestion();
+            window.scrollTo(0, 0);
         }
 
-        // Skip to next question without answering
+        // Skip to next unanswered question
         function skipQuestion() {
-            const session = state.currentSession;
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
 
-            if (session.currentIndex < session.questions.length - 1) {
-                session.currentIndex++;
-                saveUserData();
-                showQuestion();
-                window.scrollTo(0, 0);
+            const session = state.currentSession;
+            if (!session || !session.questions) return;
+
+            const totalQuestions = session.questions.length;
+            const startIndex = session.currentIndex;
+
+            // Find next unanswered question
+            let nextIndex = (session.currentIndex + 1) % totalQuestions;
+
+            while (nextIndex !== startIndex) {
+                const questionId = session.questions[nextIndex].id;
+                if (session.answers[questionId] === undefined) {
+                    // Found an unanswered question
+                    session.currentIndex = nextIndex;
+                    debouncedSave();
+                    showQuestion();
+                    window.scrollTo(0, 0);
+                    return;
+                }
+                nextIndex = (nextIndex + 1) % totalQuestions;
             }
+
+            // All questions answered - go to finish
+            finishSession();
         }
 
         // Jump to a specific question number
         function jumpToQuestion(index) {
+            if (navThrottle) return;
+            navThrottle = true;
+            setTimeout(() => navThrottle = false, 100);
+
             const session = state.currentSession;
+            if (!session || !session.questions) return;
 
             if (index >= 0 && index < session.questions.length) {
                 session.currentIndex = index;
-                saveUserData();
+                debouncedSave();
                 showQuestion();
                 window.scrollTo(0, 0);
             }
         }
 
-        // Render the question palette grid
+        // Toggle flag for review (exam mode)
+        function toggleFlagQuestion(questionId) {
+            const session = state.currentSession;
+            if (!session.flaggedForReview) session.flaggedForReview = [];
+
+            const idx = session.flaggedForReview.indexOf(questionId);
+            if (idx === -1) {
+                session.flaggedForReview.push(questionId);
+            } else {
+                session.flaggedForReview.splice(idx, 1);
+            }
+
+            saveUserData();
+            showQuestion();
+            renderQuestionPalette();
+            updateFlaggedSummary();
+        }
+
+        // Update the flagged questions summary (exam mode)
+        function updateFlaggedSummary() {
+            const session = state.currentSession;
+            const summary = document.getElementById('flaggedSummary');
+            const countEl = document.getElementById('flaggedCount');
+
+            if (!summary || !countEl) return;
+
+            const flaggedCount = (session.flaggedForReview || []).length;
+
+            if (state.studyMode === 'exam' && flaggedCount > 0) {
+                summary.style.display = 'block';
+                countEl.textContent = flaggedCount;
+            } else {
+                summary.style.display = 'none';
+            }
+        }
+
+        // Jump to next flagged question (exam mode)
+        function jumpToNextFlagged() {
+            const session = state.currentSession;
+            const flagged = session.flaggedForReview || [];
+
+            if (flagged.length === 0) return;
+
+            // Find the next flagged question after current index
+            const currentIdx = session.currentIndex;
+            let nextFlaggedIdx = -1;
+
+            // First, look for flagged questions after current position
+            for (let i = currentIdx + 1; i < session.questions.length; i++) {
+                if (flagged.includes(session.questions[i].id)) {
+                    nextFlaggedIdx = i;
+                    break;
+                }
+            }
+
+            // If not found, wrap around to beginning
+            if (nextFlaggedIdx === -1) {
+                for (let i = 0; i <= currentIdx; i++) {
+                    if (flagged.includes(session.questions[i].id)) {
+                        nextFlaggedIdx = i;
+                        break;
+                    }
+                }
+            }
+
+            if (nextFlaggedIdx !== -1) {
+                jumpToQuestion(nextFlaggedIdx);
+            }
+        }
+
+        // Render the question palette grid with numbered buttons
         function renderQuestionPalette() {
+            console.log('renderQuestionPalette called');
+
             const session = state.currentSession;
             const palette = document.getElementById('questionPalette');
+            const flaggedLegend = document.getElementById('flaggedLegend');
 
-            if (!palette) return;
+            if (!palette) {
+                console.error('ERROR: Question palette element not found!');
+                return;
+            }
 
-            palette.innerHTML = session.questions.map((q, idx) => {
+            if (!session || !session.questions || session.questions.length === 0) {
+                console.error('ERROR: No questions in session!', session);
+                palette.innerHTML = '<div style="color: red; padding: 20px;">No questions loaded</div>';
+                return;
+            }
+
+            console.log('Rendering palette with', session.questions.length, 'questions');
+
+            // Show flagged legend in exam mode
+            if (flaggedLegend) {
+                flaggedLegend.style.display = state.studyMode === 'exam' ? 'flex' : 'none';
+            }
+
+            const flaggedSet = new Set(session.flaggedForReview || []);
+
+            // Build the palette HTML
+            let html = '';
+            for (let idx = 0; idx < session.questions.length; idx++) {
+                const q = session.questions[idx];
                 const isAnswered = session.answers[q.id] !== undefined;
                 const isCurrent = idx === session.currentIndex;
+                const isFlagged = flaggedSet.has(q.id);
 
                 let classes = 'palette-item';
                 if (isCurrent) classes += ' current';
                 if (isAnswered) classes += ' answered';
+                if (isFlagged) classes += ' flagged';
 
-                return `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="Question ${idx + 1}">${idx + 1}</div>`;
-            }).join('');
+                const title = `Question ${idx + 1}${isAnswered ? ' (Answered)' : ' (Unanswered)'}${isFlagged ? ' - Flagged' : ''}`;
+                html += `<div class="${classes}" onclick="jumpToQuestion(${idx})" title="${title}">${idx + 1}</div>`;
+            }
+
+            palette.innerHTML = html;
+            console.log('Palette rendered, innerHTML length:', palette.innerHTML.length);
         }
 
-        // Toggle palette visibility
-        function togglePalette() {
-            const grid = document.getElementById('questionPalette');
-            if (grid) {
-                grid.classList.toggle('collapsed');
+        // Reset palette state when starting new session (kept for compatibility)
+        function resetPaletteState() {
+            const palette = document.getElementById('questionPalette');
+            if (palette) palette.innerHTML = '';
+        }
+
+        // Toggle navigator visibility (complete hide/show)
+        function toggleNavigator() {
+            const navigator = document.getElementById('questionNavigator');
+            const showBtn = document.getElementById('showNavigatorBtn');
+
+            if (!navigator || !showBtn) return;
+
+            const isHidden = navigator.classList.toggle('navigator-hidden');
+            showBtn.style.display = isHidden ? 'block' : 'none';
+
+            // Update button text
+            const toggleBtn = navigator.querySelector('.palette-toggle');
+            if (toggleBtn) {
+                toggleBtn.textContent = 'Hide Navigator';
+            }
+
+            // Save preference
+            localStorage.setItem('mft_navigator_hidden', isHidden ? 'true' : 'false');
+        }
+
+        // Restore navigator preference on session start
+        function restoreNavigatorPreference() {
+            const navigator = document.getElementById('questionNavigator');
+            const showBtn = document.getElementById('showNavigatorBtn');
+
+            // Always show navigator in exam mode for full navigation ability
+            if (state.studyMode === 'exam') {
+                if (navigator) navigator.classList.remove('navigator-hidden');
+                if (showBtn) showBtn.style.display = 'none';
+                return;
+            }
+
+            // For practice mode, respect user preference
+            const isHidden = localStorage.getItem('mft_navigator_hidden') === 'true';
+            if (navigator && showBtn && isHidden) {
+                navigator.classList.add('navigator-hidden');
+                showBtn.style.display = 'block';
             }
         }
 
@@ -2836,25 +3495,20 @@
             const skipBtn = document.getElementById('skipBtn');
             const finishBtn = document.getElementById('finishBtn');
 
-            // Previous button - disable on first question
-            if (session.currentIndex === 0) {
-                prevBtn.disabled = true;
-                prevBtn.style.opacity = '0.5';
-                prevBtn.style.cursor = 'not-allowed';
-            } else {
-                prevBtn.disabled = false;
-                prevBtn.style.opacity = '1';
-                prevBtn.style.cursor = 'pointer';
-            }
+            // Previous button - always enabled (wraps around)
+            prevBtn.disabled = false;
+            prevBtn.style.opacity = '1';
+            prevBtn.style.cursor = 'pointer';
 
-            // Next/Skip vs Finish button - show finish on last question
-            if (session.currentIndex === session.questions.length - 1) {
-                nextBtn.style.display = 'none';
-                skipBtn.style.display = 'none';
+            // Always show Next and Skip buttons (Next wraps around and finishes when all answered)
+            nextBtn.style.display = 'inline-flex';
+            skipBtn.style.display = 'inline-flex';
+
+            // Show Finish button when all questions are answered (as alternative to Next)
+            const answeredCount = Object.keys(session.answers).length;
+            if (answeredCount >= session.questions.length) {
                 finishBtn.style.display = 'inline-flex';
             } else {
-                nextBtn.style.display = 'inline-flex';
-                skipBtn.style.display = 'inline-flex';
                 finishBtn.style.display = 'none';
             }
         }
@@ -2873,16 +3527,16 @@
         function endSessionNow() {
             const session = state.currentSession;
             const answered = Object.keys(session.answers).length;
-            
+
             if (answered === 0) {
                 alert('⚠️ You haven\'t answered any questions yet!');
                 return;
             }
-            
+
             const message = answered < session.questions.length
                 ? `🛑 You've answered ${answered} of ${session.questions.length} questions.\n\nYou'll be graded only on the questions you answered.\n\nEnd session now and see results?`
                 : `🎉 You've answered all ${answered} questions!\n\nReady to see your results?`;
-            
+
             if (confirm(message)) {
                 calculateResults();
             }
@@ -2898,22 +3552,27 @@
         function finishSession() {
             const session = state.currentSession;
             const answered = Object.keys(session.answers).length;
-            
+
             if (answered < session.questions.length) {
                 if (!confirm(`You've answered ${answered} of ${session.questions.length} questions. Finish anyway?`)) {
                     return;
                 }
             }
-            
+
             calculateResults();
         }
 
         function calculateResults() {
-            const session = state.currentSession;
-            let correct = 0;
-            const domainScores = {};
-            
-            session.questions.forEach(question => {
+            try {
+                const session = state.currentSession;
+                if (!session || !session.questions) {
+                    console.warn('No session data found');
+                    return;
+                }
+                let correct = 0;
+                const domainScores = {};
+
+                session.questions.forEach(question => {
                 const domain = question.domain;
                 if (!domainScores[domain]) {
                     domainScores[domain] = { correct: 0, total: 0, answered: 0 };
@@ -2980,7 +3639,11 @@
             // Save to enhanced sessions array
             if (!state.sessions) state.sessions = [];
             state.sessions.push(completeSession);
-            
+
+            // Ensure history and stats exist (safety check)
+            if (!state.history) state.history = [];
+            if (!state.stats) state.stats = { totalSessions: 0, totalQuestions: 0, totalCorrect: 0, lastStudyDate: null, flaggedCount: 0 };
+
             state.history.push(sessionResult);
             state.stats.totalSessions++;
             state.stats.totalQuestions += answered;
@@ -2989,9 +3652,12 @@
             
             saveUserData();
             updateDashboardStats();
-            
+
             // Show results with review button
             showResults(sessionResult, passing, completeSession.id);
+            } catch (error) {
+                console.error('Error in calculateResults:', error);
+            }
         }
 
         function showResults(result, passing, sessionId) {
@@ -3089,11 +3755,11 @@
                         <div class="question-text">${question.question}</div>
                         
                         <div style="background: var(--danger-light); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-                            <strong>❌ Your Answer:</strong> ${String.fromCharCode(65 + userAnswer)}) ${question.options[userAnswer]}
+                            <strong>❌ Your Answer:</strong> ${String.fromCharCode(65 + (session.shuffledOptions[question.id]?.indexOf(userAnswer) ?? userAnswer))}) ${question.options[userAnswer]}
                         </div>
-                        
+
                         <div style="background: var(--success-light); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
-                            <strong>✅ Correct Answer:</strong> ${String.fromCharCode(65 + question.correct)}) ${question.options[question.correct]}
+                            <strong>✅ Correct Answer:</strong> ${String.fromCharCode(65 + (session.shuffledOptions[question.id]?.indexOf(question.correct) ?? question.correct))}) ${question.options[question.correct]}
                         </div>
                         
                         <div class="feedback correct">
@@ -3219,11 +3885,6 @@
             state.userFeedback.push(feedback);
             saveUserData();
 
-            // Send to Google Forms if configured
-            if (GOOGLE_FORMS_CONFIG.feedback.enabled) {
-                sendFeedbackToGoogleForms(feedback);
-            }
-
             // Clear form
             document.getElementById('feedbackText').value = '';
             document.getElementById('feedbackQuestionId').value = '';
@@ -3237,69 +3898,6 @@
 
             // Log for analytics
             console.log('Feedback submitted:', feedback);
-        }
-
-        function sendFeedbackToGoogleForms(feedback) {
-            const config = GOOGLE_FORMS_CONFIG.feedback;
-            const params = new URLSearchParams();
-            params.append(config.fields.feedbackType, feedback.type);
-            params.append(config.fields.questionId, feedback.questionId || '');
-            params.append(config.fields.feedbackText, feedback.text);
-            params.append(config.fields.email, feedback.email || '');
-            params.append(config.fields.userId, feedback.userId);
-            params.append(config.fields.timestamp, feedback.date);
-
-            submitToGoogleForm(config.formUrl, params);
-            console.log('Feedback sent to Google Forms');
-        }
-
-        function sendRatingToGoogleForms(questionId, rating, question, wasCorrect) {
-            if (!GOOGLE_FORMS_CONFIG.ratings.enabled) return;
-
-            const config = GOOGLE_FORMS_CONFIG.ratings;
-            const params = new URLSearchParams();
-            params.append(config.fields.questionId, questionId);
-            params.append(config.fields.rating, rating);
-            params.append(config.fields.domain, question?.domain || 'Unknown');
-            params.append(config.fields.difficulty, question?.difficulty || 'Unknown');
-            params.append(config.fields.userId, generateUniqueUserId());
-            params.append(config.fields.timestamp, new Date().toISOString());
-            params.append(config.fields.wasCorrect, wasCorrect ? 'Yes' : 'No');
-
-            submitToGoogleForm(config.formUrl, params);
-            console.log('Rating sent to Google Forms:', { questionId, rating });
-        }
-
-        function submitToGoogleForm(formUrl, params) {
-            // Submit via hidden iframe (avoids CORS issues)
-            const iframeName = 'google_forms_iframe_' + Date.now();
-            const iframe = document.createElement('iframe');
-            iframe.style.display = 'none';
-            iframe.name = iframeName;
-            document.body.appendChild(iframe);
-
-            const form = document.createElement('form');
-            form.method = 'POST';
-            form.action = formUrl;
-            form.target = iframeName;
-
-            // Add all params as hidden inputs
-            for (const [key, value] of params.entries()) {
-                const input = document.createElement('input');
-                input.type = 'hidden';
-                input.name = key;
-                input.value = value;
-                form.appendChild(input);
-            }
-
-            document.body.appendChild(form);
-            form.submit();
-
-            // Clean up after submission
-            setTimeout(() => {
-                if (document.body.contains(form)) document.body.removeChild(form);
-                if (document.body.contains(iframe)) document.body.removeChild(iframe);
-            }, 2000);
         }
 
         function renderPreviousFeedback() {
@@ -3450,7 +4048,7 @@
 
         // Utility function to hide all screens
         function hideAllScreens() {
-            document.querySelectorAll('.card, #studySession, #sessionHistory, #sessionReview, #studyNotesScreen').forEach(el => {
+            document.querySelectorAll('.card, #studySession, #sessionHistory, #sessionReview, #studyNotesScreen, #seenQuestionsScreen').forEach(el => {
                 el.classList.add('hidden');
             });
         }
@@ -3535,6 +4133,7 @@ Visit https://amftrb.org for official exam info.
                             selectedDomains: [],
                             selectedDifficulty: []
                         },
+                        seenQuestions: [],
                         history: [],
                         stats: {
                             totalSessions: 0,
@@ -3548,6 +4147,177 @@ Visit https://amftrb.org for official exam info.
                     backToDashboard();
                 }
             }
+        }
+
+        function resetSeenQuestions() {
+            const seenCount = (state.seenQuestions || []).length;
+            if (seenCount === 0) {
+                alert('No seen questions to reset!');
+                return;
+            }
+            if (confirm(`Reset ${seenCount} seen questions? This will allow all questions to appear again as "fresh" questions.`)) {
+                state.seenQuestions = [];
+                saveUserData();
+                updateSeenQuestionsDisplay();
+                alert('✅ Seen questions reset! All questions will now appear as fresh.');
+            }
+        }
+
+        function updateSeenQuestionsDisplay() {
+            const seenCount = document.getElementById('seenQuestionsCount');
+            const totalCount = document.getElementById('totalQuestionsCount');
+            if (seenCount && totalCount) {
+                seenCount.textContent = (state.seenQuestions || []).length;
+                totalCount.textContent = questionBank.length;
+            }
+        }
+
+        function showSeenQuestions() {
+            hideAllScreens();
+            document.getElementById('seenQuestionsScreen').classList.remove('hidden');
+
+            // Populate domain filter dropdown
+            const domainSelect = document.getElementById('seenFilterDomain');
+            const uniqueDomains = [...new Set(questionBank.map(q => q.domain))];
+            domainSelect.innerHTML = '<option value="all">All Domains</option>' +
+                uniqueDomains.map(d => `<option value="${d}">${d}</option>`).join('');
+
+            // Render the list
+            filterSeenQuestions();
+        }
+
+        function filterSeenQuestions() {
+            const selectedDomain = document.getElementById('seenFilterDomain').value;
+            const seenSet = new Set(state.seenQuestions || []);
+
+            // Get seen questions from question bank
+            let seenQuestionsList = questionBank.filter(q => seenSet.has(q.id));
+
+            // Apply domain filter
+            if (selectedDomain !== 'all') {
+                seenQuestionsList = seenQuestionsList.filter(q => q.domain === selectedDomain);
+            }
+
+            // Sort by ID
+            seenQuestionsList.sort((a, b) => a.id - b.id);
+
+            // Update count display
+            const countEl = document.getElementById('seenFilterCount');
+            countEl.textContent = `Showing ${seenQuestionsList.length} question${seenQuestionsList.length !== 1 ? 's' : ''}`;
+
+            // Render the list
+            const listEl = document.getElementById('seenQuestionsList');
+
+            if (seenQuestionsList.length === 0) {
+                listEl.innerHTML = `
+                    <div style="text-align: center; padding: 40px; color: var(--text-light);">
+                        <p style="font-size: 1.2rem;">No seen questions yet!</p>
+                        <p>Start a study session to begin tracking your progress.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            listEl.innerHTML = seenQuestionsList.map(q => {
+                // Get stats for this question if available
+                const stats = state.questionStats?.[q.id];
+                const timesAnswered = stats?.timesAnswered || 0;
+                const timesCorrect = stats?.timesCorrect || 0;
+                const accuracy = timesAnswered > 0 ? Math.round((timesCorrect / timesAnswered) * 100) : 0;
+
+                return `
+                    <div class="seen-question-item" onclick="showSeenQuestionDetail(${q.id})" style="
+                        padding: 15px;
+                        margin-bottom: 10px;
+                        background: var(--bg);
+                        border-radius: 8px;
+                        border: 1px solid var(--border);
+                        cursor: pointer;
+                        transition: all 0.2s;
+                    " onmouseover="this.style.borderColor='var(--primary)'" onmouseout="this.style.borderColor='var(--border)'">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px;">
+                            <div style="flex: 1;">
+                                <div style="font-size: 0.8rem; color: var(--text-light); margin-bottom: 5px;">
+                                    #${q.id} • ${q.domain} •
+                                    <span class="difficulty-badge difficulty-${q.difficulty}" style="font-size: 0.7rem; padding: 2px 6px;">${q.difficulty}</span>
+                                </div>
+                                <div style="font-weight: 500; line-height: 1.4;">
+                                    ${q.question.length > 120 ? q.question.substring(0, 120) + '...' : q.question}
+                                </div>
+                            </div>
+                            <div style="text-align: right; min-width: 80px;">
+                                ${timesAnswered > 0 ? `
+                                    <div style="font-size: 0.85rem; color: ${accuracy >= 70 ? 'var(--success)' : accuracy >= 50 ? 'var(--warning)' : 'var(--danger)'}; font-weight: 600;">
+                                        ${accuracy}% correct
+                                    </div>
+                                    <div style="font-size: 0.75rem; color: var(--text-light);">
+                                        ${timesCorrect}/${timesAnswered} attempts
+                                    </div>
+                                ` : `
+                                    <div style="font-size: 0.8rem; color: var(--text-light);">Seen</div>
+                                `}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showSeenQuestionDetail(questionId) {
+            const question = questionBank.find(q => q.id === questionId);
+            if (!question) return;
+
+            const stats = state.questionStats?.[questionId];
+
+            // Create a modal-like display
+            const listEl = document.getElementById('seenQuestionsList');
+            listEl.innerHTML = `
+                <div style="background: white; border-radius: 12px; padding: 20px; border: 2px solid var(--primary);">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                        <span class="difficulty-badge difficulty-${question.difficulty}">${question.difficulty.toUpperCase()}</span>
+                        <button onclick="filterSeenQuestions()" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;">← Back to List</button>
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">
+                        #${question.id} • ${question.domain}
+                    </div>
+
+                    ${question.vignette ? `<div class="vignette" style="margin-bottom: 15px;">${question.vignette}</div>` : ''}
+
+                    <div style="font-size: 1.1rem; font-weight: 500; margin-bottom: 20px;">${question.question}</div>
+
+                    <div style="margin-bottom: 20px;">
+                        ${question.options.map((opt, idx) => `
+                            <div style="padding: 12px; margin-bottom: 8px; border-radius: 8px; border: 2px solid ${idx === question.correct ? 'var(--success)' : 'var(--border)'}; background: ${idx === question.correct ? 'var(--success-light)' : 'var(--bg)'};">
+                                <strong>${String.fromCharCode(65 + idx)})</strong> ${opt}
+                                ${idx === question.correct ? ' ✓' : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+
+                    <div style="background: var(--bg); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                        <strong>Explanation:</strong> ${question.explanation}
+                    </div>
+
+                    <div style="font-size: 0.85rem; color: var(--text-light);">
+                        <strong>Citation:</strong> ${question.citation}
+                    </div>
+
+                    ${question.studyUrls && question.studyUrls.length > 0 ? `
+                        <div style="margin-top: 10px; font-size: 0.85rem;">
+                            <strong>Study Links:</strong>
+                            ${question.studyUrls.map(url => `<a href="${url}" target="_blank" style="display: block; color: var(--primary);">${url}</a>`).join('')}
+                        </div>
+                    ` : ''}
+
+                    ${stats ? `
+                        <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-light);">
+                            <strong>Your Stats:</strong> Answered ${stats.timesAnswered || 0} times, correct ${stats.timesCorrect || 0} times
+                            (${stats.timesAnswered > 0 ? Math.round((stats.timesCorrect / stats.timesAnswered) * 100) : 0}%)
+                        </div>
+                    ` : ''}
+                </div>
+            `;
         }
 
         // Auto-save every 30 seconds
@@ -3737,14 +4507,6 @@ Visit https://amftrb.org for official exam info.
 
             saveUserData();
 
-            // Send to Google Forms (only for new ratings to avoid duplicates)
-            if (isNewRating) {
-                const session = state.currentSession;
-                const question = session.questions.find(q => q.id === questionId);
-                const wasCorrect = session.answers[questionId] === question?.correct;
-                sendRatingToGoogleForms(questionId, rating, question, wasCorrect);
-            }
-
             // Update UI
             showQuestion();
 
@@ -3851,6 +4613,7 @@ Visit https://amftrb.org for official exam info.
             hideAllScreens();
             document.getElementById('sessionHistory').classList.remove('hidden');
             renderSessionHistory('all');
+            updateSeenQuestionsDisplay();
         }
         
         function filterSessions(filter) {
